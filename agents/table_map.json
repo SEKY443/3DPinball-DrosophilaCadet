@@ -1,0 +1,2660 @@
+{
+ "description": "Scoring objects of 3D Pinball Space Cadet (DEMO.DAT). id = control::score_components index + 1, as reported in StateFrame.hit_ids / info['hit_objects']. center/aabb are in table coordinates, the same frame as the ball observation (ball_x, ball_y; y~14 drain, y~-12 top). aabb is the engine's collision-edge bounding box (edges are already offset by the ball radius, so it bounds the BALL CENTRE at contact). scores are the object's score array from control.cpp; which entry is paid depends on handler state (e.g. bumper light level, mission progress) and every AddScore is multiplied by the table's score multiplier (1/2/3/5/10, TPinballTable.cpp score_multipliers). base_points = scores[0] is the typical payout; value_note says what state changes it. control::handler() also runs MissionControl() on every hit, so a hit that completes a mission is credited at runtime with that award (500k-5M) - not listed here. Use runtime hit_points for realised value and base_points only as a prior.",
+ "generated_by": "scripts/gen_table_map.py",
+ "objects": [
+  {
+   "id": 1,
+   "name": "a_bump1",
+   "class": "TBumper",
+   "group": "bumper",
+   "linked": true,
+   "center": [
+    0.008,
+    -3.72
+   ],
+   "aabb": {
+    "x_min": -0.642,
+    "y_min": -4.37,
+    "x_max": 0.658,
+    "y_max": -3.07
+   },
+   "scores": [
+    500,
+    1000,
+    1500,
+    2000
+   ],
+   "base_points": 500,
+   "max_listed_points": 2000,
+   "control_func": "BumperControl",
+   "value_note": "pays scores[BmpIndex]; bumper level rises via lane rollovers (Reentry/LaunchLanesRolloverControl)",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:537",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:66",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:37",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1262"
+   }
+  },
+  {
+   "id": 2,
+   "name": "a_bump2",
+   "class": "TBumper",
+   "group": "bumper",
+   "linked": true,
+   "center": [
+    -1.3775,
+    -6.618
+   ],
+   "aabb": {
+    "x_min": -2.0275,
+    "y_min": -7.268,
+    "x_max": -0.7275,
+    "y_max": -5.968
+   },
+   "scores": [
+    500,
+    1000,
+    1500,
+    2000
+   ],
+   "base_points": 500,
+   "max_listed_points": 2000,
+   "control_func": "BumperControl",
+   "value_note": "pays scores[BmpIndex]; bumper level rises via lane rollovers (Reentry/LaunchLanesRolloverControl)",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:538",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:67",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:37",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1262"
+   }
+  },
+  {
+   "id": 3,
+   "name": "a_bump3",
+   "class": "TBumper",
+   "group": "bumper",
+   "linked": true,
+   "center": [
+    1.2511,
+    -5.9605
+   ],
+   "aabb": {
+    "x_min": 0.6011,
+    "y_min": -6.6105,
+    "x_max": 1.9011,
+    "y_max": -5.3105
+   },
+   "scores": [
+    500,
+    1000,
+    1500,
+    2000
+   ],
+   "base_points": 500,
+   "max_listed_points": 2000,
+   "control_func": "BumperControl",
+   "value_note": "pays scores[BmpIndex]; bumper level rises via lane rollovers (Reentry/LaunchLanesRolloverControl)",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:539",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:68",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:37",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1262"
+   }
+  },
+  {
+   "id": 4,
+   "name": "a_bump4",
+   "class": "TBumper",
+   "group": "bumper",
+   "linked": true,
+   "center": [
+    5.7694,
+    -10.9551
+   ],
+   "aabb": {
+    "x_min": 5.1194,
+    "y_min": -11.6051,
+    "x_max": 6.4195,
+    "y_max": -10.3051
+   },
+   "scores": [
+    500,
+    1000,
+    1500,
+    2000
+   ],
+   "base_points": 500,
+   "max_listed_points": 2000,
+   "control_func": "BumperControl",
+   "value_note": "pays scores[BmpIndex]; bumper level rises via lane rollovers (Reentry/LaunchLanesRolloverControl)",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:540",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:69",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:37",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1262"
+   }
+  },
+  {
+   "id": 5,
+   "name": "a_roll3",
+   "class": "TRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    -1.25,
+    -9.5
+   ],
+   "aabb": {
+    "x_min": -1.6704,
+    "y_min": -9.8481,
+    "x_max": -0.8296,
+    "y_max": -9.1519
+   },
+   "scores": [
+    2000
+   ],
+   "base_points": 2000,
+   "max_listed_points": 2000,
+   "control_func": "ReentryLanesRolloverControl",
+   "value_note": "flat; completing the 3 lanes raises attack-bumper level (future bumper value)",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:541",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:216",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:38",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1432"
+   }
+  },
+  {
+   "id": 6,
+   "name": "a_roll2",
+   "class": "TRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    0.0,
+    -9.5
+   ],
+   "aabb": {
+    "x_min": -0.461,
+    "y_min": -9.8303,
+    "x_max": 0.461,
+    "y_max": -9.1697
+   },
+   "scores": [
+    2000
+   ],
+   "base_points": 2000,
+   "max_listed_points": 2000,
+   "control_func": "ReentryLanesRolloverControl",
+   "value_note": "flat; completing the 3 lanes raises attack-bumper level (future bumper value)",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:542",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:215",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:38",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1432"
+   }
+  },
+  {
+   "id": 7,
+   "name": "a_roll1",
+   "class": "TRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    1.25,
+    -9.5
+   ],
+   "aabb": {
+    "x_min": 0.7947,
+    "y_min": -9.8395,
+    "x_max": 1.7054,
+    "y_max": -9.1605
+   },
+   "scores": [
+    2000
+   ],
+   "base_points": 2000,
+   "max_listed_points": 2000,
+   "control_func": "ReentryLanesRolloverControl",
+   "value_note": "flat; completing the 3 lanes raises attack-bumper level (future bumper value)",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:543",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:214",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:38",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1432"
+   }
+  },
+  {
+   "id": 8,
+   "name": "attack_bumpers",
+   "class": "TComponentGroup",
+   "group": "logic",
+   "linked": true,
+   "center": null,
+   "aabb": null,
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "BumperGroupControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:544",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:63",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1487"
+   }
+  },
+  {
+   "id": 9,
+   "name": "a_bump5",
+   "class": "TBumper",
+   "group": "bumper",
+   "linked": true,
+   "center": [
+    5.28,
+    4.0
+   ],
+   "aabb": {
+    "x_min": 4.73,
+    "y_min": 3.45,
+    "x_max": 5.83,
+    "y_max": 4.55
+   },
+   "scores": [
+    1500,
+    2500,
+    3500,
+    4500
+   ],
+   "base_points": 1500,
+   "max_listed_points": 4500,
+   "control_func": "BumperControl",
+   "value_note": "pays scores[BmpIndex]; bumper level rises via lane rollovers (Reentry/LaunchLanesRolloverControl)",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:545",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:70",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:39",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1262"
+   }
+  },
+  {
+   "id": 10,
+   "name": "a_bump6",
+   "class": "TBumper",
+   "group": "bumper",
+   "linked": true,
+   "center": [
+    7.14,
+    3.5
+   ],
+   "aabb": {
+    "x_min": 6.59,
+    "y_min": 2.95,
+    "x_max": 7.69,
+    "y_max": 4.05
+   },
+   "scores": [
+    1500,
+    2500,
+    3500,
+    4500
+   ],
+   "base_points": 1500,
+   "max_listed_points": 4500,
+   "control_func": "BumperControl",
+   "value_note": "pays scores[BmpIndex]; bumper level rises via lane rollovers (Reentry/LaunchLanesRolloverControl)",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:546",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:71",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:39",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1262"
+   }
+  },
+  {
+   "id": 11,
+   "name": "a_bump7",
+   "class": "TBumper",
+   "group": "bumper",
+   "linked": true,
+   "center": [
+    6.4513,
+    4.9079
+   ],
+   "aabb": {
+    "x_min": 5.9013,
+    "y_min": 4.3579,
+    "x_max": 7.0013,
+    "y_max": 5.4579
+   },
+   "scores": [
+    1500,
+    2500,
+    3500,
+    4500
+   ],
+   "base_points": 1500,
+   "max_listed_points": 4500,
+   "control_func": "BumperControl",
+   "value_note": "pays scores[BmpIndex]; bumper level rises via lane rollovers (Reentry/LaunchLanesRolloverControl)",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:547",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:72",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:39",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1262"
+   }
+  },
+  {
+   "id": 12,
+   "name": "a_roll112",
+   "class": "TRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    5.3556,
+    2.3906
+   ],
+   "aabb": {
+    "x_min": 5.0168,
+    "y_min": 2.1488,
+    "x_max": 5.6943,
+    "y_max": 2.6324
+   },
+   "scores": [
+    500
+   ],
+   "base_points": 500,
+   "max_listed_points": 500,
+   "control_func": "LaunchLanesRolloverControl",
+   "value_note": "flat; completing the 3 lanes raises launch-bumper level (future bumper value)",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:548",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:225",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:40",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1496"
+   }
+  },
+  {
+   "id": 13,
+   "name": "a_roll111",
+   "class": "TRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    6.3194,
+    2.0954
+   ],
+   "aabb": {
+    "x_min": 5.9742,
+    "y_min": 1.8563,
+    "x_max": 6.6645,
+    "y_max": 2.3345
+   },
+   "scores": [
+    500
+   ],
+   "base_points": 500,
+   "max_listed_points": 500,
+   "control_func": "LaunchLanesRolloverControl",
+   "value_note": "flat; completing the 3 lanes raises launch-bumper level (future bumper value)",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:549",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:224",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:40",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1496"
+   }
+  },
+  {
+   "id": 14,
+   "name": "a_roll110",
+   "class": "TRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    7.2675,
+    1.8478
+   ],
+   "aabb": {
+    "x_min": 7.0078,
+    "y_min": 1.6039,
+    "x_max": 7.5272,
+    "y_max": 2.0916
+   },
+   "scores": [
+    500
+   ],
+   "base_points": 500,
+   "max_listed_points": 500,
+   "control_func": "LaunchLanesRolloverControl",
+   "value_note": "flat; completing the 3 lanes raises launch-bumper level (future bumper value)",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:550",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:223",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:40",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1496"
+   }
+  },
+  {
+   "id": 15,
+   "name": "launch_bumpers",
+   "class": "TComponentGroup",
+   "group": "logic",
+   "linked": true,
+   "center": null,
+   "aabb": null,
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "BumperGroupControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:551",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:64",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1487"
+   }
+  },
+  {
+   "id": 16,
+   "name": "v_rebo1",
+   "class": "TWall",
+   "group": "rebounder",
+   "linked": true,
+   "center": [
+    3.4684,
+    8.6573
+   ],
+   "aabb": {
+    "x_min": 2.4468,
+    "y_min": 6.8358,
+    "x_max": 4.4899,
+    "y_max": 10.4788
+   },
+   "scores": [
+    500
+   ],
+   "base_points": 500,
+   "max_listed_points": 500,
+   "control_func": "FlipperRebounderControl1",
+   "value_note": "flat",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:552",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:210",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:41",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1234"
+   }
+  },
+  {
+   "id": 17,
+   "name": "v_rebo2",
+   "class": "TWall",
+   "group": "rebounder",
+   "linked": true,
+   "center": [
+    -3.4684,
+    8.6573
+   ],
+   "aabb": {
+    "x_min": -4.4899,
+    "y_min": 6.8358,
+    "x_max": -2.4468,
+    "y_max": 10.4788
+   },
+   "scores": [
+    500
+   ],
+   "base_points": 500,
+   "max_listed_points": 500,
+   "control_func": "FlipperRebounderControl2",
+   "value_note": "flat",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:553",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:211",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:41",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1244"
+   }
+  },
+  {
+   "id": 18,
+   "name": "v_rebo3",
+   "class": "TWall",
+   "group": "rebounder",
+   "linked": true,
+   "center": [
+    -3.6551,
+    -3.7429
+   ],
+   "aabb": {
+    "x_min": -4.567,
+    "y_min": -5.2225,
+    "x_max": -2.7431,
+    "y_max": -2.2633
+   },
+   "scores": [
+    500
+   ],
+   "base_points": 500,
+   "max_listed_points": 500,
+   "control_func": "RebounderControl",
+   "value_note": "flat",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:554",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:212",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:41",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1254"
+   }
+  },
+  {
+   "id": 19,
+   "name": "v_rebo4",
+   "class": "TWall",
+   "group": "rebounder",
+   "linked": true,
+   "center": [
+    4.3312,
+    -2.4977
+   ],
+   "aabb": {
+    "x_min": 2.8409,
+    "y_min": -3.5472,
+    "x_max": 5.8216,
+    "y_max": -1.4482
+   },
+   "scores": [
+    500
+   ],
+   "base_points": 500,
+   "max_listed_points": 500,
+   "control_func": "RebounderControl",
+   "value_note": "flat",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:555",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:213",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:41",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1254"
+   }
+  },
+  {
+   "id": 20,
+   "name": "a_kick1",
+   "class": "TKickback",
+   "group": "kicker",
+   "linked": true,
+   "center": [
+    7.0059,
+    11.4607
+   ],
+   "aabb": {
+    "x_min": 6.3564,
+    "y_min": 11.4607,
+    "x_max": 7.6554,
+    "y_max": 11.4607
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "LeftKickerControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:556",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:82",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1270"
+   }
+  },
+  {
+   "id": 21,
+   "name": "a_kick2",
+   "class": "TKickback",
+   "group": "kicker",
+   "linked": true,
+   "center": [
+    -5.7672,
+    11.4693
+   ],
+   "aabb": {
+    "x_min": -6.3667,
+    "y_min": 11.4693,
+    "x_max": -5.1677,
+    "y_max": 11.4693
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "RightKickerControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:557",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:83",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1276"
+   }
+  },
+  {
+   "id": 22,
+   "name": "v_gate1",
+   "class": "TGate",
+   "group": "gate",
+   "linked": true,
+   "center": [
+    6.8497,
+    9.8796
+   ],
+   "aabb": {
+    "x_min": 6.2638,
+    "y_min": 9.4778,
+    "x_max": 7.4355,
+    "y_max": 10.2813
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "LeftKickerGateControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:558",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:79",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1282"
+   }
+  },
+  {
+   "id": 23,
+   "name": "v_gate2",
+   "class": "TGate",
+   "group": "gate",
+   "linked": true,
+   "center": [
+    -5.5837,
+    10.809
+   ],
+   "aabb": {
+    "x_min": -6.126,
+    "y_min": 10.4273,
+    "x_max": -5.0413,
+    "y_max": 11.1907
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "RightKickerGateControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:559",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:80",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1296"
+   }
+  },
+  {
+   "id": 24,
+   "name": "s_onewy4",
+   "class": "TOneway",
+   "group": "oneway",
+   "linked": true,
+   "center": [
+    -5.9931,
+    4.3097
+   ],
+   "aabb": {
+    "x_min": -6.0231,
+    "y_min": 3.555,
+    "x_max": -5.9631,
+    "y_max": 5.0644
+   },
+   "scores": [
+    15000,
+    30000,
+    75000,
+    30000,
+    15000,
+    7500
+   ],
+   "base_points": 15000,
+   "max_listed_points": 75000,
+   "control_func": "DeploymentChuteToEscapeChuteOneWayControl",
+   "value_note": "pays scores[skill_shot_lights on-count - 1] only when skill-shot lights are on (after a plunger launch), else 0",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:560",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:205",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:42",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1310"
+   }
+  },
+  {
+   "id": 25,
+   "name": "s_onewy10",
+   "class": "TOneway",
+   "group": "oneway",
+   "linked": true,
+   "center": [
+    -2.7401,
+    -11.4681
+   ],
+   "aabb": {
+    "x_min": -3.1159,
+    "y_min": -12.1037,
+    "x_max": -2.3642,
+    "y_max": -10.8325
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "DeploymentChuteToTableOneWayControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:561",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:206",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1334"
+   }
+  },
+  {
+   "id": 26,
+   "name": "v_bloc1",
+   "class": "TBlocker",
+   "group": "blocker",
+   "linked": true,
+   "center": [
+    0.0,
+    13.25
+   ],
+   "aabb": {
+    "x_min": -0.475,
+    "y_min": 12.775,
+    "x_max": 0.475,
+    "y_max": 13.725
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "DrainBallBlockerControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:562",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:65",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1340"
+   }
+  },
+  {
+   "id": 27,
+   "name": "ramp",
+   "class": "TRamp",
+   "group": "ramp",
+   "linked": true,
+   "center": [
+    4.1204,
+    -0.2597
+   ],
+   "aabb": {
+    "x_min": 1.5561,
+    "y_min": -1.7518,
+    "x_max": 6.6847,
+    "y_max": 1.2325
+   },
+   "scores": [
+    5000
+   ],
+   "base_points": 5000,
+   "max_listed_points": 5000,
+   "control_func": "LaunchRampControl",
+   "value_note": "base 5000 only when no ramp light is on; with lite54 lit pays ReflexShotScore (SpecialAddScore)",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:563",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:209",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:43",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1374"
+   }
+  },
+  {
+   "id": 28,
+   "name": "ramp_hole",
+   "class": "THole",
+   "group": "hole",
+   "linked": true,
+   "center": [
+    5.8702,
+    7.6076
+   ],
+   "aabb": {
+    "x_min": 5.8376,
+    "y_min": 7.5751,
+    "x_max": 5.9028,
+    "y_max": 7.6402
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "LaunchRampHoleControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:564",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:208",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1417"
+   }
+  },
+  {
+   "id": 29,
+   "name": "a_roll4",
+   "class": "TRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    7.0,
+    8.0
+   ],
+   "aabb": {
+    "x_min": 6.5624,
+    "y_min": 7.6607,
+    "x_max": 7.4376,
+    "y_max": 8.3393
+   },
+   "scores": [
+    20000
+   ],
+   "base_points": 20000,
+   "max_listed_points": 20000,
+   "control_func": "OutLaneRolloverControl",
+   "value_note": "flat 20000 (outlane = ball about to drain); awards extra ball if lite17/18 lit",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:565",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:217",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:44",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1542"
+   }
+  },
+  {
+   "id": 30,
+   "name": "a_roll8",
+   "class": "TRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    -5.85,
+    8.0
+   ],
+   "aabb": {
+    "x_min": -6.2075,
+    "y_min": 7.6532,
+    "x_max": -5.4925,
+    "y_max": 8.3468
+   },
+   "scores": [
+    20000
+   ],
+   "base_points": 20000,
+   "max_listed_points": 20000,
+   "control_func": "OutLaneRolloverControl",
+   "value_note": "flat 20000 (outlane = ball about to drain); awards extra ball if lite17/18 lit",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:566",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:221",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:44",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1542"
+   }
+  },
+  {
+   "id": 31,
+   "name": "lite17",
+   "class": "TLight",
+   "group": "logic",
+   "linked": true,
+   "center": null,
+   "aabb": null,
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "ExtraBallLightControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:567",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:101",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1573"
+   }
+  },
+  {
+   "id": 32,
+   "name": "a_roll6",
+   "class": "TRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    4.75,
+    8.0
+   ],
+   "aabb": {
+    "x_min": 4.3266,
+    "y_min": 7.6483,
+    "x_max": 5.1734,
+    "y_max": 8.3517
+   },
+   "scores": [
+    5000,
+    25000
+   ],
+   "base_points": 5000,
+   "max_listed_points": 25000,
+   "control_func": "ReturnLaneRolloverControl",
+   "value_note": "5000, or 25000 when its lane light (lite27/lite28) is on",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:568",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:219",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:45",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1592"
+   }
+  },
+  {
+   "id": 33,
+   "name": "a_roll7",
+   "class": "TRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    -4.75,
+    8.0
+   ],
+   "aabb": {
+    "x_min": -5.1553,
+    "y_min": 7.6452,
+    "x_max": -4.3447,
+    "y_max": 8.3548
+   },
+   "scores": [
+    5000,
+    25000
+   ],
+   "base_points": 5000,
+   "max_listed_points": 25000,
+   "control_func": "ReturnLaneRolloverControl",
+   "value_note": "5000, or 25000 when its lane light (lite27/lite28) is on",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:569",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:220",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:45",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1592"
+   }
+  },
+  {
+   "id": 34,
+   "name": "a_roll5",
+   "class": "TRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    5.85,
+    8.0
+   ],
+   "aabb": {
+    "x_min": 5.4963,
+    "y_min": 7.6953,
+    "x_max": 6.2037,
+    "y_max": 8.3047
+   },
+   "scores": [
+    10000
+   ],
+   "base_points": 10000,
+   "max_listed_points": 10000,
+   "control_func": "BonusLaneRolloverControl",
+   "value_note": "10000, or the accumulated BonusScore when lite16 is on",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:570",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:218",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:46",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1621"
+   }
+  },
+  {
+   "id": 35,
+   "name": "a_roll179",
+   "class": "TRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    4.2714,
+    1.4547
+   ],
+   "aabb": {
+    "x_min": 3.2442,
+    "y_min": 0.8484,
+    "x_max": 5.2987,
+    "y_max": 2.061
+   },
+   "scores": [
+    500
+   ],
+   "base_points": 500,
+   "max_listed_points": 500,
+   "control_func": "FuelRollover1Control",
+   "value_note": "flat; refuels bargraph",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:571",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:226",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:47",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1645"
+   }
+  },
+  {
+   "id": 36,
+   "name": "a_roll180",
+   "class": "TRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    4.9156,
+    0.4996
+   ],
+   "aabb": {
+    "x_min": 4.1148,
+    "y_min": -0.1633,
+    "x_max": 5.7165,
+    "y_max": 1.1625
+   },
+   "scores": [
+    500
+   ],
+   "base_points": 500,
+   "max_listed_points": 500,
+   "control_func": "FuelRollover2Control",
+   "value_note": "flat; refuels bargraph",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:572",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:227",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:47",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1662"
+   }
+  },
+  {
+   "id": 37,
+   "name": "a_roll181",
+   "class": "TRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    5.5407,
+    -0.4349
+   ],
+   "aabb": {
+    "x_min": 4.7876,
+    "y_min": -1.1125,
+    "x_max": 6.2937,
+    "y_max": 0.2428
+   },
+   "scores": [
+    500
+   ],
+   "base_points": 500,
+   "max_listed_points": 500,
+   "control_func": "FuelRollover3Control",
+   "value_note": "flat; refuels bargraph",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:573",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:228",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:47",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1679"
+   }
+  },
+  {
+   "id": 38,
+   "name": "a_roll182",
+   "class": "TRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    6.0808,
+    -1.39
+   ],
+   "aabb": {
+    "x_min": 5.4325,
+    "y_min": -1.8759,
+    "x_max": 6.729,
+    "y_max": -0.904
+   },
+   "scores": [
+    500
+   ],
+   "base_points": 500,
+   "max_listed_points": 500,
+   "control_func": "FuelRollover4Control",
+   "value_note": "flat; refuels bargraph",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:574",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:229",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:47",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1696"
+   }
+  },
+  {
+   "id": 39,
+   "name": "a_roll183",
+   "class": "TRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    6.5298,
+    -2.4203
+   ],
+   "aabb": {
+    "x_min": 5.8321,
+    "y_min": -2.7913,
+    "x_max": 7.2276,
+    "y_max": -2.0492
+   },
+   "scores": [
+    500
+   ],
+   "base_points": 500,
+   "max_listed_points": 500,
+   "control_func": "FuelRollover5Control",
+   "value_note": "flat; refuels bargraph",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:575",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:230",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:47",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1713"
+   }
+  },
+  {
+   "id": 40,
+   "name": "a_roll184",
+   "class": "TRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    6.8401,
+    -3.4008
+   ],
+   "aabb": {
+    "x_min": 6.2637,
+    "y_min": -3.7595,
+    "x_max": 7.4165,
+    "y_max": -3.0421
+   },
+   "scores": [
+    500
+   ],
+   "base_points": 500,
+   "max_listed_points": 500,
+   "control_func": "FuelRollover6Control",
+   "value_note": "flat; refuels bargraph",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:576",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:231",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:47",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1730"
+   }
+  },
+  {
+   "id": 41,
+   "name": "a_flag1",
+   "class": "TFlagSpinner",
+   "group": "spinner",
+   "linked": true,
+   "center": [
+    7.0072,
+    -4.7393
+   ],
+   "aabb": {
+    "x_min": 6.5064,
+    "y_min": -4.7393,
+    "x_max": 7.5079,
+    "y_max": -4.7393
+   },
+   "scores": [
+    500,
+    2500
+   ],
+   "base_points": 500,
+   "max_listed_points": 2500,
+   "control_func": "FlagControl",
+   "value_note": "scores[lite20 on] (500 or 2500) per spinner collision",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:577",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:74",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:48",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2150"
+   }
+  },
+  {
+   "id": 42,
+   "name": "a_kout2",
+   "class": "TKickout",
+   "group": "kickout",
+   "linked": true,
+   "center": [
+    -3.2694,
+    -9.4931
+   ],
+   "aabb": {
+    "x_min": -3.6407,
+    "y_min": -9.8644,
+    "x_max": -2.8982,
+    "y_max": -9.1218
+   },
+   "scores": [
+    10000,
+    0,
+    20000,
+    50000,
+    150000
+   ],
+   "base_points": 10000,
+   "max_listed_points": 150000,
+   "control_func": "HyperspaceKickOutControl",
+   "value_note": "scores[] indexed by hyperspace light level; can pay JackpotScore (SpecialAddScore)",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:578",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:85",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:49",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2449"
+   }
+  },
+  {
+   "id": 43,
+   "name": "hyperspace_lights",
+   "class": "TLightGroup",
+   "group": "logic",
+   "linked": true,
+   "center": null,
+   "aabb": null,
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "HyperspaceLightGroupControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:579",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:190",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1747"
+   }
+  },
+  {
+   "id": 44,
+   "name": "a_flag2",
+   "class": "TFlagSpinner",
+   "group": "spinner",
+   "linked": true,
+   "center": [
+    -4.6482,
+    -2.4846
+   ],
+   "aabb": {
+    "x_min": -5.3423,
+    "y_min": -2.8927,
+    "x_max": -3.9541,
+    "y_max": -2.0765
+   },
+   "scores": [
+    500,
+    2500
+   ],
+   "base_points": 500,
+   "max_listed_points": 2500,
+   "control_func": "FlagControl",
+   "value_note": "scores[lite20 on] (500 or 2500) per spinner collision",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:580",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:75",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:48",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2150"
+   }
+  },
+  {
+   "id": 45,
+   "name": "v_sink1",
+   "class": "TSink",
+   "group": "sink",
+   "linked": true,
+   "center": [
+    -2.6033,
+    -8.7624
+   ],
+   "aabb": {
+    "x_min": -2.939,
+    "y_min": -9.1138,
+    "x_max": -2.2676,
+    "y_max": -8.411
+   },
+   "scores": [
+    2500,
+    5000,
+    7500
+   ],
+   "base_points": 2500,
+   "max_listed_points": 7500,
+   "control_func": "WormHoleControl",
+   "value_note": "2500 base; 5000/7500 or 10000/50000 + replay when wormhole lights match",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:581",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:232",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:50",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1767"
+   }
+  },
+  {
+   "id": 46,
+   "name": "v_sink2",
+   "class": "TSink",
+   "group": "sink",
+   "linked": true,
+   "center": [
+    3.1929,
+    -9.6951
+   ],
+   "aabb": {
+    "x_min": 2.8,
+    "y_min": -10.0086,
+    "x_max": 3.5859,
+    "y_max": -9.3817
+   },
+   "scores": [
+    2500,
+    5000,
+    7500
+   ],
+   "base_points": 2500,
+   "max_listed_points": 7500,
+   "control_func": "WormHoleControl",
+   "value_note": "2500 base; 5000/7500 or 10000/50000 + replay when wormhole lights match",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:582",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:233",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:50",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1767"
+   }
+  },
+  {
+   "id": 47,
+   "name": "v_sink3",
+   "class": "TSink",
+   "group": "sink",
+   "linked": true,
+   "center": [
+    -4.7412,
+    3.2771
+   ],
+   "aabb": {
+    "x_min": -5.1096,
+    "y_min": 2.9602,
+    "x_max": -4.3728,
+    "y_max": 3.5941
+   },
+   "scores": [
+    2500,
+    5000,
+    7500
+   ],
+   "base_points": 2500,
+   "max_listed_points": 7500,
+   "control_func": "WormHoleControl",
+   "value_note": "2500 base; 5000/7500 or 10000/50000 + replay when wormhole lights match",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:583",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:234",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:50",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1767"
+   }
+  },
+  {
+   "id": 48,
+   "name": "a_flip1",
+   "class": "TFlipper",
+   "group": "flipper",
+   "linked": true,
+   "center": [
+    1.7839,
+    12.0688
+   ],
+   "aabb": {
+    "x_min": 0.468,
+    "y_min": 10.5133,
+    "x_max": 3.0998,
+    "y_max": 13.6243
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "LeftFlipperControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:584",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:76",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1835"
+   }
+  },
+  {
+   "id": 49,
+   "name": "a_flip2",
+   "class": "TFlipper",
+   "group": "flipper",
+   "linked": true,
+   "center": [
+    -1.7839,
+    12.0688
+   ],
+   "aabb": {
+    "x_min": -3.1,
+    "y_min": 10.5133,
+    "x_max": -0.4677,
+    "y_max": 13.6243
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "RightFlipperControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:585",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:77",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1844"
+   }
+  },
+  {
+   "id": 50,
+   "name": "plunger",
+   "class": "TPlunger",
+   "group": "plunger",
+   "linked": true,
+   "center": [
+    -7.1935,
+    11.675
+   ],
+   "aabb": {
+    "x_min": -8.003,
+    "y_min": 11.675,
+    "x_max": -6.384,
+    "y_max": 11.675
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "PlungerControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:586",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:207",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2596"
+   }
+  },
+  {
+   "id": 51,
+   "name": "a_targ1",
+   "class": "TPopupTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    -4.2,
+    0.9648
+   ],
+   "aabb": {
+    "x_min": -4.5423,
+    "y_min": 0.4064,
+    "x_max": -3.8577,
+    "y_max": 1.5232
+   },
+   "scores": [
+    500,
+    5000
+   ],
+   "base_points": 500,
+   "max_listed_points": 5000,
+   "control_func": "BoosterTargetControl",
+   "value_note": "500 per target; completing the 3-bank pays 5000 and awards flag/jackpot/bonus/bonus-hold",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:587",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:269",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:51",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1865"
+   }
+  },
+  {
+   "id": 52,
+   "name": "a_targ2",
+   "class": "TPopupTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    -4.2,
+    1.6662
+   ],
+   "aabb": {
+    "x_min": -4.5423,
+    "y_min": 1.1078,
+    "x_max": -3.8577,
+    "y_max": 2.2245
+   },
+   "scores": [
+    500,
+    5000
+   ],
+   "base_points": 500,
+   "max_listed_points": 5000,
+   "control_func": "BoosterTargetControl",
+   "value_note": "500 per target; completing the 3-bank pays 5000 and awards flag/jackpot/bonus/bonus-hold",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:588",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:270",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:51",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1865"
+   }
+  },
+  {
+   "id": 53,
+   "name": "a_targ3",
+   "class": "TPopupTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    -4.2,
+    2.3648
+   ],
+   "aabb": {
+    "x_min": -4.5423,
+    "y_min": 1.8064,
+    "x_max": -3.8577,
+    "y_max": 2.9232
+   },
+   "scores": [
+    500,
+    5000
+   ],
+   "base_points": 500,
+   "max_listed_points": 5000,
+   "control_func": "BoosterTargetControl",
+   "value_note": "500 per target; completing the 3-bank pays 5000 and awards flag/jackpot/bonus/bonus-hold",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:589",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:271",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:51",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1865"
+   }
+  },
+  {
+   "id": 54,
+   "name": "lite60",
+   "class": "TLight",
+   "group": "logic",
+   "linked": true,
+   "center": null,
+   "aabb": null,
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "JackpotLightControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:590",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:123",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1853"
+   }
+  },
+  {
+   "id": 55,
+   "name": "lite59",
+   "class": "TLight",
+   "group": "logic",
+   "linked": true,
+   "center": null,
+   "aabb": null,
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "BonusLightControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:591",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:122",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1859"
+   }
+  },
+  {
+   "id": 56,
+   "name": "a_targ6",
+   "class": "TPopupTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    -0.2677,
+    -2.2939
+   ],
+   "aabb": {
+    "x_min": -0.8256,
+    "y_min": -2.7187,
+    "x_max": 0.2902,
+    "y_max": -1.8691
+   },
+   "scores": [
+    1500,
+    10000,
+    50000
+   ],
+   "base_points": 1500,
+   "max_listed_points": 50000,
+   "control_func": "MedalTargetControl",
+   "value_note": "1500 per target; completing the 3-bank pays 10000/50000 or an extra ball by medal level",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:592",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:274",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:52",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2631"
+   }
+  },
+  {
+   "id": 57,
+   "name": "a_targ5",
+   "class": "TPopupTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    0.3921,
+    -2.5234
+   ],
+   "aabb": {
+    "x_min": -0.1657,
+    "y_min": -2.9482,
+    "x_max": 0.95,
+    "y_max": -2.0986
+   },
+   "scores": [
+    1500,
+    10000,
+    50000
+   ],
+   "base_points": 1500,
+   "max_listed_points": 50000,
+   "control_func": "MedalTargetControl",
+   "value_note": "1500 per target; completing the 3-bank pays 10000/50000 or an extra ball by medal level",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:593",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:273",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:52",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2631"
+   }
+  },
+  {
+   "id": 58,
+   "name": "a_targ4",
+   "class": "TPopupTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    1.0546,
+    -2.7538
+   ],
+   "aabb": {
+    "x_min": 0.4967,
+    "y_min": -3.1786,
+    "x_max": 1.6124,
+    "y_max": -2.329
+   },
+   "scores": [
+    1500,
+    10000,
+    50000
+   ],
+   "base_points": 1500,
+   "max_listed_points": 50000,
+   "control_func": "MedalTargetControl",
+   "value_note": "1500 per target; completing the 3-bank pays 10000/50000 or an extra ball by medal level",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:594",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:272",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:52",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2631"
+   }
+  },
+  {
+   "id": 59,
+   "name": "bumper_target_lights",
+   "class": "TLightGroup",
+   "group": "logic",
+   "linked": true,
+   "center": null,
+   "aabb": null,
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "MedalLightGroupControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:595",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:194",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1929"
+   }
+  },
+  {
+   "id": 60,
+   "name": "a_targ9",
+   "class": "TPopupTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    1.9408,
+    -8.7675
+   ],
+   "aabb": {
+    "x_min": 1.3994,
+    "y_min": -9.2402,
+    "x_max": 2.4822,
+    "y_max": -8.2947
+   },
+   "scores": [
+    500,
+    1500
+   ],
+   "base_points": 500,
+   "max_listed_points": 1500,
+   "control_func": "MultiplierTargetControl",
+   "value_note": "500 per target; completing the 3-bank pays 1500 and raises the score multiplier (all future points x2/x3/x5/x10)",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:596",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:277",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:53",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2671"
+   }
+  },
+  {
+   "id": 61,
+   "name": "a_targ8",
+   "class": "TPopupTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    2.5332,
+    -8.3972
+   ],
+   "aabb": {
+    "x_min": 1.9918,
+    "y_min": -8.8699,
+    "x_max": 3.0747,
+    "y_max": -7.9245
+   },
+   "scores": [
+    500,
+    1500
+   ],
+   "base_points": 500,
+   "max_listed_points": 1500,
+   "control_func": "MultiplierTargetControl",
+   "value_note": "500 per target; completing the 3-bank pays 1500 and raises the score multiplier (all future points x2/x3/x5/x10)",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:597",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:276",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:53",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2671"
+   }
+  },
+  {
+   "id": 62,
+   "name": "a_targ7",
+   "class": "TPopupTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    3.128,
+    -8.0256
+   ],
+   "aabb": {
+    "x_min": 2.5866,
+    "y_min": -8.4983,
+    "x_max": 3.6695,
+    "y_max": -7.5528
+   },
+   "scores": [
+    500,
+    1500
+   ],
+   "base_points": 500,
+   "max_listed_points": 1500,
+   "control_func": "MultiplierTargetControl",
+   "value_note": "500 per target; completing the 3-bank pays 1500 and raises the score multiplier (all future points x2/x3/x5/x10)",
+   "state_dependent": true,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:598",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:275",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:53",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2671"
+   }
+  },
+  {
+   "id": 63,
+   "name": "top_target_lights",
+   "class": "TLightGroup",
+   "group": "logic",
+   "linked": true,
+   "center": null,
+   "aabb": null,
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "MultiplierLightGroupControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:599",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:201",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1949"
+   }
+  },
+  {
+   "id": 64,
+   "name": "a_targ10",
+   "class": "TSoloTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    7.388,
+    -11.0097
+   ],
+   "aabb": {
+    "x_min": 7.0488,
+    "y_min": -11.584,
+    "x_max": 7.7271,
+    "y_max": -10.4353
+   },
+   "scores": [
+    750
+   ],
+   "base_points": 750,
+   "max_listed_points": 750,
+   "control_func": "FuelSpotTargetControl",
+   "value_note": "flat 750; refuels",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:600",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:278",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:54",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1983"
+   }
+  },
+  {
+   "id": 65,
+   "name": "a_targ11",
+   "class": "TSoloTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    5.5235,
+    -12.8979
+   ],
+   "aabb": {
+    "x_min": 4.9491,
+    "y_min": -13.237,
+    "x_max": 6.0979,
+    "y_max": -12.5587
+   },
+   "scores": [
+    750
+   ],
+   "base_points": 750,
+   "max_listed_points": 750,
+   "control_func": "FuelSpotTargetControl",
+   "value_note": "flat 750; refuels",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:601",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:279",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:54",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1983"
+   }
+  },
+  {
+   "id": 66,
+   "name": "a_targ12",
+   "class": "TSoloTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    4.0487,
+    -12.2235
+   ],
+   "aabb": {
+    "x_min": 3.5386,
+    "y_min": -12.7525,
+    "x_max": 4.5588,
+    "y_max": -11.6945
+   },
+   "scores": [
+    750
+   ],
+   "base_points": 750,
+   "max_listed_points": 750,
+   "control_func": "FuelSpotTargetControl",
+   "value_note": "flat 750; refuels",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:602",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:280",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:54",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1983"
+   }
+  },
+  {
+   "id": 67,
+   "name": "a_targ13",
+   "class": "TSoloTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    4.5976,
+    3.2547
+   ],
+   "aabb": {
+    "x_min": 4.2531,
+    "y_min": 2.6804,
+    "x_max": 4.9422,
+    "y_max": 3.829
+   },
+   "scores": [
+    1000
+   ],
+   "base_points": 1000,
+   "max_listed_points": 1000,
+   "control_func": "MissionSpotTargetControl",
+   "value_note": "flat 1000; advances mission selection",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:603",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:281",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:55",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2015"
+   }
+  },
+  {
+   "id": 68,
+   "name": "a_targ14",
+   "class": "TSoloTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    4.5976,
+    3.9089
+   ],
+   "aabb": {
+    "x_min": 4.2531,
+    "y_min": 3.3345,
+    "x_max": 4.9422,
+    "y_max": 4.4832
+   },
+   "scores": [
+    1000
+   ],
+   "base_points": 1000,
+   "max_listed_points": 1000,
+   "control_func": "MissionSpotTargetControl",
+   "value_note": "flat 1000; advances mission selection",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:604",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:282",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:55",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2015"
+   }
+  },
+  {
+   "id": 69,
+   "name": "a_targ15",
+   "class": "TSoloTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    4.5976,
+    4.5499
+   ],
+   "aabb": {
+    "x_min": 4.2531,
+    "y_min": 3.9756,
+    "x_max": 4.9422,
+    "y_max": 5.1242
+   },
+   "scores": [
+    1000
+   ],
+   "base_points": 1000,
+   "max_listed_points": 1000,
+   "control_func": "MissionSpotTargetControl",
+   "value_note": "flat 1000; advances mission selection",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:605",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:283",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:55",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2015"
+   }
+  },
+  {
+   "id": 70,
+   "name": "a_targ16",
+   "class": "TSoloTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    5.9059,
+    -5.419
+   ],
+   "aabb": {
+    "x_min": 5.5613,
+    "y_min": -5.9933,
+    "x_max": 6.2504,
+    "y_max": -4.8447
+   },
+   "scores": [
+    750
+   ],
+   "base_points": 750,
+   "max_listed_points": 750,
+   "control_func": "LeftHazardSpotTargetControl",
+   "value_note": "flat 750; mission progress",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:606",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:284",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:56",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2051"
+   }
+  },
+  {
+   "id": 71,
+   "name": "a_targ17",
+   "class": "TSoloTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    5.8516,
+    -4.6225
+   ],
+   "aabb": {
+    "x_min": 5.4749,
+    "y_min": -5.1992,
+    "x_max": 6.2283,
+    "y_max": -4.0457
+   },
+   "scores": [
+    750
+   ],
+   "base_points": 750,
+   "max_listed_points": 750,
+   "control_func": "LeftHazardSpotTargetControl",
+   "value_note": "flat 750; mission progress",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:607",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:285",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:56",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2051"
+   }
+  },
+  {
+   "id": 72,
+   "name": "a_targ18",
+   "class": "TSoloTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    5.6566,
+    -3.8639
+   ],
+   "aabb": {
+    "x_min": 5.1965,
+    "y_min": -4.4241,
+    "x_max": 6.1168,
+    "y_max": -3.3037
+   },
+   "scores": [
+    750
+   ],
+   "base_points": 750,
+   "max_listed_points": 750,
+   "control_func": "LeftHazardSpotTargetControl",
+   "value_note": "flat 750; mission progress",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:608",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:286",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:56",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2051"
+   }
+  },
+  {
+   "id": 73,
+   "name": "a_targ19",
+   "class": "TSoloTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    -3.3834,
+    -7.213
+   ],
+   "aabb": {
+    "x_min": -3.8435,
+    "y_min": -7.7732,
+    "x_max": -2.9232,
+    "y_max": -6.6529
+   },
+   "scores": [
+    750
+   ],
+   "base_points": 750,
+   "max_listed_points": 750,
+   "control_func": "RightHazardSpotTargetControl",
+   "value_note": "flat 750; mission progress",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:609",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:287",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:56",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2087"
+   }
+  },
+  {
+   "id": 74,
+   "name": "a_targ20",
+   "class": "TSoloTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    -3.7239,
+    -6.5328
+   ],
+   "aabb": {
+    "x_min": -4.1615,
+    "y_min": -7.1009,
+    "x_max": -3.2863,
+    "y_max": -5.9646
+   },
+   "scores": [
+    750
+   ],
+   "base_points": 750,
+   "max_listed_points": 750,
+   "control_func": "RightHazardSpotTargetControl",
+   "value_note": "flat 750; mission progress",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:610",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:288",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:56",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2087"
+   }
+  },
+  {
+   "id": 75,
+   "name": "a_targ21",
+   "class": "TSoloTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    -3.8821,
+    -5.695
+   ],
+   "aabb": {
+    "x_min": -4.234,
+    "y_min": -6.2708,
+    "x_max": -3.5301,
+    "y_max": -5.1192
+   },
+   "scores": [
+    750
+   ],
+   "base_points": 750,
+   "max_listed_points": 750,
+   "control_func": "RightHazardSpotTargetControl",
+   "value_note": "flat 750; mission progress",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:611",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:289",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:56",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2087"
+   }
+  },
+  {
+   "id": 76,
+   "name": "a_targ22",
+   "class": "TSoloTarget",
+   "group": "target",
+   "linked": true,
+   "center": [
+    -3.1713,
+    -2.3325
+   ],
+   "aabb": {
+    "x_min": -3.7234,
+    "y_min": -2.8071,
+    "x_max": -2.6192,
+    "y_max": -1.8578
+   },
+   "scores": [
+    750
+   ],
+   "base_points": 750,
+   "max_listed_points": 750,
+   "control_func": "WormHoleDestinationControl",
+   "value_note": "flat 750; selects wormhole destination",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:612",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:290",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:57",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2123"
+   }
+  },
+  {
+   "id": 77,
+   "name": "a_roll9",
+   "class": "TLightRollover",
+   "group": "rollover",
+   "linked": true,
+   "center": [
+    5.0527,
+    -7.1947
+   ],
+   "aabb": {
+    "x_min": 4.6982,
+    "y_min": -7.5975,
+    "x_max": 5.4073,
+    "y_max": -6.7919
+   },
+   "scores": [
+    10000
+   ],
+   "base_points": 10000,
+   "max_listed_points": 10000,
+   "control_func": "SpaceWarpRolloverControl",
+   "value_note": "handler never calls AddScore (the 10000 array is unused); lights lite27/lite28 so the return lanes then pay 25000 instead of 5000 - delayed value",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:613",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:222",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:58",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:1423"
+   }
+  },
+  {
+   "id": 78,
+   "name": "a_kout3",
+   "class": "TKickout",
+   "group": "kickout",
+   "linked": true,
+   "center": [
+    3.9322,
+    -0.2705
+   ],
+   "aabb": {
+    "x_min": 3.8497,
+    "y_min": -0.353,
+    "x_max": 4.0147,
+    "y_max": -0.188
+   },
+   "scores": [
+    20000
+   ],
+   "base_points": 20000,
+   "max_listed_points": 20000,
+   "control_func": "BlackHoleKickoutControl",
+   "value_note": "flat 20000",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:614",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:86",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:59",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2137"
+   }
+  },
+  {
+   "id": 79,
+   "name": "a_kout1",
+   "class": "TKickout",
+   "group": "kickout",
+   "linked": true,
+   "center": [
+    0.0,
+    6.0
+   ],
+   "aabb": {
+    "x_min": -0.16,
+    "y_min": 5.84,
+    "x_max": 0.16,
+    "y_max": 6.16
+   },
+   "scores": [
+    50000
+   ],
+   "base_points": 50000,
+   "max_listed_points": 50000,
+   "control_func": "GravityWellKickoutControl",
+   "value_note": "flat 50000",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:615",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:84",
+    "scores": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:60",
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2163"
+   }
+  },
+  {
+   "id": 80,
+   "name": "drain",
+   "class": "TDrain",
+   "group": "drain",
+   "linked": true,
+   "center": [
+    -0.0353,
+    14.1372
+   ],
+   "aabb": {
+    "x_min": -10.392,
+    "y_min": 14.1372,
+    "x_max": 10.3214,
+    "y_max": 14.1372
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "BallDrainControl",
+   "value_note": "no score array; drain-time awards (bonus countdown etc.) happen here or on timers",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:616",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:73",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2717"
+   }
+  },
+  {
+   "id": 81,
+   "name": "s_onewy1",
+   "class": "TOneway",
+   "group": "oneway",
+   "linked": true,
+   "center": [
+    -6.8292,
+    4.2912
+   ],
+   "aabb": {
+    "x_min": -7.4266,
+    "y_min": 3.9653,
+    "x_max": -6.2317,
+    "y_max": 4.6172
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "SkillShotGate1Control",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:617",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:204",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2203"
+   }
+  },
+  {
+   "id": 82,
+   "name": "s_trip1",
+   "class": "TTripwire",
+   "group": "tripwire",
+   "linked": true,
+   "center": [
+    -7.1634,
+    1.7843
+   ],
+   "aabb": {
+    "x_min": -7.7057,
+    "y_min": 1.4766,
+    "x_max": -6.6211,
+    "y_max": 2.0921
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "SkillShotGate2Control",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:618",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:291",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2221"
+   }
+  },
+  {
+   "id": 83,
+   "name": "s_trip2",
+   "class": "TTripwire",
+   "group": "tripwire",
+   "linked": true,
+   "center": [
+    -7.1583,
+    -1.5124
+   ],
+   "aabb": {
+    "x_min": -7.7046,
+    "y_min": -1.8129,
+    "x_max": -6.612,
+    "y_max": -1.2119
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "SkillShotGate3Control",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:619",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:292",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2233"
+   }
+  },
+  {
+   "id": 84,
+   "name": "s_trip3",
+   "class": "TTripwire",
+   "group": "tripwire",
+   "linked": true,
+   "center": [
+    -7.1654,
+    -4.8302
+   ],
+   "aabb": {
+    "x_min": -7.7061,
+    "y_min": -5.1407,
+    "x_max": -6.6246,
+    "y_max": -4.5198
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "SkillShotGate4Control",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:620",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:293",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2245"
+   }
+  },
+  {
+   "id": 85,
+   "name": "s_trip4",
+   "class": "TTripwire",
+   "group": "tripwire",
+   "linked": true,
+   "center": [
+    -6.5946,
+    -7.5621
+   ],
+   "aabb": {
+    "x_min": -7.0157,
+    "y_min": -8.0219,
+    "x_max": -6.1735,
+    "y_max": -7.1022
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "SkillShotGate5Control",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:621",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:294",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2257"
+   }
+  },
+  {
+   "id": 86,
+   "name": "s_trip5",
+   "class": "TTripwire",
+   "group": "tripwire",
+   "linked": true,
+   "center": [
+    -5.0944,
+    -9.857
+   ],
+   "aabb": {
+    "x_min": -5.4163,
+    "y_min": -10.391,
+    "x_max": -4.7725,
+    "y_max": -9.323
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "SkillShotGate6Control",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:622",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:295",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2269"
+   }
+  },
+  {
+   "id": 87,
+   "name": "lite200",
+   "class": "TLight",
+   "group": "logic",
+   "linked": true,
+   "center": null,
+   "aabb": null,
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "ShootAgainLightControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:623",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:156",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2281"
+   }
+  },
+  {
+   "id": 88,
+   "name": "v_sink7",
+   "class": "TSink",
+   "group": "sink",
+   "linked": true,
+   "center": [
+    -5.858,
+    3.3996
+   ],
+   "aabb": {
+    "x_min": -6.344,
+    "y_min": 3.3984,
+    "x_max": -5.372,
+    "y_max": 3.4008
+   },
+   "scores": [],
+   "base_points": 0,
+   "max_listed_points": 0,
+   "control_func": "EscapeChuteSinkControl",
+   "value_note": "",
+   "state_dependent": false,
+   "source": {
+    "score_components": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:624",
+    "tag": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:235",
+    "scores": null,
+    "handler": "vendor/SpaceCadetPinball/SpaceCadetPinball/control.cpp:2297"
+   }
+  }
+ ]
+}
