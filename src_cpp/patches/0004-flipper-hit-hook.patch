@@ -1,0 +1,22 @@
+diff --git a/SpaceCadetPinball/TFlipper.cpp b/SpaceCadetPinball/TFlipper.cpp
+index 2f07d83..a2ddb53 100644
+--- a/SpaceCadetPinball/TFlipper.cpp
++++ b/SpaceCadetPinball/TFlipper.cpp
+@@ -11,6 +11,9 @@
+ #include "timer.h"
+ #include "TPinballTable.h"
+ 
++// 3DPinball-DrosophilaCadet: RL reward signal for actual paddle-ball contact (see src_cpp/patches/).
++#include "state_export.h"
++
+ TFlipper::TFlipper(TPinballTable* table, int groupIndex) : TCollisionComponent(table, groupIndex, false)
+ {
+ 	visualStruct visual{};
+@@ -177,6 +180,7 @@ void TFlipper::FlipperCollision(float deltaAngle)
+ 				FlipperEdge->CollisionDirection = rayDst.Direction;
+ 				FlipperEdge->EdgeCollision(ball, distance);
+ 				collisionFlag = true;
++				StateExport::OnFlipperBallHit();
+ 			}
+ 		}
+ 	}

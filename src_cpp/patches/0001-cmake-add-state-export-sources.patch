@@ -1,0 +1,74 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index fb705ed..8eea6f2 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -24,7 +24,11 @@ if(APPLE)
+     set(CMAKE_BUILD_WITH_INSTALL_RPATH true)
+     set(CMAKE_INSTALL_RPATH "@executable_path/../Frameworks")
+     set(CMAKE_OSX_DEPLOYMENT_TARGET "10.11")
+-    set(CMAKE_OSX_ARCHITECTURES "arm64;x86_64")
++    # 3DPinball-DrosophilaCadet: allow -DCMAKE_OSX_ARCHITECTURES=<arch> to override the
++    # universal default, since single-arch Homebrew SDL2/SDL2_mixer bottles can't link fat.
++    if(NOT CMAKE_OSX_ARCHITECTURES)
++        set(CMAKE_OSX_ARCHITECTURES "arm64;x86_64")
++    endif()
+     list(APPEND SDL2_PATH "${CMAKE_CURRENT_LIST_DIR}/Libs")
+     list(APPEND SDL2_MIXER_PATH "${CMAKE_CURRENT_LIST_DIR}/Libs")
+ endif()
+@@ -32,10 +36,15 @@ endif()
+ # SDL2main is not needed
+ set(SDL2_BUILDING_LIBRARY ON)
+ 
+-find_package(SDL2 REQUIRED)
+-FIND_PACKAGE(SDL2_mixer REQUIRED)
+-
+-include_directories(${SDL2_INCLUDE_DIR} ${SDL2_MIXER_INCLUDE_DIR})
++# 3DPinball-DrosophilaCadet: Emscripten's ported SDL2/SDL2_mixer aren't real library files this
++# project's custom CMakeModules/FindSDL2.cmake can FIND_LIBRARY - they're supplied purely via
++# -sUSE_SDL=2/-sUSE_SDL_MIXER=2 compile+link flags (set in scripts/build_wasm.sh), so skip the
++# native find_package() path entirely under Emscripten.
++if(NOT EMSCRIPTEN)
++    find_package(SDL2 REQUIRED)
++    FIND_PACKAGE(SDL2_mixer REQUIRED)
++    include_directories(${SDL2_INCLUDE_DIR} ${SDL2_MIXER_INCLUDE_DIR})
++endif()
+ get_property(dirs DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY INCLUDE_DIRECTORIES)
+ foreach(dir ${dirs})
+   message(STATUS "Include dir='${dir}'")
+@@ -186,6 +195,15 @@ set(SOURCE_FILES
+         SpaceCadetPinball/imstb_truetype.h
+         SpaceCadetPinball/DebugOverlay.cpp
+         SpaceCadetPinball/DebugOverlay.h
++
++        # 3DPinball-DrosophilaCadet: RL state-extraction + IPC bridge overlay.
++        # See src_cpp/patches/ for the rest of this project's engine hooks.
++        ../../src_cpp/ipc_protocol.h
++        ../../src_cpp/state_export.h
++        ../../src_cpp/state_export.cpp
++        ../../src_cpp/ipc_server.h
++        ../../src_cpp/ipc_server.cpp
++        ../../src_cpp/state_export_wasm.cpp
+         )
+ 
+ # On Windows, include resource file with the icon
+@@ -195,6 +213,9 @@ if(WIN32)
+ endif(WIN32)
+ 
+ add_executable(SpaceCadetPinball ${SOURCE_FILES})
++target_include_directories(SpaceCadetPinball PRIVATE
++        ${CMAKE_CURRENT_LIST_DIR}/../../src_cpp
++        ${CMAKE_CURRENT_LIST_DIR}/SpaceCadetPinball)
+ 
+ # Skip pch on foreign code
+ set_source_files_properties(
+@@ -216,7 +237,9 @@ if(${CMAKE_VERSION} VERSION_GREATER "3.16.0" OR ${CMAKE_VERSION} VERSION_EQUAL "
+             )
+ endif()
+ 
+-target_link_libraries(SpaceCadetPinball ${SDL2_LIBRARY} ${SDL2_MIXER_LIBRARY})
++if(NOT EMSCRIPTEN)
++    target_link_libraries(SpaceCadetPinball ${SDL2_LIBRARY} ${SDL2_MIXER_LIBRARY})
++endif()
+ 
+ # On Windows, copy DLL to output
+ if(WIN32)

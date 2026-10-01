@@ -1,0 +1,19 @@
+diff --git a/SpaceCadetPinball/winmain.cpp b/SpaceCadetPinball/winmain.cpp
+index 836556f..95b5a89 100644
+--- a/SpaceCadetPinball/winmain.cpp
++++ b/SpaceCadetPinball/winmain.cpp
+@@ -204,7 +204,13 @@ int winmain::WinMain(LPCSTR lpCmdLine)
+ 		ImGui::StyleColorsDark();
+
+ 		ImGui_ImplSDL2_InitForSDLRenderer(window, Renderer);
+-		io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard | ImGuiConfigFlags_NavEnableGamepad;
++		// 3DPinball-DrosophilaCadet: under a headless/dummy SDL video driver (RL training runs -
++		// see IpcServer::Init), SDL_CreateSystemCursor() and SDL_ShowCursor() are unsupported.
++		// Depending on the SDL2 build, that's either harmless log spam (newer builds) or fatal
++		// (older builds, e.g. apt's SDL 2.30 crashed the process on the very first frame) - this
++		// flag makes ImGui skip its per-frame cursor management entirely, avoiding those calls
++		// regardless of SDL2 version. No behavior change for the normal on-screen player.
++		io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard | ImGuiConfigFlags_NavEnableGamepad | ImGuiConfigFlags_NoMouseCursorChange;
+
+ 		// Data search order: WD, executable path, user pref path, platform specific paths.
+ 		std::vector<const char*> searchPaths

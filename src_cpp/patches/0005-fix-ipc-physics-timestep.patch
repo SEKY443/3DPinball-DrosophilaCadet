@@ -1,0 +1,42 @@
+diff --git a/SpaceCadetPinball/winmain.cpp b/SpaceCadetPinball/winmain.cpp
+index 836556f..221abe2 100644
+--- a/SpaceCadetPinball/winmain.cpp
++++ b/SpaceCadetPinball/winmain.cpp
+@@ -12,6 +12,9 @@
+ #include "translations.h"
+ #include "font_selection.h"
+ 
++// 3DPinball-DrosophilaCadet: RL state-extraction + IPC bridge overlay (see src_cpp/patches/).
++#include "ipc_server.h"
++
+ constexpr const char* winmain::Version;
+ 
+ SDL_Window* winmain::MainWindow = nullptr;
+@@ -353,7 +356,26 @@ void winmain::MainLoop()
+ 			}
+ 			if (!single_step && !no_time_loss)
+ 			{
+-				auto dt = static_cast<float>(frameDuration.count());
++				// 3DPinball-DrosophilaCadet: an IPC-driven tick is gated by a full blocking
++				// round-trip to the RL client (see IpcServer::SyncTick), not by real
++				// screen-refresh timing - frameDuration ends up measuring however long that
++				// round-trip took, which for a fast local socket exchange is a fraction of a
++				// millisecond, ~30-50x smaller than TargetFrameTime (confirmed via direct
++				// instrumentation: measured timeDeltaSec around 0.00003-0.0006s vs an intended
++				// ~0.0167s at 60fps). Physics dt scales with that measured time, so the ball's
++				// simulated motion per tick shrinks by the same ~30-50x - an 800-3200 tick CEM
++				// episode was consequently only ~1-2 seconds of real simulated game time, nowhere
++				// near enough for the ball to ever travel from the plunger to the flippers
++				// regardless of policy skill (confirmed: a passive, zero-flipper-input IPC
++				// episode never even completed one full lane-to-table arc in 3000 ticks, while
++				// the exact same binary launched and scored normally under real keyboard input,
++				// which uses this same MainLoop but goes through the normal wall-clock-paced path).
++				// Fix: give IPC-driven ticks a fixed nominal dt matching the intended physics
++				// rate, decoupled from how fast the RL client happens to respond - this also
++				// makes simulated game time reproducible independent of host/IPC latency.
++				auto dt = IpcServer::IsEnabled()
++					? static_cast<float>(TargetFrameTime.count())
++					: static_cast<float>(frameDuration.count());
+ 				pb::frame(dt);
+ 				if (DispGRhistory)
+ 				{

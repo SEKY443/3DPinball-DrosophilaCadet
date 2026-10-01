@@ -1,0 +1,37 @@
+diff --git a/SpaceCadetPinball/timer.cpp b/SpaceCadetPinball/timer.cpp
+index b30e9dd..40439b1 100644
+--- a/SpaceCadetPinball/timer.cpp
++++ b/SpaceCadetPinball/timer.cpp
+@@ -40,7 +40,10 @@ int timer::kill(int timerId)
+ 	timer_struct* current = ActiveList;
+ 	int index = 0;
+ 	timer_struct* prev = nullptr;
+-	if (Count <= 0)
++	// 3DPinball-DrosophilaCadet: Count > 0 alone doesn't guarantee ActiveList is non-null
++	// under RL-driven rapid resets (observed Count/list desync elsewhere in this file too -
++	// see timer::set and the other kill() overload below).
++	if (Count <= 0 || !current)
+ 		return 0;
+ 	while (timerId != current->TimerId)
+ 	{
+@@ -65,7 +68,7 @@ int timer::kill(void(* callback)(int, void*))
+ {
+ 	auto count = 0;
+ 	timer_struct* current = ActiveList, * prev = nullptr;
+-	for (auto index = 0; index < Count; index++)
++	for (auto index = 0; index < Count && current; index++)
+ 	{
+ 		if (current->Callback == callback)
+ 		{
+@@ -92,7 +95,10 @@ int timer::kill(void(* callback)(int, void*))
+ 
+ int timer::set(float time, void* caller, void (* callback)(int, void*))
+ {
+-	if (Count >= MaxCount)
++	// 3DPinball-DrosophilaCadet: Count >= MaxCount alone doesn't reliably catch pool
++	// exhaustion (observed Count/FreeList going out of sync under RL-driven rapid resets,
++	// crashing here with a null FreeList dereference) - guard the actual invariant directly.
++	if (Count >= MaxCount || !FreeList)
+ 		return 0;
+ 
+ 	auto timer = FreeList;

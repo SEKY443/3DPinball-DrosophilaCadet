@@ -1,0 +1,82 @@
+diff --git a/SpaceCadetPinball/pb.cpp b/SpaceCadetPinball/pb.cpp
+index 0762832..e41ba8c 100644
+--- a/SpaceCadetPinball/pb.cpp
++++ b/SpaceCadetPinball/pb.cpp
+@@ -28,6 +28,10 @@
+ #include "TTextBox.h"
+ #include "translations.h"
+ 
++// 3DPinball-DrosophilaCadet: RL state-extraction + IPC bridge overlay (see src_cpp/patches/).
++#include "state_export.h"
++#include "ipc_server.h"
++
+ TPinballTable* pb::MainTable = nullptr;
+ DatFile* pb::record_table = nullptr;
+ int pb::time_ticks = 0;
+@@ -98,7 +102,12 @@ int pb::init()
+ 	mode_change(GameModes::InGame);
+ 
+ 	time_ticks = 0;
+-	timer::init(150);
++	// 3DPinball-DrosophilaCadet: upstream's default pool (150) is sized for one real human
++	// play session; RL-driven training resets far more aggressively than that and can
++	// exhaust it (observed: SIGSEGV in timer::set via TLight's self-rescheduling flasher
++	// timers surviving across resets). See ipc_server.cpp's defensive guard for the other
++	// half of this fix.
++	timer::init(4096);
+ 	score::init();
+ 
+ 	MainTable = new TPinballTable();
+@@ -115,11 +124,15 @@ int pb::init()
+ 		sscanf(fontColor, "%d %d %d", &red, &green, &blue);
+ 	TextBoxColor = IM_COL32(red, green, blue, 255);
+ 
++	StateExport::ResetTrackedState();
++	IpcServer::Init();
++
+ 	return 0;
+ }
+ 
+ int pb::uninit()
+ {
++	IpcServer::Shutdown();
+ 	score::unload_msg_font();
+ 	loader::unload();
+ 	delete record_table;
+@@ -481,6 +494,12 @@ void pb::timed_frame(float timeDelta)
+ 		if (ball->ActiveFlag)
+ 			ball->Repaint();
+ 	}
++
++#ifdef __EMSCRIPTEN__
++	WasmBridge_CaptureTick(timeDelta);
++#else
++	IpcServer::SyncTick(timeDelta);
++#endif
+ }
+ 
+ void pb::pause_continue()
+@@ -540,9 +559,11 @@ void pb::InputUp(GameInput input)
+ 		{
+ 		case GameBindings::LeftFlipper:
+ 			MainTable->Message(MessageCode::LeftFlipperInputReleased, time_now);
++			StateExport::OnFlipperInput(StateExport::FlipperSide::Left, false);
+ 			break;
+ 		case GameBindings::RightFlipper:
+ 			MainTable->Message(MessageCode::RightFlipperInputReleased, time_now);
++			StateExport::OnFlipperInput(StateExport::FlipperSide::Right, false);
+ 			break;
+ 		case GameBindings::Plunger:
+ 			MainTable->Message(MessageCode::PlungerInputReleased, time_now);
+@@ -592,9 +613,11 @@ void pb::InputDown(GameInput input)
+ 		{
+ 		case GameBindings::LeftFlipper:
+ 			MainTable->Message(MessageCode::LeftFlipperInputPressed, time_now);
++			StateExport::OnFlipperInput(StateExport::FlipperSide::Left, true);
+ 			break;
+ 		case GameBindings::RightFlipper:
+ 			MainTable->Message(MessageCode::RightFlipperInputPressed, time_now);
++			StateExport::OnFlipperInput(StateExport::FlipperSide::Right, true);
+ 			break;
+ 		case GameBindings::Plunger:
+ 			MainTable->Message(MessageCode::PlungerInputPressed, time_now);
