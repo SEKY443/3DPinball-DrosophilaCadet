@@ -1,0 +1,542 @@
+=== new run press_cost 0.00088 from gen215 champion Tue Sep 29 22:07:40 CST 2026 ===
+decoder parameter count (CEM search dimension): 667
+resumed from agents/experiments/press_cost/start_gen215_centered.pt at generation 1 (champion_fitness=-1000000000000000000.00, curriculum_start_gen=1)
+/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/cma/s.py:17: UserWarning: Could not import matplotlib.pyplot, therefore ``cma.plot()`` etc. is not available
+  _warnings.warn('Could not import matplotlib.pyplot, therefore'
+no agents/experiments/press_cost/press_0p00088.pt.cma.pkl found - starting CMA-ES fresh from the resumed mean (covariance/step-size history is lost, but the search center is not)
+  validation: challenger 10.025 vs champion 10.139 (diff -0.115, SE 0.118)
+gen    1  best    10.54  mean    10.38  champion    10.14  cma_sigma 0.1975  n_fresh 0  score_w 1.00  life    788  score    57953  contacts 2.88  drained 0.88  P(L) 0.25  P(R) 0.35  presses 343   67.1s
+  validation: challenger 9.813 vs champion 10.301 (diff -0.488, SE 0.158)
+gen    2  best    10.64  mean    10.31  champion    10.30  cma_sigma 0.1977  n_fresh 0  score_w 1.00  life   1049  score    65316  contacts 4.23  drained 0.92  P(L) 0.32  P(R) 0.46  presses 468   71.7s
+  validation: challenger 10.418 vs champion 10.584 (diff -0.166, SE 0.112)
+gen    3  best    10.41  mean     9.88  champion    10.58  cma_sigma 0.1940  n_fresh 0  score_w 1.00  life   1041  score    50842  contacts 3.70  drained 0.87  P(L) 0.32  P(R) 0.37  presses 401   87.9s
+  validation: challenger 10.417 vs champion 10.442 (diff -0.026, SE 0.127)
+gen    4  best    10.76  mean    10.34  champion    10.44  cma_sigma 0.1886  n_fresh 0  score_w 1.00  life   1252  score    64516  contacts 4.39  drained 0.84  P(L) 0.35  P(R) 0.38  presses 453   84.2s
+  validation: challenger 10.474 vs champion 10.475 (diff -0.001, SE 0.079)
+gen    5  best    10.60  mean     9.97  champion    10.48  cma_sigma 0.1888  n_fresh 0  score_w 1.00  life    931  score    57197  contacts 4.85  drained 0.94  P(L) 0.35  P(R) 0.27  presses 458   68.7s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.232 vs champion 10.364 (diff -0.131, SE 0.123)
+gen    6  best    10.54  mean    10.01  champion    10.36  cma_sigma 0.1864  n_fresh 0  score_w 1.00  life    780  score    49604  contacts 3.63  drained 0.97  P(L) 0.38  P(R) 0.36  presses 394   66.1s
+  validation: challenger 10.829 vs champion 10.378 (diff +0.451, SE 0.108) -> PROMOTED
+gen    7  best    10.77  mean    10.10  champion    10.83  cma_sigma 0.1812  n_fresh 0  score_w 1.00  life   1036  score    80596  contacts 4.79  drained 0.92  P(L) 0.36  P(R) 0.46  presses 518   81.4s
+gen    8  best    10.53  mean     9.91  champion    10.83  cma_sigma 0.1746  n_fresh 0  score_w 1.00  life    815  score    51838  contacts 3.60  drained 0.95  P(L) 0.24  P(R) 0.43  presses 335   33.5s
+gen    9  best    10.53  mean     9.93  champion    10.83  cma_sigma 0.1666  n_fresh 0  score_w 1.00  life   1087  score    41418  contacts 2.16  drained 0.81  P(L) 0.27  P(R) 0.71  presses 314   41.3s
+gen   10  best    10.63  mean    10.17  champion    10.83  cma_sigma 0.1628  n_fresh 0  score_w 1.00  life   1071  score    68857  contacts 6.52  drained 0.95  P(L) 0.32  P(R) 0.47  presses 619   45.1s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen   11  best    10.69  mean    10.17  champion    10.83  cma_sigma 0.1586  n_fresh 0  score_w 1.00  life    926  score    64207  contacts 5.02  drained 0.96  P(L) 0.25  P(R) 0.43  presses 498   39.3s
+gen   12  best    10.60  mean    10.20  champion    10.83  cma_sigma 0.1575  n_fresh 0  score_w 1.00  life   1028  score    59371  contacts 5.55  drained 0.93  P(L) 0.37  P(R) 0.40  presses 562   41.6s
+gen   13  best    10.66  mean    10.30  champion    10.83  cma_sigma 0.1552  n_fresh 0  score_w 1.00  life    979  score    73197  contacts 5.33  drained 0.97  P(L) 0.32  P(R) 0.45  presses 565   38.1s
+gen   14  best    10.78  mean    10.40  champion    10.83  cma_sigma 0.1528  n_fresh 0  score_w 1.00  life   1285  score    85744  contacts 6.91  drained 0.91  P(L) 0.38  P(R) 0.46  presses 739   51.5s
+gen   15  best    10.33  mean     9.95  champion    10.83  cma_sigma 0.1494  n_fresh 0  score_w 1.00  life    724  score    51924  contacts 3.82  drained 0.99  P(L) 0.32  P(R) 0.34  presses 402   28.6s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen   16  best    10.54  mean    10.22  champion    10.83  cma_sigma 0.1456  n_fresh 0  score_w 1.00  life   1050  score    66111  contacts 6.67  drained 0.97  P(L) 0.39  P(R) 0.40  presses 650   41.2s
+gen   17  best    10.46  mean    10.17  champion    10.83  cma_sigma 0.1415  n_fresh 0  score_w 1.00  life   1000  score    69959  contacts 5.70  drained 0.95  P(L) 0.35  P(R) 0.39  presses 611   40.3s
+gen   18  best    10.62  mean    10.24  champion    10.83  cma_sigma 0.1402  n_fresh 0  score_w 1.00  life   1198  score    81877  contacts 7.47  drained 0.93  P(L) 0.35  P(R) 0.37  presses 754   50.8s
+  validation: challenger 10.525 vs champion 10.847 (diff -0.322, SE 0.154)
+gen   19  best    10.84  mean    10.26  champion    10.85  cma_sigma 0.1418  n_fresh 0  score_w 1.00  life    924  score    68135  contacts 4.31  drained 0.94  P(L) 0.23  P(R) 0.52  presses 459   61.5s
+  validation: challenger 10.655 vs champion 10.691 (diff -0.036, SE 0.130)
+gen   20  best    10.87  mean     9.95  champion    10.69  cma_sigma 0.1404  n_fresh 0  score_w 1.00  life   1007  score    49738  contacts 5.27  drained 0.91  P(L) 0.32  P(R) 0.61  presses 459   68.6s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.336 vs champion 10.751 (diff -0.414, SE 0.128)
+gen   21  best    10.83  mean    10.22  champion    10.75  cma_sigma 0.1406  n_fresh 0  score_w 1.00  life   1144  score    68236  contacts 5.20  drained 0.90  P(L) 0.27  P(R) 0.56  presses 512   79.4s
+  validation: challenger 10.181 vs champion 10.616 (diff -0.435, SE 0.141)
+gen   22  best    10.88  mean    10.14  champion    10.62  cma_sigma 0.1399  n_fresh 0  score_w 1.00  life   1055  score    62230  contacts 5.10  drained 0.92  P(L) 0.23  P(R) 0.38  presses 482   70.6s
+  validation: challenger 10.565 vs champion 10.768 (diff -0.204, SE 0.145)
+gen   23  best    10.69  mean    10.24  champion    10.77  cma_sigma 0.1386  n_fresh 0  score_w 1.00  life   1200  score    64568  contacts 5.85  drained 0.86  P(L) 0.35  P(R) 0.54  presses 518   79.2s
+  validation: challenger 10.420 vs champion 10.755 (diff -0.335, SE 0.138)
+gen   24  best    10.87  mean    10.48  champion    10.76  cma_sigma 0.1385  n_fresh 0  score_w 1.00  life   1170  score    94420  contacts 5.70  drained 0.90  P(L) 0.34  P(R) 0.43  presses 620   91.6s
+gen   25  best    10.54  mean    10.02  champion    10.76  cma_sigma 0.1366  n_fresh 0  score_w 1.00  life   1088  score    60887  contacts 5.80  drained 0.92  P(L) 0.26  P(R) 0.40  presses 559   49.0s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen   26  best    10.53  mean    10.20  champion    10.76  cma_sigma 0.1341  n_fresh 0  score_w 1.00  life   1016  score    74791  contacts 5.47  drained 0.94  P(L) 0.28  P(R) 0.44  presses 547   46.5s
+gen   27  best    10.63  mean    10.15  champion    10.76  cma_sigma 0.1317  n_fresh 0  score_w 1.00  life   1162  score    67188  contacts 6.82  drained 0.91  P(L) 0.27  P(R) 0.51  presses 597   60.9s
+gen   28  best    10.43  mean    10.11  champion    10.76  cma_sigma 0.1324  n_fresh 0  score_w 1.00  life    866  score    58244  contacts 4.39  drained 0.95  P(L) 0.28  P(R) 0.57  presses 450   43.5s
+  validation: challenger 10.636 vs champion 10.812 (diff -0.176, SE 0.119)
+gen   29  best    10.88  mean    10.45  champion    10.81  cma_sigma 0.1341  n_fresh 0  score_w 1.00  life   1142  score    76543  contacts 5.25  drained 0.87  P(L) 0.30  P(R) 0.55  presses 497   78.9s
+gen   30  best    10.79  mean    10.39  champion    10.81  cma_sigma 0.1365  n_fresh 0  score_w 1.00  life   1155  score    82258  contacts 5.98  drained 0.91  P(L) 0.24  P(R) 0.43  presses 560   57.4s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.795 vs champion 10.779 (diff +0.017, SE 0.102)
+gen   31  best    10.99  mean    10.57  champion    10.78  cma_sigma 0.1411  n_fresh 0  score_w 1.00  life   1119  score    80934  contacts 5.21  drained 0.91  P(L) 0.30  P(R) 0.57  presses 520   81.9s
+gen   32  best    10.50  mean     9.85  champion    10.78  cma_sigma 0.1420  n_fresh 0  score_w 1.00  life    802  score    42678  contacts 2.86  drained 0.95  P(L) 0.16  P(R) 0.53  presses 303   36.9s
+  validation: challenger 10.457 vs champion 10.604 (diff -0.148, SE 0.141)
+gen   33  best    10.88  mean    10.19  champion    10.60  cma_sigma 0.1418  n_fresh 0  score_w 1.00  life    877  score    51582  contacts 4.23  drained 0.95  P(L) 0.29  P(R) 0.49  presses 392   68.1s
+  validation: challenger 10.302 vs champion 10.824 (diff -0.521, SE 0.176)
+gen   34  best    11.02  mean    10.23  champion    10.82  cma_sigma 0.1401  n_fresh 0  score_w 1.00  life   1031  score    64988  contacts 5.82  drained 0.97  P(L) 0.31  P(R) 0.47  presses 515   76.3s
+gen   35  best    10.80  mean    10.17  champion    10.82  cma_sigma 0.1367  n_fresh 0  score_w 1.00  life   1019  score    60150  contacts 4.17  drained 0.88  P(L) 0.16  P(R) 0.52  presses 376   55.4s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen   36  best    10.80  mean    10.39  champion    10.82  cma_sigma 0.1331  n_fresh 0  score_w 1.00  life   1106  score    64977  contacts 4.50  drained 0.91  P(L) 0.19  P(R) 0.47  presses 440   58.2s
+gen   37  best    10.75  mean    10.34  champion    10.82  cma_sigma 0.1287  n_fresh 0  score_w 1.00  life    929  score    67305  contacts 4.84  drained 0.95  P(L) 0.19  P(R) 0.47  presses 387   47.8s
+gen   38  best    10.50  mean    10.07  champion    10.82  cma_sigma 0.1243  n_fresh 0  score_w 1.00  life   1051  score    66188  contacts 4.61  drained 0.90  P(L) 0.18  P(R) 0.55  presses 420   54.2s
+  validation: challenger 10.772 vs champion 10.634 (diff +0.138, SE 0.190)
+gen   39  best    11.52  mean    10.40  champion    10.63  cma_sigma 0.1199  n_fresh 0  score_w 1.00  life   1263  score    88689  contacts 5.93  drained 0.87  P(L) 0.17  P(R) 0.49  presses 454   99.3s
+  validation: challenger 10.771 vs champion 10.859 (diff -0.087, SE 0.157)
+gen   40  best    10.82  mean    10.24  champion    10.86  cma_sigma 0.1152  n_fresh 0  score_w 1.00  life   1158  score    70680  contacts 5.20  drained 0.88  P(L) 0.25  P(R) 0.60  presses 441   95.4s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen   41  best    10.85  mean    10.36  champion    10.86  cma_sigma 0.1100  n_fresh 0  score_w 1.00  life   1254  score    71504  contacts 5.46  drained 0.87  P(L) 0.31  P(R) 0.55  presses 457   56.2s
+gen   42  best    10.76  mean    10.27  champion    10.86  cma_sigma 0.1051  n_fresh 0  score_w 1.00  life   1270  score    81141  contacts 7.32  drained 0.88  P(L) 0.30  P(R) 0.51  presses 585   58.4s
+  validation: challenger 10.541 vs champion 10.603 (diff -0.063, SE 0.124)
+gen   43  best    10.96  mean    10.33  champion    10.60  cma_sigma 0.1001  n_fresh 0  score_w 1.00  life   1006  score    74482  contacts 5.58  drained 0.94  P(L) 0.23  P(R) 0.44  presses 484   71.5s
+  validation: challenger 10.664 vs champion 10.974 (diff -0.310, SE 0.129)
+gen   44  best    10.89  mean    10.27  champion    10.97  cma_sigma 0.0955  n_fresh 0  score_w 1.00  life   1177  score    88965  contacts 6.20  drained 0.91  P(L) 0.20  P(R) 0.59  presses 523   87.0s
+gen   45  best    10.72  mean    10.14  champion    10.97  cma_sigma 0.0916  n_fresh 0  score_w 1.00  life    950  score    60871  contacts 4.09  drained 0.95  P(L) 0.24  P(R) 0.45  presses 459   45.8s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen   46  best    10.77  mean    10.30  champion    10.97  cma_sigma 0.0905  n_fresh 0  score_w 1.00  life    836  score    61064  contacts 3.05  drained 0.95  P(L) 0.23  P(R) 0.54  presses 376   38.7s
+gen   47  best    10.82  mean    10.35  champion    10.97  cma_sigma 0.0907  n_fresh 0  score_w 1.00  life   1154  score    74525  contacts 6.21  drained 0.90  P(L) 0.34  P(R) 0.48  presses 560   53.1s
+gen   48  best    10.75  mean    10.27  champion    10.97  cma_sigma 0.0892  n_fresh 0  score_w 1.00  life   1109  score    76770  contacts 4.93  drained 0.88  P(L) 0.33  P(R) 0.53  presses 460   53.4s
+gen   49  best    10.78  mean    10.21  champion    10.97  cma_sigma 0.0866  n_fresh 0  score_w 1.00  life   1258  score    56537  contacts 4.19  drained 0.80  P(L) 0.28  P(R) 0.60  presses 374   53.1s
+gen   50  best    10.97  mean    10.37  champion    10.97  cma_sigma 0.0861  n_fresh 0  score_w 1.00  life   1145  score    73049  contacts 6.23  drained 0.90  P(L) 0.26  P(R) 0.55  presses 496   46.5s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen   51  best    10.89  mean    10.48  champion    10.97  cma_sigma 0.0869  n_fresh 0  score_w 1.00  life   1108  score    76865  contacts 6.25  drained 0.93  P(L) 0.22  P(R) 0.58  presses 485   49.2s
+  validation: challenger 10.632 vs champion 10.822 (diff -0.190, SE 0.101)
+gen   52  best    11.04  mean    10.43  champion    10.82  cma_sigma 0.0870  n_fresh 0  score_w 1.00  life   1170  score    77291  contacts 5.38  drained 0.87  P(L) 0.23  P(R) 0.58  presses 378   77.0s
+  validation: challenger 10.830 vs champion 10.621 (diff +0.209, SE 0.135)
+gen   53  best    10.97  mean    10.39  champion    10.62  cma_sigma 0.0865  n_fresh 0  score_w 1.00  life   1104  score    63441  contacts 5.70  drained 0.94  P(L) 0.19  P(R) 0.62  presses 399   75.7s
+  validation: challenger 10.444 vs champion 10.715 (diff -0.271, SE 0.157)
+gen   54  best    11.05  mean    10.47  champion    10.71  cma_sigma 0.0849  n_fresh 0  score_w 1.00  life   1181  score    75240  contacts 6.30  drained 0.91  P(L) 0.18  P(R) 0.64  presses 446   73.6s
+  validation: challenger 10.827 vs champion 10.576 (diff +0.251, SE 0.135)
+gen   55  best    10.83  mean    10.32  champion    10.58  cma_sigma 0.0831  n_fresh 0  score_w 1.00  life   1159  score    57414  contacts 3.56  drained 0.86  P(L) 0.11  P(R) 0.58  presses 276   73.1s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.552 vs champion 10.626 (diff -0.074, SE 0.158)
+gen   56  best    10.89  mean    10.29  champion    10.63  cma_sigma 0.0826  n_fresh 0  score_w 1.00  life    952  score    73623  contacts 5.03  drained 0.96  P(L) 0.17  P(R) 0.51  presses 370   77.3s
+  validation: challenger 10.859 vs champion 10.749 (diff +0.110, SE 0.125)
+gen   57  best    10.88  mean    10.38  champion    10.75  cma_sigma 0.0828  n_fresh 0  score_w 1.00  life   1028  score    68604  contacts 4.16  drained 0.91  P(L) 0.20  P(R) 0.55  presses 355   82.7s
+  validation: challenger 10.553 vs champion 10.592 (diff -0.039, SE 0.138)
+gen   58  best    10.85  mean    10.27  champion    10.59  cma_sigma 0.0817  n_fresh 0  score_w 1.00  life   1198  score    61676  contacts 5.61  drained 0.89  P(L) 0.12  P(R) 0.62  presses 362   87.9s
+  validation: challenger 10.806 vs champion 10.716 (diff +0.090, SE 0.103)
+gen   59  best    10.77  mean    10.19  champion    10.72  cma_sigma 0.0823  n_fresh 0  score_w 1.00  life   1071  score    67934  contacts 4.50  drained 0.90  P(L) 0.21  P(R) 0.56  presses 388   83.0s
+  validation: challenger 10.936 vs champion 10.558 (diff +0.378, SE 0.161) -> PROMOTED
+gen   60  best    10.94  mean    10.37  champion    10.94  cma_sigma 0.0818  n_fresh 0  score_w 1.00  life    907  score    59971  contacts 4.20  drained 0.95  P(L) 0.13  P(R) 0.59  presses 268   80.5s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen   61  best    10.65  mean    10.09  champion    10.94  cma_sigma 0.0822  n_fresh 0  score_w 1.00  life   1156  score    51027  contacts 3.42  drained 0.82  P(L) 0.13  P(R) 0.68  presses 230   52.8s
+gen   62  best    10.89  mean    10.40  champion    10.94  cma_sigma 0.0830  n_fresh 0  score_w 1.00  life   1134  score    77904  contacts 7.25  drained 0.95  P(L) 0.29  P(R) 0.56  presses 551   55.8s
+  validation: challenger 10.398 vs champion 10.660 (diff -0.263, SE 0.150)
+gen   63  best    11.11  mean    10.64  champion    10.66  cma_sigma 0.0842  n_fresh 0  score_w 1.00  life   1178  score    88762  contacts 5.62  drained 0.91  P(L) 0.23  P(R) 0.58  presses 540   81.2s
+  validation: challenger 10.451 vs champion 10.668 (diff -0.218, SE 0.146)
+gen   64  best    10.91  mean    10.35  champion    10.67  cma_sigma 0.0863  n_fresh 0  score_w 1.00  life   1086  score    65949  contacts 5.62  drained 0.89  P(L) 0.19  P(R) 0.67  presses 366   78.4s
+gen   65  best    10.60  mean    10.19  champion    10.67  cma_sigma 0.0868  n_fresh 0  score_w 1.00  life   1118  score    69494  contacts 5.14  drained 0.84  P(L) 0.16  P(R) 0.71  presses 346   50.2s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.792 vs champion 10.640 (diff +0.152, SE 0.121)
+gen   66  best    11.25  mean    10.65  champion    10.64  cma_sigma 0.0856  n_fresh 0  score_w 1.00  life   1197  score    81055  contacts 5.45  drained 0.88  P(L) 0.17  P(R) 0.68  presses 383   86.8s
+  validation: challenger 10.880 vs champion 10.842 (diff +0.038, SE 0.133)
+gen   67  best    10.96  mean    10.31  champion    10.84  cma_sigma 0.0834  n_fresh 0  score_w 1.00  life    987  score    60287  contacts 4.85  drained 0.92  P(L) 0.18  P(R) 0.64  presses 343   96.0s
+  validation: challenger 10.573 vs champion 10.816 (diff -0.243, SE 0.157)
+gen   68  best    10.96  mean    10.53  champion    10.82  cma_sigma 0.0812  n_fresh 0  score_w 1.00  life   1112  score    75303  contacts 5.09  drained 0.90  P(L) 0.22  P(R) 0.68  presses 449   98.1s
+  validation: challenger 10.755 vs champion 10.930 (diff -0.176, SE 0.149)
+gen   69  best    10.85  mean    10.31  champion    10.93  cma_sigma 0.0806  n_fresh 0  score_w 1.00  life   1208  score    76562  contacts 6.49  drained 0.88  P(L) 0.21  P(R) 0.60  presses 490  115.3s
+  validation: challenger 10.761 vs champion 10.774 (diff -0.014, SE 0.148)
+gen   70  best    11.09  mean    10.68  champion    10.77  cma_sigma 0.0789  n_fresh 0  score_w 1.00  life   1146  score    87812  contacts 5.65  drained 0.89  P(L) 0.19  P(R) 0.62  presses 424  104.0s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.635 vs champion 10.633 (diff +0.001, SE 0.128)
+gen   71  best    11.39  mean    10.59  champion    10.63  cma_sigma 0.0788  n_fresh 0  score_w 1.00  life   1377  score    93320  contacts 7.30  drained 0.89  P(L) 0.24  P(R) 0.67  presses 540  108.4s
+  validation: challenger 10.793 vs champion 11.022 (diff -0.228, SE 0.179)
+gen   72  best    11.31  mean    10.75  champion    11.02  cma_sigma 0.0796  n_fresh 0  score_w 1.00  life   1404  score   121521  contacts 9.06  drained 0.91  P(L) 0.25  P(R) 0.64  presses 626  108.6s
+gen   73  best    10.93  mean    10.39  champion    11.02  cma_sigma 0.0807  n_fresh 0  score_w 1.00  life   1148  score    67480  contacts 6.36  drained 0.93  P(L) 0.23  P(R) 0.68  presses 433   57.8s
+  validation: challenger 10.925 vs champion 10.913 (diff +0.012, SE 0.138)
+gen   74  best    11.11  mean    10.47  champion    10.91  cma_sigma 0.0808  n_fresh 0  score_w 1.00  life   1237  score    66973  contacts 5.55  drained 0.88  P(L) 0.17  P(R) 0.71  presses 376   98.6s
+gen   75  best    10.75  mean    10.11  champion    10.91  cma_sigma 0.0814  n_fresh 0  score_w 1.00  life   1108  score    57578  contacts 4.48  drained 0.85  P(L) 0.18  P(R) 0.70  presses 344   60.9s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen   76  best    10.70  mean    10.20  champion    10.91  cma_sigma 0.0805  n_fresh 0  score_w 1.00  life    887  score    49592  contacts 4.40  drained 0.95  P(L) 0.14  P(R) 0.67  presses 306   49.7s
+  validation: challenger 10.980 vs champion 10.936 (diff +0.044, SE 0.140)
+gen   77  best    11.02  mean    10.42  champion    10.94  cma_sigma 0.0789  n_fresh 0  score_w 1.00  life   1257  score    73123  contacts 6.24  drained 0.88  P(L) 0.16  P(R) 0.70  presses 407   99.2s
+  validation: challenger 10.976 vs champion 10.883 (diff +0.093, SE 0.138)
+gen   78  best    11.26  mean    10.64  champion    10.88  cma_sigma 0.0782  n_fresh 0  score_w 1.00  life   1163  score   102750  contacts 6.41  drained 0.94  P(L) 0.19  P(R) 0.63  presses 458   97.3s
+  validation: challenger 10.625 vs champion 10.707 (diff -0.082, SE 0.179)
+gen   79  best    11.00  mean    10.47  champion    10.71  cma_sigma 0.0762  n_fresh 0  score_w 1.00  life   1108  score    75596  contacts 5.71  drained 0.95  P(L) 0.13  P(R) 0.70  presses 365   92.8s
+  validation: challenger 10.740 vs champion 10.759 (diff -0.019, SE 0.134)
+gen   80  best    11.31  mean    10.76  champion    10.76  cma_sigma 0.0757  n_fresh 0  score_w 1.00  life   1217  score   104414  contacts 6.98  drained 0.93  P(L) 0.20  P(R) 0.60  presses 519   83.7s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.479 vs champion 10.509 (diff -0.030, SE 0.120)
+gen   81  best    11.10  mean    10.81  champion    10.51  cma_sigma 0.0765  n_fresh 0  score_w 1.00  life   1101  score    89266  contacts 5.76  drained 0.95  P(L) 0.15  P(R) 0.69  presses 347   78.4s
+  validation: challenger 10.623 vs champion 10.638 (diff -0.015, SE 0.185)
+gen   82  best    11.12  mean    10.59  champion    10.64  cma_sigma 0.0767  n_fresh 0  score_w 1.00  life   1303  score    84844  contacts 7.34  drained 0.89  P(L) 0.22  P(R) 0.63  presses 486  105.0s
+  validation: challenger 10.499 vs champion 10.510 (diff -0.012, SE 0.160)
+gen   83  best    11.09  mean    10.80  champion    10.51  cma_sigma 0.0780  n_fresh 0  score_w 1.00  life   1221  score   103432  contacts 6.74  drained 0.91  P(L) 0.18  P(R) 0.60  presses 467   97.5s
+  validation: challenger 10.606 vs champion 10.813 (diff -0.207, SE 0.152)
+gen   84  best    10.91  mean    10.43  champion    10.81  cma_sigma 0.0785  n_fresh 0  score_w 1.00  life   1243  score    73773  contacts 5.88  drained 0.87  P(L) 0.17  P(R) 0.68  presses 395  105.1s
+  validation: challenger 10.687 vs champion 10.752 (diff -0.065, SE 0.131)
+gen   85  best    11.39  mean    10.75  champion    10.75  cma_sigma 0.0795  n_fresh 0  score_w 1.00  life   1222  score    96014  contacts 6.20  drained 0.91  P(L) 0.17  P(R) 0.55  presses 477  110.2s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.511 vs champion 10.810 (diff -0.298, SE 0.135)
+gen   86  best    11.06  mean    10.42  champion    10.81  cma_sigma 0.0789  n_fresh 0  score_w 1.00  life   1323  score    71875  contacts 5.40  drained 0.82  P(L) 0.15  P(R) 0.74  presses 357  110.3s
+  validation: challenger 10.731 vs champion 10.872 (diff -0.141, SE 0.120)
+gen   87  best    10.82  mean    10.28  champion    10.87  cma_sigma 0.0774  n_fresh 0  score_w 1.00  life   1249  score    66930  contacts 5.59  drained 0.89  P(L) 0.16  P(R) 0.71  presses 366  113.5s
+gen   88  best    10.48  mean    10.14  champion    10.87  cma_sigma 0.0773  n_fresh 0  score_w 1.00  life    918  score    49627  contacts 3.52  drained 0.90  P(L) 0.13  P(R) 0.75  presses 247   52.6s
+  validation: challenger 10.455 vs champion 10.697 (diff -0.242, SE 0.121)
+gen   89  best    10.97  mean    10.66  champion    10.70  cma_sigma 0.0760  n_fresh 0  score_w 1.00  life   1267  score    81658  contacts 5.12  drained 0.87  P(L) 0.13  P(R) 0.71  presses 369  105.8s
+  validation: challenger 10.597 vs champion 10.814 (diff -0.217, SE 0.123)
+gen   90  best    10.89  mean    10.61  champion    10.81  cma_sigma 0.0739  n_fresh 0  score_w 1.00  life    906  score    64982  contacts 3.96  drained 0.97  P(L) 0.12  P(R) 0.60  presses 295   92.2s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen   91  best    10.48  mean    10.14  champion    10.81  cma_sigma 0.0732  n_fresh 0  score_w 1.00  life    873  score    44457  contacts 3.90  drained 0.96  P(L) 0.09  P(R) 0.67  presses 230   53.2s
+gen   92  best    10.78  mean    10.38  champion    10.81  cma_sigma 0.0732  n_fresh 0  score_w 1.00  life   1049  score    71957  contacts 4.92  drained 0.92  P(L) 0.15  P(R) 0.62  presses 343   63.3s
+gen   93  best    10.72  mean    10.49  champion    10.81  cma_sigma 0.0727  n_fresh 0  score_w 1.00  life   1107  score    78996  contacts 6.16  drained 0.91  P(L) 0.16  P(R) 0.60  presses 441   66.4s
+gen   94  best    10.57  mean    10.22  champion    10.81  cma_sigma 0.0739  n_fresh 0  score_w 1.00  life    960  score    59963  contacts 6.03  drained 0.96  P(L) 0.16  P(R) 0.66  presses 384   57.5s
+  validation: challenger 10.270 vs champion 10.741 (diff -0.472, SE 0.162)
+gen   95  best    10.88  mean    10.44  champion    10.74  cma_sigma 0.0743  n_fresh 0  score_w 1.00  life   1274  score    82891  contacts 6.62  drained 0.88  P(L) 0.17  P(R) 0.64  presses 474  101.2s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.849 vs champion 10.857 (diff -0.009, SE 0.144)
+gen   96  best    10.76  mean    10.19  champion    10.86  cma_sigma 0.0738  n_fresh 0  score_w 1.00  life   1113  score    64568  contacts 5.24  drained 0.89  P(L) 0.14  P(R) 0.69  presses 350   90.9s
+  validation: challenger 10.924 vs champion 11.100 (diff -0.177, SE 0.118)
+gen   97  best    11.00  mean    10.42  champion    11.10  cma_sigma 0.0724  n_fresh 0  score_w 1.00  life    951  score    64117  contacts 4.28  drained 0.92  P(L) 0.11  P(R) 0.70  presses 239   86.3s
+gen   98  best    10.72  mean    10.21  champion    11.10  cma_sigma 0.0704  n_fresh 0  score_w 1.00  life    941  score    58996  contacts 4.12  drained 0.95  P(L) 0.14  P(R) 0.65  presses 273   56.1s
+gen   99  best    10.82  mean    10.34  champion    11.10  cma_sigma 0.0679  n_fresh 0  score_w 1.00  life   1172  score    55506  contacts 3.90  drained 0.83  P(L) 0.11  P(R) 0.74  presses 262   70.5s
+  validation: challenger 10.865 vs champion 11.030 (diff -0.166, SE 0.188)
+gen  100  best    11.13  mean    10.87  champion    11.03  cma_sigma 0.0653  n_fresh 0  score_w 1.00  life   1083  score    97994  contacts 5.67  drained 0.91  P(L) 0.15  P(R) 0.66  presses 376  111.1s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen  101  best    10.78  mean    10.35  champion    11.03  cma_sigma 0.0639  n_fresh 0  score_w 1.00  life   1128  score    70002  contacts 6.27  drained 0.90  P(L) 0.15  P(R) 0.58  presses 416   71.5s
+gen  102  best    10.93  mean    10.46  champion    11.03  cma_sigma 0.0625  n_fresh 0  score_w 1.00  life    911  score    65549  contacts 3.55  drained 0.95  P(L) 0.11  P(R) 0.60  presses 251   48.9s
+gen  103  best    10.96  mean    10.70  champion    11.03  cma_sigma 0.0606  n_fresh 0  score_w 1.00  life   1279  score    91203  contacts 7.88  drained 0.92  P(L) 0.17  P(R) 0.59  presses 493   78.3s
+gen  104  best    11.02  mean    10.58  champion    11.03  cma_sigma 0.0589  n_fresh 0  score_w 1.00  life   1153  score    84330  contacts 6.07  drained 0.92  P(L) 0.18  P(R) 0.63  presses 415   68.0s
+gen  105  best    10.79  mean    10.15  champion    11.03  cma_sigma 0.0570  n_fresh 0  score_w 1.00  life    997  score    64609  contacts 4.39  drained 0.90  P(L) 0.13  P(R) 0.67  presses 312   51.0s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.456 vs champion 10.718 (diff -0.262, SE 0.171)
+gen  106  best    11.21  mean    10.68  champion    10.72  cma_sigma 0.0564  n_fresh 0  score_w 1.00  life   1084  score    88547  contacts 5.41  drained 0.91  P(L) 0.13  P(R) 0.64  presses 351  104.9s
+  validation: challenger 10.599 vs champion 10.820 (diff -0.221, SE 0.210)
+gen  107  best    11.15  mean    10.82  champion    10.82  cma_sigma 0.0551  n_fresh 0  score_w 1.00  life   1262  score   102168  contacts 7.63  drained 0.92  P(L) 0.18  P(R) 0.60  presses 489  127.2s
+  validation: challenger 10.722 vs champion 10.842 (diff -0.119, SE 0.162)
+gen  108  best    11.05  mean    10.57  champion    10.84  cma_sigma 0.0539  n_fresh 0  score_w 1.00  life   1093  score    82994  contacts 6.09  drained 0.94  P(L) 0.16  P(R) 0.58  presses 382  105.0s
+gen  109  best    10.81  mean    10.43  champion    10.84  cma_sigma 0.0542  n_fresh 0  score_w 1.00  life   1126  score    67930  contacts 5.89  drained 0.91  P(L) 0.18  P(R) 0.54  presses 431   68.2s
+gen  110  best    10.63  mean    10.28  champion    10.84  cma_sigma 0.0550  n_fresh 0  score_w 1.00  life   1030  score    71998  contacts 5.92  drained 0.93  P(L) 0.19  P(R) 0.60  presses 433   59.5s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.271 vs champion 10.662 (diff -0.390, SE 0.167)
+gen  111  best    11.10  mean    10.60  champion    10.66  cma_sigma 0.0550  n_fresh 0  score_w 1.00  life   1441  score    94490  contacts 9.23  drained 0.86  P(L) 0.18  P(R) 0.67  presses 519  115.1s
+  validation: challenger 10.651 vs champion 10.643 (diff +0.007, SE 0.139)
+gen  112  best    10.95  mean    10.68  champion    10.64  cma_sigma 0.0547  n_fresh 0  score_w 1.00  life   1242  score    87580  contacts 6.52  drained 0.91  P(L) 0.20  P(R) 0.67  presses 460  111.9s
+  validation: challenger 10.769 vs champion 10.880 (diff -0.112, SE 0.163)
+gen  113  best    11.22  mean    10.91  champion    10.88  cma_sigma 0.0553  n_fresh 0  score_w 1.00  life   1326  score   108914  contacts 7.92  drained 0.88  P(L) 0.19  P(R) 0.67  presses 485  121.2s
+  validation: challenger 10.836 vs champion 10.816 (diff +0.020, SE 0.139)
+gen  114  best    11.11  mean    10.62  champion    10.82  cma_sigma 0.0553  n_fresh 0  score_w 1.00  life   1349  score    92373  contacts 8.33  drained 0.92  P(L) 0.21  P(R) 0.63  presses 531  119.2s
+  validation: challenger 10.922 vs champion 10.722 (diff +0.200, SE 0.130)
+gen  115  best    11.17  mean    10.74  champion    10.72  cma_sigma 0.0560  n_fresh 0  score_w 1.00  life   1375  score    96115  contacts 7.66  drained 0.88  P(L) 0.23  P(R) 0.65  presses 533  123.6s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.609 vs champion 10.792 (diff -0.183, SE 0.157)
+gen  116  best    10.81  mean    10.41  champion    10.79  cma_sigma 0.0572  n_fresh 0  score_w 1.00  life   1268  score    79793  contacts 5.89  drained 0.88  P(L) 0.15  P(R) 0.72  presses 365  137.1s
+  validation: challenger 10.593 vs champion 10.867 (diff -0.274, SE 0.166)
+gen  117  best    11.30  mean    10.68  champion    10.87  cma_sigma 0.0591  n_fresh 0  score_w 1.00  life   1351  score   102070  contacts 8.73  drained 0.88  P(L) 0.22  P(R) 0.63  presses 551  157.9s
+  validation: challenger 10.611 vs champion 10.923 (diff -0.313, SE 0.160)
+gen  118  best    10.95  mean    10.52  champion    10.92  cma_sigma 0.0617  n_fresh 0  score_w 1.00  life   1207  score    86215  contacts 7.28  drained 0.92  P(L) 0.19  P(R) 0.67  presses 460  131.7s
+  validation: challenger 10.527 vs champion 10.705 (diff -0.178, SE 0.151)
+gen  119  best    10.94  mean    10.62  champion    10.70  cma_sigma 0.0623  n_fresh 0  score_w 1.00  life    982  score    84865  contacts 5.74  drained 0.95  P(L) 0.18  P(R) 0.69  presses 366  109.6s
+  validation: challenger 10.687 vs champion 10.953 (diff -0.266, SE 0.148)
+gen  120  best    11.29  mean    10.67  champion    10.95  cma_sigma 0.0622  n_fresh 0  score_w 1.00  life   1474  score   101553  contacts 7.92  drained 0.87  P(L) 0.16  P(R) 0.73  presses 478  137.0s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen  121  best    10.57  mean    10.29  champion    10.95  cma_sigma 0.0630  n_fresh 0  score_w 1.00  life   1024  score    69436  contacts 4.80  drained 0.95  P(L) 0.19  P(R) 0.62  presses 413   67.4s
+gen  122  best    10.59  mean    10.13  champion    10.95  cma_sigma 0.0622  n_fresh 0  score_w 1.00  life    993  score    62666  contacts 5.19  drained 0.92  P(L) 0.23  P(R) 0.72  presses 364   64.6s
+gen  123  best    10.85  mean    10.46  champion    10.95  cma_sigma 0.0625  n_fresh 0  score_w 1.00  life   1161  score    67980  contacts 4.94  drained 0.86  P(L) 0.15  P(R) 0.70  presses 317   77.0s
+  validation: challenger 10.581 vs champion 10.834 (diff -0.253, SE 0.153)
+gen  124  best    11.03  mean    10.71  champion    10.83  cma_sigma 0.0620  n_fresh 0  score_w 1.00  life   1227  score    78893  contacts 5.10  drained 0.87  P(L) 0.13  P(R) 0.73  presses 318  110.7s
+  validation: challenger 10.566 vs champion 10.669 (diff -0.103, SE 0.124)
+gen  125  best    10.85  mean    10.43  champion    10.67  cma_sigma 0.0625  n_fresh 0  score_w 1.00  life   1142  score    83750  contacts 6.75  drained 0.91  P(L) 0.19  P(R) 0.63  presses 449   98.3s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.450 vs champion 10.746 (diff -0.296, SE 0.099)
+gen  126  best    10.78  mean    10.24  champion    10.75  cma_sigma 0.0620  n_fresh 0  score_w 1.00  life   1055  score    81029  contacts 5.77  drained 0.95  P(L) 0.21  P(R) 0.61  presses 441   97.1s
+  validation: challenger 10.712 vs champion 10.879 (diff -0.167, SE 0.169)
+gen  127  best    11.07  mean    10.83  champion    10.88  cma_sigma 0.0613  n_fresh 0  score_w 1.00  life   1070  score   101309  contacts 5.07  drained 0.94  P(L) 0.17  P(R) 0.69  presses 376   99.6s
+  validation: challenger 10.496 vs champion 10.629 (diff -0.133, SE 0.099)
+gen  128  best    11.09  mean    10.78  champion    10.63  cma_sigma 0.0612  n_fresh 0  score_w 1.00  life   1362  score    99729  contacts 7.52  drained 0.90  P(L) 0.17  P(R) 0.68  presses 470  100.4s
+  validation: challenger 10.714 vs champion 10.884 (diff -0.170, SE 0.180)
+gen  129  best    11.14  mean    10.65  champion    10.88  cma_sigma 0.0605  n_fresh 0  score_w 1.00  life   1218  score    80627  contacts 5.81  drained 0.88  P(L) 0.18  P(R) 0.73  presses 361   96.9s
+  validation: challenger 10.651 vs champion 11.018 (diff -0.367, SE 0.165)
+gen  130  best    11.14  mean    10.29  champion    11.02  cma_sigma 0.0609  n_fresh 0  score_w 1.00  life   1611  score    64074  contacts 4.45  drained 0.68  P(L) 0.11  P(R) 0.76  presses 285  113.4s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen  131  best    10.90  mean    10.42  champion    11.02  cma_sigma 0.0602  n_fresh 0  score_w 1.00  life   1219  score    72240  contacts 6.05  drained 0.86  P(L) 0.13  P(R) 0.73  presses 355   65.2s
+gen  132  best    10.78  mean    10.41  champion    11.02  cma_sigma 0.0592  n_fresh 0  score_w 1.00  life    952  score    57182  contacts 3.77  drained 0.89  P(L) 0.17  P(R) 0.71  presses 274   48.2s
+gen  133  best    10.58  mean    10.26  champion    11.02  cma_sigma 0.0581  n_fresh 0  score_w 1.00  life   1062  score    75668  contacts 5.94  drained 0.91  P(L) 0.19  P(R) 0.69  presses 370   57.6s
+gen  134  best    10.79  mean    10.39  champion    11.02  cma_sigma 0.0580  n_fresh 0  score_w 1.00  life   1169  score    68477  contacts 5.66  drained 0.89  P(L) 0.23  P(R) 0.71  presses 443   62.6s
+  validation: challenger 10.772 vs champion 11.008 (diff -0.237, SE 0.118)
+gen  135  best    11.24  mean    10.53  champion    11.01  cma_sigma 0.0587  n_fresh 0  score_w 1.00  life   1269  score    87707  contacts 7.12  drained 0.88  P(L) 0.18  P(R) 0.69  presses 434  105.3s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen  136  best    10.96  mean    10.57  champion    11.01  cma_sigma 0.0600  n_fresh 0  score_w 1.00  life   1187  score    86611  contacts 6.71  drained 0.87  P(L) 0.19  P(R) 0.63  presses 445   66.7s
+  validation: challenger 10.861 vs champion 10.817 (diff +0.044, SE 0.148)
+gen  137  best    11.04  mean    10.71  champion    10.82  cma_sigma 0.0616  n_fresh 0  score_w 1.00  life   1248  score   104496  contacts 8.34  drained 0.87  P(L) 0.18  P(R) 0.61  presses 503  109.8s
+  validation: challenger 10.757 vs champion 10.954 (diff -0.198, SE 0.146)
+gen  138  best    10.99  mean    10.35  champion    10.95  cma_sigma 0.0621  n_fresh 0  score_w 1.00  life   1064  score    69477  contacts 6.11  drained 0.95  P(L) 0.18  P(R) 0.60  presses 431   91.3s
+  validation: challenger 10.665 vs champion 10.917 (diff -0.252, SE 0.129)
+gen  139  best    11.03  mean    10.62  champion    10.92  cma_sigma 0.0612  n_fresh 0  score_w 1.00  life   1350  score    96793  contacts 7.65  drained 0.85  P(L) 0.20  P(R) 0.63  presses 554  108.6s
+  validation: challenger 10.569 vs champion 10.747 (diff -0.178, SE 0.131)
+gen  140  best    11.02  mean    10.71  champion    10.75  cma_sigma 0.0603  n_fresh 0  score_w 1.00  life   1298  score   102521  contacts 8.59  drained 0.94  P(L) 0.20  P(R) 0.57  presses 592  109.4s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.833 vs champion 10.895 (diff -0.063, SE 0.140)
+gen  141  best    11.05  mean    10.81  champion    10.90  cma_sigma 0.0604  n_fresh 0  score_w 1.00  life   1286  score   105535  contacts 6.64  drained 0.90  P(L) 0.17  P(R) 0.62  presses 475  106.9s
+  validation: challenger 10.740 vs champion 10.594 (diff +0.146, SE 0.120)
+gen  142  best    11.36  mean    10.78  champion    10.59  cma_sigma 0.0610  n_fresh 0  score_w 1.00  life   1273  score   101559  contacts 6.95  drained 0.91  P(L) 0.16  P(R) 0.67  presses 399  105.8s
+  validation: challenger 10.638 vs champion 10.806 (diff -0.168, SE 0.134)
+gen  143  best    11.12  mean    10.51  champion    10.81  cma_sigma 0.0604  n_fresh 0  score_w 1.00  life   1364  score    77801  contacts 5.61  drained 0.86  P(L) 0.16  P(R) 0.71  presses 404  104.9s
+  validation: challenger 10.594 vs champion 10.645 (diff -0.051, SE 0.127)
+gen  144  best    11.25  mean    10.58  champion    10.64  cma_sigma 0.0593  n_fresh 0  score_w 1.00  life   1364  score    77670  contacts 4.98  drained 0.80  P(L) 0.16  P(R) 0.78  presses 354  107.7s
+  validation: challenger 10.762 vs champion 10.755 (diff +0.007, SE 0.184)
+gen  145  best    10.89  mean    10.59  champion    10.75  cma_sigma 0.0579  n_fresh 0  score_w 1.00  life   1088  score    77508  contacts 6.91  drained 0.95  P(L) 0.22  P(R) 0.68  presses 431   90.1s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.597 vs champion 10.773 (diff -0.176, SE 0.167)
+gen  146  best    10.92  mean    10.43  champion    10.77  cma_sigma 0.0562  n_fresh 0  score_w 1.00  life   1491  score    81180  contacts 6.79  drained 0.79  P(L) 0.16  P(R) 0.78  presses 388  108.6s
+  validation: challenger 10.621 vs champion 10.835 (diff -0.214, SE 0.193)
+gen  147  best    10.91  mean    10.67  champion    10.84  cma_sigma 0.0561  n_fresh 0  score_w 1.00  life   1008  score    81045  contacts 5.70  drained 0.94  P(L) 0.18  P(R) 0.67  presses 374   87.6s
+  validation: challenger 10.741 vs champion 11.026 (diff -0.286, SE 0.155)
+gen  148  best    10.93  mean    10.68  champion    11.03  cma_sigma 0.0555  n_fresh 0  score_w 1.00  life   1128  score    85281  contacts 6.66  drained 0.95  P(L) 0.23  P(R) 0.63  presses 481   95.5s
+gen  149  best    10.99  mean    10.59  champion    11.03  cma_sigma 0.0541  n_fresh 0  score_w 1.00  life   1181  score    81189  contacts 6.17  drained 0.91  P(L) 0.20  P(R) 0.65  presses 458   65.0s
+gen  150  best    10.28  mean     9.98  champion    11.03  cma_sigma 0.0527  n_fresh 0  score_w 1.00  life    950  score    52770  contacts 5.09  drained 0.94  P(L) 0.17  P(R) 0.68  presses 313   48.5s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.728 vs champion 10.646 (diff +0.082, SE 0.176)
+gen  151  best    11.07  mean    10.61  champion    10.65  cma_sigma 0.0524  n_fresh 0  score_w 1.00  life   1261  score    76281  contacts 6.26  drained 0.92  P(L) 0.17  P(R) 0.66  presses 424   93.9s
+  validation: challenger 10.876 vs champion 10.940 (diff -0.064, SE 0.106)
+gen  152  best    11.58  mean    10.73  champion    10.94  cma_sigma 0.0516  n_fresh 0  score_w 1.00  life   1382  score    93484  contacts 7.16  drained 0.80  P(L) 0.14  P(R) 0.73  presses 364  104.9s
+gen  153  best    10.80  mean    10.17  champion    10.94  cma_sigma 0.0500  n_fresh 0  score_w 1.00  life    967  score    59203  contacts 4.59  drained 0.94  P(L) 0.15  P(R) 0.72  presses 288   50.8s
+gen  154  best    10.90  mean    10.55  champion    10.94  cma_sigma 0.0494  n_fresh 0  score_w 1.00  life   1072  score    78141  contacts 5.16  drained 0.91  P(L) 0.13  P(R) 0.73  presses 283   55.5s
+  validation: challenger 10.715 vs champion 10.848 (diff -0.133, SE 0.155)
+gen  155  best    11.14  mean    10.65  champion    10.85  cma_sigma 0.0485  n_fresh 0  score_w 1.00  life   1361  score    85082  contacts 6.75  drained 0.84  P(L) 0.13  P(R) 0.71  presses 362  101.1s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.497 vs champion 10.729 (diff -0.232, SE 0.152)
+gen  156  best    11.47  mean    10.63  champion    10.73  cma_sigma 0.0473  n_fresh 0  score_w 1.00  life   1271  score    90285  contacts 6.66  drained 0.86  P(L) 0.11  P(R) 0.78  presses 296  100.1s
+  validation: challenger 10.655 vs champion 10.840 (diff -0.185, SE 0.198)
+gen  157  best    11.23  mean    10.81  champion    10.84  cma_sigma 0.0459  n_fresh 0  score_w 1.00  life   1359  score    81186  contacts 5.02  drained 0.81  P(L) 0.12  P(R) 0.79  presses 268  110.6s
+  validation: challenger 10.834 vs champion 11.020 (diff -0.186, SE 0.092)
+gen  158  best    11.22  mean    10.86  champion    11.02  cma_sigma 0.0442  n_fresh 0  score_w 1.00  life   1387  score   100248  contacts 8.21  drained 0.93  P(L) 0.18  P(R) 0.65  presses 490  106.7s
+gen  159  best    11.00  mean    10.63  champion    11.02  cma_sigma 0.0424  n_fresh 0  score_w 1.00  life   1113  score    98203  contacts 6.16  drained 0.92  P(L) 0.17  P(R) 0.66  presses 390   60.3s
+gen  160  best    10.83  mean    10.40  champion    11.02  cma_sigma 0.0403  n_fresh 0  score_w 1.00  life   1091  score    61447  contacts 5.26  drained 0.88  P(L) 0.13  P(R) 0.70  presses 263   57.8s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.581 vs champion 10.794 (diff -0.212, SE 0.126)
+gen  161  best    11.26  mean    10.80  champion    10.79  cma_sigma 0.0394  n_fresh 0  score_w 1.00  life   1094  score    84477  contacts 4.89  drained 0.91  P(L) 0.14  P(R) 0.69  presses 290   84.5s
+  validation: challenger 10.669 vs champion 10.824 (diff -0.155, SE 0.156)
+gen  162  best    11.15  mean    10.72  champion    10.82  cma_sigma 0.0382  n_fresh 0  score_w 1.00  life   1214  score    77488  contacts 6.14  drained 0.86  P(L) 0.12  P(R) 0.75  presses 282   95.2s
+  validation: challenger 10.742 vs champion 10.617 (diff +0.125, SE 0.170)
+gen  163  best    11.10  mean    10.65  champion    10.62  cma_sigma 0.0377  n_fresh 0  score_w 1.00  life   1330  score    73311  contacts 5.48  drained 0.84  P(L) 0.11  P(R) 0.76  presses 287  104.3s
+  validation: challenger 10.739 vs champion 10.703 (diff +0.036, SE 0.155)
+gen  164  best    11.25  mean    10.57  champion    10.70  cma_sigma 0.0377  n_fresh 0  score_w 1.00  life   1254  score    79549  contacts 6.55  drained 0.88  P(L) 0.12  P(R) 0.73  presses 328   98.6s
+  validation: challenger 10.724 vs champion 10.859 (diff -0.136, SE 0.179)
+gen  165  best    11.18  mean    10.85  champion    10.86  cma_sigma 0.0380  n_fresh 0  score_w 1.00  life   1570  score   115119  contacts 9.95  drained 0.85  P(L) 0.16  P(R) 0.64  presses 559  118.1s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.689 vs champion 10.658 (diff +0.032, SE 0.154)
+gen  166  best    11.08  mean    10.75  champion    10.66  cma_sigma 0.0377  n_fresh 0  score_w 1.00  life   1267  score    98076  contacts 7.51  drained 0.93  P(L) 0.15  P(R) 0.63  presses 426  100.1s
+gen  167  best    10.62  mean    10.26  champion    10.66  cma_sigma 0.0370  n_fresh 0  score_w 1.00  life   1348  score    76061  contacts 7.05  drained 0.81  P(L) 0.12  P(R) 0.73  presses 323   73.5s
+  validation: challenger 10.667 vs champion 10.759 (diff -0.092, SE 0.137)
+gen  168  best    11.02  mean    10.62  champion    10.76  cma_sigma 0.0370  n_fresh 0  score_w 1.00  life   1243  score    79510  contacts 6.47  drained 0.86  P(L) 0.14  P(R) 0.70  presses 344   94.6s
+  validation: challenger 10.779 vs champion 10.648 (diff +0.131, SE 0.150)
+gen  169  best    11.14  mean    10.73  champion    10.65  cma_sigma 0.0366  n_fresh 0  score_w 1.00  life    979  score    91443  contacts 5.56  drained 0.95  P(L) 0.13  P(R) 0.67  presses 313   92.1s
+  validation: challenger 10.693 vs champion 10.783 (diff -0.090, SE 0.114)
+gen  170  best    11.30  mean    11.02  champion    10.78  cma_sigma 0.0361  n_fresh 0  score_w 1.00  life   1368  score   123043  contacts 7.99  drained 0.93  P(L) 0.16  P(R) 0.65  presses 476  112.8s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.693 vs champion 11.020 (diff -0.327, SE 0.181)
+gen  171  best    11.26  mean    10.98  champion    11.02  cma_sigma 0.0355  n_fresh 0  score_w 1.00  life   1158  score   100840  contacts 6.72  drained 0.94  P(L) 0.14  P(R) 0.68  presses 356  100.9s
+  validation: challenger 10.554 vs champion 10.660 (diff -0.106, SE 0.133)
+gen  172  best    11.10  mean    10.40  champion    10.66  cma_sigma 0.0343  n_fresh 0  score_w 1.00  life    933  score    67846  contacts 4.15  drained 0.95  P(L) 0.11  P(R) 0.76  presses 240   80.8s
+  validation: challenger 10.677 vs champion 10.772 (diff -0.096, SE 0.132)
+gen  173  best    11.20  mean    10.53  champion    10.77  cma_sigma 0.0339  n_fresh 0  score_w 1.00  life   1289  score    84059  contacts 6.05  drained 0.87  P(L) 0.12  P(R) 0.75  presses 305  105.4s
+  validation: challenger 10.435 vs champion 10.694 (diff -0.260, SE 0.182)
+gen  174  best    11.10  mean    10.59  champion    10.69  cma_sigma 0.0341  n_fresh 0  score_w 1.00  life   1060  score    85410  contacts 5.80  drained 0.94  P(L) 0.16  P(R) 0.68  presses 366   91.8s
+  validation: challenger 11.099 vs champion 10.988 (diff +0.111, SE 0.166)
+gen  175  best    11.18  mean    10.53  champion    10.99  cma_sigma 0.0336  n_fresh 0  score_w 1.00  life   1228  score    99596  contacts 7.77  drained 0.91  P(L) 0.22  P(R) 0.61  presses 528  108.1s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.943 vs champion 10.710 (diff +0.233, SE 0.115) -> PROMOTED
+gen  176  best    11.25  mean    10.82  champion    10.94  cma_sigma 0.0327  n_fresh 0  score_w 1.00  life   1518  score   107105  contacts 7.88  drained 0.81  P(L) 0.15  P(R) 0.74  presses 424  116.7s
+  validation: challenger 10.595 vs champion 10.576 (diff +0.018, SE 0.116)
+gen  177  best    11.04  mean    10.79  champion    10.58  cma_sigma 0.2000  n_fresh 0  score_w 1.00  life   1375  score   101074  contacts 8.95  drained 0.91  P(L) 0.15  P(R) 0.71  presses 418  [IPOP RESTART #1, popsize->32]  108.7s
+  validation: challenger 10.543 vs champion 10.669 (diff -0.125, SE 0.186)
+gen  178  best    10.76  mean     9.71  champion    10.67  cma_sigma 0.1961  n_fresh 0  score_w 1.00  life   1795  score    39577  contacts 2.92  drained 0.54  P(L) 0.29  P(R) 0.79  presses 370  230.6s
+  validation: challenger 10.532 vs champion 10.651 (diff -0.119, SE 0.165)
+gen  179  best    10.85  mean    10.03  champion    10.65  cma_sigma 0.1962  n_fresh 0  score_w 1.00  life   1400  score    50063  contacts 3.80  drained 0.75  P(L) 0.42  P(R) 0.61  presses 448  186.0s
+  validation: challenger 10.805 vs champion 10.687 (diff +0.118, SE 0.210)
+gen  180  best    10.78  mean     9.82  champion    10.69  cma_sigma 0.1944  n_fresh 0  score_w 1.00  life   1052  score    46114  contacts 4.12  drained 0.87  P(L) 0.38  P(R) 0.43  presses 353  156.1s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.700 vs champion 10.784 (diff -0.084, SE 0.145)
+gen  181  best    11.01  mean    10.50  champion    10.78  cma_sigma 0.1942  n_fresh 0  score_w 1.00  life   1392  score    82396  contacts 4.61  drained 0.82  P(L) 0.33  P(R) 0.53  presses 519  189.8s
+  validation: challenger 10.536 vs champion 10.614 (diff -0.078, SE 0.123)
+gen  182  best    10.81  mean    10.29  champion    10.61  cma_sigma 0.1979  n_fresh 0  score_w 1.00  life   1080  score    66143  contacts 5.18  drained 0.89  P(L) 0.31  P(R) 0.43  presses 498  151.4s
+  validation: challenger 10.465 vs champion 10.692 (diff -0.227, SE 0.136)
+gen  183  best    10.73  mean    10.24  champion    10.69  cma_sigma 0.2023  n_fresh 0  score_w 1.00  life    940  score    54382  contacts 4.41  drained 0.94  P(L) 0.35  P(R) 0.52  presses 453  132.6s
+  validation: challenger 10.540 vs champion 10.583 (diff -0.043, SE 0.144)
+gen  184  best    10.82  mean    10.08  champion    10.58  cma_sigma 0.2016  n_fresh 0  score_w 1.00  life   1121  score    48736  contacts 3.03  drained 0.85  P(L) 0.27  P(R) 0.42  presses 333  151.8s
+gen  185  best    10.46  mean     9.77  champion    10.58  cma_sigma 0.1992  n_fresh 0  score_w 1.00  life   1084  score    48438  contacts 4.37  drained 0.86  P(L) 0.39  P(R) 0.54  presses 456  120.0s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.512 vs champion 10.811 (diff -0.298, SE 0.131)
+gen  186  best    10.67  mean    10.16  champion    10.81  cma_sigma 0.2005  n_fresh 0  score_w 1.00  life   1031  score    69535  contacts 5.71  drained 0.95  P(L) 0.39  P(R) 0.48  presses 615  159.7s
+gen  187  best    10.44  mean     9.76  champion    10.81  cma_sigma 0.2031  n_fresh 0  score_w 1.00  life    853  score    48850  contacts 3.80  drained 0.94  P(L) 0.37  P(R) 0.41  presses 421   99.7s
+gen  188  best    10.76  mean    10.22  champion    10.81  cma_sigma 0.2078  n_fresh 0  score_w 1.00  life    906  score    61609  contacts 4.37  drained 0.94  P(L) 0.37  P(R) 0.34  presses 459  113.0s
+  validation: challenger 10.335 vs champion 10.726 (diff -0.392, SE 0.159)
+gen  189  best    10.85  mean     9.96  champion    10.73  cma_sigma 0.2078  n_fresh 0  score_w 1.00  life   1113  score    67422  contacts 5.48  drained 0.88  P(L) 0.39  P(R) 0.28  presses 513  168.4s
+gen  190  best    10.72  mean    10.00  champion    10.73  cma_sigma 0.2056  n_fresh 0  score_w 1.00  life   1188  score    46171  contacts 3.18  drained 0.82  P(L) 0.42  P(R) 0.38  presses 418  145.2s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.537 vs champion 10.590 (diff -0.054, SE 0.127)
+gen  191  best    10.90  mean    10.21  champion    10.59  cma_sigma 0.2010  n_fresh 0  score_w 1.00  life    963  score    56396  contacts 2.60  drained 0.89  P(L) 0.33  P(R) 0.27  presses 331  150.0s
+  validation: challenger 10.659 vs champion 10.817 (diff -0.158, SE 0.139)
+gen  192  best    10.78  mean    10.18  champion    10.82  cma_sigma 0.2001  n_fresh 0  score_w 1.00  life    920  score    54111  contacts 3.82  drained 0.93  P(L) 0.35  P(R) 0.25  presses 385  149.5s
+gen  193  best    10.59  mean    10.08  champion    10.82  cma_sigma 0.1971  n_fresh 0  score_w 1.00  life    866  score    46816  contacts 2.57  drained 0.90  P(L) 0.33  P(R) 0.30  presses 299  106.4s
+  validation: challenger 10.572 vs champion 10.710 (diff -0.138, SE 0.143)
+gen  194  best    10.94  mean    10.31  champion    10.71  cma_sigma 0.1963  n_fresh 0  score_w 1.00  life   1357  score    82506  contacts 4.41  drained 0.82  P(L) 0.31  P(R) 0.34  presses 540  198.2s
+gen  195  best    10.60  mean    10.23  champion    10.71  cma_sigma 0.1995  n_fresh 0  score_w 1.00  life    998  score    57987  contacts 4.00  drained 0.89  P(L) 0.33  P(R) 0.28  presses 422  117.9s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen  196  best    10.71  mean    10.33  champion    10.71  cma_sigma 0.2045  n_fresh 0  score_w 1.00  life   1076  score    66362  contacts 4.98  drained 0.93  P(L) 0.40  P(R) 0.31  presses 525  127.3s
+  validation: challenger 10.467 vs champion 10.539 (diff -0.072, SE 0.125)
+gen  197  best    11.11  mean    10.57  champion    10.54  cma_sigma 0.2102  n_fresh 0  score_w 1.00  life   1238  score    82409  contacts 4.82  drained 0.89  P(L) 0.30  P(R) 0.23  presses 516  185.9s
+  validation: challenger 10.573 vs champion 10.754 (diff -0.181, SE 0.136)
+gen  198  best    10.90  mean    10.30  champion    10.75  cma_sigma 0.2165  n_fresh 0  score_w 1.00  life    870  score    60986  contacts 3.93  drained 0.96  P(L) 0.33  P(R) 0.22  presses 376  133.2s
+gen  199  best    10.33  mean     9.94  champion    10.75  cma_sigma 0.2202  n_fresh 0  score_w 1.00  life    682  score    37896  contacts 2.53  drained 0.98  P(L) 0.25  P(R) 0.21  presses 252   79.8s
+gen  200  best    10.60  mean     9.99  champion    10.75  cma_sigma 0.2267  n_fresh 0  score_w 1.00  life    997  score    51840  contacts 4.10  drained 0.91  P(L) 0.27  P(R) 0.26  presses 408  127.2s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen  201  best    10.62  mean    10.08  champion    10.75  cma_sigma 0.2282  n_fresh 0  score_w 1.00  life   1077  score    61272  contacts 4.99  drained 0.88  P(L) 0.36  P(R) 0.41  presses 469  127.5s
+  validation: challenger 10.371 vs champion 10.720 (diff -0.349, SE 0.104)
+gen  202  best    10.83  mean    10.03  champion    10.72  cma_sigma 0.2269  n_fresh 0  score_w 1.00  life   1242  score    56389  contacts 5.24  drained 0.84  P(L) 0.38  P(R) 0.42  presses 497  185.8s
+gen  203  best    10.58  mean     9.95  champion    10.72  cma_sigma 0.2294  n_fresh 0  score_w 1.00  life    984  score    55130  contacts 4.34  drained 0.91  P(L) 0.37  P(R) 0.32  presses 433  122.5s
+gen  204  best    10.64  mean    10.05  champion    10.72  cma_sigma 0.2287  n_fresh 0  score_w 1.00  life    895  score    45732  contacts 3.19  drained 0.92  P(L) 0.37  P(R) 0.40  presses 352  106.0s
+  validation: challenger 10.208 vs champion 10.591 (diff -0.383, SE 0.150)
+gen  205  best    10.80  mean    10.16  champion    10.59  cma_sigma 0.2254  n_fresh 0  score_w 1.00  life    778  score    56397  contacts 3.00  drained 0.96  P(L) 0.37  P(R) 0.14  presses 280  126.3s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.334 vs champion 10.918 (diff -0.584, SE 0.168)
+gen  206  best    11.01  mean    10.38  champion    10.92  cma_sigma 0.2210  n_fresh 0  score_w 1.00  life    973  score    65557  contacts 3.70  drained 0.95  P(L) 0.30  P(R) 0.18  presses 362  147.1s
+gen  207  best    10.55  mean    10.08  champion    10.92  cma_sigma 0.2201  n_fresh 0  score_w 1.00  life    682  score    43003  contacts 2.64  drained 0.97  P(L) 0.34  P(R) 0.12  presses 238   84.1s
+gen  208  best    10.67  mean    10.36  champion    10.92  cma_sigma 0.2186  n_fresh 0  score_w 1.00  life    900  score    58511  contacts 3.82  drained 0.95  P(L) 0.42  P(R) 0.21  presses 379  107.6s
+gen  209  best    10.68  mean    10.07  champion    10.92  cma_sigma 0.2151  n_fresh 0  score_w 1.00  life    954  score    51157  contacts 4.23  drained 0.92  P(L) 0.48  P(R) 0.34  presses 400  110.5s
+gen  210  best    10.37  mean     9.96  champion    10.92  cma_sigma 0.2107  n_fresh 0  score_w 1.00  life    879  score    46662  contacts 3.04  drained 0.93  P(L) 0.32  P(R) 0.24  presses 297  108.6s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen  211  best    10.69  mean    10.05  champion    10.92  cma_sigma 0.2060  n_fresh 0  score_w 1.00  life    902  score    54287  contacts 4.28  drained 0.95  P(L) 0.32  P(R) 0.25  presses 400  108.9s
+gen  212  best    10.67  mean    10.04  champion    10.92  cma_sigma 0.2020  n_fresh 0  score_w 1.00  life    958  score    64621  contacts 4.41  drained 0.92  P(L) 0.37  P(R) 0.36  presses 448  121.3s
+gen  213  best    10.07  mean     9.56  champion    10.92  cma_sigma 0.1962  n_fresh 0  score_w 1.00  life    706  score    35884  contacts 2.82  drained 0.95  P(L) 0.36  P(R) 0.35  presses 304   82.4s
+gen  214  best    10.87  mean    10.50  champion    10.92  cma_sigma 0.1890  n_fresh 0  score_w 1.00  life   1107  score    84815  contacts 5.85  drained 0.93  P(L) 0.40  P(R) 0.34  presses 598  132.3s
+  validation: challenger 10.381 vs champion 10.980 (diff -0.599, SE 0.127)
+gen  215  best    10.97  mean    10.38  champion    10.98  cma_sigma 0.1849  n_fresh 0  score_w 1.00  life   1150  score    84012  contacts 5.91  drained 0.92  P(L) 0.38  P(R) 0.30  presses 606  170.3s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen  216  best    10.51  mean    10.23  champion    10.98  cma_sigma 0.1787  n_fresh 0  score_w 1.00  life    977  score    72349  contacts 5.64  drained 0.94  P(L) 0.45  P(R) 0.43  presses 604  106.1s
+gen  217  best    10.67  mean    10.23  champion    10.98  cma_sigma 0.1723  n_fresh 0  score_w 1.00  life   1011  score    70010  contacts 6.21  drained 0.95  P(L) 0.33  P(R) 0.31  presses 575  110.2s
+gen  218  best    10.59  mean    10.26  champion    10.98  cma_sigma 0.1655  n_fresh 0  score_w 1.00  life   1099  score    75185  contacts 5.88  drained 0.92  P(L) 0.36  P(R) 0.34  presses 610  122.2s
+gen  219  best    10.77  mean    10.41  champion    10.98  cma_sigma 0.1625  n_fresh 0  score_w 1.00  life   1087  score    82534  contacts 6.47  drained 0.96  P(L) 0.36  P(R) 0.27  presses 628  118.7s
+gen  220  best    10.75  mean    10.11  champion    10.98  cma_sigma 0.1586  n_fresh 0  score_w 1.00  life    884  score    62027  contacts 4.47  drained 0.96  P(L) 0.33  P(R) 0.22  presses 426  106.0s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen  221  best    10.68  mean    10.35  champion    10.98  cma_sigma 0.1573  n_fresh 0  score_w 1.00  life    889  score    66125  contacts 4.39  drained 0.98  P(L) 0.30  P(R) 0.21  presses 450   99.5s
+gen  222  best    10.78  mean    10.12  champion    10.98  cma_sigma 0.1539  n_fresh 0  score_w 1.00  life    925  score    61282  contacts 4.26  drained 0.95  P(L) 0.35  P(R) 0.16  presses 414   98.8s
+gen  223  best    10.80  mean    10.24  champion    10.98  cma_sigma 0.1490  n_fresh 0  score_w 1.00  life   1152  score    72272  contacts 5.86  drained 0.91  P(L) 0.46  P(R) 0.24  presses 541  126.2s
+gen  224  best    10.78  mean    10.38  champion    10.98  cma_sigma 0.1437  n_fresh 0  score_w 1.00  life    852  score    65113  contacts 3.87  drained 0.98  P(L) 0.34  P(R) 0.18  presses 403   91.5s
+gen  225  best    10.89  mean    10.26  champion    10.98  cma_sigma 0.1416  n_fresh 0  score_w 1.00  life    931  score    64089  contacts 4.88  drained 0.96  P(L) 0.40  P(R) 0.18  presses 442  103.6s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.572 vs champion 10.824 (diff -0.253, SE 0.134)
+gen  226  best    11.10  mean    10.44  champion    10.82  cma_sigma 0.1425  n_fresh 0  score_w 1.00  life   1048  score    81890  contacts 6.33  drained 0.95  P(L) 0.39  P(R) 0.19  presses 533  147.8s
+  validation: challenger 10.114 vs champion 10.829 (diff -0.715, SE 0.157)
+gen  227  best    10.91  mean    10.66  champion    10.83  cma_sigma 0.1403  n_fresh 0  score_w 1.00  life    858  score    69549  contacts 2.12  drained 0.97  P(L) 0.42  P(R) 0.21  presses 383  117.7s
+  validation: challenger 10.598 vs champion 10.588 (diff +0.010, SE 0.110)
+gen  228  best    10.99  mean    10.31  champion    10.59  cma_sigma 0.1376  n_fresh 0  score_w 1.00  life    788  score    54744  contacts 2.78  drained 0.98  P(L) 0.23  P(R) 0.06  presses 236  121.1s
+gen  229  best    10.48  mean    10.02  champion    10.59  cma_sigma 0.1385  n_fresh 0  score_w 1.00  life    652  score    42562  contacts 2.34  drained 0.99  P(L) 0.21  P(R) 0.08  presses 215   70.3s
+  validation: challenger 10.633 vs champion 11.020 (diff -0.387, SE 0.120)
+gen  230  best    10.68  mean    10.18  champion    11.02  cma_sigma 0.1406  n_fresh 0  score_w 1.00  life    864  score    61920  contacts 4.64  drained 0.96  P(L) 0.35  P(R) 0.23  presses 459  135.0s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen  231  best    10.70  mean    10.29  champion    11.02  cma_sigma 0.1405  n_fresh 0  score_w 1.00  life    984  score    72032  contacts 5.57  drained 0.94  P(L) 0.36  P(R) 0.22  presses 522  108.9s
+gen  232  best    10.91  mean    10.10  champion    11.02  cma_sigma 0.1419  n_fresh 0  score_w 1.00  life    946  score    76917  contacts 5.25  drained 0.97  P(L) 0.32  P(R) 0.22  presses 509  108.7s
+gen  233  best    10.69  mean    10.24  champion    11.02  cma_sigma 0.1415  n_fresh 0  score_w 1.00  life    852  score    61057  contacts 3.65  drained 0.98  P(L) 0.41  P(R) 0.25  presses 444   92.7s
+gen  234  best    10.88  mean     9.98  champion    11.02  cma_sigma 0.1388  n_fresh 0  score_w 1.00  life   1002  score    72188  contacts 5.52  drained 0.94  P(L) 0.38  P(R) 0.24  presses 528  114.1s
+gen  235  best    10.67  mean    10.16  champion    11.02  cma_sigma 0.1358  n_fresh 0  score_w 1.00  life   1107  score    68957  contacts 5.71  drained 0.89  P(L) 0.46  P(R) 0.33  presses 608  120.9s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen  236  best    10.83  mean    10.22  champion    11.02  cma_sigma 0.1354  n_fresh 0  score_w 1.00  life   1051  score    66702  contacts 5.99  drained 0.93  P(L) 0.38  P(R) 0.27  presses 555  117.5s
+gen  237  best    10.65  mean    10.19  champion    11.02  cma_sigma 0.1338  n_fresh 0  score_w 1.00  life    988  score    73816  contacts 5.84  drained 0.95  P(L) 0.31  P(R) 0.28  presses 572  108.7s
+gen  238  best    10.68  mean    10.29  champion    11.02  cma_sigma 0.1316  n_fresh 0  score_w 1.00  life   1180  score    77373  contacts 6.74  drained 0.92  P(L) 0.36  P(R) 0.24  presses 649  132.0s
+gen  239  best    10.82  mean    10.32  champion    11.02  cma_sigma 0.1314  n_fresh 0  score_w 1.00  life   1014  score    76152  contacts 5.84  drained 0.95  P(L) 0.27  P(R) 0.23  presses 542  112.4s
+  validation: challenger 10.562 vs champion 10.679 (diff -0.116, SE 0.132)
+gen  240  best    11.05  mean    10.57  champion    10.68  cma_sigma 0.1327  n_fresh 0  score_w 1.00  life    934  score    87602  contacts 4.48  drained 0.98  P(L) 0.30  P(R) 0.25  presses 491  137.5s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.591 vs champion 10.668 (diff -0.077, SE 0.151)
+gen  241  best    10.87  mean    10.42  champion    10.67  cma_sigma 0.1323  n_fresh 0  score_w 1.00  life   1069  score    75110  contacts 5.32  drained 0.96  P(L) 0.26  P(R) 0.19  presses 535  151.5s
+  validation: challenger 10.640 vs champion 10.894 (diff -0.254, SE 0.109)
+gen  242  best    10.86  mean    10.37  champion    10.89  cma_sigma 0.1338  n_fresh 0  score_w 1.00  life    956  score    68828  contacts 4.78  drained 0.96  P(L) 0.34  P(R) 0.23  presses 490  135.1s
+gen  243  best    10.73  mean    10.37  champion    10.89  cma_sigma 0.1333  n_fresh 0  score_w 1.00  life   1060  score    70026  contacts 5.55  drained 0.92  P(L) 0.41  P(R) 0.22  presses 531  112.3s
+gen  244  best    10.85  mean    10.20  champion    10.89  cma_sigma 0.1317  n_fresh 0  score_w 1.00  life   1103  score    66950  contacts 5.71  drained 0.91  P(L) 0.39  P(R) 0.18  presses 508  115.6s
+gen  245  best    10.52  mean     9.97  champion    10.89  cma_sigma 0.1294  n_fresh 0  score_w 1.00  life    846  score    59289  contacts 4.37  drained 0.97  P(L) 0.31  P(R) 0.17  presses 410   95.5s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen  246  best    10.85  mean    10.31  champion    10.89  cma_sigma 0.1266  n_fresh 0  score_w 1.00  life    910  score    70143  contacts 5.49  drained 0.98  P(L) 0.35  P(R) 0.19  presses 450  100.6s
+gen  247  best    10.82  mean    10.22  champion    10.89  cma_sigma 0.1232  n_fresh 0  score_w 1.00  life   1064  score    76524  contacts 7.01  drained 0.97  P(L) 0.37  P(R) 0.25  presses 597  118.8s
+gen  248  best    10.25  mean     9.69  champion    10.89  cma_sigma 0.1234  n_fresh 0  score_w 1.00  life    646  score    37903  contacts 3.27  drained 0.98  P(L) 0.40  P(R) 0.22  presses 316   70.8s
+  validation: challenger 10.526 vs champion 10.924 (diff -0.398, SE 0.123)
+gen  249  best    10.95  mean    10.41  champion    10.92  cma_sigma 0.1217  n_fresh 0  score_w 1.00  life    968  score    82263  contacts 4.95  drained 0.95  P(L) 0.35  P(R) 0.18  presses 482  140.5s
+gen  250  best    10.72  mean    10.43  champion    10.92  cma_sigma 0.1223  n_fresh 0  score_w 1.00  life    904  score    69942  contacts 4.36  drained 0.96  P(L) 0.39  P(R) 0.19  presses 450  102.8s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen  251  best    10.66  mean    10.27  champion    10.92  cma_sigma 0.1218  n_fresh 0  score_w 1.00  life    845  score    53076  contacts 4.06  drained 0.99  P(L) 0.29  P(R) 0.10  presses 330   93.5s
+gen  252  best    10.77  mean    10.36  champion    10.92  cma_sigma 0.1194  n_fresh 0  score_w 1.00  life    763  score    53873  contacts 3.34  drained 0.99  P(L) 0.43  P(R) 0.08  presses 288   86.5s
+  validation: challenger 10.566 vs champion 10.691 (diff -0.125, SE 0.140)
+gen  253  best    11.08  mean    10.49  champion    10.69  cma_sigma 0.1160  n_fresh 0  score_w 1.00  life    953  score    71442  contacts 4.07  drained 0.97  P(L) 0.32  P(R) 0.10  presses 364  138.5s
+  validation: challenger 10.514 vs champion 10.715 (diff -0.202, SE 0.143)
+gen  254  best    10.84  mean    10.28  champion    10.72  cma_sigma 0.1151  n_fresh 0  score_w 1.00  life    925  score    75723  contacts 5.02  drained 0.96  P(L) 0.41  P(R) 0.12  presses 401  125.4s
+  validation: challenger 10.734 vs champion 10.827 (diff -0.093, SE 0.128)
+gen  255  best    10.80  mean    10.40  champion    10.83  cma_sigma 0.1163  n_fresh 0  score_w 1.00  life   1048  score    70252  contacts 5.85  drained 0.95  P(L) 0.43  P(R) 0.19  presses 495  147.7s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen  256  best    10.81  mean    10.41  champion    10.83  cma_sigma 0.1189  n_fresh 0  score_w 1.00  life    979  score    72281  contacts 5.45  drained 0.96  P(L) 0.43  P(R) 0.16  presses 446  105.9s
+  validation: challenger 10.641 vs champion 10.830 (diff -0.189, SE 0.098)
+gen  257  best    10.91  mean    10.52  champion    10.83  cma_sigma 0.2000  n_fresh 0  score_w 1.00  life   1103  score    78160  contacts 5.83  drained 0.95  P(L) 0.48  P(R) 0.17  presses 509  [IPOP RESTART #2, popsize->48]  165.8s
+gen  258  best    10.70  mean    10.11  champion    10.83  cma_sigma 0.1959  n_fresh 0  score_w 1.00  life   1070  score    44563  contacts 1.40  drained 0.81  P(L) 0.35  P(R) 0.74  presses 242  178.3s
+  validation: challenger 10.701 vs champion 10.699 (diff +0.002, SE 0.121)
+gen  259  best    10.98  mean     9.88  champion    10.70  cma_sigma 0.1956  n_fresh 0  score_w 1.00  life   1192  score    39298  contacts 2.64  drained 0.78  P(L) 0.20  P(R) 0.57  presses 246  229.0s
+  validation: challenger 10.770 vs champion 10.840 (diff -0.070, SE 0.106)
+gen  260  best    10.76  mean     9.69  champion    10.84  cma_sigma 0.1936  n_fresh 0  score_w 1.00  life    921  score    37402  contacts 3.09  drained 0.89  P(L) 0.28  P(R) 0.53  presses 295  186.0s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen  261  best    10.75  mean    10.10  champion    10.84  cma_sigma 0.1951  n_fresh 0  score_w 1.00  life   1148  score    70158  contacts 4.10  drained 0.85  P(L) 0.34  P(R) 0.48  presses 438  196.8s
+gen  262  best    10.81  mean    10.10  champion    10.84  cma_sigma 0.1935  n_fresh 0  score_w 1.00  life    841  score    51860  contacts 2.75  drained 0.95  P(L) 0.20  P(R) 0.34  presses 319  135.8s
+gen  263  best    10.61  mean     9.98  champion    10.84  cma_sigma 0.1901  n_fresh 0  score_w 1.00  life    931  score    57805  contacts 4.80  drained 0.94  P(L) 0.28  P(R) 0.39  presses 432  149.8s
+  validation: challenger 10.778 vs champion 10.718 (diff +0.060, SE 0.151)
+gen  264  best    11.08  mean    10.06  champion    10.72  cma_sigma 0.1858  n_fresh 0  score_w 1.00  life   1084  score    58282  contacts 4.54  drained 0.87  P(L) 0.37  P(R) 0.46  presses 420  209.0s
+gen  265  best    10.69  mean     9.98  champion    10.72  cma_sigma 0.1809  n_fresh 0  score_w 1.00  life    875  score    47829  contacts 3.64  drained 0.93  P(L) 0.25  P(R) 0.56  presses 342  149.8s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.644 vs champion 10.623 (diff +0.021, SE 0.145)
+gen  266  best    10.83  mean    10.03  champion    10.62  cma_sigma 0.1739  n_fresh 0  score_w 1.00  life   1097  score    58907  contacts 4.66  drained 0.88  P(L) 0.34  P(R) 0.60  presses 448  219.6s
+  validation: challenger 10.549 vs champion 10.942 (diff -0.393, SE 0.148)
+gen  267  best    10.92  mean    10.23  champion    10.94  cma_sigma 0.1674  n_fresh 0  score_w 1.00  life    978  score    56334  contacts 3.12  drained 0.89  P(L) 0.31  P(R) 0.44  presses 364  198.9s
+  validation: challenger 10.731 vs champion 10.677 (diff +0.054, SE 0.106)
+gen  268  best    11.07  mean    10.13  champion    10.68  cma_sigma 0.1635  n_fresh 0  score_w 1.00  life   1151  score    60662  contacts 5.41  drained 0.90  P(L) 0.32  P(R) 0.52  presses 476  220.4s
+  validation: challenger 10.527 vs champion 10.639 (diff -0.112, SE 0.121)
+gen  269  best    10.94  mean     9.83  champion    10.64  cma_sigma 0.1578  n_fresh 0  score_w 1.00  life   1143  score    56994  contacts 3.83  drained 0.85  P(L) 0.23  P(R) 0.62  presses 412  219.1s
+  validation: challenger 10.634 vs champion 10.576 (diff +0.058, SE 0.138)
+gen  270  best    10.78  mean    10.32  champion    10.58  cma_sigma 0.1517  n_fresh 0  score_w 1.00  life   1103  score    64423  contacts 3.73  drained 0.89  P(L) 0.23  P(R) 0.50  presses 398  225.2s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.573 vs champion 10.886 (diff -0.313, SE 0.128)
+gen  271  best    11.03  mean    10.18  champion    10.89  cma_sigma 0.1451  n_fresh 0  score_w 1.00  life   1148  score    56920  contacts 3.53  drained 0.85  P(L) 0.15  P(R) 0.56  presses 330  230.8s
+  validation: challenger 10.584 vs champion 10.528 (diff +0.056, SE 0.124)
+gen  272  best    11.23  mean    10.31  champion    10.53  cma_sigma 0.1425  n_fresh 0  score_w 1.00  life   1134  score    74464  contacts 5.24  drained 0.88  P(L) 0.32  P(R) 0.64  presses 458  222.7s
+  validation: challenger 10.551 vs champion 10.706 (diff -0.155, SE 0.165)
+gen  273  best    10.69  mean    10.15  champion    10.71  cma_sigma 0.1420  n_fresh 0  score_w 1.00  life    838  score    56007  contacts 3.59  drained 0.96  P(L) 0.22  P(R) 0.58  presses 363  164.8s
+  validation: challenger 10.953 vs champion 10.832 (diff +0.121, SE 0.108)
+gen  274  best    11.10  mean    10.24  champion    10.83  cma_sigma 0.1404  n_fresh 0  score_w 1.00  life    978  score    59815  contacts 4.10  drained 0.92  P(L) 0.21  P(R) 0.51  presses 402  194.6s
+gen  275  best    10.57  mean     9.96  champion    10.83  cma_sigma 0.1417  n_fresh 0  score_w 1.00  life    941  score    57757  contacts 4.52  drained 0.92  P(L) 0.28  P(R) 0.55  presses 425  151.9s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.360 vs champion 10.994 (diff -0.634, SE 0.134)
+gen  276  best    10.94  mean    10.56  champion    10.99  cma_sigma 0.1401  n_fresh 0  score_w 1.00  life   1102  score    81380  contacts 4.82  drained 0.93  P(L) 0.29  P(R) 0.50  presses 512  209.9s
+gen  277  best    10.99  mean    10.42  champion    10.99  cma_sigma 0.1400  n_fresh 0  score_w 1.00  life   1233  score    70174  contacts 5.18  drained 0.85  P(L) 0.24  P(R) 0.60  presses 443  196.2s
+  validation: challenger 10.575 vs champion 10.755 (diff -0.180, SE 0.166)
+gen  278  best    11.02  mean    10.30  champion    10.75  cma_sigma 0.1382  n_fresh 0  score_w 1.00  life   1037  score    60040  contacts 4.61  drained 0.92  P(L) 0.21  P(R) 0.60  presses 382  199.8s
+  validation: challenger 10.625 vs champion 10.850 (diff -0.225, SE 0.136)
+gen  279  best    10.85  mean    10.19  champion    10.85  cma_sigma 0.1355  n_fresh 0  score_w 1.00  life    876  score    52246  contacts 3.26  drained 0.92  P(L) 0.22  P(R) 0.56  presses 334  181.0s
+gen  280  best    10.66  mean    10.07  champion    10.85  cma_sigma 0.1325  n_fresh 0  score_w 1.00  life   1005  score    68919  contacts 5.33  drained 0.92  P(L) 0.22  P(R) 0.52  presses 456  161.3s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.770 vs champion 10.735 (diff +0.035, SE 0.141)
+gen  281  best    10.94  mean    10.06  champion    10.73  cma_sigma 0.1292  n_fresh 0  score_w 1.00  life    954  score    54570  contacts 4.64  drained 0.90  P(L) 0.21  P(R) 0.61  presses 352  188.9s
+  validation: challenger 10.541 vs champion 10.732 (diff -0.190, SE 0.128)
+gen  282  best    11.08  mean    10.17  champion    10.73  cma_sigma 0.1279  n_fresh 0  score_w 1.00  life   1008  score    65920  contacts 5.54  drained 0.92  P(L) 0.25  P(R) 0.52  presses 463  201.6s
+  validation: challenger 10.563 vs champion 10.781 (diff -0.218, SE 0.100)
+gen  283  best    10.92  mean    10.15  champion    10.78  cma_sigma 0.1260  n_fresh 0  score_w 1.00  life   1079  score    59715  contacts 5.59  drained 0.93  P(L) 0.28  P(R) 0.63  presses 455  210.2s
+  validation: challenger 10.675 vs champion 10.607 (diff +0.068, SE 0.166)
+gen  284  best    10.89  mean    10.37  champion    10.61  cma_sigma 0.1262  n_fresh 0  score_w 1.00  life   1118  score    67201  contacts 5.27  drained 0.89  P(L) 0.22  P(R) 0.66  presses 403  215.8s
+  validation: challenger 10.957 vs champion 10.867 (diff +0.090, SE 0.137)
+gen  285  best    10.86  mean    10.14  champion    10.87  cma_sigma 0.1259  n_fresh 0  score_w 1.00  life   1150  score    61198  contacts 4.88  drained 0.84  P(L) 0.22  P(R) 0.65  presses 386  229.9s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.917 vs champion 10.725 (diff +0.192, SE 0.149)
+gen  286  best    11.11  mean    10.22  champion    10.73  cma_sigma 0.1271  n_fresh 0  score_w 1.00  life   1094  score    73904  contacts 6.03  drained 0.90  P(L) 0.28  P(R) 0.63  presses 487  212.8s
+  validation: challenger 10.298 vs champion 10.827 (diff -0.530, SE 0.135)
+gen  287  best    10.87  mean    10.23  champion    10.83  cma_sigma 0.1285  n_fresh 0  score_w 1.00  life   1094  score    65014  contacts 5.91  drained 0.94  P(L) 0.23  P(R) 0.60  presses 460  215.7s
+  validation: challenger 10.698 vs champion 10.654 (diff +0.044, SE 0.125)
+gen  288  best    11.41  mean    10.35  champion    10.65  cma_sigma 0.1281  n_fresh 0  score_w 1.00  life   1176  score    77023  contacts 6.54  drained 0.92  P(L) 0.25  P(R) 0.66  presses 490  240.2s
+  validation: challenger 10.716 vs champion 10.572 (diff +0.144, SE 0.132)
+gen  289  best    10.74  mean    10.18  champion    10.57  cma_sigma 0.1271  n_fresh 0  score_w 1.00  life   1097  score    64919  contacts 5.08  drained 0.89  P(L) 0.24  P(R) 0.71  presses 409  214.4s
+  validation: challenger 10.798 vs champion 10.647 (diff +0.150, SE 0.145)
+gen  290  best    10.89  mean    10.24  champion    10.65  cma_sigma 0.1275  n_fresh 0  score_w 1.00  life    968  score    58422  contacts 4.91  drained 0.94  P(L) 0.19  P(R) 0.66  presses 337  191.5s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+  validation: challenger 10.347 vs champion 10.699 (diff -0.353, SE 0.145)
+gen  291  best    10.95  mean    10.40  champion    10.70  cma_sigma 0.1265  n_fresh 0  score_w 1.00  life   1210  score    88603  contacts 6.08  drained 0.88  P(L) 0.19  P(R) 0.66  presses 407  221.6s
+  validation: challenger 10.689 vs champion 10.700 (diff -0.011, SE 0.200)
+gen  292  best    11.22  mean    10.42  champion    10.70  cma_sigma 0.1241  n_fresh 0  score_w 1.00  life   1207  score    67670  contacts 4.97  drained 0.86  P(L) 0.17  P(R) 0.67  presses 345  235.6s
+  validation: challenger 10.537 vs champion 10.857 (diff -0.320, SE 0.167)
+gen  293  best    11.34  mean    10.44  champion    10.86  cma_sigma 0.1242  n_fresh 0  score_w 1.00  life   1063  score    75429  contacts 5.20  drained 0.93  P(L) 0.16  P(R) 0.66  presses 370  204.1s
+  validation: challenger 10.982 vs champion 10.879 (diff +0.102, SE 0.138)
+gen  294  best    11.21  mean    10.64  champion    10.88  cma_sigma 0.1227  n_fresh 0  score_w 1.00  life   1146  score    78614  contacts 5.27  drained 0.90  P(L) 0.13  P(R) 0.70  presses 320  218.1s
+  validation: challenger 10.615 vs champion 10.634 (diff -0.019, SE 0.163)
+gen  295  best    11.13  mean    10.41  champion    10.63  cma_sigma 0.1230  n_fresh 0  score_w 1.00  life    951  score    68811  contacts 4.53  drained 0.95  P(L) 0.23  P(R) 0.65  presses 350  196.9s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+gen  296  best    10.55  mean    10.19  champion    10.63  cma_sigma 0.1253  n_fresh 0  score_w 1.00  life    735  score    48436  contacts 3.20  drained 0.97  P(L) 0.19  P(R) 0.70  presses 259  123.4s
+gen  297  best    10.55  mean    10.02  champion    10.63  cma_sigma 0.1275  n_fresh 0  score_w 1.00  life    905  score    55133  contacts 4.84  drained 0.95  P(L) 0.27  P(R) 0.71  presses 373  156.0s
+  validation: challenger 10.654 vs champion 10.859 (diff -0.206, SE 0.154)
+gen  298  best    11.07  mean    10.40  champion    10.86  cma_sigma 0.1307  n_fresh 0  score_w 1.00  life   1079  score    65932  contacts 5.38  drained 0.93  P(L) 0.19  P(R) 0.66  presses 390  206.8s
+  validation: challenger 10.709 vs champion 10.651 (diff +0.058, SE 0.149)
+gen  299  best    11.14  mean    10.58  champion    10.65  cma_sigma 0.1303  n_fresh 0  score_w 1.00  life   1266  score    84434  contacts 6.10  drained 0.89  P(L) 0.18  P(R) 0.69  presses 409  242.9s
+  validation: challenger 10.900 vs champion 10.674 (diff +0.226, SE 0.143)
+gen  300  best    11.15  mean    10.49  champion    10.67  cma_sigma 0.1287  n_fresh 0  score_w 1.00  life   1080  score    76186  contacts 4.72  drained 0.89  P(L) 0.21  P(R) 0.74  presses 339  198.1s
+  saved checkpoint: agents/experiments/press_cost/press_0p00088.pt (+ agents/experiments/press_cost/press_0p00088.pt.cma.pkl)
+training complete, final checkpoint: agents/experiments/press_cost/press_0p00088.pt

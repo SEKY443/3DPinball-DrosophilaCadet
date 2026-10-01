@@ -1,0 +1,9 @@
+decoder parameter count (CEM search dimension): 667
+/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/cma/s.py:17: UserWarning: Could not import matplotlib.pyplot, therefore ``cma.plot()`` etc. is not available
+  _warnings.warn('Could not import matplotlib.pyplot, therefore'
+  validation: challenger 10.919 vs champion 10.931 (diff -0.012, SE 0.004)
+gen    1  best    11.08  mean    10.38  champion    10.93  cma_sigma 0.1973  n_fresh 0  score_w 1.00  life    601  score    34875  act_up    1583  contacts 0.42  drained 0.50  P(L) 0.23  P(R) 0.64  presses 24   14.6s
+gen    2  best    10.56  mean    10.40  champion    10.93  cma_sigma 0.1934  n_fresh 0  score_w 1.00  life    524  score    35708  act_up     292  contacts 0.17  drained 0.67  P(L) 0.47  P(R) 0.23  presses 16    6.5s
+gen    3  best     9.93  mean     9.57  champion    10.93  cma_sigma 0.1946  n_fresh 0  score_w 1.00  life    498  score    16521  act_up    1125  contacts 0.17  drained 0.75  P(L) 0.75  P(R) 0.52  presses 11    8.4s
+  saved checkpoint: /private/tmp/claude-501/-Users-seky-Developer-Git-3DPinball-DrosophilaCadet/b449083f-c590-487b-aab1-fbfe9397c7c2/scratchpad/smoke_active.pt (+ /private/tmp/claude-501/-Users-seky-Developer-Git-3DPinball-DrosophilaCadet/b449083f-c590-487b-aab1-fbfe9397c7c2/scratchpad/smoke_active.pt.cma.pkl)
+training complete, final checkpoint: /private/tmp/claude-501/-Users-seky-Developer-Git-3DPinball-DrosophilaCadet/b449083f-c590-487b-aab1-fbfe9397c7c2/scratchpad/smoke_active.pt

@@ -1,0 +1,6 @@
+init eval: mean log1p 10.949  median score 66250  mean life 994
+iter 0: lives 32  drained 31  savable (corrective labels) 17  mean life 1097  dataset 35094  collect 87s
+  pre-train agreement with own actions: left 1.0000 right 1.0000
+  head rescaled by [0.004425437189638615, 0.0268805380910635] (median |logit| was [903.865478515625, 148.80654907226562])
+  train loss 0.1938 -> 0.1553  corrective-label acc 0.176
+  eval: mean log1p 10.997  median score 64125  mean life 1067  vs init diff +0.048 (SE 0.136, t=0.36)

@@ -1,0 +1,196 @@
+round 0 (teacher-driven): mean log1p 14.15, median 1,419,125, presses/game 143, dataset 346860  159s
+round 1 (agent-driven): mean log1p 11.96, median 193,625, presses/game 29, dataset 400000  403s
+round 2 (agent-driven): mean log1p 13.04, median 440,000, presses/game 209, dataset 400000  489s
+round 3 (agent-driven): mean log1p 13.44, median 594,875, presses/game 236, dataset 400000  604s
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 656, in _exitfunc
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 656, in _exitfunc
+    pending = cls._select_for_exit()
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 637, in _select_for_exit
+    L = [(f,i) for (f,i) in cls._registry.items() if i.atexit]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 637, in <listcomp>
+    L = [(f,i) for (f,i) in cls._registry.items() if i.atexit]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    pending = cls._select_for_exit()
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 637, in _select_for_exit
+    L = [(f,i) for (f,i) in cls._registry.items() if i.atexit]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 637, in <listcomp>
+    L = [(f,i) for (f,i) in cls._registry.items() if i.atexit]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    f()
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    f()
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    f()
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    f()
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    f()
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    return info.func(*info.args, **(info.kwargs or {}))
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    m.reset()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+
+paired full games 66000..66063 (64)
+  new (full-game DAgger)   log1p 12.372 +- 0.066  median 229,250  mean 275,066  presses/game 76  game over 100%
+  old (lead brain)         log1p 13.534 +- 0.101  median 743,375  mean 1,043,570  presses/game 63  game over 100%
+  new - old log1p -1.162 +- 0.118  t -9.83  p 1.42e-10  wins 5/59
+saved agents/experiments/fullgame/dagger_cradle_brain.pt

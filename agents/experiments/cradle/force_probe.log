@@ -1,0 +1,147 @@
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    return info.func(*info.args, **(info.kwargs or {}))
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    m.reset()
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+Traceback (most recent call last):
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    m.reset()
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    return info.func(*info.args, **(info.kwargs or {}))
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    m.reset()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+256 lives, 138 cradle events  539s
+
+LEFT cradle (n=69)
+delay force contact  speed  angle ang sd  ramp  bank drain
+    1  0.30    1.00    2.9     42     19  0.01  0.00  0.00
+    1  0.45    1.00    5.4     39     28  0.00  0.01  0.00
+    1  0.60    1.00    7.0     34     37  0.03  0.03  0.01
+    1  0.75    1.00    8.7     27     24  0.03  0.07  0.01
+    1  0.90    1.00    9.6      9     29  0.01  0.07  0.01
+    1  1.00    1.00    8.7     -8    102  0.03  0.14  0.00
+    3  0.30    1.00   10.1    -11     13  0.01  0.12  0.00
+    3  0.45    1.00    3.9     19      7  0.00  0.04  0.00
+    3  0.60    1.00    4.6    -98     89  0.01  0.07  0.00
+    3  0.75    1.00    5.5   -105     95  0.03  0.06  0.04
+    3  0.90    1.00    4.8   -140     83  0.06  0.03  0.01
+    3  1.00    1.00    6.7   -125    136  0.06  0.03  0.01
+    5  0.30    1.00    2.4    -11     12  0.04  0.03  0.06
+    5  0.45    1.00    5.6     13      6  0.01  0.23  0.04
+    5  0.60    1.00    6.9      7     49  0.06  0.20  0.01
+    5  0.75    0.99    6.4   -107     44  0.03  0.06  0.03
+    5  0.90    1.00    7.3   -104     36  0.03  0.06  0.04
+    5  1.00    1.00    9.0    -29     57  0.03  0.04  0.03
+
+RIGHT cradle (n=69)
+delay force contact  speed  angle ang sd  ramp  bank drain
+    1  0.30    1.00    3.1    -39     38  0.01  0.03  0.03
+    1  0.45    1.00    4.4    -34     39  0.03  0.00  0.06
+    1  0.60    1.00    5.5    -22     39  0.06  0.01  0.04
+    1  0.75    1.00    6.1     40     34  0.07  0.01  0.04
+    1  0.90    1.00    6.6     40     39  0.07  0.03  0.04
+    1  1.00    0.99    5.8     42     42  0.10  0.01  0.07
+    3  0.30    1.00    5.5     40     18  0.12  0.04  0.01
+    3  0.45    1.00    4.1    -23     17  0.00  0.03  0.03
+    3  0.60    1.00    4.2    -24     73  0.00  0.04  0.07
+    3  0.75    1.00    5.4    -17     63  0.12  0.12  0.03
+    3  0.90    1.00    6.0     49     70  0.04  0.00  0.01
+    3  1.00    1.00    4.8    137     50  0.09  0.03  0.07
+    5  0.30    1.00    2.7     11     18  0.04  0.01  0.03
+    5  0.45    1.00    5.5    -13     14  0.03  0.10  0.03
+    5  0.60    1.00    7.2    -14     16  0.01  0.06  0.04
+    5  0.75    1.00    5.7      0     51  0.33  0.06  0.03
+    5  0.90    1.00    7.3     13     54  0.04  0.01  0.01
+    5  1.00    1.00    7.3     11     59  0.17  0.03  0.09

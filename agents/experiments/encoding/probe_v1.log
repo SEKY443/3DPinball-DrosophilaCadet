@@ -1,0 +1,15 @@
+steps 31525  press rate L 0.0045 R 0.0055
+broadcast      [delay1] L AUC 0.975 prec 0.277 (sw 0.271) tol 0.614 | R AUC 0.983 prec 0.516 (sw 0.525) tol 0.753
+    zoneR2 x 1.00 y 0.99 vy 0.94 (allR2 y 1.00) | d' dy0.1 0.56 dvy1 1.11 dFlip 49.29 | sat in 0.00 all 0.00 ro 0.00 | rec/drv(y) 0.38 | ycell |corr| 0.61 range 0.191 | clip 0.000 | PR zone 6.0 all 4.2
+gain           [delay1] L AUC 0.996 prec 0.494 (sw 0.186) tol 0.747 | R AUC 0.997 prec 0.538 (sw 0.575) tol 0.720
+    zoneR2 x 1.00 y 0.98 vy 0.90 (allR2 y 0.57) | d' dy0.1 0.89 dvy1 0.79 dFlip 32.62 | sat in 0.01 all 0.00 ro 0.00 | rec/drv(y) 0.67 | ycell |corr| 0.85 range 0.929 | clip 0.006 | PR zone 4.6 all 3.9
+popcode        [delay1] L AUC 0.999 prec 0.687 (sw 0.678) tol 0.759 | R AUC 0.999 prec 0.656 (sw 0.713) tol 0.849
+    zoneR2 x 0.99 y 0.99 vy 0.97 (allR2 y 0.91) | d' dy0.1 1.48 dvy1 1.19 dFlip 52.09 | sat in 0.01 all 0.00 ro 0.00 | rec/drv(y) 532.70 | ycell |corr| 0.33 range 0.345 | clip 0.000 | PR zone 8.3 all 8.3
+dspop          [delay1] L AUC 0.999 prec 0.663 (sw 0.678) tol 0.795 | R AUC 0.998 prec 0.710 (sw 0.725) tol 0.860
+    zoneR2 x 0.99 y 0.99 vy 0.98 (allR2 y 0.96) | d' dy0.1 1.63 dvy1 0.49 dFlip 51.66 | sat in 0.00 all 0.00 ro 0.00 | rec/drv(y) 532.92 | ycell |corr| 0.33 range 0.346 | clip 0.000 | PR zone 7.7 all 7.4
+retino         [delay1] L AUC 0.976 prec 0.265 (sw 0.271) tol 0.590 | R AUC 0.983 prec 0.516 (sw 0.525) tol 0.753
+    zoneR2 x 1.00 y 0.99 vy 0.95 (allR2 y 1.00) | d' dy0.1 0.56 dvy1 1.07 dFlip 49.30 | sat in 0.00 all 0.00 ro 0.00 | rec/drv(y) 0.38 | ycell |corr| 0.64 range 0.173 | clip 0.000 | PR zone 5.9 all 4.2
+popcode+ttc    [delay1] L AUC 0.999 prec 0.807 (sw 0.661) tol 0.904 | R AUC 0.999 prec 0.817 (sw 0.675) tol 0.925
+    zoneR2 x 0.99 y 0.99 vy 0.96 (allR2 y 0.89) | d' dy0.1 1.27 dvy1 1.42 dFlip 44.90 | sat in 0.01 all 0.00 ro 0.00 | rec/drv(y) 521.98 | ycell |corr| 0.31 range 0.345 | clip 0.000 | PR zone 8.7 all 8.6
+dspop+ttc      [delay1] L AUC 0.999 prec 0.831 (sw 0.729) tol 0.940 | R AUC 0.999 prec 0.849 (sw 0.762) tol 0.968
+    zoneR2 x 0.99 y 0.99 vy 0.96 (allR2 y 0.92) | d' dy0.1 1.51 dvy1 1.00 dFlip 43.73 | sat in 0.01 all 0.00 ro 0.00 | rec/drv(y) 532.92 | ycell |corr| 0.31 range 0.346 | clip 0.000 | PR zone 8.4 all 7.8

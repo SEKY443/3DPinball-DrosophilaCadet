@@ -1,0 +1,467 @@
+{
+ "per_seed": [
+  {
+   "seed": 4000,
+   "drained": true,
+   "T": 420,
+   "drain_x": 0.7327960729598999,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4001,
+   "drained": true,
+   "T": 365,
+   "drain_x": -0.3209051489830017,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4002,
+   "drained": true,
+   "T": 544,
+   "drain_x": 2.0927162170410156,
+   "drain_class": "flipper_reachable",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4003,
+   "drained": true,
+   "T": 505,
+   "drain_x": 0.5380007028579712,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4004,
+   "drained": true,
+   "T": 709,
+   "drain_x": -0.7218648195266724,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4005,
+   "drained": true,
+   "T": 338,
+   "drain_x": 0.9466593861579895,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4006,
+   "drained": true,
+   "T": 343,
+   "drain_x": -2.3662281036376953,
+   "drain_class": "flipper_reachable",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4007,
+   "drained": true,
+   "T": 434,
+   "drain_x": 2.1711766719818115,
+   "drain_class": "flipper_reachable",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4008,
+   "drained": true,
+   "T": 627,
+   "drain_x": -0.22972138226032257,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4009,
+   "drained": true,
+   "T": 382,
+   "drain_x": -0.8853893280029297,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4010,
+   "drained": true,
+   "T": 260,
+   "drain_x": 0.4836249351501465,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4011,
+   "drained": true,
+   "T": 551,
+   "drain_x": 0.548579216003418,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4012,
+   "drained": true,
+   "T": 327,
+   "drain_x": 0.9624984264373779,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4013,
+   "drained": true,
+   "T": 337,
+   "drain_x": -0.016066931188106537,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4014,
+   "drained": true,
+   "T": 460,
+   "drain_x": -0.3168604373931885,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4015,
+   "drained": true,
+   "T": 411,
+   "drain_x": 0.48979222774505615,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4016,
+   "drained": true,
+   "T": 397,
+   "drain_x": -0.16592001914978027,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4017,
+   "drained": true,
+   "T": 506,
+   "drain_x": -1.0867981910705566,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4018,
+   "drained": true,
+   "T": 325,
+   "drain_x": -0.34115463495254517,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4019,
+   "drained": true,
+   "T": 469,
+   "drain_x": -0.37431764602661133,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4020,
+   "drained": true,
+   "T": 693,
+   "drain_x": -0.2346857339143753,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4021,
+   "drained": true,
+   "T": 388,
+   "drain_x": 0.07239537686109543,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4022,
+   "drained": true,
+   "T": 288,
+   "drain_x": -0.17913103103637695,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  },
+  {
+   "seed": 4023,
+   "drained": true,
+   "T": 350,
+   "drain_x": 0.5839799642562866,
+   "drain_class": "center_gap",
+   "deterministic": true,
+   "saving_events": [],
+   "any_saved": false,
+   "earliest_saving_offset_d": null,
+   "latest_saving_offset_d": null,
+   "window_width": 0,
+   "saved_by_type": {
+    "left": false,
+    "right": false,
+    "both": false
+   }
+  }
+ ],
+ "aggregates": {
+  "policy": "none",
+  "n_seeds": 24,
+  "seed0": 4000,
+  "n_drained": 24,
+  "n_total": 24,
+  "n_determinism_checked": 24,
+  "n_determinism_ok": 24,
+  "fraction_any_press_saved": 0.0,
+  "fraction_saved_by_press_type": {
+   "left": 0.0,
+   "right": 0.0,
+   "both": 0.0
+  },
+  "window_width_histogram": {},
+  "drain_class_counts": {
+   "center_gap": 21,
+   "flipper_reachable": 3,
+   "outlane": 0
+  },
+  "drain_class_saved_counts": {
+   "center_gap": 0,
+   "flipper_reachable": 0,
+   "outlane": 0
+  },
+  "drain_class_savable_fraction": {
+   "center_gap": 0.0,
+   "flipper_reachable": 0.0,
+   "outlane": NaN
+  }
+ }
+}

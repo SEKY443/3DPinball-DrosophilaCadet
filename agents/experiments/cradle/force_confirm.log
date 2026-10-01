@@ -1,0 +1,157 @@
+Exception ignored in atexit callback: <function dump_cache_stats at 0x10b55ede0>
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 656, in _exitfunc
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+    f()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    pending = cls._select_for_exit()
+    def _shutdown():
+    
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    f()
+    def _shutdown():
+    
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 637, in _select_for_exit
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    m.reset()
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    L = [(f,i) for (f,i) in cls._registry.items() if i.atexit]
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 637, in <listcomp>
+                                             ^^^^^^^^^^^
+    L = [(f,i) for (f,i) in cls._registry.items() if i.atexit]
+SystemExit: 0
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/_subclasses/fake_tensor.py", line 3779, in dump_cache_stats
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    m.reset()
+Traceback (most recent call last):
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return info.func(*info.args, **(info.kwargs or {}))
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    return info.func(*info.args, **(info.kwargs or {}))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    def _shutdown():
+    
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    log.info("  cache_hits: %s", FakeTensorMode.cache_hits)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/logging/__init__.py", line 1479, in info
+                                             ^^^^^^^^^^^
+    f()
+    m.reset()
+    m.reset()
+SystemExit: 0
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    def info(self, msg, *args, **kwargs):
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+512 lives, 294 cradle events  252s
+
+LEFT cradle (n=173)
+delay force contact  speed  angle ang sd  ramp  bank drain
+    5  0.45    0.99    5.8     13      9  0.03  0.10  0.01
+    5  0.60    0.99    7.3     13     43  0.04  0.10  0.00
+    1  1.00    0.99    8.4     -8    109  0.03  0.21  0.00
+
+RIGHT cradle (n=121)
+delay force contact  speed  angle ang sd  ramp  bank drain
+    5  0.75    1.00    5.6     -0     47  0.20  0.02  0.02
+    5  1.00    0.99    7.4     -2     60  0.15  0.05  0.06
+    1  1.00    1.00    5.5     47     46  0.09  0.03  0.05

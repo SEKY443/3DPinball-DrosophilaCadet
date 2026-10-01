@@ -1,0 +1,357 @@
+decoder parameter count (CEM search dimension): 667
+resumed from agents/experiments/drill_big_bank/start_gen280_centered.pt at generation 1 (champion_fitness=-1000000000000000000.00, curriculum_start_gen=1)
+/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/cma/s.py:17: UserWarning: Could not import matplotlib.pyplot, therefore ``cma.plot()`` etc. is not available
+  _warnings.warn('Could not import matplotlib.pyplot, therefore'
+no agents/experiments/drill_big_bank/drill.pt.cma.pkl found - starting CMA-ES fresh from the resumed mean (covariance/step-size history is lost, but the search center is not)
+  validation: challenger 0.781 vs champion 0.727 (diff +0.055, SE 0.023) -> PROMOTED
+gen    1  best     0.75  mean     0.38  champion     0.78  cma_sigma 0.2032  n_fresh 0  score_w 1.00  life    104  score        0  contacts 0.62  drained 0.27  P(L) 0.19  P(R) 0.26   41.5s
+gen    2  best     0.78  mean     0.49  champion     0.78  cma_sigma 0.2078  n_fresh 0  score_w 1.00  life     99  score        0  contacts 0.79  drained 0.19  P(L) 0.33  P(R) 0.35   28.5s
+  validation: challenger 0.633 vs champion 0.703 (diff -0.070, SE 0.040)
+gen    3  best     0.84  mean     0.46  champion     0.70  cma_sigma 0.2080  n_fresh 0  score_w 1.00  life    103  score        0  contacts 0.88  drained 0.18  P(L) 0.29  P(R) 0.32   44.2s
+  validation: challenger 0.758 vs champion 0.758 (diff +0.000, SE 0.038)
+gen    4  best     0.72  mean     0.45  champion     0.76  cma_sigma 0.2108  n_fresh 0  score_w 1.00  life    103  score        0  contacts 0.88  drained 0.22  P(L) 0.34  P(R) 0.53   41.7s
+  validation: challenger 0.766 vs champion 0.750 (diff +0.016, SE 0.025)
+gen    5  best     0.78  mean     0.51  champion     0.75  cma_sigma 0.2127  n_fresh 0  score_w 1.00  life     89  score        1  contacts 0.82  drained 0.18  P(L) 0.33  P(R) 0.39   37.4s
+  validation: challenger 0.656 vs champion 0.742 (diff -0.086, SE 0.035)
+gen    6  best     0.78  mean     0.42  champion     0.74  cma_sigma 0.2153  n_fresh 0  score_w 1.00  life    105  score        0  contacts 0.80  drained 0.19  P(L) 0.34  P(R) 0.40   40.7s
+  validation: challenger 0.727 vs champion 0.711 (diff +0.016, SE 0.022)
+gen    7  best     0.84  mean     0.51  champion     0.71  cma_sigma 0.2150  n_fresh 0  score_w 1.00  life     96  score        1  contacts 0.83  drained 0.17  P(L) 0.27  P(R) 0.33   37.8s
+  validation: challenger 0.695 vs champion 0.750 (diff -0.055, SE 0.037)
+gen    8  best     0.84  mean     0.46  champion     0.75  cma_sigma 0.2124  n_fresh 0  score_w 1.00  life    101  score        0  contacts 0.81  drained 0.21  P(L) 0.33  P(R) 0.37   38.6s
+  validation: challenger 0.750 vs champion 0.711 (diff +0.039, SE 0.042)
+gen    9  best     0.78  mean     0.59  champion     0.71  cma_sigma 0.2083  n_fresh 0  score_w 1.00  life     82  score        1  contacts 0.86  drained 0.19  P(L) 0.32  P(R) 0.45   41.0s
+  validation: challenger 0.680 vs champion 0.711 (diff -0.031, SE 0.019)
+gen   10  best     0.72  mean     0.46  champion     0.71  cma_sigma 0.2065  n_fresh 0  score_w 1.00  life     94  score        0  contacts 0.76  drained 0.26  P(L) 0.33  P(R) 0.40   59.5s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+  validation: challenger 0.688 vs champion 0.672 (diff +0.016, SE 0.043)
+gen   11  best     0.72  mean     0.52  champion     0.67  cma_sigma 0.2021  n_fresh 0  score_w 1.00  life     98  score        1  contacts 0.97  drained 0.28  P(L) 0.35  P(R) 0.36   41.4s
+  validation: challenger 0.711 vs champion 0.758 (diff -0.047, SE 0.038)
+gen   12  best     0.75  mean     0.55  champion     0.76  cma_sigma 0.2006  n_fresh 0  score_w 1.00  life     90  score        1  contacts 1.01  drained 0.16  P(L) 0.35  P(R) 0.42   62.3s
+gen   13  best     0.75  mean     0.42  champion     0.76  cma_sigma 0.1980  n_fresh 0  score_w 1.00  life    106  score        0  contacts 0.81  drained 0.23  P(L) 0.32  P(R) 0.45   47.8s
+gen   14  best     0.75  mean     0.50  champion     0.76  cma_sigma 0.1940  n_fresh 0  score_w 1.00  life     95  score        1  contacts 0.79  drained 0.26  P(L) 0.34  P(R) 0.37   48.3s
+  validation: challenger 0.672 vs champion 0.688 (diff -0.016, SE 0.011)
+gen   15  best     0.84  mean     0.58  champion     0.69  cma_sigma 0.1913  n_fresh 0  score_w 1.00  life     88  score        1  contacts 0.87  drained 0.18  P(L) 0.28  P(R) 0.35   53.0s
+gen   16  best     0.69  mean     0.39  champion     0.69  cma_sigma 0.1868  n_fresh 0  score_w 1.00  life    105  score        0  contacts 0.62  drained 0.21  P(L) 0.26  P(R) 0.30   35.6s
+  validation: challenger 0.734 vs champion 0.742 (diff -0.008, SE 0.038)
+gen   17  best     0.81  mean     0.57  champion     0.74  cma_sigma 0.1837  n_fresh 0  score_w 1.00  life     86  score        1  contacts 0.88  drained 0.22  P(L) 0.27  P(R) 0.34   42.7s
+  validation: challenger 0.734 vs champion 0.695 (diff +0.039, SE 0.037) -> PROMOTED
+gen   18  best     0.81  mean     0.43  champion     0.73  cma_sigma 0.1795  n_fresh 0  score_w 1.00  life     98  score        0  contacts 0.72  drained 0.24  P(L) 0.32  P(R) 0.38   51.2s
+gen   19  best     0.69  mean     0.49  champion     0.73  cma_sigma 0.1766  n_fresh 0  score_w 1.00  life     96  score        0  contacts 0.89  drained 0.21  P(L) 0.37  P(R) 0.45   27.7s
+gen   20  best     0.72  mean     0.58  champion     0.73  cma_sigma 0.1769  n_fresh 0  score_w 1.00  life     80  score        1  contacts 0.87  drained 0.26  P(L) 0.34  P(R) 0.41   23.0s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+  validation: challenger 0.711 vs champion 0.719 (diff -0.008, SE 0.024)
+gen   21  best     0.78  mean     0.55  champion     0.72  cma_sigma 0.1760  n_fresh 0  score_w 1.00  life    101  score        1  contacts 1.01  drained 0.18  P(L) 0.50  P(R) 0.53   51.3s
+  validation: challenger 0.789 vs champion 0.766 (diff +0.023, SE 0.017) -> PROMOTED
+gen   22  best     0.91  mean     0.50  champion     0.79  cma_sigma 0.1755  n_fresh 0  score_w 1.00  life     95  score        0  contacts 0.75  drained 0.18  P(L) 0.34  P(R) 0.35   39.2s
+gen   23  best     0.59  mean     0.45  champion     0.79  cma_sigma 0.1720  n_fresh 0  score_w 1.00  life     98  score        0  contacts 0.84  drained 0.25  P(L) 0.42  P(R) 0.42   33.3s
+  validation: challenger 0.664 vs champion 0.719 (diff -0.055, SE 0.032)
+gen   24  best     0.84  mean     0.42  champion     0.72  cma_sigma 0.1682  n_fresh 0  score_w 1.00  life    107  score        0  contacts 0.79  drained 0.14  P(L) 0.32  P(R) 0.34   45.7s
+  validation: challenger 0.734 vs champion 0.742 (diff -0.008, SE 0.026)
+gen   25  best     0.84  mean     0.64  champion     0.74  cma_sigma 0.1647  n_fresh 0  score_w 1.00  life     84  score        1  contacts 1.04  drained 0.08  P(L) 0.41  P(R) 0.50   54.9s
+  validation: challenger 0.719 vs champion 0.727 (diff -0.008, SE 0.039)
+gen   26  best     0.81  mean     0.53  champion     0.73  cma_sigma 0.1602  n_fresh 0  score_w 1.00  life     93  score        1  contacts 0.83  drained 0.23  P(L) 0.35  P(R) 0.39   44.4s
+gen   27  best     0.69  mean     0.41  champion     0.73  cma_sigma 0.1545  n_fresh 0  score_w 1.00  life    110  score        0  contacts 0.59  drained 0.24  P(L) 0.20  P(R) 0.30   30.5s
+  validation: challenger 0.672 vs champion 0.695 (diff -0.023, SE 0.013)
+gen   28  best     0.75  mean     0.54  champion     0.70  cma_sigma 0.1528  n_fresh 0  score_w 1.00  life     86  score        1  contacts 0.79  drained 0.27  P(L) 0.30  P(R) 0.31   40.8s
+  validation: challenger 0.656 vs champion 0.742 (diff -0.086, SE 0.037)
+gen   29  best     0.81  mean     0.51  champion     0.74  cma_sigma 0.1507  n_fresh 0  score_w 1.00  life     91  score        1  contacts 0.84  drained 0.12  P(L) 0.36  P(R) 0.37   36.7s
+  validation: challenger 0.727 vs champion 0.727 (diff +0.000, SE 0.025)
+gen   30  best     0.81  mean     0.64  champion     0.73  cma_sigma 0.1505  n_fresh 0  score_w 1.00  life     80  score        1  contacts 0.97  drained 0.13  P(L) 0.45  P(R) 0.46   34.2s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+gen   31  best     0.69  mean     0.52  champion     0.73  cma_sigma 0.1530  n_fresh 0  score_w 1.00  life     91  score        1  contacts 0.89  drained 0.27  P(L) 0.43  P(R) 0.44   27.1s
+  validation: challenger 0.773 vs champion 0.781 (diff -0.008, SE 0.026)
+gen   32  best     0.78  mean     0.60  champion     0.78  cma_sigma 0.1548  n_fresh 0  score_w 1.00  life     94  score        1  contacts 0.94  drained 0.16  P(L) 0.35  P(R) 0.36   36.3s
+  validation: challenger 0.734 vs champion 0.758 (diff -0.023, SE 0.021)
+gen   33  best     0.88  mean     0.57  champion     0.76  cma_sigma 0.1546  n_fresh 0  score_w 1.00  life     88  score        1  contacts 0.89  drained 0.15  P(L) 0.24  P(R) 0.27   34.7s
+  validation: challenger 0.727 vs champion 0.734 (diff -0.008, SE 0.014)
+gen   34  best     0.88  mean     0.64  champion     0.73  cma_sigma 0.1544  n_fresh 0  score_w 1.00  life     85  score        1  contacts 1.12  drained 0.10  P(L) 0.39  P(R) 0.38   33.4s
+  validation: challenger 0.734 vs champion 0.742 (diff -0.008, SE 0.042)
+gen   35  best     0.84  mean     0.74  champion     0.74  cma_sigma 0.1543  n_fresh 0  score_w 1.00  life     74  score        1  contacts 1.08  drained 0.05  P(L) 0.39  P(R) 0.38   52.2s
+  validation: challenger 0.680 vs champion 0.781 (diff -0.102, SE 0.043)
+gen   36  best     0.78  mean     0.55  champion     0.78  cma_sigma 0.1525  n_fresh 0  score_w 1.00  life     98  score        1  contacts 0.82  drained 0.18  P(L) 0.30  P(R) 0.28   47.4s
+gen   37  best     0.75  mean     0.63  champion     0.78  cma_sigma 0.1535  n_fresh 0  score_w 1.00  life     85  score        1  contacts 1.09  drained 0.10  P(L) 0.41  P(R) 0.40   29.4s
+gen   38  best     0.78  mean     0.63  champion     0.78  cma_sigma 0.1527  n_fresh 0  score_w 1.00  life     80  score        1  contacts 0.97  drained 0.12  P(L) 0.39  P(R) 0.36   30.0s
+  validation: challenger 0.711 vs champion 0.711 (diff +0.000, SE 0.016)
+gen   39  best     0.88  mean     0.67  champion     0.71  cma_sigma 0.1521  n_fresh 0  score_w 1.00  life     84  score        1  contacts 1.03  drained 0.13  P(L) 0.39  P(R) 0.34   34.8s
+  validation: challenger 0.781 vs champion 0.781 (diff +0.000, SE 0.000)
+gen   40  best     0.75  mean     0.61  champion     0.78  cma_sigma 0.1501  n_fresh 0  score_w 1.00  life     94  score        1  contacts 0.98  drained 0.14  P(L) 0.40  P(R) 0.32   41.9s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+  validation: challenger 0.758 vs champion 0.773 (diff -0.016, SE 0.027)
+gen   41  best     0.91  mean     0.72  champion     0.77  cma_sigma 0.1468  n_fresh 0  score_w 1.00  life     74  score        1  contacts 1.01  drained 0.10  P(L) 0.41  P(R) 0.32   38.4s
+gen   42  best     0.75  mean     0.65  champion     0.77  cma_sigma 0.1445  n_fresh 0  score_w 1.00  life     84  score        1  contacts 1.01  drained 0.17  P(L) 0.42  P(R) 0.38   33.6s
+  validation: challenger 0.750 vs champion 0.789 (diff -0.039, SE 0.036)
+gen   43  best     0.81  mean     0.63  champion     0.79  cma_sigma 0.1437  n_fresh 0  score_w 1.00  life     74  score        1  contacts 0.95  drained 0.16  P(L) 0.33  P(R) 0.30   39.9s
+  validation: challenger 0.727 vs champion 0.734 (diff -0.008, SE 0.030)
+gen   44  best     0.81  mean     0.62  champion     0.73  cma_sigma 0.1420  n_fresh 0  score_w 1.00  life     80  score        1  contacts 0.85  drained 0.13  P(L) 0.32  P(R) 0.26   33.9s
+  validation: challenger 0.711 vs champion 0.727 (diff -0.016, SE 0.019)
+gen   45  best     0.88  mean     0.61  champion     0.73  cma_sigma 0.1383  n_fresh 0  score_w 1.00  life     81  score        1  contacts 0.93  drained 0.21  P(L) 0.31  P(R) 0.24   34.7s
+gen   46  best     0.66  mean     0.57  champion     0.73  cma_sigma 0.1374  n_fresh 0  score_w 1.00  life     90  score        1  contacts 1.07  drained 0.20  P(L) 0.34  P(R) 0.33   23.3s
+  validation: challenger 0.664 vs champion 0.672 (diff -0.008, SE 0.021)
+gen   47  best     0.75  mean     0.59  champion     0.67  cma_sigma 0.1387  n_fresh 0  score_w 1.00  life     91  score        1  contacts 1.06  drained 0.15  P(L) 0.37  P(R) 0.36   34.6s
+  validation: challenger 0.727 vs champion 0.703 (diff +0.023, SE 0.036)
+gen   48  best     0.81  mean     0.69  champion     0.70  cma_sigma 0.1397  n_fresh 0  score_w 1.00  life     73  score        1  contacts 1.03  drained 0.12  P(L) 0.35  P(R) 0.35   30.5s
+  validation: challenger 0.820 vs champion 0.836 (diff -0.016, SE 0.038)
+gen   49  best     0.78  mean     0.63  champion     0.84  cma_sigma 0.1382  n_fresh 0  score_w 1.00  life     88  score        1  contacts 1.00  drained 0.15  P(L) 0.36  P(R) 0.36   31.7s
+gen   50  best     0.59  mean     0.31  champion     0.84  cma_sigma 0.1380  n_fresh 0  score_w 1.00  life    111  score        0  contacts 0.57  drained 0.27  P(L) 0.22  P(R) 0.23   26.4s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+  validation: challenger 0.758 vs champion 0.703 (diff +0.055, SE 0.039) -> PROMOTED
+gen   51  best     0.91  mean     0.70  champion     0.76  cma_sigma 0.1386  n_fresh 0  score_w 1.00  life     87  score        1  contacts 1.11  drained 0.07  P(L) 0.32  P(R) 0.33   32.3s
+  validation: challenger 0.734 vs champion 0.719 (diff +0.016, SE 0.047)
+gen   52  best     0.91  mean     0.82  champion     0.72  cma_sigma 0.1370  n_fresh 0  score_w 1.00  life     62  score        1  contacts 1.19  drained 0.02  P(L) 0.39  P(R) 0.43   35.6s
+gen   53  best     0.72  mean     0.63  champion     0.72  cma_sigma 0.1372  n_fresh 0  score_w 1.00  life     87  score        1  contacts 0.95  drained 0.15  P(L) 0.36  P(R) 0.37   26.8s
+gen   54  best     0.69  mean     0.47  champion     0.72  cma_sigma 0.1391  n_fresh 0  score_w 1.00  life     96  score        0  contacts 0.79  drained 0.25  P(L) 0.27  P(R) 0.27   34.5s
+  validation: challenger 0.727 vs champion 0.758 (diff -0.031, SE 0.033)
+gen   55  best     0.78  mean     0.57  champion     0.76  cma_sigma 0.1416  n_fresh 0  score_w 1.00  life     85  score        1  contacts 0.77  drained 0.17  P(L) 0.30  P(R) 0.31   45.7s
+gen   56  best     0.75  mean     0.61  champion     0.76  cma_sigma 0.1409  n_fresh 0  score_w 1.00  life     88  score        1  contacts 1.04  drained 0.16  P(L) 0.41  P(R) 0.46   30.7s
+  validation: challenger 0.781 vs champion 0.781 (diff +0.000, SE 0.042)
+gen   57  best     0.78  mean     0.71  champion     0.78  cma_sigma 0.1405  n_fresh 0  score_w 1.00  life     73  score        1  contacts 1.11  drained 0.16  P(L) 0.45  P(R) 0.46   46.1s
+  validation: challenger 0.633 vs champion 0.750 (diff -0.117, SE 0.042)
+gen   58  best     0.84  mean     0.71  champion     0.75  cma_sigma 0.1402  n_fresh 0  score_w 1.00  life     79  score        1  contacts 1.10  drained 0.08  P(L) 0.38  P(R) 0.37   43.5s
+gen   59  best     0.69  mean     0.44  champion     0.75  cma_sigma 0.1384  n_fresh 0  score_w 1.00  life     99  score        0  contacts 0.81  drained 0.29  P(L) 0.33  P(R) 0.33   33.2s
+gen   60  best     0.69  mean     0.58  champion     0.75  cma_sigma 0.1371  n_fresh 0  score_w 1.00  life     86  score        1  contacts 0.95  drained 0.22  P(L) 0.36  P(R) 0.34   29.2s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+  validation: challenger 0.734 vs champion 0.688 (diff +0.047, SE 0.035) -> PROMOTED
+gen   61  best     0.84  mean     0.72  champion     0.73  cma_sigma 0.1376  n_fresh 0  score_w 1.00  life     68  score        1  contacts 1.08  drained 0.12  P(L) 0.36  P(R) 0.33   34.5s
+  validation: challenger 0.711 vs champion 0.781 (diff -0.070, SE 0.040)
+gen   62  best     0.75  mean     0.48  champion     0.78  cma_sigma 0.1353  n_fresh 0  score_w 1.00  life     98  score        0  contacts 0.91  drained 0.18  P(L) 0.45  P(R) 0.28   41.4s
+  validation: challenger 0.664 vs champion 0.680 (diff -0.016, SE 0.033)
+gen   63  best     0.81  mean     0.65  champion     0.68  cma_sigma 0.1329  n_fresh 0  score_w 1.00  life     81  score        1  contacts 0.99  drained 0.12  P(L) 0.39  P(R) 0.33   34.2s
+  validation: challenger 0.766 vs champion 0.750 (diff +0.016, SE 0.022)
+gen   64  best     0.81  mean     0.64  champion     0.75  cma_sigma 0.1320  n_fresh 0  score_w 1.00  life     76  score        1  contacts 1.00  drained 0.18  P(L) 0.49  P(R) 0.38   36.6s
+  validation: challenger 0.742 vs champion 0.750 (diff -0.008, SE 0.026)
+gen   65  best     0.78  mean     0.61  champion     0.75  cma_sigma 0.1338  n_fresh 0  score_w 1.00  life     81  score        1  contacts 0.85  drained 0.16  P(L) 0.33  P(R) 0.28   38.3s
+  validation: challenger 0.742 vs champion 0.750 (diff -0.008, SE 0.008)
+gen   66  best     0.81  mean     0.63  champion     0.75  cma_sigma 0.1337  n_fresh 0  score_w 1.00  life     86  score        1  contacts 0.89  drained 0.11  P(L) 0.29  P(R) 0.26   36.7s
+gen   67  best     0.72  mean     0.59  champion     0.75  cma_sigma 0.1347  n_fresh 0  score_w 1.00  life     90  score        1  contacts 1.07  drained 0.10  P(L) 0.39  P(R) 0.31   27.2s
+  validation: challenger 0.773 vs champion 0.797 (diff -0.023, SE 0.013)
+gen   68  best     0.84  mean     0.62  champion     0.80  cma_sigma 0.1339  n_fresh 0  score_w 1.00  life     77  score        1  contacts 1.01  drained 0.12  P(L) 0.38  P(R) 0.39   33.4s
+  validation: challenger 0.734 vs champion 0.742 (diff -0.008, SE 0.018)
+gen   69  best     0.84  mean     0.72  champion     0.74  cma_sigma 0.1310  n_fresh 0  score_w 1.00  life     77  score        1  contacts 1.00  drained 0.12  P(L) 0.37  P(R) 0.37   37.5s
+gen   70  best     0.72  mean     0.58  champion     0.74  cma_sigma 0.1282  n_fresh 0  score_w 1.00  life     84  score        1  contacts 0.91  drained 0.15  P(L) 0.39  P(R) 0.37   33.3s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+  validation: challenger 0.742 vs champion 0.766 (diff -0.023, SE 0.034)
+gen   71  best     0.88  mean     0.62  champion     0.77  cma_sigma 0.1264  n_fresh 0  score_w 1.00  life     85  score        1  contacts 1.04  drained 0.10  P(L) 0.45  P(R) 0.41   48.6s
+gen   72  best     0.75  mean     0.58  champion     0.77  cma_sigma 0.1251  n_fresh 0  score_w 1.00  life     98  score        1  contacts 1.01  drained 0.12  P(L) 0.38  P(R) 0.35   30.9s
+gen   73  best     0.72  mean     0.63  champion     0.77  cma_sigma 0.1220  n_fresh 0  score_w 1.00  life     85  score        1  contacts 1.04  drained 0.12  P(L) 0.39  P(R) 0.36   24.1s
+gen   74  best     0.75  mean     0.59  champion     0.77  cma_sigma 0.1210  n_fresh 0  score_w 1.00  life     85  score        1  contacts 1.00  drained 0.17  P(L) 0.41  P(R) 0.37   24.5s
+gen   75  best     0.75  mean     0.48  champion     0.77  cma_sigma 0.1210  n_fresh 0  score_w 1.00  life    100  score        0  contacts 1.05  drained 0.18  P(L) 0.46  P(R) 0.41   27.4s
+gen   76  best     0.72  mean     0.58  champion     0.77  cma_sigma 0.1220  n_fresh 0  score_w 1.00  life     93  score        1  contacts 0.96  drained 0.12  P(L) 0.44  P(R) 0.42   26.0s
+  validation: challenger 0.781 vs champion 0.750 (diff +0.031, SE 0.025) -> PROMOTED
+gen   77  best     0.81  mean     0.51  champion     0.78  cma_sigma 0.1212  n_fresh 0  score_w 1.00  life     91  score        1  contacts 0.85  drained 0.26  P(L) 0.26  P(R) 0.25   37.8s
+gen   78  best     0.69  mean     0.60  champion     0.78  cma_sigma 0.1223  n_fresh 0  score_w 1.00  life     89  score        1  contacts 1.04  drained 0.14  P(L) 0.44  P(R) 0.42   24.8s
+gen   79  best     0.78  mean     0.63  champion     0.78  cma_sigma 0.1208  n_fresh 0  score_w 1.00  life     81  score        1  contacts 1.07  drained 0.12  P(L) 0.45  P(R) 0.44   24.2s
+  validation: challenger 0.750 vs champion 0.734 (diff +0.016, SE 0.019)
+gen   80  best     0.94  mean     0.79  champion     0.73  cma_sigma 0.1184  n_fresh 0  score_w 1.00  life     75  score        1  contacts 1.17  drained 0.06  P(L) 0.41  P(R) 0.39   33.5s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+  validation: challenger 0.672 vs champion 0.695 (diff -0.023, SE 0.021)
+gen   81  best     0.84  mean     0.75  champion     0.70  cma_sigma 0.1151  n_fresh 0  score_w 1.00  life     63  score        1  contacts 1.03  drained 0.10  P(L) 0.43  P(R) 0.37   35.1s
+  validation: challenger 0.781 vs champion 0.773 (diff +0.008, SE 0.026)
+gen   82  best     0.72  mean     0.49  champion     0.77  cma_sigma 0.1116  n_fresh 0  score_w 1.00  life     93  score        0  contacts 0.88  drained 0.22  P(L) 0.38  P(R) 0.35   37.5s
+  validation: challenger 0.688 vs champion 0.695 (diff -0.008, SE 0.036)
+gen   83  best     0.78  mean     0.56  champion     0.70  cma_sigma 0.1092  n_fresh 0  score_w 1.00  life     92  score        1  contacts 0.92  drained 0.16  P(L) 0.38  P(R) 0.33   37.9s
+  validation: challenger 0.719 vs champion 0.719 (diff +0.000, SE 0.033)
+gen   84  best     0.81  mean     0.62  champion     0.72  cma_sigma 0.1092  n_fresh 0  score_w 1.00  life     80  score        1  contacts 0.93  drained 0.20  P(L) 0.31  P(R) 0.29   34.6s
+  validation: challenger 0.742 vs champion 0.750 (diff -0.008, SE 0.038)
+gen   85  best     0.84  mean     0.67  champion     0.75  cma_sigma 0.1082  n_fresh 0  score_w 1.00  life     82  score        1  contacts 1.02  drained 0.14  P(L) 0.28  P(R) 0.26   36.5s
+  validation: challenger 0.766 vs champion 0.766 (diff +0.000, SE 0.019)
+gen   86  best     0.84  mean     0.69  champion     0.77  cma_sigma 0.1074  n_fresh 0  score_w 1.00  life     76  score        1  contacts 0.94  drained 0.07  P(L) 0.32  P(R) 0.29   35.8s
+gen   87  best     0.75  mean     0.69  champion     0.77  cma_sigma 0.1060  n_fresh 0  score_w 1.00  life     86  score        1  contacts 1.09  drained 0.13  P(L) 0.34  P(R) 0.33   25.5s
+gen   88  best     0.72  mean     0.54  champion     0.77  cma_sigma 0.1036  n_fresh 0  score_w 1.00  life     99  score        1  contacts 1.09  drained 0.21  P(L) 0.30  P(R) 0.28   28.5s
+  validation: challenger 0.734 vs champion 0.734 (diff +0.000, SE 0.031)
+gen   89  best     0.97  mean     0.75  champion     0.73  cma_sigma 0.1005  n_fresh 0  score_w 1.00  life     69  score        1  contacts 1.11  drained 0.07  P(L) 0.37  P(R) 0.34   34.9s
+  validation: challenger 0.680 vs champion 0.695 (diff -0.016, SE 0.025)
+gen   90  best     0.78  mean     0.63  champion     0.70  cma_sigma 0.0971  n_fresh 0  score_w 1.00  life     82  score        1  contacts 0.90  drained 0.11  P(L) 0.30  P(R) 0.29   36.3s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+  validation: challenger 0.727 vs champion 0.734 (diff -0.008, SE 0.014)
+gen   91  best     0.91  mean     0.81  champion     0.73  cma_sigma 0.0948  n_fresh 0  score_w 1.00  life     61  score        1  contacts 1.08  drained 0.03  P(L) 0.34  P(R) 0.31   30.4s
+gen   92  best     0.69  mean     0.61  champion     0.73  cma_sigma 0.0912  n_fresh 0  score_w 1.00  life     87  score        1  contacts 1.13  drained 0.19  P(L) 0.42  P(R) 0.37   24.7s
+gen   93  best     0.72  mean     0.55  champion     0.73  cma_sigma 0.0879  n_fresh 0  score_w 1.00  life     94  score        1  contacts 0.90  drained 0.18  P(L) 0.29  P(R) 0.28   25.7s
+gen   94  best     0.66  mean     0.59  champion     0.73  cma_sigma 0.0848  n_fresh 0  score_w 1.00  life     91  score        1  contacts 1.01  drained 0.22  P(L) 0.39  P(R) 0.38   25.7s
+  validation: challenger 0.789 vs champion 0.742 (diff +0.047, SE 0.024) -> PROMOTED
+gen   95  best     0.88  mean     0.71  champion     0.79  cma_sigma 0.0811  n_fresh 0  score_w 1.00  life     78  score        1  contacts 0.98  drained 0.14  P(L) 0.28  P(R) 0.27   34.0s
+  validation: challenger 0.688 vs champion 0.688 (diff +0.000, SE 0.000)
+gen   96  best     0.84  mean     0.77  champion     0.69  cma_sigma 0.0781  n_fresh 0  score_w 1.00  life     69  score        1  contacts 1.00  drained 0.07  P(L) 0.35  P(R) 0.34   32.3s
+  validation: challenger 0.734 vs champion 0.719 (diff +0.016, SE 0.027)
+gen   97  best     0.72  mean     0.63  champion     0.72  cma_sigma 0.0773  n_fresh 0  score_w 1.00  life     79  score        1  contacts 0.91  drained 0.19  P(L) 0.37  P(R) 0.36   34.9s
+gen   98  best     0.72  mean     0.62  champion     0.72  cma_sigma 0.0752  n_fresh 0  score_w 1.00  life     82  score        1  contacts 0.94  drained 0.18  P(L) 0.30  P(R) 0.29   24.1s
+  validation: challenger 0.812 vs champion 0.812 (diff +0.000, SE 0.000)
+gen   99  best     0.88  mean     0.79  champion     0.81  cma_sigma 0.0748  n_fresh 0  score_w 1.00  life     60  score        1  contacts 0.95  drained 0.14  P(L) 0.33  P(R) 0.32   30.3s
+gen  100  best     0.81  mean     0.76  champion     0.81  cma_sigma 0.0745  n_fresh 0  score_w 1.00  life     71  score        1  contacts 1.18  drained 0.09  P(L) 0.37  P(R) 0.36   21.7s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+gen  101  best     0.62  mean     0.58  champion     0.81  cma_sigma 0.0730  n_fresh 0  score_w 1.00  life     85  score        1  contacts 0.93  drained 0.21  P(L) 0.34  P(R) 0.32   24.0s
+  validation: challenger 0.695 vs champion 0.703 (diff -0.008, SE 0.008)
+gen  102  best     0.84  mean     0.75  champion     0.70  cma_sigma 0.0713  n_fresh 0  score_w 1.00  life     59  score        1  contacts 0.95  drained 0.19  P(L) 0.40  P(R) 0.38   30.4s
+  validation: challenger 0.656 vs champion 0.680 (diff -0.023, SE 0.028)
+gen  103  best     0.75  mean     0.66  champion     0.68  cma_sigma 0.0697  n_fresh 0  score_w 1.00  life     78  score        1  contacts 0.97  drained 0.12  P(L) 0.37  P(R) 0.35   34.3s
+  validation: challenger 0.672 vs champion 0.656 (diff +0.016, SE 0.033)
+gen  104  best     0.84  mean     0.78  champion     0.66  cma_sigma 0.0671  n_fresh 0  score_w 1.00  life     72  score        1  contacts 1.14  drained 0.08  P(L) 0.40  P(R) 0.39   32.5s
+  validation: challenger 0.648 vs champion 0.703 (diff -0.055, SE 0.036)
+gen  105  best     0.72  mean     0.67  champion     0.70  cma_sigma 0.0640  n_fresh 0  score_w 1.00  life     74  score        1  contacts 1.21  drained 0.21  P(L) 0.33  P(R) 0.32   32.9s
+gen  106  best     0.69  mean     0.61  champion     0.70  cma_sigma 0.0608  n_fresh 0  score_w 1.00  life     82  score        1  contacts 1.01  drained 0.08  P(L) 0.40  P(R) 0.38   23.4s
+  validation: challenger 0.727 vs champion 0.734 (diff -0.008, SE 0.014)
+gen  107  best     0.75  mean     0.64  champion     0.73  cma_sigma 0.0582  n_fresh 0  score_w 1.00  life     84  score        1  contacts 1.00  drained 0.21  P(L) 0.35  P(R) 0.34   36.1s
+gen  108  best     0.69  mean     0.62  champion     0.73  cma_sigma 0.0570  n_fresh 0  score_w 1.00  life     82  score        1  contacts 1.00  drained 0.24  P(L) 0.35  P(R) 0.34   26.6s
+  validation: challenger 0.742 vs champion 0.758 (diff -0.016, SE 0.022)
+gen  109  best     0.84  mean     0.76  champion     0.76  cma_sigma 0.2000  n_fresh 0  score_w 1.00  life     70  score        1  contacts 1.09  drained 0.10  P(L) 0.38  P(R) 0.36  [IPOP RESTART #1, popsize->32]   36.7s
+  validation: challenger 0.727 vs champion 0.695 (diff +0.031, SE 0.019) -> PROMOTED
+gen  110  best     0.97  mean     0.69  champion     0.73  cma_sigma 0.1982  n_fresh 0  score_w 1.00  life     75  score        1  contacts 1.00  drained 0.08  P(L) 0.41  P(R) 0.35   56.7s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+gen  111  best     0.66  mean     0.50  champion     0.73  cma_sigma 0.1947  n_fresh 0  score_w 1.00  life     90  score        0  contacts 0.83  drained 0.26  P(L) 0.47  P(R) 0.42   42.6s
+gen  112  best     0.72  mean     0.49  champion     0.73  cma_sigma 0.1923  n_fresh 0  score_w 1.00  life     92  score        0  contacts 0.88  drained 0.25  P(L) 0.42  P(R) 0.48   42.7s
+  validation: challenger 0.688 vs champion 0.680 (diff +0.008, SE 0.030)
+gen  113  best     0.81  mean     0.56  champion     0.68  cma_sigma 0.1927  n_fresh 0  score_w 1.00  life     92  score        1  contacts 0.88  drained 0.12  P(L) 0.40  P(R) 0.41   53.9s
+  validation: challenger 0.633 vs champion 0.680 (diff -0.047, SE 0.024)
+gen  114  best     0.84  mean     0.65  champion     0.68  cma_sigma 0.1907  n_fresh 0  score_w 1.00  life     85  score        1  contacts 0.96  drained 0.13  P(L) 0.36  P(R) 0.33   51.2s
+  validation: challenger 0.750 vs champion 0.734 (diff +0.016, SE 0.016)
+gen  115  best     0.81  mean     0.58  champion     0.73  cma_sigma 0.1861  n_fresh 0  score_w 1.00  life     88  score        1  contacts 1.01  drained 0.17  P(L) 0.40  P(R) 0.36   51.1s
+gen  116  best     0.72  mean     0.58  champion     0.73  cma_sigma 0.1815  n_fresh 0  score_w 1.00  life     89  score        1  contacts 1.10  drained 0.12  P(L) 0.44  P(R) 0.43   42.4s
+  validation: challenger 0.688 vs champion 0.688 (diff +0.000, SE 0.038)
+gen  117  best     0.75  mean     0.52  champion     0.69  cma_sigma 0.1813  n_fresh 0  score_w 1.00  life     91  score        1  contacts 0.91  drained 0.26  P(L) 0.29  P(R) 0.29   53.8s
+  validation: challenger 0.727 vs champion 0.719 (diff +0.008, SE 0.021)
+gen  118  best     0.75  mean     0.49  champion     0.72  cma_sigma 0.1787  n_fresh 0  score_w 1.00  life     97  score        0  contacts 0.80  drained 0.20  P(L) 0.30  P(R) 0.37   56.0s
+gen  119  best     0.72  mean     0.50  champion     0.72  cma_sigma 0.1759  n_fresh 0  score_w 1.00  life     96  score        0  contacts 0.80  drained 0.19  P(L) 0.33  P(R) 0.42   44.2s
+  validation: challenger 0.703 vs champion 0.742 (diff -0.039, SE 0.041)
+gen  120  best     0.91  mean     0.58  champion     0.74  cma_sigma 0.1740  n_fresh 0  score_w 1.00  life     81  score        1  contacts 0.83  drained 0.16  P(L) 0.31  P(R) 0.41   49.0s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+  validation: challenger 0.727 vs champion 0.727 (diff +0.000, SE 0.016)
+gen  121  best     0.94  mean     0.60  champion     0.73  cma_sigma 0.1712  n_fresh 0  score_w 1.00  life     88  score        1  contacts 0.99  drained 0.14  P(L) 0.37  P(R) 0.39   52.6s
+gen  122  best     0.66  mean     0.47  champion     0.73  cma_sigma 0.1711  n_fresh 0  score_w 1.00  life    100  score        0  contacts 0.88  drained 0.24  P(L) 0.39  P(R) 0.40   45.7s
+  validation: challenger 0.734 vs champion 0.719 (diff +0.016, SE 0.019)
+gen  123  best     0.81  mean     0.54  champion     0.72  cma_sigma 0.1711  n_fresh 0  score_w 1.00  life     89  score        1  contacts 0.85  drained 0.19  P(L) 0.33  P(R) 0.33   52.1s
+  validation: challenger 0.773 vs champion 0.781 (diff -0.008, SE 0.008)
+gen  124  best     0.75  mean     0.55  champion     0.78  cma_sigma 0.1690  n_fresh 0  score_w 1.00  life     93  score        1  contacts 0.92  drained 0.15  P(L) 0.35  P(R) 0.36   52.4s
+gen  125  best     0.72  mean     0.46  champion     0.78  cma_sigma 0.1691  n_fresh 0  score_w 1.00  life    103  score        0  contacts 0.75  drained 0.19  P(L) 0.36  P(R) 0.40   47.2s
+gen  126  best     0.66  mean     0.45  champion     0.78  cma_sigma 0.1691  n_fresh 0  score_w 1.00  life     99  score        0  contacts 0.78  drained 0.18  P(L) 0.36  P(R) 0.39   45.2s
+  validation: challenger 0.719 vs champion 0.711 (diff +0.008, SE 0.024)
+gen  127  best     0.81  mean     0.64  champion     0.71  cma_sigma 0.1692  n_fresh 0  score_w 1.00  life     91  score        1  contacts 1.04  drained 0.10  P(L) 0.43  P(R) 0.43   54.4s
+  validation: challenger 0.688 vs champion 0.742 (diff -0.055, SE 0.028)
+gen  128  best     0.78  mean     0.56  champion     0.74  cma_sigma 0.1713  n_fresh 0  score_w 1.00  life     92  score        1  contacts 0.88  drained 0.19  P(L) 0.35  P(R) 0.38   53.3s
+gen  129  best     0.72  mean     0.46  champion     0.74  cma_sigma 0.1708  n_fresh 0  score_w 1.00  life     98  score        0  contacts 0.77  drained 0.36  P(L) 0.35  P(R) 0.38   43.6s
+  validation: challenger 0.727 vs champion 0.695 (diff +0.031, SE 0.029) -> PROMOTED
+gen  130  best     0.75  mean     0.45  champion     0.73  cma_sigma 0.1683  n_fresh 0  score_w 1.00  life    102  score        0  contacts 0.69  drained 0.18  P(L) 0.31  P(R) 0.34   55.8s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+  validation: challenger 0.734 vs champion 0.789 (diff -0.055, SE 0.023)
+gen  131  best     0.75  mean     0.56  champion     0.79  cma_sigma 0.1660  n_fresh 0  score_w 1.00  life     85  score        1  contacts 0.80  drained 0.17  P(L) 0.34  P(R) 0.32   52.8s
+gen  132  best     0.78  mean     0.48  champion     0.79  cma_sigma 0.1623  n_fresh 0  score_w 1.00  life    105  score        0  contacts 0.87  drained 0.15  P(L) 0.31  P(R) 0.32   46.9s
+gen  133  best     0.69  mean     0.42  champion     0.79  cma_sigma 0.1578  n_fresh 0  score_w 1.00  life    105  score        0  contacts 0.70  drained 0.21  P(L) 0.29  P(R) 0.31   47.3s
+  validation: challenger 0.648 vs champion 0.750 (diff -0.102, SE 0.040)
+gen  134  best     0.91  mean     0.67  champion     0.75  cma_sigma 0.1560  n_fresh 0  score_w 1.00  life     80  score        1  contacts 1.05  drained 0.08  P(L) 0.36  P(R) 0.33   50.1s
+  validation: challenger 0.773 vs champion 0.727 (diff +0.047, SE 0.033) -> PROMOTED
+gen  135  best     0.91  mean     0.76  champion     0.77  cma_sigma 0.1565  n_fresh 0  score_w 1.00  life     68  score        1  contacts 1.06  drained 0.09  P(L) 0.38  P(R) 0.34   44.9s
+  validation: challenger 0.820 vs champion 0.820 (diff +0.000, SE 0.019)
+gen  136  best     0.81  mean     0.55  champion     0.82  cma_sigma 0.1595  n_fresh 0  score_w 1.00  life     93  score        1  contacts 1.01  drained 0.18  P(L) 0.45  P(R) 0.37   52.5s
+gen  137  best     0.78  mean     0.57  champion     0.82  cma_sigma 0.1616  n_fresh 0  score_w 1.00  life     94  score        1  contacts 1.02  drained 0.17  P(L) 0.46  P(R) 0.38   44.0s
+gen  138  best     0.75  mean     0.43  champion     0.82  cma_sigma 0.1622  n_fresh 0  score_w 1.00  life    103  score        0  contacts 0.78  drained 0.23  P(L) 0.39  P(R) 0.30   46.5s
+gen  139  best     0.78  mean     0.45  champion     0.82  cma_sigma 0.1598  n_fresh 0  score_w 1.00  life    105  score        0  contacts 0.99  drained 0.24  P(L) 0.46  P(R) 0.37   47.3s
+gen  140  best     0.81  mean     0.51  champion     0.82  cma_sigma 0.1561  n_fresh 0  score_w 1.00  life     94  score        1  contacts 0.79  drained 0.17  P(L) 0.30  P(R) 0.26   43.1s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+  validation: challenger 0.742 vs champion 0.727 (diff +0.016, SE 0.027)
+gen  141  best     0.88  mean     0.59  champion     0.73  cma_sigma 0.1517  n_fresh 0  score_w 1.00  life     87  score        1  contacts 0.95  drained 0.11  P(L) 0.36  P(R) 0.32   50.9s
+gen  142  best     0.69  mean     0.50  champion     0.73  cma_sigma 0.1512  n_fresh 0  score_w 1.00  life     95  score        1  contacts 0.86  drained 0.29  P(L) 0.34  P(R) 0.34   44.2s
+  validation: challenger 0.711 vs champion 0.727 (diff -0.016, SE 0.011)
+gen  143  best     0.88  mean     0.54  champion     0.73  cma_sigma 0.1485  n_fresh 0  score_w 1.00  life     93  score        1  contacts 0.84  drained 0.17  P(L) 0.35  P(R) 0.35   53.6s
+  validation: challenger 0.688 vs champion 0.734 (diff -0.047, SE 0.033)
+gen  144  best     0.88  mean     0.64  champion     0.73  cma_sigma 0.1458  n_fresh 0  score_w 1.00  life     81  score        1  contacts 0.97  drained 0.12  P(L) 0.40  P(R) 0.37   49.1s
+gen  145  best     0.66  mean     0.54  champion     0.73  cma_sigma 0.1424  n_fresh 0  score_w 1.00  life     98  score        1  contacts 1.01  drained 0.15  P(L) 0.37  P(R) 0.35   45.1s
+gen  146  best     0.69  mean     0.52  champion     0.73  cma_sigma 0.1414  n_fresh 0  score_w 1.00  life     92  score        1  contacts 0.83  drained 0.22  P(L) 0.33  P(R) 0.34   43.8s
+  validation: challenger 0.711 vs champion 0.719 (diff -0.008, SE 0.024)
+gen  147  best     0.81  mean     0.57  champion     0.72  cma_sigma 0.1386  n_fresh 0  score_w 1.00  life     88  score        1  contacts 1.07  drained 0.15  P(L) 0.43  P(R) 0.40   52.2s
+  validation: challenger 0.680 vs champion 0.664 (diff +0.016, SE 0.011) -> PROMOTED
+gen  148  best     0.78  mean     0.59  champion     0.68  cma_sigma 0.1377  n_fresh 0  score_w 1.00  life     84  score        1  contacts 1.05  drained 0.15  P(L) 0.42  P(R) 0.40   50.3s
+  validation: challenger 0.602 vs champion 0.648 (diff -0.047, SE 0.044)
+gen  149  best     0.72  mean     0.54  champion     0.65  cma_sigma 0.1370  n_fresh 0  score_w 1.00  life     83  score        1  contacts 0.94  drained 0.16  P(L) 0.47  P(R) 0.43   51.5s
+  validation: challenger 0.750 vs champion 0.836 (diff -0.086, SE 0.038)
+gen  150  best     0.78  mean     0.63  champion     0.84  cma_sigma 0.1365  n_fresh 0  score_w 1.00  life     82  score        1  contacts 0.95  drained 0.14  P(L) 0.36  P(R) 0.31   48.3s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+  validation: challenger 0.703 vs champion 0.703 (diff +0.000, SE 0.011)
+gen  151  best     0.94  mean     0.59  champion     0.70  cma_sigma 0.1344  n_fresh 0  score_w 1.00  life     95  score        1  contacts 0.95  drained 0.11  P(L) 0.34  P(R) 0.29   54.6s
+  validation: challenger 0.742 vs champion 0.750 (diff -0.008, SE 0.014)
+gen  152  best     0.81  mean     0.56  champion     0.75  cma_sigma 0.1344  n_fresh 0  score_w 1.00  life     86  score        1  contacts 0.84  drained 0.20  P(L) 0.44  P(R) 0.38   51.1s
+  validation: challenger 0.703 vs champion 0.719 (diff -0.016, SE 0.016)
+gen  153  best     0.84  mean     0.62  champion     0.72  cma_sigma 0.1344  n_fresh 0  score_w 1.00  life     80  score        1  contacts 0.88  drained 0.21  P(L) 0.33  P(R) 0.32   49.7s
+gen  154  best     0.66  mean     0.54  champion     0.72  cma_sigma 0.1366  n_fresh 0  score_w 1.00  life     99  score        1  contacts 0.90  drained 0.15  P(L) 0.39  P(R) 0.40   45.7s
+  validation: challenger 0.641 vs champion 0.672 (diff -0.031, SE 0.027)
+gen  155  best     0.81  mean     0.54  champion     0.67  cma_sigma 0.1358  n_fresh 0  score_w 1.00  life     86  score        1  contacts 0.85  drained 0.18  P(L) 0.36  P(R) 0.39   52.7s
+  validation: challenger 0.727 vs champion 0.703 (diff +0.023, SE 0.030)
+gen  156  best     0.72  mean     0.49  champion     0.70  cma_sigma 0.1342  n_fresh 0  score_w 1.00  life     98  score        0  contacts 0.82  drained 0.21  P(L) 0.34  P(R) 0.34   56.4s
+  validation: challenger 0.797 vs champion 0.797 (diff +0.000, SE 0.011)
+gen  157  best     0.72  mean     0.49  champion     0.80  cma_sigma 0.1321  n_fresh 0  score_w 1.00  life     97  score        0  contacts 0.74  drained 0.20  P(L) 0.26  P(R) 0.26   56.5s
+gen  158  best     0.78  mean     0.62  champion     0.80  cma_sigma 0.1301  n_fresh 0  score_w 1.00  life     88  score        1  contacts 1.03  drained 0.12  P(L) 0.41  P(R) 0.39   43.3s
+  validation: challenger 0.688 vs champion 0.695 (diff -0.008, SE 0.014)
+gen  159  best     0.84  mean     0.60  champion     0.70  cma_sigma 0.1278  n_fresh 0  score_w 1.00  life     90  score        1  contacts 0.91  drained 0.09  P(L) 0.31  P(R) 0.30   55.3s
+  validation: challenger 0.773 vs champion 0.766 (diff +0.008, SE 0.018)
+gen  160  best     0.81  mean     0.65  champion     0.77  cma_sigma 0.1266  n_fresh 0  score_w 1.00  life     81  score        1  contacts 0.95  drained 0.13  P(L) 0.35  P(R) 0.34   50.2s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+  validation: challenger 0.703 vs champion 0.711 (diff -0.008, SE 0.008)
+gen  161  best     0.81  mean     0.62  champion     0.71  cma_sigma 0.1240  n_fresh 0  score_w 1.00  life     82  score        1  contacts 0.96  drained 0.17  P(L) 0.36  P(R) 0.29   51.6s
+  validation: challenger 0.703 vs champion 0.758 (diff -0.055, SE 0.040)
+gen  162  best     0.78  mean     0.64  champion     0.76  cma_sigma 0.1209  n_fresh 0  score_w 1.00  life     84  score        1  contacts 1.13  drained 0.20  P(L) 0.44  P(R) 0.37   51.3s
+gen  163  best     0.72  mean     0.60  champion     0.76  cma_sigma 0.1188  n_fresh 0  score_w 1.00  life     81  score        1  contacts 0.84  drained 0.18  P(L) 0.39  P(R) 0.29   42.8s
+  validation: challenger 0.711 vs champion 0.703 (diff +0.008, SE 0.030)
+gen  164  best     0.78  mean     0.58  champion     0.70  cma_sigma 0.1166  n_fresh 0  score_w 1.00  life     85  score        1  contacts 0.94  drained 0.19  P(L) 0.38  P(R) 0.29   52.6s
+  validation: challenger 0.742 vs champion 0.750 (diff -0.008, SE 0.018)
+gen  165  best     0.84  mean     0.68  champion     0.75  cma_sigma 0.1146  n_fresh 0  score_w 1.00  life     70  score        1  contacts 1.07  drained 0.14  P(L) 0.42  P(R) 0.32   47.2s
+  validation: challenger 0.680 vs champion 0.703 (diff -0.023, SE 0.030)
+gen  166  best     0.88  mean     0.70  champion     0.70  cma_sigma 0.1155  n_fresh 0  score_w 1.00  life     80  score        1  contacts 1.14  drained 0.09  P(L) 0.39  P(R) 0.33   50.5s
+gen  167  best     0.62  mean     0.55  champion     0.70  cma_sigma 0.1175  n_fresh 0  score_w 1.00  life     94  score        1  contacts 1.06  drained 0.23  P(L) 0.38  P(R) 0.37   45.7s
+  validation: challenger 0.734 vs champion 0.758 (diff -0.023, SE 0.032)
+gen  168  best     0.88  mean     0.74  champion     0.76  cma_sigma 0.1189  n_fresh 0  score_w 1.00  life     77  score        1  contacts 1.13  drained 0.12  P(L) 0.42  P(R) 0.40   50.9s
+  validation: challenger 0.734 vs champion 0.734 (diff +0.000, SE 0.035)
+gen  169  best     0.84  mean     0.66  champion     0.73  cma_sigma 0.2000  n_fresh 0  score_w 1.00  life     80  score        1  contacts 1.07  drained 0.13  P(L) 0.38  P(R) 0.35  [IPOP RESTART #2, popsize->64]   50.6s
+gen  170  best     0.72  mean     0.49  champion     0.73  cma_sigma 0.2020  n_fresh 0  score_w 1.00  life     98  score        0  contacts 0.90  drained 0.15  P(L) 0.42  P(R) 0.42   92.9s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+  validation: challenger 0.711 vs champion 0.711 (diff +0.000, SE 0.000)
+gen  171  best     0.84  mean     0.48  champion     0.71  cma_sigma 0.2004  n_fresh 0  score_w 1.00  life     96  score        0  contacts 0.81  drained 0.23  P(L) 0.29  P(R) 0.28  101.6s
+  validation: challenger 0.703 vs champion 0.742 (diff -0.039, SE 0.032)
+gen  172  best     0.78  mean     0.43  champion     0.74  cma_sigma 0.1984  n_fresh 0  score_w 1.00  life    100  score        0  contacts 0.74  drained 0.31  P(L) 0.43  P(R) 0.30  103.3s
+gen  173  best     0.62  mean     0.41  champion     0.74  cma_sigma 0.1942  n_fresh 0  score_w 1.00  life    105  score        0  contacts 0.77  drained 0.28  P(L) 0.40  P(R) 0.34   94.5s
+  validation: challenger 0.758 vs champion 0.766 (diff -0.008, SE 0.014)
+gen  174  best     0.81  mean     0.54  champion     0.77  cma_sigma 0.1901  n_fresh 0  score_w 1.00  life     91  score        1  contacts 0.90  drained 0.10  P(L) 0.42  P(R) 0.41   95.0s
+  validation: challenger 0.703 vs champion 0.695 (diff +0.008, SE 0.008)
+gen  175  best     0.84  mean     0.52  champion     0.70  cma_sigma 0.1852  n_fresh 0  score_w 1.00  life     95  score        1  contacts 0.86  drained 0.16  P(L) 0.41  P(R) 0.41   97.9s
+  validation: challenger 0.711 vs champion 0.766 (diff -0.055, SE 0.037)
+gen  176  best     0.81  mean     0.41  champion     0.77  cma_sigma 0.1802  n_fresh 0  score_w 1.00  life    108  score        0  contacts 0.79  drained 0.21  P(L) 0.36  P(R) 0.34  105.9s
+gen  177  best     0.75  mean     0.48  champion     0.77  cma_sigma 0.1768  n_fresh 0  score_w 1.00  life     93  score        0  contacts 0.89  drained 0.24  P(L) 0.33  P(R) 0.31   89.4s
+gen  178  best     0.75  mean     0.45  champion     0.77  cma_sigma 0.1720  n_fresh 0  score_w 1.00  life     99  score        0  contacts 0.69  drained 0.29  P(L) 0.32  P(R) 0.27   93.8s
+  validation: challenger 0.789 vs champion 0.781 (diff +0.008, SE 0.028)
+gen  179  best     0.84  mean     0.57  champion     0.78  cma_sigma 0.1677  n_fresh 0  score_w 1.00  life     98  score        1  contacts 0.97  drained 0.17  P(L) 0.39  P(R) 0.33  100.2s
+  validation: challenger 0.719 vs champion 0.719 (diff +0.000, SE 0.016)
+gen  180  best     0.81  mean     0.58  champion     0.72  cma_sigma 0.1649  n_fresh 0  score_w 1.00  life     91  score        1  contacts 1.05  drained 0.19  P(L) 0.41  P(R) 0.35   96.2s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+  validation: challenger 0.688 vs champion 0.719 (diff -0.031, SE 0.025)
+gen  181  best     0.88  mean     0.54  champion     0.72  cma_sigma 0.1612  n_fresh 0  score_w 1.00  life     90  score        1  contacts 0.94  drained 0.20  P(L) 0.40  P(R) 0.36   96.6s
+gen  182  best     0.72  mean     0.50  champion     0.72  cma_sigma 0.1613  n_fresh 0  score_w 1.00  life     92  score        0  contacts 0.80  drained 0.25  P(L) 0.37  P(R) 0.35   89.9s
+  validation: challenger 0.711 vs champion 0.695 (diff +0.016, SE 0.033)
+gen  183  best     0.81  mean     0.55  champion     0.70  cma_sigma 0.1590  n_fresh 0  score_w 1.00  life     91  score        1  contacts 0.85  drained 0.19  P(L) 0.32  P(R) 0.28  101.6s
+  validation: challenger 0.758 vs champion 0.750 (diff +0.008, SE 0.008)
+gen  184  best     0.84  mean     0.68  champion     0.75  cma_sigma 0.1591  n_fresh 0  score_w 1.00  life     83  score        1  contacts 1.14  drained 0.10  P(L) 0.41  P(R) 0.35   91.0s
+gen  185  best     0.66  mean     0.46  champion     0.75  cma_sigma 0.1614  n_fresh 0  score_w 1.00  life    101  score        0  contacts 0.92  drained 0.24  P(L) 0.38  P(R) 0.30   95.0s
+gen  186  best     0.72  mean     0.46  champion     0.75  cma_sigma 0.1604  n_fresh 0  score_w 1.00  life     93  score        0  contacts 0.78  drained 0.20  P(L) 0.35  P(R) 0.26   90.1s
+  validation: challenger 0.750 vs champion 0.758 (diff -0.008, SE 0.032)
+gen  187  best     0.84  mean     0.52  champion     0.76  cma_sigma 0.1614  n_fresh 0  score_w 1.00  life     95  score        1  contacts 0.94  drained 0.11  P(L) 0.48  P(R) 0.39   99.5s
+  validation: challenger 0.695 vs champion 0.711 (diff -0.016, SE 0.016)
+gen  188  best     0.84  mean     0.53  champion     0.71  cma_sigma 0.1604  n_fresh 0  score_w 1.00  life     90  score        1  contacts 0.83  drained 0.22  P(L) 0.45  P(R) 0.33   96.4s
+gen  189  best     0.66  mean     0.46  champion     0.71  cma_sigma 0.1596  n_fresh 0  score_w 1.00  life     95  score        0  contacts 0.86  drained 0.28  P(L) 0.41  P(R) 0.33   88.5s
+  validation: challenger 0.773 vs champion 0.727 (diff +0.047, SE 0.027) -> PROMOTED
+gen  190  best     0.84  mean     0.56  champion     0.77  cma_sigma 0.1576  n_fresh 0  score_w 1.00  life     95  score        1  contacts 0.94  drained 0.10  P(L) 0.39  P(R) 0.28  102.0s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+  validation: challenger 0.742 vs champion 0.781 (diff -0.039, SE 0.034)
+gen  191  best     0.88  mean     0.58  champion     0.78  cma_sigma 0.1549  n_fresh 0  score_w 1.00  life     85  score        1  contacts 0.82  drained 0.19  P(L) 0.41  P(R) 0.34   96.6s
+  validation: challenger 0.797 vs champion 0.781 (diff +0.016, SE 0.022)
+gen  192  best     0.81  mean     0.58  champion     0.78  cma_sigma 0.1541  n_fresh 0  score_w 1.00  life     96  score        1  contacts 1.01  drained 0.11  P(L) 0.37  P(R) 0.29  101.8s
+gen  193  best     0.75  mean     0.50  champion     0.78  cma_sigma 0.1549  n_fresh 0  score_w 1.00  life     98  score        1  contacts 0.92  drained 0.20  P(L) 0.36  P(R) 0.29  121.8s
+  validation: challenger 0.742 vs champion 0.695 (diff +0.047, SE 0.031) -> PROMOTED
+gen  194  best     0.84  mean     0.63  champion     0.74  cma_sigma 0.1536  n_fresh 0  score_w 1.00  life     81  score        1  contacts 0.96  drained 0.12  P(L) 0.39  P(R) 0.33  117.9s
+  validation: challenger 0.672 vs champion 0.664 (diff +0.008, SE 0.014)
+gen  195  best     0.75  mean     0.59  champion     0.66  cma_sigma 0.1527  n_fresh 0  score_w 1.00  life     87  score        1  contacts 1.00  drained 0.19  P(L) 0.42  P(R) 0.38  153.9s
+  validation: challenger 0.648 vs champion 0.703 (diff -0.055, SE 0.028)
+gen  196  best     0.84  mean     0.63  champion     0.70  cma_sigma 0.1521  n_fresh 0  score_w 1.00  life     87  score        1  contacts 1.10  drained 0.16  P(L) 0.38  P(R) 0.34  206.2s
+gen  197  best     0.69  mean     0.44  champion     0.70  cma_sigma 0.1496  n_fresh 0  score_w 1.00  life    106  score        0  contacts 0.70  drained 0.24  P(L) 0.32  P(R) 0.30  156.7s
+  validation: challenger 0.719 vs champion 0.703 (diff +0.016, SE 0.022)
+gen  198  best     0.84  mean     0.61  champion     0.70  cma_sigma 0.1461  n_fresh 0  score_w 1.00  life     84  score        1  contacts 0.90  drained 0.20  P(L) 0.36  P(R) 0.33  208.7s
+  validation: challenger 0.758 vs champion 0.695 (diff +0.062, SE 0.035) -> PROMOTED
+gen  199  best     0.81  mean     0.59  champion     0.76  cma_sigma 0.1418  n_fresh 0  score_w 1.00  life     76  score        1  contacts 0.80  drained 0.21  P(L) 0.31  P(R) 0.28  117.6s
+  validation: challenger 0.719 vs champion 0.703 (diff +0.016, SE 0.011) -> PROMOTED
+gen  200  best     0.91  mean     0.67  champion     0.72  cma_sigma 0.1392  n_fresh 0  score_w 1.00  life     84  score        1  contacts 1.13  drained 0.11  P(L) 0.40  P(R) 0.37   89.6s
+  saved checkpoint: agents/experiments/drill_big_bank/drill.pt (+ agents/experiments/drill_big_bank/drill.pt.cma.pkl)
+training complete, final checkpoint: agents/experiments/drill_big_bank/drill.pt

@@ -1,0 +1,115 @@
+heuristic_seed: collected 31525 labeled ticks across 24 episodes (positive rate: flip_left 0.005, flip_right 0.005, launch 0.012)
+heuristic_seed: collected 31525 labeled ticks across 24 episodes (positive rate: flip_left 0.005, flip_right 0.005, launch 0.012)
+  epoch    0  loss 0.9384  match-rate [flip_left 0.995 flip_right 0.995 launch 0.988]
+  epoch    0  loss 0.9384  match-rate [flip_left 0.995 flip_right 0.995 launch 0.988]
+  epoch   50  loss 0.4631  match-rate [flip_left 0.934 flip_right 0.924 launch 0.894]
+  epoch   50  loss 0.4768  match-rate [flip_left 0.929 flip_right 0.938 launch 0.887]
+  epoch  100  loss 0.3962  match-rate [flip_left 0.945 flip_right 0.930 launch 0.880]
+  epoch  100  loss 0.4063  match-rate [flip_left 0.943 flip_right 0.952 launch 0.890]
+  epoch  150  loss 0.3752  match-rate [flip_left 0.948 flip_right 0.932 launch 0.874]
+  epoch  200  loss 0.3620  match-rate [flip_left 0.952 flip_right 0.935 launch 0.868]
+  epoch  150  loss 0.3763  match-rate [flip_left 0.955 flip_right 0.950 launch 0.878]
+  epoch  200  loss 0.3594  match-rate [flip_left 0.957 flip_right 0.952 launch 0.875]
+  epoch  250  loss 0.3516  match-rate [flip_left 0.952 flip_right 0.937 launch 0.870]
+  epoch  250  loss 0.3461  match-rate [flip_left 0.957 flip_right 0.955 launch 0.876]
+  epoch  300  loss 0.3434  match-rate [flip_left 0.953 flip_right 0.941 launch 0.871]
+  epoch  300  loss 0.3358  match-rate [flip_left 0.957 flip_right 0.957 launch 0.878]
+  epoch  350  loss 0.3366  match-rate [flip_left 0.954 flip_right 0.943 launch 0.868]
+  epoch  350  loss 0.3294  match-rate [flip_left 0.959 flip_right 0.965 launch 0.858]
+  epoch  400  loss 0.3313  match-rate [flip_left 0.956 flip_right 0.946 launch 0.873]
+  epoch  400  loss 0.3229  match-rate [flip_left 0.959 flip_right 0.965 launch 0.882]
+  epoch  450  loss 0.3270  match-rate [flip_left 0.958 flip_right 0.947 launch 0.868]
+  epoch  450  loss 0.3189  match-rate [flip_left 0.961 flip_right 0.969 launch 0.873]
+  epoch  500  loss 0.3235  match-rate [flip_left 0.960 flip_right 0.951 launch 0.873]
+  epoch  500  loss 0.3151  match-rate [flip_left 0.959 flip_right 0.968 launch 0.879]
+  epoch  550  loss 0.3199  match-rate [flip_left 0.955 flip_right 0.948 launch 0.873]
+  epoch  550  loss 0.3121  match-rate [flip_left 0.960 flip_right 0.969 launch 0.884]
+  epoch  600  loss 0.3169  match-rate [flip_left 0.958 flip_right 0.949 launch 0.871]
+  epoch  600  loss 0.3092  match-rate [flip_left 0.960 flip_right 0.969 launch 0.882]
+  epoch  650  loss 0.3148  match-rate [flip_left 0.956 flip_right 0.949 launch 0.887]
+  epoch  650  loss 0.3071  match-rate [flip_left 0.964 flip_right 0.973 launch 0.873]
+  epoch  700  loss 0.3043  match-rate [flip_left 0.961 flip_right 0.970 launch 0.882]
+  epoch  700  loss 0.3111  match-rate [flip_left 0.956 flip_right 0.949 launch 0.879]
+  epoch  750  loss 0.3022  match-rate [flip_left 0.962 flip_right 0.971 launch 0.874]
+  epoch  750  loss 0.3084  match-rate [flip_left 0.956 flip_right 0.949 launch 0.876]
+  epoch  799  loss 0.3002  match-rate [flip_left 0.965 flip_right 0.973 launch 0.877]
+heuristic_seed: bias-calibrated heads to label press rates [0.004504361655563116, 0.0054877083748579025, 0.011673275381326675]
+  epoch  799  loss 0.3060  match-rate [flip_left 0.957 flip_right 0.950 launch 0.882]
+heuristic_seed: bias-calibrated heads to label press rates [0.004504361655563116, 0.0054877083748579025, 0.011673275381326675]
+heuristic_seed: collected 31525 labeled ticks across 24 episodes (positive rate: flip_left 0.005, flip_right 0.005, launch 0.012)
+  epoch    0  loss 0.9384  match-rate [flip_left 0.995 flip_right 0.995 launch 0.988]
+  epoch   50  loss 0.4714  match-rate [flip_left 0.934 flip_right 0.953 launch 0.889]
+  epoch  100  loss 0.4040  match-rate [flip_left 0.944 flip_right 0.957 launch 0.890]
+  epoch  150  loss 0.3759  match-rate [flip_left 0.955 flip_right 0.954 launch 0.878]
+  epoch  200  loss 0.3609  match-rate [flip_left 0.957 flip_right 0.956 launch 0.876]
+  epoch  250  loss 0.3494  match-rate [flip_left 0.957 flip_right 0.955 launch 0.876]
+  epoch  300  loss 0.3396  match-rate [flip_left 0.957 flip_right 0.958 launch 0.878]
+  epoch  350  loss 0.3324  match-rate [flip_left 0.957 flip_right 0.959 launch 0.876]
+  epoch  400  loss 0.3275  match-rate [flip_left 0.955 flip_right 0.957 launch 0.886]
+  epoch  450  loss 0.3221  match-rate [flip_left 0.959 flip_right 0.963 launch 0.879]
+  epoch  500  loss 0.3183  match-rate [flip_left 0.961 flip_right 0.965 launch 0.881]
+  epoch  550  loss 0.3156  match-rate [flip_left 0.963 flip_right 0.969 launch 0.869]
+  epoch  600  loss 0.3125  match-rate [flip_left 0.956 flip_right 0.962 launch 0.873]
+  epoch  650  loss 0.3093  match-rate [flip_left 0.961 flip_right 0.966 launch 0.879]
+  epoch  700  loss 0.3068  match-rate [flip_left 0.959 flip_right 0.964 launch 0.883]
+  epoch  750  loss 0.3043  match-rate [flip_left 0.963 flip_right 0.969 launch 0.882]
+  epoch  799  loss 0.3022  match-rate [flip_left 0.962 flip_right 0.969 launch 0.874]
+heuristic_seed: bias-calibrated heads to label press rates [0.004504361655563116, 0.0054877083748579025, 0.011673275381326675]
+heuristic_seed: collected 35264 labeled ticks across 24 episodes (positive rate: flip_left 0.057, flip_right 0.020, launch 0.011)
+  epoch    0  loss 1.2433  match-rate [flip_left 0.943 flip_right 0.980 launch 0.989]
+  epoch   50  loss 0.5848  match-rate [flip_left 0.843 flip_right 0.933 launch 0.878]
+  epoch  100  loss 0.4986  match-rate [flip_left 0.868 flip_right 0.947 launch 0.910]
+  epoch  150  loss 0.4584  match-rate [flip_left 0.876 flip_right 0.947 launch 0.886]
+  epoch  200  loss 0.4367  match-rate [flip_left 0.885 flip_right 0.948 launch 0.880]
+  epoch  250  loss 0.4212  match-rate [flip_left 0.899 flip_right 0.951 launch 0.883]
+  epoch  300  loss 0.4102  match-rate [flip_left 0.913 flip_right 0.952 launch 0.885]
+  epoch  350  loss 0.4016  match-rate [flip_left 0.914 flip_right 0.951 launch 0.884]
+  epoch  400  loss 0.3948  match-rate [flip_left 0.917 flip_right 0.951 launch 0.885]
+  epoch  450  loss 0.3888  match-rate [flip_left 0.918 flip_right 0.952 launch 0.886]
+  epoch  500  loss 0.3834  match-rate [flip_left 0.919 flip_right 0.953 launch 0.891]
+  epoch  550  loss 0.3794  match-rate [flip_left 0.921 flip_right 0.954 launch 0.864]
+  epoch  600  loss 0.3733  match-rate [flip_left 0.920 flip_right 0.955 launch 0.887]
+  epoch  650  loss 0.3691  match-rate [flip_left 0.923 flip_right 0.956 launch 0.897]
+  epoch  700  loss 0.3642  match-rate [flip_left 0.921 flip_right 0.956 launch 0.888]
+  epoch  750  loss 0.3610  match-rate [flip_left 0.929 flip_right 0.958 launch 0.887]
+  epoch  799  loss 0.3562  match-rate [flip_left 0.923 flip_right 0.956 launch 0.885]
+heuristic_seed: bias-calibrated heads to label press rates [0.05665834993124008, 0.020162204280495644, 0.01091764960438013]
+seeded 4 variants in 210s
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+    return self.env.close()
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/../agents/../env_python/pinball_env.py", line 440, in close
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/../agents/../env_python/pinball_env.py", line 440, in close
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/step3/seed_eval.py", line 66, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/step3/seed_eval.py", line 66, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+SystemExit: 0
+SystemExit: 0
+eval lives 7024..7071  total 385s
+variant                       log1p    se    score  steps  cont  press  P(L)  P(R)  agree recall   prec
+reflex_y11.5_h1_raw           10.11  0.09    29969    543   1.0   20.2 0.018 0.020  0.939  0.134  0.112
+reflex_y11.5_h1_zero          10.11  0.09    29089    538   1.0    2.2 0.004 0.004  0.965  0.056  0.214
+reflex_y11.5_h1_delay1        10.28  0.10    36286    574   1.2    8.9 0.006 0.015  0.956  0.131  0.213
+reflex_y10.5_h3_raw            9.94  0.09    24427    596   0.3    2.4 0.056 0.030  0.869  0.157  0.038

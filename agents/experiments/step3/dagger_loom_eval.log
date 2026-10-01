@@ -1,0 +1,13 @@
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+    def _shutdown():
+    
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/step3/seed_eval.py", line 64, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+eval lives 7024..7071  total 139s
+variant                             log1p    se    score  steps  cont  press  P(L)  P(R)  agree recall   prec
+dagger_y11.5_h1_loom12_tau4_r8      10.59  0.11    51745    755   3.2    5.5 0.008 0.009  0.964  0.090  0.111
+dagger_y11.5_h1_loom_tau2_r8        10.39  0.11    42406    676   2.0    4.6 0.012 0.009  0.960  0.090  0.115

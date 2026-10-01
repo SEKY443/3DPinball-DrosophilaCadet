@@ -1,0 +1,17 @@
+FixedCircuitAgent: 108 cells (fixed), 595 edges | MultiBinaryDecoder <- 16 readout cells | trainable params: 6,980
+warm-started decoder from agents/experiments/life_objective_2026-09-26/best_heldout_gen125_champion.pt (generation 125)
+upd     1 pg   0.000 v   0.003 ent   0.002 kl   0.002 clipfrac   0.001 epochs   4.000 episodes    0 mean return(20)     nan  528.2 steps/s
+upd    10 pg  -0.000 v   1.066 ent   0.002 kl   0.017 clipfrac   0.003 epochs   4.000 episodes    5 mean return(20)   10.96  559.5 steps/s
+upd    20 pg  -0.000 v   0.654 ent   0.002 kl   0.040 clipfrac   0.004 epochs   2.000 episodes    9 mean return(20)   13.32  558.0 steps/s
+upd    30 pg  -0.000 v   0.771 ent   0.001 kl   0.004 clipfrac   0.001 epochs   4.000 episodes   14 mean return(20)   18.52  559.0 steps/s
+upd    40 pg  -0.001 v   0.095 ent   0.003 kl   0.024 clipfrac   0.004 epochs   3.000 episodes   22 mean return(20)   21.27  560.4 steps/s
+upd    50 pg  -0.001 v   1.561 ent   0.002 kl  -0.003 clipfrac   0.001 epochs   4.000 episodes   29 mean return(20)   26.22  558.8 steps/s
+upd    60 pg  -0.000 v   0.922 ent   0.003 kl   0.003 clipfrac   0.003 epochs   4.000 episodes   33 mean return(20)   24.56  558.0 steps/s
+upd    70 pg  -0.001 v   1.523 ent   0.002 kl  -0.000 clipfrac   0.002 epochs   4.000 episodes   37 mean return(20)   24.35  557.0 steps/s
+upd    80 pg  -0.000 v   0.137 ent   0.002 kl  -0.000 clipfrac   0.002 epochs   4.000 episodes   40 mean return(20)   28.11  556.3 steps/s
+upd    90 pg  -0.000 v   0.523 ent   0.003 kl   0.001 clipfrac   0.005 epochs   4.000 episodes   45 mean return(20)   33.37  556.7 steps/s
+upd   100 pg  -0.000 v   3.315 ent   0.002 kl  -0.000 clipfrac   0.000 epochs   4.000 episodes   51 mean return(20)   35.77  556.9 steps/s
+upd   110 pg  -0.001 v   0.629 ent   0.002 kl  -0.002 clipfrac   0.004 epochs   4.000 episodes   59 mean return(20)   37.06  556.4 steps/s
+upd   120 pg  -0.000 v   1.014 ent   0.003 kl   0.001 clipfrac   0.000 epochs   4.000 episodes   60 mean return(20)   32.93  556.1 steps/s
+upd   130 pg  -0.000 v   0.187 ent   0.000 kl  -0.000 clipfrac   0.000 epochs   4.000 episodes   63 mean return(20)   33.89  556.0 steps/s
+upd   140 pg  -0.000 v   0.166 ent   0.001 kl   0.037 clipfrac   0.002 epochs   3.000 episodes   69 mean return(20)   32.27  556.5 steps/s

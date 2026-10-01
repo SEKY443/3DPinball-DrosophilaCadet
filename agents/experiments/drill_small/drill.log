@@ -1,0 +1,496 @@
+decoder parameter count (CEM search dimension): 643
+resumed from agents/experiments/drill_small/start_gen125_centered.pt at generation 1 (champion_fitness=-1000000000000000000.00, curriculum_start_gen=1656)
+/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/cma/s.py:17: UserWarning: Could not import matplotlib.pyplot, therefore ``cma.plot()`` etc. is not available
+  _warnings.warn('Could not import matplotlib.pyplot, therefore'
+no agents/experiments/drill_small/drill.pt.cma.pkl found - starting CMA-ES fresh from the resumed mean (covariance/step-size history is lost, but the search center is not)
+  validation: challenger 0.570 vs champion 0.609 (diff -0.039, SE 0.039)
+gen    1  best     0.62  mean     0.24  champion     0.61  cma_sigma 0.2023  n_fresh 0  score_w 1.00  life    116  score        0  contacts 0.53  drained 0.32  P(L) 0.35  P(R) 0.33   52.4s
+  validation: challenger 0.625 vs champion 0.641 (diff -0.016, SE 0.046)
+gen    2  best     0.69  mean     0.48  champion     0.64  cma_sigma 0.1996  n_fresh 0  score_w 1.00  life     97  score        0  contacts 0.89  drained 0.21  P(L) 0.13  P(R) 0.45   45.8s
+gen    3  best     0.62  mean     0.13  champion     0.64  cma_sigma 0.1958  n_fresh 0  score_w 1.00  life    127  score        0  contacts 0.29  drained 0.32  P(L) 0.60  P(R) 0.12   38.3s
+  validation: challenger 0.477 vs champion 0.688 (diff -0.211, SE 0.053)
+gen    4  best     0.69  mean     0.35  champion     0.69  cma_sigma 0.1972  n_fresh 0  score_w 1.00  life    105  score        0  contacts 0.56  drained 0.27  P(L) 0.23  P(R) 0.18   44.5s
+gen    5  best     0.62  mean     0.30  champion     0.69  cma_sigma 0.1952  n_fresh 0  score_w 1.00  life    110  score        0  contacts 0.68  drained 0.31  P(L) 0.07  P(R) 0.48   27.9s
+gen    6  best     0.69  mean     0.41  champion     0.69  cma_sigma 0.1902  n_fresh 0  score_w 1.00  life    106  score        0  contacts 0.72  drained 0.28  P(L) 0.12  P(R) 0.29   32.5s
+  validation: challenger 0.641 vs champion 0.609 (diff +0.031, SE 0.038)
+gen    7  best     0.84  mean     0.60  champion     0.61  cma_sigma 0.1887  n_fresh 0  score_w 1.00  life     89  score        1  contacts 1.19  drained 0.08  P(L) 0.15  P(R) 0.44   43.8s
+  validation: challenger 0.672 vs champion 0.672 (diff +0.000, SE 0.038)
+gen    8  best     0.75  mean     0.43  champion     0.67  cma_sigma 0.1876  n_fresh 0  score_w 1.00  life    104  score        0  contacts 0.93  drained 0.20  P(L) 0.22  P(R) 0.37   45.4s
+  validation: challenger 0.586 vs champion 0.602 (diff -0.016, SE 0.041)
+gen    9  best     0.72  mean     0.48  champion     0.60  cma_sigma 0.1890  n_fresh 0  score_w 1.00  life     94  score        0  contacts 0.89  drained 0.24  P(L) 0.10  P(R) 0.40   43.1s
+  validation: challenger 0.633 vs champion 0.641 (diff -0.008, SE 0.038)
+gen   10  best     0.72  mean     0.27  champion     0.64  cma_sigma 0.1881  n_fresh 0  score_w 1.00  life    118  score        0  contacts 0.66  drained 0.25  P(L) 0.30  P(R) 0.40   46.9s
+  saved checkpoint: agents/experiments/drill_small/drill.pt (+ agents/experiments/drill_small/drill.pt.cma.pkl)
+  validation: challenger 0.688 vs champion 0.656 (diff +0.031, SE 0.035)
+gen   11  best     0.66  mean     0.32  champion     0.66  cma_sigma 0.1864  n_fresh 0  score_w 1.00  life    106  score        0  contacts 0.66  drained 0.32  P(L) 0.23  P(R) 0.27   36.5s
+  validation: challenger 0.742 vs champion 0.680 (diff +0.062, SE 0.043) -> PROMOTED
+gen   12  best     0.78  mean     0.44  champion     0.74  cma_sigma 0.1867  n_fresh 0  score_w 1.00  life    100  score        0  contacts 0.86  drained 0.09  P(L) 0.13  P(R) 0.34   43.9s
+  validation: challenger 0.695 vs champion 0.719 (diff -0.023, SE 0.044)
+gen   13  best     0.81  mean     0.50  champion     0.72  cma_sigma 0.1838  n_fresh 0  score_w 1.00  life     94  score        0  contacts 0.88  drained 0.23  P(L) 0.28  P(R) 0.29   42.3s
+  validation: challenger 0.672 vs champion 0.672 (diff +0.000, SE 0.040)
+gen   14  best     0.78  mean     0.37  champion     0.67  cma_sigma 0.1790  n_fresh 0  score_w 1.00  life    108  score        0  contacts 0.64  drained 0.23  P(L) 0.33  P(R) 0.19   45.8s
+  validation: challenger 0.734 vs champion 0.727 (diff +0.008, SE 0.036)
+gen   15  best     0.72  mean     0.39  champion     0.73  cma_sigma 0.1738  n_fresh 0  score_w 1.00  life    109  score        0  contacts 0.67  drained 0.14  P(L) 0.31  P(R) 0.21   46.2s
+  validation: challenger 0.680 vs champion 0.750 (diff -0.070, SE 0.045)
+gen   16  best     0.78  mean     0.45  champion     0.75  cma_sigma 0.1683  n_fresh 0  score_w 1.00  life    100  score        0  contacts 0.80  drained 0.21  P(L) 0.34  P(R) 0.22   42.5s
+  validation: challenger 0.688 vs champion 0.719 (diff -0.031, SE 0.031)
+gen   17  best     0.78  mean     0.45  champion     0.72  cma_sigma 0.1636  n_fresh 0  score_w 1.00  life    109  score        0  contacts 0.75  drained 0.14  P(L) 0.26  P(R) 0.26   39.7s
+gen   18  best     0.69  mean     0.37  champion     0.72  cma_sigma 0.1635  n_fresh 0  score_w 1.00  life    109  score        0  contacts 0.76  drained 0.22  P(L) 0.11  P(R) 0.35   32.5s
+gen   19  best     0.72  mean     0.33  champion     0.72  cma_sigma 0.1625  n_fresh 0  score_w 1.00  life    107  score        0  contacts 0.71  drained 0.25  P(L) 0.09  P(R) 0.37   32.0s
+gen   20  best     0.69  mean     0.36  champion     0.72  cma_sigma 0.1608  n_fresh 0  score_w 1.00  life    116  score        0  contacts 0.71  drained 0.20  P(L) 0.19  P(R) 0.42   35.2s
+  saved checkpoint: agents/experiments/drill_small/drill.pt (+ agents/experiments/drill_small/drill.pt.cma.pkl)
+gen   21  best     0.69  mean     0.34  champion     0.72  cma_sigma 0.1572  n_fresh 0  score_w 1.00  life    110  score        0  contacts 0.72  drained 0.25  P(L) 0.35  P(R) 0.30   33.8s
+gen   22  best     0.72  mean     0.37  champion     0.72  cma_sigma 0.1527  n_fresh 0  score_w 1.00  life    102  score        0  contacts 0.75  drained 0.26  P(L) 0.22  P(R) 0.34   31.1s
+gen   23  best     0.72  mean     0.31  champion     0.72  cma_sigma 0.1472  n_fresh 0  score_w 1.00  life    108  score        0  contacts 0.55  drained 0.29  P(L) 0.43  P(R) 0.23   32.0s
+gen   24  best     0.72  mean     0.48  champion     0.72  cma_sigma 0.1416  n_fresh 0  score_w 1.00  life     98  score        0  contacts 0.88  drained 0.20  P(L) 0.20  P(R) 0.41   27.7s
+  validation: challenger 0.648 vs champion 0.648 (diff +0.000, SE 0.035)
+gen   25  best     0.81  mean     0.51  champion     0.65  cma_sigma 0.1393  n_fresh 0  score_w 1.00  life     91  score        1  contacts 0.88  drained 0.19  P(L) 0.22  P(R) 0.28   34.1s
+  validation: challenger 0.703 vs champion 0.742 (diff -0.039, SE 0.044)
+gen   26  best     0.81  mean     0.52  champion     0.74  cma_sigma 0.1349  n_fresh 0  score_w 1.00  life     91  score        1  contacts 0.98  drained 0.16  P(L) 0.23  P(R) 0.42   40.8s
+gen   27  best     0.72  mean     0.38  champion     0.74  cma_sigma 0.1300  n_fresh 0  score_w 1.00  life    106  score        0  contacts 0.76  drained 0.26  P(L) 0.41  P(R) 0.32   31.6s
+  validation: challenger 0.672 vs champion 0.648 (diff +0.023, SE 0.044)
+gen   28  best     0.81  mean     0.47  champion     0.65  cma_sigma 0.1286  n_fresh 0  score_w 1.00  life     97  score        0  contacts 0.94  drained 0.19  P(L) 0.34  P(R) 0.29   44.5s
+  validation: challenger 0.680 vs champion 0.734 (diff -0.055, SE 0.043)
+gen   29  best     0.69  mean     0.45  champion     0.73  cma_sigma 0.1254  n_fresh 0  score_w 1.00  life    102  score        0  contacts 1.01  drained 0.15  P(L) 0.28  P(R) 0.39   43.5s
+gen   30  best     0.62  mean     0.39  champion     0.73  cma_sigma 0.1251  n_fresh 0  score_w 1.00  life    106  score        0  contacts 0.71  drained 0.29  P(L) 0.32  P(R) 0.30   31.3s
+  saved checkpoint: agents/experiments/drill_small/drill.pt (+ agents/experiments/drill_small/drill.pt.cma.pkl)
+gen   31  best     0.66  mean     0.40  champion     0.73  cma_sigma 0.1259  n_fresh 0  score_w 1.00  life     95  score        0  contacts 0.77  drained 0.28  P(L) 0.17  P(R) 0.38   28.3s
+gen   32  best     0.72  mean     0.47  champion     0.73  cma_sigma 0.1241  n_fresh 0  score_w 1.00  life     98  score        0  contacts 0.95  drained 0.20  P(L) 0.21  P(R) 0.26   23.2s
+gen   33  best     0.50  mean     0.23  champion     0.73  cma_sigma 0.1222  n_fresh 0  score_w 1.00  life    120  score        0  contacts 0.50  drained 0.25  P(L) 0.40  P(R) 0.18   30.6s
+  validation: challenger 0.648 vs champion 0.695 (diff -0.047, SE 0.037)
+gen   34  best     0.81  mean     0.47  champion     0.70  cma_sigma 0.1187  n_fresh 0  score_w 1.00  life     95  score        0  contacts 0.89  drained 0.19  P(L) 0.40  P(R) 0.27   41.3s
+  validation: challenger 0.648 vs champion 0.719 (diff -0.070, SE 0.039)
+gen   35  best     0.84  mean     0.45  champion     0.72  cma_sigma 0.1141  n_fresh 0  score_w 1.00  life    101  score        0  contacts 0.77  drained 0.15  P(L) 0.28  P(R) 0.19   44.0s
+gen   36  best     0.72  mean     0.51  champion     0.72  cma_sigma 0.1125  n_fresh 0  score_w 1.00  life     93  score        1  contacts 0.98  drained 0.19  P(L) 0.30  P(R) 0.39   29.3s
+gen   37  best     0.72  mean     0.55  champion     0.72  cma_sigma 0.1126  n_fresh 0  score_w 1.00  life     90  score        1  contacts 1.03  drained 0.18  P(L) 0.34  P(R) 0.31   28.2s
+  validation: challenger 0.664 vs champion 0.664 (diff +0.000, SE 0.044)
+gen   38  best     0.75  mean     0.52  champion     0.66  cma_sigma 0.1121  n_fresh 0  score_w 1.00  life     97  score        1  contacts 0.99  drained 0.18  P(L) 0.29  P(R) 0.45   40.6s
+  validation: challenger 0.734 vs champion 0.711 (diff +0.023, SE 0.034)
+gen   39  best     0.84  mean     0.44  champion     0.71  cma_sigma 0.1129  n_fresh 0  score_w 1.00  life     96  score        0  contacts 0.86  drained 0.19  P(L) 0.37  P(R) 0.31   43.1s
+  validation: challenger 0.711 vs champion 0.758 (diff -0.047, SE 0.037)
+gen   40  best     0.75  mean     0.25  champion     0.76  cma_sigma 0.1143  n_fresh 0  score_w 1.00  life    114  score        0  contacts 0.45  drained 0.30  P(L) 0.69  P(R) 0.16   46.4s
+  saved checkpoint: agents/experiments/drill_small/drill.pt (+ agents/experiments/drill_small/drill.pt.cma.pkl)
+gen   41  best     0.72  mean     0.35  champion     0.76  cma_sigma 0.1147  n_fresh 0  score_w 1.00  life    105  score        0  contacts 0.67  drained 0.26  P(L) 0.46  P(R) 0.25   31.6s
+  validation: challenger 0.711 vs champion 0.680 (diff +0.031, SE 0.043)
+gen   42  best     0.78  mean     0.38  champion     0.68  cma_sigma 0.1156  n_fresh 0  score_w 1.00  life    105  score        0  contacts 0.70  drained 0.27  P(L) 0.39  P(R) 0.24   43.9s
+  validation: challenger 0.695 vs champion 0.734 (diff -0.039, SE 0.042)
+gen   43  best     0.75  mean     0.46  champion     0.73  cma_sigma 0.1184  n_fresh 0  score_w 1.00  life     92  score        0  contacts 0.86  drained 0.23  P(L) 0.33  P(R) 0.31   42.3s
+gen   44  best     0.69  mean     0.49  champion     0.73  cma_sigma 0.1195  n_fresh 0  score_w 1.00  life     89  score        0  contacts 0.93  drained 0.24  P(L) 0.24  P(R) 0.35   25.1s
+gen   45  best     0.69  mean     0.54  champion     0.73  cma_sigma 0.1176  n_fresh 0  score_w 1.00  life     90  score        1  contacts 1.03  drained 0.11  P(L) 0.16  P(R) 0.35   27.4s
+gen   46  best     0.72  mean     0.46  champion     0.73  cma_sigma 0.1170  n_fresh 0  score_w 1.00  life    103  score        0  contacts 0.80  drained 0.16  P(L) 0.17  P(R) 0.20   30.9s
+gen   47  best     0.72  mean     0.52  champion     0.73  cma_sigma 0.1182  n_fresh 0  score_w 1.00  life     88  score        1  contacts 0.95  drained 0.27  P(L) 0.11  P(R) 0.28   27.6s
+  validation: challenger 0.727 vs champion 0.734 (diff -0.008, SE 0.045)
+gen   48  best     0.84  mean     0.44  champion     0.73  cma_sigma 0.1172  n_fresh 0  score_w 1.00  life     93  score        0  contacts 0.77  drained 0.31  P(L) 0.37  P(R) 0.27   41.9s
+gen   49  best     0.72  mean     0.58  champion     0.73  cma_sigma 0.1150  n_fresh 0  score_w 1.00  life     89  score        1  contacts 1.29  drained 0.16  P(L) 0.11  P(R) 0.45   28.0s
+gen   50  best     0.69  mean     0.39  champion     0.73  cma_sigma 0.1144  n_fresh 0  score_w 1.00  life    106  score        0  contacts 0.68  drained 0.25  P(L) 0.36  P(R) 0.33   32.1s
+  saved checkpoint: agents/experiments/drill_small/drill.pt (+ agents/experiments/drill_small/drill.pt.cma.pkl)
+  validation: challenger 0.664 vs champion 0.688 (diff -0.023, SE 0.038)
+gen   51  best     0.75  mean     0.54  champion     0.69  cma_sigma 0.1121  n_fresh 0  score_w 1.00  life     90  score        1  contacts 1.24  drained 0.22  P(L) 0.10  P(R) 0.59   41.5s
+  validation: challenger 0.703 vs champion 0.711 (diff -0.008, SE 0.041)
+gen   52  best     0.88  mean     0.44  champion     0.71  cma_sigma 0.1120  n_fresh 0  score_w 1.00  life    102  score        0  contacts 0.71  drained 0.19  P(L) 0.49  P(R) 0.20   44.3s
+  validation: challenger 0.750 vs champion 0.695 (diff +0.055, SE 0.043) -> PROMOTED
+gen   53  best     0.72  mean     0.39  champion     0.75  cma_sigma 0.1101  n_fresh 0  score_w 1.00  life    108  score        0  contacts 0.71  drained 0.14  P(L) 0.24  P(R) 0.19   41.6s
+gen   54  best     0.66  mean     0.38  champion     0.75  cma_sigma 0.1073  n_fresh 0  score_w 1.00  life    107  score        0  contacts 0.70  drained 0.24  P(L) 0.43  P(R) 0.20   23.9s
+gen   55  best     0.72  mean     0.40  champion     0.75  cma_sigma 0.1069  n_fresh 0  score_w 1.00  life    106  score        0  contacts 0.82  drained 0.17  P(L) 0.37  P(R) 0.25   24.0s
+  validation: challenger 0.656 vs champion 0.719 (diff -0.062, SE 0.035)
+gen   56  best     0.88  mean     0.57  champion     0.72  cma_sigma 0.1048  n_fresh 0  score_w 1.00  life     88  score        1  contacts 0.94  drained 0.11  P(L) 0.38  P(R) 0.23   38.6s
+  validation: challenger 0.742 vs champion 0.758 (diff -0.016, SE 0.041)
+gen   57  best     0.78  mean     0.54  champion     0.76  cma_sigma 0.1044  n_fresh 0  score_w 1.00  life     93  score        1  contacts 1.09  drained 0.19  P(L) 0.30  P(R) 0.32   40.3s
+  validation: challenger 0.656 vs champion 0.672 (diff -0.016, SE 0.038)
+gen   58  best     0.81  mean     0.62  champion     0.67  cma_sigma 0.1049  n_fresh 0  score_w 1.00  life     93  score        1  contacts 1.17  drained 0.12  P(L) 0.18  P(R) 0.39   42.9s
+  validation: challenger 0.688 vs champion 0.680 (diff +0.008, SE 0.049)
+gen   59  best     0.75  mean     0.47  champion     0.68  cma_sigma 0.1053  n_fresh 0  score_w 1.00  life     92  score        0  contacts 0.88  drained 0.25  P(L) 0.20  P(R) 0.31   42.5s
+  validation: challenger 0.648 vs champion 0.703 (diff -0.055, SE 0.040)
+gen   60  best     0.69  mean     0.45  champion     0.70  cma_sigma 0.1047  n_fresh 0  score_w 1.00  life     96  score        0  contacts 0.85  drained 0.34  P(L) 0.26  P(R) 0.23   43.7s
+  saved checkpoint: agents/experiments/drill_small/drill.pt (+ agents/experiments/drill_small/drill.pt.cma.pkl)
+gen   61  best     0.69  mean     0.51  champion     0.70  cma_sigma 0.1043  n_fresh 0  score_w 1.00  life     94  score        1  contacts 0.98  drained 0.15  P(L) 0.21  P(R) 0.46   29.3s
+  validation: challenger 0.609 vs champion 0.664 (diff -0.055, SE 0.043)
+gen   62  best     0.75  mean     0.55  champion     0.66  cma_sigma 0.1023  n_fresh 0  score_w 1.00  life     89  score        1  contacts 0.96  drained 0.17  P(L) 0.27  P(R) 0.41   39.3s
+  validation: challenger 0.602 vs champion 0.703 (diff -0.102, SE 0.047)
+gen   63  best     0.75  mean     0.60  champion     0.70  cma_sigma 0.1009  n_fresh 0  score_w 1.00  life     96  score        1  contacts 1.11  drained 0.12  P(L) 0.11  P(R) 0.34   41.8s
+  validation: challenger 0.773 vs champion 0.773 (diff +0.000, SE 0.027)
+gen   64  best     0.75  mean     0.64  champion     0.77  cma_sigma 0.0999  n_fresh 0  score_w 1.00  life     78  score        1  contacts 1.07  drained 0.12  P(L) 0.13  P(R) 0.31   37.1s
+  validation: challenger 0.672 vs champion 0.672 (diff +0.000, SE 0.040)
+gen   65  best     0.78  mean     0.48  champion     0.67  cma_sigma 0.0983  n_fresh 0  score_w 1.00  life     91  score        0  contacts 0.88  drained 0.23  P(L) 0.34  P(R) 0.27   42.0s
+  validation: challenger 0.688 vs champion 0.789 (diff -0.102, SE 0.041)
+gen   66  best     0.78  mean     0.60  champion     0.79  cma_sigma 0.0985  n_fresh 0  score_w 1.00  life     86  score        1  contacts 1.07  drained 0.14  P(L) 0.12  P(R) 0.43   40.4s
+gen   67  best     0.66  mean     0.47  champion     0.79  cma_sigma 0.0978  n_fresh 0  score_w 1.00  life     94  score        0  contacts 0.95  drained 0.19  P(L) 0.32  P(R) 0.24   29.2s
+gen   68  best     0.78  mean     0.53  champion     0.79  cma_sigma 0.0965  n_fresh 0  score_w 1.00  life     88  score        1  contacts 1.00  drained 0.25  P(L) 0.16  P(R) 0.43   28.3s
+gen   69  best     0.69  mean     0.47  champion     0.79  cma_sigma 0.0966  n_fresh 0  score_w 1.00  life     95  score        0  contacts 0.77  drained 0.23  P(L) 0.25  P(R) 0.26   24.9s
+gen   70  best     0.72  mean     0.53  champion     0.79  cma_sigma 0.0959  n_fresh 0  score_w 1.00  life     95  score        1  contacts 1.01  drained 0.17  P(L) 0.20  P(R) 0.35   27.4s
+  saved checkpoint: agents/experiments/drill_small/drill.pt (+ agents/experiments/drill_small/drill.pt.cma.pkl)
+gen   71  best     0.69  mean     0.34  champion     0.79  cma_sigma 0.0943  n_fresh 0  score_w 1.00  life    105  score        0  contacts 0.65  drained 0.28  P(L) 0.43  P(R) 0.24   31.1s
+gen   72  best     0.72  mean     0.46  champion     0.79  cma_sigma 0.0919  n_fresh 0  score_w 1.00  life     99  score        0  contacts 0.93  drained 0.21  P(L) 0.39  P(R) 0.28   30.7s
+gen   73  best     0.78  mean     0.36  champion     0.79  cma_sigma 0.0891  n_fresh 0  score_w 1.00  life    106  score        0  contacts 0.72  drained 0.28  P(L) 0.53  P(R) 0.26   31.6s
+gen   74  best     0.72  mean     0.27  champion     0.79  cma_sigma 0.0861  n_fresh 0  score_w 1.00  life    120  score        0  contacts 0.53  drained 0.20  P(L) 0.57  P(R) 0.32   35.1s
+gen   75  best     0.66  mean     0.49  champion     0.79  cma_sigma 0.0835  n_fresh 0  score_w 1.00  life     85  score        0  contacts 0.87  drained 0.29  P(L) 0.12  P(R) 0.47   27.2s
+gen   76  best     0.62  mean     0.38  champion     0.79  cma_sigma 0.0823  n_fresh 0  score_w 1.00  life    101  score        0  contacts 0.81  drained 0.31  P(L) 0.42  P(R) 0.27   31.1s
+  validation: challenger 0.688 vs champion 0.742 (diff -0.055, SE 0.043)
+gen   77  best     0.88  mean     0.43  champion     0.74  cma_sigma 0.0825  n_fresh 0  score_w 1.00  life     97  score        0  contacts 0.74  drained 0.21  P(L) 0.52  P(R) 0.23   43.6s
+  validation: challenger 0.719 vs champion 0.727 (diff -0.008, SE 0.039)
+gen   78  best     0.84  mean     0.62  champion     0.73  cma_sigma 0.0836  n_fresh 0  score_w 1.00  life     83  score        1  contacts 1.06  drained 0.12  P(L) 0.26  P(R) 0.32   36.1s
+gen   79  best     0.72  mean     0.48  champion     0.73  cma_sigma 0.0844  n_fresh 0  score_w 1.00  life     92  score        0  contacts 0.82  drained 0.18  P(L) 0.42  P(R) 0.24   25.8s
+gen   80  best     0.72  mean     0.60  champion     0.73  cma_sigma 0.0839  n_fresh 0  score_w 1.00  life     87  score        1  contacts 1.05  drained 0.15  P(L) 0.15  P(R) 0.38   27.9s
+  saved checkpoint: agents/experiments/drill_small/drill.pt (+ agents/experiments/drill_small/drill.pt.cma.pkl)
+gen   81  best     0.62  mean     0.43  champion     0.73  cma_sigma 0.0820  n_fresh 0  score_w 1.00  life    103  score        0  contacts 0.81  drained 0.20  P(L) 0.36  P(R) 0.32   31.0s
+gen   82  best     0.69  mean     0.54  champion     0.73  cma_sigma 0.0820  n_fresh 0  score_w 1.00  life     88  score        1  contacts 0.97  drained 0.21  P(L) 0.20  P(R) 0.34   27.9s
+gen   83  best     0.69  mean     0.54  champion     0.73  cma_sigma 0.0834  n_fresh 0  score_w 1.00  life     86  score        1  contacts 0.93  drained 0.23  P(L) 0.18  P(R) 0.36   28.2s
+  validation: challenger 0.727 vs champion 0.680 (diff +0.047, SE 0.031) -> PROMOTED
+gen   84  best     0.84  mean     0.63  champion     0.73  cma_sigma 0.0854  n_fresh 0  score_w 1.00  life     77  score        1  contacts 1.07  drained 0.21  P(L) 0.22  P(R) 0.36   38.3s
+gen   85  best     0.69  mean     0.36  champion     0.73  cma_sigma 0.0858  n_fresh 0  score_w 1.00  life    101  score        0  contacts 0.78  drained 0.27  P(L) 0.54  P(R) 0.22   30.3s
+  validation: challenger 0.664 vs champion 0.711 (diff -0.047, SE 0.029)
+gen   86  best     0.78  mean     0.45  champion     0.71  cma_sigma 0.0866  n_fresh 0  score_w 1.00  life    100  score        0  contacts 0.82  drained 0.18  P(L) 0.48  P(R) 0.30   42.6s
+  validation: challenger 0.727 vs champion 0.648 (diff +0.078, SE 0.033) -> PROMOTED
+gen   87  best     0.75  mean     0.43  champion     0.73  cma_sigma 0.0883  n_fresh 0  score_w 1.00  life     99  score        0  contacts 0.92  drained 0.26  P(L) 0.34  P(R) 0.45   37.0s
+gen   88  best     0.72  mean     0.50  champion     0.73  cma_sigma 0.0904  n_fresh 0  score_w 1.00  life     87  score        0  contacts 0.98  drained 0.24  P(L) 0.31  P(R) 0.43   27.8s
+  validation: challenger 0.680 vs champion 0.672 (diff +0.008, SE 0.036)
+gen   89  best     0.75  mean     0.41  champion     0.67  cma_sigma 0.0928  n_fresh 0  score_w 1.00  life    101  score        0  contacts 0.85  drained 0.29  P(L) 0.42  P(R) 0.26   41.3s
+  validation: challenger 0.586 vs champion 0.703 (diff -0.117, SE 0.036)
+gen   90  best     0.72  mean     0.44  champion     0.70  cma_sigma 0.0939  n_fresh 0  score_w 1.00  life     92  score        0  contacts 0.81  drained 0.30  P(L) 0.30  P(R) 0.36   41.5s
+  saved checkpoint: agents/experiments/drill_small/drill.pt (+ agents/experiments/drill_small/drill.pt.cma.pkl)
+  validation: challenger 0.523 vs champion 0.617 (diff -0.094, SE 0.044)
+gen   91  best     0.75  mean     0.45  champion     0.62  cma_sigma 0.0961  n_fresh 0  score_w 1.00  life    102  score        0  contacts 0.84  drained 0.19  P(L) 0.46  P(R) 0.25   45.5s
+  validation: challenger 0.688 vs champion 0.742 (diff -0.055, SE 0.039)
+gen   92  best     0.62  mean     0.33  champion     0.74  cma_sigma 0.0982  n_fresh 0  score_w 1.00  life    105  score        0  contacts 0.75  drained 0.36  P(L) 0.39  P(R) 0.26   44.0s
+gen   93  best     0.66  mean     0.29  champion     0.74  cma_sigma 0.0986  n_fresh 0  score_w 1.00  life    116  score        0  contacts 0.49  drained 0.19  P(L) 0.55  P(R) 0.17   34.5s
+gen   94  best     0.72  mean     0.32  champion     0.74  cma_sigma 0.1002  n_fresh 0  score_w 1.00  life    107  score        0  contacts 0.66  drained 0.29  P(L) 0.45  P(R) 0.21   32.5s
+gen   95  best     0.69  mean     0.42  champion     0.74  cma_sigma 0.1004  n_fresh 0  score_w 1.00  life    101  score        0  contacts 0.71  drained 0.21  P(L) 0.26  P(R) 0.22   29.0s
+gen   96  best     0.56  mean     0.42  champion     0.74  cma_sigma 0.0995  n_fresh 0  score_w 1.00  life     96  score        0  contacts 0.78  drained 0.29  P(L) 0.09  P(R) 0.31   23.1s
+gen   97  best     0.62  mean     0.44  champion     0.74  cma_sigma 0.1002  n_fresh 0  score_w 1.00  life     93  score        0  contacts 0.77  drained 0.30  P(L) 0.21  P(R) 0.34   22.1s
+gen   98  best     0.62  mean     0.31  champion     0.74  cma_sigma 0.0988  n_fresh 0  score_w 1.00  life    110  score        0  contacts 0.62  drained 0.24  P(L) 0.43  P(R) 0.34   30.6s
+  validation: challenger 0.734 vs champion 0.766 (diff -0.031, SE 0.038)
+gen   99  best     0.84  mean     0.55  champion     0.77  cma_sigma 0.0986  n_fresh 0  score_w 1.00  life     86  score        1  contacts 1.04  drained 0.23  P(L) 0.24  P(R) 0.37   40.4s
+  validation: challenger 0.688 vs champion 0.656 (diff +0.031, SE 0.041)
+gen  100  best     0.81  mean     0.44  champion     0.66  cma_sigma 0.0969  n_fresh 0  score_w 1.00  life     93  score        0  contacts 0.83  drained 0.26  P(L) 0.35  P(R) 0.27   41.7s
+  saved checkpoint: agents/experiments/drill_small/drill.pt (+ agents/experiments/drill_small/drill.pt.cma.pkl)
+  validation: challenger 0.633 vs champion 0.625 (diff +0.008, SE 0.021)
+gen  101  best     0.78  mean     0.57  champion     0.62  cma_sigma 0.0949  n_fresh 0  score_w 1.00  life     90  score        1  contacts 0.98  drained 0.17  P(L) 0.20  P(R) 0.34   41.7s
+  validation: challenger 0.625 vs champion 0.633 (diff -0.008, SE 0.046)
+gen  102  best     0.78  mean     0.51  champion     0.63  cma_sigma 0.0921  n_fresh 0  score_w 1.00  life     87  score        1  contacts 0.99  drained 0.22  P(L) 0.37  P(R) 0.32   40.9s
+  validation: challenger 0.734 vs champion 0.781 (diff -0.047, SE 0.046)
+gen  103  best     0.69  mean     0.35  champion     0.78  cma_sigma 0.0902  n_fresh 0  score_w 1.00  life    101  score        0  contacts 0.66  drained 0.34  P(L) 0.39  P(R) 0.32   42.3s
+gen  104  best     0.72  mean     0.57  champion     0.78  cma_sigma 0.0873  n_fresh 0  score_w 1.00  life     90  score        1  contacts 1.04  drained 0.15  P(L) 0.16  P(R) 0.33   25.4s
+  validation: challenger 0.617 vs champion 0.703 (diff -0.086, SE 0.042)
+gen  105  best     0.91  mean     0.56  champion     0.70  cma_sigma 0.0839  n_fresh 0  score_w 1.00  life     88  score        1  contacts 1.02  drained 0.18  P(L) 0.39  P(R) 0.31   38.0s
+gen  106  best     0.69  mean     0.44  champion     0.70  cma_sigma 0.0823  n_fresh 0  score_w 1.00  life    101  score        0  contacts 0.96  drained 0.20  P(L) 0.30  P(R) 0.33   30.1s
+gen  107  best     0.62  mean     0.43  champion     0.70  cma_sigma 0.0807  n_fresh 0  score_w 1.00  life    100  score        0  contacts 0.84  drained 0.19  P(L) 0.31  P(R) 0.29   30.5s
+  validation: challenger 0.664 vs champion 0.727 (diff -0.062, SE 0.054)
+gen  108  best     0.72  mean     0.57  champion     0.73  cma_sigma 0.0811  n_fresh 0  score_w 1.00  life     80  score        1  contacts 0.96  drained 0.23  P(L) 0.16  P(R) 0.35   39.4s
+  validation: challenger 0.695 vs champion 0.734 (diff -0.039, SE 0.050)
+gen  109  best     0.78  mean     0.62  champion     0.73  cma_sigma 0.0805  n_fresh 0  score_w 1.00  life     88  score        1  contacts 1.11  drained 0.09  P(L) 0.12  P(R) 0.32   40.9s
+  validation: challenger 0.758 vs champion 0.758 (diff +0.000, SE 0.044)
+gen  110  best     0.81  mean     0.58  champion     0.76  cma_sigma 0.0790  n_fresh 0  score_w 1.00  life     89  score        1  contacts 1.01  drained 0.16  P(L) 0.30  P(R) 0.26   41.5s
+  saved checkpoint: agents/experiments/drill_small/drill.pt (+ agents/experiments/drill_small/drill.pt.cma.pkl)
+  validation: challenger 0.727 vs champion 0.719 (diff +0.008, SE 0.032)
+gen  111  best     0.81  mean     0.51  champion     0.72  cma_sigma 0.0791  n_fresh 0  score_w 1.00  life     92  score        1  contacts 0.95  drained 0.24  P(L) 0.31  P(R) 0.29   39.0s
+  validation: challenger 0.703 vs champion 0.711 (diff -0.008, SE 0.046)
+gen  112  best     0.75  mean     0.45  champion     0.71  cma_sigma 0.0777  n_fresh 0  score_w 1.00  life     96  score        0  contacts 0.81  drained 0.24  P(L) 0.40  P(R) 0.22   39.7s
+  validation: challenger 0.664 vs champion 0.742 (diff -0.078, SE 0.041)
+gen  113  best     0.81  mean     0.61  champion     0.74  cma_sigma 0.0774  n_fresh 0  score_w 1.00  life     81  score        1  contacts 1.06  drained 0.18  P(L) 0.20  P(R) 0.33   37.3s
+  validation: challenger 0.672 vs champion 0.703 (diff -0.031, SE 0.040)
+gen  114  best     0.81  mean     0.62  champion     0.70  cma_sigma 0.0757  n_fresh 0  score_w 1.00  life     82  score        1  contacts 0.96  drained 0.17  P(L) 0.23  P(R) 0.33   40.3s
+  validation: challenger 0.625 vs champion 0.656 (diff -0.031, SE 0.040)
+gen  115  best     0.81  mean     0.66  champion     0.66  cma_sigma 0.0735  n_fresh 0  score_w 1.00  life     84  score        1  contacts 1.16  drained 0.10  P(L) 0.19  P(R) 0.33   41.2s
+  validation: challenger 0.641 vs champion 0.695 (diff -0.055, SE 0.046)
+gen  116  best     0.81  mean     0.48  champion     0.70  cma_sigma 0.0714  n_fresh 0  score_w 1.00  life    106  score        0  contacts 0.85  drained 0.11  P(L) 0.35  P(R) 0.39   44.5s
+  validation: challenger 0.617 vs champion 0.695 (diff -0.078, SE 0.042)
+gen  117  best     0.78  mean     0.62  champion     0.70  cma_sigma 0.0691  n_fresh 0  score_w 1.00  life     81  score        1  contacts 1.08  drained 0.18  P(L) 0.12  P(R) 0.33   39.4s
+  validation: challenger 0.781 vs champion 0.734 (diff +0.047, SE 0.040) -> PROMOTED
+gen  118  best     0.78  mean     0.52  champion     0.78  cma_sigma 0.0670  n_fresh 0  score_w 1.00  life     92  score        1  contacts 0.91  drained 0.22  P(L) 0.39  P(R) 0.25   39.9s
+gen  119  best     0.72  mean     0.52  champion     0.78  cma_sigma 0.0642  n_fresh 0  score_w 1.00  life     92  score        1  contacts 0.90  drained 0.22  P(L) 0.34  P(R) 0.28   23.8s
+gen  120  best     0.66  mean     0.45  champion     0.78  cma_sigma 0.0635  n_fresh 0  score_w 1.00  life    102  score        0  contacts 0.85  drained 0.09  P(L) 0.38  P(R) 0.30   29.0s
+  saved checkpoint: agents/experiments/drill_small/drill.pt (+ agents/experiments/drill_small/drill.pt.cma.pkl)
+gen  121  best     0.78  mean     0.71  champion     0.78  cma_sigma 0.0624  n_fresh 0  score_w 1.00  life     78  score        1  contacts 1.16  drained 0.14  P(L) 0.18  P(R) 0.36   24.9s
+gen  122  best     0.78  mean     0.59  champion     0.78  cma_sigma 0.0606  n_fresh 0  score_w 1.00  life     87  score        1  contacts 1.04  drained 0.17  P(L) 0.26  P(R) 0.31   27.9s
+gen  123  best     0.69  mean     0.57  champion     0.78  cma_sigma 0.0584  n_fresh 0  score_w 1.00  life     86  score        1  contacts 0.87  drained 0.14  P(L) 0.18  P(R) 0.31   28.4s
+gen  124  best     0.69  mean     0.54  champion     0.78  cma_sigma 0.0560  n_fresh 0  score_w 1.00  life     96  score        1  contacts 0.95  drained 0.15  P(L) 0.27  P(R) 0.32   29.8s
+gen  125  best     0.78  mean     0.68  champion     0.78  cma_sigma 0.0532  n_fresh 0  score_w 1.00  life     84  score        1  contacts 1.15  drained 0.06  P(L) 0.21  P(R) 0.40   26.6s
+gen  126  best     0.78  mean     0.61  champion     0.78  cma_sigma 0.2000  n_fresh 0  score_w 1.00  life     85  score        1  contacts 0.98  drained 0.16  P(L) 0.23  P(R) 0.42  [IPOP RESTART #1, popsize->32]   26.7s
+gen  127  best     0.56  mean     0.12  champion     0.78  cma_sigma 0.1992  n_fresh 0  score_w 1.00  life    127  score        0  contacts 0.26  drained 0.38  P(L) 0.76  P(R) 0.09   59.8s
+gen  128  best     0.69  mean     0.36  champion     0.78  cma_sigma 0.2000  n_fresh 0  score_w 1.00  life    116  score        0  contacts 0.75  drained 0.14  P(L) 0.29  P(R) 0.46   68.2s
+gen  129  best     0.56  mean     0.25  champion     0.78  cma_sigma 0.2037  n_fresh 0  score_w 1.00  life    117  score        0  contacts 0.54  drained 0.25  P(L) 0.29  P(R) 0.36   77.0s
+gen  130  best     0.69  mean     0.34  champion     0.78  cma_sigma 0.2079  n_fresh 0  score_w 1.00  life    110  score        0  contacts 0.68  drained 0.25  P(L) 0.32  P(R) 0.48   78.7s
+  saved checkpoint: agents/experiments/drill_small/drill.pt (+ agents/experiments/drill_small/drill.pt.cma.pkl)
+gen  131  best     0.66  mean     0.30  champion     0.78  cma_sigma 0.2085  n_fresh 0  score_w 1.00  life    111  score        0  contacts 0.63  drained 0.26  P(L) 0.29  P(R) 0.45   72.3s
+gen  132  best     0.75  mean     0.30  champion     0.78  cma_sigma 0.2107  n_fresh 0  score_w 1.00  life    116  score        0  contacts 0.62  drained 0.22  P(L) 0.38  P(R) 0.35   84.2s
+gen  133  best     0.66  mean     0.24  champion     0.78  cma_sigma 0.2142  n_fresh 0  score_w 1.00  life    116  score        0  contacts 0.53  drained 0.32  P(L) 0.40  P(R) 0.37   80.2s
+gen  134  best     0.66  mean     0.28  champion     0.78  cma_sigma 0.2209  n_fresh 0  score_w 1.00  life    116  score        0  contacts 0.58  drained 0.26  P(L) 0.21  P(R) 0.30   67.5s
+gen  135  best     0.59  mean     0.27  champion     0.78  cma_sigma 0.2297  n_fresh 0  score_w 1.00  life    119  score        0  contacts 0.61  drained 0.28  P(L) 0.15  P(R) 0.47   68.7s
+gen  136  best     0.66  mean     0.28  champion     0.78  cma_sigma 0.2335  n_fresh 0  score_w 1.00  life    118  score        0  contacts 0.60  drained 0.14  P(L) 0.24  P(R) 0.41   60.1s
+gen  137  best     0.69  mean     0.38  champion     0.78  cma_sigma 0.2345  n_fresh 0  score_w 1.00  life    108  score        0  contacts 0.78  drained 0.24  P(L) 0.12  P(R) 0.39   62.6s
+gen  138  best     0.75  mean     0.37  champion     0.78  cma_sigma 0.2325  n_fresh 0  score_w 1.00  life    105  score        0  contacts 0.74  drained 0.27  P(L) 0.08  P(R) 0.43   70.6s
+gen  139  best     0.75  mean     0.33  champion     0.78  cma_sigma 0.2276  n_fresh 0  score_w 1.00  life    110  score        0  contacts 0.70  drained 0.24  P(L) 0.25  P(R) 0.41   66.8s
+Process SpawnPoolWorker-5:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-4:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-1:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-8:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-3:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-2:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-7:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-6:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

@@ -1,0 +1,152 @@
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 656, in _exitfunc
+    f()
+    pending = cls._select_for_exit()
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 637, in _select_for_exit
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 676, in _del_library
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+    L = [(f,i) for (f,i) in cls._registry.items() if i.atexit]
+    _clear_torch_ops_cache(op_defs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 637, in <listcomp>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 634, in _clear_torch_ops_cache
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    L = [(f,i) for (f,i) in cls._registry.items() if i.atexit]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+    if not hasattr(torch.ops, ns):
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+SystemExit: 0
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    return info.func(*info.args, **(info.kwargs or {}))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    return info.func(*info.args, **(info.kwargs or {}))
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    f()
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    f()
+    return info.func(*info.args, **(info.kwargs or {}))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    return info.func(*info.args, **(info.kwargs or {}))
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+paired lives 9300..9395 (96), baseline lead1
+L0_R+1    log1p 11.415 +- 0.086  hits 2.21  completions 0.33  contacts 7.45  presses 14.20 | dhits -0.60 (t -3.0, p 0.0049) | dcompletions -0.21 (t -2.8, p 0.0073) | dlog1p -0.03 (t -0.3, p 0.54)
+lead1     log1p 11.444 +- 0.092  hits 2.81  completions 0.54  contacts 9.16  presses 15.85
+plain     log1p 11.345 +- 0.077  hits 2.16  completions 0.33  contacts 6.21  presses 11.76 | dhits -0.66 (t -3.2, p 0.0012) | dcompletions -0.21 (t -2.7, p 0.0091) | dlog1p -0.10 (t -1.0, p 0.16)

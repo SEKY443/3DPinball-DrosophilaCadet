@@ -1,0 +1,117 @@
+init eval: mean log1p 10.949  median score 66250  mean life 994
+iter 0: lives 32  drained 31  savable (corrective labels) 17  mean life 1097  dataset 35094  collect 88s
+  pre-train agreement with own actions: left 1.0000 right 1.0000
+  head rescaled by [0.004425437189638615, 0.0268805380910635] (median |logit| was [903.865478515625, 148.80654907226562])
+  train loss 0.1915 -> 0.1543  corrective-label acc 0.176
+  eval: mean log1p 10.997  median score 64125  mean life 1067  vs init diff +0.048 (SE 0.136, t=0.36)
+iter 1: lives 32  drained 32  savable (corrective labels) 18  mean life 1106  dataset 70492  collect 96s
+  train loss 0.1502 -> 0.1478  corrective-label acc 0.186
+  eval: mean log1p 10.994  median score 65250  mean life 1030  vs init diff +0.045 (SE 0.118, t=0.38)
+iter 2: lives 32  drained 29  savable (corrective labels) 16  mean life 1100  dataset 105680  collect 75s
+  train loss 0.1474 -> 0.1453  corrective-label acc 0.203
+  eval: mean log1p 10.892  median score 61250  mean life 931  vs init diff -0.057 (SE 0.126, t=-0.45)
+iter 3: lives 32  drained 32  savable (corrective labels) 19  mean life 1154  dataset 142611  collect 116s
+  train loss 0.1483 -> 0.1469  corrective-label acc 0.207
+  eval: mean log1p 11.033  median score 63750  mean life 1107  vs init diff +0.084 (SE 0.151, t=0.56)
+iter 4: lives 32  drained 28  savable (corrective labels) 17  mean life 1218  dataset 181577  collect 77s
+  train loss 0.1462 -> 0.1439  corrective-label acc 0.226
+  eval: mean log1p 11.010  median score 61250  mean life 1082  vs init diff +0.061 (SE 0.139, t=0.44)
+iter 5: lives 32  drained 32  savable (corrective labels) 17  mean life 1027  dataset 214456  collect 104s
+  train loss 0.1436 -> 0.1424  corrective-label acc 0.255
+  eval: mean log1p 10.897  median score 56500  mean life 975  vs init diff -0.052 (SE 0.151, t=-0.34)
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+    return self.env.close()
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/../env_python/pinball_env.py", line 394, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/../env_python/pinball_env.py", line 394, in close
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/../env_python/pinball_env.py", line 394, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/../env_python/pinball_env.py", line 394, in close
+    self._proc.wait(timeout=5.0)
+    return self.env.close()
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+           ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self.env.close()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/../env_python/pinball_env.py", line 394, in close
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/../env_python/pinball_env.py", line 394, in close
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+    time.sleep(delay)
+    time.sleep(delay)
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/oracle_dagger/dagger.py", line 57, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/oracle_dagger/dagger.py", line 57, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/oracle_dagger/dagger.py", line 57, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/oracle_dagger/dagger.py", line 57, in <lambda>
+    time.sleep(delay)
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/oracle_dagger/dagger.py", line 57, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/oracle_dagger/dagger.py", line 57, in <lambda>
+    signal.signal(signal.SIGTERM, lambda signum, frame: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda signum, frame: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda signum, frame: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda signum, frame: sys.exit(0))
+                                                        ^^^^^^^^^^^
+                                                        ^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda signum, frame: sys.exit(0))
+                                                        ^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda signum, frame: sys.exit(0))
+SystemExit: 0
+SystemExit: 0
+SystemExit: 0
+                                                        ^^^^^^^^^^^
+                                                        ^^^^^^^^^^^
+SystemExit: 0
+SystemExit: 0
+                                                        ^^^^^^^^^^^
+SystemExit: 0

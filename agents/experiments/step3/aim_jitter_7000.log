@@ -1,0 +1,55 @@
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+    return self.env.close()
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/../agents/../env_python/pinball_env.py", line 439, in close
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/../agents/../env_python/pinball_env.py", line 439, in close
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/train_pinball_circuit_cem.py", line 189, in _on_terminate
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/train_pinball_circuit_cem.py", line 189, in _on_terminate
+    sys.exit(0)
+    sys.exit(0)
+SystemExit: 0
+SystemExit: 0
+{
+ "presses": 76,
+ "jitter_runs": 304,
+ "jitter_no_contact": 64,
+ "comparable": 74,
+ "real_gt_median": 34,
+ "ties": 14,
+ "real_lt_median": 26,
+ "frac_gt": 0.4594594594594595,
+ "ci95_gt": [
+  0.35073184428251214,
+  0.5721885478985324
+ ],
+ "frac_gt_excluding_ties": 0.5666666666666667,
+ "ci95_excl_ties": [
+  0.44103214654694856,
+  0.6842779960559936
+ ],
+ "ties_all_zero": 8,
+ "mean_real": 4532.894736842105,
+ "mean_jitter": 3316.6666666666665,
+ "median_margin": 0.0,
+ "seconds": 1002
+}
+wrote agents/experiments/step3/aim_jitter_7000.json

@@ -1,0 +1,338 @@
+decoder parameter count (CEM search dimension): 643
+resumed from agents/experiments/life_objective_2026-09-26/start_from_gen2315_champion.pt at generation 1 (champion_fitness=-1000000000000000000.00, curriculum_start_gen=1656)
+/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/cma/s.py:17: UserWarning: Could not import matplotlib.pyplot, therefore ``cma.plot()`` etc. is not available
+  _warnings.warn('Could not import matplotlib.pyplot, therefore'
+no agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl found - starting CMA-ES fresh from the resumed mean (covariance/step-size history is lost, but the search center is not)
+gen    1  best   588.75  mean   337.04  champion   875.62  cma_sigma 0.4073  n_fresh 3  score_w 1.00  life   1121  score    33704  contacts 1.74  drained 0.66  P(L) 0.39  P(R) 0.42   33.6s
+gen    2  best   803.75  mean   323.75  champion   875.62  cma_sigma 0.4067  n_fresh 3  score_w 1.00  life    746  score    32375  contacts 1.66  drained 0.82  P(L) 0.26  P(R) 0.56   11.0s
+gen    3  best   655.00  mean   314.61  champion   875.62  cma_sigma 0.4007  n_fresh 3  score_w 1.00  life   1629  score    31461  contacts 0.21  drained 0.53  P(L) 0.58  P(R) 0.58   26.8s
+gen    4  best   431.25  mean   141.97  champion   875.62  cma_sigma 0.4038  n_fresh 3  score_w 1.00  life   1657  score    14197  contacts 0.42  drained 0.53  P(L) 0.31  P(R) 0.52   27.9s
+gen    5  best  1215.00  mean   233.95  champion  1692.50  cma_sigma 0.4026  n_fresh 3  score_w 1.00  life    717  score    23395  contacts 1.37  drained 0.89  P(L) 0.15  P(R) 0.58   18.9s
+gen    6  best   881.25  mean   214.67  champion  1692.50  cma_sigma 0.4051  n_fresh 3  score_w 1.00  life    721  score    21467  contacts 1.53  drained 0.92  P(L) 0.18  P(R) 0.53   12.5s
+gen    7  best  1147.50  mean   302.04  champion  1692.50  cma_sigma 0.4029  n_fresh 3  score_w 1.00  life    741  score    30204  contacts 1.13  drained 0.89  P(L) 0.62  P(R) 0.33   12.6s
+gen    8  best   222.50  mean   130.13  champion  1692.50  cma_sigma 0.3990  n_fresh 3  score_w 1.00  life   1440  score    13013  contacts 0.21  drained 0.61  P(L) 0.35  P(R) 0.46   19.6s
+gen    9  best  1662.50  mean   315.20  champion  1692.50  cma_sigma 0.4036  n_fresh 3  score_w 1.00  life    647  score    31520  contacts 1.29  drained 0.92  P(L) 0.51  P(R) 0.35   10.3s
+gen   10  best  1788.75  mean   203.16  champion  1136.25  cma_sigma 0.4108  n_fresh 3  score_w 1.00  life   1470  score    20316  contacts 1.37  drained 0.61  P(L) 0.40  P(R) 0.45   26.2s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen   11  best  3768.75  mean   375.66  champion   580.62  cma_sigma 0.4093  n_fresh 3  score_w 1.00  life    756  score    37566  contacts 1.84  drained 0.89  P(L) 0.42  P(R) 0.35   15.2s
+gen   12  best  1127.50  mean   410.33  champion  1091.25  cma_sigma 0.4059  n_fresh 3  score_w 1.00  life   1369  score    41033  contacts 2.11  drained 0.71  P(L) 0.57  P(R) 0.31   27.7s
+gen   13  best  1252.50  mean   374.47  champion  1000.00  cma_sigma 0.4097  n_fresh 3  score_w 1.00  life    966  score    37447  contacts 1.42  drained 0.87  P(L) 0.33  P(R) 0.36   22.4s
+gen   14  best  1023.75  mean   261.18  champion   483.12  cma_sigma 0.4062  n_fresh 3  score_w 1.00  life   1024  score    26118  contacts 2.16  drained 0.82  P(L) 0.22  P(R) 0.56   21.6s
+gen   15  best   312.50  mean    98.68  champion   483.12  cma_sigma 0.4115  n_fresh 3  score_w 1.00  life   1291  score     9868  contacts 0.61  drained 0.66  P(L) 0.29  P(R) 0.36   22.0s
+gen   16  best   905.00  mean   234.14  champion  1320.62  cma_sigma 0.4111  n_fresh 3  score_w 1.00  life   1182  score    23414  contacts 1.76  drained 0.74  P(L) 0.37  P(R) 0.25   24.8s
+gen   17  best  1546.25  mean   288.36  champion   623.75  cma_sigma 0.4149  n_fresh 3  score_w 1.00  life    603  score    28836  contacts 1.08  drained 0.97  P(L) 0.42  P(R) 0.16   13.4s
+gen   18  best   705.00  mean   214.28  champion  1198.12  cma_sigma 0.4124  n_fresh 3  score_w 1.00  life    465  score    21428  contacts 0.68  drained 1.00  P(L) 0.46  P(R) 0.14   11.0s
+gen   19  best   537.50  mean   213.03  champion  1198.12  cma_sigma 0.4065  n_fresh 3  score_w 1.00  life    834  score    21303  contacts 1.26  drained 0.87  P(L) 0.32  P(R) 0.02   12.5s
+gen   20  best   623.75  mean   234.34  champion  1198.12  cma_sigma 0.3993  n_fresh 3  score_w 1.00  life    491  score    23434  contacts 0.39  drained 1.00  P(L) 0.60  P(R) 0.16    7.5s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen   21  best   173.75  mean    73.49  champion  1198.12  cma_sigma 0.3899  n_fresh 3  score_w 1.00  life    560  score     7349  contacts 0.58  drained 0.92  P(L) 0.45  P(R) 0.16    9.8s
+gen   22  best  1181.25  mean   380.46  champion  1198.12  cma_sigma 0.3878  n_fresh 3  score_w 1.00  life   1208  score    38046  contacts 1.29  drained 0.79  P(L) 0.45  P(R) 0.00   17.1s
+gen   23  best  1377.50  mean   248.82  champion   775.00  cma_sigma 0.3863  n_fresh 3  score_w 1.00  life    948  score    24882  contacts 0.53  drained 0.82  P(L) 0.41  P(R) 0.02   26.9s
+gen   24  best   675.00  mean   142.11  champion   775.00  cma_sigma 0.3853  n_fresh 3  score_w 1.00  life    579  score    14211  contacts 0.21  drained 0.92  P(L) 0.23  P(R) 0.00    9.4s
+gen   25  best  1030.00  mean   369.61  champion   812.50  cma_sigma 0.3824  n_fresh 3  score_w 1.00  life    614  score    36961  contacts 1.29  drained 1.00  P(L) 0.43  P(R) 0.16   13.9s
+gen   26  best   427.50  mean   140.53  champion   812.50  cma_sigma 0.3739  n_fresh 3  score_w 1.00  life    553  score    14053  contacts 0.26  drained 0.95  P(L) 0.32  P(R) 0.11   10.5s
+gen   27  best   631.25  mean   271.64  champion   812.50  cma_sigma 0.3623  n_fresh 3  score_w 1.00  life    971  score    27164  contacts 1.34  drained 0.87  P(L) 0.33  P(R) 0.06   13.7s
+gen   28  best   582.50  mean   227.11  champion   812.50  cma_sigma 0.3499  n_fresh 3  score_w 1.00  life    865  score    22711  contacts 0.87  drained 0.87  P(L) 0.35  P(R) 0.08   14.2s
+gen   29  best   390.00  mean   114.47  champion   812.50  cma_sigma 0.3453  n_fresh 3  score_w 1.00  life    632  score    11447  contacts 0.71  drained 0.92  P(L) 0.22  P(R) 0.08   11.1s
+gen   30  best   502.50  mean   461.18  champion   812.50  cma_sigma 0.3422  n_fresh 3  score_w 1.00  life    618  score    46118  contacts 0.00  drained 0.97  P(L) 0.61  P(R) 0.06   12.4s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen   31  best   365.00  mean   172.37  champion   812.50  cma_sigma 0.3439  n_fresh 3  score_w 1.00  life   1572  score    17237  contacts 0.42  drained 0.58  P(L) 0.47  P(R) 0.05   23.9s
+gen   32  best   650.00  mean   351.97  champion   812.50  cma_sigma 0.3417  n_fresh 3  score_w 1.00  life    877  score    35197  contacts 1.00  drained 0.92  P(L) 0.54  P(R) 0.06   15.3s
+gen   33  best   603.75  mean   335.20  champion   812.50  cma_sigma 0.3445  n_fresh 3  score_w 1.00  life    484  score    33520  contacts 0.32  drained 1.00  P(L) 0.46  P(R) 0.04    7.0s
+gen   34  best   125.00  mean   119.47  champion   812.50  cma_sigma 0.3465  n_fresh 3  score_w 1.00  life    806  score    11947  contacts 0.00  drained 0.84  P(L) 0.30  P(R) 0.05   14.0s
+gen   35  best   861.25  mean   220.86  champion  1788.12  cma_sigma 0.3479  n_fresh 3  score_w 1.00  life   1000  score    22086  contacts 1.39  drained 0.79  P(L) 0.45  P(R) 0.09   21.4s
+gen   36  best   625.00  mean   428.95  champion  1788.12  cma_sigma 0.3441  n_fresh 3  score_w 1.00  life   1110  score    42895  contacts 0.63  drained 0.76  P(L) 0.41  P(R) 0.13   16.4s
+gen   37  best   845.00  mean   455.66  champion  1788.12  cma_sigma 0.3442  n_fresh 3  score_w 1.00  life   1158  score    45566  contacts 1.42  drained 0.84  P(L) 0.25  P(R) 0.17   18.2s
+gen   38  best  1056.25  mean   348.09  champion  1788.12  cma_sigma 0.3404  n_fresh 3  score_w 1.00  life    904  score    34809  contacts 0.95  drained 0.84  P(L) 0.37  P(R) 0.22   15.1s
+gen   39  best  1445.00  mean   430.00  champion  1788.12  cma_sigma 0.3350  n_fresh 3  score_w 1.00  life   1039  score    43000  contacts 1.18  drained 0.84  P(L) 0.32  P(R) 0.13   19.6s
+gen   40  best   482.50  mean   162.83  champion  1788.12  cma_sigma 0.3267  n_fresh 3  score_w 1.00  life    527  score    16283  contacts 0.53  drained 0.97  P(L) 0.35  P(R) 0.19   12.7s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen   41  best   513.75  mean   286.71  champion  1788.12  cma_sigma 0.3192  n_fresh 3  score_w 1.00  life    581  score    28671  contacts 0.76  drained 0.97  P(L) 0.42  P(R) 0.17   13.4s
+gen   42  best  1832.50  mean   646.32  champion  1043.75  cma_sigma 0.3116  n_fresh 3  score_w 1.00  life   1710  score    64632  contacts 1.32  drained 0.58  P(L) 0.34  P(R) 0.31   38.5s
+gen   43  best   986.25  mean   263.36  champion  1043.75  cma_sigma 0.3046  n_fresh 3  score_w 1.00  life    979  score    26336  contacts 1.47  drained 0.82  P(L) 0.28  P(R) 0.27   17.4s
+gen   44  best  1422.50  mean   192.43  champion  1001.88  cma_sigma 0.2998  n_fresh 3  score_w 1.00  life   1682  score    19243  contacts 1.68  drained 0.55  P(L) 0.53  P(R) 0.32   34.3s
+gen   45  best   538.75  mean   252.50  champion  1001.88  cma_sigma 0.2927  n_fresh 3  score_w 1.00  life    438  score    25250  contacts 0.95  drained 1.00  P(L) 0.56  P(R) 0.20    7.2s
+gen   46  best  3212.50  mean   486.91  champion   810.62  cma_sigma 0.2929  n_fresh 3  score_w 1.00  life    951  score    48691  contacts 2.29  drained 0.87  P(L) 0.30  P(R) 0.42   23.2s
+gen   47  best  1108.75  mean   263.36  champion   441.88  cma_sigma 0.2901  n_fresh 3  score_w 1.00  life    540  score    26336  contacts 1.50  drained 1.00  P(L) 0.25  P(R) 0.32   12.5s
+gen   48  best   586.25  mean   229.01  champion   828.12  cma_sigma 0.2825  n_fresh 3  score_w 1.00  life    907  score    22901  contacts 1.66  drained 0.84  P(L) 0.31  P(R) 0.19   17.7s
+gen   49  best   807.50  mean   296.18  champion   828.12  cma_sigma 0.2818  n_fresh 3  score_w 1.00  life   1101  score    29618  contacts 2.63  drained 0.82  P(L) 0.16  P(R) 0.37   18.1s
+gen   50  best   726.25  mean   204.08  champion   828.12  cma_sigma 0.2769  n_fresh 3  score_w 1.00  life    888  score    20408  contacts 1.39  drained 0.84  P(L) 0.20  P(R) 0.43   14.1s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen   51  best  2250.00  mean   459.14  champion   346.25  cma_sigma 0.2766  n_fresh 3  score_w 1.00  life   1079  score    45914  contacts 1.47  drained 0.79  P(L) 0.26  P(R) 0.49   17.2s
+gen   52  best   481.25  mean   346.32  champion   647.50  cma_sigma 0.2799  n_fresh 3  score_w 1.00  life    752  score    34632  contacts 0.84  drained 0.92  P(L) 0.43  P(R) 0.36   15.4s
+gen   53  best   865.00  mean   254.21  champion   933.12  cma_sigma 0.2839  n_fresh 3  score_w 1.00  life    729  score    25421  contacts 1.00  drained 0.95  P(L) 0.16  P(R) 0.25   16.9s
+gen   54  best   875.00  mean   701.91  champion   933.12  cma_sigma 0.2818  n_fresh 3  score_w 1.00  life    751  score    70191  contacts 0.79  drained 0.97  P(L) 0.20  P(R) 0.33    9.4s
+gen   55  best  1215.00  mean   480.99  champion   333.12  cma_sigma 0.2832  n_fresh 3  score_w 1.00  life   1229  score    48099  contacts 2.05  drained 0.74  P(L) 0.44  P(R) 0.14   20.0s
+gen   56  best   595.00  mean   310.72  champion   436.88  cma_sigma 0.2814  n_fresh 3  score_w 1.00  life    860  score    31072  contacts 1.11  drained 0.89  P(L) 0.40  P(R) 0.31   17.0s
+gen   57  best   420.00  mean   227.63  champion   436.88  cma_sigma 0.2823  n_fresh 3  score_w 1.00  life    462  score    22763  contacts 0.79  drained 0.97  P(L) 0.37  P(R) 0.50    7.0s
+gen   58  best   848.75  mean   500.33  champion   365.00  cma_sigma 0.2795  n_fresh 3  score_w 1.00  life    698  score    50033  contacts 0.92  drained 0.97  P(L) 0.27  P(R) 0.43   13.7s
+gen   59  best  1217.50  mean   393.75  champion   451.88  cma_sigma 0.2740  n_fresh 3  score_w 1.00  life   1243  score    39375  contacts 1.16  drained 0.74  P(L) 0.15  P(R) 0.50   21.5s
+gen   60  best   846.25  mean   298.68  champion   336.25  cma_sigma 0.2664  n_fresh 3  score_w 1.00  life    610  score    29868  contacts 0.71  drained 0.97  P(L) 0.50  P(R) 0.11   12.4s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen   61  best   846.25  mean   248.09  champion   576.25  cma_sigma 0.2562  n_fresh 3  score_w 1.00  life    809  score    24809  contacts 2.24  drained 0.89  P(L) 0.17  P(R) 0.37   16.1s
+gen   62  best   608.75  mean   190.20  champion  1045.62  cma_sigma 0.2517  n_fresh 3  score_w 1.00  life    677  score    19020  contacts 1.53  drained 0.92  P(L) 0.26  P(R) 0.25   17.5s
+gen   63  best  1285.00  mean   351.18  champion  1046.25  cma_sigma 0.2529  n_fresh 3  score_w 1.00  life    850  score    35118  contacts 2.05  drained 0.92  P(L) 0.34  P(R) 0.41   18.7s
+gen   64  best  1333.75  mean   400.33  champion  1378.75  cma_sigma 0.2513  n_fresh 3  score_w 1.00  life    696  score    40033  contacts 2.76  drained 0.95  P(L) 0.46  P(R) 0.32   18.9s
+gen   65  best  2111.25  mean   471.45  champion   656.25  cma_sigma 0.2459  n_fresh 3  score_w 1.00  life    710  score    47145  contacts 3.08  drained 1.00  P(L) 0.21  P(R) 0.54   14.7s
+gen   66  best  1673.75  mean   366.97  champion   524.38  cma_sigma 0.2466  n_fresh 3  score_w 1.00  life    692  score    36697  contacts 2.47  drained 0.95  P(L) 0.43  P(R) 0.31   15.1s
+gen   67  best  1530.00  mean   483.36  champion  1212.50  cma_sigma 0.2434  n_fresh 3  score_w 1.00  life   1064  score    48336  contacts 1.55  drained 0.82  P(L) 0.29  P(R) 0.37   20.3s
+gen   68  best   932.50  mean   310.26  champion  1212.50  cma_sigma 0.2393  n_fresh 3  score_w 1.00  life    874  score    31026  contacts 1.63  drained 0.87  P(L) 0.22  P(R) 0.38   14.9s
+gen   69  best  1187.50  mean   289.28  champion  1212.50  cma_sigma 0.2322  n_fresh 3  score_w 1.00  life    911  score    28928  contacts 2.50  drained 0.89  P(L) 0.30  P(R) 0.21   12.6s
+gen   70  best  1445.00  mean   439.01  champion   743.75  cma_sigma 0.2252  n_fresh 3  score_w 1.00  life   1185  score    43901  contacts 2.42  drained 0.82  P(L) 0.18  P(R) 0.33   24.6s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen   71  best   986.25  mean   341.58  champion  1124.38  cma_sigma 0.2191  n_fresh 3  score_w 1.00  life    704  score    34158  contacts 3.34  drained 0.95  P(L) 0.23  P(R) 0.35   18.1s
+gen   72  best   330.00  mean   251.32  champion  1124.38  cma_sigma 0.2108  n_fresh 3  score_w 1.00  life    443  score    25132  contacts 0.05  drained 0.97  P(L) 0.37  P(R) 0.30    8.4s
+gen   73  best   780.00  mean   249.14  champion  1124.38  cma_sigma 0.2090  n_fresh 3  score_w 1.00  life    790  score    24914  contacts 2.05  drained 0.89  P(L) 0.26  P(R) 0.39   12.0s
+gen   74  best  1628.75  mean   347.57  champion  2060.62  cma_sigma 0.2045  n_fresh 3  score_w 1.00  life   1002  score    34757  contacts 2.92  drained 0.84  P(L) 0.20  P(R) 0.59   22.6s
+gen   75  best  1398.75  mean   448.09  champion  2060.62  cma_sigma 0.2025  n_fresh 3  score_w 1.00  life   1061  score    44809  contacts 2.13  drained 0.87  P(L) 0.17  P(R) 0.51   14.9s
+gen   76  best   617.50  mean   260.39  champion  2060.62  cma_sigma 0.2052  n_fresh 3  score_w 1.00  life    857  score    26039  contacts 1.39  drained 0.84  P(L) 0.21  P(R) 0.55   15.1s
+gen   77  best  1138.75  mean   313.09  champion  2060.62  cma_sigma 0.2037  n_fresh 3  score_w 1.00  life   1108  score    31309  contacts 3.13  drained 0.82  P(L) 0.35  P(R) 0.52   20.6s
+gen   78  best  1136.25  mean   408.29  champion  2060.62  cma_sigma 0.2062  n_fresh 3  score_w 1.00  life   1851  score    40829  contacts 2.26  drained 0.53  P(L) 0.54  P(R) 0.18   25.4s
+gen   79  best  1141.25  mean   332.17  champion  2060.62  cma_sigma 0.2101  n_fresh 3  score_w 1.00  life    629  score    33217  contacts 3.13  drained 1.00  P(L) 0.42  P(R) 0.26   10.9s
+gen   80  best  1576.25  mean   341.18  champion  2060.62  cma_sigma 0.2152  n_fresh 3  score_w 1.00  life   1411  score    34118  contacts 3.66  drained 0.74  P(L) 0.47  P(R) 0.22   28.4s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen   81  best   820.00  mean   428.03  champion  2060.62  cma_sigma 0.2154  n_fresh 3  score_w 1.00  life    939  score    42803  contacts 2.37  drained 0.89  P(L) 0.17  P(R) 0.45   16.9s
+gen   82  best   240.00  mean   100.20  champion  2060.62  cma_sigma 0.2138  n_fresh 3  score_w 1.00  life    439  score    10020  contacts 0.34  drained 0.97  P(L) 0.47  P(R) 0.21    8.1s
+gen   83  best  1216.25  mean   215.72  champion  2060.62  cma_sigma 0.2106  n_fresh 3  score_w 1.00  life    756  score    21572  contacts 1.82  drained 0.89  P(L) 0.49  P(R) 0.34   11.4s
+gen   84  best  1145.00  mean   535.66  champion  2060.62  cma_sigma 0.2118  n_fresh 3  score_w 1.00  life   1012  score    53566  contacts 2.74  drained 0.87  P(L) 0.17  P(R) 0.52   19.6s
+gen   85  best  2131.25  mean   793.36  champion  1064.38  cma_sigma 0.2090  n_fresh 3  score_w 1.00  life   1290  score    79336  contacts 4.00  drained 0.89  P(L) 0.22  P(R) 0.45   26.8s
+gen   86  best   607.50  mean   207.76  champion  1064.38  cma_sigma 0.2059  n_fresh 3  score_w 1.00  life   1295  score    20776  contacts 2.05  drained 0.68  P(L) 0.28  P(R) 0.49   18.2s
+gen   87  best  1452.50  mean   438.16  champion  2231.25  cma_sigma 0.2003  n_fresh 3  score_w 1.00  life   1257  score    43816  contacts 3.66  drained 0.79  P(L) 0.42  P(R) 0.41   27.3s
+gen   88  best   603.75  mean   300.46  champion  2231.25  cma_sigma 0.1985  n_fresh 3  score_w 1.00  life   1262  score    30046  contacts 0.76  drained 0.71  P(L) 0.57  P(R) 0.37   17.9s
+gen   89  best   851.25  mean   455.66  champion  2231.25  cma_sigma 0.1960  n_fresh 3  score_w 1.00  life   1348  score    45566  contacts 2.39  drained 0.79  P(L) 0.14  P(R) 0.62   20.7s
+gen   90  best   736.25  mean   289.93  champion  2231.25  cma_sigma 0.1971  n_fresh 3  score_w 1.00  life    738  score    28993  contacts 1.50  drained 0.92  P(L) 0.21  P(R) 0.60   11.7s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen   91  best   932.50  mean   431.18  champion  2231.25  cma_sigma 0.1949  n_fresh 3  score_w 1.00  life   1460  score    43118  contacts 2.66  drained 0.68  P(L) 0.54  P(R) 0.38   21.5s
+gen   92  best   737.50  mean   345.39  champion  2231.25  cma_sigma 0.1963  n_fresh 3  score_w 1.00  life    834  score    34539  contacts 1.32  drained 0.92  P(L) 0.29  P(R) 0.43   12.5s
+gen   93  best   632.50  mean   329.34  champion  2231.25  cma_sigma 0.1961  n_fresh 3  score_w 1.00  life   1071  score    32934  contacts 0.16  drained 0.79  P(L) 0.11  P(R) 0.51   17.5s
+gen   94  best  1293.75  mean   365.99  champion  2231.25  cma_sigma 0.1941  n_fresh 3  score_w 1.00  life    547  score    36599  contacts 1.21  drained 1.00  P(L) 0.11  P(R) 0.34    8.2s
+gen   95  best  1215.00  mean   368.82  champion  2231.25  cma_sigma 0.1908  n_fresh 3  score_w 1.00  life    962  score    36882  contacts 1.45  drained 0.82  P(L) 0.15  P(R) 0.52   13.7s
+gen   96  best   371.25  mean   183.22  champion  2231.25  cma_sigma 0.1862  n_fresh 3  score_w 1.00  life    826  score    18322  contacts 1.21  drained 0.84  P(L) 0.28  P(R) 0.29   12.1s
+gen   97  best   973.75  mean   240.07  champion  2231.25  cma_sigma 0.1805  n_fresh 3  score_w 1.00  life   1082  score    24007  contacts 3.16  drained 0.82  P(L) 0.24  P(R) 0.33   14.1s
+gen   98  best  2430.00  mean   478.42  champion  1440.00  cma_sigma 0.1733  n_fresh 3  score_w 1.00  life    820  score    47842  contacts 3.71  drained 0.95  P(L) 0.17  P(R) 0.37   17.9s
+gen   99  best  2037.50  mean   376.84  champion   742.50  cma_sigma 0.1671  n_fresh 3  score_w 1.00  life    608  score    37684  contacts 2.74  drained 1.00  P(L) 0.34  P(R) 0.50   12.0s
+gen  100  best  1586.25  mean   353.55  champion   758.75  cma_sigma 0.1629  n_fresh 3  score_w 1.00  life    726  score    35355  contacts 2.74  drained 0.92  P(L) 0.16  P(R) 0.47   15.9s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  101  best  1267.50  mean   205.79  champion  1386.88  cma_sigma 0.1574  n_fresh 3  score_w 1.00  life   1706  score    20579  contacts 2.03  drained 0.55  P(L) 0.55  P(R) 0.28   34.8s
+gen  102  best  1066.25  mean   415.66  champion  1386.88  cma_sigma 0.1516  n_fresh 3  score_w 1.00  life    991  score    41566  contacts 1.58  drained 0.87  P(L) 0.18  P(R) 0.25   18.7s
+gen  103  best  1355.00  mean   450.20  champion  1386.88  cma_sigma 0.1465  n_fresh 3  score_w 1.00  life   1203  score    45020  contacts 3.29  drained 0.82  P(L) 0.17  P(R) 0.41   18.7s
+gen  104  best  1332.50  mean   387.57  champion  1386.88  cma_sigma 0.1448  n_fresh 3  score_w 1.00  life    546  score    38757  contacts 1.71  drained 1.00  P(L) 0.20  P(R) 0.42    8.3s
+gen  105  best  1578.75  mean   578.55  champion   907.50  cma_sigma 0.1451  n_fresh 3  score_w 1.00  life    879  score    57855  contacts 5.24  drained 0.97  P(L) 0.31  P(R) 0.38   19.3s
+gen  106  best   371.25  mean   278.75  champion   907.50  cma_sigma 0.1469  n_fresh 3  score_w 1.00  life    680  score    27875  contacts 0.16  drained 0.95  P(L) 0.39  P(R) 0.46   11.7s
+gen  107  best   967.50  mean   376.18  champion  1185.62  cma_sigma 0.1456  n_fresh 3  score_w 1.00  life   1100  score    37618  contacts 2.87  drained 0.82  P(L) 0.43  P(R) 0.21   24.3s
+gen  108  best   742.50  mean   419.54  champion  1185.62  cma_sigma 0.1447  n_fresh 3  score_w 1.00  life    500  score    41954  contacts 1.05  drained 1.00  P(L) 0.31  P(R) 0.43    6.6s
+gen  109  best   665.00  mean   281.18  champion  1185.62  cma_sigma 0.1462  n_fresh 3  score_w 1.00  life   1422  score    28118  contacts 2.76  drained 0.68  P(L) 0.39  P(R) 0.32   21.0s
+gen  110  best  1565.00  mean   488.03  champion   550.62  cma_sigma 0.1490  n_fresh 3  score_w 1.00  life   1092  score    48803  contacts 2.39  drained 0.84  P(L) 0.29  P(R) 0.42   18.7s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  111  best  1091.25  mean   487.11  champion  1500.62  cma_sigma 0.1522  n_fresh 3  score_w 1.00  life    767  score    48711  contacts 2.71  drained 0.97  P(L) 0.42  P(R) 0.26   23.1s
+gen  112  best   792.50  mean   362.83  champion  1500.62  cma_sigma 0.1562  n_fresh 3  score_w 1.00  life   1112  score    36283  contacts 3.50  drained 0.84  P(L) 0.34  P(R) 0.26   21.4s
+gen  113  best   573.75  mean   330.26  champion  1500.62  cma_sigma 0.1566  n_fresh 3  score_w 1.00  life    773  score    33026  contacts 2.55  drained 0.92  P(L) 0.25  P(R) 0.38   11.8s
+gen  114  best  2533.75  mean   516.32  champion   613.75  cma_sigma 0.1592  n_fresh 3  score_w 1.00  life    906  score    51632  contacts 4.95  drained 0.89  P(L) 0.51  P(R) 0.30   18.4s
+gen  115  best  1770.00  mean   627.63  champion   676.25  cma_sigma 0.1586  n_fresh 3  score_w 1.00  life   1391  score    62763  contacts 4.34  drained 0.82  P(L) 0.18  P(R) 0.48   24.0s
+gen  116  best  1218.75  mean   455.66  champion  1620.00  cma_sigma 0.1574  n_fresh 3  score_w 1.00  life    928  score    45566  contacts 1.11  drained 0.92  P(L) 0.21  P(R) 0.28   24.1s
+gen  117  best  1131.25  mean   449.01  champion  1620.00  cma_sigma 0.1545  n_fresh 3  score_w 1.00  life    640  score    44901  contacts 0.68  drained 1.00  P(L) 0.23  P(R) 0.20    8.3s
+gen  118  best   685.00  mean   290.86  champion  1620.00  cma_sigma 0.1500  n_fresh 3  score_w 1.00  life    982  score    29086  contacts 2.00  drained 0.84  P(L) 0.27  P(R) 0.18   16.0s
+gen  119  best  1062.50  mean   388.29  champion  1620.00  cma_sigma 0.1445  n_fresh 3  score_w 1.00  life    893  score    38829  contacts 3.53  drained 0.92  P(L) 0.22  P(R) 0.32   13.7s
+gen  120  best  2197.50  mean   459.28  champion   719.38  cma_sigma 0.1426  n_fresh 3  score_w 1.00  life   1273  score    45928  contacts 3.05  drained 0.79  P(L) 0.34  P(R) 0.34   23.4s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  121  best   725.00  mean   412.30  champion   762.50  cma_sigma 0.1399  n_fresh 3  score_w 1.00  life    716  score    41230  contacts 2.00  drained 0.92  P(L) 0.24  P(R) 0.36   15.7s
+gen  122  best  1820.00  mean   780.72  champion  1108.12  cma_sigma 0.1394  n_fresh 3  score_w 1.00  life   1175  score    78072  contacts 3.58  drained 0.87  P(L) 0.23  P(R) 0.54   25.5s
+gen  123  best  2007.50  mean   334.34  champion   972.50  cma_sigma 0.1402  n_fresh 3  score_w 1.00  life    898  score    33434  contacts 2.89  drained 0.87  P(L) 0.30  P(R) 0.44   22.2s
+gen  124  best  3755.00  mean   656.64  champion  1398.75  cma_sigma 0.1392  n_fresh 3  score_w 1.00  life   1153  score    65664  contacts 4.24  drained 0.82  P(L) 0.14  P(R) 0.49   22.0s
+gen  125  best  2217.50  mean   809.47  champion   338.12  cma_sigma 0.1369  n_fresh 3  score_w 1.00  life   1310  score    80947  contacts 6.66  drained 0.84  P(L) 0.25  P(R) 0.41   20.0s
+gen  126  best  2081.25  mean   529.67  champion   873.75  cma_sigma 0.1353  n_fresh 3  score_w 1.00  life    684  score    52967  contacts 2.53  drained 0.97  P(L) 0.23  P(R) 0.42   15.7s
+gen  127  best  1218.75  mean   489.74  champion  2055.62  cma_sigma 0.1317  n_fresh 3  score_w 1.00  life   1015  score    48974  contacts 3.11  drained 0.92  P(L) 0.25  P(R) 0.49   23.3s
+gen  128  best  1190.00  mean   700.79  champion  2055.62  cma_sigma 0.1271  n_fresh 3  score_w 1.00  life    972  score    70079  contacts 3.92  drained 0.92  P(L) 0.20  P(R) 0.37   17.7s
+gen  129  best  2326.25  mean   710.20  champion   930.00  cma_sigma 0.1255  n_fresh 3  score_w 1.00  life    983  score    71020  contacts 5.71  drained 0.95  P(L) 0.16  P(R) 0.46   23.5s
+gen  130  best  1547.50  mean   392.43  champion  1220.62  cma_sigma 0.1269  n_fresh 3  score_w 1.00  life    716  score    39243  contacts 3.26  drained 0.92  P(L) 0.35  P(R) 0.27   18.4s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  131  best  1836.25  mean   634.28  champion   643.12  cma_sigma 0.1298  n_fresh 3  score_w 1.00  life    625  score    63428  contacts 1.97  drained 0.97  P(L) 0.23  P(R) 0.34   15.2s
+gen  132  best  2151.25  mean   393.49  champion  1777.50  cma_sigma 0.1302  n_fresh 3  score_w 1.00  life    844  score    39349  contacts 2.08  drained 0.87  P(L) 0.29  P(R) 0.54   21.1s
+gen  133  best  1353.75  mean   421.32  champion  1777.50  cma_sigma 0.1312  n_fresh 3  score_w 1.00  life    666  score    42132  contacts 1.84  drained 0.97  P(L) 0.30  P(R) 0.27   11.3s
+gen  134  best  1395.00  mean   355.86  champion  1777.50  cma_sigma 0.1340  n_fresh 3  score_w 1.00  life    880  score    35586  contacts 2.47  drained 0.89  P(L) 0.35  P(R) 0.39   12.2s
+gen  135  best   737.50  mean   237.43  champion  1777.50  cma_sigma 0.1340  n_fresh 3  score_w 1.00  life    589  score    23743  contacts 2.66  drained 0.97  P(L) 0.13  P(R) 0.53    9.3s
+gen  136  best  1560.00  mean   627.83  champion  1777.50  cma_sigma 0.1318  n_fresh 3  score_w 1.00  life    937  score    62783  contacts 2.92  drained 0.92  P(L) 0.12  P(R) 0.42   16.5s
+gen  137  best  1631.25  mean   470.33  champion  1777.50  cma_sigma 0.1322  n_fresh 3  score_w 1.00  life   1289  score    47033  contacts 3.61  drained 0.79  P(L) 0.25  P(R) 0.43   21.0s
+gen  138  best  4655.00  mean  1223.68  champion   801.25  cma_sigma 0.1304  n_fresh 3  score_w 1.00  life   1209  score   122368  contacts 7.16  drained 0.92  P(L) 0.22  P(R) 0.37   23.0s
+gen  139  best   418.75  mean   209.34  champion   801.25  cma_sigma 0.1310  n_fresh 3  score_w 1.00  life    595  score    20934  contacts 1.53  drained 0.95  P(L) 0.17  P(R) 0.42    8.6s
+gen  140  best  1637.50  mean   533.88  champion   684.38  cma_sigma 0.1296  n_fresh 3  score_w 1.00  life   1215  score    53388  contacts 4.82  drained 0.84  P(L) 0.19  P(R) 0.40   23.6s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  141  best  1683.75  mean   445.26  champion   988.12  cma_sigma 0.1273  n_fresh 3  score_w 1.00  life   1001  score    44526  contacts 4.08  drained 0.92  P(L) 0.37  P(R) 0.37   19.2s
+gen  142  best  1476.25  mean   278.82  champion  1560.62  cma_sigma 0.1275  n_fresh 3  score_w 1.00  life    498  score    27882  contacts 1.87  drained 1.00  P(L) 0.22  P(R) 0.41   13.3s
+gen  143  best  1158.75  mean   351.45  champion  1560.62  cma_sigma 0.1264  n_fresh 3  score_w 1.00  life    863  score    35145  contacts 1.39  drained 0.87  P(L) 0.31  P(R) 0.50   10.5s
+gen  144  best   276.25  mean   252.57  champion  1560.62  cma_sigma 0.1257  n_fresh 3  score_w 1.00  life    468  score    25257  contacts 0.47  drained 1.00  P(L) 0.25  P(R) 0.55    5.6s
+gen  145  best  1452.50  mean   550.46  champion  1560.62  cma_sigma 0.1230  n_fresh 3  score_w 1.00  life   1093  score    55046  contacts 5.26  drained 0.89  P(L) 0.28  P(R) 0.43   13.5s
+gen  146  best  1187.50  mean   441.45  champion  1560.62  cma_sigma 0.1205  n_fresh 3  score_w 1.00  life   1423  score    44145  contacts 2.18  drained 0.68  P(L) 0.59  P(R) 0.25   18.3s
+gen  147  best  2556.25  mean   902.24  champion  2443.75  cma_sigma 0.1179  n_fresh 3  score_w 1.00  life   1329  score    90224  contacts 4.03  drained 0.84  P(L) 0.52  P(R) 0.37   24.6s
+gen  148  best   793.75  mean   217.37  champion  2443.75  cma_sigma 0.1149  n_fresh 3  score_w 1.00  life   1309  score    21737  contacts 1.84  drained 0.71  P(L) 0.43  P(R) 0.43   17.4s
+gen  149  best  1937.50  mean   615.33  champion  2443.75  cma_sigma 0.1148  n_fresh 3  score_w 1.00  life    968  score    61533  contacts 4.16  drained 0.92  P(L) 0.44  P(R) 0.42   14.8s
+gen  150  best  1066.25  mean   312.17  champion  2443.75  cma_sigma 0.1129  n_fresh 3  score_w 1.00  life   1867  score    31217  contacts 0.71  drained 0.53  P(L) 0.51  P(R) 0.51   24.4s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  151  best  1656.25  mean   546.45  champion  2443.75  cma_sigma 0.1105  n_fresh 3  score_w 1.00  life   1460  score    54645  contacts 3.74  drained 0.74  P(L) 0.55  P(R) 0.41   18.3s
+gen  152  best   895.00  mean   271.78  champion  2443.75  cma_sigma 0.1104  n_fresh 3  score_w 1.00  life    815  score    27178  contacts 2.42  drained 0.89  P(L) 0.41  P(R) 0.43   10.7s
+gen  153  best   906.25  mean   443.75  champion  2443.75  cma_sigma 0.1119  n_fresh 3  score_w 1.00  life    964  score    44375  contacts 2.87  drained 0.89  P(L) 0.26  P(R) 0.52   12.7s
+gen  154  best   892.50  mean   521.78  champion  2443.75  cma_sigma 0.1137  n_fresh 3  score_w 1.00  life   1144  score    52178  contacts 3.47  drained 0.84  P(L) 0.16  P(R) 0.58   14.8s
+gen  155  best  2970.00  mean   857.24  champion   568.12  cma_sigma 0.1159  n_fresh 3  score_w 1.00  life   1424  score    85724  contacts 4.87  drained 0.84  P(L) 0.25  P(R) 0.48   23.1s
+gen  156  best  2563.75  mean   945.53  champion   899.38  cma_sigma 0.1155  n_fresh 3  score_w 1.00  life    980  score    94553  contacts 2.63  drained 1.00  P(L) 0.15  P(R) 0.55   15.7s
+gen  157  best  1781.25  mean   615.13  champion   980.00  cma_sigma 0.1158  n_fresh 3  score_w 1.00  life   1189  score    61513  contacts 4.87  drained 0.87  P(L) 0.19  P(R) 0.32   17.9s
+gen  158  best  2291.25  mean   505.00  champion   415.00  cma_sigma 0.1174  n_fresh 3  score_w 1.00  life   1159  score    50500  contacts 2.39  drained 0.82  P(L) 0.25  P(R) 0.42   20.7s
+gen  159  best   755.00  mean   193.55  champion   441.25  cma_sigma 0.1178  n_fresh 3  score_w 1.00  life    643  score    19355  contacts 1.79  drained 0.92  P(L) 0.25  P(R) 0.43   14.5s
+gen  160  best   760.00  mean   332.57  champion  1178.12  cma_sigma 0.1168  n_fresh 3  score_w 1.00  life    943  score    33257  contacts 1.82  drained 0.87  P(L) 0.22  P(R) 0.35   19.6s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  161  best  2077.50  mean   425.53  champion  1179.38  cma_sigma 0.1152  n_fresh 3  score_w 1.00  life   1103  score    42553  contacts 3.63  drained 0.82  P(L) 0.17  P(R) 0.56   20.4s
+gen  162  best  2376.25  mean   608.95  champion  1330.62  cma_sigma 0.1164  n_fresh 3  score_w 1.00  life   1294  score    60895  contacts 4.37  drained 0.79  P(L) 0.22  P(R) 0.45   25.5s
+gen  163  best  1877.50  mean   583.29  champion   671.25  cma_sigma 0.1182  n_fresh 3  score_w 1.00  life    790  score    58329  contacts 3.61  drained 1.00  P(L) 0.21  P(R) 0.45   13.3s
+gen  164  best   836.25  mean   223.62  champion   600.62  cma_sigma 0.1210  n_fresh 3  score_w 1.00  life    532  score    22362  contacts 1.61  drained 0.97  P(L) 0.18  P(R) 0.45   10.3s
+gen  165  best   596.25  mean   195.33  champion   600.62  cma_sigma 0.1215  n_fresh 3  score_w 1.00  life    568  score    19533  contacts 0.92  drained 0.95  P(L) 0.22  P(R) 0.60    8.3s
+gen  166  best  1191.25  mean   311.91  champion   605.00  cma_sigma 0.1218  n_fresh 3  score_w 1.00  life    562  score    31191  contacts 1.42  drained 1.00  P(L) 0.52  P(R) 0.34   10.3s
+gen  167  best  1550.00  mean   584.41  champion   786.88  cma_sigma 0.1206  n_fresh 3  score_w 1.00  life   1139  score    58441  contacts 5.05  drained 0.87  P(L) 0.33  P(R) 0.39   19.1s
+gen  168  best  1761.25  mean   457.63  champion  1788.75  cma_sigma 0.1183  n_fresh 3  score_w 1.00  life   1047  score    45763  contacts 3.18  drained 0.87  P(L) 0.35  P(R) 0.37   21.3s
+gen  169  best  1398.75  mean   335.46  champion  1788.75  cma_sigma 0.1154  n_fresh 3  score_w 1.00  life   1197  score    33546  contacts 3.39  drained 0.76  P(L) 0.23  P(R) 0.60   16.8s
+gen  170  best  1920.00  mean   382.76  champion  2122.50  cma_sigma 0.1141  n_fresh 3  score_w 1.00  life    865  score    38276  contacts 2.82  drained 0.89  P(L) 0.20  P(R) 0.40   19.3s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  171  best  1217.50  mean   359.34  champion  2122.50  cma_sigma 0.1117  n_fresh 3  score_w 1.00  life   1299  score    35934  contacts 5.00  drained 0.76  P(L) 0.06  P(R) 0.48   16.3s
+gen  172  best  2371.25  mean   880.20  champion  1108.75  cma_sigma 0.1087  n_fresh 3  score_w 1.00  life   1273  score    88020  contacts 3.42  drained 0.82  P(L) 0.48  P(R) 0.21   24.2s
+gen  173  best  2413.75  mean   883.95  champion  1045.62  cma_sigma 0.1054  n_fresh 3  score_w 1.00  life   1025  score    88395  contacts 3.55  drained 0.92  P(L) 0.29  P(R) 0.34   18.3s
+gen  174  best   723.75  mean   258.95  champion  1045.62  cma_sigma 0.1038  n_fresh 3  score_w 1.00  life    713  score    25895  contacts 2.76  drained 0.95  P(L) 0.34  P(R) 0.24    9.8s
+gen  175  best  1487.50  mean   459.08  champion  2060.00  cma_sigma 0.1018  n_fresh 3  score_w 1.00  life   1239  score    45908  contacts 4.95  drained 0.82  P(L) 0.37  P(R) 0.25   21.4s
+gen  176  best  1832.50  mean  1057.43  champion  2060.00  cma_sigma 0.0992  n_fresh 3  score_w 1.00  life   1379  score   105743  contacts 6.53  drained 0.89  P(L) 0.20  P(R) 0.42   15.6s
+gen  177  best  2383.75  mean   904.14  champion  1128.12  cma_sigma 0.0982  n_fresh 3  score_w 1.00  life   1169  score    90414  contacts 6.45  drained 0.92  P(L) 0.19  P(R) 0.32   24.3s
+gen  178  best  1983.75  mean   735.59  champion   899.38  cma_sigma 0.0963  n_fresh 3  score_w 1.00  life   1264  score    73559  contacts 5.16  drained 0.84  P(L) 0.14  P(R) 0.36   23.0s
+gen  179  best  2023.75  mean   392.43  champion   871.25  cma_sigma 0.0968  n_fresh 3  score_w 1.00  life    915  score    39243  contacts 3.53  drained 0.87  P(L) 0.21  P(R) 0.19   21.3s
+gen  180  best   503.75  mean   340.33  champion   871.25  cma_sigma 0.0967  n_fresh 3  score_w 1.00  life    654  score    34033  contacts 0.61  drained 0.97  P(L) 0.47  P(R) 0.13   11.9s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  181  best   913.75  mean   366.97  champion  1650.62  cma_sigma 0.0955  n_fresh 3  score_w 1.00  life    642  score    36697  contacts 1.66  drained 0.97  P(L) 0.25  P(R) 0.21   17.2s
+gen  182  best  2052.50  mean   550.79  champion  1251.88  cma_sigma 0.0937  n_fresh 3  score_w 1.00  life    873  score    55079  contacts 3.18  drained 0.89  P(L) 0.31  P(R) 0.15   20.9s
+gen  183  best  2601.25  mean   778.55  champion  1520.62  cma_sigma 0.0918  n_fresh 3  score_w 1.00  life   1001  score    77855  contacts 5.82  drained 0.97  P(L) 0.18  P(R) 0.22   20.8s
+gen  184  best   425.00  mean   213.82  champion  1520.62  cma_sigma 0.0915  n_fresh 3  score_w 1.00  life    643  score    21382  contacts 2.18  drained 0.95  P(L) 0.27  P(R) 0.36    9.7s
+gen  185  best  1452.50  mean   600.66  champion  1520.62  cma_sigma 0.0912  n_fresh 3  score_w 1.00  life   1458  score    60066  contacts 4.29  drained 0.79  P(L) 0.24  P(R) 0.47   19.7s
+gen  186  best  2583.75  mean  1247.89  champion   621.88  cma_sigma 0.0925  n_fresh 3  score_w 1.00  life   1077  score   124789  contacts 4.00  drained 0.89  P(L) 0.19  P(R) 0.36   18.3s
+gen  187  best   562.50  mean   263.68  champion   621.88  cma_sigma 0.0928  n_fresh 3  score_w 1.00  life    612  score    26368  contacts 0.58  drained 0.97  P(L) 0.19  P(R) 0.12    9.5s
+gen  188  best   973.75  mean   406.78  champion   695.00  cma_sigma 0.0940  n_fresh 3  score_w 1.00  life    670  score    40678  contacts 1.55  drained 0.95  P(L) 0.16  P(R) 0.24   16.6s
+gen  189  best  3348.75  mean   492.11  champion   706.88  cma_sigma 0.0940  n_fresh 3  score_w 1.00  life    650  score    49211  contacts 1.39  drained 0.97  P(L) 0.12  P(R) 0.25   17.1s
+gen  190  best  2180.00  mean   455.79  champion   953.12  cma_sigma 0.0950  n_fresh 3  score_w 1.00  life    684  score    45579  contacts 2.18  drained 0.95  P(L) 0.17  P(R) 0.24   16.0s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  191  best  2776.25  mean   699.08  champion  1164.38  cma_sigma 0.0952  n_fresh 3  score_w 1.00  life    726  score    69908  contacts 3.18  drained 1.00  P(L) 0.23  P(R) 0.29   19.1s
+gen  192  best  1988.75  mean   466.05  champion  2843.12  cma_sigma 0.0966  n_fresh 3  score_w 1.00  life    783  score    46605  contacts 4.37  drained 0.95  P(L) 0.14  P(R) 0.33   19.8s
+gen  193  best  1440.00  mean   554.67  champion  2843.12  cma_sigma 0.0962  n_fresh 3  score_w 1.00  life   1383  score    55467  contacts 4.87  drained 0.82  P(L) 0.30  P(R) 0.34   20.3s
+gen  194  best  1728.75  mean   372.70  champion  2843.12  cma_sigma 0.0971  n_fresh 3  score_w 1.00  life    600  score    37270  contacts 2.47  drained 1.00  P(L) 0.21  P(R) 0.43    7.0s
+gen  195  best  1478.75  mean   466.91  champion  2843.12  cma_sigma 0.0985  n_fresh 3  score_w 1.00  life    741  score    46691  contacts 2.89  drained 0.97  P(L) 0.20  P(R) 0.35    9.7s
+gen  196  best  1858.75  mean   470.46  champion  2843.12  cma_sigma 0.1007  n_fresh 3  score_w 1.00  life   1014  score    47046  contacts 4.21  drained 0.89  P(L) 0.30  P(R) 0.43   13.8s
+gen  197  best  1468.75  mean   344.08  champion  2843.12  cma_sigma 0.1041  n_fresh 3  score_w 1.00  life    964  score    34408  contacts 2.53  drained 0.84  P(L) 0.18  P(R) 0.53   13.7s
+gen  198  best  2172.50  mean   822.57  champion  2843.12  cma_sigma 0.1048  n_fresh 3  score_w 1.00  life   1383  score    82257  contacts 7.32  drained 0.87  P(L) 0.14  P(R) 0.31   21.7s
+gen  199  best  2056.25  mean   561.38  champion  2843.12  cma_sigma 0.1036  n_fresh 3  score_w 1.00  life   1159  score    56138  contacts 6.16  drained 0.87  P(L) 0.17  P(R) 0.40   18.0s
+gen  200  best   917.50  mean   340.20  champion  2843.12  cma_sigma 0.1014  n_fresh 3  score_w 1.00  life    777  score    34020  contacts 2.79  drained 0.95  P(L) 0.13  P(R) 0.36   11.6s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  201  best  1727.50  mean   662.30  champion  2843.12  cma_sigma 0.1017  n_fresh 3  score_w 1.00  life   1003  score    66230  contacts 5.82  drained 0.97  P(L) 0.10  P(R) 0.36   14.7s
+gen  202  best  1266.25  mean   421.12  champion  2843.12  cma_sigma 0.1008  n_fresh 3  score_w 1.00  life   1300  score    42112  contacts 4.50  drained 0.79  P(L) 0.37  P(R) 0.32   19.2s
+gen  203  best  2957.50  mean   588.42  champion   711.88  cma_sigma 0.0993  n_fresh 3  score_w 1.00  life   1174  score    58842  contacts 3.45  drained 0.79  P(L) 0.23  P(R) 0.36   20.9s
+gen  204  best  2550.00  mean   432.76  champion   822.50  cma_sigma 0.0964  n_fresh 3  score_w 1.00  life    569  score    43276  contacts 1.26  drained 1.00  P(L) 0.34  P(R) 0.25   10.5s
+gen  205  best   505.00  mean   306.25  champion   822.50  cma_sigma 0.0933  n_fresh 3  score_w 1.00  life    643  score    30625  contacts 1.11  drained 0.95  P(L) 0.19  P(R) 0.13   10.0s
+gen  206  best  1160.00  mean   516.58  champion  2488.75  cma_sigma 0.0895  n_fresh 3  score_w 1.00  life    985  score    51658  contacts 4.39  drained 0.95  P(L) 0.12  P(R) 0.26   21.2s
+gen  207  best  1925.00  mean   548.36  champion  2488.75  cma_sigma 0.0864  n_fresh 3  score_w 1.00  life   1452  score    54836  contacts 5.63  drained 0.74  P(L) 0.40  P(R) 0.27   21.3s
+gen  208  best   476.25  mean   240.92  champion  2488.75  cma_sigma 0.0838  n_fresh 3  score_w 1.00  life    412  score    24092  contacts 1.21  drained 1.00  P(L) 0.41  P(R) 0.26    7.5s
+gen  209  best  3126.25  mean   549.74  champion  1140.00  cma_sigma 0.0808  n_fresh 3  score_w 1.00  life    809  score    54974  contacts 3.58  drained 0.95  P(L) 0.18  P(R) 0.27   17.6s
+gen  210  best  2807.50  mean   849.21  champion   393.75  cma_sigma 0.0772  n_fresh 3  score_w 1.00  life   1299  score    84921  contacts 5.66  drained 0.87  P(L) 0.21  P(R) 0.28   20.4s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  211  best  1756.25  mean   598.62  champion   990.00  cma_sigma 0.0737  n_fresh 3  score_w 1.00  life   1083  score    59862  contacts 5.16  drained 0.92  P(L) 0.18  P(R) 0.37   25.2s
+gen  212  best  1485.00  mean   391.45  champion  1609.38  cma_sigma 0.0726  n_fresh 3  score_w 1.00  life    980  score    39145  contacts 2.92  drained 0.87  P(L) 0.11  P(R) 0.41   20.7s
+gen  213  best  1928.75  mean   550.20  champion   571.88  cma_sigma 0.0725  n_fresh 3  score_w 1.00  life    925  score    55020  contacts 3.32  drained 0.92  P(L) 0.16  P(R) 0.44   19.0s
+gen  214  best  1205.00  mean   406.51  champion  1830.62  cma_sigma 0.0713  n_fresh 3  score_w 1.00  life    763  score    40651  contacts 2.58  drained 0.92  P(L) 0.12  P(R) 0.38   19.1s
+gen  215  best  1133.75  mean   523.03  champion  1830.62  cma_sigma 0.0713  n_fresh 3  score_w 1.00  life   1050  score    52303  contacts 5.00  drained 0.95  P(L) 0.18  P(R) 0.34   15.4s
+gen  216  best  1687.50  mean   526.38  champion  1830.62  cma_sigma 0.0708  n_fresh 3  score_w 1.00  life    700  score    52638  contacts 3.13  drained 0.95  P(L) 0.13  P(R) 0.27   10.4s
+gen  217  best  2346.25  mean   973.55  champion  1453.12  cma_sigma 0.0701  n_fresh 3  score_w 1.00  life   1149  score    97355  contacts 4.08  drained 0.92  P(L) 0.16  P(R) 0.38   25.6s
+gen  218  best  1888.75  mean   617.89  champion  1572.50  cma_sigma 0.0683  n_fresh 3  score_w 1.00  life   1850  score    61789  contacts 4.26  drained 0.55  P(L) 0.31  P(R) 0.62   32.9s
+gen  219  best  2150.00  mean   718.03  champion   850.00  cma_sigma 0.0676  n_fresh 3  score_w 1.00  life    798  score    71803  contacts 2.89  drained 0.95  P(L) 0.17  P(R) 0.36   16.5s
+gen  220  best   918.75  mean   422.11  champion  1336.88  cma_sigma 0.0662  n_fresh 3  score_w 1.00  life    730  score    42211  contacts 2.76  drained 0.97  P(L) 0.37  P(R) 0.21   16.8s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  221  best  2090.00  mean   835.00  champion  1135.00  cma_sigma 0.0646  n_fresh 3  score_w 1.00  life   1501  score    83500  contacts 5.92  drained 0.76  P(L) 0.37  P(R) 0.31   23.3s
+gen  222  best  1060.00  mean   460.59  champion  1135.00  cma_sigma 0.0628  n_fresh 3  score_w 1.00  life    824  score    46059  contacts 4.92  drained 0.97  P(L) 0.35  P(R) 0.39   10.9s
+gen  223  best  2087.50  mean   942.17  champion  1323.12  cma_sigma 0.0625  n_fresh 3  score_w 1.00  life   1317  score    94217  contacts 5.66  drained 0.84  P(L) 0.26  P(R) 0.38   19.3s
+gen  224  best  1387.50  mean   613.22  champion   639.38  cma_sigma 0.0615  n_fresh 3  score_w 1.00  life   1036  score    61322  contacts 6.00  drained 0.89  P(L) 0.20  P(R) 0.47   15.5s
+/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/../agents/fly_decoder.py:41: RuntimeWarning: invalid value encountered in cast
+  return action.detach().cpu().numpy().astype("int64")
+gen  225  best  1057.50  mean   534.21  champion  1193.12  cma_sigma 0.0617  n_fresh 3  score_w 1.00  life    837  score    53421  contacts 5.21  drained 0.95  P(L) 0.22  P(R) 0.36   16.0s
+gen  226  best  1613.75  mean   419.41  champion  1237.50  cma_sigma 0.0606  n_fresh 3  score_w 1.00  life    589  score    41941  contacts 3.00  drained 1.00  P(L) 0.23  P(R) 0.31   16.3s
+gen  227  best  2157.50  mean   918.55  champion  1412.50  cma_sigma 0.0592  n_fresh 3  score_w 1.00  life   1270  score    91855  contacts 8.37  drained 0.89  P(L) 0.30  P(R) 0.21   21.9s
+gen  228  best  1953.75  mean   441.38  champion   953.12  cma_sigma 0.0572  n_fresh 3  score_w 1.00  life    837  score    44138  contacts 4.71  drained 0.95  P(L) 0.19  P(R) 0.20   16.4s
+gen  229  best  2537.50  mean  1037.04  champion  1035.00  cma_sigma 0.0553  n_fresh 3  score_w 1.00  life   1228  score   103704  contacts 6.13  drained 0.87  P(L) 0.28  P(R) 0.34   20.9s
+gen  230  best  1571.25  mean   511.78  champion  1678.12  cma_sigma 0.0550  n_fresh 3  score_w 1.00  life    869  score    51178  contacts 5.45  drained 0.95  P(L) 0.22  P(R) 0.36   19.9s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  231  best  1301.25  mean   463.95  champion  1678.12  cma_sigma 0.0537  n_fresh 3  score_w 1.00  life   1220  score    46395  contacts 4.32  drained 0.79  P(L) 0.34  P(R) 0.43   16.9s
+gen  232  best  1701.25  mean   806.25  champion   940.62  cma_sigma 0.0532  n_fresh 3  score_w 1.00  life   1348  score    80625  contacts 4.92  drained 0.82  P(L) 0.47  P(R) 0.28   26.3s
+gen  233  best  1887.50  mean   586.32  champion  1361.25  cma_sigma 0.0522  n_fresh 3  score_w 1.00  life    947  score    58632  contacts 7.11  drained 0.95  P(L) 0.44  P(R) 0.26   22.8s
+gen  234  best  1963.75  mean   496.64  champion  1188.75  cma_sigma 0.0511  n_fresh 3  score_w 1.00  life   1074  score    49664  contacts 5.37  drained 0.84  P(L) 0.39  P(R) 0.30   24.9s
+gen  235  best  2352.50  mean   688.29  champion  1232.50  cma_sigma 0.0494  n_fresh 3  score_w 1.00  life   1206  score    68829  contacts 7.11  drained 0.84  P(L) 0.31  P(R) 0.29   28.9s
+gen  236  best  2118.75  mean   935.07  champion  1155.62  cma_sigma 0.0490  n_fresh 3  score_w 1.00  life   1115  score    93507  contacts 7.89  drained 0.89  P(L) 0.39  P(R) 0.29   25.3s
+gen  237  best  1410.00  mean   419.47  champion  1135.62  cma_sigma 0.0494  n_fresh 3  score_w 1.00  life   1140  score    41947  contacts 3.97  drained 0.79  P(L) 0.50  P(R) 0.35   22.9s
+gen  238  best  1181.25  mean   204.41  champion  2063.75  cma_sigma 0.0495  n_fresh 3  score_w 1.00  life    510  score    20441  contacts 3.11  drained 1.00  P(L) 0.25  P(R) 0.47   17.4s
+gen  239  best  2756.25  mean  1207.57  champion  1200.62  cma_sigma 0.0499  n_fresh 3  score_w 1.00  life   1610  score   120757  contacts 7.58  drained 0.84  P(L) 0.26  P(R) 0.37   32.5s
+gen  240  best  1275.00  mean   370.59  champion   983.12  cma_sigma 0.0499  n_fresh 3  score_w 1.00  life    797  score    37059  contacts 3.95  drained 0.95  P(L) 0.36  P(R) 0.34   19.6s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  241  best  1525.00  mean   625.86  champion  1425.62  cma_sigma 0.0502  n_fresh 3  score_w 1.00  life   1167  score    62586  contacts 5.37  drained 0.87  P(L) 0.32  P(R) 0.37   24.8s
+gen  242  best  3672.50  mean   783.68  champion  1586.25  cma_sigma 0.0508  n_fresh 3  score_w 1.00  life    856  score    78368  contacts 4.68  drained 0.92  P(L) 0.24  P(R) 0.35   25.1s
+gen  243  best  2600.00  mean   873.16  champion   580.62  cma_sigma 0.0509  n_fresh 3  score_w 1.00  life   1227  score    87316  contacts 7.71  drained 0.87  P(L) 0.34  P(R) 0.37   19.7s
+gen  244  best  2408.75  mean   911.12  champion  1779.38  cma_sigma 0.0517  n_fresh 3  score_w 1.00  life   1053  score    91112  contacts 6.42  drained 0.92  P(L) 0.28  P(R) 0.50   23.5s
+gen  245  best  1438.75  mean   610.79  champion  1779.38  cma_sigma 0.0529  n_fresh 3  score_w 1.00  life   1251  score    61079  contacts 5.76  drained 0.84  P(L) 0.28  P(R) 0.52   18.4s
+gen  246  best  2588.75  mean   655.72  champion  1528.12  cma_sigma 0.0548  n_fresh 3  score_w 1.00  life   1354  score    65572  contacts 5.34  drained 0.82  P(L) 0.35  P(R) 0.44   25.4s
+gen  247  best  3746.25  mean   879.87  champion   920.62  cma_sigma 0.0568  n_fresh 3  score_w 1.00  life   1271  score    87987  contacts 6.68  drained 0.84  P(L) 0.32  P(R) 0.47   27.1s
+gen  248  best  1275.00  mean   779.34  champion   735.62  cma_sigma 0.0571  n_fresh 3  score_w 1.00  life    908  score    77934  contacts 3.39  drained 0.95  P(L) 0.20  P(R) 0.37   18.2s
+gen  249  best  1313.75  mean   701.78  champion  1011.25  cma_sigma 0.0583  n_fresh 3  score_w 1.00  life   1144  score    70178  contacts 6.84  drained 0.95  P(L) 0.21  P(R) 0.49   31.2s
+gen  250  best  1830.00  mean   659.93  champion   712.50  cma_sigma 0.0581  n_fresh 3  score_w 1.00  life   1209  score    65993  contacts 7.76  drained 0.89  P(L) 0.20  P(R) 0.52   57.6s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  251  best  1568.75  mean   520.39  champion  1030.00  cma_sigma 0.0573  n_fresh 3  score_w 1.00  life   1172  score    52039  contacts 3.76  drained 0.82  P(L) 0.19  P(R) 0.52   35.5s
+gen  252  best  2048.75  mean   388.82  champion  1552.50  cma_sigma 0.4000  n_fresh 3  score_w 1.00  life    810  score    38882  contacts 3.92  drained 0.92  P(L) 0.21  P(R) 0.35  [IPOP RESTART #1, popsize->32]   19.1s
+gen  253  best   978.75  mean   145.13  champion  1552.50  cma_sigma 0.3956  n_fresh 6  score_w 1.00  life    598  score    14513  contacts 0.67  drained 0.92  P(L) 0.64  P(R) 0.41   19.5s
+gen  254  best   422.50  mean   307.17  champion  1552.50  cma_sigma 0.3981  n_fresh 6  score_w 1.00  life    553  score    30717  contacts 0.17  drained 0.99  P(L) 0.38  P(R) 0.42   14.0s
+gen  255  best   611.25  mean   351.71  champion  1552.50  cma_sigma 0.4054  n_fresh 6  score_w 1.00  life    799  score    35171  contacts 0.54  drained 0.89  P(L) 0.34  P(R) 0.19   22.6s
+gen  256  best   636.25  mean   222.93  champion  1552.50  cma_sigma 0.4090  n_fresh 6  score_w 1.00  life   1336  score    22293  contacts 1.12  drained 0.67  P(L) 0.37  P(R) 0.27   42.6s
+gen  257  best   893.75  mean   241.84  champion  1552.50  cma_sigma 0.4072  n_fresh 6  score_w 1.00  life   1613  score    24184  contacts 1.24  drained 0.58  P(L) 0.43  P(R) 0.23   46.2s
+gen  258  best   442.50  mean   235.82  champion  1552.50  cma_sigma 0.4129  n_fresh 6  score_w 1.00  life    701  score    23582  contacts 0.39  drained 0.92  P(L) 0.31  P(R) 0.20   21.1s
+gen  259  best   695.00  mean   305.49  champion  1552.50  cma_sigma 0.4248  n_fresh 6  score_w 1.00  life   1046  score    30549  contacts 0.50  drained 0.80  P(L) 0.40  P(R) 0.15   33.3s
+gen  260  best   793.75  mean   139.08  champion  1552.50  cma_sigma 0.4334  n_fresh 6  score_w 1.00  life    727  score    13908  contacts 0.74  drained 0.88  P(L) 0.38  P(R) 0.41   21.7s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  261  best   572.50  mean   187.70  champion  1552.50  cma_sigma 0.4420  n_fresh 6  score_w 1.00  life   1162  score    18770  contacts 0.54  drained 0.75  P(L) 0.46  P(R) 0.13   38.0s
+gen  262  best   551.25  mean   164.84  champion  1552.50  cma_sigma 0.4438  n_fresh 6  score_w 1.00  life   1095  score    16484  contacts 0.75  drained 0.75  P(L) 0.33  P(R) 0.18   34.2s
+gen  263  best   506.25  mean   120.53  champion  1552.50  cma_sigma 0.4450  n_fresh 6  score_w 1.00  life    578  score    12053  contacts 0.64  drained 0.95  P(L) 0.46  P(R) 0.18   16.4s
+gen  264  best   776.25  mean   397.86  champion  1552.50  cma_sigma 0.4459  n_fresh 6  score_w 1.00  life    956  score    39786  contacts 0.61  drained 0.82  P(L) 0.41  P(R) 0.17   28.2s
+gen  265  best   633.75  mean   218.62  champion  1552.50  cma_sigma 0.4419  n_fresh 6  score_w 1.00  life    847  score    21862  contacts 1.07  drained 0.87  P(L) 0.22  P(R) 0.29   21.4s
+gen  266  best  2226.25  mean   332.89  champion  1137.50  cma_sigma 0.4391  n_fresh 6  score_w 1.00  life    633  score    33289  contacts 0.43  drained 0.93  P(L) 0.31  P(R) 0.16   28.9s
+gen  267  best  1073.75  mean   267.14  champion  1137.50  cma_sigma 0.4410  n_fresh 6  score_w 1.00  life    547  score    26714  contacts 0.99  drained 1.00  P(L) 0.28  P(R) 0.27   14.6s
+gen  268  best   320.00  mean   235.07  champion  1137.50  cma_sigma 0.4507  n_fresh 6  score_w 1.00  life    789  score    23507  contacts 0.09  drained 0.86  P(L) 0.32  P(R) 0.42   27.7s
+gen  269  best  1167.50  mean   288.78  champion  1103.12  cma_sigma 0.4491  n_fresh 6  score_w 1.00  life    812  score    28878  contacts 1.16  drained 0.91  P(L) 0.25  P(R) 0.12   43.6s
+gen  270  best   435.00  mean   413.82  champion  1103.12  cma_sigma 0.4481  n_fresh 6  score_w 1.00  life    918  score    41382  contacts 0.00  drained 0.86  P(L) 0.23  P(R) 0.29   50.7s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  271  best   571.25  mean   268.16  champion  1103.12  cma_sigma 0.4542  n_fresh 6  score_w 1.00  life    877  score    26816  contacts 0.74  drained 0.88  P(L) 0.20  P(R) 0.21   62.3s
+gen  272  best   661.25  mean   412.86  champion  1103.12  cma_sigma 0.4656  n_fresh 6  score_w 1.00  life    832  score    41286  contacts 1.08  drained 0.89  P(L) 0.24  P(R) 0.26   25.4s
+gen  273  best  1357.50  mean   198.03  champion   908.75  cma_sigma 0.4674  n_fresh 6  score_w 1.00  life    651  score    19803  contacts 0.55  drained 0.91  P(L) 0.47  P(R) 0.31   25.9s
+gen  274  best   415.00  mean    78.42  champion   908.75  cma_sigma 0.4712  n_fresh 6  score_w 1.00  life    703  score     7842  contacts 0.41  drained 0.87  P(L) 0.33  P(R) 0.21   21.1s
+gen  275  best   911.25  mean   210.20  champion   768.12  cma_sigma 0.4677  n_fresh 6  score_w 1.00  life    621  score    21020  contacts 1.05  drained 0.96  P(L) 0.34  P(R) 0.30   25.2s
+gen  276  best  1195.00  mean   284.34  champion  1079.38  cma_sigma 0.4602  n_fresh 6  score_w 1.00  life    661  score    28434  contacts 1.01  drained 0.95  P(L) 0.34  P(R) 0.24   23.7s
+gen  277  best   747.50  mean   268.06  champion  1079.38  cma_sigma 0.4480  n_fresh 6  score_w 1.00  life    585  score    26806  contacts 0.30  drained 0.96  P(L) 0.48  P(R) 0.09   16.4s
+gen  278  best   690.00  mean   291.38  champion  1079.38  cma_sigma 0.4449  n_fresh 6  score_w 1.00  life    813  score    29138  contacts 0.70  drained 0.86  P(L) 0.35  P(R) 0.11   23.2s
+gen  279  best   612.50  mean   160.76  champion  1079.38  cma_sigma 0.4389  n_fresh 6  score_w 1.00  life   1116  score    16076  contacts 0.59  drained 0.75  P(L) 0.41  P(R) 0.16   29.7s
+gen  280  best  1425.00  mean   204.51  champion   874.38  cma_sigma 0.4313  n_fresh 6  score_w 1.00  life    703  score    20451  contacts 1.04  drained 0.91  P(L) 0.34  P(R) 0.12   25.0s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  281  best  2617.50  mean   384.57  champion  1293.12  cma_sigma 0.4179  n_fresh 6  score_w 1.00  life   1004  score    38457  contacts 1.13  drained 0.80  P(L) 0.36  P(R) 0.23   38.3s
+gen  282  best   381.25  mean   191.41  champion  1293.12  cma_sigma 0.4048  n_fresh 6  score_w 1.00  life    834  score    19141  contacts 0.62  drained 0.86  P(L) 0.21  P(R) 0.30   27.0s
+gen  283  best   950.00  mean   286.64  champion  1293.12  cma_sigma 0.3932  n_fresh 6  score_w 1.00  life    593  score    28664  contacts 1.08  drained 0.96  P(L) 0.32  P(R) 0.10   16.3s
+gen  284  best   465.00  mean   464.21  champion  1293.12  cma_sigma 0.3853  n_fresh 6  score_w 1.00  life    550  score    46421  contacts 0.00  drained 0.97  P(L) 0.37  P(R) 0.06   24.4s
+gen  285  best  1156.25  mean   308.16  champion  1293.12  cma_sigma 0.3765  n_fresh 6  score_w 1.00  life    548  score    30816  contacts 0.93  drained 1.00  P(L) 0.56  P(R) 0.19   16.0s
+gen  286  best   480.00  mean   283.78  champion  1293.12  cma_sigma 0.3769  n_fresh 6  score_w 1.00  life    756  score    28378  contacts 0.22  drained 0.89  P(L) 0.34  P(R) 0.28   23.3s
+gen  287  best   922.50  mean   271.51  champion  1293.12  cma_sigma 0.3824  n_fresh 6  score_w 1.00  life    664  score    27151  contacts 1.39  drained 0.99  P(L) 0.18  P(R) 0.46   18.3s
+gen  288  best  1745.00  mean   366.51  champion   895.62  cma_sigma 0.3897  n_fresh 6  score_w 1.00  life   1476  score    36651  contacts 2.18  drained 0.67  P(L) 0.23  P(R) 0.42   51.2s
+gen  289  best  1467.50  mean   313.52  champion   745.00  cma_sigma 0.4012  n_fresh 6  score_w 1.00  life   1018  score    31352  contacts 1.75  drained 0.84  P(L) 0.26  P(R) 0.24   33.1s
+gen  290  best   816.25  mean   366.97  champion   448.75  cma_sigma 0.4030  n_fresh 6  score_w 1.00  life   1425  score    36697  contacts 0.46  drained 0.63  P(L) 0.38  P(R) 0.23   40.2s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+gen  291  best   740.00  mean   299.84  champion  1276.88  cma_sigma 0.4043  n_fresh 6  score_w 1.00  life    918  score    29984  contacts 0.62  drained 0.86  P(L) 0.30  P(R) 0.29   32.5s
+gen  292  best   410.00  mean   180.13  champion  1276.88  cma_sigma 0.4075  n_fresh 6  score_w 1.00  life   1022  score    18013  contacts 0.78  drained 0.80  P(L) 0.27  P(R) 0.34   26.7s
+gen  293  best  2566.25  mean   319.87  champion   750.00  cma_sigma 0.4035  n_fresh 6  score_w 1.00  life    774  score    31987  contacts 2.18  drained 0.92  P(L) 0.26  P(R) 0.23   24.6s
+gen  294  best   672.50  mean   170.92  champion   750.00  cma_sigma 0.3972  n_fresh 6  score_w 1.00  life    978  score    17092  contacts 1.26  drained 0.80  P(L) 0.23  P(R) 0.41   27.9s
+gen  295  best  1505.00  mean   243.49  champion  1248.75  cma_sigma 0.3902  n_fresh 6  score_w 1.00  life    614  score    24349  contacts 1.08  drained 0.96  P(L) 0.43  P(R) 0.24   23.0s
+gen  296  best  1032.50  mean   441.94  champion  1248.75  cma_sigma 0.3801  n_fresh 6  score_w 1.00  life   1005  score    44194  contacts 1.13  drained 0.82  P(L) 0.32  P(R) 0.32   27.3s
+gen  297  best  2111.25  mean   313.95  champion  1083.75  cma_sigma 0.3702  n_fresh 6  score_w 1.00  life    988  score    31395  contacts 2.00  drained 0.83  P(L) 0.26  P(R) 0.53   33.2s
+gen  298  best   721.25  mean   395.00  champion  1083.75  cma_sigma 0.3564  n_fresh 6  score_w 1.00  life    484  score    39500  contacts 0.18  drained 1.00  P(L) 0.27  P(R) 0.44   12.3s
+gen  299  best   958.75  mean   294.93  champion  1083.75  cma_sigma 0.3484  n_fresh 6  score_w 1.00  life   2017  score    29493  contacts 2.09  drained 0.42  P(L) 0.22  P(R) 0.56   52.4s
+gen  300  best  1062.50  mean   337.30  champion  1083.75  cma_sigma 0.3373  n_fresh 6  score_w 1.00  life   1266  score    33730  contacts 1.59  drained 0.76  P(L) 0.33  P(R) 0.47   30.8s
+  saved checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt (+ agents/experiments/life_objective_2026-09-26/life_validation.pt.cma.pkl)
+training complete, final checkpoint: agents/experiments/life_objective_2026-09-26/life_validation.pt

@@ -1,0 +1,243 @@
+[1/120] seed 20007 steps 281 events 3 rows 3  total rows 3  16s
+[2/120] seed 20003 steps 381 events 4 rows 4  total rows 7  28s
+[3/120] seed 20005 steps 457 events 6 rows 6  total rows 13  58s
+[4/120] seed 20004 steps 352 events 11 rows 11  total rows 24  81s
+[5/120] seed 20012 steps 574 events 8 rows 8  total rows 32  110s
+[6/120] seed 20002 steps 798 events 7 rows 7  total rows 39  121s
+[7/120] seed 20010 steps 799 events 8 rows 8  total rows 47  124s
+[8/120] seed 20006 steps 2692 events 28 rows 12  total rows 59  223s
+[9/120] seed 20000 steps 1195 events 14 rows 11  total rows 70  224s
+[10/120] seed 20011 steps 1132 events 10 rows 8  total rows 78  235s
+[11/120] seed 20001 steps 1632 events 18 rows 12  total rows 90  244s
+[12/120] seed 20017 steps 713 events 8 rows 6  total rows 96  252s
+[13/120] seed 20019 steps 370 events 5 rows 5  total rows 101  258s
+[14/120] seed 20014 steps 795 events 11 rows 11  total rows 112  264s
+[15/120] seed 20021 steps 562 events 4 rows 4  total rows 116  279s
+[16/120] seed 20009 steps 3000 events 26 rows 12  total rows 128  305s
+[17/120] seed 20026 steps 344 events 3 rows 3  total rows 131  305s
+[18/120] seed 20022 steps 666 events 5 rows 5  total rows 136  314s
+[19/120] seed 20008 steps 2930 events 25 rows 10  total rows 146  381s
+[20/120] seed 20015 steps 1397 events 10 rows 10  total rows 156  385s
+[21/120] seed 20023 steps 867 events 8 rows 8  total rows 164  396s
+[22/120] seed 20031 steps 350 events 7 rows 7  total rows 171  434s
+[23/120] seed 20030 steps 667 events 5 rows 5  total rows 176  449s
+[24/120] seed 20018 steps 2608 events 22 rows 12  total rows 188  468s
+[25/120] seed 20013 steps 2195 events 23 rows 11  total rows 199  471s
+[26/120] seed 20016 steps 2522 events 23 rows 11  total rows 210  495s
+[27/120] seed 20020 steps 1283 events 14 rows 11  total rows 221  499s
+[28/120] seed 20024 steps 1163 events 10 rows 10  total rows 231  504s
+[29/120] seed 20028 steps 1235 events 11 rows 11  total rows 242  523s
+[30/120] seed 20027 steps 1033 events 12 rows 11  total rows 253  536s
+[31/120] seed 20029 steps 1029 events 11 rows 10  total rows 263  549s
+[32/120] seed 20041 steps 289 events 4 rows 4  total rows 267  554s
+[33/120] seed 20025 steps 3000 events 27 rows 11  total rows 278  556s
+[34/120] seed 20040 steps 498 events 8 rows 8  total rows 286  593s
+[35/120] seed 20044 steps 585 events 9 rows 9  total rows 295  653s
+[36/120] seed 20045 steps 492 events 7 rows 7  total rows 302  657s
+[37/120] seed 20039 steps 961 events 11 rows 11  total rows 313  698s
+[38/120] seed 20033 steps 1705 events 14 rows 11  total rows 324  717s
+[39/120] seed 20034 steps 1586 events 15 rows 11  total rows 335  718s
+[40/120] seed 20036 steps 3000 events 22 rows 10  total rows 345  732s
+[41/120] seed 20049 steps 351 events 4 rows 4  total rows 349  747s
+[42/120] seed 20048 steps 329 events 9 rows 9  total rows 358  753s
+[43/120] seed 20035 steps 1906 events 18 rows 12  total rows 370  765s
+[44/120] seed 20047 steps 864 events 8 rows 7  total rows 377  776s
+[45/120] seed 20050 steps 492 events 7 rows 7  total rows 384  785s
+[46/120] seed 20042 steps 3000 events 22 rows 11  total rows 395  810s
+[47/120] seed 20051 steps 528 events 7 rows 7  total rows 402  812s
+[48/120] seed 20037 steps 2174 events 17 rows 12  total rows 414  824s
+[49/120] seed 20055 steps 400 events 8 rows 8  total rows 422  835s
+[50/120] seed 20056 steps 492 events 6 rows 6  total rows 428  839s
+[51/120] seed 20060 steps 370 events 5 rows 5  total rows 433  867s
+[52/120] seed 20038 steps 3000 events 17 rows 10  total rows 443  869s
+[53/120] seed 20032 steps 3000 events 15 rows 11  total rows 454  880s
+[54/120] seed 20043 steps 2870 events 31 rows 12  total rows 466  887s
+[55/120] seed 20063 steps 381 events 4 rows 4  total rows 470  896s
+[56/120] seed 20053 steps 891 events 10 rows 10  total rows 480  898s
+[57/120] seed 20065 steps 290 events 3 rows 3  total rows 483  906s
+[58/120] seed 20066 steps 372 events 3 rows 3  total rows 486  945s
+[59/120] seed 20054 steps 831 events 11 rows 11  total rows 497  956s
+[60/120] seed 20070 steps 381 events 5 rows 5  total rows 502  994s
+[61/120] seed 20068 steps 578 events 6 rows 6  total rows 508  1002s
+[62/120] seed 20046 steps 2426 events 25 rows 11  total rows 519  1010s
+[63/120] seed 20058 steps 942 events 10 rows 10  total rows 529  1014s
+[64/120] seed 20061 steps 771 events 10 rows 9  total rows 538  1030s
+[65/120] seed 20072 steps 356 events 7 rows 7  total rows 545  1051s
+[66/120] seed 20075 steps 359 events 6 rows 6  total rows 551  1074s
+[67/120] seed 20064 steps 788 events 10 rows 10  total rows 561  1075s
+[68/120] seed 20067 steps 631 events 12 rows 12  total rows 573  1089s
+[69/120] seed 20052 steps 2886 events 23 rows 11  total rows 584  1114s
+[70/120] seed 20057 steps 1235 events 13 rows 12  total rows 596  1117s
+[71/120] seed 20062 steps 1083 events 13 rows 11  total rows 607  1119s
+[72/120] seed 20069 steps 899 events 10 rows 10  total rows 617  1136s
+[73/120] seed 20074 steps 675 events 10 rows 10  total rows 627  1160s
+[74/120] seed 20083 steps 481 events 5 rows 5  total rows 632  1190s
+[75/120] seed 20084 steps 641 events 8 rows 7  total rows 639  1264s
+[76/120] seed 20073 steps 2504 events 26 rows 12  total rows 651  1270s
+[77/120] seed 20059 steps 3000 events 20 rows 10  total rows 661  1282s
+[78/120] seed 20080 steps 1220 events 9 rows 8  total rows 669  1308s
+[79/120] seed 20079 steps 962 events 12 rows 11  total rows 680  1316s
+[80/120] seed 20088 steps 473 events 5 rows 5  total rows 685  1326s
+[81/120] seed 20081 steps 1013 events 10 rows 10  total rows 695  1326s
+[82/120] seed 20082 steps 1131 events 17 rows 12  total rows 707  1336s
+[83/120] seed 20071 steps 1770 events 18 rows 10  total rows 717  1352s
+[84/120] seed 20093 steps 365 events 3 rows 3  total rows 720  1352s
+[85/120] seed 20077 steps 1315 events 13 rows 12  total rows 732  1366s
+[86/120] seed 20078 steps 3000 events 23 rows 11  total rows 743  1371s
+[87/120] seed 20085 steps 849 events 13 rows 12  total rows 755  1397s
+[88/120] seed 20091 steps 657 events 7 rows 7  total rows 762  1400s
+[89/120] seed 20089 steps 815 events 9 rows 9  total rows 771  1424s
+[90/120] seed 20090 steps 772 events 10 rows 10  total rows 781  1443s
+[91/120] seed 20076 steps 3000 events 19 rows 10  total rows 791  1446s
+[92/120] seed 20092 steps 1086 events 10 rows 9  total rows 800  1507s
+[93/120] seed 20086 steps 1403 events 14 rows 11  total rows 811  1520s
+[94/120] seed 20094 steps 1021 events 10 rows 7  total rows 818  1533s
+[95/120] seed 20087 steps 1420 events 15 rows 12  total rows 830  1536s
+[96/120] seed 20103 steps 444 events 6 rows 6  total rows 836  1549s
+[97/120] seed 20098 steps 718 events 13 rows 12  total rows 848  1555s
+[98/120] seed 20101 steps 891 events 8 rows 7  total rows 855  1571s
+[99/120] seed 20097 steps 3000 events 32 rows 12  total rows 867  1578s
+[100/120] seed 20095 steps 1948 events 17 rows 11  total rows 878  1619s
+[101/120] seed 20100 steps 3000 events 27 rows 9  total rows 887  1627s
+[102/120] seed 20110 steps 600 events 5 rows 5  total rows 892  1628s
+[103/120] seed 20112 steps 382 events 8 rows 8  total rows 900  1686s
+[104/120] seed 20099 steps 2354 events 19 rows 11  total rows 911  1697s
+[105/120] seed 20102 steps 1804 events 14 rows 9  total rows 920  1732s
+[106/120] seed 20104 steps 1215 events 11 rows 11  total rows 931  1738s
+[107/120] seed 20114 steps 458 events 8 rows 8  total rows 939  1746s
+[108/120] seed 20108 steps 943 events 16 rows 10  total rows 949  1751s
+[109/120] seed 20096 steps 2740 events 15 rows 10  total rows 959  1763s
+[110/120] seed 20105 steps 1182 events 12 rows 12  total rows 971  1763s
+[111/120] seed 20116 steps 679 events 6 rows 5  total rows 976  1794s
+[112/120] seed 20107 steps 3000 events 20 rows 11  total rows 987  1796s
+[113/120] seed 20113 steps 743 events 13 rows 12  total rows 999  1798s
+[114/120] seed 20106 steps 1729 events 17 rows 10  total rows 1009  1813s
+[115/120] seed 20109 steps 3000 events 16 rows 12  total rows 1021  1833s
+[116/120] seed 20111 steps 1691 events 15 rows 12  total rows 1033  1855s
+[117/120] seed 20117 steps 894 events 16 rows 11  total rows 1044  1858s
+[118/120] seed 20118 steps 1081 events 15 rows 11  total rows 1055  1871s
+[119/120] seed 20115 steps 1341 events 12 rows 9  total rows 1064  1873s
+[120/120] seed 20119 steps 1285 events 15 rows 11  total rows 1075  1888s
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x1019c3c90>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 440, in close
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x102adc5d0>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x127ac5110>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 440, in close
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x100b76a50>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 440, in close
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x100dc0810>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 440, in close
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x102f08890>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 440, in close
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x101b07590>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 440, in close
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 440, in close
+    self._proc.wait(timeout=5.0)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    def _shutdown():
+    
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/timing_oracle.py", line 51, in <lambda>
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/timing_oracle.py", line 51, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/timing_oracle.py", line 51, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    self._proc.wait(timeout=5.0)
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x100e168d0>>
+Traceback (most recent call last):
+    def _shutdown():
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 440, in close
+    
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/timing_oracle.py", line 51, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    self._proc.wait(timeout=5.0)
+    time.sleep(delay)
+                                             ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+SystemExit: 0
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/timing_oracle.py", line 51, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/timing_oracle.py", line 51, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/timing_oracle.py", line 51, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/timing_oracle.py", line 51, in <lambda>
+    self._proc.wait(timeout=5.0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/timing_oracle.py", line 51, in <lambda>
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/timing_oracle.py", line 51, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+saved 1075 rows to /Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/timing_oracle.npz

@@ -1,0 +1,47 @@
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+    return self.env.close()
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 440, in close
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 440, in close
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/encoding/confirm.py", line 55, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/encoding/confirm.py", line 55, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+confirmation lives 5000..5095 (96 lives, paired), max_steps 3000, 555s
+policy          log1p    se fit@pc   median     mean  steps  press  cont drain% trunc%
+popcode_seed    11.30  0.08  11.29    82250   106776   1149   10.9   6.1     96      4
+gen280          11.06  0.09  10.38    68125    88130   1193  780.6   7.4     92      6
+reflex_y11.5    11.30  0.08  11.28    72500   112047   1173   12.1   6.7     92      8
+never_press      9.76  0.08   9.76    20250    23078    476    0.0   0.0    100      0
+paired differences (same seeds): mean +- se, t, Wilcoxon p (normal approx), wins/losses
+  popcode_seed - gen280 [log1p]                +0.235 +- 0.111  t +2.10  p 0.0784  50/38
+  popcode_seed - gen280 [with_press_cost]      +0.912 +- 0.093  t +9.82  p 3.2e-14  86/10
+  popcode_seed - reflex_y11.5 [log1p]          +0.002 +- 0.081  t +0.02  p 0.919  34/31
+  popcode_seed - reflex_y11.5 [with_press_cost] +0.003 +- 0.081  t +0.03  p 0.428  60/36
+  popcode_seed - never_press [log1p]           +1.535 +- 0.106  t +14.48  p 9.2e-16  85/1
+  popcode_seed - never_press [with_press_cost] +1.526 +- 0.106  t +14.43  p 1.52e-16  85/11
+  reflex_y11.5 - gen280 [log1p]                +0.233 +- 0.112  t +2.08  p 0.0755  49/38
+  reflex_y11.5 - gen280 [with_press_cost]      +0.909 +- 0.098  t +9.30  p 2.85e-13  83/13

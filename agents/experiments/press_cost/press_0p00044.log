@@ -1,0 +1,1002 @@
+decoder parameter count (CEM search dimension): 667
+resumed from agents/experiments/big_circuit_v2/start_gen280_centered.pt at generation 1 (champion_fitness=-1000000000000000000.00, curriculum_start_gen=1)
+/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/cma/s.py:17: UserWarning: Could not import matplotlib.pyplot, therefore ``cma.plot()`` etc. is not available
+  _warnings.warn('Could not import matplotlib.pyplot, therefore'
+no agents/experiments/press_cost/press_0p00044.pt.cma.pkl found - starting CMA-ES fresh from the resumed mean (covariance/step-size history is lost, but the search center is not)
+  validation: challenger 10.450 vs champion 10.558 (diff -0.109, SE 0.170)
+gen    1  best    10.99  mean    10.63  champion    10.56  cma_sigma 0.2020  n_fresh 0  score_w 1.00  life    841  score    68828  contacts 3.63  drained 0.90  P(L) 0.21  P(R) 0.28  presses 405   81.9s
+  validation: challenger 10.456 vs champion 10.405 (diff +0.052, SE 0.128)
+gen    2  best    11.10  mean    10.50  champion    10.40  cma_sigma 0.2059  n_fresh 0  score_w 1.00  life   1004  score    68191  contacts 4.70  drained 0.92  P(L) 0.35  P(R) 0.38  presses 500   84.0s
+  validation: challenger 10.460 vs champion 10.777 (diff -0.317, SE 0.180)
+gen    3  best    10.67  mean    10.16  champion    10.78  cma_sigma 0.2114  n_fresh 0  score_w 1.00  life    846  score    56898  contacts 4.52  drained 1.00  P(L) 0.33  P(R) 0.35  presses 484   89.4s
+  validation: challenger 10.845 vs champion 10.714 (diff +0.131, SE 0.183)
+gen    4  best    11.10  mean    10.77  champion    10.71  cma_sigma 0.2136  n_fresh 0  score_w 1.00  life   1103  score    82920  contacts 5.91  drained 0.96  P(L) 0.31  P(R) 0.40  presses 632  113.0s
+gen    5  best    10.67  mean    10.20  champion    10.71  cma_sigma 0.2187  n_fresh 0  score_w 1.00  life    861  score    53328  contacts 4.76  drained 0.96  P(L) 0.28  P(R) 0.29  presses 488   56.9s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.810 vs champion 10.794 (diff +0.015, SE 0.136)
+gen    6  best    10.89  mean    10.33  champion    10.79  cma_sigma 0.2198  n_fresh 0  score_w 1.00  life    868  score    56520  contacts 4.88  drained 0.98  P(L) 0.33  P(R) 0.36  presses 477   88.3s
+  validation: challenger 10.689 vs champion 10.589 (diff +0.099, SE 0.181)
+gen    7  best    11.16  mean    10.60  champion    10.59  cma_sigma 0.2180  n_fresh 0  score_w 1.00  life   1230  score    70744  contacts 5.02  drained 0.87  P(L) 0.36  P(R) 0.37  presses 528  127.3s
+  validation: challenger 10.770 vs champion 10.672 (diff +0.098, SE 0.183)
+gen    8  best    11.15  mean    10.13  champion    10.67  cma_sigma 0.2136  n_fresh 0  score_w 1.00  life    987  score    51227  contacts 5.19  drained 0.95  P(L) 0.36  P(R) 0.38  presses 484  117.4s
+  validation: challenger 10.739 vs champion 10.708 (diff +0.031, SE 0.144)
+gen    9  best    11.12  mean    10.43  champion    10.71  cma_sigma 0.2127  n_fresh 0  score_w 1.00  life    920  score    67857  contacts 4.80  drained 0.97  P(L) 0.30  P(R) 0.46  presses 517   87.1s
+  validation: challenger 10.840 vs champion 10.487 (diff +0.353, SE 0.150) -> PROMOTED
+gen   10  best    11.26  mean    10.74  champion    10.84  cma_sigma 0.2093  n_fresh 0  score_w 1.00  life   1221  score    88680  contacts 7.27  drained 0.92  P(L) 0.41  P(R) 0.55  presses 740  109.8s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.647 vs champion 10.938 (diff -0.290, SE 0.145)
+gen   11  best    10.95  mean    10.43  champion    10.94  cma_sigma 0.2102  n_fresh 0  score_w 1.00  life   1059  score    61416  contacts 4.37  drained 0.90  P(L) 0.42  P(R) 0.47  presses 540  100.1s
+gen   12  best    10.56  mean    10.01  champion    10.94  cma_sigma 0.2096  n_fresh 0  score_w 1.00  life    929  score    44082  contacts 4.71  drained 0.93  P(L) 0.52  P(R) 0.50  presses 456   71.6s
+gen   13  best    10.88  mean    10.43  champion    10.94  cma_sigma 0.2131  n_fresh 0  score_w 1.00  life    986  score    57180  contacts 3.52  drained 0.94  P(L) 0.36  P(R) 0.52  presses 504   61.5s
+gen   14  best    10.81  mean    10.47  champion    10.94  cma_sigma 0.2180  n_fresh 0  score_w 1.00  life    945  score    53771  contacts 3.66  drained 0.94  P(L) 0.42  P(R) 0.56  presses 446   58.2s
+  validation: challenger 10.645 vs champion 10.502 (diff +0.143, SE 0.117)
+gen   15  best    11.31  mean    10.07  champion    10.50  cma_sigma 0.2203  n_fresh 0  score_w 1.00  life    934  score    50807  contacts 4.16  drained 0.92  P(L) 0.30  P(R) 0.43  presses 383   98.0s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.744 vs champion 10.821 (diff -0.077, SE 0.152)
+gen   16  best    10.74  mean    10.20  champion    10.82  cma_sigma 0.2232  n_fresh 0  score_w 1.00  life    915  score    59602  contacts 4.67  drained 0.95  P(L) 0.31  P(R) 0.49  presses 483  144.9s
+  validation: challenger 10.752 vs champion 10.675 (diff +0.077, SE 0.130)
+gen   17  best    10.95  mean    10.17  champion    10.67  cma_sigma 0.2274  n_fresh 0  score_w 1.00  life    776  score    46443  contacts 3.12  drained 0.97  P(L) 0.23  P(R) 0.27  presses 307  106.0s
+  validation: challenger 10.758 vs champion 10.705 (diff +0.053, SE 0.146)
+gen   18  best    11.36  mean    10.74  champion    10.70  cma_sigma 0.2334  n_fresh 0  score_w 1.00  life   1253  score    83363  contacts 3.98  drained 0.91  P(L) 0.32  P(R) 0.45  presses 557  127.0s
+  validation: challenger 10.848 vs champion 11.006 (diff -0.158, SE 0.173)
+gen   19  best    11.33  mean    10.12  champion    11.01  cma_sigma 0.2339  n_fresh 0  score_w 1.00  life    961  score    56275  contacts 4.34  drained 0.94  P(L) 0.27  P(R) 0.30  presses 460  113.8s
+gen   20  best    10.77  mean    10.19  champion    11.01  cma_sigma 0.2361  n_fresh 0  score_w 1.00  life    754  score    55824  contacts 3.27  drained 0.98  P(L) 0.24  P(R) 0.38  presses 368   52.2s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.624 vs champion 10.636 (diff -0.012, SE 0.085)
+gen   21  best    11.08  mean    10.45  champion    10.64  cma_sigma 0.2347  n_fresh 0  score_w 1.00  life   1155  score    63531  contacts 3.95  drained 0.84  P(L) 0.39  P(R) 0.52  presses 479  130.7s
+  validation: challenger 10.936 vs champion 10.867 (diff +0.069, SE 0.050)
+gen   22  best    11.00  mean    10.36  champion    10.87  cma_sigma 0.2314  n_fresh 0  score_w 1.00  life    812  score    59744  contacts 3.55  drained 0.99  P(L) 0.21  P(R) 0.28  presses 378  114.5s
+  validation: challenger 10.441 vs champion 10.638 (diff -0.197, SE 0.196)
+gen   23  best    11.12  mean    10.38  champion    10.64  cma_sigma 0.2310  n_fresh 0  score_w 1.00  life   1085  score    77875  contacts 5.19  drained 0.91  P(L) 0.35  P(R) 0.43  presses 577  114.2s
+  validation: challenger 10.786 vs champion 10.770 (diff +0.016, SE 0.050)
+gen   24  best    10.90  mean    10.33  champion    10.77  cma_sigma 0.2273  n_fresh 0  score_w 1.00  life   1318  score    64283  contacts 5.99  drained 0.85  P(L) 0.47  P(R) 0.56  presses 643  143.5s
+  validation: challenger 10.624 vs champion 10.718 (diff -0.094, SE 0.088)
+gen   25  best    10.96  mean    10.17  champion    10.72  cma_sigma 0.2214  n_fresh 0  score_w 1.00  life    956  score    59027  contacts 3.94  drained 0.91  P(L) 0.32  P(R) 0.31  presses 434  103.2s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.904 vs champion 10.729 (diff +0.175, SE 0.151)
+gen   26  best    10.78  mean    10.42  champion    10.73  cma_sigma 0.2149  n_fresh 0  score_w 1.00  life   1011  score    68686  contacts 5.12  drained 0.96  P(L) 0.42  P(R) 0.45  presses 588  160.7s
+  validation: challenger 10.629 vs champion 10.720 (diff -0.091, SE 0.126)
+gen   27  best    11.12  mean    10.35  champion    10.72  cma_sigma 0.2132  n_fresh 0  score_w 1.00  life   1083  score    65232  contacts 4.80  drained 0.87  P(L) 0.30  P(R) 0.46  presses 473  116.8s
+  validation: challenger 10.847 vs champion 10.956 (diff -0.108, SE 0.165)
+gen   28  best    11.24  mean    10.45  champion    10.96  cma_sigma 0.2093  n_fresh 0  score_w 1.00  life   1092  score    70123  contacts 6.22  drained 0.93  P(L) 0.43  P(R) 0.39  presses 577  141.4s
+gen   29  best    10.31  mean     9.62  champion    10.96  cma_sigma 0.2046  n_fresh 0  score_w 1.00  life    716  score    39297  contacts 2.35  drained 0.95  P(L) 0.28  P(R) 0.14  presses 248   43.8s
+  validation: challenger 10.922 vs champion 10.717 (diff +0.206, SE 0.125)
+gen   30  best    11.13  mean    10.45  champion    10.72  cma_sigma 0.2003  n_fresh 0  score_w 1.00  life   1010  score    70615  contacts 5.06  drained 0.93  P(L) 0.30  P(R) 0.23  presses 507  174.1s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.741 vs champion 10.801 (diff -0.059, SE 0.153)
+gen   31  best    11.08  mean    10.47  champion    10.80  cma_sigma 0.1984  n_fresh 0  score_w 1.00  life   1027  score    71979  contacts 5.58  drained 0.95  P(L) 0.29  P(R) 0.21  presses 537  135.6s
+gen   32  best    10.68  mean    10.28  champion    10.80  cma_sigma 0.1987  n_fresh 0  score_w 1.00  life    934  score    62020  contacts 3.20  drained 0.92  P(L) 0.44  P(R) 0.22  presses 415   72.3s
+  validation: challenger 10.941 vs champion 11.004 (diff -0.063, SE 0.128)
+gen   33  best    10.88  mean    10.39  champion    11.00  cma_sigma 0.2000  n_fresh 0  score_w 1.00  life   1025  score    58516  contacts 4.88  drained 0.93  P(L) 0.32  P(R) 0.27  presses 542  174.3s
+  validation: challenger 10.885 vs champion 10.670 (diff +0.215, SE 0.118)
+gen   34  best    11.34  mean    10.50  champion    10.67  cma_sigma 0.2025  n_fresh 0  score_w 1.00  life   1071  score    75391  contacts 6.23  drained 0.95  P(L) 0.47  P(R) 0.37  presses 583  116.9s
+  validation: challenger 10.959 vs champion 10.574 (diff +0.385, SE 0.167) -> PROMOTED
+gen   35  best    10.88  mean    10.42  champion    10.96  cma_sigma 0.2009  n_fresh 0  score_w 1.00  life    948  score    52551  contacts 2.91  drained 0.90  P(L) 0.26  P(R) 0.37  presses 383  105.6s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+gen   36  best    10.85  mean    10.13  champion    10.96  cma_sigma 0.2020  n_fresh 0  score_w 1.00  life    800  score    47178  contacts 2.58  drained 0.95  P(L) 0.30  P(R) 0.24  presses 335   49.4s
+  validation: challenger 11.029 vs champion 11.144 (diff -0.115, SE 0.120)
+gen   37  best    11.45  mean    10.51  champion    11.14  cma_sigma 0.2003  n_fresh 0  score_w 1.00  life   1024  score    72508  contacts 5.35  drained 0.94  P(L) 0.35  P(R) 0.24  presses 548  137.7s
+  validation: challenger 10.582 vs champion 10.603 (diff -0.021, SE 0.093)
+gen   38  best    11.35  mean    10.63  champion    10.60  cma_sigma 0.2010  n_fresh 0  score_w 1.00  life   1121  score    85379  contacts 5.38  drained 0.89  P(L) 0.33  P(R) 0.34  presses 572  120.6s
+  validation: challenger 10.337 vs champion 10.777 (diff -0.440, SE 0.159)
+gen   39  best    10.63  mean    10.13  champion    10.78  cma_sigma 0.1999  n_fresh 0  score_w 1.00  life   1032  score    50229  contacts 3.88  drained 0.89  P(L) 0.35  P(R) 0.30  presses 467  108.6s
+  validation: challenger 10.035 vs champion 10.612 (diff -0.577, SE 0.167)
+gen   40  best    10.98  mean    10.61  champion    10.61  cma_sigma 0.2022  n_fresh 0  score_w 1.00  life    888  score    69096  contacts 3.20  drained 0.94  P(L) 0.43  P(R) 0.56  presses 452   98.4s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.985 vs champion 10.786 (diff +0.198, SE 0.107)
+gen   41  best    10.89  mean    10.12  champion    10.79  cma_sigma 0.2049  n_fresh 0  score_w 1.00  life    889  score    44541  contacts 3.58  drained 0.92  P(L) 0.42  P(R) 0.48  presses 398  125.5s
+  validation: challenger 10.692 vs champion 10.692 (diff +0.000, SE 0.117)
+gen   42  best    10.85  mean    10.46  champion    10.69  cma_sigma 0.2036  n_fresh 0  score_w 1.00  life    901  score    55246  contacts 3.75  drained 0.95  P(L) 0.26  P(R) 0.52  presses 399   91.9s
+  validation: challenger 10.668 vs champion 10.765 (diff -0.097, SE 0.118)
+gen   43  best    11.25  mean    10.75  champion    10.77  cma_sigma 0.1984  n_fresh 0  score_w 1.00  life   1136  score    86373  contacts 5.31  drained 0.90  P(L) 0.39  P(R) 0.39  presses 548  155.9s
+  validation: challenger 10.607 vs champion 10.571 (diff +0.036, SE 0.171)
+gen   44  best    10.90  mean    10.36  champion    10.57  cma_sigma 0.1938  n_fresh 0  score_w 1.00  life   1122  score    56338  contacts 5.75  drained 0.90  P(L) 0.48  P(R) 0.55  presses 562  101.2s
+gen   45  best    10.54  mean    10.12  champion    10.57  cma_sigma 0.1928  n_fresh 0  score_w 1.00  life    798  score    45896  contacts 3.38  drained 0.95  P(L) 0.40  P(R) 0.45  presses 402   46.7s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.745 vs champion 10.801 (diff -0.056, SE 0.207)
+gen   46  best    10.80  mean    10.32  champion    10.80  cma_sigma 0.1888  n_fresh 0  score_w 1.00  life   1174  score    57312  contacts 5.05  drained 0.85  P(L) 0.47  P(R) 0.44  presses 518  119.2s
+  validation: challenger 10.636 vs champion 10.682 (diff -0.046, SE 0.137)
+gen   47  best    11.17  mean    10.35  champion    10.68  cma_sigma 0.1832  n_fresh 0  score_w 1.00  life    990  score    61086  contacts 4.55  drained 0.95  P(L) 0.31  P(R) 0.41  presses 470   95.5s
+  validation: challenger 10.547 vs champion 10.924 (diff -0.377, SE 0.119)
+gen   48  best    10.89  mean    10.48  champion    10.92  cma_sigma 0.1811  n_fresh 0  score_w 1.00  life   1127  score    68812  contacts 5.43  drained 0.90  P(L) 0.40  P(R) 0.43  presses 580  102.3s
+  validation: challenger 10.459 vs champion 10.742 (diff -0.283, SE 0.147)
+gen   49  best    10.99  mean    10.27  champion    10.74  cma_sigma 0.1772  n_fresh 0  score_w 1.00  life    949  score    62381  contacts 5.49  drained 0.95  P(L) 0.42  P(R) 0.33  presses 558   91.3s
+  validation: challenger 11.042 vs champion 10.973 (diff +0.069, SE 0.124)
+gen   50  best    11.24  mean    10.50  champion    10.97  cma_sigma 0.1715  n_fresh 0  score_w 1.00  life   1299  score    72689  contacts 6.46  drained 0.88  P(L) 0.41  P(R) 0.51  presses 643  132.6s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+gen   51  best    10.75  mean    10.31  champion    10.97  cma_sigma 0.1696  n_fresh 0  score_w 1.00  life    858  score    51133  contacts 3.98  drained 0.96  P(L) 0.27  P(R) 0.51  presses 400   48.6s
+gen   52  best    10.96  mean    10.11  champion    10.97  cma_sigma 0.1654  n_fresh 0  score_w 1.00  life    979  score    51154  contacts 5.02  drained 0.91  P(L) 0.39  P(R) 0.36  presses 465   55.8s
+gen   53  best    10.94  mean    10.51  champion    10.97  cma_sigma 0.1617  n_fresh 0  score_w 1.00  life   1129  score    65314  contacts 5.22  drained 0.91  P(L) 0.49  P(R) 0.62  presses 549   70.2s
+gen   54  best    10.81  mean    10.23  champion    10.97  cma_sigma 0.1606  n_fresh 0  score_w 1.00  life   1078  score    65910  contacts 6.27  drained 0.94  P(L) 0.39  P(R) 0.46  presses 630   68.1s
+  validation: challenger 10.571 vs champion 10.720 (diff -0.149, SE 0.188)
+gen   55  best    11.26  mean    10.59  champion    10.72  cma_sigma 0.1577  n_fresh 0  score_w 1.00  life   1168  score    80861  contacts 5.94  drained 0.93  P(L) 0.34  P(R) 0.42  presses 597  118.8s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.847 vs champion 10.764 (diff +0.083, SE 0.109)
+gen   56  best    11.08  mean    10.34  champion    10.76  cma_sigma 0.1531  n_fresh 0  score_w 1.00  life    794  score    58562  contacts 4.09  drained 1.00  P(L) 0.33  P(R) 0.25  presses 402   91.5s
+  validation: challenger 10.722 vs champion 10.650 (diff +0.072, SE 0.139)
+gen   57  best    10.92  mean    10.43  champion    10.65  cma_sigma 0.1468  n_fresh 0  score_w 1.00  life    971  score    67496  contacts 5.98  drained 0.95  P(L) 0.35  P(R) 0.34  presses 621   93.1s
+  validation: challenger 10.882 vs champion 10.664 (diff +0.218, SE 0.165)
+gen   58  best    11.12  mean    10.60  champion    10.66  cma_sigma 0.1406  n_fresh 0  score_w 1.00  life   1116  score    79625  contacts 7.02  drained 0.98  P(L) 0.39  P(R) 0.35  presses 682   97.6s
+  validation: challenger 10.691 vs champion 10.801 (diff -0.110, SE 0.137)
+gen   59  best    11.18  mean    10.67  champion    10.80  cma_sigma 0.1386  n_fresh 0  score_w 1.00  life   1127  score    88006  contacts 6.79  drained 0.94  P(L) 0.40  P(R) 0.35  presses 699   93.5s
+  validation: challenger 10.490 vs champion 10.716 (diff -0.226, SE 0.164)
+gen   60  best    10.88  mean    10.39  champion    10.72  cma_sigma 0.1353  n_fresh 0  score_w 1.00  life    988  score    62818  contacts 5.87  drained 0.97  P(L) 0.39  P(R) 0.33  presses 620   84.5s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+gen   61  best    10.66  mean    10.23  champion    10.72  cma_sigma 0.1316  n_fresh 0  score_w 1.00  life    965  score    56785  contacts 5.27  drained 0.96  P(L) 0.43  P(R) 0.40  presses 529   51.7s
+  validation: challenger 10.916 vs champion 11.040 (diff -0.124, SE 0.116)
+gen   62  best    11.02  mean    10.36  champion    11.04  cma_sigma 0.1270  n_fresh 0  score_w 1.00  life    921  score    61027  contacts 5.70  drained 0.97  P(L) 0.36  P(R) 0.32  presses 564   89.0s
+  validation: challenger 10.688 vs champion 10.768 (diff -0.080, SE 0.200)
+gen   63  best    11.23  mean    10.63  champion    10.77  cma_sigma 0.1257  n_fresh 0  score_w 1.00  life   1048  score    82270  contacts 6.30  drained 0.96  P(L) 0.40  P(R) 0.38  presses 681   82.2s
+  validation: challenger 10.410 vs champion 10.328 (diff +0.082, SE 0.152)
+gen   64  best    11.09  mean    10.56  champion    10.33  cma_sigma 0.1266  n_fresh 0  score_w 1.00  life   1010  score    82732  contacts 5.45  drained 0.96  P(L) 0.33  P(R) 0.30  presses 623   78.5s
+  validation: challenger 10.751 vs champion 10.780 (diff -0.029, SE 0.160)
+gen   65  best    11.12  mean    10.43  champion    10.78  cma_sigma 0.1258  n_fresh 0  score_w 1.00  life   1031  score    80002  contacts 7.06  drained 0.95  P(L) 0.39  P(R) 0.37  presses 637   87.5s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.690 vs champion 10.795 (diff -0.105, SE 0.116)
+gen   66  best    10.79  mean    10.42  champion    10.80  cma_sigma 0.1242  n_fresh 0  score_w 1.00  life    861  score    62150  contacts 4.62  drained 0.95  P(L) 0.30  P(R) 0.29  presses 514   79.2s
+  validation: challenger 10.767 vs champion 10.696 (diff +0.071, SE 0.110)
+gen   67  best    10.94  mean    10.55  champion    10.70  cma_sigma 0.1222  n_fresh 0  score_w 1.00  life   1048  score    76188  contacts 5.53  drained 0.98  P(L) 0.30  P(R) 0.31  presses 644   83.9s
+gen   68  best    10.67  mean    10.35  champion    10.70  cma_sigma 0.1219  n_fresh 0  score_w 1.00  life    948  score    62332  contacts 5.53  drained 0.98  P(L) 0.29  P(R) 0.29  presses 572   49.6s
+  validation: challenger 10.652 vs champion 10.756 (diff -0.104, SE 0.123)
+gen   69  best    10.90  mean    10.43  champion    10.76  cma_sigma 0.1242  n_fresh 0  score_w 1.00  life    959  score    81010  contacts 5.14  drained 0.94  P(L) 0.25  P(R) 0.26  presses 540   78.7s
+  validation: challenger 10.742 vs champion 10.728 (diff +0.013, SE 0.095)
+gen   70  best    10.86  mean    10.51  champion    10.73  cma_sigma 0.1248  n_fresh 0  score_w 1.00  life    976  score    62322  contacts 5.61  drained 0.97  P(L) 0.27  P(R) 0.37  presses 544   90.4s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.457 vs champion 10.728 (diff -0.271, SE 0.131)
+gen   71  best    11.11  mean    10.58  champion    10.73  cma_sigma 0.1227  n_fresh 0  score_w 1.00  life   1007  score    78520  contacts 4.40  drained 0.96  P(L) 0.26  P(R) 0.34  presses 544   79.2s
+  validation: challenger 10.687 vs champion 10.852 (diff -0.164, SE 0.166)
+gen   72  best    10.94  mean    10.57  champion    10.85  cma_sigma 0.1233  n_fresh 0  score_w 1.00  life   1028  score    85355  contacts 5.53  drained 0.97  P(L) 0.32  P(R) 0.35  presses 651   85.9s
+  validation: challenger 10.511 vs champion 10.710 (diff -0.199, SE 0.122)
+gen   73  best    10.96  mean    10.51  champion    10.71  cma_sigma 0.1244  n_fresh 0  score_w 1.00  life   1249  score    92912  contacts 7.76  drained 0.92  P(L) 0.35  P(R) 0.35  presses 813   92.2s
+  validation: challenger 10.675 vs champion 10.755 (diff -0.080, SE 0.169)
+gen   74  best    10.97  mean    10.59  champion    10.76  cma_sigma 0.1268  n_fresh 0  score_w 1.00  life   1240  score   100504  contacts 8.55  drained 0.92  P(L) 0.39  P(R) 0.37  presses 822   98.7s
+  validation: challenger 10.971 vs champion 10.803 (diff +0.168, SE 0.108)
+gen   75  best    11.24  mean    10.72  champion    10.80  cma_sigma 0.1264  n_fresh 0  score_w 1.00  life    968  score    83564  contacts 4.65  drained 0.95  P(L) 0.32  P(R) 0.20  presses 511   84.7s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.835 vs champion 10.789 (diff +0.047, SE 0.133)
+gen   76  best    11.03  mean    10.64  champion    10.79  cma_sigma 0.1279  n_fresh 0  score_w 1.00  life    993  score    74330  contacts 4.62  drained 0.95  P(L) 0.37  P(R) 0.34  presses 612   83.3s
+  validation: challenger 10.743 vs champion 10.737 (diff +0.006, SE 0.154)
+gen   77  best    11.36  mean    10.86  champion    10.74  cma_sigma 0.1305  n_fresh 0  score_w 1.00  life   1219  score   100914  contacts 7.00  drained 0.97  P(L) 0.31  P(R) 0.34  presses 770   92.4s
+  validation: challenger 10.886 vs champion 10.861 (diff +0.025, SE 0.136)
+gen   78  best    11.23  mean    10.64  champion    10.86  cma_sigma 0.1330  n_fresh 0  score_w 1.00  life   1078  score    89061  contacts 5.53  drained 0.94  P(L) 0.28  P(R) 0.31  presses 606   93.8s
+  validation: challenger 10.759 vs champion 10.817 (diff -0.057, SE 0.139)
+gen   79  best    11.24  mean    10.69  champion    10.82  cma_sigma 0.1374  n_fresh 0  score_w 1.00  life   1147  score    88412  contacts 7.44  drained 0.95  P(L) 0.30  P(R) 0.33  presses 698   86.8s
+  validation: challenger 10.506 vs champion 10.826 (diff -0.320, SE 0.130)
+gen   80  best    11.27  mean    10.58  champion    10.83  cma_sigma 0.1388  n_fresh 0  score_w 1.00  life   1114  score    73025  contacts 7.05  drained 0.93  P(L) 0.31  P(R) 0.35  presses 636   85.2s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.541 vs champion 10.662 (diff -0.120, SE 0.152)
+gen   81  best    10.91  mean    10.25  champion    10.66  cma_sigma 0.1373  n_fresh 0  score_w 1.00  life    953  score    67516  contacts 5.62  drained 0.95  P(L) 0.25  P(R) 0.49  presses 530   90.9s
+  validation: challenger 10.633 vs champion 10.593 (diff +0.040, SE 0.142)
+gen   82  best    11.22  mean    10.69  champion    10.59  cma_sigma 0.1349  n_fresh 0  score_w 1.00  life   1233  score    89000  contacts 5.41  drained 0.90  P(L) 0.28  P(R) 0.56  presses 635   97.9s
+  validation: challenger 10.417 vs champion 10.514 (diff -0.096, SE 0.105)
+gen   83  best    11.07  mean    10.50  champion    10.51  cma_sigma 0.1310  n_fresh 0  score_w 1.00  life   1020  score    71125  contacts 5.01  drained 0.95  P(L) 0.20  P(R) 0.34  presses 530   87.6s
+  validation: challenger 10.706 vs champion 10.748 (diff -0.041, SE 0.092)
+gen   84  best    11.08  mean    10.75  champion    10.75  cma_sigma 0.1303  n_fresh 0  score_w 1.00  life   1007  score    83141  contacts 5.15  drained 0.98  P(L) 0.33  P(R) 0.39  presses 626   83.8s
+  validation: challenger 10.762 vs champion 10.771 (diff -0.009, SE 0.150)
+gen   85  best    11.11  mean    10.79  champion    10.77  cma_sigma 0.1274  n_fresh 0  score_w 1.00  life   1070  score    87150  contacts 5.88  drained 0.95  P(L) 0.33  P(R) 0.34  presses 650   84.9s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.763 vs champion 10.720 (diff +0.043, SE 0.088)
+gen   86  best    11.18  mean    10.51  champion    10.72  cma_sigma 0.1232  n_fresh 0  score_w 1.00  life   1030  score    70332  contacts 5.62  drained 0.96  P(L) 0.27  P(R) 0.37  presses 563   99.2s
+  validation: challenger 10.598 vs champion 10.778 (diff -0.180, SE 0.124)
+gen   87  best    11.41  mean    10.73  champion    10.78  cma_sigma 0.1197  n_fresh 0  score_w 1.00  life   1173  score    91045  contacts 7.63  drained 0.95  P(L) 0.35  P(R) 0.31  presses 724  120.6s
+  validation: challenger 10.978 vs champion 10.860 (diff +0.118, SE 0.177)
+gen   88  best    10.83  mean    10.49  champion    10.86  cma_sigma 0.1182  n_fresh 0  score_w 1.00  life   1110  score    84326  contacts 6.50  drained 0.94  P(L) 0.35  P(R) 0.35  presses 725  133.2s
+  validation: challenger 10.794 vs champion 10.830 (diff -0.036, SE 0.144)
+gen   89  best    11.19  mean    10.80  champion    10.83  cma_sigma 0.1196  n_fresh 0  score_w 1.00  life   1205  score    93654  contacts 7.21  drained 0.94  P(L) 0.38  P(R) 0.45  presses 754  116.7s
+  validation: challenger 10.757 vs champion 10.890 (diff -0.132, SE 0.128)
+gen   90  best    11.01  mean    10.47  champion    10.89  cma_sigma 0.1184  n_fresh 0  score_w 1.00  life    942  score    63484  contacts 5.95  drained 0.98  P(L) 0.32  P(R) 0.33  presses 573   86.2s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+gen   91  best    10.84  mean    10.43  champion    10.89  cma_sigma 0.1161  n_fresh 0  score_w 1.00  life    869  score    66541  contacts 4.38  drained 0.95  P(L) 0.35  P(R) 0.39  presses 502   61.6s
+  validation: challenger 10.584 vs champion 10.503 (diff +0.080, SE 0.110)
+gen   92  best    11.20  mean    10.75  champion    10.50  cma_sigma 0.1129  n_fresh 0  score_w 1.00  life   1218  score    98568  contacts 7.62  drained 0.91  P(L) 0.31  P(R) 0.32  presses 764  111.7s
+  validation: challenger 10.744 vs champion 10.685 (diff +0.059, SE 0.169)
+gen   93  best    11.38  mean    10.79  champion    10.68  cma_sigma 0.1093  n_fresh 0  score_w 1.00  life   1371  score    95512  contacts 8.12  drained 0.91  P(L) 0.38  P(R) 0.41  presses 868  145.0s
+  validation: challenger 10.609 vs champion 10.967 (diff -0.358, SE 0.141)
+gen   94  best    11.05  mean    10.39  champion    10.97  cma_sigma 0.1060  n_fresh 0  score_w 1.00  life    974  score    69662  contacts 5.84  drained 0.96  P(L) 0.32  P(R) 0.34  presses 608  114.1s
+  validation: challenger 10.891 vs champion 10.803 (diff +0.088, SE 0.174)
+gen   95  best    11.29  mean    10.62  champion    10.80  cma_sigma 0.1022  n_fresh 0  score_w 1.00  life   1113  score    76752  contacts 6.91  drained 0.98  P(L) 0.32  P(R) 0.31  presses 688  119.1s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+gen   96  best    10.32  mean    10.11  champion    10.80  cma_sigma 0.1004  n_fresh 0  score_w 1.00  life    867  score    56084  contacts 4.66  drained 0.98  P(L) 0.34  P(R) 0.36  presses 563   46.0s
+  validation: challenger 10.828 vs champion 10.746 (diff +0.083, SE 0.111)
+gen   97  best    10.97  mean    10.47  champion    10.75  cma_sigma 0.0975  n_fresh 0  score_w 1.00  life    979  score    70197  contacts 5.88  drained 0.95  P(L) 0.37  P(R) 0.40  presses 629  101.8s
+gen   98  best    10.53  mean    10.25  champion    10.75  cma_sigma 0.0972  n_fresh 0  score_w 1.00  life    872  score    64453  contacts 4.62  drained 0.98  P(L) 0.37  P(R) 0.39  presses 556   56.7s
+  validation: challenger 10.629 vs champion 10.701 (diff -0.072, SE 0.136)
+gen   99  best    11.22  mean    10.99  champion    10.70  cma_sigma 0.0956  n_fresh 0  score_w 1.00  life    975  score   102527  contacts 4.89  drained 1.00  P(L) 0.37  P(R) 0.35  presses 635   97.6s
+  validation: challenger 10.701 vs champion 10.485 (diff +0.216, SE 0.174)
+gen  100  best    11.14  mean    10.93  champion    10.48  cma_sigma 0.0926  n_fresh 0  score_w 1.00  life   1266  score   105221  contacts 7.76  drained 0.93  P(L) 0.33  P(R) 0.32  presses 823  115.5s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.630 vs champion 10.683 (diff -0.053, SE 0.096)
+gen  101  best    11.05  mean    10.62  champion    10.68  cma_sigma 0.0896  n_fresh 0  score_w 1.00  life    990  score    79973  contacts 5.30  drained 0.97  P(L) 0.27  P(R) 0.30  presses 571  112.2s
+  validation: challenger 10.619 vs champion 10.769 (diff -0.150, SE 0.096)
+gen  102  best    11.32  mean    10.79  champion    10.77  cma_sigma 0.0886  n_fresh 0  score_w 1.00  life   1380  score    99223  contacts 8.24  drained 0.91  P(L) 0.30  P(R) 0.37  presses 847  126.0s
+  validation: challenger 10.515 vs champion 10.508 (diff +0.007, SE 0.090)
+gen  103  best    11.32  mean    10.86  champion    10.51  cma_sigma 0.0886  n_fresh 0  score_w 1.00  life   1250  score   111273  contacts 8.15  drained 0.91  P(L) 0.34  P(R) 0.36  presses 803   89.3s
+  validation: challenger 10.953 vs champion 10.790 (diff +0.163, SE 0.130)
+gen  104  best    11.00  mean    10.58  champion    10.79  cma_sigma 0.0879  n_fresh 0  score_w 1.00  life   1010  score    74920  contacts 5.87  drained 0.95  P(L) 0.28  P(R) 0.37  presses 580   82.7s
+  validation: challenger 10.784 vs champion 10.840 (diff -0.056, SE 0.076)
+gen  105  best    11.26  mean    10.80  champion    10.84  cma_sigma 0.0889  n_fresh 0  score_w 1.00  life   1064  score    89736  contacts 6.70  drained 0.97  P(L) 0.35  P(R) 0.35  presses 670   90.3s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.714 vs champion 10.929 (diff -0.215, SE 0.143)
+gen  106  best    10.98  mean    10.51  champion    10.93  cma_sigma 0.0881  n_fresh 0  score_w 1.00  life   1027  score    71736  contacts 6.32  drained 0.95  P(L) 0.28  P(R) 0.31  presses 609   98.2s
+  validation: challenger 10.836 vs champion 10.911 (diff -0.075, SE 0.105)
+gen  107  best    11.30  mean    10.73  champion    10.91  cma_sigma 0.0882  n_fresh 0  score_w 1.00  life   1141  score    87270  contacts 6.96  drained 0.96  P(L) 0.39  P(R) 0.42  presses 698  122.0s
+  validation: challenger 10.811 vs champion 10.758 (diff +0.054, SE 0.094)
+gen  108  best    11.44  mean    10.57  champion    10.76  cma_sigma 0.0876  n_fresh 0  score_w 1.00  life   1078  score    75217  contacts 6.02  drained 0.95  P(L) 0.25  P(R) 0.22  presses 573  105.7s
+  validation: challenger 10.781 vs champion 10.782 (diff -0.002, SE 0.121)
+gen  109  best    11.13  mean    10.66  champion    10.78  cma_sigma 0.0859  n_fresh 0  score_w 1.00  life    941  score    66225  contacts 4.46  drained 0.98  P(L) 0.27  P(R) 0.38  presses 501   91.8s
+  validation: challenger 10.590 vs champion 10.550 (diff +0.040, SE 0.138)
+gen  110  best    10.92  mean    10.30  champion    10.55  cma_sigma 0.0838  n_fresh 0  score_w 1.00  life    894  score    58582  contacts 4.25  drained 0.98  P(L) 0.23  P(R) 0.39  presses 479   83.3s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.347 vs champion 10.454 (diff -0.107, SE 0.088)
+gen  111  best    11.10  mean    10.75  champion    10.45  cma_sigma 0.0830  n_fresh 0  score_w 1.00  life   1178  score    87803  contacts 6.27  drained 0.94  P(L) 0.29  P(R) 0.37  presses 720   95.2s
+  validation: challenger 10.714 vs champion 10.626 (diff +0.088, SE 0.101)
+gen  112  best    11.04  mean    10.67  champion    10.63  cma_sigma 0.0841  n_fresh 0  score_w 1.00  life   1077  score    80908  contacts 5.73  drained 0.96  P(L) 0.29  P(R) 0.31  presses 649   89.6s
+  validation: challenger 10.601 vs champion 10.728 (diff -0.126, SE 0.144)
+gen  113  best    10.86  mean    10.60  champion    10.73  cma_sigma 0.0839  n_fresh 0  score_w 1.00  life   1052  score    69898  contacts 6.62  drained 0.98  P(L) 0.35  P(R) 0.39  presses 674   92.3s
+  validation: challenger 10.528 vs champion 10.510 (diff +0.018, SE 0.109)
+gen  114  best    10.96  mean    10.50  champion    10.51  cma_sigma 0.0846  n_fresh 0  score_w 1.00  life   1054  score    72514  contacts 5.65  drained 0.96  P(L) 0.32  P(R) 0.31  presses 664   75.3s
+  validation: challenger 10.683 vs champion 10.687 (diff -0.004, SE 0.121)
+gen  115  best    11.04  mean    10.55  champion    10.69  cma_sigma 0.0836  n_fresh 0  score_w 1.00  life    940  score    78059  contacts 5.59  drained 0.94  P(L) 0.30  P(R) 0.27  presses 569  100.7s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.806 vs champion 10.783 (diff +0.023, SE 0.123)
+gen  116  best    11.13  mean    10.74  champion    10.78  cma_sigma 0.0834  n_fresh 0  score_w 1.00  life   1209  score    93658  contacts 7.54  drained 0.88  P(L) 0.33  P(R) 0.31  presses 771  110.9s
+  validation: challenger 10.541 vs champion 10.547 (diff -0.007, SE 0.151)
+gen  117  best    11.15  mean    10.81  champion    10.55  cma_sigma 0.2000  n_fresh 0  score_w 1.00  life   1322  score    98252  contacts 7.47  drained 0.89  P(L) 0.34  P(R) 0.33  presses 872  [IPOP RESTART #1, popsize->32]  143.8s
+  validation: challenger 10.930 vs champion 11.121 (diff -0.191, SE 0.110)
+gen  118  best    11.01  mean    10.32  champion    11.12  cma_sigma 0.2008  n_fresh 0  score_w 1.00  life    811  score    60061  contacts 4.02  drained 0.95  P(L) 0.27  P(R) 0.36  presses 425  153.5s
+  validation: challenger 10.675 vs champion 10.597 (diff +0.078, SE 0.115)
+gen  119  best    11.35  mean    10.42  champion    10.60  cma_sigma 0.2045  n_fresh 0  score_w 1.00  life    980  score    64140  contacts 6.07  drained 0.96  P(L) 0.36  P(R) 0.37  presses 537  127.2s
+  validation: challenger 10.674 vs champion 10.637 (diff +0.037, SE 0.159)
+gen  120  best    10.92  mean    10.29  champion    10.64  cma_sigma 0.2048  n_fresh 0  score_w 1.00  life    920  score    52369  contacts 4.22  drained 0.95  P(L) 0.31  P(R) 0.32  presses 463  114.1s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.647 vs champion 10.798 (diff -0.152, SE 0.118)
+gen  121  best    10.97  mean    10.29  champion    10.80  cma_sigma 0.2022  n_fresh 0  score_w 1.00  life   1089  score    59491  contacts 5.11  drained 0.93  P(L) 0.39  P(R) 0.37  presses 535  131.7s
+gen  122  best    10.79  mean    10.03  champion    10.80  cma_sigma 0.1986  n_fresh 0  score_w 1.00  life    858  score    53306  contacts 4.74  drained 0.97  P(L) 0.31  P(R) 0.28  presses 475   78.2s
+  validation: challenger 11.030 vs champion 10.814 (diff +0.216, SE 0.139)
+gen  123  best    10.93  mean    10.24  champion    10.81  cma_sigma 0.1951  n_fresh 0  score_w 1.00  life    911  score    59334  contacts 4.95  drained 0.95  P(L) 0.33  P(R) 0.36  presses 510  117.2s
+  validation: challenger 10.694 vs champion 10.855 (diff -0.161, SE 0.150)
+gen  124  best    11.24  mean    10.59  champion    10.86  cma_sigma 0.1915  n_fresh 0  score_w 1.00  life   1230  score    78658  contacts 7.58  drained 0.92  P(L) 0.41  P(R) 0.36  presses 689  145.5s
+  validation: challenger 10.840 vs champion 10.834 (diff +0.005, SE 0.115)
+gen  125  best    11.15  mean    10.65  champion    10.83  cma_sigma 0.1869  n_fresh 0  score_w 1.00  life   1004  score    75462  contacts 5.18  drained 0.93  P(L) 0.33  P(R) 0.29  presses 527  129.7s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.823 vs champion 10.769 (diff +0.054, SE 0.143)
+gen  126  best    11.08  mean    10.44  champion    10.77  cma_sigma 0.1845  n_fresh 0  score_w 1.00  life    987  score    67570  contacts 5.96  drained 0.95  P(L) 0.39  P(R) 0.45  presses 564  139.8s
+  validation: challenger 10.745 vs champion 10.837 (diff -0.092, SE 0.154)
+gen  127  best    11.03  mean    10.55  champion    10.84  cma_sigma 0.1804  n_fresh 0  score_w 1.00  life   1083  score    67745  contacts 5.30  drained 0.93  P(L) 0.38  P(R) 0.40  presses 562  153.2s
+  validation: challenger 10.881 vs champion 10.880 (diff +0.001, SE 0.169)
+gen  128  best    10.87  mean    10.44  champion    10.88  cma_sigma 0.1758  n_fresh 0  score_w 1.00  life    964  score    58275  contacts 5.09  drained 0.98  P(L) 0.32  P(R) 0.34  presses 502  126.3s
+  validation: challenger 10.623 vs champion 10.873 (diff -0.250, SE 0.137)
+gen  129  best    11.08  mean    10.27  champion    10.87  cma_sigma 0.1714  n_fresh 0  score_w 1.00  life   1060  score    67547  contacts 5.35  drained 0.93  P(L) 0.37  P(R) 0.38  presses 548  147.1s
+  validation: challenger 10.933 vs champion 10.594 (diff +0.339, SE 0.164) -> PROMOTED
+gen  130  best    10.99  mean    10.35  champion    10.93  cma_sigma 0.1665  n_fresh 0  score_w 1.00  life    931  score    63859  contacts 4.91  drained 0.97  P(L) 0.28  P(R) 0.30  presses 493  132.1s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+gen  131  best    10.75  mean    10.07  champion    10.93  cma_sigma 0.1649  n_fresh 0  score_w 1.00  life   1025  score    56733  contacts 5.91  drained 0.94  P(L) 0.36  P(R) 0.41  presses 593  109.4s
+gen  132  best    10.93  mean    10.40  champion    10.93  cma_sigma 0.1608  n_fresh 0  score_w 1.00  life   1064  score    60808  contacts 6.06  drained 0.95  P(L) 0.36  P(R) 0.48  presses 617  125.1s
+gen  133  best    10.88  mean    10.33  champion    10.93  cma_sigma 0.1588  n_fresh 0  score_w 1.00  life    925  score    73072  contacts 4.52  drained 0.95  P(L) 0.30  P(R) 0.31  presses 517  105.6s
+gen  134  best    10.78  mean    10.20  champion    10.93  cma_sigma 0.1583  n_fresh 0  score_w 1.00  life    973  score    64483  contacts 4.86  drained 0.96  P(L) 0.29  P(R) 0.30  presses 535   92.3s
+  validation: challenger 10.733 vs champion 10.671 (diff +0.063, SE 0.136)
+gen  135  best    10.99  mean    10.59  champion    10.67  cma_sigma 0.1566  n_fresh 0  score_w 1.00  life    830  score    60979  contacts 3.25  drained 0.98  P(L) 0.25  P(R) 0.30  presses 424  112.1s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.851 vs champion 10.794 (diff +0.057, SE 0.122)
+gen  136  best    11.14  mean    10.47  champion    10.79  cma_sigma 0.1569  n_fresh 0  score_w 1.00  life   1089  score    73700  contacts 6.21  drained 0.95  P(L) 0.43  P(R) 0.45  presses 654  143.2s
+  validation: challenger 10.988 vs champion 10.954 (diff +0.034, SE 0.172)
+gen  137  best    11.18  mean    10.32  champion    10.95  cma_sigma 0.1585  n_fresh 0  score_w 1.00  life    944  score    62053  contacts 5.39  drained 0.96  P(L) 0.31  P(R) 0.30  presses 527  135.3s
+  validation: challenger 10.434 vs champion 10.469 (diff -0.034, SE 0.090)
+gen  138  best    11.23  mean    10.69  champion    10.47  cma_sigma 0.1584  n_fresh 0  score_w 1.00  life   1159  score    90781  contacts 6.28  drained 0.93  P(L) 0.37  P(R) 0.38  presses 681  178.2s
+  validation: challenger 10.561 vs champion 10.904 (diff -0.343, SE 0.161)
+gen  139  best    10.74  mean    10.13  champion    10.90  cma_sigma 0.1564  n_fresh 0  score_w 1.00  life    851  score    53812  contacts 4.97  drained 0.96  P(L) 0.39  P(R) 0.39  presses 514  148.7s
+  validation: challenger 10.647 vs champion 10.590 (diff +0.058, SE 0.151)
+gen  140  best    11.00  mean    10.62  champion    10.59  cma_sigma 0.1536  n_fresh 0  score_w 1.00  life   1272  score    81110  contacts 6.91  drained 0.93  P(L) 0.32  P(R) 0.36  presses 752  189.4s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.795 vs champion 11.186 (diff -0.391, SE 0.167)
+gen  141  best    10.66  mean    10.30  champion    11.19  cma_sigma 0.1504  n_fresh 0  score_w 1.00  life    879  score    61688  contacts 4.38  drained 0.96  P(L) 0.37  P(R) 0.36  presses 532  149.4s
+  validation: challenger 10.837 vs champion 10.584 (diff +0.253, SE 0.157)
+gen  142  best    11.24  mean    10.55  champion    10.58  cma_sigma 0.1457  n_fresh 0  score_w 1.00  life   1169  score    82642  contacts 7.21  drained 0.93  P(L) 0.38  P(R) 0.37  presses 718  183.0s
+  validation: challenger 10.936 vs champion 10.853 (diff +0.083, SE 0.132)
+gen  143  best    11.47  mean    10.77  champion    10.85  cma_sigma 0.1438  n_fresh 0  score_w 1.00  life   1082  score    90164  contacts 6.21  drained 0.94  P(L) 0.35  P(R) 0.34  presses 655  175.1s
+  validation: challenger 10.500 vs champion 10.797 (diff -0.296, SE 0.191)
+gen  144  best    11.20  mean    10.55  champion    10.80  cma_sigma 0.1448  n_fresh 0  score_w 1.00  life   1032  score    70271  contacts 5.08  drained 0.94  P(L) 0.22  P(R) 0.30  presses 500  174.4s
+  validation: challenger 10.680 vs champion 10.873 (diff -0.194, SE 0.153)
+gen  145  best    11.50  mean    10.39  champion    10.87  cma_sigma 0.1428  n_fresh 0  score_w 1.00  life   1056  score    73796  contacts 6.25  drained 0.92  P(L) 0.28  P(R) 0.42  presses 596  178.3s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.611 vs champion 10.881 (diff -0.270, SE 0.144)
+gen  146  best    11.37  mean    10.70  champion    10.88  cma_sigma 0.1434  n_fresh 0  score_w 1.00  life   1293  score    91493  contacts 7.02  drained 0.89  P(L) 0.33  P(R) 0.40  presses 744  180.2s
+  validation: challenger 10.791 vs champion 10.937 (diff -0.146, SE 0.143)
+gen  147  best    11.20  mean    10.57  champion    10.94  cma_sigma 0.1447  n_fresh 0  score_w 1.00  life   1197  score    83301  contacts 7.81  drained 0.93  P(L) 0.29  P(R) 0.29  presses 731  220.9s
+  validation: challenger 10.559 vs champion 10.727 (diff -0.168, SE 0.115)
+gen  148  best    11.41  mean    10.81  champion    10.73  cma_sigma 0.1443  n_fresh 0  score_w 1.00  life   1192  score    96525  contacts 6.67  drained 0.90  P(L) 0.33  P(R) 0.38  presses 672  310.4s
+  validation: challenger 10.687 vs champion 10.733 (diff -0.046, SE 0.215)
+gen  149  best    11.23  mean    10.73  champion    10.73  cma_sigma 0.1459  n_fresh 0  score_w 1.00  life   1283  score    92233  contacts 7.81  drained 0.93  P(L) 0.37  P(R) 0.35  presses 784  323.8s
+  validation: challenger 10.883 vs champion 10.871 (diff +0.012, SE 0.114)
+gen  150  best    11.12  mean    10.29  champion    10.87  cma_sigma 0.1460  n_fresh 0  score_w 1.00  life   1085  score    65166  contacts 6.12  drained 0.93  P(L) 0.41  P(R) 0.34  presses 607  398.9s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+gen  151  best    10.87  mean    10.41  champion    10.87  cma_sigma 0.1473  n_fresh 0  score_w 1.00  life    760  score    53458  contacts 3.14  drained 0.98  P(L) 0.28  P(R) 0.28  presses 412  204.1s
+Process SpawnPoolWorker-2:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-3:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-7:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-6:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-1:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-5:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-8:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-4:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+=== resumed Tue Sep 29 19:59:42 CST 2026 ===
+decoder parameter count (CEM search dimension): 667
+resumed from agents/experiments/press_cost/press_0p00044.pt at generation 151 (champion_fitness=10.87, curriculum_start_gen=1)
+/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/cma/s.py:17: UserWarning: Could not import matplotlib.pyplot, therefore ``cma.plot()`` etc. is not available
+  _warnings.warn('Could not import matplotlib.pyplot, therefore'
+resumed CMA-ES internal state from agents/experiments/press_cost/press_0p00044.pt.cma.pkl
+  validation: challenger 10.409 vs champion 10.915 (diff -0.506, SE 0.175)
+gen  151  best    11.01  mean    10.63  champion    10.91  cma_sigma 0.1484  n_fresh 0  score_w 1.00  life    829  score    70612  contacts 3.62  drained 0.93  P(L) 0.28  P(R) 0.28  presses 442   88.4s
+  validation: challenger 10.608 vs champion 10.627 (diff -0.019, SE 0.193)
+gen  152  best    11.34  mean    10.66  champion    10.63  cma_sigma 0.1471  n_fresh 0  score_w 1.00  life   1097  score    77106  contacts 5.55  drained 0.94  P(L) 0.29  P(R) 0.45  presses 564  105.6s
+  validation: challenger 10.772 vs champion 10.619 (diff +0.153, SE 0.154)
+gen  153  best    10.90  mean    10.31  champion    10.62  cma_sigma 0.1486  n_fresh 0  score_w 1.00  life    978  score    73750  contacts 5.50  drained 0.95  P(L) 0.30  P(R) 0.39  presses 569   94.0s
+  validation: challenger 10.572 vs champion 10.579 (diff -0.007, SE 0.159)
+gen  154  best    11.19  mean    10.72  champion    10.58  cma_sigma 0.1476  n_fresh 0  score_w 1.00  life   1146  score    86795  contacts 5.42  drained 0.90  P(L) 0.29  P(R) 0.43  presses 592  111.3s
+  validation: challenger 10.808 vs champion 10.813 (diff -0.004, SE 0.163)
+gen  155  best    11.08  mean    10.39  champion    10.81  cma_sigma 0.1450  n_fresh 0  score_w 1.00  life   1021  score    72619  contacts 6.13  drained 0.94  P(L) 0.33  P(R) 0.43  presses 563  100.8s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.633 vs champion 10.814 (diff -0.181, SE 0.158)
+gen  156  best    10.99  mean    10.33  champion    10.81  cma_sigma 0.1418  n_fresh 0  score_w 1.00  life    849  score    53321  contacts 3.73  drained 0.96  P(L) 0.21  P(R) 0.35  presses 393   90.4s
+  validation: challenger 10.889 vs champion 11.075 (diff -0.186, SE 0.136)
+gen  157  best    11.02  mean    10.43  champion    11.08  cma_sigma 0.1413  n_fresh 0  score_w 1.00  life    968  score    73440  contacts 5.14  drained 0.96  P(L) 0.29  P(R) 0.36  presses 546   97.6s
+  validation: challenger 10.959 vs champion 10.808 (diff +0.151, SE 0.118)
+gen  158  best    11.09  mean    10.25  champion    10.81  cma_sigma 0.1393  n_fresh 0  score_w 1.00  life    837  score    59350  contacts 4.47  drained 0.98  P(L) 0.30  P(R) 0.30  presses 468   88.6s
+  validation: challenger 10.772 vs champion 10.589 (diff +0.182, SE 0.139)
+gen  159  best    11.01  mean    10.54  champion    10.59  cma_sigma 0.1362  n_fresh 0  score_w 1.00  life    978  score    74076  contacts 5.30  drained 0.97  P(L) 0.33  P(R) 0.42  presses 590   96.8s
+  validation: challenger 10.611 vs champion 10.859 (diff -0.248, SE 0.190)
+gen  160  best    11.07  mean    10.47  champion    10.86  cma_sigma 0.1318  n_fresh 0  score_w 1.00  life   1321  score    79614  contacts 7.11  drained 0.86  P(L) 0.29  P(R) 0.44  presses 695  126.5s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.567 vs champion 10.591 (diff -0.024, SE 0.118)
+gen  161  best    11.30  mean    10.66  champion    10.59  cma_sigma 0.1271  n_fresh 0  score_w 1.00  life   1172  score    87029  contacts 6.95  drained 0.94  P(L) 0.27  P(R) 0.36  presses 665  111.8s
+  validation: challenger 10.491 vs champion 10.657 (diff -0.166, SE 0.192)
+gen  162  best    10.81  mean    10.43  champion    10.66  cma_sigma 0.1232  n_fresh 0  score_w 1.00  life   1090  score    87425  contacts 6.47  drained 0.94  P(L) 0.32  P(R) 0.34  presses 680  108.7s
+  validation: challenger 10.888 vs champion 10.849 (diff +0.040, SE 0.123)
+gen  163  best    11.19  mean    10.67  champion    10.85  cma_sigma 0.1213  n_fresh 0  score_w 1.00  life   1128  score    86666  contacts 7.16  drained 0.95  P(L) 0.35  P(R) 0.38  presses 701  111.1s
+  validation: challenger 10.787 vs champion 10.688 (diff +0.099, SE 0.097)
+gen  164  best    11.09  mean    10.54  champion    10.69  cma_sigma 0.1182  n_fresh 0  score_w 1.00  life   1144  score    78762  contacts 6.92  drained 0.93  P(L) 0.31  P(R) 0.36  presses 685  108.6s
+  validation: challenger 10.765 vs champion 10.764 (diff +0.001, SE 0.179)
+gen  165  best    11.21  mean    10.68  champion    10.76  cma_sigma 0.1143  n_fresh 0  score_w 1.00  life   1204  score    90357  contacts 6.90  drained 0.93  P(L) 0.29  P(R) 0.34  presses 718  118.5s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.804 vs champion 10.772 (diff +0.032, SE 0.163)
+gen  166  best    11.25  mean    10.66  champion    10.77  cma_sigma 0.1122  n_fresh 0  score_w 1.00  life   1115  score    80699  contacts 6.76  drained 0.96  P(L) 0.33  P(R) 0.38  presses 689  110.9s
+  validation: challenger 10.838 vs champion 10.755 (diff +0.082, SE 0.147)
+gen  167  best    11.14  mean    10.76  champion    10.76  cma_sigma 0.1095  n_fresh 0  score_w 1.00  life   1044  score    81800  contacts 5.73  drained 0.95  P(L) 0.28  P(R) 0.34  presses 596  105.3s
+  validation: challenger 10.901 vs champion 10.779 (diff +0.122, SE 0.137)
+gen  168  best    11.38  mean    10.76  champion    10.78  cma_sigma 0.1059  n_fresh 0  score_w 1.00  life   1361  score   107100  contacts 8.54  drained 0.89  P(L) 0.30  P(R) 0.42  presses 815  126.6s
+  validation: challenger 10.672 vs champion 10.490 (diff +0.182, SE 0.161)
+gen  169  best    10.95  mean    10.30  champion    10.49  cma_sigma 0.1013  n_fresh 0  score_w 1.00  life    883  score    70777  contacts 4.21  drained 0.96  P(L) 0.23  P(R) 0.29  presses 454   86.6s
+  validation: challenger 10.782 vs champion 10.454 (diff +0.327, SE 0.162) -> PROMOTED
+gen  170  best    10.99  mean    10.55  champion    10.78  cma_sigma 0.0987  n_fresh 0  score_w 1.00  life   1155  score    80354  contacts 7.47  drained 0.95  P(L) 0.34  P(R) 0.44  presses 722  111.9s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.789 vs champion 10.720 (diff +0.069, SE 0.131)
+gen  171  best    11.07  mean    10.52  champion    10.72  cma_sigma 0.0956  n_fresh 0  score_w 1.00  life   1054  score    77793  contacts 6.26  drained 0.96  P(L) 0.29  P(R) 0.36  presses 642  104.4s
+  validation: challenger 11.004 vs champion 10.899 (diff +0.105, SE 0.135)
+gen  172  best    10.81  mean    10.45  champion    10.90  cma_sigma 0.0920  n_fresh 0  score_w 1.00  life   1029  score    71906  contacts 5.50  drained 0.95  P(L) 0.32  P(R) 0.43  presses 622  106.2s
+  validation: challenger 10.868 vs champion 10.764 (diff +0.104, SE 0.122)
+gen  173  best    11.29  mean    10.64  champion    10.76  cma_sigma 0.0887  n_fresh 0  score_w 1.00  life   1132  score    86634  contacts 6.01  drained 0.91  P(L) 0.26  P(R) 0.40  presses 580  110.1s
+  validation: challenger 10.946 vs champion 10.848 (diff +0.098, SE 0.136)
+gen  174  best    11.22  mean    10.76  champion    10.85  cma_sigma 0.0851  n_fresh 0  score_w 1.00  life   1188  score    91859  contacts 7.58  drained 0.93  P(L) 0.31  P(R) 0.37  presses 720  115.5s
+gen  175  best    10.32  mean     9.93  champion    10.85  cma_sigma 0.0811  n_fresh 0  score_w 1.00  life    780  score    53566  contacts 4.68  drained 0.96  P(L) 0.28  P(R) 0.33  presses 473   60.4s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.813 vs champion 10.667 (diff +0.145, SE 0.124)
+gen  176  best    11.28  mean    10.80  champion    10.67  cma_sigma 0.0794  n_fresh 0  score_w 1.00  life   1157  score   105955  contacts 6.19  drained 0.93  P(L) 0.27  P(R) 0.36  presses 662  122.2s
+  validation: challenger 10.789 vs champion 10.872 (diff -0.083, SE 0.136)
+gen  177  best    11.29  mean    10.94  champion    10.87  cma_sigma 0.0778  n_fresh 0  score_w 1.00  life   1317  score   114543  contacts 8.59  drained 0.95  P(L) 0.31  P(R) 0.35  presses 836  123.0s
+  validation: challenger 10.827 vs champion 10.714 (diff +0.113, SE 0.156)
+gen  178  best    11.03  mean    10.62  champion    10.71  cma_sigma 0.0755  n_fresh 0  score_w 1.00  life   1147  score    95675  contacts 6.50  drained 0.95  P(L) 0.29  P(R) 0.34  presses 702  113.9s
+  validation: challenger 10.726 vs champion 10.716 (diff +0.010, SE 0.151)
+gen  179  best    11.22  mean    10.94  champion    10.72  cma_sigma 0.0725  n_fresh 0  score_w 1.00  life   1447  score   115281  contacts 8.13  drained 0.87  P(L) 0.30  P(R) 0.34  presses 896  131.8s
+  validation: challenger 10.898 vs champion 10.752 (diff +0.146, SE 0.157)
+gen  180  best    11.41  mean    10.90  champion    10.75  cma_sigma 0.0697  n_fresh 0  score_w 1.00  life   1306  score   103867  contacts 7.48  drained 0.94  P(L) 0.31  P(R) 0.33  presses 833  126.8s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.769 vs champion 10.931 (diff -0.161, SE 0.134)
+gen  181  best    11.31  mean    10.91  champion    10.93  cma_sigma 0.0673  n_fresh 0  score_w 1.00  life   1393  score   105041  contacts 8.53  drained 0.90  P(L) 0.31  P(R) 0.33  presses 887  133.4s
+  validation: challenger 10.841 vs champion 11.024 (diff -0.183, SE 0.153)
+gen  182  best    11.31  mean    10.92  champion    11.02  cma_sigma 0.0654  n_fresh 0  score_w 1.00  life   1341  score   105347  contacts 9.04  drained 0.93  P(L) 0.32  P(R) 0.35  presses 865  134.9s
+gen  183  best    10.92  mean    10.51  champion    11.02  cma_sigma 0.0630  n_fresh 0  score_w 1.00  life   1079  score    80443  contacts 6.82  drained 0.93  P(L) 0.29  P(R) 0.33  presses 671   83.5s
+gen  184  best    10.70  mean    10.41  champion    11.02  cma_sigma 0.0607  n_fresh 0  score_w 1.00  life    981  score    68750  contacts 5.18  drained 0.96  P(L) 0.26  P(R) 0.31  presses 577   75.5s
+gen  185  best    10.99  mean    10.64  champion    11.02  cma_sigma 0.0590  n_fresh 0  score_w 1.00  life   1348  score   100562  contacts 8.15  drained 0.90  P(L) 0.28  P(R) 0.33  presses 822  115.5s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.818 vs champion 10.680 (diff +0.138, SE 0.155)
+gen  186  best    11.09  mean    10.59  champion    10.68  cma_sigma 0.0582  n_fresh 0  score_w 1.00  life   1047  score    78354  contacts 6.31  drained 0.95  P(L) 0.29  P(R) 0.34  presses 641  102.3s
+  validation: challenger 10.591 vs champion 10.556 (diff +0.035, SE 0.145)
+gen  187  best    11.38  mean    11.04  champion    10.56  cma_sigma 0.0586  n_fresh 0  score_w 1.00  life   1292  score   120423  contacts 6.99  drained 0.93  P(L) 0.27  P(R) 0.38  presses 740  125.5s
+  validation: challenger 10.535 vs champion 10.628 (diff -0.093, SE 0.182)
+gen  188  best    11.18  mean    10.63  champion    10.63  cma_sigma 0.0581  n_fresh 0  score_w 1.00  life   1044  score    99881  contacts 5.61  drained 0.94  P(L) 0.28  P(R) 0.36  presses 603  106.0s
+  validation: challenger 10.899 vs champion 11.008 (diff -0.109, SE 0.152)
+gen  189  best    11.18  mean    10.86  champion    11.01  cma_sigma 0.0586  n_fresh 0  score_w 1.00  life   1077  score    88962  contacts 6.01  drained 0.95  P(L) 0.30  P(R) 0.37  presses 654  113.9s
+gen  190  best    10.98  mean    10.49  champion    11.01  cma_sigma 0.0579  n_fresh 0  score_w 1.00  life   1255  score    88735  contacts 8.08  drained 0.90  P(L) 0.31  P(R) 0.45  presses 741  105.4s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.556 vs champion 10.741 (diff -0.185, SE 0.161)
+gen  191  best    11.21  mean    10.49  champion    10.74  cma_sigma 0.0583  n_fresh 0  score_w 1.00  life   1074  score    81284  contacts 5.62  drained 0.93  P(L) 0.29  P(R) 0.43  presses 602  119.3s
+gen  192  best    10.46  mean    10.16  champion    10.74  cma_sigma 0.0581  n_fresh 0  score_w 1.00  life    974  score    68337  contacts 6.17  drained 0.94  P(L) 0.26  P(R) 0.34  presses 572   80.3s
+  validation: challenger 10.640 vs champion 10.801 (diff -0.161, SE 0.103)
+gen  193  best    11.22  mean    10.80  champion    10.80  cma_sigma 0.0576  n_fresh 0  score_w 1.00  life   1264  score    88994  contacts 7.54  drained 0.93  P(L) 0.24  P(R) 0.44  presses 655  135.1s
+  validation: challenger 10.658 vs champion 10.885 (diff -0.227, SE 0.098)
+gen  194  best    11.30  mean    10.58  champion    10.89  cma_sigma 0.0569  n_fresh 0  score_w 1.00  life   1299  score    90498  contacts 6.21  drained 0.84  P(L) 0.22  P(R) 0.48  presses 590  151.0s
+gen  195  best    10.83  mean    10.55  champion    10.89  cma_sigma 0.0571  n_fresh 0  score_w 1.00  life   1110  score    88286  contacts 5.89  drained 0.94  P(L) 0.28  P(R) 0.40  presses 622   89.4s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.718 vs champion 10.770 (diff -0.052, SE 0.122)
+gen  196  best    11.01  mean    10.52  champion    10.77  cma_sigma 0.0564  n_fresh 0  score_w 1.00  life   1035  score    76251  contacts 6.25  drained 0.94  P(L) 0.24  P(R) 0.36  presses 570  107.7s
+  validation: challenger 10.739 vs champion 10.759 (diff -0.020, SE 0.138)
+gen  197  best    11.43  mean    10.75  champion    10.76  cma_sigma 0.0565  n_fresh 0  score_w 1.00  life   1168  score    93916  contacts 6.75  drained 0.90  P(L) 0.23  P(R) 0.45  presses 615  123.9s
+  validation: challenger 10.862 vs champion 11.015 (diff -0.153, SE 0.126)
+gen  198  best    11.20  mean    10.66  champion    11.02  cma_sigma 0.0555  n_fresh 0  score_w 1.00  life   1134  score    81870  contacts 6.15  drained 0.91  P(L) 0.22  P(R) 0.46  presses 545  147.0s
+  validation: challenger 10.875 vs champion 10.559 (diff +0.316, SE 0.169)
+gen  199  best    11.05  mean    10.73  champion    10.56  cma_sigma 0.0544  n_fresh 0  score_w 1.00  life   1326  score   119914  contacts 7.76  drained 0.88  P(L) 0.26  P(R) 0.40  presses 718  151.3s
+  validation: challenger 10.762 vs champion 10.602 (diff +0.160, SE 0.158)
+gen  200  best    10.92  mean    10.61  champion    10.60  cma_sigma 0.0542  n_fresh 0  score_w 1.00  life   1158  score    84400  contacts 6.68  drained 0.93  P(L) 0.25  P(R) 0.40  presses 626  135.6s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 11.088 vs champion 10.966 (diff +0.122, SE 0.121)
+gen  201  best    11.28  mean    10.67  champion    10.97  cma_sigma 0.0546  n_fresh 0  score_w 1.00  life   1150  score    82652  contacts 6.54  drained 0.91  P(L) 0.22  P(R) 0.39  presses 592  132.7s
+  validation: challenger 10.848 vs champion 10.690 (diff +0.158, SE 0.123)
+gen  202  best    11.02  mean    10.42  champion    10.69  cma_sigma 0.0541  n_fresh 0  score_w 1.00  life   1237  score    66626  contacts 5.77  drained 0.84  P(L) 0.19  P(R) 0.49  presses 521  139.6s
+  validation: challenger 10.658 vs champion 10.749 (diff -0.091, SE 0.161)
+gen  203  best    11.38  mean    10.79  champion    10.75  cma_sigma 0.0542  n_fresh 0  score_w 1.00  life   1287  score    95456  contacts 8.11  drained 0.92  P(L) 0.28  P(R) 0.41  presses 762  165.2s
+  validation: challenger 10.789 vs champion 10.657 (diff +0.133, SE 0.151)
+gen  204  best    11.47  mean    11.09  champion    10.66  cma_sigma 0.0547  n_fresh 0  score_w 1.00  life   1414  score   122586  contacts 8.38  drained 0.89  P(L) 0.29  P(R) 0.43  presses 826  150.0s
+  validation: challenger 10.370 vs champion 10.927 (diff -0.557, SE 0.202)
+gen  205  best    11.26  mean    10.73  champion    10.93  cma_sigma 0.0553  n_fresh 0  score_w 1.00  life   1191  score    95231  contacts 6.61  drained 0.90  P(L) 0.29  P(R) 0.42  presses 678  158.4s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.936 vs champion 10.772 (diff +0.163, SE 0.113)
+gen  206  best    10.97  mean    10.52  champion    10.77  cma_sigma 0.0551  n_fresh 0  score_w 1.00  life   1147  score    90797  contacts 6.79  drained 0.93  P(L) 0.28  P(R) 0.42  presses 647  130.7s
+  validation: challenger 10.993 vs champion 10.814 (diff +0.179, SE 0.143)
+gen  207  best    11.10  mean    10.54  champion    10.81  cma_sigma 0.0555  n_fresh 0  score_w 1.00  life   1259  score    77368  contacts 6.88  drained 0.89  P(L) 0.26  P(R) 0.50  presses 637  132.6s
+gen  208  best    10.65  mean    10.12  champion    10.81  cma_sigma 0.0553  n_fresh 0  score_w 1.00  life    814  score    51615  contacts 4.09  drained 0.95  P(L) 0.25  P(R) 0.37  presses 428   80.7s
+  validation: challenger 10.403 vs champion 10.534 (diff -0.131, SE 0.166)
+gen  209  best    11.31  mean    10.76  champion    10.53  cma_sigma 0.0559  n_fresh 0  score_w 1.00  life   1165  score    88209  contacts 6.93  drained 0.95  P(L) 0.32  P(R) 0.35  presses 749  133.4s
+  validation: challenger 10.509 vs champion 10.695 (diff -0.186, SE 0.120)
+gen  210  best    11.18  mean    10.57  champion    10.69  cma_sigma 0.0552  n_fresh 0  score_w 1.00  life   1060  score    75246  contacts 6.97  drained 0.95  P(L) 0.31  P(R) 0.35  presses 674  115.2s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.691 vs champion 10.607 (diff +0.084, SE 0.074)
+gen  211  best    11.12  mean    10.67  champion    10.61  cma_sigma 0.0538  n_fresh 0  score_w 1.00  life   1035  score    79510  contacts 5.95  drained 0.93  P(L) 0.28  P(R) 0.39  presses 587  126.6s
+  validation: challenger 10.764 vs champion 10.845 (diff -0.081, SE 0.094)
+gen  212  best    11.50  mean    11.00  champion    10.84  cma_sigma 0.0531  n_fresh 0  score_w 1.00  life   1423  score   119719  contacts 9.00  drained 0.88  P(L) 0.32  P(R) 0.36  presses 904  155.0s
+gen  213  best    10.55  mean    10.28  champion    10.84  cma_sigma 0.0523  n_fresh 0  score_w 1.00  life    941  score    63720  contacts 5.04  drained 0.95  P(L) 0.31  P(R) 0.35  presses 602   78.1s
+gen  214  best    10.84  mean    10.48  champion    10.84  cma_sigma 0.0510  n_fresh 0  score_w 1.00  life   1014  score    72538  contacts 5.88  drained 0.94  P(L) 0.31  P(R) 0.39  presses 627   88.9s
+  validation: challenger 10.884 vs champion 10.677 (diff +0.207, SE 0.148)
+gen  215  best    11.08  mean    10.61  champion    10.68  cma_sigma 0.0495  n_fresh 0  score_w 1.00  life   1077  score    88034  contacts 6.60  drained 0.94  P(L) 0.31  P(R) 0.37  presses 669  119.8s
+  saved checkpoint: agents/experiments/press_cost/press_0p00044.pt (+ agents/experiments/press_cost/press_0p00044.pt.cma.pkl)
+  validation: challenger 10.479 vs champion 10.647 (diff -0.168, SE 0.111)
+gen  216  best    11.10  mean    10.74  champion    10.65  cma_sigma 0.0480  n_fresh 0  score_w 1.00  life   1191  score    92097  contacts 7.35  drained 0.94  P(L) 0.32  P(R) 0.39  presses 768  128.7s
+Process SpawnPoolWorker-8:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-6:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-2:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-3:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-4:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-1:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-7:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process SpawnPoolWorker-5:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/queues.py", line 377, in put
+    self._writer.send_bytes(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

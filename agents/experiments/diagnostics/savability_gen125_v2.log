@@ -1,0 +1,24 @@
+  seed   4000 drained=True T=1750 drain_x=-0.7672378420829773 det=True any_saved=True
+  seed   4001 drained=False T=None drain_x=None det=None any_saved=None
+  seed   4002 drained=True T=544 drain_x=2.321275472640991 det=True any_saved=False
+  seed   4003 drained=True T=761 drain_x=-1.8370378017425537 det=True any_saved=False
+  seed   4004 drained=True T=1116 drain_x=0.10405660420656204 det=True any_saved=True
+  seed   4005 drained=True T=315 drain_x=0.20788894593715668 det=True any_saved=True
+  seed   4006 drained=True T=343 drain_x=-2.4955215454101562 det=True any_saved=True
+  seed   4007 drained=True T=1575 drain_x=-2.395611047744751 det=True any_saved=False
+  seed   4008 drained=True T=1402 drain_x=-2.679126739501953 det=True any_saved=False
+  seed   4009 drained=True T=504 drain_x=-2.97601056098938 det=True any_saved=False
+  seed   4010 drained=True T=260 drain_x=0.444380521774292 det=True any_saved=True
+  seed   4011 drained=True T=1961 drain_x=0.6128184199333191 det=True any_saved=True
+  seed   4012 drained=True T=2139 drain_x=0.09827768802642822 det=True any_saved=True
+  seed   4013 drained=True T=888 drain_x=-0.016998611390590668 det=True any_saved=True
+  seed   4014 drained=True T=841 drain_x=-0.05296780914068222 det=True any_saved=True
+  seed   4015 drained=True T=1198 drain_x=-0.19452670216560364 det=True any_saved=True
+======================================================================
+policy=ckpt:agents/experiments/life_objective_2026-09-26/best_heldout_gen125_champion.pt n_seeds=16 seed0=4000
+drained 15/16; determinism ok 15/15
+fraction of drains savable by ANY single press: 0.667
+fraction savable per press type: {'left': 0.667, 'right': 0.533, 'both': 0.667}
+timing-window width histogram (n offsets that save, among savable drains): {'22': 1, '8': 1, '26': 1, '6': 1, '28': 1, '19': 1, '30': 1, '21': 1, '7': 1, '23': 1}
+drain class counts: {'center_gap': 9, 'flipper_reachable': 6, 'outlane': 0}
+drain class savable fraction: {'center_gap': 1.0, 'flipper_reachable': 0.167, 'outlane': nan}

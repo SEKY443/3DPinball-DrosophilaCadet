@@ -1,0 +1,127 @@
+round 0 (teacher-driven): mean log1p 14.12, median 1,422,375, presses/game 130, dataset 337466  216s
+round 1 (agent-driven): mean log1p 13.39, median 644,750, presses/game 80, dataset 400000  360s
+round 2 (agent-driven): mean log1p 13.73, median 1,058,875, presses/game 69, dataset 400000  504s
+round 3 (agent-driven): mean log1p 13.51, median 840,000, presses/game 85, dataset 400000  653s
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Traceback (most recent call last):
+Traceback (most recent call last):
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    
+    
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    
+    
+    
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    
+    
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    
+    
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+                                             ^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full.py", line 46, in <lambda>
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+
+paired full games 62000..62063 (64)
+  new (full-game DAgger)   log1p 13.478 +- 0.099  median 761,750  mean 958,637  presses/game 85  game over 100%
+  old (lead brain)         log1p 13.436 +- 0.098  median 654,000  mean 920,312  presses/game 62  game over 100%
+  new - old log1p +0.042 +- 0.128  t +0.33  p 0.837  wins 32/31
+saved /Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/dagger_full_brain.pt

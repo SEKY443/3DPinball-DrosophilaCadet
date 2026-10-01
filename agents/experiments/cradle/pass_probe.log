@@ -1,0 +1,207 @@
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x102de5d50>>
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x100dc50d0>>
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x1004498d0>>
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x1038f3cd0>>
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x100885d90>>
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x1012b4e50>>
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x100380dd0>>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x100c758d0>>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x10506d290>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x1006a4dd0>>
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x1033e1290>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 456, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x1011498d0>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+    self._proc.wait(timeout=5.0)
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.terminate()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2208, in terminate
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+    self._proc.wait(timeout=5.0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    time.sleep(delay)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+    def terminate(self):
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x1008650d0>>
+    self._proc.wait(timeout=5.0)
+    time.sleep(delay)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+    time.sleep(delay)
+Exception ignored in atexit callback: <bound method PinballEnv.close of <env_python.pinball_env.PinballEnv object at 0x10587fcd0>>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    time.sleep(delay)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    time.sleep(delay)
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    self._proc.wait(timeout=5.0)
+    time.sleep(delay)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    return self._wait(timeout=timeout)
+    time.sleep(delay)
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+    time.sleep(delay)
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    return self._wait(timeout=timeout)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+                                             ^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+Traceback (most recent call last):
+    time.sleep(delay)
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    self._proc.wait(timeout=5.0)
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+SystemExit: 0
+SystemExit: 0
+    time.sleep(delay)
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/cradle/cradle_probe.py", line 55, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+512 lives, 183 left cradles  1030s
+delay force  passed  drained  bounced  timeout
+   14  0.30    0.03     0.01     0.00     0.96
+   14  0.33    0.05     0.01     0.00     0.93
+   14  0.35    0.06     0.05     0.00     0.89
+   14  0.38    0.05     0.00     0.00     0.95
+   14  0.40    0.03     0.00     0.05     0.92
+   15  0.30    0.06     0.00     0.00     0.94
+   15  0.33    0.19     0.00     0.00     0.81
+   15  0.35    0.28     0.00     0.00     0.72
+   15  0.38    0.24     0.00     0.04     0.72
+   15  0.40    0.16     0.01     0.09     0.74
+   16  0.30    0.12     0.00     0.00     0.88
+   16  0.33    0.56     0.00     0.00     0.44
+   16  0.35    0.69     0.00     0.01     0.31
+   16  0.38    0.48     0.00     0.09     0.43
+   16  0.40    0.21     0.01     0.38     0.40
+   17  0.30    0.54     0.00     0.00     0.46
+   17  0.33    0.86     0.00     0.01     0.13
+   17  0.35    0.90     0.00     0.05     0.05
+   17  0.38    0.45     0.00     0.38     0.17
+   17  0.40    0.10     0.00     0.74     0.15
+   18  0.30    0.86     0.00     0.00     0.14
+   18  0.33    0.92     0.00     0.05     0.02
+   18  0.35    0.84     0.00     0.09     0.07
+   18  0.38    0.14     0.00     0.76     0.10
+   18  0.40    0.03     0.00     0.94     0.03

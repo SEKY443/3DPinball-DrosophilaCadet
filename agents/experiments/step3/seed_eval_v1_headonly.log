@@ -1,0 +1,57 @@
+heuristic_seed: collected 31525 labeled ticks across 24 episodes (positive rate: flip_left 0.005, flip_right 0.005, launch 0.012)
+heuristic_seed: collected 31525 labeled ticks across 24 episodes (positive rate: flip_left 0.005, flip_right 0.005, launch 0.012)
+  epoch    0  loss 0.9384  match-rate [flip_left 0.995 flip_right 0.995 launch 0.988]
+  epoch    0  loss 0.9384  match-rate [flip_left 0.995 flip_right 0.995 launch 0.988]
+  epoch   50  loss 0.6606  match-rate [flip_left 0.922 flip_right 0.867 launch 0.806]
+  epoch   50  loss 0.6789  match-rate [flip_left 0.966 flip_right 0.864 launch 0.771]
+  epoch  100  loss 0.6066  match-rate [flip_left 0.938 flip_right 0.911 launch 0.829]
+  epoch  100  loss 0.6201  match-rate [flip_left 0.972 flip_right 0.888 launch 0.785]
+  epoch  150  loss 0.5955  match-rate [flip_left 0.969 flip_right 0.900 launch 0.803]
+  epoch  150  loss 0.5823  match-rate [flip_left 0.941 flip_right 0.926 launch 0.837]
+  epoch  200  loss 0.5687  match-rate [flip_left 0.930 flip_right 0.927 launch 0.841]
+  epoch  200  loss 0.5809  match-rate [flip_left 0.967 flip_right 0.908 launch 0.818]
+  epoch  250  loss 0.5600  match-rate [flip_left 0.929 flip_right 0.927 launch 0.842]
+  epoch  250  loss 0.5705  match-rate [flip_left 0.965 flip_right 0.911 launch 0.826]
+  epoch  299  loss 0.5628  match-rate [flip_left 0.952 flip_right 0.913 launch 0.829]
+  epoch  299  loss 0.5539  match-rate [flip_left 0.929 flip_right 0.926 launch 0.840]
+heuristic_seed: collected 31525 labeled ticks across 24 episodes (positive rate: flip_left 0.005, flip_right 0.005, launch 0.012)
+  epoch    0  loss 0.9384  match-rate [flip_left 0.995 flip_right 0.995 launch 0.988]
+  epoch   50  loss 0.6807  match-rate [flip_left 0.971 flip_right 0.862 launch 0.770]
+  epoch  100  loss 0.6238  match-rate [flip_left 0.973 flip_right 0.884 launch 0.785]
+  epoch  150  loss 0.5992  match-rate [flip_left 0.969 flip_right 0.897 launch 0.804]
+  epoch  200  loss 0.5837  match-rate [flip_left 0.968 flip_right 0.906 launch 0.820]
+  epoch  250  loss 0.5725  match-rate [flip_left 0.967 flip_right 0.912 launch 0.828]
+  epoch  299  loss 0.5640  match-rate [flip_left 0.959 flip_right 0.914 launch 0.830]
+heuristic_seed: collected 35264 labeled ticks across 24 episodes (positive rate: flip_left 0.057, flip_right 0.020, launch 0.011)
+  epoch    0  loss 1.2433  match-rate [flip_left 0.943 flip_right 0.980 launch 0.989]
+  epoch   50  loss 0.8985  match-rate [flip_left 0.545 flip_right 0.711 launch 0.816]
+  epoch  100  loss 0.8213  match-rate [flip_left 0.650 flip_right 0.812 launch 0.831]
+  epoch  150  loss 0.7728  match-rate [flip_left 0.693 flip_right 0.859 launch 0.831]
+  epoch  200  loss 0.7388  match-rate [flip_left 0.727 flip_right 0.877 launch 0.831]
+  epoch  250  loss 0.7140  match-rate [flip_left 0.756 flip_right 0.890 launch 0.829]
+  epoch  299  loss 0.6957  match-rate [flip_left 0.774 flip_right 0.899 launch 0.827]
+heuristic_seed: collected 35264 labeled ticks across 24 episodes (positive rate: flip_left 0.057, flip_right 0.020, launch 0.011)
+  epoch    0  loss 1.2433  match-rate [flip_left 0.943 flip_right 0.980 launch 0.989]
+  epoch   50  loss 0.8625  match-rate [flip_left 0.678 flip_right 0.739 launch 0.839]
+  epoch  100  loss 0.8020  match-rate [flip_left 0.719 flip_right 0.793 launch 0.852]
+  epoch  150  loss 0.7698  match-rate [flip_left 0.738 flip_right 0.818 launch 0.852]
+  epoch  200  loss 0.7487  match-rate [flip_left 0.749 flip_right 0.828 launch 0.858]
+  epoch  250  loss 0.7336  match-rate [flip_left 0.759 flip_right 0.835 launch 0.864]
+  epoch  299  loss 0.7222  match-rate [flip_left 0.767 flip_right 0.840 launch 0.863]
+heuristic_seed: collected 35264 labeled ticks across 24 episodes (positive rate: flip_left 0.057, flip_right 0.020, launch 0.011)
+  epoch    0  loss 1.2433  match-rate [flip_left 0.943 flip_right 0.980 launch 0.989]
+  epoch   50  loss 0.8993  match-rate [flip_left 0.546 flip_right 0.720 launch 0.815]
+  epoch  100  loss 0.8358  match-rate [flip_left 0.632 flip_right 0.792 launch 0.831]
+  epoch  150  loss 0.7997  match-rate [flip_left 0.672 flip_right 0.822 launch 0.831]
+  epoch  200  loss 0.7737  match-rate [flip_left 0.697 flip_right 0.840 launch 0.830]
+  epoch  250  loss 0.7537  match-rate [flip_left 0.710 flip_right 0.850 launch 0.828]
+  epoch  299  loss 0.7381  match-rate [flip_left 0.719 flip_right 0.857 launch 0.827]
+seeded 6 variants in 299s
+eval lives 7024..7071  total 940s
+variant                       log1p    se    score  steps  cont  press  P(L)  P(R)  agree recall   prec
+reflex_y11.5_h1_raw           10.08  0.13    32922    790   1.5   27.3 0.050 0.141  0.797  0.020  0.001
+reflex_y11.5_h1_zero          10.18  0.11    34219    860   1.1    8.4 0.192 0.087  0.715  0.047  0.002
+reflex_y11.5_h1_delay1         9.78  0.10    22000   1489   0.3   15.9 0.272 0.267  0.461  0.003  0.000
+reflex_y10.5_h3_raw            9.75  0.10    21938   1831   0.3    7.3 0.411 0.486  0.296  0.820  0.006
+reflex_y10.5_h3_zero           9.86  0.11    25531   1837   0.5    9.7 0.441 0.324  0.339  0.661  0.007
+reflex_y10.5_h3_delay1         9.88  0.10    24521   1879   0.8   37.2 0.309 0.430  0.318  0.499  0.019

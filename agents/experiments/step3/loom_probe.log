@@ -1,0 +1,20 @@
+decision-step duration estimate: median dy/vy = 0.0331 s (T.LOOM_STEP_DT = 0.04)
+steps 31525  press rate L 0.0045 R 0.0055
+raw                    L: AUC 0.975 prec@rate 0.349   R: AUC 0.982 prec@rate 0.495
+    lag profile L (score at t+lag vs press at t): -3:0.949 -2:0.938 -1:0.946 +0:0.975 +1:0.682 +2:0.533 +3:0.744   peak +0
+    lag profile R (score at t+lag vs press at t): -3:0.946 -2:0.694 -1:0.968 +0:0.982 +1:0.021 +2:0.707 +3:0.794   peak +0
+zero                   L: AUC 0.974 prec@rate 0.289   R: AUC 0.972 prec@rate 0.280
+    lag profile L (score at t+lag vs press at t): -3:0.950 -2:0.962 -1:0.971 +0:0.974 +1:0.834 +2:0.699 +3:0.632   peak +0
+    lag profile R (score at t+lag vs press at t): -3:0.935 -2:0.944 -1:0.958 +0:0.972 +1:0.806 +2:0.737 +3:0.688   peak +0
+delay1                 L: AUC 0.975 prec@rate 0.277   R: AUC 0.982 prec@rate 0.516
+    lag profile L (score at t+lag vs press at t): -3:0.953 -2:0.963 -1:0.971 +0:0.975 +1:0.860 +2:0.783 +3:0.804   peak +0
+    lag profile R (score at t+lag vs press at t): -3:0.946 -2:0.947 -1:0.923 +0:0.982 +1:0.758 +2:0.476 +3:0.852   peak +0
+loom(tau0=1.0 steps)   L: AUC 0.975 prec@rate 0.289   R: AUC 0.973 prec@rate 0.194
+    lag profile L (score at t+lag vs press at t): -3:0.950 -2:0.963 -1:0.971 +0:0.975 +1:0.842 +2:0.705 +3:0.632   peak +0
+    lag profile R (score at t+lag vs press at t): -3:0.943 -2:0.947 -1:0.959 +0:0.973 +1:0.813 +2:0.733 +3:0.687   peak +0
+loom(tau0=2.0 steps)   L: AUC 0.974 prec@rate 0.289   R: AUC 0.972 prec@rate 0.194
+    lag profile L (score at t+lag vs press at t): -3:0.950 -2:0.962 -1:0.971 +0:0.974 +1:0.837 +2:0.700 +3:0.634   peak +0
+    lag profile R (score at t+lag vs press at t): -3:0.944 -2:0.948 -1:0.959 +0:0.972 +1:0.795 +2:0.740 +3:0.688   peak +0
+loom(tau0=4.0 steps)   L: AUC 0.974 prec@rate 0.277   R: AUC 0.972 prec@rate 0.183
+    lag profile L (score at t+lag vs press at t): -3:0.951 -2:0.963 -1:0.971 +0:0.974 +1:0.833 +2:0.695 +3:0.627   peak +0
+    lag profile R (score at t+lag vs press at t): -3:0.944 -2:0.948 -1:0.959 +0:0.972 +1:0.799 +2:0.741 +3:0.689   peak +0

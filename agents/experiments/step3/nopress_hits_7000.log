@@ -1,0 +1,98 @@
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+    return self.env.close()
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/../agents/../env_python/pinball_env.py", line 439, in close
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/../agents/../env_python/pinball_env.py", line 439, in close
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/train_pinball_circuit_cem.py", line 189, in _on_terminate
+    sys.exit(0)
+SystemExit: 0
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/train_pinball_circuit_cem.py", line 189, in _on_terminate
+    sys.exit(0)
+SystemExit: 0
+policy none  seeds 7000..7023  17s
+episodes 24  mean score/life 22479  mean steps 438  mean flipper contacts 0.0
+verification: bad ids 0  score-sum violations 0  unattributed points 0 (0.0%)  hits 512  ball->AABB median 0.000 (p90 0.101)  ball->centre median 0.416
+ id name          group       hits   points  share act_h  act_pts pas_h  pas_pts lau_h  lau_pts  dAABB   dCtr
+ 80 drain         drain         24   130000  24.1%     0        0     0        0    24   130000   0.04   0.44
+  7 a_roll1       rollover      34    72000  13.3%     0        0     0        0    34    72000   0.00   0.32
+ 78 a_kout3       kickout        1    40000   7.4%     0        0     0        0     1    40000   0.00   0.00
+ 30 a_roll8       rollover       1    40000   7.4%     0        0     0        0     1    40000   0.00   0.33
+  5 a_roll3       rollover      12    30000   5.6%     0        0     0        0    12    30000   0.00   0.29
+  3 a_bump3       bumper        49    26500   4.9%     0        0     0        0    49    26500   0.04   0.72
+ 29 a_roll4       rollover       1    20000   3.7%     0        0     0        0     1    20000   0.00   0.32
+  2 a_bump2       bumper        25    19000   3.5%     0        0     0        0    25    19000   0.06   0.75
+ 32 a_roll6       rollover       2    15000   2.8%     0        0     0        0     2    15000   0.00   0.32
+ 61 a_targ8       target        18    10000   1.9%     0        0     0        0    18    10000   0.00   0.54
+ 34 a_roll5       rollover       1    10000   1.9%     0        0     0        0     1    10000   0.00   0.26
+ 60 a_targ9       target        14     9500   1.8%     0        0     0        0    14     9500   0.05   0.55
+ 16 v_rebo1       rebounder     17     9000   1.7%     0        0     0        0    17     9000   0.00   1.10
+ 19 v_rebo4       rebounder     15     8000   1.5%     0        0     0        0    15     8000   0.00   0.86
+  6 a_roll2       rollover       3     8000   1.5%     0        0     0        0     3     8000   0.00   0.19
+ 17 v_rebo2       rebounder     13     7000   1.3%     0        0     0        0    13     7000   0.00   0.87
+ 44 a_flag2       spinner       14     7000   1.3%     0        0     0        0    14     7000   0.00   0.36
+ 36 a_roll180     rollover      10     6000   1.1%     0        0     0        0    10     6000   0.00   0.39
+ 35 a_roll179     rollover      11     6000   1.1%     0        0     0        0    11     6000   0.00   0.44
+ 58 a_targ4       target         2     6000   1.1%     0        0     0        0     2     6000   0.00   0.54
+ 18 v_rebo3       rebounder     10     5500   1.0%     0        0     0        0    10     5500   0.00   0.76
+ 62 a_targ7       target         6     5000   0.9%     0        0     0        0     6     5000   0.00   0.57
+ 67 a_targ13      target         4     5000   0.9%     0        0     0        0     4     5000   0.04   0.55
+ 33 a_roll7       rollover       1     5000   0.9%     0        0     0        0     1     5000   0.00   0.32
+  1 a_bump1       bumper         9     4500   0.8%     0        0     0        0     9     4500   0.07   0.80
+ 41 a_flag1       spinner        8     4000   0.7%     0        0     0        0     8     4000   0.68   0.69
+ 73 a_targ19      target         5     3750   0.7%     0        0     0        0     5     3750   0.00   0.57
+ 72 a_targ18      target         3     3000   0.6%     0        0     0        0     3     3000   0.00   0.52
+ 75 a_targ21      target         4     3000   0.6%     0        0     0        0     4     3000   0.05   0.49
+ 57 a_targ5       target         1     3000   0.6%     0        0     0        0     1     3000   0.06   0.49
+ 51 a_targ1       target         4     2500   0.5%     0        0     0        0     4     2500   0.10   0.55
+ 45 v_sink1       sink           1     2500   0.5%     0        0     0        0     1     2500   0.00   0.07
+ 71 a_targ17      target         2     1500   0.3%     0        0     0        0     2     1500   0.11   0.62
+ 37 a_roll181     rollover       3     1500   0.3%     0        0     0        0     3     1500   0.00   0.33
+ 53 a_targ3       target         3     1500   0.3%     0        0     0        0     3     1500   0.10   0.55
+ 76 a_targ22      target         2     1500   0.3%     0        0     0        0     2     1500   0.13   0.70
+ 56 a_targ6       target         1     1500   0.3%     0        0     0        0     1     1500   0.00   0.67
+ 74 a_targ20      target         2     1500   0.3%     0        0     0        0     2     1500   0.12   0.67
+ 69 a_targ15      target         1     1000   0.2%     0        0     0        0     1     1000   0.03   0.56
+ 38 a_roll182     rollover       2     1000   0.2%     0        0     0        0     2     1000   0.00   0.24
+ 64 a_targ10      target         1      750   0.1%     0        0     0        0     1      750   0.10   0.46
+ 40 a_roll184     rollover       1      500   0.1%     0        0     0        0     1      500   0.00   0.20
+ 39 a_roll183     rollover       1      500   0.1%     0        0     0        0     1      500   0.00   0.19
+ 52 a_targ2       target         1      500   0.1%     0        0     0        0     1      500   0.07   0.43
+  4 a_bump4       bumper         1      500   0.1%     0        0     0        0     1      500   0.07   0.75
+ 81 s_onewy1      oneway        24        0   0.0%     0        0     0        0    24        0   0.02   0.39
+ 82 s_trip1       tripwire      24        0   0.0%     0        0     0        0    24        0   0.00   0.25
+ 83 s_trip2       tripwire      24        0   0.0%     0        0     0        0    24        0   0.00   0.24
+ 84 s_trip3       tripwire      24        0   0.0%     0        0     0        0    24        0   0.00   0.23
+ 85 s_trip4       tripwire      24        0   0.0%     0        0     0        0    24        0   0.00   0.28
+ 86 s_trip5       tripwire      24        0   0.0%     0        0     0        0    24        0   0.00   0.23
+ 25 s_onewy10     oneway        24        0   0.0%     0        0     0        0    24        0   0.00   0.21
+by group:
+  rollover   hits    83  points   215500  active hits    0  active points        0
+  drain      hits    24  points   130000  active hits    0  active points        0
+  target     hits    74  points    60500  active hits    0  active points        0
+  bumper     hits    84  points    50500  active hits    0  active points        0
+  kickout    hits     1  points    40000  active hits    0  active points        0
+  rebounder  hits    55  points    29500  active hits    0  active points        0
+  spinner    hits    22  points    11000  active hits    0  active points        0
+  sink       hits     1  points     2500  active hits    0  active points        0
+  oneway     hits    48  points        0  active hits    0  active points        0
+  tripwire   hits   120  points        0  active hits    0  active points        0
+wrote agents/experiments/step3/nopress_hits_7000.json

@@ -1,0 +1,24 @@
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 434, in close
+    self._client.close()
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/ipc_client.py", line 144, in close
+    self._sock.close()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 503, in close
+    self._real_close()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 495, in _real_close
+    def _real_close(self, _ss=_socket.socket):
+
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/step3/policy_compare.py", line 54, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+24 lives per policy, seeds 7024..7047, 269s
+policy                                                      log1p    se    score  steps  cont  press  L==R  gap3 drain
+reflexswap:10                                                9.93  0.17    28000   1741  24.5    203  0.71  0.08  0.46
+gated:8:3                                                   10.88  0.16    67104   1020   5.7    187  1.00  0.93  1.00
+gated:10:3                                                  10.89  0.16    67646   1006   5.7    124  1.00  0.91  1.00
+metro:3:2                                                   10.85  0.25    96135   1193   7.7    795  1.00  1.00  0.96

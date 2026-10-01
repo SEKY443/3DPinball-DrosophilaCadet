@@ -1,0 +1,18 @@
+init eval: mean log1p 10.949  median score 66250  mean life 994
+iter 0: lives 32  drained 31  savable (corrective labels) 17  mean life 1097  dataset 35094  collect 87s
+  pre-train agreement with own actions: left 1.0000 right 1.0000
+  head rescaled by [0.004425437189638615, 0.0268805380910635] (median |logit| was [903.865478515625, 148.80654907226562])
+  train loss 1.0561 -> 0.4217  corrective-label acc 0.294
+  eval: mean log1p 10.768  median score 52000  mean life 914  vs init diff -0.181 (SE 0.185, t=-0.98)
+iter 1: lives 32  drained 32  savable (corrective labels) 20  mean life 1166  dataset 72391  collect 101s
+  train loss 0.4308 -> 0.4027  corrective-label acc 0.523
+  eval: mean log1p 10.791  median score 57625  mean life 870  vs init diff -0.158 (SE 0.191, t=-0.83)
+iter 2: lives 32  drained 31  savable (corrective labels) 18  mean life 1196  dataset 110669  collect 121s
+  train loss 0.4206 -> 0.3967  corrective-label acc 0.579
+  eval: mean log1p 11.129  median score 68250  mean life 1246  vs init diff +0.180 (SE 0.226, t=0.80)
+iter 3: lives 32  drained 32  savable (corrective labels) 13  mean life 1068  dataset 144850  collect 115s
+  train loss 0.3885 -> 0.3780  corrective-label acc 0.588
+  eval: mean log1p 11.033  median score 71875  mean life 1143  vs init diff +0.084 (SE 0.149, t=0.56)
+iter 4: lives 32  drained 31  savable (corrective labels) 17  mean life 1057  dataset 178662  collect 90s
+  train loss 0.3788 -> 0.3739  corrective-label acc 0.590
+  eval: mean log1p 11.018  median score 63375  mean life 1078  vs init diff +0.070 (SE 0.152, t=0.46)

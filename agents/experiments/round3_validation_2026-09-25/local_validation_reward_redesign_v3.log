@@ -1,0 +1,287 @@
+decoder parameter count (CEM search dimension): 643
+heuristic_seed: collected 4771 labeled ticks across 6 episodes (positive rate: flip_left 0.024, flip_right 0.015, launch 0.007)
+  epoch    0  loss 1.1648  match-rate [flip_left 0.976 flip_right 0.985 launch 0.993]
+  epoch   50  loss 0.6505  match-rate [flip_left 0.917 flip_right 0.851 launch 0.814]
+  epoch  100  loss 0.5173  match-rate [flip_left 0.966 flip_right 0.947 launch 0.906]
+  epoch  150  loss 0.4472  match-rate [flip_left 0.976 flip_right 0.966 launch 0.932]
+  epoch  200  loss 0.4048  match-rate [flip_left 0.977 flip_right 0.969 launch 0.940]
+  epoch  250  loss 0.3760  match-rate [flip_left 0.977 flip_right 0.971 launch 0.944]
+  epoch  299  loss 0.3551  match-rate [flip_left 0.975 flip_right 0.973 launch 0.940]
+/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/cma/s.py:17: UserWarning: Could not import matplotlib.pyplot, therefore ``cma.plot()`` etc. is not available
+  _warnings.warn('Could not import matplotlib.pyplot, therefore'
+gen    1  best     1.55  mean    -0.90  champion    -0.88  cma_sigma 0.3936  n_fresh 3  score_w 0.00  hits 0.11  P(L) 0.46  P(R) 0.54  drains 0.66   18.1s
+gen    2  best    -0.91  mean    -1.61  champion    -0.88  cma_sigma 0.3870  n_fresh 3  score_w 0.02  hits 0.00  P(L) 0.51  P(R) 0.56  drains 1.00   15.4s
+gen    3  best    -0.42  mean    -0.54  champion    -0.18  cma_sigma 0.3894  n_fresh 3  score_w 0.04  hits 0.00  P(L) 0.57  P(R) 0.66  drains 0.50   19.2s
+gen    4  best     1.90  mean     1.03  champion    -0.34  cma_sigma 0.3933  n_fresh 3  score_w 0.06  hits 0.00  P(L) 0.65  P(R) 0.75  drains 0.00   17.0s
+gen    5  best     8.01  mean     0.72  champion     4.49  cma_sigma 0.3897  n_fresh 3  score_w 0.08  hits 0.00  P(L) 0.36  P(R) 0.40  drains 0.50   17.3s
+gen    6  best     2.31  mean     0.99  champion     4.49  cma_sigma 0.3824  n_fresh 3  score_w 0.10  hits 0.00  P(L) 0.45  P(R) 0.64  drains 0.11   14.9s
+gen    7  best     1.36  mean     0.42  champion     4.49  cma_sigma 0.3821  n_fresh 3  score_w 0.12  hits 0.00  P(L) 0.40  P(R) 0.67  drains 0.50   14.0s
+gen    8  best    11.96  mean     2.37  champion     2.15  cma_sigma 0.3776  n_fresh 3  score_w 0.14  hits 0.11  P(L) 0.69  P(R) 0.68  drains 0.05   16.6s
+gen    9  best     0.37  mean    -0.26  champion     2.15  cma_sigma 0.3693  n_fresh 3  score_w 0.16  hits 0.00  P(L) 0.36  P(R) 0.54  drains 1.05   13.9s
+gen   10  best     0.47  mean     0.00  champion     2.15  cma_sigma 0.3636  n_fresh 3  score_w 0.18  hits 0.00  P(L) 0.47  P(R) 0.55  drains 1.05   14.6s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen   11  best    10.25  mean     1.88  champion     9.72  cma_sigma 0.3672  n_fresh 3  score_w 0.20  hits 0.08  P(L) 0.57  P(R) 0.76  drains 0.55   16.5s
+gen   12  best     4.92  mean     1.00  champion     9.72  cma_sigma 0.3756  n_fresh 3  score_w 0.22  hits 0.08  P(L) 0.62  P(R) 0.87  drains 1.13   13.8s
+gen   13  best     3.64  mean     1.75  champion     9.72  cma_sigma 0.3889  n_fresh 3  score_w 0.24  hits 0.05  P(L) 0.57  P(R) 0.70  drains 0.61   16.1s
+gen   14  best     3.18  mean     1.58  champion     9.72  cma_sigma 0.4036  n_fresh 3  score_w 0.26  hits 0.03  P(L) 0.52  P(R) 0.73  drains 0.50   14.3s
+gen   15  best     2.05  mean     0.09  champion     9.72  cma_sigma 0.4090  n_fresh 3  score_w 0.28  hits 0.00  P(L) 0.44  P(R) 0.81  drains 1.50   13.9s
+gen   16  best     2.87  mean     1.91  champion     9.72  cma_sigma 0.4062  n_fresh 3  score_w 0.30  hits 0.00  P(L) 0.36  P(R) 0.65  drains 0.50   16.1s
+gen   17  best    21.88  mean     3.86  champion    15.00  cma_sigma 0.3955  n_fresh 3  score_w 0.32  hits 0.00  P(L) 0.61  P(R) 0.80  drains 0.00   16.5s
+gen   18  best     2.66  mean     2.19  champion    15.00  cma_sigma 0.3944  n_fresh 3  score_w 0.34  hits 0.00  P(L) 0.57  P(R) 0.64  drains 0.50   13.9s
+gen   19  best     2.19  mean     1.89  champion    15.00  cma_sigma 0.4005  n_fresh 3  score_w 0.36  hits 0.00  P(L) 0.66  P(R) 0.68  drains 1.00   13.9s
+gen   20  best     2.65  mean     2.52  champion    15.00  cma_sigma 0.3983  n_fresh 3  score_w 0.38  hits 0.00  P(L) 0.75  P(R) 0.68  drains 0.50   13.7s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen   21  best     4.98  mean     3.18  champion    15.00  cma_sigma 0.3905  n_fresh 3  score_w 0.40  hits 0.08  P(L) 0.76  P(R) 0.62  drains 0.34   14.0s
+gen   22  best     4.00  mean     3.01  champion    15.00  cma_sigma 0.3920  n_fresh 3  score_w 0.42  hits 0.03  P(L) 0.70  P(R) 0.41  drains 0.53   13.7s
+gen   23  best     5.30  mean     4.37  champion    15.00  cma_sigma 0.3882  n_fresh 3  score_w 0.44  hits 0.03  P(L) 0.44  P(R) 0.58  drains 0.05   13.9s
+gen   24  best     2.21  mean     1.97  champion    15.00  cma_sigma 0.3909  n_fresh 3  score_w 0.46  hits 0.00  P(L) 0.51  P(R) 0.51  drains 1.08   16.0s
+gen   25  best    14.17  mean     5.23  champion    15.00  cma_sigma 0.3988  n_fresh 3  score_w 0.48  hits 0.03  P(L) 0.67  P(R) 0.59  drains 0.47   15.4s
+gen   26  best     4.13  mean     2.93  champion    15.00  cma_sigma 0.3988  n_fresh 3  score_w 0.50  hits 0.03  P(L) 0.29  P(R) 0.67  drains 1.03   14.6s
+gen   27  best     7.98  mean     2.91  champion    15.00  cma_sigma 0.4044  n_fresh 3  score_w 0.52  hits 0.11  P(L) 0.58  P(R) 0.62  drains 1.18   14.9s
+gen   28  best     4.30  mean     3.70  champion    15.00  cma_sigma 0.4023  n_fresh 3  score_w 0.54  hits 0.03  P(L) 0.58  P(R) 0.62  drains 1.13   14.7s
+gen   29  best    16.53  mean     6.03  champion     8.96  cma_sigma 0.4008  n_fresh 3  score_w 0.56  hits 0.00  P(L) 0.84  P(R) 0.72  drains 0.00   16.7s
+gen   30  best     6.65  mean     4.86  champion     8.96  cma_sigma 0.3966  n_fresh 3  score_w 0.58  hits 0.08  P(L) 0.74  P(R) 0.72  drains 0.53   14.4s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen   31  best     6.91  mean     5.96  champion     8.96  cma_sigma 0.4021  n_fresh 3  score_w 0.60  hits 0.03  P(L) 0.84  P(R) 0.60  drains 0.08   16.4s
+gen   32  best     5.17  mean     4.64  champion     8.96  cma_sigma 0.3991  n_fresh 3  score_w 0.62  hits 0.00  P(L) 0.97  P(R) 0.63  drains 0.50   14.0s
+gen   33  best     4.89  mean     4.41  champion     8.96  cma_sigma 0.4053  n_fresh 3  score_w 0.64  hits 0.00  P(L) 0.88  P(R) 0.75  drains 1.00   14.2s
+gen   34  best    19.61  mean     6.20  champion    12.83  cma_sigma 0.4097  n_fresh 3  score_w 0.66  hits 0.00  P(L) 0.85  P(R) 0.84  drains 0.39   17.3s
+gen   35  best     4.83  mean     4.75  champion    12.83  cma_sigma 0.4062  n_fresh 3  score_w 0.68  hits 0.00  P(L) 0.57  P(R) 0.63  drains 0.50   13.9s
+gen   36  best     8.35  mean     5.68  champion    12.83  cma_sigma 0.4015  n_fresh 3  score_w 0.70  hits 0.03  P(L) 0.73  P(R) 0.87  drains 1.00   15.2s
+gen   37  best     5.01  mean     4.35  champion    12.83  cma_sigma 0.3908  n_fresh 3  score_w 0.72  hits 0.05  P(L) 0.61  P(R) 0.77  drains 1.37   14.7s
+gen   38  best     6.07  mean     5.57  champion    12.83  cma_sigma 0.3813  n_fresh 3  score_w 0.74  hits 0.00  P(L) 0.88  P(R) 0.87  drains 1.00   13.8s
+gen   39  best    11.54  mean     6.76  champion    12.83  cma_sigma 0.3785  n_fresh 3  score_w 0.76  hits 0.03  P(L) 0.83  P(R) 0.78  drains 0.50   16.2s
+gen   40  best    25.06  mean     7.20  champion    16.81  cma_sigma 0.3796  n_fresh 3  score_w 0.78  hits 0.05  P(L) 0.68  P(R) 0.75  drains 0.87   17.6s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen   41  best    11.59  mean     7.45  champion    16.81  cma_sigma 0.3803  n_fresh 3  score_w 0.80  hits 0.13  P(L) 0.69  P(R) 0.69  drains 0.63   14.7s
+gen   42  best    25.20  mean     9.18  champion    13.31  cma_sigma 0.3748  n_fresh 3  score_w 0.82  hits 0.00  P(L) 0.53  P(R) 0.73  drains 0.11   18.3s
+gen   43  best     7.19  mean     6.75  champion    13.31  cma_sigma 0.3680  n_fresh 3  score_w 0.84  hits 0.00  P(L) 0.18  P(R) 0.60  drains 1.05   15.7s
+gen   44  best     9.62  mean     7.47  champion    13.31  cma_sigma 0.3633  n_fresh 3  score_w 0.86  hits 0.00  P(L) 0.26  P(R) 0.90  drains 0.00   14.7s
+gen   45  best    12.00  mean     9.59  champion    13.31  cma_sigma 0.3547  n_fresh 3  score_w 0.88  hits 0.16  P(L) 0.22  P(R) 0.68  drains 0.08   14.7s
+gen   46  best    13.47  mean     8.17  champion    14.21  cma_sigma 0.3537  n_fresh 3  score_w 0.90  hits 0.08  P(L) 0.41  P(R) 0.63  drains 1.05   17.2s
+gen   47  best    10.76  mean     6.93  champion    14.21  cma_sigma 0.3594  n_fresh 3  score_w 0.92  hits 0.11  P(L) 0.39  P(R) 0.38  drains 1.03   15.0s
+gen   48  best    10.16  mean     6.39  champion    14.21  cma_sigma 0.3605  n_fresh 3  score_w 0.94  hits 0.08  P(L) 0.67  P(R) 0.50  drains 1.08   15.1s
+gen   49  best    10.76  mean     8.80  champion    14.21  cma_sigma 0.3659  n_fresh 3  score_w 0.96  hits 0.05  P(L) 0.69  P(R) 0.38  drains 0.53   16.3s
+gen   50  best     7.11  mean     6.70  champion    14.21  cma_sigma 0.3676  n_fresh 3  score_w 0.98  hits 0.03  P(L) 0.70  P(R) 0.55  drains 1.16   14.9s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen   51  best    10.82  mean     9.05  champion    14.21  cma_sigma 0.3647  n_fresh 3  score_w 1.00  hits 0.05  P(L) 0.80  P(R) 0.28  drains 0.55   16.1s
+gen   52  best    13.21  mean     8.44  champion    14.21  cma_sigma 0.3662  n_fresh 3  score_w 1.00  hits 0.00  P(L) 0.63  P(R) 0.29  drains 1.05   14.9s
+gen   53  best    10.42  mean     8.74  champion    14.21  cma_sigma 0.3615  n_fresh 3  score_w 1.00  hits 0.08  P(L) 0.54  P(R) 0.44  drains 1.26   16.3s
+gen   54  best     8.60  mean     7.16  champion    14.21  cma_sigma 0.3640  n_fresh 3  score_w 1.00  hits 0.05  P(L) 0.51  P(R) 0.43  drains 1.13   15.1s
+gen   55  best    14.41  mean     8.71  champion    15.13  cma_sigma 0.3693  n_fresh 3  score_w 1.00  hits 0.13  P(L) 0.54  P(R) 0.17  drains 1.08   19.2s
+gen   56  best    12.06  mean     9.42  champion    15.13  cma_sigma 0.3680  n_fresh 3  score_w 1.00  hits 0.03  P(L) 0.38  P(R) 0.36  drains 0.08   14.9s
+gen   57  best    11.57  mean    10.17  champion    15.13  cma_sigma 0.3635  n_fresh 3  score_w 1.00  hits 0.03  P(L) 0.14  P(R) 0.32  drains 0.08   15.8s
+gen   58  best    16.00  mean     8.62  champion    18.57  cma_sigma 0.3665  n_fresh 3  score_w 1.00  hits 0.00  P(L) 0.40  P(R) 0.57  drains 1.03   19.2s
+gen   59  best    20.71  mean     9.66  champion    15.82  cma_sigma 0.3746  n_fresh 3  score_w 1.00  hits 0.00  P(L) 0.47  P(R) 0.75  drains 0.55   17.8s
+gen   60  best    13.01  mean     9.64  champion    15.82  cma_sigma 0.3858  n_fresh 3  score_w 1.00  hits 0.08  P(L) 0.50  P(R) 0.59  drains 0.63   14.4s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen   61  best     9.04  mean     8.58  champion    15.82  cma_sigma 0.3988  n_fresh 3  score_w 1.00  hits 0.00  P(L) 0.41  P(R) 0.47  drains 0.53   14.5s
+gen   62  best    10.00  mean     9.27  champion    15.82  cma_sigma 0.4143  n_fresh 3  score_w 1.00  hits 0.03  P(L) 0.20  P(R) 0.28  drains 0.68   13.7s
+gen   63  best    17.11  mean     9.24  champion    17.81  cma_sigma 0.4208  n_fresh 3  score_w 1.00  hits 0.03  P(L) 0.15  P(R) 0.31  drains 0.63   16.4s
+gen   64  best    10.56  mean     8.81  champion    17.81  cma_sigma 0.4313  n_fresh 3  score_w 1.00  hits 0.03  P(L) 0.31  P(R) 0.31  drains 1.11   13.8s
+gen   65  best    12.13  mean     9.23  champion    17.81  cma_sigma 0.4339  n_fresh 3  score_w 1.00  hits 0.05  P(L) 0.45  P(R) 0.59  drains 0.79   13.8s
+gen   66  best     9.88  mean     8.17  champion    17.81  cma_sigma 0.4413  n_fresh 3  score_w 1.00  hits 0.03  P(L) 0.38  P(R) 0.40  drains 0.61   13.7s
+gen   67  best    26.59  mean    11.39  champion    15.72  cma_sigma 0.4409  n_fresh 3  score_w 1.00  hits 0.03  P(L) 0.37  P(R) 0.37  drains 0.16   16.3s
+gen   68  best    10.96  mean     8.76  champion    15.72  cma_sigma 0.4345  n_fresh 3  score_w 1.00  hits 0.05  P(L) 0.40  P(R) 0.60  drains 0.71   13.6s
+gen   69  best     9.82  mean     8.73  champion    15.72  cma_sigma 0.4228  n_fresh 3  score_w 1.00  hits 0.03  P(L) 0.40  P(R) 0.30  drains 0.55   13.6s
+gen   70  best    10.37  mean     9.46  champion    15.72  cma_sigma 0.4108  n_fresh 3  score_w 1.00  hits 0.00  P(L) 0.30  P(R) 0.48  drains 0.58   13.8s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen   71  best     9.51  mean     6.58  champion    15.72  cma_sigma 0.3941  n_fresh 3  score_w 1.00  hits 0.08  P(L) 0.48  P(R) 0.65  drains 2.05   13.7s
+gen   72  best    11.25  mean     9.16  champion    15.72  cma_sigma 0.3780  n_fresh 3  score_w 1.00  hits 0.03  P(L) 0.18  P(R) 0.51  drains 0.89   13.9s
+gen   73  best    10.24  mean     8.48  champion    15.72  cma_sigma 0.3612  n_fresh 3  score_w 1.00  hits 0.08  P(L) 0.27  P(R) 0.29  drains 1.05   14.1s
+gen   74  best    17.97  mean    10.81  champion    15.36  cma_sigma 0.3444  n_fresh 3  score_w 1.00  hits 0.13  P(L) 0.29  P(R) 0.42  drains 0.16   18.5s
+gen   75  best    16.15  mean     8.73  champion    15.39  cma_sigma 0.3288  n_fresh 3  score_w 1.00  hits 0.00  P(L) 0.50  P(R) 0.53  drains 0.18   17.6s
+gen   76  best    10.95  mean     8.64  champion    15.39  cma_sigma 0.3202  n_fresh 3  score_w 1.00  hits 0.05  P(L) 0.46  P(R) 0.62  drains 0.92   14.8s
+gen   77  best    19.09  mean     9.26  champion    15.47  cma_sigma 0.3099  n_fresh 3  score_w 1.00  hits 0.05  P(L) 0.41  P(R) 0.46  drains 0.71   17.7s
+gen   78  best    25.08  mean     9.81  champion    17.80  cma_sigma 0.2995  n_fresh 3  score_w 1.00  hits 0.13  P(L) 0.33  P(R) 0.35  drains 0.74   17.8s
+gen   79  best     9.68  mean     9.03  champion    17.80  cma_sigma 0.2878  n_fresh 3  score_w 1.00  hits 0.00  P(L) 0.71  P(R) 0.57  drains 0.47   14.8s
+gen   80  best    14.85  mean    10.85  champion    17.80  cma_sigma 0.2754  n_fresh 3  score_w 1.00  hits 0.29  P(L) 0.39  P(R) 0.41  drains 0.13   14.9s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen   81  best    12.85  mean     9.43  champion    17.80  cma_sigma 0.2692  n_fresh 3  score_w 1.00  hits 0.37  P(L) 0.39  P(R) 0.24  drains 0.66   15.0s
+gen   82  best     9.06  mean     8.15  champion    17.80  cma_sigma 0.2600  n_fresh 3  score_w 1.00  hits 0.05  P(L) 0.30  P(R) 0.32  drains 1.08   14.9s
+gen   83  best    12.55  mean     9.69  champion    17.80  cma_sigma 0.2552  n_fresh 3  score_w 1.00  hits 0.13  P(L) 0.24  P(R) 0.35  drains 0.34   15.0s
+gen   84  best    14.59  mean     8.55  champion    17.80  cma_sigma 0.2564  n_fresh 3  score_w 1.00  hits 0.21  P(L) 0.23  P(R) 0.34  drains 1.34   15.1s
+gen   85  best    16.38  mean     9.98  champion    17.80  cma_sigma 0.2548  n_fresh 3  score_w 1.00  hits 0.21  P(L) 0.46  P(R) 0.31  drains 0.37   15.0s
+gen   86  best    21.65  mean     7.89  champion    18.02  cma_sigma 0.2565  n_fresh 3  score_w 1.00  hits 0.08  P(L) 0.49  P(R) 0.43  drains 1.61   18.1s
+gen   87  best    14.31  mean     9.92  champion    18.02  cma_sigma 0.2592  n_fresh 3  score_w 1.00  hits 0.16  P(L) 0.31  P(R) 0.48  drains 1.03   15.1s
+gen   88  best    12.70  mean    10.21  champion    18.02  cma_sigma 0.2579  n_fresh 3  score_w 1.00  hits 0.18  P(L) 0.26  P(R) 0.36  drains 0.24   15.2s
+gen   89  best    13.14  mean    10.90  champion    18.02  cma_sigma 0.2523  n_fresh 3  score_w 1.00  hits 0.21  P(L) 0.30  P(R) 0.45  drains 0.03   15.1s
+gen   90  best    13.04  mean    10.02  champion    18.02  cma_sigma 0.2505  n_fresh 3  score_w 1.00  hits 0.45  P(L) 0.22  P(R) 0.40  drains 0.79   15.2s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen   91  best    17.58  mean     7.53  champion    18.02  cma_sigma 0.2464  n_fresh 3  score_w 1.00  hits 0.18  P(L) 0.25  P(R) 0.53  drains 1.76   15.2s
+gen   92  best    18.14  mean     9.69  champion    19.53  cma_sigma 0.2450  n_fresh 3  score_w 1.00  hits 0.11  P(L) 0.41  P(R) 0.37  drains 1.16   18.1s
+gen   93  best    20.01  mean    10.26  champion    17.34  cma_sigma 0.2421  n_fresh 3  score_w 1.00  hits 0.16  P(L) 0.31  P(R) 0.52  drains 0.21   18.0s
+gen   94  best    10.51  mean     8.44  champion    17.34  cma_sigma 0.2373  n_fresh 3  score_w 1.00  hits 0.08  P(L) 0.30  P(R) 0.44  drains 0.79   15.4s
+gen   95  best    17.14  mean     8.24  champion    17.34  cma_sigma 0.2322  n_fresh 3  score_w 1.00  hits 0.29  P(L) 0.60  P(R) 0.62  drains 1.34   15.3s
+gen   96  best    23.47  mean    11.04  champion    17.20  cma_sigma 0.2316  n_fresh 3  score_w 1.00  hits 0.13  P(L) 0.41  P(R) 0.52  drains 0.71   18.6s
+gen   97  best    11.31  mean     8.91  champion    17.20  cma_sigma 0.2279  n_fresh 3  score_w 1.00  hits 0.08  P(L) 0.35  P(R) 0.52  drains 1.03   15.7s
+gen   98  best    13.19  mean     9.00  champion    17.20  cma_sigma 0.2297  n_fresh 3  score_w 1.00  hits 0.37  P(L) 0.18  P(R) 0.31  drains 0.92   15.7s
+gen   99  best    16.08  mean    10.39  champion    17.20  cma_sigma 0.2287  n_fresh 3  score_w 1.00  hits 0.18  P(L) 0.23  P(R) 0.30  drains 0.18   15.7s
+gen  100  best    10.07  mean     7.26  champion    17.20  cma_sigma 0.2252  n_fresh 3  score_w 1.00  hits 0.16  P(L) 0.31  P(R) 0.45  drains 1.58   15.6s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen  101  best    18.53  mean    10.19  champion    18.68  cma_sigma 0.2205  n_fresh 3  score_w 1.00  hits 0.34  P(L) 0.27  P(R) 0.50  drains 0.89   18.8s
+gen  102  best    17.79  mean    10.24  champion    18.68  cma_sigma 0.2212  n_fresh 3  score_w 1.00  hits 0.13  P(L) 0.47  P(R) 0.52  drains 0.08   15.7s
+gen  103  best    21.39  mean    11.35  champion    14.21  cma_sigma 0.2185  n_fresh 3  score_w 1.00  hits 0.21  P(L) 0.57  P(R) 0.56  drains 0.13   18.8s
+gen  104  best    19.39  mean     8.82  champion    18.94  cma_sigma 0.2212  n_fresh 3  score_w 1.00  hits 0.03  P(L) 0.27  P(R) 0.57  drains 1.61   18.9s
+gen  105  best    16.25  mean     9.00  champion    18.94  cma_sigma 0.2203  n_fresh 3  score_w 1.00  hits 0.37  P(L) 0.33  P(R) 0.58  drains 1.26   15.7s
+gen  106  best    16.71  mean    10.18  champion    18.94  cma_sigma 0.2240  n_fresh 3  score_w 1.00  hits 0.03  P(L) 0.43  P(R) 0.61  drains 0.76   15.9s
+gen  107  best    17.19  mean     8.71  champion    18.94  cma_sigma 0.2285  n_fresh 3  score_w 1.00  hits 0.03  P(L) 0.35  P(R) 0.47  drains 1.13   15.7s
+gen  108  best    10.10  mean     8.61  champion    18.94  cma_sigma 0.2330  n_fresh 3  score_w 1.00  hits 0.08  P(L) 0.39  P(R) 0.58  drains 1.13   15.8s
+gen  109  best    15.94  mean     7.75  champion    18.94  cma_sigma 0.2333  n_fresh 3  score_w 1.00  hits 0.05  P(L) 0.28  P(R) 0.43  drains 1.63   15.8s
+gen  110  best    14.49  mean     8.65  champion    18.94  cma_sigma 0.2295  n_fresh 3  score_w 1.00  hits 0.47  P(L) 0.24  P(R) 0.72  drains 1.97   15.8s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen  111  best    17.95  mean    11.50  champion    18.94  cma_sigma 0.2303  n_fresh 3  score_w 1.00  hits 0.16  P(L) 0.22  P(R) 0.65  drains 0.24   15.8s
+gen  112  best    19.48  mean    11.38  champion    12.96  cma_sigma 0.2277  n_fresh 3  score_w 1.00  hits 0.26  P(L) 0.38  P(R) 0.77  drains 0.68   18.9s
+gen  113  best    17.68  mean    10.09  champion    20.12  cma_sigma 0.2288  n_fresh 3  score_w 1.00  hits 0.08  P(L) 0.33  P(R) 0.62  drains 0.50   19.0s
+gen  114  best    14.99  mean    10.13  champion    20.12  cma_sigma 0.2273  n_fresh 3  score_w 1.00  hits 0.16  P(L) 0.56  P(R) 0.91  drains 0.53   15.9s
+gen  115  best     8.60  mean     7.05  champion    20.12  cma_sigma 0.2244  n_fresh 3  score_w 1.00  hits 0.00  P(L) 0.24  P(R) 0.76  drains 1.95   16.0s
+gen  116  best    13.05  mean     7.62  champion    20.12  cma_sigma 0.2207  n_fresh 3  score_w 1.00  hits 0.29  P(L) 0.39  P(R) 0.83  drains 1.74   16.0s
+gen  117  best    11.61  mean     9.78  champion    20.12  cma_sigma 0.2144  n_fresh 3  score_w 1.00  hits 0.11  P(L) 0.39  P(R) 0.52  drains 0.08   16.0s
+gen  118  best    11.36  mean     9.68  champion    20.12  cma_sigma 0.2075  n_fresh 3  score_w 1.00  hits 0.05  P(L) 0.33  P(R) 0.63  drains 0.61   16.0s
+gen  119  best    10.18  mean     8.64  champion    20.12  cma_sigma 0.2066  n_fresh 3  score_w 1.00  hits 0.32  P(L) 0.45  P(R) 0.73  drains 1.53   16.2s
+gen  120  best    18.15  mean    10.22  champion    20.12  cma_sigma 0.2021  n_fresh 3  score_w 1.00  hits 0.29  P(L) 0.13  P(R) 0.84  drains 0.11   15.9s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen  121  best    19.51  mean     9.28  champion    20.12  cma_sigma 0.2011  n_fresh 3  score_w 1.00  hits 0.26  P(L) 0.26  P(R) 0.71  drains 1.26   16.0s
+gen  122  best    19.72  mean    10.99  champion    20.12  cma_sigma 0.2046  n_fresh 3  score_w 1.00  hits 0.24  P(L) 0.38  P(R) 0.82  drains 0.21   16.0s
+gen  123  best    14.06  mean     9.19  champion    20.12  cma_sigma 0.2045  n_fresh 3  score_w 1.00  hits 0.26  P(L) 0.40  P(R) 0.60  drains 0.61   16.0s
+gen  124  best    10.41  mean     7.86  champion    20.12  cma_sigma 0.2075  n_fresh 3  score_w 1.00  hits 0.11  P(L) 0.43  P(R) 0.56  drains 1.29   16.0s
+gen  125  best    20.90  mean    10.60  champion    18.93  cma_sigma 0.2080  n_fresh 3  score_w 1.00  hits 0.08  P(L) 0.48  P(R) 0.62  drains 0.95   19.1s
+gen  126  best    11.74  mean     9.93  champion    18.93  cma_sigma 0.2121  n_fresh 3  score_w 1.00  hits 0.03  P(L) 0.36  P(R) 0.81  drains 0.11   16.0s
+gen  127  best    16.98  mean    10.71  champion    18.93  cma_sigma 0.2133  n_fresh 3  score_w 1.00  hits 0.42  P(L) 0.34  P(R) 0.88  drains 0.74   17.9s
+gen  128  best    19.73  mean    10.82  champion    13.27  cma_sigma 0.2154  n_fresh 3  score_w 1.00  hits 0.16  P(L) 0.25  P(R) 0.75  drains 0.13   20.3s
+gen  129  best    24.82  mean    10.76  champion    16.89  cma_sigma 0.2128  n_fresh 3  score_w 1.00  hits 0.34  P(L) 0.19  P(R) 0.83  drains 1.34   18.2s
+gen  130  best    11.37  mean     8.99  champion    16.89  cma_sigma 0.2139  n_fresh 3  score_w 1.00  hits 0.00  P(L) 0.28  P(R) 0.73  drains 0.61   15.1s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen  131  best    16.15  mean    10.80  champion    16.89  cma_sigma 0.2182  n_fresh 3  score_w 1.00  hits 0.08  P(L) 0.33  P(R) 0.65  drains 0.29   15.5s
+gen  132  best    10.92  mean     9.20  champion    16.89  cma_sigma 0.2200  n_fresh 3  score_w 1.00  hits 0.16  P(L) 0.43  P(R) 0.81  drains 0.71   16.5s
+gen  133  best    16.66  mean    11.06  champion    16.89  cma_sigma 0.2235  n_fresh 3  score_w 1.00  hits 0.29  P(L) 0.31  P(R) 0.57  drains 0.24   15.3s
+gen  134  best    22.54  mean     9.06  champion    15.40  cma_sigma 0.2296  n_fresh 3  score_w 1.00  hits 0.16  P(L) 0.48  P(R) 0.75  drains 1.63   16.8s
+gen  135  best    10.40  mean     7.50  champion    15.40  cma_sigma 0.2314  n_fresh 3  score_w 1.00  hits 0.26  P(L) 0.38  P(R) 0.88  drains 1.95   14.4s
+gen  136  best    20.58  mean     9.91  champion    16.46  cma_sigma 0.2339  n_fresh 3  score_w 1.00  hits 0.32  P(L) 0.29  P(R) 0.63  drains 1.16   16.2s
+gen  137  best    22.95  mean    11.26  champion    15.77  cma_sigma 0.2320  n_fresh 3  score_w 1.00  hits 0.16  P(L) 0.45  P(R) 0.63  drains 0.37   21.3s
+gen  138  best    16.69  mean     9.71  champion    14.85  cma_sigma 0.2332  n_fresh 3  score_w 1.00  hits 0.24  P(L) 0.39  P(R) 0.54  drains 0.61   19.8s
+gen  139  best    19.09  mean    10.13  champion    13.26  cma_sigma 0.2315  n_fresh 3  score_w 1.00  hits 0.08  P(L) 0.39  P(R) 0.77  drains 0.74   19.6s
+gen  140  best    25.85  mean     9.63  champion    16.83  cma_sigma 0.2280  n_fresh 3  score_w 1.00  hits 0.03  P(L) 0.30  P(R) 0.70  drains 1.34   18.4s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen  141  best    25.69  mean    10.17  champion    10.11  cma_sigma 0.2297  n_fresh 3  score_w 1.00  hits 0.08  P(L) 0.30  P(R) 0.86  drains 1.03   16.5s
+gen  142  best    13.51  mean     8.64  champion    16.47  cma_sigma 0.2260  n_fresh 3  score_w 1.00  hits 0.24  P(L) 0.41  P(R) 0.67  drains 0.74   16.5s
+gen  143  best    12.51  mean     8.85  champion    16.47  cma_sigma 0.2213  n_fresh 3  score_w 1.00  hits 0.26  P(L) 0.30  P(R) 0.75  drains 1.32   14.3s
+gen  144  best    15.57  mean     9.61  champion    16.47  cma_sigma 0.2168  n_fresh 3  score_w 1.00  hits 0.24  P(L) 0.30  P(R) 0.79  drains 1.66   16.0s
+gen  145  best    15.70  mean     8.93  champion    16.47  cma_sigma 0.2117  n_fresh 3  score_w 1.00  hits 0.16  P(L) 0.42  P(R) 0.87  drains 0.84   14.6s
+gen  146  best    20.94  mean     9.15  champion    18.84  cma_sigma 0.2113  n_fresh 3  score_w 1.00  hits 0.32  P(L) 0.34  P(R) 0.80  drains 1.61   16.2s
+gen  147  best    13.11  mean     8.11  champion    18.84  cma_sigma 0.2074  n_fresh 3  score_w 1.00  hits 0.08  P(L) 0.36  P(R) 0.73  drains 1.47   13.5s
+gen  148  best    17.71  mean    10.56  champion    18.84  cma_sigma 0.2071  n_fresh 3  score_w 1.00  hits 0.08  P(L) 0.28  P(R) 0.73  drains 0.55   13.6s
+gen  149  best    16.66  mean     8.19  champion    18.84  cma_sigma 0.2100  n_fresh 3  score_w 1.00  hits 0.05  P(L) 0.52  P(R) 0.74  drains 1.61   13.9s
+gen  150  best    12.19  mean     7.62  champion    18.84  cma_sigma 0.2157  n_fresh 3  score_w 1.00  hits 0.11  P(L) 0.51  P(R) 0.59  drains 1.68   13.8s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen  151  best    10.60  mean     8.38  champion    18.84  cma_sigma 0.2177  n_fresh 3  score_w 1.00  hits 0.03  P(L) 0.35  P(R) 0.55  drains 0.63   13.3s
+gen  152  best    19.42  mean    10.17  champion    14.02  cma_sigma 0.2190  n_fresh 3  score_w 1.00  hits 0.00  P(L) 0.79  P(R) 0.82  drains 0.05   16.1s
+gen  153  best     8.17  mean     6.69  champion    14.02  cma_sigma 0.4000  n_fresh 3  score_w 1.00  hits 0.03  P(L) 0.79  P(R) 0.87  drains 1.55  [IPOP RESTART #1, popsize->32]   13.6s
+gen  154  best    20.60  mean     9.55  champion    20.35  cma_sigma 0.4032  n_fresh 6  score_w 1.00  hits 0.20  P(L) 0.67  P(R) 0.59  drains 0.50   27.4s
+gen  155  best    13.34  mean     9.86  champion    20.35  cma_sigma 0.4001  n_fresh 6  score_w 1.00  hits 0.09  P(L) 0.48  P(R) 0.48  drains 0.25   24.8s
+gen  156  best     9.84  mean     8.36  champion    20.35  cma_sigma 0.4049  n_fresh 6  score_w 1.00  hits 0.04  P(L) 0.58  P(R) 0.44  drains 0.68   25.6s
+gen  157  best    10.95  mean     8.12  champion    20.35  cma_sigma 0.3994  n_fresh 6  score_w 1.00  hits 0.12  P(L) 0.39  P(R) 0.46  drains 1.25   28.3s
+gen  158  best    11.99  mean     8.11  champion    20.35  cma_sigma 0.3892  n_fresh 6  score_w 1.00  hits 0.09  P(L) 0.34  P(R) 0.52  drains 0.62   27.5s
+gen  159  best    20.54  mean    10.95  champion    12.55  cma_sigma 0.3884  n_fresh 6  score_w 1.00  hits 0.12  P(L) 0.43  P(R) 0.70  drains 0.57   34.8s
+gen  160  best    19.23  mean     9.45  champion    13.64  cma_sigma 0.3950  n_fresh 6  score_w 1.00  hits 0.05  P(L) 0.50  P(R) 0.68  drains 0.54   28.2s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen  161  best    17.38  mean     9.91  champion    18.81  cma_sigma 0.3932  n_fresh 6  score_w 1.00  hits 0.07  P(L) 0.44  P(R) 0.64  drains 0.57   30.2s
+gen  162  best    17.34  mean     9.72  champion    18.81  cma_sigma 0.3942  n_fresh 6  score_w 1.00  hits 0.08  P(L) 0.32  P(R) 0.71  drains 0.92   27.2s
+gen  163  best    17.66  mean     8.90  champion    18.81  cma_sigma 0.3902  n_fresh 6  score_w 1.00  hits 0.20  P(L) 0.32  P(R) 0.68  drains 0.66   26.2s
+gen  164  best    19.78  mean     8.94  champion    18.68  cma_sigma 0.3829  n_fresh 6  score_w 1.00  hits 0.05  P(L) 0.34  P(R) 0.63  drains 1.04   27.1s
+gen  165  best    24.28  mean    10.75  champion    16.86  cma_sigma 0.3730  n_fresh 6  score_w 1.00  hits 0.16  P(L) 0.40  P(R) 0.84  drains 0.66   29.5s
+gen  166  best    17.79  mean    10.48  champion    18.42  cma_sigma 0.3621  n_fresh 6  score_w 1.00  hits 0.37  P(L) 0.37  P(R) 0.65  drains 0.95   29.5s
+gen  167  best    22.15  mean    10.78  champion    13.43  cma_sigma 0.3481  n_fresh 6  score_w 1.00  hits 0.29  P(L) 0.53  P(R) 0.69  drains 0.78   34.1s
+gen  168  best    13.92  mean     9.80  champion    21.09  cma_sigma 0.3406  n_fresh 6  score_w 1.00  hits 0.11  P(L) 0.50  P(R) 0.67  drains 0.09   30.2s
+gen  169  best    19.60  mean    10.78  champion    21.09  cma_sigma 0.3322  n_fresh 6  score_w 1.00  hits 0.05  P(L) 0.48  P(R) 0.58  drains 0.08   24.5s
+gen  170  best     9.18  mean     7.66  champion    21.09  cma_sigma 0.3208  n_fresh 6  score_w 1.00  hits 0.17  P(L) 0.48  P(R) 0.68  drains 1.54   26.1s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen  171  best    18.92  mean     9.55  champion    21.09  cma_sigma 0.3069  n_fresh 6  score_w 1.00  hits 0.17  P(L) 0.41  P(R) 0.68  drains 0.71   24.4s
+gen  172  best    21.68  mean    11.61  champion    16.15  cma_sigma 0.2924  n_fresh 6  score_w 1.00  hits 0.18  P(L) 0.57  P(R) 0.76  drains 0.03   26.8s
+gen  173  best    15.51  mean     8.74  champion    16.15  cma_sigma 0.2811  n_fresh 6  score_w 1.00  hits 0.11  P(L) 0.53  P(R) 0.69  drains 1.04   24.4s
+gen  174  best    23.57  mean    10.17  champion    13.45  cma_sigma 0.2710  n_fresh 6  score_w 1.00  hits 0.18  P(L) 0.54  P(R) 0.66  drains 0.66   26.9s
+gen  175  best    18.66  mean    10.19  champion    15.67  cma_sigma 0.2606  n_fresh 6  score_w 1.00  hits 0.28  P(L) 0.59  P(R) 0.91  drains 0.67   26.8s
+gen  176  best    21.23  mean    12.23  champion    10.49  cma_sigma 0.2502  n_fresh 6  score_w 1.00  hits 0.04  P(L) 0.35  P(R) 0.76  drains 0.08   26.8s
+gen  177  best    21.54  mean     8.54  champion    14.21  cma_sigma 0.2407  n_fresh 6  score_w 1.00  hits 0.17  P(L) 0.46  P(R) 0.76  drains 1.24   27.3s
+gen  178  best    16.86  mean     8.96  champion    18.38  cma_sigma 0.2318  n_fresh 6  score_w 1.00  hits 0.13  P(L) 0.53  P(R) 0.71  drains 0.55   26.8s
+gen  179  best    27.12  mean    11.62  champion    16.93  cma_sigma 0.2236  n_fresh 6  score_w 1.00  hits 0.22  P(L) 0.38  P(R) 0.73  drains 0.33   26.8s
+gen  180  best    21.52  mean     9.21  champion    18.07  cma_sigma 0.2193  n_fresh 6  score_w 1.00  hits 0.25  P(L) 0.33  P(R) 0.74  drains 0.88   27.0s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen  181  best    12.27  mean     8.41  champion    18.07  cma_sigma 0.2134  n_fresh 6  score_w 1.00  hits 0.38  P(L) 0.44  P(R) 0.73  drains 1.47   24.4s
+gen  182  best    25.74  mean    12.48  champion    11.69  cma_sigma 0.2075  n_fresh 6  score_w 1.00  hits 0.03  P(L) 0.45  P(R) 0.69  drains 0.55   26.8s
+gen  183  best    25.32  mean    11.94  champion    17.59  cma_sigma 0.2014  n_fresh 6  score_w 1.00  hits 0.30  P(L) 0.44  P(R) 0.82  drains 0.78   26.8s
+gen  184  best    22.66  mean    10.40  champion    11.77  cma_sigma 0.1941  n_fresh 6  score_w 1.00  hits 0.17  P(L) 0.47  P(R) 0.89  drains 1.08   26.8s
+gen  185  best    14.57  mean    10.84  champion    15.78  cma_sigma 0.1876  n_fresh 6  score_w 1.00  hits 0.25  P(L) 0.47  P(R) 0.85  drains 0.24   27.8s
+gen  186  best    16.60  mean     9.88  champion    21.28  cma_sigma 0.1810  n_fresh 6  score_w 1.00  hits 0.18  P(L) 0.54  P(R) 0.90  drains 0.33   27.5s
+gen  187  best    15.76  mean    10.02  champion    21.28  cma_sigma 0.1789  n_fresh 6  score_w 1.00  hits 0.11  P(L) 0.49  P(R) 0.77  drains 0.20   24.3s
+gen  188  best    14.70  mean     8.74  champion    21.28  cma_sigma 0.1756  n_fresh 6  score_w 1.00  hits 0.16  P(L) 0.41  P(R) 0.88  drains 1.17   24.4s
+gen  189  best    15.12  mean     8.07  champion    21.28  cma_sigma 0.1747  n_fresh 6  score_w 1.00  hits 0.24  P(L) 0.44  P(R) 0.82  drains 1.47   24.4s
+gen  190  best    20.29  mean    11.67  champion    21.28  cma_sigma 0.1731  n_fresh 6  score_w 1.00  hits 0.12  P(L) 0.38  P(R) 0.75  drains 0.22   24.4s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen  191  best    25.72  mean    14.39  champion    14.65  cma_sigma 0.1749  n_fresh 6  score_w 1.00  hits 0.00  P(L) 0.38  P(R) 0.83  drains 1.03   26.8s
+gen  192  best    22.94  mean    12.69  champion    13.26  cma_sigma 0.1785  n_fresh 6  score_w 1.00  hits 0.08  P(L) 0.47  P(R) 0.91  drains 1.55   26.9s
+gen  193  best    26.40  mean    11.59  champion    13.16  cma_sigma 0.1803  n_fresh 6  score_w 1.00  hits 0.18  P(L) 0.52  P(R) 0.77  drains 0.28   26.9s
+gen  194  best    19.70  mean    11.73  champion    18.70  cma_sigma 0.1839  n_fresh 6  score_w 1.00  hits 0.45  P(L) 0.48  P(R) 0.77  drains 0.20   26.9s
+gen  195  best    15.86  mean    10.71  champion    18.70  cma_sigma 0.1875  n_fresh 6  score_w 1.00  hits 0.03  P(L) 0.43  P(R) 0.80  drains 1.08   24.4s
+gen  196  best    24.81  mean    11.32  champion    19.47  cma_sigma 0.1911  n_fresh 6  score_w 1.00  hits 0.09  P(L) 0.48  P(R) 0.87  drains 0.87   27.0s
+gen  197  best    28.86  mean    11.23  champion    18.80  cma_sigma 0.1922  n_fresh 6  score_w 1.00  hits 0.08  P(L) 0.54  P(R) 0.79  drains 0.58   26.9s
+gen  198  best    19.52  mean     9.30  champion    14.73  cma_sigma 0.1904  n_fresh 6  score_w 1.00  hits 0.13  P(L) 0.47  P(R) 0.80  drains 1.03   26.9s
+gen  199  best    21.41  mean    11.24  champion    15.43  cma_sigma 0.1923  n_fresh 6  score_w 1.00  hits 0.08  P(L) 0.69  P(R) 0.96  drains 0.24   26.8s
+gen  200  best    23.17  mean    13.62  champion    19.35  cma_sigma 0.1955  n_fresh 6  score_w 1.00  hits 0.18  P(L) 0.60  P(R) 0.89  drains 0.12   26.8s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen  201  best    19.91  mean    11.00  champion    19.86  cma_sigma 0.1960  n_fresh 6  score_w 1.00  hits 0.21  P(L) 0.61  P(R) 0.87  drains 0.24   26.8s
+gen  202  best     9.38  mean     8.90  champion    19.86  cma_sigma 0.1925  n_fresh 6  score_w 1.00  hits 0.00  P(L) 0.58  P(R) 0.87  drains 1.05   24.4s
+gen  203  best    11.85  mean    10.28  champion    19.86  cma_sigma 0.1869  n_fresh 6  score_w 1.00  hits 0.11  P(L) 0.56  P(R) 0.86  drains 0.16   24.3s
+gen  204  best    21.72  mean    11.25  champion    15.34  cma_sigma 0.1818  n_fresh 6  score_w 1.00  hits 0.17  P(L) 0.46  P(R) 0.77  drains 0.67   26.8s
+gen  205  best    18.66  mean     9.86  champion    11.31  cma_sigma 0.1765  n_fresh 6  score_w 1.00  hits 0.21  P(L) 0.63  P(R) 0.82  drains 0.80   26.8s
+gen  206  best    17.50  mean    10.17  champion    17.09  cma_sigma 0.1698  n_fresh 6  score_w 1.00  hits 0.22  P(L) 0.66  P(R) 0.71  drains 0.75   26.8s
+gen  207  best    16.41  mean     8.51  champion    17.09  cma_sigma 0.1631  n_fresh 6  score_w 1.00  hits 0.25  P(L) 0.64  P(R) 0.68  drains 1.41   24.4s
+gen  208  best    21.64  mean    12.18  champion    17.11  cma_sigma 0.1608  n_fresh 6  score_w 1.00  hits 0.11  P(L) 0.61  P(R) 0.75  drains 0.62   26.8s
+gen  209  best    13.15  mean     9.36  champion    17.11  cma_sigma 0.1576  n_fresh 6  score_w 1.00  hits 0.12  P(L) 0.60  P(R) 0.80  drains 0.57   24.5s
+gen  210  best    16.32  mean    10.29  champion    17.11  cma_sigma 0.1521  n_fresh 6  score_w 1.00  hits 0.20  P(L) 0.56  P(R) 0.78  drains 0.78   24.5s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen  211  best    22.61  mean    10.75  champion    16.92  cma_sigma 0.1472  n_fresh 6  score_w 1.00  hits 0.41  P(L) 0.62  P(R) 0.75  drains 1.36   27.1s
+gen  212  best    21.18  mean    10.83  champion    16.03  cma_sigma 0.1422  n_fresh 6  score_w 1.00  hits 0.37  P(L) 0.62  P(R) 0.78  drains 1.28   27.1s
+gen  213  best    23.10  mean    12.88  champion    15.41  cma_sigma 0.1402  n_fresh 6  score_w 1.00  hits 0.30  P(L) 0.65  P(R) 0.79  drains 0.63   27.1s
+gen  214  best    18.03  mean    10.23  champion    19.22  cma_sigma 0.1376  n_fresh 6  score_w 1.00  hits 0.24  P(L) 0.64  P(R) 0.88  drains 0.79   27.1s
+gen  215  best    16.25  mean     8.83  champion    19.22  cma_sigma 0.1368  n_fresh 6  score_w 1.00  hits 0.29  P(L) 0.53  P(R) 0.82  drains 1.13   24.6s
+gen  216  best    17.73  mean     8.91  champion    19.22  cma_sigma 0.1335  n_fresh 6  score_w 1.00  hits 0.22  P(L) 0.46  P(R) 0.92  drains 1.95   24.6s
+gen  217  best    21.58  mean    11.66  champion    13.28  cma_sigma 0.1297  n_fresh 6  score_w 1.00  hits 0.16  P(L) 0.53  P(R) 0.78  drains 1.11   27.0s
+gen  218  best    16.34  mean     8.23  champion    13.06  cma_sigma 0.1257  n_fresh 6  score_w 1.00  hits 0.36  P(L) 0.59  P(R) 0.92  drains 1.92   27.2s
+gen  219  best    22.12  mean    13.00  champion    12.26  cma_sigma 0.1216  n_fresh 6  score_w 1.00  hits 0.22  P(L) 0.48  P(R) 0.93  drains 1.50   27.0s
+gen  220  best    27.94  mean    16.75  champion    17.54  cma_sigma 0.1174  n_fresh 6  score_w 1.00  hits 0.29  P(L) 0.55  P(R) 0.92  drains 0.13   27.0s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen  221  best    12.82  mean     9.58  champion    17.54  cma_sigma 0.1121  n_fresh 6  score_w 1.00  hits 0.25  P(L) 0.69  P(R) 0.91  drains 1.25   24.5s
+gen  222  best    11.41  mean     9.59  champion    17.54  cma_sigma 0.1093  n_fresh 6  score_w 1.00  hits 0.11  P(L) 0.54  P(R) 0.91  drains 0.50   24.5s
+gen  223  best    24.15  mean    11.33  champion    10.75  cma_sigma 0.1065  n_fresh 6  score_w 1.00  hits 0.21  P(L) 0.36  P(R) 0.91  drains 0.68   27.1s
+gen  224  best    19.99  mean    10.48  champion    14.32  cma_sigma 0.1032  n_fresh 6  score_w 1.00  hits 0.46  P(L) 0.53  P(R) 0.90  drains 1.36   27.0s
+gen  225  best    26.83  mean    11.78  champion    16.74  cma_sigma 0.0997  n_fresh 6  score_w 1.00  hits 0.46  P(L) 0.60  P(R) 0.85  drains 1.11   27.0s
+gen  226  best    13.42  mean     8.77  champion    16.74  cma_sigma 0.4000  n_fresh 6  score_w 1.00  hits 0.14  P(L) 0.65  P(R) 0.90  drains 1.17  [IPOP RESTART #2, popsize->64]   24.6s
+gen  227  best    22.20  mean     9.03  champion    21.59  cma_sigma 0.4078  n_fresh 13  score_w 1.00  hits 0.10  P(L) 0.53  P(R) 0.69  drains 1.12   51.6s
+gen  228  best    10.55  mean     8.84  champion    21.59  cma_sigma 0.4076  n_fresh 13  score_w 1.00  hits 0.03  P(L) 0.52  P(R) 0.62  drains 0.52   49.1s
+gen  229  best    15.66  mean     9.42  champion    21.59  cma_sigma 0.4005  n_fresh 13  score_w 1.00  hits 0.14  P(L) 0.49  P(R) 0.73  drains 0.48   49.1s
+gen  230  best    21.96  mean    10.18  champion    19.61  cma_sigma 0.3894  n_fresh 13  score_w 1.00  hits 0.14  P(L) 0.49  P(R) 0.70  drains 0.67   51.6s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen  231  best    20.59  mean    11.74  champion    13.05  cma_sigma 0.3783  n_fresh 13  score_w 1.00  hits 0.08  P(L) 0.49  P(R) 0.85  drains 0.21   51.6s
+gen  232  best    25.07  mean    10.91  champion    14.80  cma_sigma 0.3779  n_fresh 13  score_w 1.00  hits 0.15  P(L) 0.57  P(R) 0.86  drains 0.64   51.6s
+gen  233  best    16.76  mean    10.13  champion    19.11  cma_sigma 0.3751  n_fresh 13  score_w 1.00  hits 0.03  P(L) 0.57  P(R) 0.84  drains 0.55   51.5s
+gen  234  best    15.61  mean     9.88  champion    19.11  cma_sigma 0.3676  n_fresh 13  score_w 1.00  hits 0.12  P(L) 0.54  P(R) 0.82  drains 0.03   49.2s
+gen  235  best    12.24  mean     9.53  champion    19.11  cma_sigma 0.3651  n_fresh 13  score_w 1.00  hits 0.12  P(L) 0.48  P(R) 0.77  drains 1.16   49.1s
+gen  236  best    18.54  mean     8.85  champion    19.11  cma_sigma 0.3566  n_fresh 13  score_w 1.00  hits 0.15  P(L) 0.42  P(R) 0.73  drains 0.90   49.2s
+gen  237  best    19.08  mean     8.64  champion    19.11  cma_sigma 0.3478  n_fresh 13  score_w 1.00  hits 0.09  P(L) 0.41  P(R) 0.77  drains 1.23   49.1s
+gen  238  best    19.55  mean     8.37  champion    15.45  cma_sigma 0.3464  n_fresh 13  score_w 1.00  hits 0.06  P(L) 0.54  P(R) 0.85  drains 1.69   51.6s
+gen  239  best    17.05  mean    10.31  champion    21.03  cma_sigma 0.3411  n_fresh 13  score_w 1.00  hits 0.06  P(L) 0.41  P(R) 0.73  drains 0.64   51.8s
+gen  240  best    14.51  mean     7.94  champion    21.03  cma_sigma 0.3332  n_fresh 13  score_w 1.00  hits 0.06  P(L) 0.47  P(R) 0.89  drains 1.51   49.0s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+gen  241  best    18.58  mean     9.61  champion    21.03  cma_sigma 0.3245  n_fresh 13  score_w 1.00  hits 0.24  P(L) 0.58  P(R) 0.86  drains 0.68   50.5s
+gen  242  best    12.54  mean     7.50  champion    21.03  cma_sigma 0.3136  n_fresh 13  score_w 1.00  hits 0.30  P(L) 0.47  P(R) 0.83  drains 1.62   50.2s
+gen  243  best    16.38  mean     9.40  champion    21.03  cma_sigma 0.3096  n_fresh 13  score_w 1.00  hits 0.10  P(L) 0.49  P(R) 0.79  drains 1.25   50.3s
+gen  244  best    25.34  mean     8.72  champion    17.23  cma_sigma 0.3108  n_fresh 13  score_w 1.00  hits 0.24  P(L) 0.47  P(R) 0.75  drains 1.34   52.8s
+gen  245  best    22.04  mean    10.23  champion    22.04  cma_sigma 0.3105  n_fresh 13  score_w 1.00  hits 0.05  P(L) 0.55  P(R) 0.81  drains 0.60   52.8s
+gen  246  best    25.89  mean    10.68  champion    11.63  cma_sigma 0.3143  n_fresh 13  score_w 1.00  hits 0.10  P(L) 0.53  P(R) 0.83  drains 0.27   52.9s
+gen  247  best    26.52  mean    11.13  champion    10.34  cma_sigma 0.3140  n_fresh 13  score_w 1.00  hits 0.08  P(L) 0.48  P(R) 0.82  drains 0.82   52.6s
+gen  248  best    12.22  mean     8.22  champion    16.15  cma_sigma 0.3087  n_fresh 13  score_w 1.00  hits 0.20  P(L) 0.50  P(R) 0.86  drains 0.81   51.6s
+gen  249  best    16.66  mean     9.83  champion    10.83  cma_sigma 0.3071  n_fresh 13  score_w 1.00  hits 0.31  P(L) 0.40  P(R) 0.73  drains 0.66   51.5s
+gen  250  best    25.04  mean     9.62  champion    13.43  cma_sigma 0.3113  n_fresh 13  score_w 1.00  hits 0.05  P(L) 0.45  P(R) 0.81  drains 0.69   51.8s
+  saved checkpoint: /tmp/local_validation_reward_redesign_v3.pt (+ /tmp/local_validation_reward_redesign_v3.pt.cma.pkl)
+training complete, final checkpoint: /tmp/local_validation_reward_redesign_v3.pt

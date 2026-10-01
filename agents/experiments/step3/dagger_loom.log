@@ -1,0 +1,10 @@
+dagger_y11.5_h1_loom12_tau4_r8
+  round 0: reflex rollouts mean log1p 11.40, dataset 31525
+  round 1: agent rollouts mean log1p 10.29, dataset 48089
+  round 2: agent rollouts mean log1p 10.47, dataset 65630
+  round 3: agent rollouts mean log1p 10.71, dataset 85951
+dagger_y11.5_h1_loom_tau2_r8
+  round 0: reflex rollouts mean log1p 11.40, dataset 31525
+  round 1: agent rollouts mean log1p 9.88, dataset 43972
+  round 2: agent rollouts mean log1p 9.95, dataset 56547
+  round 3: agent rollouts mean log1p 10.10, dataset 71092

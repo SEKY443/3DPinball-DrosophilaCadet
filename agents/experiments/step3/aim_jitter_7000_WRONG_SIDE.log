@@ -1,0 +1,33 @@
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+    def _shutdown():
+    
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/train_pinball_circuit_cem.py", line 189, in _on_terminate
+    sys.exit(0)
+SystemExit: 0
+{
+ "presses": 76,
+ "jitter_runs": 304,
+ "jitter_no_contact": 6,
+ "comparable": 76,
+ "real_gt_median": 1,
+ "ties": 71,
+ "real_lt_median": 4,
+ "frac_gt": 0.013157894736842105,
+ "ci95_gt": [
+  0.002326420140567463,
+  0.0708384462949749
+ ],
+ "frac_gt_excluding_ties": 0.2,
+ "ci95_excl_ties": [
+  0.03622316096978745,
+  0.6244717358814613
+ ],
+ "ties_all_zero": 25,
+ "mean_real": 4532.894736842105,
+ "mean_jitter": 4713.926174496644,
+ "median_margin": 0.0,
+ "seconds": 904
+}
+wrote agents/experiments/step3/aim_jitter_7000.json

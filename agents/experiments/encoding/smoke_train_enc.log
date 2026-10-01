@@ -1,0 +1,10 @@
+train_enc: sensory encoding 'popcode'
+decoder parameter count (CEM search dimension): 667
+resumed from agents/experiments/encoding/start_popcode_seed.pt at generation 1 (champion_fitness=-1000000000000000000.00, curriculum_start_gen=1)
+/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/cma/s.py:17: UserWarning: Could not import matplotlib.pyplot, therefore ``cma.plot()`` etc. is not available
+  _warnings.warn('Could not import matplotlib.pyplot, therefore'
+no /private/tmp/claude-501/-Users-seky-Developer-Git-3DPinball-DrosophilaCadet/b449083f-c590-487b-aab1-fbfe9397c7c2/scratchpad/smoke/smoke.pt.cma.pkl found - starting CMA-ES fresh from the resumed mean (covariance/step-size history is lost, but the search center is not)
+  validation: challenger 8.979 vs champion 8.979 (diff +0.001, SE 0.000) -> PROMOTED
+gen    1  best     8.92  mean     8.92  champion     8.98  cma_sigma 0.0489  n_fresh 0  score_w 1.00  life    150  score     7500  act_up       0  contacts 0.00  drained 0.00  P(L) 0.00  P(R) 0.01  presses 0    5.5s
+  saved checkpoint: /private/tmp/claude-501/-Users-seky-Developer-Git-3DPinball-DrosophilaCadet/b449083f-c590-487b-aab1-fbfe9397c7c2/scratchpad/smoke/smoke.pt (+ /private/tmp/claude-501/-Users-seky-Developer-Git-3DPinball-DrosophilaCadet/b449083f-c590-487b-aab1-fbfe9397c7c2/scratchpad/smoke/smoke.pt.cma.pkl)
+training complete, final checkpoint: /private/tmp/claude-501/-Users-seky-Developer-Git-3DPinball-DrosophilaCadet/b449083f-c590-487b-aab1-fbfe9397c7c2/scratchpad/smoke/smoke.pt

@@ -1,0 +1,11 @@
+decision-step duration estimate: median dy/vy = 0.0331 s (T.LOOM_STEP_DT = 0.04)
+steps 31525  press rate L 0.0045 R 0.0055
+loom12(tau0=1.0)       L: AUC 0.982 prec@rate 0.361   R: AUC 0.977 prec@rate 0.247
+    lag profile L (score at t+lag vs press at t): -3:0.935 -2:0.958 -1:0.975 +0:0.982 +1:0.882 +2:0.652 +3:0.732   peak +0
+    lag profile R (score at t+lag vs press at t): -3:0.941 -2:0.954 -1:0.970 +0:0.977 +1:0.776 +2:0.736 +3:0.697   peak +0
+loom12(tau0=2.0)       L: AUC 0.989 prec@rate 0.349   R: AUC 0.981 prec@rate 0.269
+    lag profile L (score at t+lag vs press at t): -3:0.926 -2:0.943 -1:0.979 +0:0.989 +1:0.918 +2:0.636 +3:0.650   peak +0
+    lag profile R (score at t+lag vs press at t): -3:0.938 -2:0.965 -1:0.977 +0:0.981 +1:0.807 +2:0.745 +3:0.689   peak +0
+loom12(tau0=4.0)       L: AUC 0.987 prec@rate 0.386   R: AUC 0.986 prec@rate 0.312
+    lag profile L (score at t+lag vs press at t): -3:0.941 -2:0.977 -1:0.986 +0:0.987 +1:0.952 +2:0.740 +3:0.679   peak +0
+    lag profile R (score at t+lag vs press at t): -3:0.966 -2:0.974 -1:0.983 +0:0.986 +1:0.809 +2:0.748 +3:0.674   peak +0

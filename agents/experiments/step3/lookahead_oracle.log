@@ -1,0 +1,39 @@
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 656, in _exitfunc
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 656, in _exitfunc
+    pending = cls._select_for_exit()
+    pending = cls._select_for_exit()
+              ^^^^^^^^^^^^^^^^^^^^^^
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 637, in _select_for_exit
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 637, in _select_for_exit
+    L = [(f,i) for (f,i) in cls._registry.items() if i.atexit]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 637, in <listcomp>
+    L = [(f,i) for (f,i) in cls._registry.items() if i.atexit]
+    L = [(f,i) for (f,i) in cls._registry.items() if i.atexit]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 637, in <listcomp>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/step3/lookahead_oracle.py", line 48, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    L = [(f,i) for (f,i) in cls._registry.items() if i.atexit]
+                                             ^^^^^^^^^^^
+SystemExit: 0
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/step3/lookahead_oracle.py", line 48, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+{'seed': 7024, 'base_score': 802500, 'base_steps': 2058, 'oracle_score': 498500, 'oracle_steps': 1821, 'approaches': 8}
+{'seed': 7025, 'base_score': 50250, 'base_steps': 571, 'oracle_score': 89000, 'oracle_steps': 1011, 'approaches': 11}
+{'seed': 7026, 'base_score': 271250, 'base_steps': 3000, 'oracle_score': 56500, 'oracle_steps': 564, 'approaches': 9}
+{'seed': 7027, 'base_score': 100250, 'base_steps': 892, 'oracle_score': 174000, 'oracle_steps': 1421, 'approaches': 12}
+{'seed': 7028, 'base_score': 90750, 'base_steps': 1937, 'oracle_score': 90750, 'oracle_steps': 1937, 'approaches': 4}
+{'seed': 7029, 'base_score': 136500, 'base_steps': 1924, 'oracle_score': 68750, 'oracle_steps': 873, 'approaches': 9}
+{'seed': 7030, 'base_score': 63000, 'base_steps': 912, 'oracle_score': 263000, 'oracle_steps': 2186, 'approaches': 18}
+{'seed': 7031, 'base_score': 70000, 'base_steps': 958, 'oracle_score': 36750, 'oracle_steps': 518, 'approaches': 6}
+8 lives, 805s  base reflex log1p 11.74  oracle log1p 11.63  paired diff -0.10 (SE 0.33)  steps base 1532 oracle 1291

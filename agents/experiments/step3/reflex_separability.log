@@ -1,0 +1,6 @@
+steps 31525  press rate L 0.0045 R 0.0055
+circuit readout80 linear [raw]     L: AUC 0.976 prec@rate 0.361 (n+ 83)   R: AUC 0.980 prec@rate 0.473 (n+ 93)
+circuit readout80 linear [zero]    L: AUC 0.974 prec@rate 0.301 (n+ 83)   R: AUC 0.972 prec@rate 0.290 (n+ 93)
+circuit readout80 linear [delay1]  L: AUC 0.975 prec@rate 0.265 (n+ 83)   R: AUC 0.982 prec@rate 0.516 (n+ 93)
+raw obs linear                     L: AUC 0.955 prec@rate 0.084 (n+ 83)   R: AUC 0.962 prec@rate 0.140 (n+ 93)
+raw obs MLP(32)                    L: AUC 0.996 prec@rate 0.506 (n+ 83)   R: AUC 0.998 prec@rate 0.677 (n+ 93)

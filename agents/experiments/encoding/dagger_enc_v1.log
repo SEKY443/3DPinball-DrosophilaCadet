@@ -1,0 +1,14 @@
+held-out lives 7024..7071
+variant                             log1p    se    score  steps  cont  press  P(L)  P(R)  agree recall   prec
+dagger_dspop+ttc_delay1_r8          11.15  0.12    94057   1211   6.8   10.3 0.007 0.004  0.993  0.708  0.734
+  round 0: reflex rollouts mean log1p 11.40, recall 1.00, dataset 31525
+  round 1: agent rollouts mean log1p 11.53, recall 0.60, dataset 65629
+  round 2: agent rollouts mean log1p 11.41, recall 0.69, dataset 97645
+  round 3: agent rollouts mean log1p 11.46, recall 0.68, dataset 129523
+  (627s)
+dagger_popcode_delay1_r8            11.41  0.12   129906   1241   6.3   11.0 0.006 0.005  0.995  0.794  0.791
+  round 0: reflex rollouts mean log1p 11.40, recall 1.00, dataset 31525
+  round 1: agent rollouts mean log1p 11.36, recall 0.76, dataset 63217
+  round 2: agent rollouts mean log1p 11.31, recall 0.69, dataset 94425
+  round 3: agent rollouts mean log1p 11.31, recall 0.78, dataset 125838
+  (610s)

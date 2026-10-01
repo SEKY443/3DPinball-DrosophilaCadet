@@ -1,0 +1,329 @@
+WATCHDOG: Tue Sep 29 01:52:28 AM UTC 2026 current saved generation: 0
+decoder parameter count (CEM search dimension): 667
+resumed from /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt at generation 1 (champion_fitness=-1000000000000000000.00, curriculum_start_gen=1)
+no /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl found - starting CMA-ES fresh from the resumed mean (covariance/step-size history is lost, but the search center is not)
+  validation: challenger 10.845 vs champion 11.393 (diff -0.548, SE 0.203)
+gen    1  best    11.41  mean    10.34  champion    11.39  cma_sigma 0.2023  n_fresh 0  score_w 1.00  life    714  score    56783  contacts 3.09  drained 0.92  P(L) 0.20  P(R) 0.27  129.0s
+  validation: challenger 10.956 vs champion 11.068 (diff -0.113, SE 0.167)
+gen    2  best    11.62  mean    10.74  champion    11.07  cma_sigma 0.2019  n_fresh 0  score_w 1.00  life   1057  score    80350  contacts 3.75  drained 0.91  P(L) 0.32  P(R) 0.42  149.5s
+  validation: challenger 11.046 vs champion 11.058 (diff -0.012, SE 0.192)
+gen    3  best    11.87  mean    10.73  champion    11.06  cma_sigma 0.1982  n_fresh 0  score_w 1.00  life   1110  score    76914  contacts 6.34  drained 0.96  P(L) 0.29  P(R) 0.39  157.9s
+  validation: challenger 10.779 vs champion 10.950 (diff -0.170, SE 0.183)
+gen    4  best    11.71  mean    10.89  champion    10.95  cma_sigma 0.1968  n_fresh 0  score_w 1.00  life   1076  score    82447  contacts 5.79  drained 0.93  P(L) 0.31  P(R) 0.49  155.8s
+  validation: challenger 11.183 vs champion 11.365 (diff -0.182, SE 0.131)
+gen    5  best    11.65  mean    10.75  champion    11.37  cma_sigma 0.1936  n_fresh 0  score_w 1.00  life   1103  score    85387  contacts 6.98  drained 0.91  P(L) 0.34  P(R) 0.39  173.2s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 10.783 vs champion 11.028 (diff -0.246, SE 0.154)
+gen    6  best    11.60  mean    10.85  champion    11.03  cma_sigma 0.1899  n_fresh 0  score_w 1.00  life    974  score    73711  contacts 5.44  drained 0.97  P(L) 0.35  P(R) 0.42  139.7s
+  validation: challenger 11.244 vs champion 11.286 (diff -0.042, SE 0.213)
+gen    7  best    11.26  mean    10.76  champion    11.29  cma_sigma 0.1844  n_fresh 0  score_w 1.00  life    916  score    65824  contacts 3.76  drained 0.96  P(L) 0.29  P(R) 0.43  146.5s
+  validation: challenger 11.156 vs champion 11.434 (diff -0.279, SE 0.147)
+gen    8  best    11.52  mean    10.19  champion    11.43  cma_sigma 0.1792  n_fresh 0  score_w 1.00  life    985  score    55717  contacts 4.96  drained 0.90  P(L) 0.32  P(R) 0.40  157.1s
+  validation: challenger 10.884 vs champion 11.348 (diff -0.464, SE 0.239)
+gen    9  best    11.59  mean    10.91  champion    11.35  cma_sigma 0.1766  n_fresh 0  score_w 1.00  life   1086  score    75268  contacts 5.61  drained 0.92  P(L) 0.30  P(R) 0.43  158.3s
+  validation: challenger 10.730 vs champion 11.028 (diff -0.298, SE 0.238)
+gen   10  best    11.56  mean    10.85  champion    11.03  cma_sigma 0.1719  n_fresh 0  score_w 1.00  life    939  score    73107  contacts 5.96  drained 0.95  P(L) 0.45  P(R) 0.47  141.5s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 10.600 vs champion 10.898 (diff -0.298, SE 0.190)
+gen   11  best    11.40  mean    10.77  champion    10.90  cma_sigma 0.1700  n_fresh 0  score_w 1.00  life   1112  score    74307  contacts 5.90  drained 0.96  P(L) 0.34  P(R) 0.41  153.9s
+  validation: challenger 11.147 vs champion 11.164 (diff -0.017, SE 0.163)
+gen   12  best    11.35  mean    10.81  champion    11.16  cma_sigma 0.1664  n_fresh 0  score_w 1.00  life   1215  score    75779  contacts 8.00  drained 0.95  P(L) 0.36  P(R) 0.37  177.9s
+  validation: challenger 11.138 vs champion 10.907 (diff +0.232, SE 0.224)
+gen   13  best    11.79  mean    11.03  champion    10.91  cma_sigma 0.1662  n_fresh 0  score_w 1.00  life   1208  score   113486  contacts 7.86  drained 0.90  P(L) 0.36  P(R) 0.37  176.7s
+  validation: challenger 11.077 vs champion 11.020 (diff +0.058, SE 0.171)
+gen   14  best    11.48  mean    10.97  champion    11.02  cma_sigma 0.1680  n_fresh 0  score_w 1.00  life   1041  score    81348  contacts 5.80  drained 0.96  P(L) 0.37  P(R) 0.35  157.2s
+  validation: challenger 11.257 vs champion 11.374 (diff -0.116, SE 0.162)
+gen   15  best    11.33  mean    10.76  champion    11.37  cma_sigma 0.1682  n_fresh 0  score_w 1.00  life   1053  score    68314  contacts 7.41  drained 0.96  P(L) 0.39  P(R) 0.42  151.1s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 10.902 vs champion 11.161 (diff -0.259, SE 0.237)
+gen   16  best    11.45  mean    11.01  champion    11.16  cma_sigma 0.1663  n_fresh 0  score_w 1.00  life   1116  score    83664  contacts 6.67  drained 0.97  P(L) 0.38  P(R) 0.43  214.1s
+  validation: challenger 11.162 vs champion 11.039 (diff +0.123, SE 0.104)
+gen   17  best    11.69  mean    10.89  champion    11.04  cma_sigma 0.1671  n_fresh 0  score_w 1.00  life   1132  score    76967  contacts 6.48  drained 0.95  P(L) 0.32  P(R) 0.32  215.0s
+  validation: challenger 11.040 vs champion 11.147 (diff -0.107, SE 0.185)
+gen   18  best    11.33  mean    10.70  champion    11.15  cma_sigma 0.1690  n_fresh 0  score_w 1.00  life    887  score    75439  contacts 3.47  drained 0.95  P(L) 0.25  P(R) 0.26  209.1s
+  validation: challenger 10.974 vs champion 10.957 (diff +0.018, SE 0.199)
+gen   19  best    11.30  mean    10.74  champion    10.96  cma_sigma 0.1729  n_fresh 0  score_w 1.00  life   1016  score    68094  contacts 5.93  drained 0.98  P(L) 0.32  P(R) 0.33  217.7s
+  validation: challenger 10.998 vs champion 11.323 (diff -0.324, SE 0.182)
+gen   20  best    11.67  mean    11.16  champion    11.32  cma_sigma 0.1734  n_fresh 0  score_w 1.00  life   1130  score    94609  contacts 5.50  drained 0.92  P(L) 0.27  P(R) 0.30  255.1s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 10.818 vs champion 11.156 (diff -0.338, SE 0.220)
+gen   21  best    11.42  mean    11.02  champion    11.16  cma_sigma 0.1711  n_fresh 0  score_w 1.00  life   1009  score    89111  contacts 4.87  drained 0.95  P(L) 0.38  P(R) 0.39  249.8s
+  validation: challenger 11.123 vs champion 11.046 (diff +0.077, SE 0.211)
+gen   22  best    11.71  mean    10.82  champion    11.05  cma_sigma 0.1676  n_fresh 0  score_w 1.00  life   1123  score    78293  contacts 7.19  drained 0.95  P(L) 0.32  P(R) 0.36  220.2s
+  validation: challenger 11.214 vs champion 11.373 (diff -0.159, SE 0.201)
+gen   23  best    11.58  mean    10.77  champion    11.37  cma_sigma 0.1633  n_fresh 0  score_w 1.00  life   1081  score    76504  contacts 6.17  drained 0.91  P(L) 0.31  P(R) 0.35  209.2s
+  validation: challenger 10.984 vs champion 11.222 (diff -0.238, SE 0.156)
+gen   24  best    11.48  mean    10.86  champion    11.22  cma_sigma 0.1585  n_fresh 0  score_w 1.00  life   1084  score    86533  contacts 7.02  drained 0.97  P(L) 0.32  P(R) 0.39  196.5s
+  validation: challenger 10.880 vs champion 11.109 (diff -0.229, SE 0.172)
+gen   25  best    11.86  mean    11.33  champion    11.11  cma_sigma 0.1576  n_fresh 0  score_w 1.00  life   1503  score   109803  contacts 9.72  drained 0.88  P(L) 0.33  P(R) 0.35  255.3s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 10.891 vs champion 11.058 (diff -0.166, SE 0.136)
+gen   26  best    11.60  mean    10.77  champion    11.06  cma_sigma 0.1583  n_fresh 0  score_w 1.00  life   1025  score    77529  contacts 5.09  drained 0.97  P(L) 0.25  P(R) 0.30  179.0s
+  validation: challenger 11.396 vs champion 11.466 (diff -0.070, SE 0.129)
+gen   27  best    11.32  mean    10.62  champion    11.47  cma_sigma 0.1617  n_fresh 0  score_w 1.00  life   1092  score    76535  contacts 5.68  drained 0.91  P(L) 0.34  P(R) 0.41  210.6s
+gen   28  best    11.22  mean    10.46  champion    11.47  cma_sigma 0.1614  n_fresh 0  score_w 1.00  life    986  score    62289  contacts 6.59  drained 0.96  P(L) 0.29  P(R) 0.43  106.8s
+  validation: challenger 11.073 vs champion 11.205 (diff -0.132, SE 0.230)
+gen   29  best    11.51  mean    10.66  champion    11.21  cma_sigma 0.1584  n_fresh 0  score_w 1.00  life    832  score    63195  contacts 4.42  drained 0.98  P(L) 0.20  P(R) 0.26  167.2s
+  validation: challenger 10.745 vs champion 10.826 (diff -0.082, SE 0.208)
+gen   30  best    11.43  mean    11.11  champion    10.83  cma_sigma 0.1582  n_fresh 0  score_w 1.00  life   1049  score    93945  contacts 4.57  drained 0.96  P(L) 0.32  P(R) 0.41  162.8s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 11.061 vs champion 11.290 (diff -0.229, SE 0.202)
+gen   31  best    11.48  mean    10.57  champion    11.29  cma_sigma 0.1604  n_fresh 0  score_w 1.00  life   1043  score    76754  contacts 5.56  drained 0.95  P(L) 0.27  P(R) 0.31  186.1s
+  validation: challenger 11.083 vs champion 11.190 (diff -0.107, SE 0.191)
+gen   32  best    11.33  mean    10.73  champion    11.19  cma_sigma 0.1628  n_fresh 0  score_w 1.00  life    899  score    67578  contacts 4.57  drained 0.96  P(L) 0.26  P(R) 0.32  165.4s
+  validation: challenger 11.215 vs champion 11.280 (diff -0.064, SE 0.149)
+gen   33  best    11.60  mean    10.79  champion    11.28  cma_sigma 0.1666  n_fresh 0  score_w 1.00  life   1086  score    68680  contacts 7.03  drained 0.97  P(L) 0.36  P(R) 0.39  190.6s
+  validation: challenger 10.862 vs champion 10.846 (diff +0.016, SE 0.214)
+gen   34  best    11.63  mean    10.73  champion    10.85  cma_sigma 0.1674  n_fresh 0  score_w 1.00  life    948  score    70721  contacts 4.77  drained 0.97  P(L) 0.28  P(R) 0.30  170.8s
+  validation: challenger 11.052 vs champion 10.894 (diff +0.158, SE 0.176)
+gen   35  best    11.07  mean    10.57  champion    10.89  cma_sigma 0.1689  n_fresh 0  score_w 1.00  life    833  score    55803  contacts 3.84  drained 0.97  P(L) 0.25  P(R) 0.29  151.1s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 10.976 vs champion 10.774 (diff +0.202, SE 0.203)
+gen   36  best    11.36  mean    10.43  champion    10.77  cma_sigma 0.1686  n_fresh 0  score_w 1.00  life    922  score    57900  contacts 5.19  drained 0.98  P(L) 0.29  P(R) 0.32  159.4s
+  validation: challenger 11.105 vs champion 11.027 (diff +0.079, SE 0.131)
+gen   37  best    11.89  mean    10.88  champion    11.03  cma_sigma 0.1698  n_fresh 0  score_w 1.00  life   1169  score    83539  contacts 7.39  drained 0.91  P(L) 0.30  P(R) 0.35  214.3s
+  validation: challenger 10.925 vs champion 11.452 (diff -0.527, SE 0.183)
+gen   38  best    11.23  mean    10.62  champion    11.45  cma_sigma 0.1676  n_fresh 0  score_w 1.00  life    945  score    66436  contacts 5.36  drained 0.97  P(L) 0.31  P(R) 0.40  209.6s
+  validation: challenger 10.977 vs champion 11.056 (diff -0.079, SE 0.116)
+gen   39  best    11.56  mean    10.84  champion    11.06  cma_sigma 0.1633  n_fresh 0  score_w 1.00  life   1052  score    83926  contacts 6.30  drained 0.98  P(L) 0.41  P(R) 0.46  206.8s
+  validation: challenger 10.956 vs champion 10.890 (diff +0.066, SE 0.168)
+gen   40  best    11.58  mean    10.72  champion    10.89  cma_sigma 0.1588  n_fresh 0  score_w 1.00  life   1146  score    80340  contacts 6.66  drained 0.92  P(L) 0.32  P(R) 0.44  235.1s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 11.280 vs champion 11.138 (diff +0.141, SE 0.182)
+gen   41  best    11.56  mean    10.67  champion    11.14  cma_sigma 0.1541  n_fresh 0  score_w 1.00  life    880  score    66916  contacts 5.02  drained 0.96  P(L) 0.33  P(R) 0.46  203.3s
+  validation: challenger 11.290 vs champion 11.285 (diff +0.005, SE 0.165)
+gen   42  best    11.57  mean    10.89  champion    11.28  cma_sigma 0.1529  n_fresh 0  score_w 1.00  life   1111  score    89939  contacts 6.71  drained 0.93  P(L) 0.33  P(R) 0.37  224.2s
+  validation: challenger 11.196 vs champion 11.563 (diff -0.368, SE 0.171)
+gen   43  best    11.54  mean    10.93  champion    11.56  cma_sigma 0.1538  n_fresh 0  score_w 1.00  life    928  score    77027  contacts 4.73  drained 0.98  P(L) 0.27  P(R) 0.35  214.3s
+gen   44  best    11.36  mean    10.67  champion    11.56  cma_sigma 0.1529  n_fresh 0  score_w 1.00  life   1025  score    65436  contacts 6.31  drained 0.97  P(L) 0.33  P(R) 0.37  132.9s
+gen   45  best    11.11  mean    10.67  champion    11.56  cma_sigma 0.1514  n_fresh 0  score_w 1.00  life    990  score    57814  contacts 6.59  drained 0.99  P(L) 0.41  P(R) 0.52  126.4s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+gen   46  best    11.04  mean    10.75  champion    11.56  cma_sigma 0.1525  n_fresh 0  score_w 1.00  life    798  score    61490  contacts 3.87  drained 0.99  P(L) 0.38  P(R) 0.45  100.6s
+gen   47  best    11.21  mean    10.56  champion    11.56  cma_sigma 0.1513  n_fresh 0  score_w 1.00  life    733  score    55234  contacts 3.67  drained 0.98  P(L) 0.27  P(R) 0.36  103.1s
+gen   48  best    10.78  mean    10.29  champion    11.56  cma_sigma 0.1520  n_fresh 0  score_w 1.00  life    860  score    53617  contacts 5.25  drained 0.97  P(L) 0.28  P(R) 0.39  110.6s
+gen   49  best    11.51  mean    10.84  champion    11.56  cma_sigma 0.1533  n_fresh 0  score_w 1.00  life   1079  score    75959  contacts 6.72  drained 0.96  P(L) 0.36  P(R) 0.42  142.0s
+gen   50  best    11.38  mean    10.59  champion    11.56  cma_sigma 0.1558  n_fresh 0  score_w 1.00  life   1020  score    60236  contacts 5.90  drained 0.96  P(L) 0.34  P(R) 0.46  129.0s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+gen   51  best    11.30  mean    10.70  champion    11.56  cma_sigma 0.1558  n_fresh 0  score_w 1.00  life    960  score    64398  contacts 5.80  drained 0.97  P(L) 0.38  P(R) 0.41  133.1s
+gen   52  best    11.33  mean    10.95  champion    11.56  cma_sigma 0.1579  n_fresh 0  score_w 1.00  life    930  score    78479  contacts 5.23  drained 0.98  P(L) 0.37  P(R) 0.43  120.0s
+  validation: challenger 11.010 vs champion 10.954 (diff +0.056, SE 0.125)
+gen   53  best    11.73  mean    11.08  champion    10.95  cma_sigma 0.1574  n_fresh 0  score_w 1.00  life   1208  score    95889  contacts 5.87  drained 0.91  P(L) 0.36  P(R) 0.42  248.2s
+  validation: challenger 11.110 vs champion 11.107 (diff +0.003, SE 0.128)
+gen   54  best    11.92  mean    11.22  champion    11.11  cma_sigma 0.1556  n_fresh 0  score_w 1.00  life   1307  score   113037  contacts 8.15  drained 0.95  P(L) 0.29  P(R) 0.33  247.1s
+  validation: challenger 11.303 vs champion 11.449 (diff -0.146, SE 0.170)
+gen   55  best    11.89  mean    11.23  champion    11.45  cma_sigma 0.1528  n_fresh 0  score_w 1.00  life   1189  score   113578  contacts 6.48  drained 0.92  P(L) 0.31  P(R) 0.40  246.0s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 11.007 vs champion 10.957 (diff +0.050, SE 0.151)
+gen   56  best    11.68  mean    10.91  champion    10.96  cma_sigma 0.1534  n_fresh 0  score_w 1.00  life   1133  score    80883  contacts 7.27  drained 0.97  P(L) 0.35  P(R) 0.46  225.5s
+  validation: challenger 11.498 vs champion 11.404 (diff +0.094, SE 0.188)
+gen   57  best    11.23  mean    10.59  champion    11.40  cma_sigma 0.1513  n_fresh 0  score_w 1.00  life    929  score    54156  contacts 4.58  drained 0.98  P(L) 0.39  P(R) 0.55  206.6s
+  validation: challenger 11.264 vs champion 11.199 (diff +0.065, SE 0.175)
+gen   58  best    11.56  mean    10.80  champion    11.20  cma_sigma 0.1510  n_fresh 0  score_w 1.00  life   1128  score    76010  contacts 5.79  drained 0.92  P(L) 0.28  P(R) 0.40  231.4s
+  validation: challenger 11.140 vs champion 11.041 (diff +0.098, SE 0.198)
+gen   59  best    11.29  mean    10.86  champion    11.04  cma_sigma 0.1486  n_fresh 0  score_w 1.00  life    932  score    80916  contacts 4.86  drained 0.96  P(L) 0.33  P(R) 0.38  186.4s
+  validation: challenger 11.292 vs champion 11.005 (diff +0.287, SE 0.138) -> PROMOTED
+gen   60  best    11.64  mean    11.10  champion    11.29  cma_sigma 0.1493  n_fresh 0  score_w 1.00  life   1301  score    91725  contacts 7.53  drained 0.92  P(L) 0.31  P(R) 0.38  249.0s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+gen   61  best    11.16  mean    10.81  champion    11.29  cma_sigma 0.1481  n_fresh 0  score_w 1.00  life    999  score    64859  contacts 6.17  drained 0.97  P(L) 0.43  P(R) 0.47  122.9s
+gen   62  best    11.26  mean    11.02  champion    11.29  cma_sigma 0.1453  n_fresh 0  score_w 1.00  life    938  score    82771  contacts 4.31  drained 0.97  P(L) 0.39  P(R) 0.44  113.7s
+  validation: challenger 10.779 vs champion 10.977 (diff -0.199, SE 0.141)
+gen   63  best    11.47  mean    11.07  champion    10.98  cma_sigma 0.1412  n_fresh 0  score_w 1.00  life   1003  score   102422  contacts 5.46  drained 0.91  P(L) 0.36  P(R) 0.41  220.4s
+  validation: challenger 10.912 vs champion 10.846 (diff +0.066, SE 0.142)
+gen   64  best    11.59  mean    10.83  champion    10.85  cma_sigma 0.1366  n_fresh 0  score_w 1.00  life   1062  score    76342  contacts 5.46  drained 0.95  P(L) 0.29  P(R) 0.32  199.8s
+  validation: challenger 10.786 vs champion 11.168 (diff -0.382, SE 0.209)
+gen   65  best    11.21  mean    10.98  champion    11.17  cma_sigma 0.1352  n_fresh 0  score_w 1.00  life   1150  score    93971  contacts 5.90  drained 0.95  P(L) 0.36  P(R) 0.43  231.2s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 11.053 vs champion 10.962 (diff +0.091, SE 0.215)
+gen   66  best    11.47  mean    10.90  champion    10.96  cma_sigma 0.1330  n_fresh 0  score_w 1.00  life   1130  score    81664  contacts 7.23  drained 0.95  P(L) 0.34  P(R) 0.43  217.7s
+  validation: challenger 10.906 vs champion 10.841 (diff +0.064, SE 0.148)
+gen   67  best    11.10  mean    10.72  champion    10.84  cma_sigma 0.1301  n_fresh 0  score_w 1.00  life    988  score    64244  contacts 6.20  drained 0.98  P(L) 0.36  P(R) 0.42  190.8s
+  validation: challenger 11.170 vs champion 11.087 (diff +0.083, SE 0.180)
+gen   68  best    11.19  mean    10.48  champion    11.09  cma_sigma 0.1292  n_fresh 0  score_w 1.00  life    826  score    54871  contacts 4.12  drained 0.98  P(L) 0.27  P(R) 0.37  173.4s
+  validation: challenger 10.853 vs champion 10.615 (diff +0.238, SE 0.177)
+gen   69  best    11.64  mean    11.17  champion    10.62  cma_sigma 0.1271  n_fresh 0  score_w 1.00  life   1251  score   108320  contacts 7.18  drained 0.95  P(L) 0.38  P(R) 0.42  207.6s
+  validation: challenger 11.417 vs champion 11.243 (diff +0.173, SE 0.198)
+gen   70  best    12.00  mean    11.48  champion    11.24  cma_sigma 0.1279  n_fresh 0  score_w 1.00  life   1459  score   127658  contacts 8.34  drained 0.95  P(L) 0.32  P(R) 0.37  258.2s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+gen   71  best    10.97  mean    10.32  champion    11.24  cma_sigma 0.1266  n_fresh 0  score_w 1.00  life    700  score    46260  contacts 3.21  drained 0.99  P(L) 0.26  P(R) 0.31   86.1s
+  validation: challenger 11.110 vs champion 10.940 (diff +0.170, SE 0.170)
+gen   72  best    11.37  mean    10.92  champion    10.94  cma_sigma 0.1279  n_fresh 0  score_w 1.00  life   1038  score    77814  contacts 5.55  drained 0.97  P(L) 0.31  P(R) 0.34  207.9s
+  validation: challenger 11.179 vs champion 10.984 (diff +0.195, SE 0.197)
+gen   73  best    11.55  mean    11.16  champion    10.98  cma_sigma 0.1296  n_fresh 0  score_w 1.00  life   1186  score    94225  contacts 7.42  drained 0.93  P(L) 0.33  P(R) 0.34  218.5s
+  validation: challenger 11.175 vs champion 10.628 (diff +0.546, SE 0.192) -> PROMOTED
+gen   74  best    11.47  mean    11.14  champion    11.17  cma_sigma 0.1298  n_fresh 0  score_w 1.00  life   1276  score   100945  contacts 8.27  drained 0.90  P(L) 0.37  P(R) 0.39  254.7s
+  validation: challenger 10.685 vs champion 10.723 (diff -0.037, SE 0.150)
+gen   75  best    11.73  mean    10.89  champion    10.72  cma_sigma 0.1278  n_fresh 0  score_w 1.00  life   1169  score    90879  contacts 7.54  drained 0.94  P(L) 0.35  P(R) 0.38  225.4s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 10.595 vs champion 10.924 (diff -0.329, SE 0.223)
+gen   76  best    11.67  mean    11.17  champion    10.92  cma_sigma 0.1243  n_fresh 0  score_w 1.00  life   1232  score    94508  contacts 7.73  drained 0.95  P(L) 0.38  P(R) 0.43  189.9s
+  validation: challenger 11.257 vs champion 10.875 (diff +0.383, SE 0.213)
+gen   77  best    11.38  mean    10.76  champion    10.87  cma_sigma 0.1195  n_fresh 0  score_w 1.00  life   1012  score    72129  contacts 6.11  drained 0.95  P(L) 0.38  P(R) 0.40  169.5s
+  validation: challenger 11.279 vs champion 11.060 (diff +0.219, SE 0.113)
+gen   78  best    11.26  mean    10.80  champion    11.06  cma_sigma 0.1153  n_fresh 0  score_w 1.00  life    895  score    72707  contacts 4.75  drained 0.98  P(L) 0.31  P(R) 0.34  164.5s
+  validation: challenger 11.216 vs champion 11.051 (diff +0.165, SE 0.141)
+gen   79  best    11.62  mean    11.09  champion    11.05  cma_sigma 0.1103  n_fresh 0  score_w 1.00  life   1189  score    91287  contacts 7.62  drained 0.92  P(L) 0.34  P(R) 0.38  194.4s
+  validation: challenger 11.165 vs champion 11.115 (diff +0.050, SE 0.136)
+gen   80  best    11.72  mean    10.92  champion    11.12  cma_sigma 0.1055  n_fresh 0  score_w 1.00  life   1039  score    70465  contacts 6.73  drained 0.96  P(L) 0.46  P(R) 0.52  179.6s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 11.032 vs champion 11.065 (diff -0.033, SE 0.155)
+gen   81  best    11.61  mean    10.72  champion    11.06  cma_sigma 0.1013  n_fresh 0  score_w 1.00  life   1053  score    82652  contacts 5.84  drained 0.96  P(L) 0.28  P(R) 0.29  171.0s
+  validation: challenger 10.737 vs champion 10.706 (diff +0.031, SE 0.171)
+gen   82  best    11.19  mean    10.59  champion    10.71  cma_sigma 0.0996  n_fresh 0  score_w 1.00  life    869  score    65395  contacts 4.19  drained 0.94  P(L) 0.27  P(R) 0.28  158.1s
+  validation: challenger 11.248 vs champion 11.168 (diff +0.080, SE 0.217)
+gen   83  best    11.65  mean    10.98  champion    11.17  cma_sigma 0.0975  n_fresh 0  score_w 1.00  life   1338  score   112004  contacts 8.77  drained 0.95  P(L) 0.34  P(R) 0.36  212.8s
+gen   84  best    11.11  mean    10.63  champion    11.17  cma_sigma 0.0946  n_fresh 0  score_w 1.00  life   1053  score    76893  contacts 5.97  drained 0.95  P(L) 0.33  P(R) 0.35  109.8s
+  validation: challenger 11.063 vs champion 11.250 (diff -0.187, SE 0.254)
+gen   85  best    11.89  mean    11.57  champion    11.25  cma_sigma 0.0934  n_fresh 0  score_w 1.00  life   1565  score   130111  contacts 10.51  drained 0.86  P(L) 0.34  P(R) 0.37  241.9s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 11.259 vs champion 11.145 (diff +0.114, SE 0.150)
+gen   86  best    11.78  mean    11.01  champion    11.15  cma_sigma 0.0910  n_fresh 0  score_w 1.00  life   1264  score   101469  contacts 7.61  drained 0.90  P(L) 0.26  P(R) 0.27  219.7s
+  validation: challenger 11.143 vs champion 11.193 (diff -0.051, SE 0.102)
+gen   87  best    11.63  mean    11.04  champion    11.19  cma_sigma 0.0910  n_fresh 0  score_w 1.00  life   1126  score    86092  contacts 6.52  drained 0.98  P(L) 0.29  P(R) 0.32  217.7s
+  validation: challenger 11.190 vs champion 11.076 (diff +0.115, SE 0.233)
+gen   88  best    11.74  mean    11.16  champion    11.08  cma_sigma 0.0900  n_fresh 0  score_w 1.00  life   1335  score   110414  contacts 8.22  drained 0.93  P(L) 0.34  P(R) 0.38  232.0s
+  validation: challenger 10.909 vs champion 11.173 (diff -0.264, SE 0.191)
+gen   89  best    11.21  mean    10.51  champion    11.17  cma_sigma 0.0884  n_fresh 0  score_w 1.00  life    856  score    61824  contacts 4.38  drained 1.00  P(L) 0.23  P(R) 0.27  173.7s
+  validation: challenger 11.260 vs champion 10.980 (diff +0.280, SE 0.205)
+gen   90  best    11.69  mean    11.28  champion    10.98  cma_sigma 0.0883  n_fresh 0  score_w 1.00  life   1230  score   106613  contacts 7.41  drained 0.95  P(L) 0.30  P(R) 0.32  216.2s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 11.008 vs champion 11.015 (diff -0.007, SE 0.176)
+gen   91  best    11.31  mean    10.78  champion    11.01  cma_sigma 0.0866  n_fresh 0  score_w 1.00  life   1101  score    68867  contacts 7.29  drained 0.95  P(L) 0.31  P(R) 0.32  192.8s
+  validation: challenger 11.216 vs champion 11.199 (diff +0.017, SE 0.178)
+gen   92  best    11.48  mean    11.11  champion    11.20  cma_sigma 0.0863  n_fresh 0  score_w 1.00  life   1205  score    90285  contacts 7.68  drained 0.96  P(L) 0.32  P(R) 0.37  216.4s
+  validation: challenger 10.805 vs champion 10.962 (diff -0.158, SE 0.226)
+gen   93  best    11.38  mean    10.92  champion    10.96  cma_sigma 0.0846  n_fresh 0  score_w 1.00  life   1133  score    93830  contacts 6.93  drained 0.93  P(L) 0.33  P(R) 0.37  194.1s
+  validation: challenger 11.042 vs champion 11.061 (diff -0.019, SE 0.203)
+gen   94  best    11.71  mean    11.35  champion    11.06  cma_sigma 0.0830  n_fresh 0  score_w 1.00  life   1409  score   109916  contacts 8.98  drained 0.89  P(L) 0.33  P(R) 0.40  241.6s
+  validation: challenger 10.911 vs champion 11.010 (diff -0.099, SE 0.112)
+gen   95  best    11.84  mean    11.48  champion    11.01  cma_sigma 0.0824  n_fresh 0  score_w 1.00  life   1506  score   131654  contacts 9.91  drained 0.88  P(L) 0.31  P(R) 0.34  251.4s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 11.015 vs champion 10.932 (diff +0.083, SE 0.147)
+gen   96  best    11.40  mean    10.97  champion    10.93  cma_sigma 0.0824  n_fresh 0  score_w 1.00  life   1138  score    76822  contacts 7.00  drained 0.91  P(L) 0.33  P(R) 0.41  202.6s
+  validation: challenger 10.984 vs champion 10.954 (diff +0.030, SE 0.165)
+gen   97  best    11.29  mean    10.95  champion    10.95  cma_sigma 0.0835  n_fresh 0  score_w 1.00  life   1126  score    86846  contacts 6.97  drained 0.92  P(L) 0.28  P(R) 0.37  207.3s
+  validation: challenger 10.835 vs champion 10.833 (diff +0.002, SE 0.190)
+gen   98  best    11.47  mean    10.91  champion    10.83  cma_sigma 0.0835  n_fresh 0  score_w 1.00  life    951  score    70354  contacts 4.89  drained 0.98  P(L) 0.23  P(R) 0.34  181.3s
+  validation: challenger 11.137 vs champion 11.220 (diff -0.083, SE 0.219)
+gen   99  best    11.27  mean    10.58  champion    11.22  cma_sigma 0.0842  n_fresh 0  score_w 1.00  life    867  score    64367  contacts 3.92  drained 0.97  P(L) 0.21  P(R) 0.35  176.7s
+  validation: challenger 11.212 vs champion 11.393 (diff -0.181, SE 0.210)
+gen  100  best    11.52  mean    10.83  champion    11.39  cma_sigma 0.0852  n_fresh 0  score_w 1.00  life    891  score    76311  contacts 4.79  drained 0.98  P(L) 0.27  P(R) 0.35  177.5s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+gen  101  best    11.19  mean    10.72  champion    11.39  cma_sigma 0.0849  n_fresh 0  score_w 1.00  life    897  score    61148  contacts 4.62  drained 0.98  P(L) 0.27  P(R) 0.30  116.5s
+  validation: challenger 11.308 vs champion 11.134 (diff +0.173, SE 0.214)
+gen  102  best    11.87  mean    11.00  champion    11.13  cma_sigma 0.0838  n_fresh 0  score_w 1.00  life   1027  score    84775  contacts 6.03  drained 0.98  P(L) 0.30  P(R) 0.35  226.7s
+  validation: challenger 11.045 vs champion 10.807 (diff +0.238, SE 0.192)
+gen  103  best    11.72  mean    11.16  champion    10.81  cma_sigma 0.0815  n_fresh 0  score_w 1.00  life   1239  score   104172  contacts 7.74  drained 0.90  P(L) 0.31  P(R) 0.36  221.9s
+  validation: challenger 11.088 vs champion 11.134 (diff -0.046, SE 0.180)
+gen  104  best    11.72  mean    10.97  champion    11.13  cma_sigma 0.0784  n_fresh 0  score_w 1.00  life   1130  score    97791  contacts 5.88  drained 0.95  P(L) 0.23  P(R) 0.27  216.8s
+  validation: challenger 11.150 vs champion 10.993 (diff +0.157, SE 0.212)
+gen  105  best    11.84  mean    11.22  champion    10.99  cma_sigma 0.0758  n_fresh 0  score_w 1.00  life   1441  score   106109  contacts 9.98  drained 0.91  P(L) 0.33  P(R) 0.38  254.2s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 11.102 vs champion 11.011 (diff +0.091, SE 0.207)
+gen  106  best    11.63  mean    10.75  champion    11.01  cma_sigma 0.0743  n_fresh 0  score_w 1.00  life   1034  score    79158  contacts 6.03  drained 0.97  P(L) 0.23  P(R) 0.32  211.7s
+  validation: challenger 10.982 vs champion 11.078 (diff -0.096, SE 0.122)
+gen  107  best    11.07  mean    10.61  champion    11.08  cma_sigma 0.0725  n_fresh 0  score_w 1.00  life    950  score    66867  contacts 5.32  drained 0.96  P(L) 0.26  P(R) 0.32  191.0s
+  validation: challenger 11.018 vs champion 10.817 (diff +0.202, SE 0.200)
+gen  108  best    11.98  mean    10.91  champion    10.82  cma_sigma 0.0719  n_fresh 0  score_w 1.00  life   1036  score    91240  contacts 6.23  drained 0.94  P(L) 0.33  P(R) 0.45  207.7s
+  validation: challenger 10.978 vs champion 11.048 (diff -0.070, SE 0.158)
+gen  109  best    11.81  mean    11.43  champion    11.05  cma_sigma 0.0727  n_fresh 0  score_w 1.00  life   1434  score   114037  contacts 9.48  drained 0.89  P(L) 0.32  P(R) 0.36  261.0s
+  validation: challenger 10.995 vs champion 10.966 (diff +0.029, SE 0.161)
+gen  110  best    11.28  mean    10.90  champion    10.97  cma_sigma 0.0737  n_fresh 0  score_w 1.00  life    940  score    74938  contacts 4.49  drained 0.97  P(L) 0.31  P(R) 0.38  193.5s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 10.997 vs champion 11.291 (diff -0.294, SE 0.197)
+gen  111  best    11.21  mean    10.62  champion    11.29  cma_sigma 0.0753  n_fresh 0  score_w 1.00  life    926  score    67930  contacts 4.62  drained 0.97  P(L) 0.33  P(R) 0.40  207.8s
+gen  112  best    11.24  mean    10.94  champion    11.29  cma_sigma 0.0750  n_fresh 0  score_w 1.00  life    959  score    72713  contacts 5.02  drained 0.97  P(L) 0.28  P(R) 0.32  131.7s
+gen  113  best    10.83  mean    10.43  champion    11.29  cma_sigma 0.0761  n_fresh 0  score_w 1.00  life    988  score    76174  contacts 6.08  drained 0.98  P(L) 0.32  P(R) 0.36  126.9s
+gen  114  best    11.26  mean    10.96  champion    11.29  cma_sigma 0.0759  n_fresh 0  score_w 1.00  life   1249  score   105584  contacts 7.84  drained 0.93  P(L) 0.31  P(R) 0.36  157.2s
+  validation: challenger 11.196 vs champion 11.251 (diff -0.055, SE 0.191)
+gen  115  best    11.86  mean    11.11  champion    11.25  cma_sigma 0.0748  n_fresh 0  score_w 1.00  life   1195  score   101166  contacts 7.42  drained 0.93  P(L) 0.33  P(R) 0.38  232.4s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 11.367 vs champion 11.130 (diff +0.237, SE 0.209)
+gen  116  best    11.51  mean    11.11  champion    11.13  cma_sigma 0.0734  n_fresh 0  score_w 1.00  life   1214  score    93523  contacts 6.77  drained 0.94  P(L) 0.33  P(R) 0.39  229.7s
+  validation: challenger 11.124 vs champion 10.905 (diff +0.219, SE 0.112)
+gen  117  best    11.90  mean    11.27  champion    10.90  cma_sigma 0.0737  n_fresh 0  score_w 1.00  life   1324  score   104035  contacts 8.11  drained 0.91  P(L) 0.31  P(R) 0.33  214.3s
+  validation: challenger 11.068 vs champion 11.244 (diff -0.176, SE 0.192)
+gen  118  best    12.01  mean    11.40  champion    11.24  cma_sigma 0.0752  n_fresh 0  score_w 1.00  life   1396  score   123975  contacts 9.00  drained 0.91  P(L) 0.34  P(R) 0.35  286.1s
+gen  119  best    11.14  mean    10.72  champion    11.24  cma_sigma 0.0754  n_fresh 0  score_w 1.00  life   1050  score    77732  contacts 6.40  drained 0.93  P(L) 0.33  P(R) 0.34  152.8s
+  validation: challenger 11.344 vs champion 11.333 (diff +0.011, SE 0.182)
+gen  120  best    11.43  mean    10.96  champion    11.33  cma_sigma 0.0742  n_fresh 0  score_w 1.00  life   1193  score    82568  contacts 7.28  drained 0.92  P(L) 0.35  P(R) 0.38  253.1s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 11.001 vs champion 11.257 (diff -0.257, SE 0.202)
+gen  121  best    11.66  mean    10.78  champion    11.26  cma_sigma 0.0741  n_fresh 0  score_w 1.00  life   1101  score    79975  contacts 7.54  drained 0.98  P(L) 0.31  P(R) 0.32  206.5s
+gen  122  best    11.21  mean    10.70  champion    11.26  cma_sigma 0.0730  n_fresh 0  score_w 1.00  life    973  score    68518  contacts 5.79  drained 0.95  P(L) 0.27  P(R) 0.29  121.3s
+  validation: challenger 10.987 vs champion 10.962 (diff +0.026, SE 0.145)
+gen  123  best    11.49  mean    11.09  champion    10.96  cma_sigma 0.2000  n_fresh 0  score_w 1.00  life   1335  score    99979  contacts 9.46  drained 0.93  P(L) 0.30  P(R) 0.34  [IPOP RESTART #1, popsize->32]  218.9s
+  validation: challenger 10.886 vs champion 11.038 (diff -0.152, SE 0.161)
+gen  124  best    12.04  mean    10.82  champion    11.04  cma_sigma 0.2029  n_fresh 0  score_w 1.00  life   1011  score    79609  contacts 5.05  drained 0.96  P(L) 0.41  P(R) 0.43  238.0s
+gen  125  best    10.92  mean    10.44  champion    11.04  cma_sigma 0.2077  n_fresh 0  score_w 1.00  life    670  score    49916  contacts 2.90  drained 0.98  P(L) 0.38  P(R) 0.41  125.9s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 11.154 vs champion 11.226 (diff -0.071, SE 0.151)
+gen  126  best    11.89  mean    10.78  champion    11.23  cma_sigma 0.2087  n_fresh 0  score_w 1.00  life   1010  score    67837  contacts 4.58  drained 0.96  P(L) 0.31  P(R) 0.35  228.7s
+  validation: challenger 10.830 vs champion 10.977 (diff -0.147, SE 0.144)
+gen  127  best    11.53  mean    10.81  champion    10.98  cma_sigma 0.2108  n_fresh 0  score_w 1.00  life   1021  score    71828  contacts 4.41  drained 0.92  P(L) 0.38  P(R) 0.43  233.3s
+  validation: challenger 11.050 vs champion 10.993 (diff +0.057, SE 0.210)
+gen  128  best    11.48  mean    10.41  champion    10.99  cma_sigma 0.2098  n_fresh 0  score_w 1.00  life   1002  score    52562  contacts 4.74  drained 0.91  P(L) 0.35  P(R) 0.42  295.3s
+  validation: challenger 11.051 vs champion 11.226 (diff -0.175, SE 0.107)
+gen  129  best    11.74  mean    11.17  champion    11.23  cma_sigma 0.2116  n_fresh 0  score_w 1.00  life   1241  score   103248  contacts 6.43  drained 0.91  P(L) 0.38  P(R) 0.45  303.3s
+  validation: challenger 11.243 vs champion 10.883 (diff +0.360, SE 0.166) -> PROMOTED
+gen  130  best    11.57  mean    10.56  champion    11.24  cma_sigma 0.2095  n_fresh 0  score_w 1.00  life    849  score    58505  contacts 3.92  drained 0.96  P(L) 0.33  P(R) 0.38  215.8s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+gen  131  best    11.05  mean    10.27  champion    11.24  cma_sigma 0.2073  n_fresh 0  score_w 1.00  life    818  score    47279  contacts 4.11  drained 0.95  P(L) 0.33  P(R) 0.33  154.7s
+gen  132  best    10.99  mean    10.24  champion    11.24  cma_sigma 0.2041  n_fresh 0  score_w 1.00  life    910  score    57355  contacts 5.35  drained 0.96  P(L) 0.38  P(R) 0.40  189.3s
+  validation: challenger 11.171 vs champion 11.188 (diff -0.016, SE 0.153)
+gen  133  best    11.68  mean    10.80  champion    11.19  cma_sigma 0.2044  n_fresh 0  score_w 1.00  life   1046  score    78527  contacts 6.13  drained 0.95  P(L) 0.36  P(R) 0.38  274.2s
+  validation: challenger 11.267 vs champion 11.173 (diff +0.095, SE 0.154)
+gen  134  best    11.39  mean    10.58  champion    11.17  cma_sigma 0.2066  n_fresh 0  score_w 1.00  life    883  score    61812  contacts 4.59  drained 0.96  P(L) 0.34  P(R) 0.38  222.4s
+  validation: challenger 11.126 vs champion 10.981 (diff +0.145, SE 0.187)
+gen  135  best    11.27  mean    10.28  champion    10.98  cma_sigma 0.2058  n_fresh 0  score_w 1.00  life    766  score    47673  contacts 3.06  drained 0.97  P(L) 0.23  P(R) 0.29  228.5s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 11.147 vs champion 11.183 (diff -0.036, SE 0.166)
+gen  136  best    11.32  mean    10.60  champion    11.18  cma_sigma 0.2028  n_fresh 0  score_w 1.00  life    895  score    63274  contacts 4.98  drained 0.98  P(L) 0.31  P(R) 0.35  252.1s
+  validation: challenger 10.942 vs champion 10.882 (diff +0.060, SE 0.163)
+gen  137  best    11.47  mean    10.35  champion    10.88  cma_sigma 0.1965  n_fresh 0  score_w 1.00  life    959  score    55593  contacts 5.09  drained 0.95  P(L) 0.35  P(R) 0.41  238.6s
+  validation: challenger 11.371 vs champion 11.194 (diff +0.177, SE 0.139)
+gen  138  best    11.26  mean    10.82  champion    11.19  cma_sigma 0.1902  n_fresh 0  score_w 1.00  life    904  score    81231  contacts 3.79  drained 0.95  P(L) 0.31  P(R) 0.35  247.5s
+  validation: challenger 10.902 vs champion 11.119 (diff -0.217, SE 0.151)
+gen  139  best    11.47  mean    10.56  champion    11.12  cma_sigma 0.1847  n_fresh 0  score_w 1.00  life    868  score    62334  contacts 3.97  drained 0.93  P(L) 0.40  P(R) 0.48  204.6s
+  validation: challenger 11.417 vs champion 11.016 (diff +0.401, SE 0.118) -> PROMOTED
+gen  140  best    11.36  mean    10.75  champion    11.42  cma_sigma 0.1790  n_fresh 0  score_w 1.00  life   1070  score    65737  contacts 6.39  drained 0.93  P(L) 0.40  P(R) 0.44  266.6s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 11.096 vs champion 10.862 (diff +0.234, SE 0.192)
+gen  141  best    11.64  mean    10.91  champion    10.86  cma_sigma 0.1736  n_fresh 0  score_w 1.00  life   1210  score    78607  contacts 6.47  drained 0.91  P(L) 0.38  P(R) 0.46  258.6s
+  validation: challenger 10.916 vs champion 10.874 (diff +0.042, SE 0.209)
+gen  142  best    11.55  mean    10.98  champion    10.87  cma_sigma 0.1688  n_fresh 0  score_w 1.00  life    975  score    76931  contacts 5.12  drained 0.95  P(L) 0.49  P(R) 0.52  252.6s
+  validation: challenger 11.137 vs champion 11.221 (diff -0.084, SE 0.199)
+gen  143  best    11.56  mean    11.06  champion    11.22  cma_sigma 0.1639  n_fresh 0  score_w 1.00  life   1060  score    83200  contacts 5.73  drained 0.96  P(L) 0.38  P(R) 0.43  306.8s
+  validation: challenger 11.027 vs champion 11.054 (diff -0.027, SE 0.112)
+gen  144  best    11.58  mean    10.86  champion    11.05  cma_sigma 0.1589  n_fresh 0  score_w 1.00  life   1112  score    82539  contacts 7.08  drained 0.97  P(L) 0.38  P(R) 0.40  284.2s
+  validation: challenger 11.060 vs champion 11.031 (diff +0.030, SE 0.154)
+gen  145  best    11.45  mean    10.76  champion    11.03  cma_sigma 0.1569  n_fresh 0  score_w 1.00  life    759  score    69564  contacts 3.53  drained 0.98  P(L) 0.34  P(R) 0.37  210.4s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 11.202 vs champion 11.283 (diff -0.081, SE 0.183)
+gen  146  best    11.62  mean    10.99  champion    11.28  cma_sigma 0.1541  n_fresh 0  score_w 1.00  life   1190  score    80076  contacts 7.63  drained 0.93  P(L) 0.37  P(R) 0.40  311.2s
+  validation: challenger 10.989 vs champion 11.103 (diff -0.114, SE 0.165)
+gen  147  best    11.72  mean    10.84  champion    11.10  cma_sigma 0.1534  n_fresh 0  score_w 1.00  life    995  score    68360  contacts 4.81  drained 0.96  P(L) 0.29  P(R) 0.31  244.8s
+  validation: challenger 11.240 vs champion 11.050 (diff +0.190, SE 0.131)
+gen  148  best    11.57  mean    11.01  champion    11.05  cma_sigma 0.1511  n_fresh 0  score_w 1.00  life   1093  score    85765  contacts 6.42  drained 0.96  P(L) 0.39  P(R) 0.41  296.8s
+  validation: challenger 11.064 vs champion 10.984 (diff +0.081, SE 0.223)
+gen  149  best    11.48  mean    10.93  champion    10.98  cma_sigma 0.1469  n_fresh 0  score_w 1.00  life   1029  score    82615  contacts 6.42  drained 0.96  P(L) 0.39  P(R) 0.42  277.4s
+  validation: challenger 10.956 vs champion 11.083 (diff -0.126, SE 0.167)
+gen  150  best    11.81  mean    10.94  champion    11.08  cma_sigma 0.1417  n_fresh 0  score_w 1.00  life   1149  score    82670  contacts 7.27  drained 0.94  P(L) 0.34  P(R) 0.37  278.9s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 11.161 vs champion 11.017 (diff +0.143, SE 0.136)
+gen  151  best    11.78  mean    11.12  champion    11.02  cma_sigma 0.1370  n_fresh 0  score_w 1.00  life   1226  score    96760  contacts 7.71  drained 0.93  P(L) 0.36  P(R) 0.40  300.7s
+  validation: challenger 11.178 vs champion 11.233 (diff -0.055, SE 0.199)
+gen  152  best    11.98  mean    11.00  champion    11.23  cma_sigma 0.1356  n_fresh 0  score_w 1.00  life   1215  score    92454  contacts 7.70  drained 0.94  P(L) 0.32  P(R) 0.37  316.0s
+  validation: challenger 11.294 vs champion 11.142 (diff +0.152, SE 0.179)
+gen  153  best    11.93  mean    11.01  champion    11.14  cma_sigma 0.1352  n_fresh 0  score_w 1.00  life   1176  score    91729  contacts 7.07  drained 0.93  P(L) 0.37  P(R) 0.38  318.3s
+  validation: challenger 10.816 vs champion 11.199 (diff -0.383, SE 0.222)
+gen  154  best    11.60  mean    10.82  champion    11.20  cma_sigma 0.1327  n_fresh 0  score_w 1.00  life    969  score    76717  contacts 5.42  drained 0.95  P(L) 0.28  P(R) 0.29  258.2s
+  validation: challenger 10.703 vs champion 10.714 (diff -0.011, SE 0.046)
+gen  155  best    11.79  mean    11.06  champion    10.71  cma_sigma 0.1296  n_fresh 0  score_w 1.00  life   1278  score   104108  contacts 7.90  drained 0.93  P(L) 0.34  P(R) 0.36  286.2s
+  saved checkpoint: /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt (+ /content/3DPinball-DrosophilaCadet/agents/checkpoints/big_v2/pinball_circuit_cma.pt.cma.pkl)
+  validation: challenger 10.994 vs champion 11.184 (diff -0.190, SE 0.201)
+gen  156  best    11.65  mean    10.86  champion    11.18  cma_sigma 0.1263  n_fresh 0  score_w 1.00  life   1059  score    76146  contacts 6.15  drained 0.95  P(L) 0.29  P(R) 0.33  307.4s
+gen  157  best    11.05  mean    10.60  champion    11.18  cma_sigma 0.1228  n_fresh 0  score_w 1.00  life   1030  score    71829  contacts 5.47  drained 0.96  P(L) 0.38  P(R) 0.42  194.0s
+  validation: challenger 11.245 vs champion 11.481 (diff -0.236, SE 0.147)
+gen  158  best    11.26  mean    10.48  champion    11.48  cma_sigma 0.1187  n_fresh 0  score_w 1.00  life    876  score    55563  contacts 5.90  drained 0.98  P(L) 0.41  P(R) 0.46  208.9s
+  validation: challenger 10.984 vs champion 11.045 (diff -0.061, SE 0.144)
+gen  159  best    11.64  mean    10.93  champion    11.05  cma_sigma 0.1167  n_fresh 0  score_w 1.00  life   1115  score    94504  contacts 7.20  drained 0.95  P(L) 0.41  P(R) 0.46  235.4s

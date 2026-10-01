@@ -1,0 +1,165 @@
+/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/cma/s.py:17: UserWarning: Could not import matplotlib.pyplot, therefore ``cma.plot()`` etc. is not available
+  _warnings.warn('Could not import matplotlib.pyplot, therefore'
+gen   0  mean-teacher fit 11.400 log1p 11.382 comp 0.38 hits 2.52 presses 16.2  params {"thr": 11.5, "k": 1.0, "kv": 0.0, "hold": 1, "cool": 2}  | best cand fit 11.475  sigma 0.572  191s
+gen   1  mean-teacher fit 11.515 log1p 11.498 comp 0.35 hits 2.31 presses 21.6  params {"thr": 11.297023182425228, "k": 1.1068187440769781, "kv": 0.17884682012226535, "hold": 1, "cool": 2}  | best cand fit 11.489  sigma 0.561  354s
+gen   2  mean-teacher fit 11.211 log1p 11.189 comp 0.44 hits 2.48 presses 18.4  params {"thr": 11.16174627421975, "k": 1.0634594643999133, "kv": 0.14368699768949378, "hold": 2, "cool": 2}  | best cand fit 11.286  sigma 0.552  512s
+gen   3  mean-teacher fit 11.392 log1p 11.369 comp 0.46 hits 2.44 presses 23.1  params {"thr": 11.114981941466574, "k": 0.6630534525412656, "kv": 0.30688434652445407, "hold": 2, "cool": 2}  | best cand fit 11.700  sigma 0.537  719s
+gen   4  mean-teacher fit 11.511 log1p 11.483 comp 0.56 hits 2.88 presses 19.7  params {"thr": 11.1758838733156, "k": 0.46340243473984677, "kv": 0.16116117530539417, "hold": 2, "cool": 2}  | best cand fit 11.505  sigma 0.548  939s
+gen   5  mean-teacher fit 11.448 log1p 11.422 comp 0.52 hits 2.75 presses 19.1  params {"thr": 10.921791737613049, "k": 0.42004913281544876, "kv": -0.13373359392322542, "hold": 2, "cool": 2}  | best cand fit 11.708  sigma 0.669  1107s
+gen   6  mean-teacher fit 11.392 log1p 11.373 comp 0.38 hits 2.38 presses 18.5  params {"thr": 10.752369361143675, "k": 0.601059063581657, "kv": -0.7171255841746549, "hold": 2, "cool": 3}  | best cand fit 11.500  sigma 0.591  1272s
+gen   7  mean-teacher fit 11.301 log1p 11.275 comp 0.52 hits 2.73 presses 15.8  params {"thr": 11.06181550098282, "k": 0.7359478824099133, "kv": -0.21929105221311362, "hold": 2, "cool": 2}  | best cand fit 11.316  sigma 0.509  1425s
+gen   8  mean-teacher fit 11.345 log1p 11.331 comp 0.29 hits 2.38 presses 17.3  params {"thr": 11.196929411100594, "k": 0.642681596034105, "kv": -0.10302497028507317, "hold": 2, "cool": 2}  | best cand fit 11.465  sigma 0.416  1584s
+gen   9  mean-teacher fit 11.236 log1p 11.217 comp 0.38 hits 2.23 presses 14.6  params {"thr": 11.034350901166142, "k": 0.5291764984309079, "kv": -0.10515789071792403, "hold": 2, "cool": 2}  | best cand fit 11.652  sigma 0.439  1740s
+gen  10  mean-teacher fit 11.501 log1p 11.487 comp 0.29 hits 2.19 presses 18.9  params {"thr": 11.149758983903588, "k": 0.963114913519311, "kv": -0.259135898062739, "hold": 2, "cool": 3}  | best cand fit 11.608  sigma 0.459  1909s
+gen  11  mean-teacher fit 11.453 log1p 11.426 comp 0.54 hits 2.79 presses 13.3  params {"thr": 11.421766274735582, "k": 1.0401208413409466, "kv": -0.15774281152325878, "hold": 2, "cool": 2}  | best cand fit 11.620  sigma 0.466  2075s
+gen  12  mean-teacher fit 11.254 log1p 11.240 comp 0.29 hits 2.06 presses 12.2  params {"thr": 11.564227192157984, "k": 0.95803048732674, "kv": 0.01741731038932448, "hold": 2, "cool": 2}  | best cand fit 11.523  sigma 0.501  2241s
+gen  13  mean-teacher fit 11.645 log1p 11.619 comp 0.52 hits 2.67 presses 12.9  params {"thr": 11.648956827614162, "k": 0.7815513007188426, "kv": -0.24338707124440281, "hold": 2, "cool": 2}  | best cand fit 11.585  sigma 0.467  2396s
+gen  14  mean-teacher fit 11.320 log1p 11.303 comp 0.33 hits 2.31 presses 11.2  params {"thr": 11.635506103356175, "k": 0.9169891415061904, "kv": -0.04712630878401183, "hold": 2, "cool": 2}  | best cand fit 11.473  sigma 0.438  2549s
+gen  15  mean-teacher fit 11.664 log1p 11.638 comp 0.52 hits 2.83 presses 15.6  params {"thr": 11.360122332669254, "k": 0.9787187450732208, "kv": -0.1812034144896993, "hold": 2, "cool": 3}  | best cand fit 11.794  sigma 0.385  2737s
+gen  16  mean-teacher fit 11.427 log1p 11.401 comp 0.52 hits 2.81 presses 12.4  params {"thr": 11.593451974136018, "k": 0.9888566351490174, "kv": -0.15743349553788397, "hold": 2, "cool": 2}  | best cand fit 11.532  sigma 0.382  2881s
+gen  17  mean-teacher fit 11.766 log1p 11.741 comp 0.50 hits 2.83 presses 14.0  params {"thr": 11.707051637535438, "k": 1.1227763247457663, "kv": -0.19933984998593524, "hold": 2, "cool": 2}  | best cand fit 11.805  sigma 0.404  3060s
+gen  18  mean-teacher fit 11.326 log1p 11.308 comp 0.35 hits 2.23 presses 11.4  params {"thr": 11.726068447557289, "k": 1.3143729900651817, "kv": -0.31110564226790804, "hold": 2, "cool": 2}  | best cand fit 11.294  sigma 0.411  3206s
+gen  19  mean-teacher fit 11.164 log1p 11.145 comp 0.38 hits 2.31 presses 11.8  params {"thr": 11.583891545437695, "k": 1.4059035008918919, "kv": -0.3491849783907728, "hold": 2, "cool": 2}  | best cand fit 11.187  sigma 0.388  3339s
+gen  20  mean-teacher fit 11.525 log1p 11.501 comp 0.48 hits 2.65 presses 12.4  params {"thr": 11.798483965009474, "k": 1.3586939454834428, "kv": -0.2615344287821765, "hold": 2, "cool": 2}  | best cand fit 11.499  sigma 0.316  3499s
+gen  21  mean-teacher fit 11.553 log1p 11.525 comp 0.56 hits 2.83 presses 12.9  params {"thr": 11.721483780310407, "k": 1.356908274832096, "kv": -0.23792390932901633, "hold": 2, "cool": 2}  | best cand fit 11.667  sigma 0.267  3671s
+gen  22  mean-teacher fit 11.604 log1p 11.585 comp 0.38 hits 2.52 presses 12.6  params {"thr": 11.743558088035849, "k": 1.4083192065980452, "kv": -0.3050005647260034, "hold": 2, "cool": 2}  | best cand fit 11.677  sigma 0.246  3837s
+gen  23  mean-teacher fit 11.345 log1p 11.317 comp 0.56 hits 2.94 presses 11.5  params {"thr": 11.84993054360595, "k": 1.3264060899020564, "kv": -0.18448617844747145, "hold": 2, "cool": 2}  | best cand fit 11.392  sigma 0.266  3987s
+gen  24  mean-teacher fit 11.465 log1p 11.444 comp 0.44 hits 2.46 presses 10.2  params {"thr": 11.983046024103855, "k": 1.3015453459929616, "kv": -0.11888147011717572, "hold": 2, "cool": 2}  | best cand fit 11.548  sigma 0.249  4141s
+gen  25  mean-teacher fit 11.564 log1p 11.530 comp 0.67 hits 3.23 presses 10.4  params {"thr": 11.94267418970438, "k": 1.2864051822540365, "kv": -0.14488121602773993, "hold": 2, "cool": 2}  | best cand fit 11.676  sigma 0.237  4304s
+gen  26  mean-teacher fit 11.505 log1p 11.475 comp 0.60 hits 3.02 presses 11.3  params {"thr": 11.792328802808125, "k": 1.3710552388808228, "kv": -0.28564232515195564, "hold": 2, "cool": 2}  | best cand fit 11.594  sigma 0.223  4473s
+gen  27  mean-teacher fit 11.408 log1p 11.384 comp 0.48 hits 2.77 presses 10.5  params {"thr": 11.698064064465127, "k": 1.3979155125532792, "kv": -0.3352857998497341, "hold": 2, "cool": 2}  | best cand fit 11.459  sigma 0.211  4613s
+gen  28  mean-teacher fit 11.370 log1p 11.342 comp 0.56 hits 2.79 presses 12.0  params {"thr": 11.64797151068697, "k": 1.398598905284489, "kv": -0.34273395772755855, "hold": 2, "cool": 2}  | best cand fit 11.481  sigma 0.194  4768s
+gen  29  mean-teacher fit 11.607 log1p 11.574 comp 0.67 hits 3.25 presses 13.2  params {"thr": 11.720013472322824, "k": 1.4054445194970486, "kv": -0.279860903293545, "hold": 2, "cool": 2}  | best cand fit 11.686  sigma 0.196  4932s
+Exception ignored in atexit callback: <function dump_cache_stats at 0x10b956ca0>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in atexit callback: <function dump_cache_stats at 0x113056ca0>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in atexit callback: <function dump_cache_stats at 0x112856ca0>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/_subclasses/fake_tensor.py", line 3778, in dump_cache_stats
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <function dump_cache_stats at 0x10cb56ca0>
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/_subclasses/fake_tensor.py", line 3776, in dump_cache_stats
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/_subclasses/fake_tensor.py", line 3778, in dump_cache_stats
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/_subclasses/fake_tensor.py", line 3778, in dump_cache_stats
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    @atexit.register
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    log.info("FakeTensor cache stats:")
+    def _shutdown():
+    def _shutdown():
+    log.info("FakeTensor cache stats:")
+    log.info("FakeTensor cache stats:")
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/logging/__init__.py", line 1479, in info
+    
+    
+    
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+    
+    
+    
+    
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/logging/__init__.py", line 1479, in info
+    
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/logging/__init__.py", line 1479, in info
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+                                             ^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    
+    def info(self, msg, *args, **kwargs):
+    def info(self, msg, *args, **kwargs):
+                                             ^^^^^^^^^^^
+    def info(self, msg, *args, **kwargs):
+                                             ^^^^^^^^^^^
+SystemExit: 0
+
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+SystemExit: 0
+
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/timing/reflex_lead_eval.py", line 43, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+final teacher (CMA mean): {"thr": 11.781702788602447, "k": 1.3041892754543374, "kv": -0.1654712662987417, "hold": 2, "cool": 2}

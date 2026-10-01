@@ -1,0 +1,8 @@
+gen   0  mean-teacher log1p 13.935 median 1,362,250 comp 2.50 over 100%  params {"thr": 11.5, "k": 1.0, "kv": 0.0, "hold": 1, "cool": 2} | best cand 14.243 sigma 0.760  1521s
+gen   1  mean-teacher log1p 14.480 median 2,054,750 comp 2.96 over 100%  params {"thr": 11.239281743250803, "k": 1.2324696960429813, "kv": -0.0990843706313389, "hold": 1, "cool": 2} | best cand 14.293 sigma 0.658  3323s
+gen   2  mean-teacher log1p 14.038 median 1,384,875 comp 2.62 over 100%  params {"thr": 11.344411526233795, "k": 1.0695322778679472, "kv": -0.1092462522329036, "hold": 1, "cool": 2} | best cand 14.262 sigma 0.715  4967s
+gen   3  mean-teacher log1p 13.686 median 986,375 comp 2.08 over 100%  params {"thr": 11.410104039602787, "k": 0.7193018915574657, "kv": 0.4755970242973068, "hold": 1, "cool": 2} | best cand 14.321 sigma 0.834  6570s
+gen   4  mean-teacher log1p 13.843 median 1,114,875 comp 1.96 over 100%  params {"thr": 11.886352040973764, "k": 0.5814140461418837, "kv": 1.0020777270494934, "hold": 2, "cool": 2} | best cand 14.405 sigma 0.828  8186s
+gen   5  mean-teacher log1p 13.623 median 917,875 comp 1.88 over 100%  params {"thr": 11.810331373825164, "k": 0.7277140804238496, "kv": 1.2491941746899993, "hold": 2, "cool": 2} | best cand 14.457 sigma 0.807  9843s
+gen   6  mean-teacher log1p 14.421 median 2,018,125 comp 4.46 over 96%  params {"thr": 11.938801517609777, "k": 0.6531252553074937, "kv": 0.4994303410322888, "hold": 1, "cool": 2} | best cand 14.365 sigma 0.713  11262s
+gen   7  mean-teacher log1p 14.296 median 1,356,375 comp 4.17 over 100%  params {"thr": 12.009338678761655, "k": 0.6289067292149724, "kv": 0.7978192189539066, "hold": 1, "cool": 2} | best cand 14.419 sigma 0.773  12897s

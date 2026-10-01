@@ -1,0 +1,274 @@
+Exception ignored in atexit callback: <function _init.<locals>.<lambda> at 0x105d6e0c0>
+Exception ignored in atexit callback: <function _init.<locals>.<lambda> at 0x1050f60c0>
+Exception ignored in atexit callback: <function _init.<locals>.<lambda> at 0x1022d60c0>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <function _init.<locals>.<lambda> at 0x1049c60c0>
+Exception ignored in atexit callback: <function _init.<locals>.<lambda> at 0x103ff60c0>
+Exception ignored in atexit callback: <function _init.<locals>.<lambda> at 0x10516e0c0>
+Exception ignored in atexit callback: <function _init.<locals>.<lambda> at 0x105d8a0c0>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <function _init.<locals>.<lambda> at 0x1058f20c0>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 52, in <lambda>
+Exception ignored in atexit callback: <function _init.<locals>.<lambda> at 0x10128e0c0>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 52, in <lambda>
+Exception ignored in atexit callback: <function _init.<locals>.<lambda> at 0x1065520c0>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 52, in <lambda>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 52, in <lambda>
+Exception ignored in atexit callback: <function _init.<locals>.<lambda> at 0x105e920c0>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 52, in <lambda>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 52, in <lambda>
+    atexit.register(lambda: _ENV.close())
+    atexit.register(lambda: _ENV.close())
+                            ^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 451, in close
+    atexit.register(lambda: _ENV.close())
+                            ^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 451, in close
+Exception ignored in atexit callback: <function _init.<locals>.<lambda> at 0x101cce0c0>
+Traceback (most recent call last):
+Traceback (most recent call last):
+    atexit.register(lambda: _ENV.close())
+Exception ignored in atexit callback: <function _init.<locals>.<lambda> at 0x101dfe0c0>
+    atexit.register(lambda: _ENV.close())
+Traceback (most recent call last):
+Exception ignored in atexit callback: <function _init.<locals>.<lambda> at 0x10560e0c0>
+Exception ignored in atexit callback: <function _init.<locals>.<lambda> at 0x105bba0c0>
+                            ^^^^^^^^^^^^
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 52, in <lambda>
+                            ^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 451, in close
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 451, in close
+    atexit.register(lambda: _ENV.close())
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 52, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 52, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 52, in <lambda>
+    self._proc.wait(timeout=5.0)
+Exception ignored in atexit callback: <function _init.<locals>.<lambda> at 0x10259e0c0>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 52, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 52, in <lambda>
+Traceback (most recent call last):
+    atexit.register(lambda: _ENV.close())
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 52, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 52, in <lambda>
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+                            ^^^^^^^^^^^^
+    self._proc.wait(timeout=5.0)
+    atexit.register(lambda: _ENV.close())
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+                            ^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 451, in close
+    atexit.register(lambda: _ENV.close())
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 451, in close
+Traceback (most recent call last):
+    atexit.register(lambda: _ENV.close())
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 52, in <lambda>
+    atexit.register(lambda: _ENV.close())
+                            ^^^^^^^^^^^^
+    self._proc.wait(timeout=5.0)
+    atexit.register(lambda: _ENV.close())
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+                            ^^^^^^^^^^^^
+                            ^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 451, in close
+                            ^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 451, in close
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    atexit.register(lambda: _ENV.close())
+    self._proc.wait(timeout=5.0)
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 451, in close
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 52, in <lambda>
+    self._proc.wait(timeout=5.0)
+                            ^^^^^^^^^^^^
+                            ^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 451, in close
+                            ^^^^^^^^^^^^
+    self._proc.wait(timeout=5.0)
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 451, in close
+    atexit.register(lambda: _ENV.close())
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 451, in close
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    atexit.register(lambda: _ENV.close())
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+                            ^^^^^^^^^^^^
+    return self._wait(timeout=timeout)
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 451, in close
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+    self._proc.wait(timeout=5.0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+                            ^^^^^^^^^^^^
+    atexit.register(lambda: _ENV.close())
+    self._proc.wait(timeout=5.0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 451, in close
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 451, in close
+    return self._wait(timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    self._proc.wait(timeout=5.0)
+    return self._wait(timeout=timeout)
+    time.sleep(delay)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+                            ^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 51, in <lambda>
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return self._wait(timeout=timeout)
+    self._proc.wait(timeout=5.0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return self._wait(timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 51, in <lambda>
+                                             ^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2043, in _wait
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 51, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+SystemExit: 0
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 451, in close
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    time.sleep(delay)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 51, in <lambda>
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    remaining = self._remaining_time(endtime)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1239, in _remaining_time
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 51, in <lambda>
+    return self._wait(timeout=timeout)
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 51, in <lambda>
+    def _remaining_time(self, endtime):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    self._proc.wait(timeout=5.0)
+SystemExit: 0
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+SystemExit: 0
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 51, in <lambda>
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 51, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 51, in <lambda>
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 51, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 51, in <lambda>
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 51, in <lambda>
+    time.sleep(delay)
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 51, in <lambda>
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 51, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 51, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/fullgame/full_game_eval.py", line 51, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+
+== brain: 32 games, game over reached 100%
+  total score: median 819,375  mean 1,236,156  max 4,290,250  log1p 13.70 +- 0.14
+  balls per game 3.53  steps 7350  bank completions per game 2.69
+  share of points by multiplier: x1 64%  x2 27%  x3 7%  x5 3%
+  big awards (>=100k base): 41 in 32 games, 26% of all points; ramp x30, a_bump3 x3, a_bump4 x2, drain x2, a_bump1 x1, a_bump2 x1, a_roll2 x1, a_roll3 x1
+  top objects by points: ramp 14%, a_roll4 7%, a_flag2 6%, a_roll8 5%, a_roll7 5%, a_flag1 5%, a_bump3 5%, drain 4%
+
+== lead1: 32 games, game over reached 97%
+  total score: median 1,148,750  mean 1,441,133  max 6,586,000  log1p 13.87 +- 0.14
+  balls per game 3.56  steps 8326  bank completions per game 2.75
+  share of points by multiplier: x1 73%  x2 21%  x3 6%  x5 0%
+  big awards (>=100k base): 59 in 32 games, 39% of all points; ramp x40, a_roll3 x3, a_bump1 x3, a_bump2 x3, a_roll1 x3, a_bump3 x2, a_targ7 x1, a_targ4 x1
+  top objects by points: ramp 10%, a_roll8 7%, a_bump1 6%, a_roll4 5%, a_roll1 5%, a_roll3 5%, a_roll7 5%, a_roll5 4%
