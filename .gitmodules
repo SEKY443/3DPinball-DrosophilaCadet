@@ -1,0 +1,6 @@
+[submodule "vendor/SpaceCadetPinball"]
+	path = vendor/SpaceCadetPinball
+	url = https://github.com/k4zmu2a/SpaceCadetPinball.git
+[submodule "vendor/nfly"]
+	path = vendor/nfly
+	url = https://github.com/zhengxuyu/nfly.git

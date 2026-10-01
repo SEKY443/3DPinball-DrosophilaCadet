@@ -1,0 +1,64 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "web/**"
+      - "src_cpp/**"
+      - "agents/checkpoints/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one concurrent deployment, but don't cancel an in-progress run.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - uses: mymindstorm/setup-emsdk@v14
+        with:
+          version: latest
+
+      - name: Build wasm
+        run: ./scripts/build_wasm.sh
+
+      - name: Verify web/weights.json is committed
+        # Training/export runs offline (agents/train.py + agents/export_weights.py) - CI has
+        # no GPU and no game data to train against, so it only packages an already-exported file.
+        run: |
+          if [ ! -f web/weights.json ]; then
+            echo "error: web/weights.json is missing - run agents/export_weights.py locally and commit its output" >&2
+            exit 1
+          fi
+
+      - name: Assemble Pages artifact
+        run: |
+          mkdir -p _site/dist
+          cp web/index.html web/bridge.js web/inference.js web/weights.json _site/
+          cp web/dist/SpaceCadetPinball.js web/dist/SpaceCadetPinball.wasm _site/dist/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

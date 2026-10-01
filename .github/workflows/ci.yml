@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  native-build-and-smoke-test:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install SDL2 dependencies
+        run: brew install sdl2 sdl2_mixer
+
+      - name: Build native binary
+        run: ./scripts/build_native.sh
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run IPC wire-protocol smoke test
+        # Exercises env_python/ipc_client.py against a fake in-Python "engine" speaking the
+        # exact src_cpp/ipc_protocol.h wire format - does not require a DAT file, since a real
+        # end-to-end run needs one (copyrighted game data; see README) that CI cannot provide.
+        run: python3 scripts/smoke_ipc.py

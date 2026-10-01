@@ -1,0 +1,21 @@
+prompt.md
+build-native/
+build-wasm/
+.venv/
+__pycache__/
+*.pyc
+agents/checkpoints/
+web/dist/
+data/
+*.zip
+colab_ssh_credentials.txt
+
+
+# Local changelog (not committed)
+CHANGELOG.md
+.pre_merge_backup/
+
+# Optimizer snapshots and bulky regenerable datasets (keep checkpoints .pt, logs and result JSON)
+*.cma.pkl
+agents/experiments/oracle_dagger/**/data_*.npz
+*.tabbed
