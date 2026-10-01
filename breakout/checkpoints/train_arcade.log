@@ -1,0 +1,722 @@
+decoder parameter count (CEM search dimension): 339
+gen    1  best    29.00  mean    -1.42  champion    -3.00  sigma_mean 0.6672    2.9s
+gen    2  best    13.67  mean    -1.94  champion    -3.00  sigma_mean 0.5885    1.8s
+gen    3  best    12.67  mean    -2.61  champion    -3.00  sigma_mean 0.5394    1.8s
+gen    4  best     6.67  mean    -3.60  champion    -3.00  sigma_mean 0.4767    1.7s
+gen    5  best    13.67  mean    -2.56  champion    -0.50  sigma_mean 0.4290    1.7s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen    6  best     8.00  mean    -4.76  champion    -0.50  sigma_mean 0.4259    1.8s
+gen    7  best    11.33  mean    -1.69  champion    -0.50  sigma_mean 0.4271    1.7s
+gen    8  best     6.67  mean    -1.93  champion    -0.50  sigma_mean 0.4231    1.7s
+gen    9  best     7.33  mean    -2.90  champion    -0.50  sigma_mean 0.4960    1.8s
+gen   10  best    22.33  mean    -2.56  champion     0.25  sigma_mean 0.4588    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   11  best    15.00  mean    -1.12  champion     0.25  sigma_mean 0.4600    1.7s
+gen   12  best    10.00  mean    -2.04  champion     3.75  sigma_mean 0.4000    1.8s
+gen   13  best    13.33  mean    -2.10  champion    14.00  sigma_mean 0.4379    1.9s
+gen   14  best    16.67  mean    -2.68  champion    14.00  sigma_mean 0.4311    1.8s
+gen   15  best     6.67  mean    -2.46  champion    14.00  sigma_mean 0.3757    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   16  best    16.67  mean    -2.53  champion    14.00  sigma_mean 0.4692    1.9s
+gen   17  best     9.33  mean    -1.74  champion    14.00  sigma_mean 0.5131    1.6s
+gen   18  best    15.00  mean    -3.43  champion    14.00  sigma_mean 0.5208    1.8s
+gen   19  best     6.67  mean    -3.85  champion    14.00  sigma_mean 0.4652    1.7s
+gen   20  best    10.33  mean    -0.85  champion    14.00  sigma_mean 0.3997    1.7s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   21  best     8.00  mean    -2.00  champion    14.00  sigma_mean 0.3515    1.7s
+gen   22  best     7.67  mean    -4.40  champion    14.00  sigma_mean 0.3961    1.5s
+gen   23  best    12.33  mean    -2.90  champion    14.00  sigma_mean 0.3992    1.5s
+gen   24  best    13.67  mean    -2.58  champion    14.00  sigma_mean 0.4201    1.5s
+gen   25  best    12.33  mean    -4.19  champion    14.00  sigma_mean 0.4442    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   26  best     6.67  mean    -3.33  champion    14.00  sigma_mean 0.3907    1.4s
+gen   27  best    16.67  mean    -3.99  champion    14.00  sigma_mean 0.3717    1.6s
+gen   28  best    13.67  mean    -2.54  champion    14.00  sigma_mean 0.3868    1.6s
+gen   29  best     5.00  mean    -4.56  champion    14.00  sigma_mean 0.3536    1.5s
+gen   30  best    18.00  mean    -2.24  champion    14.00  sigma_mean 0.4220    2.0s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   31  best     4.67  mean    -4.31  champion    14.00  sigma_mean 0.4561    1.5s
+gen   32  best    14.67  mean    -1.58  champion    14.00  sigma_mean 0.4672    1.7s
+gen   33  best    13.33  mean    -2.53  champion    14.00  sigma_mean 0.3963    1.5s
+gen   34  best    13.67  mean    -4.21  champion    14.00  sigma_mean 0.4480    1.5s
+gen   35  best    18.33  mean    -0.76  champion    14.00  sigma_mean 0.3913    1.9s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   36  best     9.00  mean    -3.72  champion    14.00  sigma_mean 0.4001    1.4s
+gen   37  best    11.33  mean    -1.61  champion    14.00  sigma_mean 0.3509    1.6s
+gen   38  best     4.67  mean    -5.10  champion    14.00  sigma_mean 0.4211    1.5s
+gen   39  best     7.67  mean    -2.90  champion    14.00  sigma_mean 0.4335    1.4s
+gen   40  best     7.67  mean    -2.85  champion    14.00  sigma_mean 0.4308    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   41  best    30.33  mean    -1.60  champion    14.00  sigma_mean 0.4177    1.6s
+gen   42  best    10.00  mean    -2.24  champion    14.00  sigma_mean 0.3581    1.6s
+gen   43  best    23.33  mean     0.33  champion    14.00  sigma_mean 0.3677    1.6s
+gen   44  best    14.67  mean    -3.29  champion    14.00  sigma_mean 0.4154    1.6s
+gen   45  best     9.33  mean    -2.61  champion    14.00  sigma_mean 0.4479    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   46  best     7.00  mean    -1.44  champion    14.00  sigma_mean 0.4202    1.6s
+gen   47  best    22.33  mean    -0.07  champion    14.00  sigma_mean 0.3697    1.7s
+gen   48  best    22.67  mean    -2.18  champion    14.00  sigma_mean 0.4608    1.7s
+gen   49  best     8.00  mean    -3.62  champion    14.00  sigma_mean 0.4642    1.4s
+gen   50  best     8.33  mean    -3.47  champion    14.00  sigma_mean 0.4734    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   51  best    29.33  mean     0.31  champion    14.00  sigma_mean 0.4275    1.8s
+gen   52  best     4.67  mean    -3.18  champion    14.00  sigma_mean 0.4478    1.4s
+gen   53  best    19.33  mean    -1.15  champion    14.00  sigma_mean 0.4836    1.7s
+gen   54  best    21.33  mean    -2.11  champion    14.00  sigma_mean 0.4761    1.7s
+gen   55  best     8.33  mean    -4.11  champion    14.00  sigma_mean 0.4293    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   56  best    13.33  mean    -1.61  champion    14.00  sigma_mean 0.4155    1.6s
+gen   57  best    13.67  mean    -2.33  champion    14.00  sigma_mean 0.4134    1.7s
+gen   58  best    18.33  mean    -2.46  champion    14.00  sigma_mean 0.4408    1.6s
+gen   59  best     9.00  mean    -2.01  champion    14.00  sigma_mean 0.4129    1.6s
+gen   60  best    11.67  mean    -1.83  champion    14.00  sigma_mean 0.3884    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   61  best     7.00  mean    -3.76  champion    14.00  sigma_mean 0.4104    1.5s
+gen   62  best     9.00  mean    -2.44  champion    14.00  sigma_mean 0.3653    1.5s
+gen   63  best    12.67  mean    -1.56  champion    14.00  sigma_mean 0.3149    1.5s
+gen   64  best    13.67  mean    -1.06  champion    14.00  sigma_mean 0.2812    1.5s
+gen   65  best     9.33  mean    -0.72  champion    14.00  sigma_mean 0.3398    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   66  best     9.67  mean    -4.74  champion    14.00  sigma_mean 0.3079    1.5s
+gen   67  best     8.33  mean    -1.69  champion    14.00  sigma_mean 0.3630    1.7s
+gen   68  best     9.67  mean    -3.62  champion    14.00  sigma_mean 0.3719    1.5s
+gen   69  best    11.67  mean    -2.62  champion    14.00  sigma_mean 0.4667    1.6s
+gen   70  best    26.00  mean    -0.39  champion    14.00  sigma_mean 0.4897    1.7s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   71  best    13.67  mean    -1.26  champion    14.00  sigma_mean 0.4339    1.6s
+gen   72  best     9.00  mean    -2.75  champion    14.00  sigma_mean 0.4401    1.5s
+gen   73  best     6.00  mean    -2.46  champion    14.00  sigma_mean 0.4522    1.6s
+gen   74  best    13.67  mean    -1.97  champion    14.00  sigma_mean 0.3902    1.7s
+gen   75  best    20.33  mean    -1.74  champion    14.00  sigma_mean 0.4357    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   76  best     8.00  mean    -0.13  champion    14.00  sigma_mean 0.4246    1.6s
+gen   77  best     8.67  mean    -3.24  champion    14.00  sigma_mean 0.4744    1.5s
+gen   78  best     4.67  mean    -3.99  champion    14.00  sigma_mean 0.4491    1.4s
+gen   79  best    11.00  mean    -2.50  champion    14.00  sigma_mean 0.3956    1.5s
+gen   80  best     2.33  mean    -3.69  champion    14.00  sigma_mean 0.3929    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   81  best    13.67  mean    -2.13  champion    14.00  sigma_mean 0.3766    1.5s
+gen   82  best    15.67  mean    -1.54  champion    14.00  sigma_mean 0.3259    1.5s
+gen   83  best     6.67  mean    -1.25  champion    14.00  sigma_mean 0.4196    1.5s
+gen   84  best    11.67  mean    -1.19  champion    14.00  sigma_mean 0.4473    1.8s
+gen   85  best     6.33  mean    -3.22  champion    14.00  sigma_mean 0.4805    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   86  best     7.00  mean    -2.58  champion    14.00  sigma_mean 0.5051    1.7s
+gen   87  best     6.00  mean    -1.93  champion    14.00  sigma_mean 0.4769    1.7s
+gen   88  best    21.67  mean    -2.68  champion    14.00  sigma_mean 0.4919    1.6s
+gen   89  best     6.33  mean    -3.01  champion    14.00  sigma_mean 0.4239    1.8s
+gen   90  best     8.00  mean    -2.86  champion    14.00  sigma_mean 0.3665    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   91  best     6.67  mean    -3.53  champion    14.00  sigma_mean 0.4538    1.4s
+gen   92  best    13.67  mean    -0.56  champion    14.00  sigma_mean 0.4419    1.7s
+gen   93  best    14.67  mean    -2.14  champion    14.00  sigma_mean 0.4500    1.6s
+gen   94  best    25.33  mean     0.74  champion    14.00  sigma_mean 0.4063    1.7s
+gen   95  best     5.67  mean    -4.28  champion    14.00  sigma_mean 0.3844    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen   96  best     9.33  mean    -2.89  champion    14.00  sigma_mean 0.4331    1.5s
+gen   97  best    13.00  mean    -2.39  champion    14.00  sigma_mean 0.3778    1.6s
+gen   98  best    12.67  mean    -3.25  champion    14.00  sigma_mean 0.3634    1.6s
+gen   99  best    23.67  mean    -3.72  champion    14.00  sigma_mean 0.3256    1.6s
+gen  100  best    15.00  mean    -2.31  champion    14.00  sigma_mean 0.2880    1.7s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  101  best    11.67  mean    -2.46  champion    14.00  sigma_mean 0.4452    1.6s
+gen  102  best     9.33  mean    -3.65  champion    14.00  sigma_mean 0.4460    1.5s
+gen  103  best    19.33  mean    -1.11  champion    14.25  sigma_mean 0.3822    1.8s
+gen  104  best     5.67  mean    -5.50  champion    14.25  sigma_mean 0.3799    1.4s
+gen  105  best    12.67  mean    -5.40  champion    14.25  sigma_mean 0.3288    1.3s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  106  best     8.00  mean    -4.11  champion    14.25  sigma_mean 0.4299    1.5s
+gen  107  best    25.33  mean    -0.56  champion    14.25  sigma_mean 0.3727    1.6s
+gen  108  best    14.67  mean     0.06  champion    14.25  sigma_mean 0.3250    1.7s
+gen  109  best    19.33  mean    -2.31  champion    14.25  sigma_mean 0.2803    1.6s
+gen  110  best    17.00  mean     1.24  champion    14.25  sigma_mean 0.3701    2.0s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  111  best    15.00  mean    -0.92  champion    14.25  sigma_mean 0.4353    1.7s
+gen  112  best    12.33  mean    -3.62  champion    14.25  sigma_mean 0.3968    1.6s
+gen  113  best     9.33  mean    -2.58  champion    14.25  sigma_mean 0.4094    1.4s
+gen  114  best     9.00  mean    -2.60  champion    14.25  sigma_mean 0.4479    1.5s
+gen  115  best    11.33  mean    -0.18  champion    14.25  sigma_mean 0.4147    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  116  best    11.33  mean    -1.78  champion    14.25  sigma_mean 0.4371    1.5s
+gen  117  best    15.00  mean    -2.17  champion    14.25  sigma_mean 0.3768    1.6s
+gen  118  best    11.33  mean    -3.00  champion    14.25  sigma_mean 0.3782    1.6s
+gen  119  best    14.00  mean    -2.19  champion    14.25  sigma_mean 0.3836    1.4s
+gen  120  best    21.33  mean    -1.18  champion    14.25  sigma_mean 0.3889    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  121  best     7.67  mean    -2.57  champion    14.25  sigma_mean 0.4073    1.5s
+gen  122  best    11.33  mean    -2.88  champion    14.25  sigma_mean 0.3840    1.6s
+gen  123  best    11.33  mean    -2.72  champion    14.25  sigma_mean 0.4447    1.4s
+gen  124  best    10.33  mean    -2.81  champion    14.25  sigma_mean 0.3752    1.5s
+gen  125  best    14.33  mean    -3.08  champion    14.25  sigma_mean 0.4664    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  126  best    16.00  mean    -3.18  champion    14.25  sigma_mean 0.4579    1.9s
+gen  127  best    17.33  mean    -1.71  champion    14.25  sigma_mean 0.4529    1.5s
+gen  128  best     8.00  mean    -4.24  champion    14.25  sigma_mean 0.3880    1.4s
+gen  129  best    11.00  mean    -3.76  champion    14.25  sigma_mean 0.4410    1.5s
+gen  130  best     7.00  mean    -1.61  champion    14.25  sigma_mean 0.3913    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  131  best     8.00  mean    -3.08  champion    14.25  sigma_mean 0.3773    1.3s
+gen  132  best     5.67  mean    -3.08  champion    14.25  sigma_mean 0.3297    1.5s
+gen  133  best     8.33  mean    -1.51  champion    14.25  sigma_mean 0.3885    1.6s
+gen  134  best     6.00  mean    -3.06  champion    14.25  sigma_mean 0.3263    1.6s
+gen  135  best    14.00  mean    -2.54  champion    14.25  sigma_mean 0.3607    1.7s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  136  best    25.00  mean    -2.38  champion    14.25  sigma_mean 0.3647    1.6s
+gen  137  best    19.00  mean    -1.74  champion    14.25  sigma_mean 0.3081    1.7s
+gen  138  best     9.00  mean    -4.82  champion    14.25  sigma_mean 0.2755    1.4s
+gen  139  best    11.33  mean    -1.47  champion    14.25  sigma_mean 0.3695    1.5s
+gen  140  best     9.33  mean    -3.29  champion    14.25  sigma_mean 0.3286    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  141  best    14.67  mean    -0.65  champion    14.25  sigma_mean 0.2856    1.6s
+gen  142  best     6.00  mean    -2.36  champion    14.25  sigma_mean 0.3234    1.5s
+gen  143  best    14.33  mean    -2.83  champion    14.25  sigma_mean 0.2777    1.7s
+gen  144  best    17.00  mean    -0.44  champion    14.25  sigma_mean 0.3238    1.7s
+gen  145  best    10.33  mean    -1.11  champion    14.25  sigma_mean 0.2801    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  146  best    11.67  mean    -0.65  champion    14.25  sigma_mean 0.3223    1.7s
+gen  147  best     3.67  mean    -5.14  champion    14.25  sigma_mean 0.3525    1.3s
+gen  148  best    14.33  mean    -1.67  champion    14.25  sigma_mean 0.4464    1.7s
+gen  149  best    11.00  mean    -1.35  champion    14.25  sigma_mean 0.3849    1.6s
+gen  150  best    11.33  mean    -4.49  champion    14.25  sigma_mean 0.3576    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  151  best    18.00  mean    -0.13  champion    14.25  sigma_mean 0.3331    2.0s
+gen  152  best    16.00  mean    -1.39  champion    14.25  sigma_mean 0.3734    1.6s
+gen  153  best     8.00  mean    -1.94  champion    14.25  sigma_mean 0.4018    1.6s
+gen  154  best    23.00  mean     0.64  champion    33.25  sigma_mean 0.4289    2.1s
+gen  155  best     4.67  mean    -5.07  champion    33.25  sigma_mean 0.3990    1.3s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  156  best    20.00  mean    -0.49  champion    33.25  sigma_mean 0.4692    1.6s
+gen  157  best     7.67  mean    -0.81  champion    33.25  sigma_mean 0.4050    1.6s
+gen  158  best    13.67  mean    -1.14  champion    33.25  sigma_mean 0.4081    1.5s
+gen  159  best    22.67  mean    -2.25  champion    33.25  sigma_mean 0.4263    1.4s
+gen  160  best     2.33  mean    -5.47  champion    33.25  sigma_mean 0.4087    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  161  best     8.33  mean    -2.92  champion    33.25  sigma_mean 0.3508    1.5s
+gen  162  best    13.67  mean    -3.47  champion    33.25  sigma_mean 0.3236    1.5s
+gen  163  best     5.67  mean    -3.12  champion    33.25  sigma_mean 0.2806    1.6s
+gen  164  best    10.00  mean    -3.11  champion    33.25  sigma_mean 0.4321    1.6s
+gen  165  best    14.33  mean    -4.31  champion    33.25  sigma_mean 0.4083    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  166  best    13.33  mean    -4.06  champion    33.25  sigma_mean 0.3973    1.4s
+gen  167  best    14.00  mean    -2.39  champion    33.25  sigma_mean 0.4049    1.5s
+gen  168  best    11.67  mean    -0.83  champion    33.25  sigma_mean 0.4220    1.6s
+gen  169  best    11.33  mean    -1.81  champion    33.25  sigma_mean 0.3483    1.5s
+gen  170  best    15.67  mean    -0.96  champion    33.25  sigma_mean 0.3301    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  171  best    14.00  mean    -0.86  champion    33.25  sigma_mean 0.3787    1.5s
+gen  172  best    14.00  mean    -1.94  champion    33.25  sigma_mean 0.3768    1.5s
+gen  173  best    29.33  mean    -1.08  champion    33.25  sigma_mean 0.3850    1.5s
+gen  174  best    13.67  mean    -2.93  champion    33.25  sigma_mean 0.4409    1.5s
+gen  175  best     8.33  mean    -3.88  champion    33.25  sigma_mean 0.4825    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  176  best    29.00  mean    -0.93  champion    33.25  sigma_mean 0.4679    1.6s
+gen  177  best    11.67  mean    -0.93  champion    33.25  sigma_mean 0.4444    1.5s
+gen  178  best    10.67  mean    -0.26  champion    33.25  sigma_mean 0.4753    1.7s
+gen  179  best    21.33  mean    -0.03  champion    33.25  sigma_mean 0.4831    1.5s
+gen  180  best    19.00  mean    -4.01  champion    33.25  sigma_mean 0.4408    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  181  best     7.00  mean    -2.12  champion    33.25  sigma_mean 0.3862    1.5s
+gen  182  best    13.33  mean    -1.43  champion    33.25  sigma_mean 0.3326    1.6s
+gen  183  best     7.00  mean    -3.93  champion    33.25  sigma_mean 0.4092    1.4s
+gen  184  best    25.67  mean    -1.87  champion    33.25  sigma_mean 0.3995    1.4s
+gen  185  best    26.00  mean    -1.06  champion    33.25  sigma_mean 0.4164    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  186  best    11.33  mean    -3.06  champion    33.25  sigma_mean 0.3339    1.5s
+gen  187  best    12.67  mean    -1.01  champion    33.25  sigma_mean 0.3146    1.6s
+gen  188  best    12.33  mean    -1.82  champion    33.25  sigma_mean 0.3233    1.5s
+gen  189  best    14.67  mean    -1.50  champion    33.25  sigma_mean 0.3368    1.5s
+gen  190  best    10.33  mean    -3.15  champion    33.25  sigma_mean 0.4217    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  191  best    14.67  mean    -3.04  champion    33.25  sigma_mean 0.3870    1.6s
+gen  192  best    14.33  mean    -1.19  champion    33.25  sigma_mean 0.3423    1.6s
+gen  193  best     9.33  mean    -4.01  champion    33.25  sigma_mean 0.3223    1.4s
+gen  194  best     8.00  mean    -3.67  champion    33.25  sigma_mean 0.2796    1.5s
+gen  195  best    28.00  mean    -1.93  champion    33.25  sigma_mean 0.2892    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  196  best    13.67  mean    -2.26  champion    33.25  sigma_mean 0.4304    1.5s
+gen  197  best    18.00  mean     0.86  champion    33.25  sigma_mean 0.4060    1.6s
+gen  198  best    15.67  mean    -2.07  champion    33.25  sigma_mean 0.4117    1.5s
+gen  199  best     7.33  mean    -2.44  champion    33.25  sigma_mean 0.4037    1.4s
+gen  200  best    12.67  mean    -1.56  champion    33.25  sigma_mean 0.3816    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  201  best    13.67  mean    -0.83  champion    33.25  sigma_mean 0.4152    1.6s
+gen  202  best    31.67  mean    -0.35  champion    33.25  sigma_mean 0.3700    1.5s
+gen  203  best    12.33  mean    -1.82  champion    33.25  sigma_mean 0.3315    1.5s
+gen  204  best    17.00  mean    -0.43  champion    33.25  sigma_mean 0.2963    1.6s
+gen  205  best    11.33  mean    -3.04  champion    33.25  sigma_mean 0.4560    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  206  best    12.33  mean    -2.25  champion    33.25  sigma_mean 0.3878    1.4s
+gen  207  best     5.67  mean    -3.35  champion    33.25  sigma_mean 0.3342    1.5s
+gen  208  best    22.67  mean    -2.26  champion    33.25  sigma_mean 0.3290    1.5s
+gen  209  best     7.33  mean    -3.12  champion    33.25  sigma_mean 0.3667    1.4s
+gen  210  best    35.67  mean    -1.51  champion    33.25  sigma_mean 0.4036    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  211  best    18.00  mean    -1.64  champion    33.25  sigma_mean 0.3460    1.5s
+gen  212  best    19.33  mean    -3.42  champion    33.25  sigma_mean 0.3491    1.5s
+gen  213  best    21.00  mean    -2.54  champion    33.25  sigma_mean 0.3150    1.5s
+gen  214  best    12.33  mean    -1.42  champion    33.25  sigma_mean 0.3548    1.4s
+gen  215  best    25.00  mean    -2.51  champion    33.25  sigma_mean 0.4048    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  216  best    25.00  mean    -1.68  champion    33.25  sigma_mean 0.3437    1.6s
+gen  217  best    20.33  mean    -1.38  champion    33.25  sigma_mean 0.4084    1.5s
+gen  218  best     5.00  mean    -2.65  champion    33.25  sigma_mean 0.4267    1.5s
+gen  219  best    25.00  mean    -2.92  champion    33.25  sigma_mean 0.3932    1.5s
+gen  220  best    18.00  mean    -0.31  champion    33.25  sigma_mean 0.4233    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  221  best    12.33  mean    -3.22  champion    33.25  sigma_mean 0.4759    1.6s
+gen  222  best    12.67  mean    -2.83  champion    33.25  sigma_mean 0.5198    1.5s
+gen  223  best    17.67  mean    -2.58  champion    33.25  sigma_mean 0.4861    1.5s
+gen  224  best     8.00  mean    -2.51  champion    33.25  sigma_mean 0.4297    1.4s
+gen  225  best    12.33  mean    -2.10  champion    33.25  sigma_mean 0.4795    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  226  best    15.67  mean    -2.62  champion    33.25  sigma_mean 0.4024    1.6s
+gen  227  best     9.33  mean    -3.17  champion    33.25  sigma_mean 0.4650    1.5s
+gen  228  best     9.00  mean    -3.88  champion    33.25  sigma_mean 0.4396    1.5s
+gen  229  best    17.67  mean    -2.10  champion    33.25  sigma_mean 0.4469    1.5s
+gen  230  best     7.67  mean    -2.12  champion    33.25  sigma_mean 0.3855    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  231  best    13.67  mean    -1.47  champion    33.25  sigma_mean 0.3398    1.5s
+gen  232  best    10.67  mean    -0.72  champion    33.25  sigma_mean 0.4623    1.6s
+gen  233  best    12.33  mean    -3.19  champion    33.25  sigma_mean 0.4574    1.5s
+gen  234  best    26.67  mean    -2.21  champion    33.25  sigma_mean 0.4492    1.4s
+gen  235  best    13.33  mean    -1.46  champion    33.25  sigma_mean 0.3828    1.7s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  236  best    16.33  mean    -0.74  champion    33.25  sigma_mean 0.4317    1.7s
+gen  237  best    14.67  mean    -2.01  champion    33.25  sigma_mean 0.3744    1.5s
+gen  238  best    16.67  mean    -1.31  champion    33.25  sigma_mean 0.3751    1.5s
+gen  239  best    27.00  mean    -1.89  champion    33.25  sigma_mean 0.3392    1.6s
+gen  240  best     5.67  mean    -3.88  champion    33.25  sigma_mean 0.3903    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  241  best     7.00  mean    -2.42  champion    33.25  sigma_mean 0.3391    1.5s
+gen  242  best    15.00  mean    -2.65  champion    33.25  sigma_mean 0.2991    1.4s
+gen  243  best    21.33  mean     0.08  champion    33.25  sigma_mean 0.3988    1.7s
+gen  244  best    21.33  mean    -1.72  champion    33.25  sigma_mean 0.3483    1.5s
+gen  245  best    12.33  mean    -4.25  champion    33.25  sigma_mean 0.4100    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  246  best    20.33  mean    -2.07  champion    33.25  sigma_mean 0.4612    1.6s
+gen  247  best    17.33  mean    -2.00  champion    33.25  sigma_mean 0.5047    1.6s
+gen  248  best    10.33  mean    -3.39  champion    33.25  sigma_mean 0.4780    1.4s
+gen  249  best    12.33  mean     0.51  champion    33.25  sigma_mean 0.4148    1.4s
+gen  250  best    11.67  mean    -2.63  champion    33.25  sigma_mean 0.4623    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  251  best     6.00  mean    -2.46  champion    33.25  sigma_mean 0.4251    1.5s
+gen  252  best    19.00  mean    -2.49  champion    33.25  sigma_mean 0.4391    1.6s
+gen  253  best    14.33  mean    -3.43  champion    33.25  sigma_mean 0.3631    1.4s
+gen  254  best    11.33  mean    -2.78  champion    33.25  sigma_mean 0.3023    1.5s
+gen  255  best    17.33  mean    -1.68  champion    33.25  sigma_mean 0.3822    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  256  best    11.33  mean    -0.76  champion    33.25  sigma_mean 0.3322    1.6s
+gen  257  best    20.33  mean    -0.75  champion    33.25  sigma_mean 0.3767    1.5s
+gen  258  best    12.33  mean    -2.24  champion    33.25  sigma_mean 0.4646    1.7s
+gen  259  best    11.67  mean    -4.64  champion    33.25  sigma_mean 0.4606    1.6s
+gen  260  best    10.67  mean    -2.04  champion    33.25  sigma_mean 0.4388    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  261  best    16.67  mean     0.29  champion    33.25  sigma_mean 0.3827    1.6s
+gen  262  best    10.33  mean    -3.08  champion    33.25  sigma_mean 0.4414    1.6s
+gen  263  best    12.67  mean    -0.67  champion    33.25  sigma_mean 0.3808    1.7s
+gen  264  best    23.00  mean    -1.36  champion    33.25  sigma_mean 0.3671    1.5s
+gen  265  best     7.67  mean    -1.65  champion    33.25  sigma_mean 0.4336    1.8s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  266  best    17.33  mean    -2.43  champion    33.25  sigma_mean 0.4349    1.6s
+gen  267  best    10.67  mean     0.03  champion    33.25  sigma_mean 0.4369    1.6s
+gen  268  best    18.00  mean    -1.07  champion    33.25  sigma_mean 0.4008    1.5s
+gen  269  best    10.33  mean    -2.61  champion    33.25  sigma_mean 0.3439    1.5s
+gen  270  best     8.00  mean    -3.06  champion    33.25  sigma_mean 0.3020    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  271  best     9.00  mean    -2.74  champion    33.25  sigma_mean 0.3808    1.6s
+gen  272  best    13.67  mean    -3.56  champion    33.25  sigma_mean 0.4540    1.5s
+gen  273  best    12.33  mean     0.04  champion    33.25  sigma_mean 0.4079    1.7s
+gen  274  best    21.33  mean    -2.81  champion    33.25  sigma_mean 0.4337    1.6s
+gen  275  best    11.33  mean    -2.32  champion    33.25  sigma_mean 0.3986    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  276  best     6.00  mean    -2.64  champion    33.25  sigma_mean 0.3365    1.6s
+gen  277  best    17.33  mean    -1.28  champion    33.25  sigma_mean 0.2905    1.6s
+gen  278  best     6.67  mean    -3.11  champion    33.25  sigma_mean 0.2952    1.3s
+gen  279  best    15.67  mean     0.33  champion    33.25  sigma_mean 0.2645    1.6s
+gen  280  best    32.00  mean    -0.57  champion    33.25  sigma_mean 0.3133    1.9s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  281  best    31.67  mean    -1.46  champion    33.25  sigma_mean 0.2606    1.8s
+gen  282  best    13.67  mean    -3.72  champion    33.25  sigma_mean 0.4100    1.6s
+gen  283  best    17.33  mean    -3.44  champion    33.25  sigma_mean 0.4349    1.8s
+gen  284  best    22.33  mean    -1.15  champion    33.25  sigma_mean 0.3796    1.6s
+gen  285  best    13.67  mean    -2.44  champion    33.25  sigma_mean 0.3967    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  286  best    20.33  mean    -3.50  champion    33.25  sigma_mean 0.4345    1.6s
+gen  287  best    15.67  mean    -4.10  champion    33.25  sigma_mean 0.3812    1.4s
+gen  288  best    22.67  mean    -0.90  champion    33.25  sigma_mean 0.4157    1.6s
+gen  289  best    16.33  mean    -1.39  champion    33.25  sigma_mean 0.4425    1.6s
+gen  290  best    24.67  mean    -2.82  champion    33.25  sigma_mean 0.4164    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  291  best     9.67  mean    -4.32  champion    33.25  sigma_mean 0.3494    1.3s
+gen  292  best     5.33  mean    -3.03  champion    33.25  sigma_mean 0.4097    1.5s
+gen  293  best    22.33  mean    -3.65  champion    33.25  sigma_mean 0.4017    1.4s
+gen  294  best     8.00  mean    -3.36  champion    33.25  sigma_mean 0.4077    1.5s
+gen  295  best     7.67  mean    -3.17  champion    33.25  sigma_mean 0.4589    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  296  best     9.33  mean    -3.56  champion    33.25  sigma_mean 0.3968    1.5s
+gen  297  best    15.00  mean    -2.00  champion    33.25  sigma_mean 0.3612    1.5s
+gen  298  best    23.67  mean    -0.03  champion    33.25  sigma_mean 0.3165    1.6s
+gen  299  best    12.33  mean    -2.56  champion    33.25  sigma_mean 0.4130    1.5s
+gen  300  best    11.33  mean    -3.78  champion    33.25  sigma_mean 0.4020    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  301  best    11.33  mean    -2.90  champion    33.25  sigma_mean 0.4563    1.6s
+gen  302  best    26.00  mean    -2.25  champion    33.25  sigma_mean 0.4586    1.5s
+gen  303  best    10.00  mean    -2.74  champion    33.25  sigma_mean 0.3964    1.5s
+gen  304  best    11.00  mean    -1.85  champion    33.25  sigma_mean 0.4108    1.6s
+gen  305  best     4.33  mean    -3.67  champion    33.25  sigma_mean 0.3660    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  306  best     7.67  mean    -3.00  champion    33.25  sigma_mean 0.3264    1.7s
+gen  307  best     6.00  mean    -3.40  champion    33.25  sigma_mean 0.3112    1.4s
+gen  308  best     9.00  mean    -3.22  champion    33.25  sigma_mean 0.2833    1.5s
+gen  309  best    12.67  mean    -2.01  champion    33.25  sigma_mean 0.3216    1.5s
+gen  310  best    14.67  mean    -1.01  champion    33.25  sigma_mean 0.3370    1.7s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  311  best     1.00  mean    -4.04  champion    33.25  sigma_mean 0.4310    1.4s
+gen  312  best     7.00  mean    -2.26  champion    33.25  sigma_mean 0.4492    1.6s
+gen  313  best    20.67  mean    -1.67  champion    33.25  sigma_mean 0.4166    1.6s
+gen  314  best     9.00  mean    -3.07  champion    33.25  sigma_mean 0.4325    1.6s
+gen  315  best    13.67  mean    -2.50  champion    33.25  sigma_mean 0.4101    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  316  best    18.00  mean    -2.60  champion    33.25  sigma_mean 0.3660    1.6s
+gen  317  best    29.33  mean    -1.10  champion    33.25  sigma_mean 0.3544    1.7s
+gen  318  best     4.67  mean    -2.51  champion    33.25  sigma_mean 0.3934    1.5s
+gen  319  best     8.00  mean    -3.38  champion    33.25  sigma_mean 0.4747    1.5s
+gen  320  best    27.00  mean    -0.43  champion    33.25  sigma_mean 0.4540    1.7s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  321  best     9.67  mean    -5.03  champion    33.25  sigma_mean 0.4248    1.5s
+gen  322  best    23.33  mean    -0.39  champion    33.25  sigma_mean 0.3916    1.7s
+gen  323  best    10.33  mean    -2.96  champion    33.25  sigma_mean 0.3267    1.4s
+gen  324  best     5.00  mean    -4.10  champion    33.25  sigma_mean 0.4399    1.5s
+gen  325  best    13.67  mean    -2.76  champion    33.25  sigma_mean 0.3828    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  326  best    15.67  mean    -2.15  champion    33.25  sigma_mean 0.4049    1.8s
+gen  327  best     5.67  mean    -2.68  champion    33.25  sigma_mean 0.4343    1.6s
+gen  328  best    20.67  mean    -0.29  champion    33.25  sigma_mean 0.4353    1.8s
+gen  329  best    22.67  mean    -1.42  champion    33.25  sigma_mean 0.3607    1.6s
+gen  330  best    11.00  mean    -4.35  champion    33.25  sigma_mean 0.3183    1.3s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  331  best    19.67  mean    -2.76  champion    33.25  sigma_mean 0.2756    1.4s
+gen  332  best    16.67  mean    -2.01  champion    33.25  sigma_mean 0.3409    1.5s
+gen  333  best    14.67  mean    -4.69  champion    33.25  sigma_mean 0.4145    1.5s
+gen  334  best     4.67  mean    -3.47  champion    33.25  sigma_mean 0.3502    1.6s
+gen  335  best    13.67  mean    -2.74  champion    33.25  sigma_mean 0.3628    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  336  best    11.00  mean    -3.08  champion    33.25  sigma_mean 0.3159    1.9s
+gen  337  best    13.67  mean    -1.81  champion    33.25  sigma_mean 0.4570    2.1s
+gen  338  best    25.00  mean    -2.17  champion    33.25  sigma_mean 0.4227    2.0s
+gen  339  best    25.67  mean    -1.79  champion    33.25  sigma_mean 0.3649    1.9s
+gen  340  best    13.33  mean    -1.39  champion    33.25  sigma_mean 0.4442    2.0s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  341  best    11.67  mean    -4.58  champion    33.25  sigma_mean 0.3828    1.6s
+gen  342  best    16.00  mean    -2.64  champion    33.25  sigma_mean 0.4125    1.6s
+gen  343  best     8.00  mean    -4.74  champion    33.25  sigma_mean 0.3890    1.4s
+gen  344  best     4.33  mean    -5.04  champion    33.25  sigma_mean 0.3243    1.4s
+gen  345  best    13.67  mean    -2.03  champion    33.25  sigma_mean 0.2782    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  346  best    16.00  mean    -3.39  champion    33.25  sigma_mean 0.3482    1.4s
+gen  347  best    19.33  mean    -2.79  champion    33.25  sigma_mean 0.2983    1.6s
+gen  348  best    14.33  mean    -2.94  champion    33.25  sigma_mean 0.4225    1.6s
+gen  349  best    14.33  mean    -3.24  champion    33.25  sigma_mean 0.4264    1.6s
+gen  350  best    18.00  mean    -2.28  champion    33.25  sigma_mean 0.3897    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  351  best     5.00  mean    -4.79  champion    33.25  sigma_mean 0.4149    1.5s
+gen  352  best    32.33  mean    -1.75  champion    33.25  sigma_mean 0.3602    1.6s
+gen  353  best    21.33  mean     0.36  champion    33.25  sigma_mean 0.3907    1.7s
+gen  354  best     7.00  mean    -3.76  champion    33.25  sigma_mean 0.4296    1.6s
+gen  355  best    15.00  mean    -2.17  champion    33.25  sigma_mean 0.5051    1.9s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  356  best    11.33  mean    -2.28  champion    33.25  sigma_mean 0.4638    1.5s
+gen  357  best    16.00  mean    -2.96  champion    33.25  sigma_mean 0.4487    1.6s
+gen  358  best    14.33  mean    -1.26  champion    33.25  sigma_mean 0.4566    1.5s
+gen  359  best    11.33  mean    -4.46  champion    33.25  sigma_mean 0.3745    1.4s
+gen  360  best     9.33  mean    -2.93  champion    33.25  sigma_mean 0.3436    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  361  best    12.33  mean    -3.60  champion    33.25  sigma_mean 0.3924    1.4s
+gen  362  best     8.00  mean    -4.75  champion    33.25  sigma_mean 0.4254    1.4s
+gen  363  best    10.00  mean    -1.24  champion    33.25  sigma_mean 0.4136    1.6s
+gen  364  best    10.33  mean    -1.54  champion    33.25  sigma_mean 0.4053    1.7s
+gen  365  best    11.33  mean    -2.71  champion    33.25  sigma_mean 0.3586    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  366  best    10.00  mean    -3.65  champion    33.25  sigma_mean 0.3186    1.6s
+gen  367  best    23.67  mean    -1.24  champion    33.25  sigma_mean 0.3592    1.6s
+gen  368  best     7.67  mean    -1.69  champion    33.25  sigma_mean 0.3089    1.6s
+gen  369  best    20.33  mean    -1.58  champion    33.25  sigma_mean 0.2638    1.5s
+gen  370  best    14.33  mean    -3.51  champion    33.25  sigma_mean 0.3059    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  371  best    37.67  mean    -0.60  champion    33.25  sigma_mean 0.2530    1.8s
+gen  372  best    12.33  mean    -3.17  champion    33.25  sigma_mean 0.3217    1.5s
+gen  373  best    23.67  mean    -3.40  champion    33.25  sigma_mean 0.3832    1.4s
+gen  374  best     4.33  mean    -6.21  champion    33.25  sigma_mean 0.3526    1.3s
+gen  375  best    10.00  mean    -2.85  champion    33.25  sigma_mean 0.3450    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  376  best     8.00  mean    -2.21  champion    33.25  sigma_mean 0.3435    1.7s
+gen  377  best     5.67  mean    -3.76  champion    33.25  sigma_mean 0.3393    1.7s
+gen  378  best    15.67  mean    -2.18  champion    33.25  sigma_mean 0.4242    1.6s
+gen  379  best     2.33  mean    -4.60  champion    33.25  sigma_mean 0.4623    1.4s
+gen  380  best    11.33  mean    -3.36  champion    33.25  sigma_mean 0.3829    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  381  best    26.00  mean    -2.40  champion    33.25  sigma_mean 0.3800    1.6s
+gen  382  best    11.00  mean    -2.62  champion    33.25  sigma_mean 0.3255    1.5s
+gen  383  best     7.67  mean    -3.89  champion    33.25  sigma_mean 0.4369    1.4s
+gen  384  best    25.00  mean    -2.43  champion    33.25  sigma_mean 0.3597    1.7s
+gen  385  best     5.67  mean    -3.43  champion    33.25  sigma_mean 0.4026    1.9s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  386  best    22.33  mean     0.00  champion    33.25  sigma_mean 0.4004    1.7s
+gen  387  best    14.67  mean    -3.22  champion    33.25  sigma_mean 0.4350    1.5s
+gen  388  best    21.33  mean    -2.42  champion    33.25  sigma_mean 0.4808    1.6s
+gen  389  best     6.67  mean    -2.25  champion    33.25  sigma_mean 0.5188    1.6s
+gen  390  best     6.67  mean    -2.24  champion    33.25  sigma_mean 0.4515    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  391  best    11.33  mean    -2.82  champion    33.25  sigma_mean 0.4602    1.6s
+gen  392  best     7.00  mean    -2.92  champion    33.25  sigma_mean 0.4717    1.5s
+gen  393  best    15.33  mean    -2.85  champion    33.25  sigma_mean 0.4857    1.6s
+gen  394  best    20.00  mean    -0.86  champion    33.25  sigma_mean 0.4249    1.7s
+gen  395  best    10.67  mean    -3.36  champion    33.25  sigma_mean 0.4479    1.7s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  396  best    19.00  mean    -2.76  champion    33.25  sigma_mean 0.4577    1.6s
+gen  397  best     7.33  mean    -2.64  champion    33.25  sigma_mean 0.4077    1.4s
+gen  398  best    14.33  mean    -2.26  champion    33.25  sigma_mean 0.3972    1.5s
+gen  399  best    19.33  mean    -0.69  champion    33.25  sigma_mean 0.4543    1.7s
+gen  400  best     5.67  mean    -4.15  champion    33.25  sigma_mean 0.3900    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  401  best    17.00  mean    -2.49  champion    33.25  sigma_mean 0.3489    1.6s
+gen  402  best     6.67  mean    -4.31  champion    33.25  sigma_mean 0.3954    1.5s
+gen  403  best    15.67  mean    -2.06  champion    33.25  sigma_mean 0.3722    1.6s
+gen  404  best    11.33  mean    -3.01  champion    33.25  sigma_mean 0.3290    1.5s
+gen  405  best    12.33  mean    -0.75  champion    33.25  sigma_mean 0.2938    1.7s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  406  best    13.33  mean    -0.82  champion    33.25  sigma_mean 0.3823    1.6s
+gen  407  best     6.67  mean    -1.93  champion    33.25  sigma_mean 0.4322    1.5s
+gen  408  best     7.00  mean    -2.72  champion    33.25  sigma_mean 0.3919    1.5s
+gen  409  best     7.00  mean    -2.79  champion    33.25  sigma_mean 0.4103    1.7s
+gen  410  best    18.33  mean    -0.04  champion    33.25  sigma_mean 0.3795    1.7s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  411  best    10.33  mean    -3.17  champion    33.25  sigma_mean 0.4107    1.5s
+gen  412  best    10.00  mean    -2.86  champion    33.25  sigma_mean 0.4439    1.6s
+gen  413  best    20.33  mean    -2.14  champion    33.25  sigma_mean 0.3829    1.5s
+gen  414  best    24.67  mean    -0.58  champion    33.25  sigma_mean 0.3921    1.6s
+gen  415  best    10.00  mean    -4.46  champion    33.25  sigma_mean 0.3572    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  416  best    12.33  mean    -3.53  champion    33.25  sigma_mean 0.3980    1.5s
+gen  417  best    10.00  mean    -2.19  champion    33.25  sigma_mean 0.4843    1.5s
+gen  418  best     5.67  mean    -4.32  champion    33.25  sigma_mean 0.5094    1.4s
+gen  419  best    13.67  mean    -0.64  champion    33.25  sigma_mean 0.5169    1.6s
+gen  420  best    19.33  mean    -2.85  champion    33.25  sigma_mean 0.4537    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  421  best    17.00  mean    -2.57  champion    33.25  sigma_mean 0.3795    1.6s
+gen  422  best    10.33  mean    -2.62  champion    33.25  sigma_mean 0.4465    1.5s
+gen  423  best    21.33  mean    -1.47  champion    33.25  sigma_mean 0.3930    1.6s
+gen  424  best    19.33  mean    -0.44  champion    33.25  sigma_mean 0.3290    1.7s
+gen  425  best     5.67  mean    -4.64  champion    33.25  sigma_mean 0.3573    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  426  best     9.00  mean    -3.19  champion    33.25  sigma_mean 0.3831    1.5s
+gen  427  best    11.67  mean    -1.86  champion    33.25  sigma_mean 0.3590    1.6s
+gen  428  best    17.00  mean    -1.62  champion    33.25  sigma_mean 0.4219    1.7s
+gen  429  best    21.67  mean    -1.47  champion    33.25  sigma_mean 0.4239    1.5s
+gen  430  best    11.67  mean    -2.54  champion    33.25  sigma_mean 0.4758    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  431  best    24.00  mean    -2.15  champion    33.25  sigma_mean 0.4432    1.7s
+gen  432  best    11.33  mean    -1.44  champion    33.25  sigma_mean 0.4959    1.7s
+gen  433  best    11.67  mean    -1.37  champion    33.25  sigma_mean 0.4497    1.8s
+gen  434  best    16.00  mean    -2.40  champion    33.25  sigma_mean 0.4543    1.6s
+gen  435  best    16.67  mean    -3.42  champion    33.25  sigma_mean 0.4451    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  436  best    29.33  mean     0.83  champion    33.25  sigma_mean 0.3929    1.7s
+gen  437  best    17.00  mean     0.53  champion    33.25  sigma_mean 0.4363    1.9s
+gen  438  best    13.33  mean    -1.72  champion    33.25  sigma_mean 0.4516    1.6s
+gen  439  best    25.00  mean     0.89  champion    33.25  sigma_mean 0.3830    1.6s
+gen  440  best     9.00  mean    -5.28  champion    33.25  sigma_mean 0.3406    1.3s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  441  best    25.67  mean    -0.08  champion    33.25  sigma_mean 0.3301    1.7s
+gen  442  best     3.33  mean    -3.96  champion    33.25  sigma_mean 0.2864    1.5s
+gen  443  best    24.67  mean    -0.00  champion    33.25  sigma_mean 0.2544    1.6s
+gen  444  best    13.33  mean    -3.00  champion    33.25  sigma_mean 0.3233    1.4s
+gen  445  best     8.00  mean    -2.88  champion    33.25  sigma_mean 0.2708    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  446  best    27.67  mean    -0.25  champion    33.25  sigma_mean 0.3190    1.5s
+gen  447  best     9.33  mean    -3.28  champion    33.25  sigma_mean 0.4219    1.5s
+gen  448  best    12.67  mean    -3.31  champion    33.25  sigma_mean 0.4486    1.5s
+gen  449  best    19.33  mean    -3.71  champion    33.25  sigma_mean 0.4269    1.5s
+gen  450  best    19.00  mean    -1.31  champion    33.25  sigma_mean 0.4255    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  451  best    14.33  mean    -2.75  champion    33.25  sigma_mean 0.4061    1.5s
+gen  452  best     4.67  mean    -3.54  champion    33.25  sigma_mean 0.4306    1.5s
+gen  453  best    17.33  mean    -1.78  champion    33.25  sigma_mean 0.4556    2.9s
+gen  454  best     7.67  mean    -2.07  champion    33.25  sigma_mean 0.4140    1.7s
+gen  455  best     8.00  mean    -2.42  champion    33.25  sigma_mean 0.4371    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  456  best    13.67  mean    -3.61  champion    33.25  sigma_mean 0.3591    1.4s
+gen  457  best    36.33  mean    -1.06  champion    33.25  sigma_mean 0.3486    1.9s
+gen  458  best    33.67  mean    -2.54  champion    33.25  sigma_mean 0.4109    1.7s
+gen  459  best    15.33  mean    -1.92  champion    33.25  sigma_mean 0.3313    1.7s
+gen  460  best    17.33  mean    -3.42  champion    33.25  sigma_mean 0.3361    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  461  best    28.00  mean    -1.88  champion    33.25  sigma_mean 0.3346    1.4s
+gen  462  best     7.00  mean    -3.65  champion    33.25  sigma_mean 0.3691    1.5s
+gen  463  best    17.33  mean    -3.29  champion    33.25  sigma_mean 0.4233    1.5s
+gen  464  best    13.33  mean    -3.83  champion    33.25  sigma_mean 0.3517    1.4s
+gen  465  best    10.00  mean    -3.60  champion    33.25  sigma_mean 0.3965    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  466  best     9.33  mean    -2.44  champion    33.25  sigma_mean 0.3351    1.4s
+gen  467  best    20.00  mean    -2.03  champion    33.25  sigma_mean 0.3746    1.6s
+gen  468  best    17.67  mean    -1.86  champion    33.25  sigma_mean 0.4358    1.7s
+gen  469  best    11.33  mean    -2.47  champion    33.25  sigma_mean 0.4061    1.6s
+gen  470  best     9.33  mean    -2.89  champion    33.25  sigma_mean 0.4322    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  471  best     7.67  mean    -2.21  champion    33.25  sigma_mean 0.4314    1.6s
+gen  472  best     5.67  mean    -2.56  champion    33.25  sigma_mean 0.4610    1.5s
+gen  473  best    20.00  mean    -4.69  champion    33.25  sigma_mean 0.4321    1.7s
+gen  474  best    19.33  mean    -0.79  champion    33.25  sigma_mean 0.3554    1.8s
+gen  475  best     7.00  mean    -2.28  champion    33.25  sigma_mean 0.4256    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  476  best    16.67  mean    -3.18  champion    33.25  sigma_mean 0.4478    1.4s
+gen  477  best     7.67  mean    -3.96  champion    33.25  sigma_mean 0.4520    1.5s
+gen  478  best    13.67  mean    -1.50  champion    33.25  sigma_mean 0.3938    1.6s
+gen  479  best    10.00  mean    -3.14  champion    33.25  sigma_mean 0.4281    1.5s
+gen  480  best    14.67  mean    -1.65  champion    33.25  sigma_mean 0.4792    1.7s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  481  best     9.33  mean    -2.61  champion    33.25  sigma_mean 0.4761    1.8s
+gen  482  best    14.33  mean    -3.76  champion    33.25  sigma_mean 0.4677    1.9s
+gen  483  best    14.67  mean     0.79  champion    33.25  sigma_mean 0.3934    2.1s
+gen  484  best     7.33  mean    -4.35  champion    33.25  sigma_mean 0.3720    1.8s
+gen  485  best    23.33  mean    -3.61  champion    33.25  sigma_mean 0.3531    1.9s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  486  best     8.00  mean    -1.94  champion    33.25  sigma_mean 0.3601    2.1s
+gen  487  best    11.33  mean    -2.06  champion    33.25  sigma_mean 0.3907    2.1s
+gen  488  best     9.33  mean    -3.17  champion    33.25  sigma_mean 0.4181    2.0s
+gen  489  best    15.00  mean     1.60  champion    33.25  sigma_mean 0.4507    2.3s
+gen  490  best     5.67  mean    -5.94  champion    33.25  sigma_mean 0.3833    2.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  491  best    20.67  mean    -4.40  champion    33.25  sigma_mean 0.3921    1.9s
+gen  492  best    17.00  mean    -2.26  champion    33.25  sigma_mean 0.3793    1.7s
+gen  493  best    24.67  mean    -2.06  champion    33.25  sigma_mean 0.4441    1.8s
+gen  494  best    16.00  mean    -2.69  champion    33.25  sigma_mean 0.4432    1.7s
+gen  495  best    10.33  mean    -2.42  champion    33.25  sigma_mean 0.4041    1.7s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  496  best    10.00  mean    -2.92  champion    33.25  sigma_mean 0.4376    1.8s
+gen  497  best    12.33  mean    -0.90  champion    33.25  sigma_mean 0.3805    1.6s
+gen  498  best     5.67  mean    -4.50  champion    33.25  sigma_mean 0.3875    1.4s
+gen  499  best    11.67  mean    -2.32  champion    33.25  sigma_mean 0.4644    1.6s
+gen  500  best     9.00  mean    -2.85  champion    33.25  sigma_mean 0.4148    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  501  best    19.00  mean    -0.85  champion    33.25  sigma_mean 0.3467    1.7s
+gen  502  best    10.67  mean    -3.15  champion    33.25  sigma_mean 0.3717    1.4s
+gen  503  best    18.33  mean    -4.62  champion    33.25  sigma_mean 0.4180    1.5s
+gen  504  best    11.33  mean    -3.35  champion    33.25  sigma_mean 0.3775    1.5s
+gen  505  best    30.00  mean    -0.79  champion    33.25  sigma_mean 0.4084    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  506  best    10.00  mean    -3.79  champion    33.25  sigma_mean 0.3405    1.5s
+gen  507  best    13.67  mean    -1.08  champion    33.25  sigma_mean 0.3894    1.6s
+gen  508  best    16.67  mean    -3.25  champion    33.25  sigma_mean 0.3780    1.4s
+gen  509  best    14.00  mean    -2.81  champion    33.25  sigma_mean 0.4691    1.5s
+gen  510  best    12.67  mean    -1.85  champion    33.25  sigma_mean 0.4318    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  511  best    18.00  mean     1.17  champion    33.25  sigma_mean 0.4800    2.3s
+gen  512  best    23.67  mean    -0.83  champion    33.25  sigma_mean 0.4780    2.0s
+gen  513  best    16.67  mean    -2.08  champion    33.25  sigma_mean 0.4472    1.6s
+gen  514  best     9.00  mean    -3.65  champion    33.25  sigma_mean 0.4043    1.4s
+gen  515  best    19.00  mean    -1.26  champion    33.25  sigma_mean 0.4491    1.7s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  516  best    12.67  mean    -2.28  champion    33.25  sigma_mean 0.4047    1.5s
+gen  517  best    15.67  mean    -1.49  champion    33.25  sigma_mean 0.4464    1.6s
+gen  518  best    17.33  mean    -1.87  champion    33.25  sigma_mean 0.4265    1.6s
+gen  519  best    12.67  mean    -0.71  champion    33.25  sigma_mean 0.3709    1.6s
+gen  520  best    16.33  mean    -1.29  champion    33.25  sigma_mean 0.4114    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  521  best    16.00  mean    -1.82  champion    33.25  sigma_mean 0.3689    1.7s
+gen  522  best    11.33  mean    -0.50  champion    33.25  sigma_mean 0.4376    2.5s
+gen  523  best    13.33  mean    -3.24  champion    33.25  sigma_mean 0.3999    1.6s
+gen  524  best     4.33  mean    -3.68  champion    33.25  sigma_mean 0.4482    1.4s
+gen  525  best    15.67  mean    -2.97  champion    33.25  sigma_mean 0.3823    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  526  best     7.00  mean    -3.53  champion    33.25  sigma_mean 0.4256    1.5s
+gen  527  best    16.00  mean    -1.74  champion    33.25  sigma_mean 0.3874    1.7s
+gen  528  best     7.33  mean    -2.90  champion    33.25  sigma_mean 0.3746    1.6s
+gen  529  best    21.67  mean    -0.54  champion    33.25  sigma_mean 0.3488    1.6s
+gen  530  best    14.33  mean    -2.61  champion    33.25  sigma_mean 0.3828    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  531  best     6.67  mean    -4.00  champion    33.25  sigma_mean 0.3866    1.4s
+gen  532  best     8.00  mean    -2.12  champion    33.25  sigma_mean 0.3360    1.6s
+gen  533  best     9.33  mean    -2.53  champion    33.25  sigma_mean 0.4038    1.6s
+gen  534  best    12.33  mean    -2.65  champion    33.25  sigma_mean 0.4381    1.5s
+gen  535  best    20.00  mean    -0.06  champion    33.25  sigma_mean 0.4245    1.7s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  536  best    12.67  mean    -1.32  champion    33.25  sigma_mean 0.4808    1.8s
+gen  537  best    19.67  mean     0.65  champion    33.25  sigma_mean 0.4424    1.7s
+gen  538  best    14.33  mean    -1.19  champion    33.25  sigma_mean 0.4762    1.6s
+gen  539  best    11.33  mean    -3.01  champion    33.25  sigma_mean 0.3858    1.5s
+gen  540  best    15.00  mean    -2.69  champion    33.25  sigma_mean 0.3614    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  541  best    23.67  mean    -2.61  champion    33.25  sigma_mean 0.3526    1.6s
+gen  542  best    19.33  mean    -2.69  champion    33.25  sigma_mean 0.4448    1.5s
+gen  543  best    23.33  mean    -0.06  champion    33.25  sigma_mean 0.3839    1.7s
+gen  544  best     3.00  mean    -3.94  champion    33.25  sigma_mean 0.4680    1.5s
+gen  545  best     6.33  mean    -2.06  champion    33.25  sigma_mean 0.4015    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  546  best    10.33  mean    -3.01  champion    33.25  sigma_mean 0.3823    1.7s
+gen  547  best    15.67  mean    -3.28  champion    33.25  sigma_mean 0.4334    1.5s
+gen  548  best    24.00  mean    -1.89  champion    33.25  sigma_mean 0.4587    1.6s
+gen  549  best     7.00  mean    -1.32  champion    33.25  sigma_mean 0.4871    1.8s
+gen  550  best     8.67  mean    -1.24  champion    33.25  sigma_mean 0.4214    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  551  best     7.00  mean    -3.26  champion    33.25  sigma_mean 0.3740    1.5s
+gen  552  best     7.67  mean    -4.22  champion    33.25  sigma_mean 0.4153    1.4s
+gen  553  best    12.33  mean    -0.92  champion    33.25  sigma_mean 0.3705    1.7s
+gen  554  best    14.67  mean    -1.82  champion    33.25  sigma_mean 0.4172    1.5s
+gen  555  best    14.00  mean    -1.96  champion    33.25  sigma_mean 0.4055    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  556  best    17.00  mean     0.83  champion    33.25  sigma_mean 0.3682    1.7s
+gen  557  best    14.33  mean    -2.33  champion    33.25  sigma_mean 0.3481    1.6s
+gen  558  best    11.33  mean    -3.89  champion    33.25  sigma_mean 0.4032    1.4s
+gen  559  best    19.33  mean    -0.03  champion    33.25  sigma_mean 0.4458    1.9s
+gen  560  best    23.33  mean    -0.82  champion    33.25  sigma_mean 0.4417    1.7s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  561  best    20.67  mean    -3.43  champion    33.25  sigma_mean 0.4118    1.6s
+gen  562  best    12.67  mean    -1.56  champion    33.25  sigma_mean 0.3340    1.6s
+gen  563  best     9.00  mean    -3.62  champion    33.25  sigma_mean 0.3938    1.5s
+gen  564  best    10.00  mean    -1.71  champion    33.25  sigma_mean 0.4121    1.6s
+gen  565  best    12.33  mean    -2.79  champion    33.25  sigma_mean 0.3555    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  566  best    18.00  mean    -2.47  champion    33.25  sigma_mean 0.3480    1.6s
+gen  567  best    17.67  mean     0.10  champion    33.25  sigma_mean 0.3131    1.5s
+gen  568  best    10.33  mean    -1.49  champion    33.25  sigma_mean 0.2730    1.7s
+gen  569  best    14.00  mean    -3.14  champion    33.25  sigma_mean 0.2541    1.4s
+gen  570  best    32.67  mean     2.24  champion    33.25  sigma_mean 0.3020    1.9s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  571  best    16.00  mean    -1.68  champion    33.25  sigma_mean 0.3329    1.8s
+gen  572  best    26.67  mean    -2.08  champion    33.25  sigma_mean 0.3955    1.5s
+gen  573  best    22.33  mean    -1.94  champion    33.25  sigma_mean 0.4676    1.6s
+gen  574  best     6.67  mean    -2.07  champion    33.25  sigma_mean 0.4701    1.5s
+gen  575  best    17.67  mean    -0.88  champion    33.25  sigma_mean 0.4078    1.6s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  576  best    21.67  mean    -2.50  champion    33.25  sigma_mean 0.3500    1.6s
+gen  577  best    37.00  mean    -0.99  champion    33.25  sigma_mean 0.4002    1.7s
+gen  578  best    19.00  mean    -0.54  champion    33.25  sigma_mean 0.4473    1.8s
+gen  579  best    21.00  mean    -2.94  champion    33.25  sigma_mean 0.4066    1.5s
+gen  580  best    10.00  mean    -3.65  champion    33.25  sigma_mean 0.4298    1.3s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  581  best    16.00  mean    -1.69  champion    33.25  sigma_mean 0.4449    1.6s
+gen  582  best    27.67  mean    -2.49  champion    33.25  sigma_mean 0.4208    1.4s
+gen  583  best    20.33  mean    -0.53  champion    33.25  sigma_mean 0.4057    1.6s
+gen  584  best    13.67  mean    -2.40  champion    33.25  sigma_mean 0.3502    1.5s
+gen  585  best     9.33  mean    -3.06  champion    33.25  sigma_mean 0.3067    1.4s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  586  best    14.67  mean    -2.10  champion    33.25  sigma_mean 0.3697    1.6s
+gen  587  best    17.33  mean    -1.83  champion    33.25  sigma_mean 0.3683    1.5s
+gen  588  best     6.00  mean    -3.18  champion    33.25  sigma_mean 0.3322    1.5s
+gen  589  best     9.67  mean    -2.44  champion    33.25  sigma_mean 0.4443    1.5s
+gen  590  best    11.33  mean    -1.65  champion    33.25  sigma_mean 0.3964    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  591  best    21.33  mean    -1.32  champion    33.25  sigma_mean 0.3394    1.6s
+gen  592  best    10.33  mean    -2.40  champion    33.25  sigma_mean 0.4194    1.5s
+gen  593  best     4.67  mean    -4.57  champion    33.25  sigma_mean 0.3747    1.4s
+gen  594  best     6.67  mean    -3.22  champion    33.25  sigma_mean 0.4304    1.6s
+gen  595  best     8.33  mean    -3.36  champion    33.25  sigma_mean 0.3718    1.5s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+gen  596  best    10.00  mean    -3.12  champion    33.25  sigma_mean 0.3245    1.5s
+gen  597  best    12.33  mean    -0.92  champion    33.25  sigma_mean 0.3449    1.5s
+gen  598  best    19.33  mean    -3.00  champion    33.25  sigma_mean 0.3957    1.4s
+gen  599  best     8.33  mean    -2.94  champion    33.25  sigma_mean 0.3578    1.5s
+gen  600  best    13.67  mean    -3.96  champion    33.25  sigma_mean 0.4478    1.7s
+  saved checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt
+training complete, final checkpoint: breakout/checkpoints/breakout_circuit_cem_arcade.pt

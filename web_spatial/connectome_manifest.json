@@ -1,0 +1,18 @@
+{
+  "dataset": "FlyEM MaleCNS v1.0, min confidence 0.5",
+  "license": "CC BY 4.0",
+  "source": "https://male-cns.janelia.org/download/",
+  "nodes": 795,
+  "edges": 20294,
+  "synapticContacts": 234860,
+  "inputCells": 375,
+  "readoutCells": 120,
+  "graphSha256": "6c6e46c24170221936084122e33ef45d44e4fec08a00ffb8bad94e88fae5149a",
+  "sources": {
+    "body-annotations": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+    "connectome-weights": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1",
+    "body-neurotransmitters": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621"
+  },
+  "selection": "25 vnc_sensory cells per rank tier for the 7 mechanosensory channels (ball_x, ball_y, ball_vx, ball_vy, flipper_left, flipper_right, tilted), ranked by direct synaptic weight onto vnc_motor; 25 LC4 cells per rank tier for the 4 velocity channels (vel1_L, vel1_C, vel1_R, vel2) and 25 LPLC2 cells per rank tier for the 4 size channels (size1_L, size1_C, size1_R, size2), ranked by direct synaptic weight onto descending_neuron (no direct LC/LPLC->vnc_motor synapses exist in this data - see Ache et al. 2019, Curr. Biol. for the linear-velocity + Gaussian-size Giant Fiber looming model this split is based on); top 120 vnc_motor cells by direct weight from the chosen mechanosensory inputs; top 300 two-hop bridge cells (from either input population) by minimum incoming/outgoing contact strength. Ties by body ID. No game outcomes used.",
+  "assumptions": "Engineered channel injection (rank tier, not named cell subtype identity). Simplified signed, normalized, leaky tanh rate units. Acetylcholine +1, GABA/glutamate -1; unknown and modulatory transmitters 0. Not a physiological or whole-brain model."
+}
