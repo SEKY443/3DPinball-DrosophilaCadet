@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>3DPinball-DrosophilaCadet</title>
+	<style>
+		:root {
+			--luna-title: linear-gradient(180deg, #0997ff 0%, #0053ee 8%, #0050ee 40%, #0066ff 88%, #0066ff 93%, #005bff 95%, #003dd7 96%, #003dd7 100%);
+			--luna-title-inactive: linear-gradient(180deg, #7a96df 0%, #6582d8 10%, #7b9be6 80%, #6b85d5 100%);
+			--luna-border: #0831d9;
+			--luna-border-inactive: #6f86d8;
+			--face: #ece9d8;
+			--face-dark: #aca899;
+		}
+		* { box-sizing: border-box; }
+		html, body { height: 100%; margin: 0; overflow: hidden; }
+		body {
+			font-family: Tahoma, "Segoe UI", Verdana, sans-serif;
+			font-size: 11px;
+			color: #000;
+			/* Grassy-hill-and-sky desktop, drawn with gradients only (no image assets). */
+			background:
+				radial-gradient(ellipse 140% 55% at 30% 100%, #4f9a2b 0%, #5aa531 35%, #6bb53d 55%, transparent 56%),
+				radial-gradient(ellipse 120% 50% at 85% 100%, #3f8a22 0%, #4d9a2a 45%, transparent 46%),
+				radial-gradient(ellipse 60% 18% at 25% 22%, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0) 70%),
+				radial-gradient(ellipse 40% 12% at 70% 15%, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 70%),
+				linear-gradient(180deg, #2a6fd6 0%, #4f94ea 35%, #8cc2f5 62%, #b9dcf7 72%);
+			background-color: #4f94ea;
+		}
+
+		#desktop { position: absolute; inset: 0; }
+
+		/* ---------- windows ---------- */
+		.xp-window {
+			position: absolute;
+			display: flex; flex-direction: column;
+			background: var(--face);
+			border: 3px solid var(--luna-border); border-top: 0;
+			border-radius: 8px 8px 0 0;
+			box-shadow: 2px 3px 10px rgba(0,0,0,0.45);
+			min-width: 200px;
+		}
+		.xp-window.inactive { border-color: var(--luna-border-inactive); }
+		.xp-window.hidden { display: none; }
+		/* Minimize rolls the window up to its title bar (there is no taskbar to restore from). */
+		.xp-window.rolled > :not(.title-bar) { display: none; }
+		.xp-window.rolled { height: auto !important; }
+		.xp-window.maximized { left: 0 !important; top: 0 !important; width: 100% !important; height: 100% !important; border-radius: 0; }
+		.title-bar {
+			height: 29px; flex: 0 0 auto;
+			display: flex; align-items: center; gap: 4px;
+			padding: 0 4px 0 6px;
+			background: var(--luna-title);
+			border-radius: 7px 7px 0 0;
+			margin: 0 -3px;
+			color: #fff;
+			font-family: "Trebuchet MS", Tahoma, sans-serif; font-weight: bold; font-size: 13px;
+			text-shadow: 1px 1px #0f1089;
+			cursor: default; user-select: none; touch-action: none;
+		}
+		.xp-window.inactive .title-bar { background: var(--luna-title-inactive); color: #d8e4f8; text-shadow: none; }
+		.title-bar .t-icon { width: 16px; height: 16px; border-radius: 3px; flex: 0 0 auto; }
+		.title-bar .t-text { flex: 1 1 auto; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+		.tb-btn {
+			width: 21px; height: 21px; flex: 0 0 auto;
+			border: 1px solid #fff; border-radius: 3px;
+			background: linear-gradient(180deg, #3c8cff 0%, #2669e6 45%, #1f5ad4 100%);
+			color: #fff; font: bold 13px/17px Tahoma, sans-serif; text-align: center; padding: 0;
+			box-shadow: inset 0 0 1px rgba(255,255,255,0.7);
+			cursor: pointer;
+		}
+		.tb-btn:hover { filter: brightness(1.15); }
+		.tb-btn.close { background: linear-gradient(180deg, #e88d76 0%, #d9472b 40%, #c4381d 100%); }
+		.xp-window.inactive .tb-btn { opacity: 0.75; }
+		.menu-bar { display: flex; gap: 2px; padding: 2px 2px; border-bottom: 1px solid #d4d0c8; flex: 0 0 auto; }
+		.menu-bar span, .menu-bar a { padding: 2px 6px; color: #000; text-decoration: none; }
+		.menu-bar a:hover, .menu-bar span:hover { background: #316ac5; color: #fff; }
+		.window-body { flex: 1 1 auto; overflow: auto; background: #fff; margin: 0; }
+		.window-body.face { background: var(--face); }
+		.status-bar {
+			flex: 0 0 auto; display: flex; gap: 2px; padding: 2px; background: var(--face);
+			border-top: 1px solid #fff;
+		}
+		.status-bar > * {
+			border: 1px solid; border-color: var(--face-dark) #fff #fff var(--face-dark);
+			padding: 1px 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+		}
+
+		/* game window */
+		#win-game .window-body { background: #000; display: flex; align-items: center; justify-content: center; }
+		#canvas { display: block; background: #000; }
+		#manual-label { display: flex; align-items: center; gap: 4px; cursor: pointer; }
+
+	</style>
+</head>
+<body>
+	<div id="desktop">
+		<!-- Game window: keeps every element id bridge.js looks up (canvas, status, score, ball-info, flippers, manual-play). -->
+		<section class="xp-window" id="win-game" data-title="3D Pinball - Fly Brain Cadet" data-color="#e07aa0" style="left: 120px; top: 24px;">
+			<div class="title-bar">
+				<span class="t-icon" style="background: radial-gradient(circle at 35% 35%, #ffd6e4, #e07aa0 60%, #b04574);"></span>
+				<span class="t-text">3D Pinball - Fly Brain Cadet</span>
+				<button class="tb-btn min" title="Minimize" aria-label="Minimize">_</button>
+				<button class="tb-btn max" title="Maximize" aria-label="Maximize">□</button>
+				<button class="tb-btn close" title="Close" aria-label="Close">×</button>
+			</div>
+			<nav class="menu-bar" id="brain-select" aria-label="Brain">
+				<span>Brain: 444-neuron fly circuit (popcode, lead-trained)</span>
+			</nav>
+			<div class="window-body">
+				<canvas id="canvas" width="640" height="480" tabindex="-1"></canvas>
+			</div>
+			<div class="status-bar" id="hud">
+				<span id="status">Loading...</span>
+				<span id="score"></span>
+				<span id="ball-info"></span>
+				<span id="flippers"></span>
+				<label id="manual-label"><input type="checkbox" id="manual-play" /> Manual (Z / slash)</label>
+			</div>
+		</section>
+
+		<!-- Placeholder windows, intentionally empty for now. -->
+		<section class="xp-window inactive" id="win-dash" data-title="Fly Brain Monitor" data-color="#5aa531" style="left: 800px; top: 24px; width: 660px; height: 520px;">
+			<div class="title-bar">
+				<span class="t-icon" style="background: linear-gradient(180deg, #b8f0a0, #4c9e2f);"></span>
+				<span class="t-text">Fly Brain Monitor</span>
+				<button class="tb-btn min" title="Minimize" aria-label="Minimize">_</button>
+				<button class="tb-btn max" title="Maximize" aria-label="Maximize">□</button>
+				<button class="tb-btn close" title="Close" aria-label="Close">×</button>
+			</div>
+			<div class="window-body"></div>
+		</section>
+
+		<section class="xp-window inactive" id="win-stats" data-title="Score History" data-color="#f0a030" style="left: 800px; top: 560px; width: 360px; height: 200px;">
+			<div class="title-bar">
+				<span class="t-icon" style="background: linear-gradient(180deg, #ffe0a0, #e0901c);"></span>
+				<span class="t-text">Score History</span>
+				<button class="tb-btn min" title="Minimize" aria-label="Minimize">_</button>
+				<button class="tb-btn max" title="Maximize" aria-label="Maximize">□</button>
+				<button class="tb-btn close" title="Close" aria-label="Close">×</button>
+			</div>
+			<div class="window-body"></div>
+		</section>
+
+		<section class="xp-window inactive" id="win-notes" data-title="notes.txt - Notepad" data-color="#d8cf86" style="left: 160px; top: 560px; width: 420px; height: 170px;">
+			<div class="title-bar">
+				<span class="t-icon" style="background: linear-gradient(180deg, #fffbe0, #e6d890);"></span>
+				<span class="t-text">notes.txt - Notepad</span>
+				<button class="tb-btn min" title="Minimize" aria-label="Minimize">_</button>
+				<button class="tb-btn max" title="Maximize" aria-label="Maximize">□</button>
+				<button class="tb-btn close" title="Close" aria-label="Close">×</button>
+			</div>
+			<nav class="menu-bar"><span>File</span><span>Edit</span><span>Format</span><span>View</span><span>Help</span></nav>
+			<div class="window-body"></div>
+		</section>
+	</div>
+
+	<script>
+	// Window manager: drag by title bar, focus/raise, minimize = roll up to the title bar (click
+	// minimize again to unroll), maximize (button or title-bar double-click), close.
+	// All text is set with textContent; nothing here builds HTML from strings.
+	(() => {
+		const windows = Array.from(document.querySelectorAll(".xp-window"));
+		let z = 10;
+
+		function focus(win) {
+			windows.forEach((w) => w.classList.toggle("inactive", w !== win));
+			win.style.zIndex = String(++z);
+		}
+
+		windows.forEach((win) => {
+			win.addEventListener("pointerdown", () => focus(win));
+			win.querySelector(".min").addEventListener("click", (e) => { e.stopPropagation(); win.classList.toggle("rolled"); });
+			win.querySelector(".max").addEventListener("click", (e) => { e.stopPropagation(); win.classList.toggle("maximized"); });
+			win.querySelector(".close").addEventListener("click", (e) => {
+				e.stopPropagation();
+				// With no taskbar or desktop icons a closed window could never come back, so the game
+				// window only rolls up (the game keeps running); the empty windows really close.
+				if (win.id === "win-game") win.classList.add("rolled");
+				else win.classList.add("hidden");
+			});
+
+			const bar = win.querySelector(".title-bar");
+			bar.addEventListener("dblclick", (e) => { if (!e.target.closest(".tb-btn")) win.classList.toggle("maximized"); });
+			bar.addEventListener("pointerdown", (e) => {
+				if (e.target.closest(".tb-btn") || win.classList.contains("maximized")) return;
+				const startX = e.clientX, startY = e.clientY;
+				const left = win.offsetLeft, top = win.offsetTop;
+				bar.setPointerCapture(e.pointerId);
+				const move = (ev) => {
+					win.style.left = `${left + ev.clientX - startX}px`;
+					win.style.top = `${Math.min(window.innerHeight - 30, Math.max(0, top + ev.clientY - startY))}px`;
+				};
+				const up = () => { bar.removeEventListener("pointermove", move); bar.removeEventListener("pointerup", up); };
+				bar.addEventListener("pointermove", move);
+				bar.addEventListener("pointerup", up);
+			});
+		});
+
+		// Pull windows that start off-screen (narrow displays) back into view.
+		windows.forEach((win) => {
+			const maxLeft = Math.max(0, window.innerWidth - win.offsetWidth - 8);
+			if (win.offsetLeft > maxLeft) win.style.left = `${maxLeft}px`;
+		});
+
+		focus(document.getElementById("win-game"));
+	})();
+	</script>
+	<script type="module" src="./bridge.js?v=4"></script>
+	<script type="module" src="./brain_dashboard.js?v=1"></script>
+</body>
+</html>
