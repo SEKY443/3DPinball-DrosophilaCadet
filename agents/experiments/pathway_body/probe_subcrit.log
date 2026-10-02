@@ -1,0 +1,28 @@
+[real] rho 0.996 dyn_gain 0.803 (gain*rho 0.800)
+   loom_L A=0.2: end-of-drive GF_L 0.223 GF_R 0.006 | +20 after GF_L 0.000 GF_R 0.000
+   loom_L A=0.5: end-of-drive GF_L 0.316 GF_R 0.008 | +20 after GF_L 0.000 GF_R 0.000
+   loom_L A=1.0: end-of-drive GF_L 0.362 GF_R 0.009 | +20 after GF_L 0.000 GF_R 0.000
+   loom_R A=0.2: end-of-drive GF_L 0.010 GF_R 0.222 | +20 after GF_L 0.000 GF_R 0.000
+   loom_R A=0.5: end-of-drive GF_L 0.014 GF_R 0.316 | +20 after GF_L 0.000 GF_R 0.000
+   loom_R A=1.0: end-of-drive GF_L 0.015 GF_R 0.362 | +20 after GF_L 0.000 GF_R 0.000
+[shuf1] rho 0.776 dyn_gain 1.031 (gain*rho 0.800)
+   loom_L A=0.2: end-of-drive GF_L 0.246 GF_R 0.318 | +20 after GF_L 0.000 GF_R 0.000
+   loom_L A=0.5: end-of-drive GF_L 0.375 GF_R 0.469 | +20 after GF_L 0.000 GF_R 0.000
+   loom_L A=1.0: end-of-drive GF_L 0.443 GF_R 0.543 | +20 after GF_L 0.000 GF_R 0.000
+   loom_R A=0.2: end-of-drive GF_L 0.241 GF_R 0.301 | +20 after GF_L 0.000 GF_R 0.000
+   loom_R A=0.5: end-of-drive GF_L 0.373 GF_R 0.450 | +20 after GF_L 0.000 GF_R 0.000
+   loom_R A=1.0: end-of-drive GF_L 0.443 GF_R 0.523 | +20 after GF_L 0.000 GF_R 0.000
+[shuf2] rho 0.809 dyn_gain 0.989 (gain*rho 0.800)
+   loom_L A=0.2: end-of-drive GF_L 0.257 GF_R 0.298 | +20 after GF_L 0.000 GF_R 0.000
+   loom_L A=0.5: end-of-drive GF_L 0.388 GF_R 0.440 | +20 after GF_L 0.000 GF_R 0.000
+   loom_L A=1.0: end-of-drive GF_L 0.453 GF_R 0.508 | +20 after GF_L 0.000 GF_R 0.000
+   loom_R A=0.2: end-of-drive GF_L 0.218 GF_R 0.292 | +20 after GF_L 0.000 GF_R 0.000
+   loom_R A=0.5: end-of-drive GF_L 0.342 GF_R 0.452 | +20 after GF_L 0.000 GF_R 0.000
+   loom_R A=1.0: end-of-drive GF_L 0.408 GF_R 0.533 | +20 after GF_L 0.000 GF_R 0.000
+[shuf3] rho 0.824 dyn_gain 0.971 (gain*rho 0.800)
+   loom_L A=0.2: end-of-drive GF_L 0.306 GF_R 0.267 | +20 after GF_L 0.000 GF_R 0.000
+   loom_L A=0.5: end-of-drive GF_L 0.456 GF_R 0.405 | +20 after GF_L 0.000 GF_R 0.000
+   loom_L A=1.0: end-of-drive GF_L 0.528 GF_R 0.476 | +20 after GF_L 0.000 GF_R 0.000
+   loom_R A=0.2: end-of-drive GF_L 0.273 GF_R 0.258 | +20 after GF_L 0.000 GF_R 0.000
+   loom_R A=0.5: end-of-drive GF_L 0.419 GF_R 0.404 | +20 after GF_L 0.000 GF_R 0.000
+   loom_R A=1.0: end-of-drive GF_L 0.492 GF_R 0.480 | +20 after GF_L 0.000 GF_R 0.000

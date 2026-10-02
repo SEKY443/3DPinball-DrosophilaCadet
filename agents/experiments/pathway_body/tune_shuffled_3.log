@@ -1,0 +1,167 @@
+[shuffled_3] cfg  0 gain 2.92 on 0.048 tau0 0.73 hold 1 -> log1p 10.956 presses 457.2
+[shuffled_3] cfg  1 gain 6.28 on 0.617 tau0 2.25 hold 3 -> log1p 10.669 presses 32.2
+[shuffled_3] cfg  2 gain 6.68 on 0.500 tau0 4.42 hold 2 -> log1p 11.414 presses 572.4
+[shuffled_3] cfg  3 gain 3.78 on 0.607 tau0 2.24 hold 1 -> log1p 10.939 presses 55.2
+[shuffled_3] cfg  4 gain 1.15 on 0.039 tau0 0.91 hold 1 -> log1p 10.849 presses 419.6
+[shuffled_3] cfg  5 gain 3.01 on 0.561 tau0 5.96 hold 3 -> log1p 10.968 presses 207.1
+[shuffled_3] cfg  6 gain 7.59 on 0.604 tau0 3.07 hold 3 -> log1p 10.843 presses 62.3
+[shuffled_3] cfg  7 gain 0.73 on 0.584 tau0 1.36 hold 2 -> log1p 10.697 presses 114.8
+[shuffled_3] cfg  8 gain 1.92 on 0.649 tau0 1.51 hold 3 -> log1p 10.402 presses 5.5
+[shuffled_3] cfg  9 gain 1.22 on 0.554 tau0 1.62 hold 2 -> log1p 10.817 presses 171.8
+[shuffled_3] cfg 10 gain 5.90 on 0.444 tau0 0.84 hold 2 -> log1p 11.184 presses 406.5
+[shuffled_3] cfg 11 gain 4.43 on 0.616 tau0 0.79 hold 3 -> log1p 10.286 presses 4.6
+[shuffled_3] cfg 12 gain 1.27 on 0.326 tau0 3.87 hold 3 -> log1p 10.777 presses 259.0
+[shuffled_3] cfg 13 gain 0.58 on 0.155 tau0 0.85 hold 1 -> log1p 10.996 presses 455.4
+[shuffled_3] cfg 14 gain 2.50 on 0.477 tau0 1.07 hold 3 -> log1p 10.937 presses 265.3
+[shuffled_3] cfg 15 gain 1.38 on 0.448 tau0 5.13 hold 3 -> log1p 10.957 presses 316.3
+[shuffled_3] cfg 16 gain 1.70 on 0.580 tau0 1.75 hold 3 -> log1p 10.719 presses 120.5
+[shuffled_3] cfg 17 gain 7.89 on 0.574 tau0 3.57 hold 2 -> log1p 11.047 presses 248.9
+[shuffled_3] cfg 18 gain 1.99 on 0.626 tau0 1.71 hold 1 -> log1p 10.412 presses 11.0
+[shuffled_3] cfg 19 gain 3.59 on 0.518 tau0 3.35 hold 3 -> log1p 10.743 presses 149.2
+[shuffled_3] cfg 20 gain 6.54 on 0.502 tau0 4.48 hold 1 -> log1p 10.963 presses 504.3
+[shuffled_3] cfg 21 gain 7.11 on 0.681 tau0 4.74 hold 3 -> log1p 10.835 presses 46.3
+[shuffled_3] cfg 22 gain 4.89 on 0.178 tau0 3.92 hold 1 -> log1p 11.108 presses 600.2
+[shuffled_3] cfg 23 gain 1.05 on 0.571 tau0 5.17 hold 3 -> log1p 10.867 presses 191.7
+[shuffled_3] cfg 24 gain 0.56 on 0.598 tau0 0.74 hold 3 -> log1p 10.267 presses 1.9
+[shuffled_3] cfg 25 gain 0.52 on 0.582 tau0 5.15 hold 3 -> log1p 10.713 presses 137.0
+[shuffled_3] cfg 26 gain 0.60 on 0.511 tau0 1.47 hold 1 -> log1p 11.159 presses 294.5
+[shuffled_3] cfg 27 gain 7.28 on 0.541 tau0 1.18 hold 2 -> log1p 10.983 presses 179.6
+[shuffled_3] cfg 28 gain 5.87 on 0.105 tau0 1.30 hold 3 -> log1p 10.739 presses 245.2
+[shuffled_3] cfg 29 gain 2.32 on 0.590 tau0 1.30 hold 2 -> log1p 10.838 presses 143.2
+[shuffled_3] cfg 30 gain 1.57 on 0.600 tau0 5.50 hold 2 -> log1p 10.959 presses 93.4
+[shuffled_3] cfg 31 gain 2.31 on 0.636 tau0 0.96 hold 2 -> log1p 10.483 presses 3.5
+[shuffled_3] cfg 32 gain 1.54 on 0.507 tau0 4.10 hold 3 -> log1p 10.898 presses 285.9
+[shuffled_3] cfg 33 gain 4.99 on 0.268 tau0 0.83 hold 2 -> log1p 11.379 presses 440.1
+[shuffled_3] cfg 34 gain 3.05 on 0.498 tau0 5.32 hold 3 -> log1p 10.670 presses 269.5
+[shuffled_3] cfg 35 gain 5.50 on 0.279 tau0 1.76 hold 1 -> log1p 11.207 presses 596.8
+[shuffled_3] cfg 36 gain 1.94 on 0.624 tau0 1.36 hold 3 -> log1p 10.377 presses 6.3
+[shuffled_3] cfg 37 gain 5.47 on 0.582 tau0 1.47 hold 1 -> log1p 11.159 presses 278.7
+[shuffled_3] cfg 38 gain 7.89 on 0.144 tau0 4.64 hold 1 -> log1p 11.140 presses 608.2
+[shuffled_3] cfg 39 gain 3.19 on 0.648 tau0 3.49 hold 3 -> log1p 10.605 presses 25.2
+[shuffled_3] cfg 40 gain 5.44 on 0.116 tau0 2.95 hold 1 -> log1p 11.227 presses 559.9
+[shuffled_3] cfg 41 gain 0.79 on 0.639 tau0 2.34 hold 3 -> log1p 10.354 presses 6.2
+[shuffled_3] cfg 42 gain 2.49 on 0.378 tau0 2.16 hold 1 -> log1p 11.118 presses 567.8
+[shuffled_3] cfg 43 gain 7.61 on 0.501 tau0 3.68 hold 1 -> log1p 10.756 presses 397.8
+[shuffled_3] cfg 44 gain 7.53 on 0.551 tau0 1.05 hold 2 -> log1p 10.937 presses 189.8
+[shuffled_3] cfg 45 gain 0.86 on 0.596 tau0 5.53 hold 3 -> log1p 10.967 presses 93.8
+[shuffled_3] cfg 46 gain 0.61 on 0.526 tau0 1.02 hold 3 -> log1p 10.451 presses 81.5
+[shuffled_3] cfg 47 gain 0.60 on 0.514 tau0 1.64 hold 2 -> log1p 11.068 presses 226.1
+[shuffled_3] cfg 48 gain 5.63 on 0.641 tau0 3.63 hold 3 -> log1p 10.842 presses 54.3
+[shuffled_3] cfg 49 gain 0.71 on 0.068 tau0 4.53 hold 3 -> log1p 10.927 presses 316.2
+[shuffled_3] cfg 50 gain 2.90 on 0.131 tau0 2.98 hold 2 -> log1p 11.038 presses 409.4
+[shuffled_3] cfg 51 gain 3.59 on 0.365 tau0 3.82 hold 1 -> log1p 10.944 presses 481.0
+[shuffled_3] cfg 52 gain 0.65 on 0.532 tau0 3.97 hold 3 -> log1p 10.879 presses 161.0
+[shuffled_3] cfg 53 gain 7.75 on 0.675 tau0 3.91 hold 2 -> log1p 10.896 presses 61.2
+[shuffled_3] cfg 54 gain 1.90 on 0.596 tau0 2.86 hold 2 -> log1p 10.849 presses 46.9
+[shuffled_3] cfg 55 gain 0.60 on 0.561 tau0 1.41 hold 3 -> log1p 10.678 presses 114.0
+[shuffled_3] cfg 56 gain 7.87 on 0.578 tau0 1.74 hold 1 -> log1p 10.863 presses 234.1
+[shuffled_3] cfg 57 gain 0.64 on 0.626 tau0 3.90 hold 3 -> log1p 10.404 presses 16.2
+[shuffled_3] cfg 58 gain 1.22 on 0.536 tau0 1.52 hold 3 -> log1p 10.748 presses 114.9
+[shuffled_3] cfg 59 gain 2.24 on 0.297 tau0 0.70 hold 2 -> log1p 11.124 presses 388.7
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+    return self.env.close()
+    return self.env.close()
+    return self.env.close()
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    def _shutdown():
+    
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 96, in <lambda>
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    return self.env.close()
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 96, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 96, in <lambda>
+    time.sleep(delay)
+                                             ^^^^^^^^^^^
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 96, in <lambda>
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 96, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+                                             ^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 96, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 96, in <lambda>
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+[shuffled_3] BEST log1p 11.414: {"gain": 6.68204498455729, "theta_on": 0.5004381600272237, "tau0": 4.416740187616541, "hold_max": 2, "circuit_json": "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_circuit_shuffled_3.json", "refractory": 2, "theta_off": 0.3503067120190566}
+[shuffled_3] GF activity stats: {"far": {"n": 41344, "mean_L": 0.5878557233017043, "mean_R": 0.5114415621368065, "max_L": 0.827373206615448, "max_R": 0.7811084389686584, "frac_above_theta_on": 0.9450222523219814}, "zone_y>10": {"n": 7278, "mean_L": 0.613801176803866, "mean_R": 0.5440863070906764, "max_L": 0.8270964622497559, "max_R": 0.7807470560073853, "frac_above_theta_on": 0.925254190711734}}
