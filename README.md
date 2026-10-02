@@ -5,7 +5,29 @@ An open-source Reinforcement Learning (RL) environment wrapping the classic Wind
 ## 🚀 Overview
 This project decompiles and refactors the native C++/SDL2 game engine (`k4zmu2a/SpaceCadetPinball`) to expose internal game states (ball vectors, flipper physics, rewards) directly to a Python-based `gymnasium` interface. This allows AI agents—ranging from traditional PPO/DQN models to neuromorphic Spiking Neural Networks (SNN)—to interact with the game with zero screen-capture overhead.
 
-## 🪰 Current main result: the fly brain plays pinball
+## 🪰 Main result: the fly's own escape pathway plays pinball
+The flippers are driven by the fly's looming-escape circuit taken straight from the MaleCNS v1.0
+connectome: 373 cells, all LC4/LPLC2 looming neurons -> the two giant fibers (DNp01) plus 60
+intermediates, with real signs and synapse counts. A ball approaching a flipper "looms" on that
+side's eye; when that side's giant fiber becomes active, the flipper is pressed. There is **no trained readout**.
+Only a few body constants (looming gain and time constant, press threshold) are tuned per circuit,
+and the dynamics are kept sub-critical (gain x spectral radius = 0.8).
+
+- **The real wiring matters.** Under the same press budget (<= 25 presses/life) the real circuit
+  beats all six degree-preserving shuffles on 96 paired lives (log1p score per life 11.22 vs
+  10.77-10.99; pooled shuffle - real = -0.34 +/- 0.08, t -4.25) and is about 1.5x more press-efficient
+  (0.49 vs 0.25-0.36 ball contacts per press). It is still 0.26 below the hand-written reflex.
+- Why it works: LC4/LPLC2 project strictly ipsilaterally onto the giant fibers (~26% of each GF's
+  input), so the real circuit is a lateralized looming detector; the shuffles are not.
+- Code, circuits, tuning and evaluation: `agents/experiments/pathway_body/`; pathway analysis:
+  `agents/experiments/pathway/`; details in `docs/MORNING_REPORT_2026-10-02.md`.
+
+```sh
+# Paired evaluation: real giant-fiber body vs six shuffles, lead reflex and never-press
+python3 agents/experiments/pathway_body/eval_gf_body.py --seeds 77000:77096 --suffix _budget --shuffles 1,2,3,4,5,6
+```
+
+## 🏆 Best score: the trained fly brain
 A fixed 444-neuron subnetwork of the MaleCNS *Drosophila* connectome (real cell types, signs and
 synapse counts; the wiring is never trained) plays the game. Only a small readout (667 parameters)
 is trained, by imitation (DAgger) of a hand-written reflex teacher.
@@ -18,6 +40,8 @@ is trained, by imitation (DAgger) of a hand-written reflex teacher.
 - **Best brain**: `agents/experiments/timing/seeds/dagger_popcode_delay1_r8.pt`
   (web export `web/circuit_readout_444_popcode.json`). It presses ~11 times per ball (the earlier
   CMA champion: ~780) and scores on par with its teacher on held-out seeds.
+- **Caveat**: with this trained readout, degree-preserving shuffles of the wiring score the same
+  (`agents/experiments/shuffle/`), so the readout, not the wiring, does the work here.
 - **Findings and negative results** (timing oracle, aiming, cradling, full-game training):
   `docs/STEP3_REPORT.md`; full experiment log in the local, untracked changelog.
 
