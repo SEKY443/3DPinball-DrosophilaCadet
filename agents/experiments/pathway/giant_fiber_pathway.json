@@ -1,0 +1,42 @@
+{
+ "LC4_L->GF_R": {
+  "synapses": 0,
+  "share": 0.0,
+  "cells": 71
+ },
+ "LC4_L->GF_L": {
+  "synapses": 3782,
+  "share": 0.15191195372750643,
+  "cells": 71
+ },
+ "LC4_R->GF_R": {
+  "synapses": 2580,
+  "share": 0.13884404262189215,
+  "cells": 55
+ },
+ "LC4_R->GF_L": {
+  "synapses": 0,
+  "share": 0.0,
+  "cells": 55
+ },
+ "LPLC2_L->GF_R": {
+  "synapses": 0,
+  "share": 0.0,
+  "cells": 94
+ },
+ "LPLC2_L->GF_L": {
+  "synapses": 2642,
+  "share": 0.10612146529562982,
+  "cells": 94
+ },
+ "LPLC2_R->GF_R": {
+  "synapses": 2220,
+  "share": 0.11947045527930256,
+  "cells": 91
+ },
+ "LPLC2_R->GF_L": {
+  "synapses": 0,
+  "share": 0.0,
+  "cells": 91
+ }
+}
