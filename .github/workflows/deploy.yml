@@ -6,7 +6,8 @@ on:
     paths:
       - "web/**"
       - "src_cpp/**"
-      - "agents/checkpoints/**"
+      - "scripts/build_wasm.sh"
+      - ".github/workflows/deploy.yml"
   workflow_dispatch:
 
 permissions:
@@ -29,25 +30,36 @@ jobs:
 
       - uses: mymindstorm/setup-emsdk@v14
         with:
-          version: latest
+          # Pinned to the version the page was last verified with locally (scripts/build_wasm.sh).
+          version: 6.0.10
 
       - name: Build wasm
         run: ./scripts/build_wasm.sh
 
-      - name: Verify web/weights.json is committed
-        # Training/export runs offline (agents/train.py + agents/export_weights.py) - CI has
-        # no GPU and no game data to train against, so it only packages an already-exported file.
+      - name: Check game data
+        # Game data is NOT in this repository (copyright; see README). Without it the engine has no
+        # table and the canvas stays black. How the public page gets game data is still undecided -
+        # until then the deploy goes ahead but flags it loudly.
         run: |
-          if [ ! -f web/weights.json ]; then
-            echo "error: web/weights.json is missing - run agents/export_weights.py locally and commit its output" >&2
-            exit 1
+          if [ ! -f web/dist/SpaceCadetPinball.data ]; then
+            echo "::warning::No game data packaged (vendor/SpaceCadetPinball/bin/DEMO.DAT absent) - the deployed page will show a black table."
           fi
 
+      - name: Verify the browser brain matches Python
+        # The page runs only the lead-trained popcode fly brain; its JS forward pass must reproduce
+        # the exported Python test vectors (float32 tolerance, zero action mismatches).
+        run: >
+          node web/test/verify_policy.mjs web/connectome_444.json web/circuit_readout_444_popcode.json
+          web/testdata/circuit_444_popcode_vectors.json
+
       - name: Assemble Pages artifact
+        # Only what index.html loads - no test data, backups or older brains.
         run: |
           mkdir -p _site/dist
-          cp web/index.html web/bridge.js web/inference.js web/weights.json _site/
+          cp web/index.html web/bridge.js web/circuit_policy.js web/observation.js web/brain_dashboard.js \
+             web/connectome_444.json web/circuit_readout_444_popcode.json _site/
           cp web/dist/SpaceCadetPinball.js web/dist/SpaceCadetPinball.wasm _site/dist/
+          if [ -f web/dist/SpaceCadetPinball.data ]; then cp web/dist/SpaceCadetPinball.data _site/dist/; fi
 
       - uses: actions/upload-pages-artifact@v3
         with:
