@@ -1,0 +1,10 @@
+/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/../agents/fly_decoder.py:41: RuntimeWarning: invalid value encountered in cast
+  return action.detach().cpu().numpy().astype("int64")
+held-out lives 7024..7071
+variant                             log1p    se    score  steps  cont  press  P(L)  P(R)  agree recall   prec
+dagger_popcode_delay1_r8            11.30  0.14   132677   1305   6.8   13.1 0.006 0.009  0.993  0.741  0.740
+  round 0: reflex rollouts mean log1p 11.19, recall 1.00, dataset 32928
+  round 1: agent rollouts mean log1p 11.15, recall 0.57, dataset 60232
+  round 2: agent rollouts mean log1p 11.26, recall 0.69, dataset 87112
+  round 3: agent rollouts mean log1p 11.23, recall 0.74, dataset 113918
+  (352s)
