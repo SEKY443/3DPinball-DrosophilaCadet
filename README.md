@@ -17,7 +17,7 @@
 
 ![Drosophila Cadet playing 3D Pinball on a Windows XP desktop](docs/media/demo.gif)
 
-**Watch a fly play 3D Pinball.** &nbsp; `\(^o^)/`
+# Watch a fly play 3D Pinball.** &nbsp; `\(^o^)/`
 
 ```
 +--------------------------------------------------------------------+
@@ -25,6 +25,9 @@
 +--------------------------------------------------------------------+
 ```
 
+**Plz use Chrome or Firefox for better experience.**
+
+https://seky443.github.io/3Dpinball-DrosophilaCadet/
 </div>
 
 
@@ -78,7 +81,7 @@ presses its flipper. Everything runs in your browser, on a Windows XP desktop. &
 - Two brains in the **Brain** menu: the giant-fiber body (default) and the trained brain.
 - **Options > Manual Play** lets you take the flippers yourself (Z and /). You can definitely beat
   a fruit fly... right? &nbsp; `;-)`
-- Low-res mode for that 2003 LCD feeling (switch it off in Notepad: *i wanna retina display*).
+- Low-res mode for that 2003 LCD feeling, not available on WebKit Based browser (switch it off in Notepad: *i wanna retina display*). 
 - Works on phones too (stacked windows, touch buttons), but it is best watched on a PC.
 
 ## Quick start &nbsp; `\m/`
