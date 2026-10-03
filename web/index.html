@@ -237,11 +237,12 @@
 		   not a full-page one). "i wanna retina display" in Notepad turns it off. */
 		html.lowres body { -webkit-font-smoothing: none; font-smooth: never; text-rendering: optimizeSpeed; }
 		html.lowres img, html.lowres canvas { image-rendering: pixelated; }
-		/* Pixel filter on Blink (Chrome/Edge/Brave/Opera) and Firefox, 2x screens only. WebKit (Safari, Orion) blanks
-		   SVG-filtered HTML, so it gets the plain low-res look instead. Every window gets it except the
-		   game picture itself (only the game window's title bar, menu and dialogs are filtered). */
-		html.lowres-filter #win-dash, html.lowres-filter #win-notes, html.lowres-filter #win-stats, html.lowres-filter #win-paint,
-		html.lowres-filter #win-game .title-bar, html.lowres-filter #game-menubar .mb-top,
+		/* Pixel filter on Blink (Chrome/Edge/Brave/Opera), 2x screens only (web/lowres.js decides). WebKit (Safari,
+		   Orion) and Firefox get the plain low-res look. The filter re-runs whenever its element repaints, so it is
+		   applied only to windows that rarely change (Notepad, Score History, Paint) and to title bars, menus and
+		   dialogs - never to the live game picture or the Fly Brain Monitor's animated contents. */
+		html.lowres-filter #win-notes, html.lowres-filter #win-stats, html.lowres-filter #win-paint,
+		html.lowres-filter #win-game .title-bar, html.lowres-filter #win-dash .title-bar, html.lowres-filter #game-menubar .mb-top,
 		html.lowres-filter .xp-dialog, html.lowres-filter .xp-dropdown { filter: url(#lowres); }
 		.notes-toggle { color: #0000ee; text-decoration: underline; cursor: pointer; }
 	</style>
@@ -472,7 +473,7 @@ Connectome: MaleCNS v1.0 (Janelia FlyEM).
 	</script>
 	<script type="module" src="./bridge.js?v=30"></script>
 	<script type="module" src="./brain_dashboard.js?v=8"></script>
-	<script type="module" src="./lowres.js?v=1"></script>
+	<script type="module" src="./lowres.js?v=2"></script>
 	<script type="module" src="./paint.js?v=7"></script>
 	<script type="module">
 		import { xpScrollbar } from "./xp_scrollbar.js?v=3";

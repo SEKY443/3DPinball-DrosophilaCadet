@@ -3,19 +3,18 @@ import { storageGet, storageSet } from "./dom.js?v=1";
 
 const KEY = "flyPinball.lowres";
 const toggle = document.getElementById("lowres-toggle");
-// The pixel filter is verified only on Blink. navigator.userAgentData (Chromium-only) is the clean check but is
-// missing on plain-http pages (secure contexts only), so fall back to the "Chrome/<n>" UA token - WebKit
-// browsers (Safari, Orion) and Firefox don't send it. The filter math assumes a 2x screen.
-// On https (GitHub Pages) the presence of userAgentData alone decides, so a WebKit browser that spoofs a Chrome
-// user-agent string (e.g. Orion's compatibility mode) still never gets the filter.
-const blink = window.isSecureContext
+// The pixel filter runs only on Blink (Chrome/Edge/Brave/Opera) with a 2x screen:
+// - WebKit (Safari, Orion) blanks SVG-filtered HTML, and Orion can report Chromium brands / a Chrome UA, so any
+//   browser that looks like WebKit (Apple vendor string or the WebKit-only GestureEvent) is excluded first.
+// - Firefox renders the filter but too slowly for the live windows, so it gets the plain low-res look too.
+// navigator.userAgentData (Chromium-only) is the clean Blink check on https; plain-http LAN pages don't expose it,
+// so there the "Chrome/<n>" UA token is used (also matches HeadlessChrome).
+const webkit = /Apple/.test(navigator.vendor || "") || "GestureEvent" in window;
+const blink = !webkit && (window.isSecureContext
 	? !!(navigator.userAgentData && navigator.userAgentData.brands.some((b) => /Chromium/i.test(b.brand)))
-	: /Chrome\/\d+/.test(navigator.userAgent); // plain-http LAN testing; also matches HeadlessChrome
+	: /Chrome\/\d+/.test(navigator.userAgent));
 const dpr = window.devicePixelRatio || 1;
-// Firefox (Gecko) also renders this filter family (feFlood/feTile/feComposite pixelation); enabled on request,
-// not yet verified on a 2x screen.
-const gecko = /Firefox\/\d+/.test(navigator.userAgent);
-const filterOk = (blink || gecko) && dpr >= 1.75 && dpr < 2.5;
+const filterOk = blink && dpr >= 1.75 && dpr < 2.5;
 let on = storageGet(KEY) !== "off"; // storage blocked or empty: keep the default (on)
 const apply = () => {
 	document.documentElement.classList.toggle("lowres", on);
