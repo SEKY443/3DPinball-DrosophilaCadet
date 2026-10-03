@@ -1,11 +1,10 @@
-prompt.md
 build-native/
 build-wasm/
 .venv/
 __pycache__/
 *.pyc
 agents/checkpoints/
-web/dist/
+# web/dist/ is committed: the prebuilt engine is what GitHub Pages serves (see .github/workflows/deploy.yml)
 data/
 *.zip
 colab_ssh_credentials.txt
@@ -19,3 +18,18 @@ CHANGELOG.md
 *.cma.pkl
 agents/experiments/oracle_dagger/**/data_*.npz
 *.tabbed
+
+# Original game/OS assets supplied locally. Only the sound effects are committed (needed by the WASM build, credited in
+# the page's Notepad); the rest stays local. Web copies are made from these.
+assets/original/*
+!assets/original/sound/
+
+# Paper sources stay local; only the compiled PDF (docs/paper/technical_report.pdf) is published
+docs/TECHNICAL_REPORT.md
+docs/paper/*.tex
+
+# Raw screen recordings (the README uses docs/media/demo.gif)
+docs/*.mov
+
+# macOS Finder metadata
+.DS_Store

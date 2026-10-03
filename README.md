@@ -1,107 +1,156 @@
-# 3DPinball-DrosophilaCadet
+<div align="center">
 
-An open-source Reinforcement Learning (RL) environment wrapping the classic Windows XP *3D Pinball: Space Cadet* game engine, designed for training biological-inspired neural networks and virtual fruit fly models (*Drosophila melanogaster*).
-
-## 🚀 Overview
-This project decompiles and refactors the native C++/SDL2 game engine (`k4zmu2a/SpaceCadetPinball`) to expose internal game states (ball vectors, flipper physics, rewards) directly to a Python-based `gymnasium` interface. This allows AI agents—ranging from traditional PPO/DQN models to neuromorphic Spiking Neural Networks (SNN)—to interact with the game with zero screen-capture overhead.
-
-## 🪰 Main result: the fly's own escape pathway plays pinball
-The flippers are driven by the fly's looming-escape circuit taken straight from the MaleCNS v1.0
-connectome: 373 cells, all LC4/LPLC2 looming neurons -> the two giant fibers (DNp01) plus 60
-intermediates, with real signs and synapse counts. A ball approaching a flipper "looms" on that
-side's eye; when that side's giant fiber becomes active, the flipper is pressed. There is **no trained readout**.
-Only a few body constants (looming gain and time constant, press threshold) are tuned per circuit,
-and the dynamics are kept sub-critical (gain x spectral radius = 0.8).
-
-- **The real wiring matters.** Under the same press budget (<= 25 presses/life) the real circuit
-  beats all six degree-preserving shuffles on 96 paired lives (log1p score per life 11.22 vs
-  10.77-10.99; pooled shuffle - real = -0.34 +/- 0.08, t -4.25) and is about 1.5x more press-efficient
-  (0.49 vs 0.25-0.36 ball contacts per press). It is still 0.26 below the hand-written reflex.
-- Why it works: LC4/LPLC2 project strictly ipsilaterally onto the giant fibers (~26% of each GF's
-  input), so the real circuit is a lateralized looming detector; the shuffles are not.
-- Code, circuits, tuning and evaluation: `agents/experiments/pathway_body/`; pathway analysis:
-  `agents/experiments/pathway/`; details in `docs/MORNING_REPORT_2026-10-02.md`.
-
-```sh
-# Paired evaluation: real giant-fiber body vs six shuffles, lead reflex and never-press
-python3 agents/experiments/pathway_body/eval_gf_body.py --seeds 77000:77096 --suffix _budget --shuffles 1,2,3,4,5,6
+```
+ .-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-.
+ |                                                                  |
+ |      D  R  O  S  O  P  H  I  L  A        C  A  D  E  T          |
+ |                                                                  |
+ |          ~ a real fruit-fly brain plays 3D Pinball ~             |
+ |                                                                  |
+ '-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-'
+                  \     /
+              .-.  \   /  .-.          "Ship Re-Fueled"
+             (   ) (o o) (   )               ...he says.  ^_^
+              '-'   \_/   '-'
+                    /|\
 ```
 
-## 🏆 Best score: the trained fly brain
-A fixed 444-neuron subnetwork of the MaleCNS *Drosophila* connectome (real cell types, signs and
-synapse counts; the wiring is never trained) plays the game. Only a small readout (667 parameters)
-is trained, by imitation (DAgger) of a hand-written reflex teacher.
+![Drosophila Cadet playing 3D Pinball on a Windows XP desktop](docs/media/demo.gif)
 
-- **Sensory encoding ("popcode")**: ball position/velocity enter the connectome's mechanosensory
-  input cells as range-fractionated bumps and direction-selective speed units (like leg
-  proprioceptor claw/hook neurons) - see `docs/ENCODING_REPORT.md`.
-- **Teacher**: a correct-side flipper reflex that presses one decision step early
-  (`agents/experiments/timing/`), which hits the multiplier targets more often.
-- **Best brain**: `agents/experiments/timing/seeds/dagger_popcode_delay1_r8.pt`
-  (web export `web/circuit_readout_444_popcode.json`). It presses ~11 times per ball (the earlier
-  CMA champion: ~780) and scores on par with its teacher on held-out seeds.
-- **Caveat**: with this trained readout, degree-preserving shuffles of the wiring score the same
-  (`agents/experiments/shuffle/`), so the readout, not the wiring, does the work here.
-- **Findings and negative results** (timing oracle, aiming, cradling, full-game training):
-  `docs/STEP3_REPORT.md`; full experiment log in the local, untracked changelog.
+**Watch a fly play 3D Pinball.** &nbsp; `\(^o^)/`
 
-```sh
-# Browser demo (serves web/; the page only runs the best brain)
-cd web && python3 -m http.server 8765 --bind 127.0.0.1    # open http://127.0.0.1:8765/
+</div>
 
-# Full-game evaluation of the best brain (fresh engine per game, auto-relaunch after drains)
-python3 agents/experiments/fullgame/full_game_eval.py --policies brain --seeds 40000:40032
-
-# Re-train the brain by imitation of the lead reflex
-python3 agents/experiments/timing/dagger_lead.py --variants popcode:delay1:8 --workers 1 \
-  --ckpt-dir agents/experiments/timing/seeds --out agents/experiments/timing/dagger_lead.json
+```
++--------------------------------------------------------------------+
+|  [ WELCOME ]  ............................................  [_][X] |
++--------------------------------------------------------------------+
 ```
 
-## 🛠️ Tech Stack
-- **Game Core:** C++11 / SDL2 (Cross-platform compatibility)
-- **RL Framework:** Python 3 / Gymnasium
-- **Agent Options:** PyTorch / Stable-Baselines3 / Spiking Neural Networks (SNN)
+The flippers of *3D Pinball for Windows - Space Cadet* are driven by the fruit fly's own
+looming-escape circuit, taken straight from the real **MaleCNS v1.0** connectome (Janelia FlyEM):
+the LC4 and LPLC2 visual neurons feeding the two **giant fibers (DNp01)**, 373 neurons in all, with
+real synapse counts and signs. **Nothing in the circuit is trained** - only the "body" around it is
+set up: each looming cell watches its own spot along a flipper, and a giant fiber that fires
+presses its flipper. Everything runs in your browser, on a Windows XP desktop. &nbsp; `:-)`
 
-## 📂 Repository Structure
-- `/vendor/SpaceCadetPinball`: Git submodule, unmodified upstream `k4zmu2a/SpaceCadetPinball`.
-- `/src_cpp`: State-extraction + IPC/Wasm bridge overlay, applied onto the submodule via the
-  patches in `src_cpp/patches/` rather than forking it.
-- `/env_python`: `ipc_client.py` (wire-protocol client) and `pinball_env.py` (Gymnasium env).
-- `/agents`: `snn_model.py` (Norse SNN controller), `train.py` (REINFORCE loop),
-  `export_weights.py` (`weights.json` export for the browser).
-- `/web`: Browser demo - `index.html`, `bridge.js`, `inference.js` (JS port of the SNN forward
-  pass), `weights.json` (committed export output), `dist/` (gitignored Emscripten build output).
-- `/scripts`: `apply_patches.sh`, `build_native.sh`, `build_wasm.sh`, `smoke_ipc.py`.
-- `/.github/workflows`: `ci.yml` (native build + IPC smoke test), `deploy.yml` (Wasm build +
-  GitHub Pages deploy).
-
-## Getting started (macOS local dev)
-
-**You need your own `CADET.DAT` or `PINBALL.DAT`.** This project does not include or fetch the
-original game's data files - they're copyrighted (from Windows XP or Full Tilt! Pinball).
-Extract one from a copy you legitimately own and place it next to the built binary
-(`vendor/SpaceCadetPinball/bin/`) or in the working directory you run it from.
-
-```sh
-git submodule update --init --recursive   # first time only
-./scripts/build_native.sh                  # applies src_cpp/patches, builds via Homebrew SDL2
+```
+   ___________________________________________________________
+  |                                                           |
+  |  ball looms at a flipper  -->  LC4 / LPLC2  -->  DNp01    |
+  |      (seen by the fly)         (the eyes)     (giant      |
+  |                                                fiber)     |
+  |                                    |                      |
+  |                                    v                      |
+  |                       the fly "jumps"  ==>  FLIP!   o_O   |
+  |___________________________________________________________|
 ```
 
-Requires Xcode Command Line Tools with the license accepted (`sudo xcodebuild -license accept`)
-and `brew install sdl2 sdl2_mixer` first.
+## Main result &nbsp; `<(^_^)>`
+
+- The **untrained** escape circuit plays about as well as a **trained** 444-neuron brain from
+  the same connectome.
+- Its **real wiring beats randomly shuffled wiring** (six degree-preserving shuffles, same
+  tuning, same press budget, 96 paired lives each). For the trained brain the wiring does not
+  matter at all - training does the work there.
+- Both are still a little below a hand-written reflex. &nbsp; `>_<`
+- This is a simplified rate model and the comparison was framed after the fact; methods, all
+  numbers and the limitations are in the paper: **[docs/paper/technical_report.pdf](docs/paper/technical_report.pdf)**.
+
+## The desktop &nbsp; `B-)`
+
+```
+  .--------------------.   .--------------------.   .--------------------.
+  | 3D Pinball         |   | Fly Brain Monitor  |   | Score History      |
+  |  the game, with    |   |  live wiring,      |   |  every game, a     |
+  |  the fly at the    |   |  neuron activity,  |   |  Top 5 and a house |
+  |  flippers          |   |  giant-fiber bars  |   |  record to beat    |
+  '--------------------'   '--------------------'   '--------------------'
+  .--------------------.   .--------------------.
+  | Paint              |   | Notepad            |
+  |  the fly's self-   |   |  what you are      |
+  |  portrait, pressing|   |  looking at        |
+  |  the keys          |   |                    |
+  '--------------------'   '--------------------'
+```
+
+- Two brains in the **Brain** menu: the giant-fiber body (default) and the trained brain.
+- **Options > Manual Play** lets you take the flippers yourself (Z and /). You can definitely beat
+  a fruit fly... right? &nbsp; `;-)`
+- Low-res mode for that 2003 LCD feeling (switch it off in Notepad: *i wanna retina display*).
+- Works on phones too (stacked windows, touch buttons), but it is best watched on a PC.
+
+## Quick start &nbsp; `\m/`
+
+Game data is not included: you need your own copy of the original game files (`CADET.DAT` or
+`PINBALL.DAT` for the native build, placed in `vendor/SpaceCadetPinball/bin/`; the WASM build
+packages `vendor/SpaceCadetPinball/bin/DEMO.DAT`). The web build reads the sound effects from
+`assets/original/sound/`.
 
 ```sh
+git submodule update --init --recursive        # engine + vendor/nfly
+brew install sdl2 sdl2_mixer cmake             # macOS; Xcode CLT license must be accepted
+./scripts/build_native.sh                      # applies src_cpp/patches, builds the engine
+
 python3 -m venv .venv && source .venv/bin/activate
-pip install -r agents/requirements.txt
-python3 scripts/smoke_ipc.py               # protocol/client test, no DAT file needed
+pip install -r agents/requirements.txt         # note: the CMA-ES trainer also imports `cma` (pycma)
+python3 scripts/smoke_ipc.py                   # wire-protocol smoke test, no game data needed
 
-PINBALL_BINARY=vendor/SpaceCadetPinball/bin/SpaceCadetPinball \
-  python3 agents/train.py --binary "$PINBALL_BINARY" --episodes 500
-python3 agents/export_weights.py --checkpoint agents/checkpoints/drosophila_controller_final.pt
+# Paired evaluation: real giant-fiber body vs six shuffles, lead1 reflex and never-press
+python3 agents/experiments/pathway_body/eval_gf_body.py --seeds 77000:77096 --suffix _budget --shuffles 1,2,3,4,5,6
 
-./scripts/build_wasm.sh                    # requires Emscripten; untested in this repo so far
+# Browser demo (needs web/dist, built below)
+./scripts/build_wasm.sh                        # needs Emscripten (CI pins 6.0.10) and DEMO.DAT
+python3 scripts/serve_web.py --bind 127.0.0.1 --port 4242    # open http://127.0.0.1:4242/
 ```
 
-`agents/train.py --dummy` runs the same training loop against a synthetic stand-in
-environment (`agents/dummy_env.py`) for verifying the training plumbing without a DAT file -
-it is not a pinball simulator and learning to solve it says nothing about real gameplay.
+## Repository layout &nbsp; `[o_o]`
+
+```
+DrosophilaCadet/
+|-- vendor/SpaceCadetPinball   upstream decompilation (k4zmu2a), unmodified submodule
+|-- vendor/nfly                MaleCNS loader / RL tooling (submodule)
+|-- src_cpp/                   IPC server, state export, WASM bridge, patches 0001-0011
+|-- env_python/                IPC client + the Gymnasium environment PinballEnv
+|-- agents/                    circuit builders, CMA-ES trainer, fixed-circuit agent
+|   `-- experiments/           every study, with its logs and results
+|-- web/                       the XP-desktop demo; web/test/ = JS-vs-Python parity tests
+|-- scripts/                   native/WASM builds, web server, web exports, Colab helpers
+|-- assets/                    original sound effects + the self-portrait drawings
+|-- data/                      MaleCNS v1.0 download (gitignored, ~1.1 GB)
+`-- docs/                      the paper (PDF) and the demo GIF
+```
+
+## References &nbsp; `:-B`
+
+- Ache JM, Polsky J, Alghailani S, Parekh R, Breads P, Peek MY, Bock DD, von Reyn CR, Card GM (2019). Neural basis for looming size and velocity encoding in the Drosophila giant fiber escape pathway. *Current Biology* 29(6).
+- von Reyn CR, Nern A, Williamson WR, Breads P, Wu M, Namiki S, Card GM (2017). Feature integration drives probabilistic behavior in the Drosophila escape response. *Neuron* 94(6).
+- von Reyn CR, Breads P, Peek MY, Zheng GZ, Williamson WR, Yee AL, Leonardo A, Card GM (2014). A spike-timing mechanism for action selection. *Nature Neuroscience* 17(7).
+- Card G, Dickinson MH (2008). Visually mediated motor planning in the escape response of Drosophila. *Current Biology* 18(17).
+- Ross S, Gordon GJ, Bagnell JA (2011). A reduction of imitation learning and structured prediction to no-regret online learning (DAgger). *AISTATS*.
+- Hansen N, Ostermeier A (2001). Completely derandomized self-adaptation in evolution strategies (CMA-ES). *Evolutionary Computation* 9(2).
+- Stefan Judis, "An SVG filter to pixelate images" - https://www.stefanjudis.com/snippets/an-svg-filter-to-pixelate-images/ - basis of the low-res pixel filter.
+- SpaceCadetPinball decompilation by k4zmu2a - https://github.com/k4zmu2a/SpaceCadetPinball - the engine base.
+
+## Copyright and licenses &nbsp; `(c)`
+
+- **This repository's own code:** MIT License (see `LICENSE`).
+- **Engine:** `vendor/SpaceCadetPinball` is MIT licensed, (c) 2020-2021 Andrey Muzychenko (`vendor/SpaceCadetPinball/LICENSE`); the patches in `src_cpp/patches/` apply on top of it. `vendor/nfly` (Zhengxu Yu, https://github.com/zhengxuyu/nfly) is MIT licensed.
+- **Game assets:** the game data, sounds and splash of *3D Pinball for Windows - Space Cadet* are (c) Cinematronics / Maxis, now Electronic Arts, and were shipped with Windows under license. They are not in the repository except the sound effects in `assets/original/sound/` (committed because the WASM build needs them) and `web/splash.png`; the game data file (`DEMO.DAT`/`CADET.DAT`/`PINBALL.DAT`) is never committed.
+- **Bliss** wallpaper (`web/bliss.jpg`) is (c) Microsoft.
+- The Windows XP look-alike UI is a fan recreation; this project is unofficial and not affiliated with Microsoft or Electronic Arts. No fonts are bundled (the page uses the visitor's system fonts).
+- **Connectome data:** MaleCNS v1.0 (Janelia FlyEM, HHMI Janelia Research Campus, with the University of Cambridge, MRC LMB and Google Research), CC-BY 4.0, https://male-cns.janelia.org/. Citation: Berg S, Beckett IR, Costa M, Schlegel P, Januszewski M, Marin EC, Nern A, et al. Sexual dimorphism in the complete connectome of the Drosophila male central nervous system. *Cell* (2026); bioRxiv 2025.10.09.680999, https://doi.org/10.1101/2025.10.09.680999 (as given in `vendor/nfly/README.md`).
+- **Drawings** in `assets/drawings/` (the Paint self-portrait) are by the repository author.
+- The original assets are included for a non-commercial fan project, with attribution, and will be removed on request by the rights holders.
+
+<div align="center">
+
+```
+  ~*~ thanks for visiting ~*~   you are visitor no. 000001   ~*~ sign my guestbook ~*~
+
+                         best viewed in 1024x768
+```
+
+`(^_^)/~~  bye bye!`
+
+</div>
