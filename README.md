@@ -25,7 +25,7 @@
 +--------------------------------------------------------------------+
 ```
 
-**Plz use Chrome or Firefox for better experience.**
+**Plz use Chrome for better experience.**
 
 https://seky443.github.io/3Dpinball-DrosophilaCadet/
 </div>
