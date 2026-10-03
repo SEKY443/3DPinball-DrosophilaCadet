@@ -17,7 +17,7 @@
 
 ![Drosophila Cadet playing 3D Pinball on a Windows XP desktop](docs/media/demo.gif)
 
-# Watch a fly play 3D Pinball.** &nbsp; `\(^o^)/`
+# Watch a fly play 3D Pinball. &nbsp; `\(^o^)/`
 
 ```
 +--------------------------------------------------------------------+
