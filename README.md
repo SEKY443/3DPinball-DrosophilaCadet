@@ -3,29 +3,30 @@
 ```
  .-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-.
  |                                                                  |
- |      D  R  O  S  O  P  H  I  L  A        C  A  D  E  T          |
+ |      D  R  O  S  O  P  H  I  L  A         C  A  D  E  T          |
  |                                                                  |
  |          ~ a real fruit-fly brain plays 3D Pinball ~             |
  |                                                                  |
  '-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-'
-                  \     /
-              .-.  \   /  .-.          "Ship Re-Fueled"
-             (   ) (o o) (   )               ...he says.  ^_^
-              '-'   \_/   '-'
-                    /|\
+                  \     /                                        
+              .-.  \   /  .-.          "Ship Re-Fueled"          
+             (   ) (o o) (   )               ...he says.  ^_^    
+              '-'   \_/   '-'                                    
+                    /|\                                          
 ```
 
 ![Drosophila Cadet playing 3D Pinball on a Windows XP desktop](docs/media/demo.gif)
 
 **Watch a fly play 3D Pinball.** &nbsp; `\(^o^)/`
 
-</div>
-
 ```
 +--------------------------------------------------------------------+
 |  [ WELCOME ]  ............................................  [_][X] |
 +--------------------------------------------------------------------+
 ```
+
+</div>
+
 
 The flippers of *3D Pinball for Windows - Space Cadet* are driven by the fruit fly's own
 looming-escape circuit, taken straight from the real **MaleCNS v1.0** connectome (Janelia FlyEM):
