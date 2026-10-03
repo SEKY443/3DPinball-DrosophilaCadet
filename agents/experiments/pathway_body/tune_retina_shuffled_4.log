@@ -1,0 +1,3 @@
+[shuffled_4 A] 60/60 configs reach >= 15.0 presses at theta_on 0.01
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

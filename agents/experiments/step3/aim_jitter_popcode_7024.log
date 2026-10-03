@@ -1,0 +1,26 @@
+{
+ "presses": 105,
+ "jitter_runs": 420,
+ "jitter_no_contact": 38,
+ "comparable": 105,
+ "real_gt_median": 46,
+ "ties": 13,
+ "real_lt_median": 46,
+ "frac_gt": 0.4380952380952381,
+ "ci95_gt": [
+  0.3470420653581746,
+  0.5335183086164821
+ ],
+ "frac_gt_excluding_ties": 0.5,
+ "ci95_excl_ties": [
+  0.39989654939501507,
+  0.6001034506049849
+ ],
+ "ties_all_zero": 3,
+ "mean_real": 4902.380952380952,
+ "mean_jitter": 4146.5968586387435,
+ "median_margin": 0.0,
+ "mean_best_of_all": 12426.190476190477,
+ "seconds": 713
+}
+wrote agents/experiments/step3/aim_jitter_popcode_7024.json

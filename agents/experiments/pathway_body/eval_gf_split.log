@@ -1,0 +1,106 @@
+split_real {"R": 0.5405024362861096, "g4": 1.97257574478757, "g2": 4.898865583261424, "v0": 5.439084017589386, "s0": 0.1222658724467213, "hold_max": 1, "refractory": 1, "rho_target": 0.8, "theta_on": 0.35177147065640557, "theta_off": 0.26740555135324934}
+split_lc4only {"R": 0.34979312023989756, "g4": 1.2988545798144897, "g2": 0.0, "v0": 8.354256974268734, "s0": 0.3384188992779422, "hold_max": 1, "refractory": 1, "rho_target": 0.8, "theta_on": 0.08944271909999162, "theta_off": 0.05398278078676432}
+split_lplc2only {"R": 0.9930116165973158, "g4": 0.0, "g2": 0.5596009231192245, "v0": 0.13977612552922045, "s0": 1.2441879720869908, "hold_max": 2, "refractory": 3, "rho_target": 0.8, "theta_on": 0.154678959459713, "theta_off": 0.08739792607565457}
+single_real {"gain": 1.2131235975839025, "theta_on": 0.1181286263920589, "tau0": 2.968938317759259, "hold_max": 2, "refractory": 2, "rho_target": 0.8, "theta_off": 0.08269003847444123}
+lead1 {}
+split_shuf1 {"R": 0.5484316424409722, "g4": 2.3575543376036365, "g2": 1.1901694155712021, "v0": 9.951397921393337, "s0": 0.67140798220559, "hold_max": 2, "refractory": 3, "rho_target": 0.8, "theta_on": 0.5088577857190265, "theta_off": 0.4132275163331333}
+split_shuf2 {"R": 2.1395774132779986, "g4": 0.9792423976976422, "g2": 0.6325947551565738, "v0": 0.1097159699515413, "s0": 0.30354459676959245, "hold_max": 3, "refractory": 3, "rho_target": 0.8, "theta_on": 0.608340685482927, "theta_off": 0.46241632832570667}
+split_shuf3 {"R": 0.9246285323596161, "g4": 7.7531433173124285, "g2": 0.8303395364721626, "v0": 8.220645721292453, "s0": 0.7621168826818472, "hold_max": 3, "refractory": 3, "rho_target": 0.8, "theta_on": 0.5304876780144139, "theta_off": 0.3673649443465182}
+split_shuf4 {"R": 0.5484316424409722, "g4": 2.3575543376036365, "g2": 1.1901694155712021, "v0": 9.951397921393337, "s0": 0.67140798220559, "hold_max": 2, "refractory": 3, "rho_target": 0.8, "theta_on": 0.5304876780144139, "theta_off": 0.430792476372305}
+split_shuf5 {"R": 0.616981753134209, "g4": 1.99136063863321, "g2": 7.412461425115105, "v0": 4.322944732884421, "s0": 0.1538243376439989, "hold_max": 2, "refractory": 3, "rho_target": 0.8, "theta_on": 0.608340685482927, "theta_off": 0.3806763861688237}
+split_shuf6 {"R": 0.3025205036468038, "g4": 0.5, "g2": 2.2748097473804982, "v0": 0.13370636976840605, "s0": 1.4857920809251088, "hold_max": 3, "refractory": 2, "rho_target": 0.8, "theta_on": 0.5088577857190265, "theta_off": 0.30816177566839725}
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+    return self.env.close()
+    return self.env.close()
+    return self.env.close()
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 449, in close
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 446, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    def _shutdown():
+    def _shutdown():
+           ^^^^^^^^^^^^^^^^
+    
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    self._client.close()
+    self._proc.wait(timeout=5.0)
+    self._proc.terminate()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/ipc_client.py", line 143, in close
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2211, in terminate
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    self._sock.close()
+                                             ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 499, in close
+SystemExit: 0
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    def close(self):
+
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    self.send_signal(signal.SIGTERM)
+    time.sleep(delay)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2203, in send_signal
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    time.sleep(delay)
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    os.kill(self.pid, sig)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+paired lives 77000..77095 (96)
+split_real       log1p 11.242 +- 0.091  median     79125  presses    23.7  contacts    7.5  c/press 0.315
+split_lc4only    log1p 11.198 +- 0.107  median     77000  presses    21.4  contacts    7.3  c/press 0.340 | split_lc4only - split_real -0.044 +- 0.106 t -0.41 p 0.9
+split_lplc2only  log1p 11.262 +- 0.097  median     75625  presses    17.9  contacts   10.5  c/press 0.590 | split_lplc2only - split_real +0.020 +- 0.098 t +0.21 p 0.9
+single_real      log1p 11.221 +- 0.092  median     73500  presses    19.3  contacts    9.4  c/press 0.488 | single_real - split_real -0.021 +- 0.093 t -0.22 p 0.78
+lead1            log1p 11.480 +- 0.094  median     97375  presses    16.4  contacts    8.8  c/press 0.536 | lead1 - split_real +0.238 +- 0.093 t +2.55 p 0.023
+split_shuf1      log1p 11.098 +- 0.100  median     76375  presses    19.0  contacts    8.3  c/press 0.436 | split_shuf1 - split_real -0.143 +- 0.103 t -1.39 p 0.27
+split_shuf2      log1p 10.190 +- 0.085  median     26375  presses    12.3  contacts    1.1  c/press 0.089 | split_shuf2 - split_real -1.051 +- 0.093 t -11.25 p 2.2e-14
+split_shuf3      log1p 10.913 +- 0.092  median     60750  presses    28.9  contacts    6.6  c/press 0.230 | split_shuf3 - split_real -0.328 +- 0.095 t -3.47 p 0.00066
+split_shuf4      log1p 10.977 +- 0.089  median     64500  presses    18.2  contacts    6.6  c/press 0.364 | split_shuf4 - split_real -0.265 +- 0.103 t -2.57 p 0.017
+split_shuf5      log1p 10.775 +- 0.090  median     47250  presses    16.7  contacts    5.4  c/press 0.320 | split_shuf5 - split_real -0.467 +- 0.101 t -4.60 p 2.5e-05
+split_shuf6      log1p 10.820 +- 0.096  median     51375  presses    15.2  contacts    6.0  c/press 0.394 | split_shuf6 - split_real -0.421 +- 0.106 t -3.99 p 0.00049
+KEY split_real - single_real: +0.021 +- 0.093 t +0.22 Wilcoxon p 0.78
+KEY split_real - lead1: -0.238 +- 0.093 t -2.55 Wilcoxon p 0.023

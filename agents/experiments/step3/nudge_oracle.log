@@ -1,0 +1,35 @@
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 666, in _exitfunc
+    f()
+    f()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/torch/library.py", line 674, in _del_library
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-nudge/agents/experiments/step3/nudge_oracle.py", line 53, in <lambda>
+    m.reset()
+  File "/Users/seky/Developer/Git/3DPinball-nudge/agents/experiments/step3/nudge_oracle.py", line 53, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+48 lives, 2181s  drain classes: {'center': 11, 'outlane': 30, 'alive': 4, 'side': 3}
+center drains with NO flipper contact in the final approach: 9/11
+outlane drains with no flipper contact in the final approach: 26/30
+side drains with no flipper contact in the final approach: 2/3
+nudge oracle: 25/30 outlane deaths have >=1 saving branch (Wilson 95% CI (0.664, 0.927)); branches per death 45
+most frequent saving (lead_steps, code, hold): [((30, 2, 4), 16), ((30, 2, 6), 14), ((30, 2, 2), 13), ((30, 1, 4), 11), ((30, 1, 6), 10), ((30, 3, 2), 10), ((30, 1, 2), 9), ((30, 3, 6), 9)]
+  of which the save avoided the outlane itself (vs. only delaying the drain): 24/30
+  branches that tilted: 0
+fraction of all branches that save: 0.136

@@ -1,0 +1,32 @@
+== blind-spot diagnosis: retina body (retina); params {"R": 0.38441034034324434, "g4": 2.661914095477262, "g2": 5.3995003177088, "v0": 5.38935677668311, "s0": 0.2538099620263737, "hold_max": 1, "refractory": 1, "rho_target": 0.8, "retina": true, "theta_on": 0.35177147065640557, "theta_off": 0.25099883469894224}
+(a) static
+  static map: 9215 recorded down-moving states (y > 8, vy > 0.5); blind = max(LC4, LPLC2) normalised drive < 0.25
+  blind fraction per bin (rows y 8.0 -> 14.5, cols x -5 -> +5, width 0.5):  ' ' none  . <2%  : <15%  o <40%  O <70%  # >=70%
+                               (| x=0 axis, + pivots at +-2.5)
+  y  8.0 .  ............:.  .
+  y  8.5 .   ............   .
+  y  9.0 .   ............   .
+  y  9.5 ..  ............  ..
+  y 10.0  ..  ..........  .. 
+  y 10.5 ...::...............
+  y 11.0  .. ............  ..
+  y 11.5   .: .......  .  .. 
+  y 12.0    O   ..::.    ..  
+  y 12.5    o.   .oO    :.   
+  y 13.0    Oo.   #O   .o    
+  y 13.5    ##o. #### .:#    
+  y 14.0      O   ##         
+  blind fraction: all 0.032 | flipper zone (y>10.5,|x|<3.1; n=2319) 0.067 | centre gap (|x|<0.96; n=725) 0.145
+  synthetic: max normalised drive x10 (0-9) for a ball falling straight down (vx=0, vy=8); rows y, cols x -4..4 step 0.5
+  y  8.0 66666666666666666
+  y 10.0 88888888888888888
+  y 11.0 99999999999999999
+  y 12.0 99999999999999999
+  y 13.0 00000000000000000
+(b) behavioural
+  lives 64, drains 59 (ball in flipper reach in last 20 steps: 59); UNSEEN drains 54 = 91.5% of drains
+  flipper-reach passes 489, with no press during the pass 53 = 10.8%
+    drains in centre gap |x|<0.96       32   unseen  27 (84%)
+    drains in flipper span 0.96-2.49    19   unseen  19 (100%)
+    drains in outlane >2.49              8   unseen   8 (100%)
+    drain x histogram (bin: drains/unseen) [-5,-4):0/0 [-4,-3):2/2 [-3,-2):10/10 [-2,-1):2/2 [-1,+0):17/14 [+0,+1):15/13 [+1,+2):8/8 [+2,+3):5/5 [+3,+4):0/0 [+4,+5):0/0

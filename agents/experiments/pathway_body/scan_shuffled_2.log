@@ -1,0 +1,171 @@
+[shuffled_2] 64/64 cells reach >= 15.0 presses at theta_on 0.01
+[shuffled_2] 12/64 cells calibrated
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 339, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    def close(self) -> None:
+
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    return self.env.close()
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    return self.env.close()
+    self._proc.wait(timeout=5.0)
+           ^^^^^^^^^^^^^^^^
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+    return self.env.close()
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    time.sleep(delay)
+    time.sleep(delay)
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+                                             ^^^^^^^^^^^
+    time.sleep(delay)
+                                             ^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+[shuffled_2] g4 0.50 g2 0.00 -> log1p 9.999 presses 21.1 c/press 0.065 on 0.352
+[shuffled_2] g4 0.50 g2 0.50 -> log1p 10.043 presses 21.9 c/press 0.053 on 0.530
+[shuffled_2] g4 0.50 g2 0.79 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 0.50 g2 1.26 -> log1p 10.092 presses 21.0 c/press 0.068 on 0.608
+[shuffled_2] g4 0.50 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 0.50 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 0.50 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 0.50 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 0.74 g2 0.00 -> log1p 10.147 presses 21.8 c/press 0.052 on 0.403
+[shuffled_2] g4 0.74 g2 0.50 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 0.74 g2 0.79 -> log1p 10.146 presses 16.1 c/press 0.091 on 0.608
+[shuffled_2] g4 0.74 g2 1.26 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 0.74 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 0.74 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 0.74 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 0.74 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 1.10 g2 0.00 -> log1p 10.102 presses 23.2 c/press 0.082 on 0.463
+[shuffled_2] g4 1.10 g2 0.50 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 1.10 g2 0.79 -> log1p 10.111 presses 21.8 c/press 0.067 on 0.608
+[shuffled_2] g4 1.10 g2 1.26 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 1.10 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 1.10 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 1.10 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 1.10 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 1.64 g2 0.00 -> log1p 10.152 presses 24.6 c/press 0.043 on 0.463
+[shuffled_2] g4 1.64 g2 0.50 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 1.64 g2 0.79 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 1.64 g2 1.26 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 1.64 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 1.64 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 1.64 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 1.64 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 2.44 g2 0.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 2.44 g2 0.50 -> log1p 10.171 presses 14.3 c/press 0.089 on 0.608
+[shuffled_2] g4 2.44 g2 0.79 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 2.44 g2 1.26 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 2.44 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 2.44 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 2.44 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 2.44 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 3.62 g2 0.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 3.62 g2 0.50 -> log1p 10.104 presses 18.6 c/press 0.106 on 0.608
+[shuffled_2] g4 3.62 g2 0.79 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 3.62 g2 1.26 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 3.62 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 3.62 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 3.62 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 3.62 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 5.38 g2 0.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 5.38 g2 0.50 -> log1p 10.125 presses 18.8 c/press 0.075 on 0.608
+[shuffled_2] g4 5.38 g2 0.79 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 5.38 g2 1.26 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 5.38 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 5.38 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 5.38 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 5.38 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 8.00 g2 0.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 8.00 g2 0.50 -> log1p 10.144 presses 21.0 c/press 0.082 on 0.608
+[shuffled_2] g4 8.00 g2 0.79 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 8.00 g2 1.26 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 8.00 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 8.00 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 8.00 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_2] g4 8.00 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN

@@ -1,0 +1,46 @@
+== real: mean log1p/life on dev lives (rows g4 = LC4, cols g2 = LPLC2; NaN = no theta_on in budget window; * = best)
+g4\g2     0.00    0.50    0.79    1.26    2.00    3.17    5.04    8.00
+ 0.50   11.172  11.025  11.32*  11.163     NaN  11.093     NaN     NaN
+ 0.74      NaN  11.234     NaN  11.087  11.077  11.105     NaN     NaN
+ 1.10   11.017  11.019  11.251     NaN     NaN     NaN     NaN     NaN
+ 1.64   10.871  10.719  10.890  10.895  11.028  10.958  10.958  10.958
+ 2.44   11.156     NaN     NaN  10.967  10.402  10.837  10.232  10.251
+ 3.62   10.901  10.987     NaN     NaN     NaN     NaN     NaN     NaN
+ 5.38      NaN     NaN     NaN  10.402     NaN     NaN     NaN     NaN
+ 8.00      NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+best cell:        g4 0.50 g2 0.79 log1p 11.320 presses 22.4 c/press 0.348 theta_on 0.267
+best g2=0 (LC4-only): g4 0.50 g2 0.00 log1p 11.172 presses 17.8 c/press 0.396 theta_on 0.089
+smallest-g4 row (g4=0.50, LPLC2-dominated) best: g4 0.50 g2 0.79 log1p 11.320 presses 22.4 c/press 0.348 theta_on 0.267
+cells valid: 29/64
+
+== shuffled_1: mean log1p/life on dev lives (rows g4 = LC4, cols g2 = LPLC2; NaN = no theta_on in budget window; * = best)
+g4\g2     0.00    0.50    0.79    1.26    2.00    3.17    5.04    8.00
+ 0.50      NaN  10.594  10.467  10.062     NaN  10.101     NaN     NaN
+ 0.74      NaN  10.990     NaN  10.954     NaN     NaN  10.136     NaN
+ 1.10      NaN  10.935     NaN     NaN     NaN     NaN     NaN     NaN
+ 1.64   10.865  10.750  11.040     NaN     NaN     NaN     NaN     NaN
+ 2.44   10.720     NaN  11.14*     NaN  10.864     NaN     NaN     NaN
+ 3.62   10.741     NaN  10.412  10.539     NaN  10.166     NaN     NaN
+ 5.38      NaN  10.124  10.531     NaN  10.661     NaN     NaN     NaN
+ 8.00   10.180  10.850  11.018     NaN     NaN     NaN     NaN     NaN
+best cell:        g4 2.44 g2 0.79 log1p 11.145 presses 24.8 c/press 0.385 theta_on 0.463
+best g2=0 (LC4-only): g4 1.64 g2 0.00 log1p 10.865 presses 18.2 c/press 0.318 theta_on 0.170
+smallest-g4 row (g4=0.50, LPLC2-dominated) best: g4 0.50 g2 0.50 log1p 10.594 presses 8.8 c/press 0.484 theta_on 0.387
+cells valid: 24/64
+
+== shuffled_2: mean log1p/life on dev lives (rows g4 = LC4, cols g2 = LPLC2; NaN = no theta_on in budget window; * = best)
+g4\g2     0.00    0.50    0.79    1.26    2.00    3.17    5.04    8.00
+ 0.50    9.999  10.043     NaN  10.092     NaN     NaN     NaN     NaN
+ 0.74   10.147     NaN  10.146     NaN     NaN     NaN     NaN     NaN
+ 1.10   10.102     NaN  10.111     NaN     NaN     NaN     NaN     NaN
+ 1.64   10.152     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+ 2.44      NaN  10.17*     NaN     NaN     NaN     NaN     NaN     NaN
+ 3.62      NaN  10.104     NaN     NaN     NaN     NaN     NaN     NaN
+ 5.38      NaN  10.125     NaN     NaN     NaN     NaN     NaN     NaN
+ 8.00      NaN  10.144     NaN     NaN     NaN     NaN     NaN     NaN
+best cell:        g4 2.44 g2 0.50 log1p 10.171 presses 14.3 c/press 0.089 theta_on 0.608
+best g2=0 (LC4-only): g4 1.64 g2 0.00 log1p 10.152 presses 24.6 c/press 0.043 theta_on 0.463
+smallest-g4 row (g4=0.50, LPLC2-dominated) best: g4 0.50 g2 1.26 log1p 10.092 presses 21.0 c/press 0.068 theta_on 0.608
+cells valid: 12/64
+
+(matplotlib not available: PNG skipped)

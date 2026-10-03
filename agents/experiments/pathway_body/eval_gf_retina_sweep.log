@@ -1,0 +1,25 @@
+retina_real {"R": 0.3, "g4": 1.6963894568504538, "g2": 1.7912324147321113, "v0": 6.426939278560543, "s0": 0.4507627811508519, "hold_max": 1, "refractory": 1, "rho_target": 0.8, "retina": true, "fields": "sweep", "theta_on": 0.30675316498368466, "theta_off": 0.172836184173951}
+split_current {"R": 0.5405024362861096, "v0": 5.439084017589386, "s0": 0.1222658724467213, "hold_max": 1, "refractory": 1, "g4": 0.5, "g2": 0.7937005259840997, "rho_target": 0.8, "theta_on": 0.2674961219905688, "theta_off": 0.20334209551521962}
+lead1 {}
+retina_shuf1 {"R": 0.45796846295725213, "g4": 1.038057553754936, "g2": 2.092793549262135, "v0": 6.608838141649292, "s0": 0.5511961553047082, "hold_max": 1, "refractory": 1, "rho_target": 0.8, "retina": true, "fields": "sweep", "theta_on": 0.5304876780144139, "theta_off": 0.3346151588206273}
+retina_shuf2 {"R": 0.547041297074585, "g4": 2.2184610952794537, "g2": 0.847314851567386, "v0": 9.885457177228542, "s0": 0.5040586302180053, "hold_max": 2, "refractory": 3, "rho_target": 0.8, "retina": true, "fields": "sweep", "theta_on": 0.46259798701729676, "theta_off": 0.408246190269228}
+retina_shuf3 {"R": 0.6371344632629472, "g4": 7.19438288657048, "g2": 1.406566349187433, "v0": 10.0, "s0": 0.9991084270021281, "hold_max": 3, "refractory": 3, "rho_target": 0.8, "retina": true, "fields": "sweep", "theta_on": 0.5304876780144139, "theta_off": 0.3581112377094798}
+retina_shuf4 {"R": 0.6355192447375891, "g4": 6.769921814240811, "g2": 1.0013738731552286, "v0": 10.0, "s0": 0.7500792938141595, "hold_max": 3, "refractory": 3, "rho_target": 0.8, "retina": true, "fields": "sweep", "theta_on": 0.5304876780144139, "theta_off": 0.3954781126792197}
+retina_shuf5 {"R": 0.48812297290090023, "g4": 1.259691822653231, "g2": 0.5, "v0": 2.0112606228707577, "s0": 0.05839653805091042, "hold_max": 3, "refractory": 3, "rho_target": 0.8, "retina": true, "fields": "sweep", "theta_on": 0.5304876780144139, "theta_off": 0.35187866084182856}
+retina_shuf6 {"R": 0.6842552454443761, "g4": 1.5146392117195535, "g2": 0.947944536975704, "v0": 0.19756809640094147, "s0": 1.5, "hold_max": 2, "refractory": 3, "rho_target": 0.8, "retina": true, "fields": "sweep", "theta_on": 0.5304876780144139, "theta_off": 0.2904866266901006}
+retina_mid {"R": 0.38441034034324434, "g4": 2.661914095477262, "g2": 5.3995003177088, "v0": 5.38935677668311, "s0": 0.2538099620263737, "hold_max": 1, "refractory": 1, "rho_target": 0.8, "retina": true, "theta_on": 0.35177147065640557, "theta_off": 0.25099883469894224}
+paired lives 77000..77095 (96)
+retina_real    log1p 11.235 +- 0.100  median     78875  presses    16.9  contacts/press 0.420  unseen drains  95.6% (86/90)
+split_current  log1p 11.268 +- 0.099  median     74250  presses    22.2  contacts/press 0.349  unseen drains  98.9% (86/87) | vs retina_real +0.032 +- 0.110 t +0.29 Wilcoxon p 1
+lead1          log1p 11.480 +- 0.094  median     97375  presses    16.4  contacts/press 0.536  unseen drains  97.6% (81/83) | vs retina_real +0.244 +- 0.107 t +2.29 Wilcoxon p 0.049
+retina_shuf1   log1p 10.319 +- 0.084  median     31000  presses    18.0  contacts/press 0.081  unseen drains  99.0% (95/96) | vs retina_real -0.917 +- 0.108 t -8.49 Wilcoxon p 1e-11
+retina_shuf2   log1p 10.786 +- 0.097  median     55125  presses    20.3  contacts/press 0.263  unseen drains  96.8% (91/94) | vs retina_real -0.450 +- 0.108 t -4.18 Wilcoxon p 8.6e-05
+retina_shuf3   log1p 10.823 +- 0.097  median     47500  presses    22.6  contacts/press 0.307  unseen drains  96.8% (90/93) | vs retina_real -0.412 +- 0.121 t -3.40 Wilcoxon p 0.0017
+retina_shuf4   log1p 10.710 +- 0.096  median     52875  presses    18.0  contacts/press 0.267  unseen drains  99.0% (95/96) | vs retina_real -0.525 +- 0.105 t -5.01 Wilcoxon p 3.3e-06
+retina_shuf5   log1p 10.840 +- 0.108  median     54750  presses    17.8  contacts/press 0.365  unseen drains 100.0% (95/95) | vs retina_real -0.395 +- 0.110 t -3.58 Wilcoxon p 0.00031
+retina_shuf6   log1p 10.545 +- 0.105  median     42500  presses    21.3  contacts/press 0.177  unseen drains 100.0% (95/95) | vs retina_real -0.691 +- 0.115 t -6.01 Wilcoxon p 1.8e-07
+retina_mid     log1p 11.047 +- 0.091  median     56875  presses    18.2  contacts/press 0.341  unseen drains  97.8% (90/92) | vs retina_real -0.189 +- 0.117 t -1.61 Wilcoxon p 0.11
+KEY pooled shuffle (mean of 6 per seed) - retina_real: -0.565 +- 0.085 t -6.68 Wilcoxon p 1.8e-08
+KEY pooled shuffle (all 576 paired lives) - retina_real: -0.565 (naive SE 0.046)
+KEY retina_real - split_current: -0.032 +- 0.110 t -0.29 Wilcoxon p 1
+KEY retina_real - lead1: -0.244 +- 0.107 t -2.29 Wilcoxon p 0.049

@@ -1,0 +1,138 @@
+[shuffled_1] 64/64 cells reach >= 15.0 presses at theta_on 0.01
+[shuffled_1] 29/64 cells calibrated
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    
+    
+    
+    
+    
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    
+    
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+SystemExit: 0
+SystemExit: 0
+SystemExit: 0
+SystemExit: 0
+SystemExit: 0
+[shuffled_1] g4 0.50 g2 0.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 0.50 g2 0.50 -> log1p 10.594 presses 8.8 c/press 0.484 on 0.387
+[shuffled_1] g4 0.50 g2 0.79 -> log1p 10.467 presses 8.8 c/press 0.375 on 0.444
+[shuffled_1] g4 0.50 g2 1.26 -> log1p 10.062 presses 4.1 c/press 0.229 on 0.509
+[shuffled_1] g4 0.50 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 0.50 g2 3.17 -> log1p 10.101 presses 16.2 c/press 0.112 on 0.530
+[shuffled_1] g4 0.50 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 0.50 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 0.74 g2 0.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 0.74 g2 0.50 -> log1p 10.990 presses 19.7 c/press 0.448 on 0.387
+[shuffled_1] g4 0.74 g2 0.79 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 0.74 g2 1.26 -> log1p 10.954 presses 24.3 c/press 0.289 on 0.463
+[shuffled_1] g4 0.74 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 0.74 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 0.74 g2 5.04 -> log1p 10.136 presses 7.4 c/press 0.198 on 0.584
+[shuffled_1] g4 0.74 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 1.10 g2 0.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 1.10 g2 0.50 -> log1p 10.935 presses 18.6 c/press 0.464 on 0.403
+[shuffled_1] g4 1.10 g2 0.79 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 1.10 g2 1.26 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 1.10 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 1.10 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 1.10 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 1.10 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 1.64 g2 0.00 -> log1p 10.865 presses 18.2 c/press 0.318 on 0.170
+[shuffled_1] g4 1.64 g2 0.50 -> log1p 10.750 presses 9.7 c/press 0.463 on 0.444
+[shuffled_1] g4 1.64 g2 0.79 -> log1p 11.040 presses 21.7 c/press 0.450 on 0.463
+[shuffled_1] g4 1.64 g2 1.26 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 1.64 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 1.64 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 1.64 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 1.64 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 2.44 g2 0.00 -> log1p 10.720 presses 15.1 c/press 0.369 on 0.267
+[shuffled_1] g4 2.44 g2 0.50 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 2.44 g2 0.79 -> log1p 11.145 presses 24.8 c/press 0.385 on 0.463
+[shuffled_1] g4 2.44 g2 1.26 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 2.44 g2 2.00 -> log1p 10.864 presses 23.8 c/press 0.336 on 0.530
+[shuffled_1] g4 2.44 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 2.44 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 2.44 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 3.62 g2 0.00 -> log1p 10.741 presses 17.7 c/press 0.335 on 0.294
+[shuffled_1] g4 3.62 g2 0.50 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 3.62 g2 0.79 -> log1p 10.412 presses 7.2 c/press 0.353 on 0.509
+[shuffled_1] g4 3.62 g2 1.26 -> log1p 10.539 presses 24.1 c/press 0.228 on 0.463
+[shuffled_1] g4 3.62 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 3.62 g2 3.17 -> log1p 10.166 presses 7.4 c/press 0.216 on 0.584
+[shuffled_1] g4 3.62 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 3.62 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 5.38 g2 0.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 5.38 g2 0.50 -> log1p 10.124 presses 4.9 c/press 0.295 on 0.509
+[shuffled_1] g4 5.38 g2 0.79 -> log1p 10.531 presses 20.8 c/press 0.217 on 0.463
+[shuffled_1] g4 5.38 g2 1.26 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 5.38 g2 2.00 -> log1p 10.661 presses 24.8 c/press 0.189 on 0.530
+[shuffled_1] g4 5.38 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 5.38 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 5.38 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 8.00 g2 0.00 -> log1p 10.180 presses 8.5 c/press 0.232 on 0.387
+[shuffled_1] g4 8.00 g2 0.50 -> log1p 10.850 presses 19.8 c/press 0.231 on 0.463
+[shuffled_1] g4 8.00 g2 0.79 -> log1p 11.018 presses 20.6 c/press 0.347 on 0.509
+[shuffled_1] g4 8.00 g2 1.26 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 8.00 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 8.00 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 8.00 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[shuffled_1] g4 8.00 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN

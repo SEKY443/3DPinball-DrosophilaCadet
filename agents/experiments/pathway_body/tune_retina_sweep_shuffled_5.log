@@ -1,0 +1,148 @@
+[shuffled_5 A] 60/60 configs reach >= 15.0 presses at theta_on 0.01
+[shuffled_5 A] 7/60 calibrated into ~[15, 28] presses on the 8-life subset
+[shuffled_5 A] R 0.35 g4 1.30 g2 1.65 v0 8.35 s0 0.34 hold 1 ref 1 on 0.584 -> log1p 9.918 presses 0.5 OK
+[shuffled_5 A] R 0.45 g4 1.47 g2 0.60 v0 2.34 s0 0.07 hold 3 ref 3 on 0.530 -> log1p 10.636 presses 21.7 OK
+[shuffled_5 A] R 1.04 g4 0.68 g2 1.55 v0 0.05 s0 0.63 hold 1 ref 1 on 0.669 -> log1p 9.756 presses 0.0 OK
+[shuffled_5 A] R 0.80 g4 2.54 g2 0.70 v0 7.04 s0 0.51 hold 2 ref 3 on 0.530 -> log1p 10.663 presses 16.3 OK
+[shuffled_5 A] R 1.33 g4 2.72 g2 0.61 v0 0.18 s0 0.35 hold 2 ref 3 on 0.608 -> log1p 10.139 presses 14.2 OK
+[shuffled_5 A] R 0.74 g4 0.95 g2 3.99 v0 1.51 s0 0.59 hold 1 ref 2 on 0.608 -> log1p 10.496 presses 20.1 OK
+[shuffled_5 A] R 0.55 g4 5.00 g2 0.81 v0 1.12 s0 1.30 hold 3 ref 3 on 0.530 -> log1p 10.687 presses 22.5 OK
+[shuffled_5 B] 50/50 configs reach >= 15.0 presses at theta_on 0.01
+[shuffled_5 B] 17/50 calibrated into ~[15, 28] presses on the 8-life subset
+[shuffled_5 B] R 0.51 g4 5.24 g2 0.72 v0 0.53 s0 1.08 hold 3 ref 3 on 0.584 -> log1p 10.141 presses 2.9 OK
+[shuffled_5 B] R 0.72 g4 4.00 g2 1.03 v0 0.88 s0 1.50 hold 3 ref 3 on 0.584 -> log1p 10.292 presses 6.3 OK
+[shuffled_5 B] R 0.72 g4 5.14 g2 0.93 v0 1.54 s0 1.14 hold 3 ref 3 on 0.584 -> log1p 10.562 presses 10.7 OK
+[shuffled_5 B] R 0.34 g4 6.53 g2 0.88 v0 0.86 s0 1.50 hold 3 ref 3 on 0.530 -> log1p 10.324 presses 14.5 OK
+[shuffled_5 B] R 0.67 g4 2.41 g2 0.83 v0 9.37 s0 0.32 hold 2 ref 3 on 0.530 -> log1p 10.898 presses 22.9 OK
+[shuffled_5 B] R 0.89 g4 3.46 g2 0.76 v0 4.61 s0 0.43 hold 3 ref 3 on 0.584 -> log1p 10.001 presses 6.0 OK
+[shuffled_5 B] R 1.10 g4 1.87 g2 0.70 v0 7.56 s0 0.63 hold 3 ref 1 on 0.530 -> log1p 10.718 presses 16.7 OK
+[shuffled_5 B] R 1.04 g4 2.50 g2 0.92 v0 6.25 s0 0.62 hold 2 ref 3 on 0.584 -> log1p 10.039 presses 5.4 OK
+[shuffled_5 B] R 0.44 g4 1.63 g2 0.50 v0 1.91 s0 0.05 hold 2 ref 3 on 0.530 -> log1p 10.585 presses 16.2 OK
+[shuffled_5 B] R 0.46 g4 1.46 g2 0.50 v0 1.71 s0 0.08 hold 3 ref 3 on 0.530 -> log1p 10.680 presses 23.1 OK
+[shuffled_5 B] R 0.41 g4 1.57 g2 0.59 v0 1.67 s0 0.06 hold 3 ref 2 on 0.530 -> log1p 10.460 presses 22.4 OK
+[shuffled_5 B] R 0.49 g4 1.26 g2 0.50 v0 2.01 s0 0.06 hold 3 ref 3 on 0.530 -> log1p 11.039 presses 22.4 OK
+[shuffled_5 B] R 0.63 g4 1.15 g2 7.25 v0 1.76 s0 0.51 hold 1 ref 2 on 0.608 -> log1p 10.599 presses 20.8 OK
+[shuffled_5 B] R 0.92 g4 3.06 g2 0.70 v0 0.22 s0 0.32 hold 2 ref 3 on 0.608 -> log1p 10.122 presses 16.7 OK
+[shuffled_5 B] R 2.25 g4 2.59 g2 0.51 v0 0.17 s0 0.35 hold 2 ref 3 on 0.608 -> log1p 10.095 presses 18.1 OK
+[shuffled_5 B] R 0.74 g4 2.01 g2 0.71 v0 0.24 s0 0.32 hold 2 ref 3 on 0.608 -> log1p 10.555 presses 18.2 OK
+[shuffled_5 B] R 1.17 g4 2.79 g2 0.51 v0 0.14 s0 0.26 hold 2 ref 3 on 0.608 -> log1p 10.112 presses 13.2 OK
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+    return self.env.close()
+    return self.env.close()
+    return self.env.close()
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    def _shutdown():
+    return self.env.close()
+    def _shutdown():
+    
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+           ^^^^^^^^^^^^^^^^
+    
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    self._proc.wait(timeout=5.0)
+                                             ^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    self._proc.wait(timeout=5.0)
+SystemExit: 0
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return self._wait(timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2036, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    (pid, sts) = self._try_wait(os.WNOHANG)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2008, in _try_wait
+    time.sleep(delay)
+    time.sleep(delay)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    time.sleep(delay)
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    def _try_wait(self, wait_flags):
+    time.sleep(delay)
+                                             ^^^^^^^^^^^
+SystemExit: 0
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+[shuffled_5] configs sampled 60 + refined 50 = 110; accepted 24
+[shuffled_5] BEST log1p 11.039 presses 22.4: {"R": 0.48812297290090023, "g4": 1.259691822653231, "g2": 0.5, "v0": 2.0112606228707577, "s0": 0.05839653805091042, "hold_max": 3, "refractory": 3, "circuit_json": "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_circuit_shuffled_5.json", "rho_target": 0.8, "retina": true, "fields": "sweep", "theta_on": 0.5304876780144139, "theta_off": 0.35187866084182856}

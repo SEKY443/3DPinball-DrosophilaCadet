@@ -1,0 +1,128 @@
+[real_lplc2only A] 60/60 configs reach >= 15.0 presses at theta_on 0.01
+[real_lplc2only A] 19/60 calibrated into ~[15, 28] presses on the 8-life subset
+[real_lplc2only A] R 1.30 g4 0.00 g2 0.56 v0 0.05 s0 0.79 hold 2 ref 2 on 0.177 -> log1p 10.951 presses 23.3 OK
+[real_lplc2only A] R 0.85 g4 0.00 g2 0.95 v0 0.07 s0 0.20 hold 3 ref 1 on 0.224 -> log1p 10.128 presses 9.7 OK
+[real_lplc2only A] R 1.14 g4 0.00 g2 3.22 v0 0.14 s0 1.23 hold 2 ref 1 on 0.233 -> log1p 10.162 presses 8.9 OK
+[real_lplc2only A] R 1.28 g4 0.00 g2 1.70 v0 7.86 s0 0.27 hold 3 ref 2 on 0.233 -> log1p 10.171 presses 17.5 OK
+[real_lplc2only A] R 2.33 g4 0.00 g2 1.89 v0 0.17 s0 0.76 hold 3 ref 1 on 0.233 -> log1p 10.180 presses 19.8 OK
+[real_lplc2only A] R 2.32 g4 0.00 g2 0.71 v0 0.23 s0 0.37 hold 3 ref 3 on 0.203 -> log1p 10.031 presses 21.4 OK
+[real_lplc2only A] R 0.56 g4 0.00 g2 6.85 v0 0.10 s0 0.95 hold 2 ref 2 on 0.233 -> log1p 10.174 presses 16.9 OK
+[real_lplc2only A] R 2.28 g4 0.00 g2 1.30 v0 9.73 s0 0.15 hold 1 ref 3 on 0.233 -> log1p 9.936 presses 21.6 OK
+[real_lplc2only A] R 0.42 g4 0.00 g2 3.63 v0 0.12 s0 0.19 hold 2 ref 2 on 0.233 -> log1p 10.001 presses 20.8 OK
+[real_lplc2only A] R 2.22 g4 0.00 g2 1.98 v0 0.12 s0 0.49 hold 1 ref 3 on 0.257 -> log1p 9.756 presses 0.0 OK
+[real_lplc2only A] R 0.87 g4 0.00 g2 4.47 v0 0.08 s0 0.36 hold 3 ref 3 on 0.233 -> log1p 10.122 presses 23.4 OK
+[real_lplc2only A] R 2.96 g4 0.00 g2 1.92 v0 0.47 s0 0.99 hold 3 ref 3 on 0.233 -> log1p 10.140 presses 12.4 OK
+[real_lplc2only A] R 0.96 g4 0.00 g2 6.30 v0 0.62 s0 0.94 hold 3 ref 1 on 0.233 -> log1p 9.966 presses 22.6 OK
+[real_lplc2only A] R 1.15 g4 0.00 g2 3.59 v0 1.02 s0 0.83 hold 1 ref 3 on 0.233 -> log1p 10.070 presses 15.8 OK
+[real_lplc2only A] R 0.40 g4 0.00 g2 1.09 v0 0.14 s0 0.94 hold 1 ref 2 on 0.155 -> log1p 10.913 presses 20.0 OK
+[real_lplc2only A] R 0.74 g4 0.00 g2 3.99 v0 1.51 s0 0.59 hold 1 ref 2 on 0.233 -> log1p 9.979 presses 18.3 OK
+[real_lplc2only A] R 0.99 g4 0.00 g2 0.56 v0 0.14 s0 1.24 hold 2 ref 3 on 0.155 -> log1p 11.260 presses 19.8 OK
+[real_lplc2only A] R 0.55 g4 0.00 g2 0.81 v0 1.12 s0 1.30 hold 3 ref 3 on 0.129 -> log1p 10.890 presses 25.5 over
+[real_lplc2only A] R 1.13 g4 0.00 g2 5.09 v0 3.09 s0 1.03 hold 1 ref 2 on 0.233 -> log1p 10.082 presses 23.1 OK
+[real_lplc2only B] 50/50 configs reach >= 15.0 presses at theta_on 0.01
+[real_lplc2only B] 31/50 calibrated into ~[15, 28] presses on the 8-life subset
+[real_lplc2only B] R 0.92 g4 0.00 g2 0.59 v0 0.07 s0 1.03 hold 2 ref 3 on 0.155 -> log1p 10.958 presses 22.4 OK
+[real_lplc2only B] R 0.96 g4 0.00 g2 0.73 v0 0.10 s0 1.50 hold 2 ref 3 on 0.155 -> log1p 11.001 presses 20.2 OK
+[real_lplc2only B] R 0.75 g4 0.00 g2 0.50 v0 0.13 s0 1.50 hold 2 ref 3 on 0.118 -> log1p 10.921 presses 19.2 OK
+[real_lplc2only B] R 1.29 g4 0.00 g2 0.73 v0 0.17 s0 1.50 hold 2 ref 3 on 0.170 -> log1p 11.167 presses 17.7 OK
+[real_lplc2only B] R 1.32 g4 0.00 g2 0.50 v0 0.18 s0 1.35 hold 2 ref 3 on 0.155 -> log1p 11.247 presses 19.5 OK
+[real_lplc2only B] R 0.93 g4 0.00 g2 0.64 v0 0.05 s0 1.40 hold 2 ref 3 on 0.155 -> log1p 11.235 presses 19.6 OK
+[real_lplc2only B] R 0.93 g4 0.00 g2 0.63 v0 0.06 s0 1.10 hold 2 ref 2 on 0.170 -> log1p 11.077 presses 16.3 OK
+[real_lplc2only B] R 1.14 g4 0.00 g2 0.55 v0 0.09 s0 0.85 hold 2 ref 1 on 0.177 -> log1p 10.834 presses 18.2 OK
+[real_lplc2only B] R 1.21 g4 0.00 g2 0.60 v0 0.06 s0 1.10 hold 2 ref 2 on 0.170 -> log1p 11.335 presses 26.1 over
+[real_lplc2only B] R 0.30 g4 0.00 g2 0.68 v0 0.14 s0 0.87 hold 1 ref 2 on 0.129 -> log1p 10.957 presses 15.6 OK
+[real_lplc2only B] R 0.37 g4 0.00 g2 1.04 v0 0.14 s0 1.37 hold 2 ref 2 on 0.135 -> log1p 10.969 presses 16.8 OK
+[real_lplc2only B] R 0.36 g4 0.00 g2 1.42 v0 0.17 s0 0.93 hold 1 ref 2 on 0.177 -> log1p 11.075 presses 20.2 OK
+[real_lplc2only B] R 0.38 g4 0.00 g2 0.91 v0 0.13 s0 0.96 hold 1 ref 2 on 0.155 -> log1p 10.989 presses 19.2 OK
+[real_lplc2only B] R 0.44 g4 0.00 g2 0.87 v0 0.13 s0 0.77 hold 1 ref 2 on 0.170 -> log1p 11.113 presses 22.8 OK
+[real_lplc2only B] R 0.30 g4 0.00 g2 0.79 v0 0.12 s0 0.95 hold 1 ref 2 on 0.135 -> log1p 11.075 presses 18.5 OK
+[real_lplc2only B] R 0.30 g4 0.00 g2 0.81 v0 0.09 s0 0.95 hold 1 ref 2 on 0.135 -> log1p 11.035 presses 19.3 OK
+[real_lplc2only B] R 0.38 g4 0.00 g2 0.90 v0 0.12 s0 0.88 hold 1 ref 2 on 0.155 -> log1p 11.136 presses 22.8 OK
+[real_lplc2only B] R 0.59 g4 0.00 g2 1.36 v0 0.22 s0 0.96 hold 1 ref 2 on 0.195 -> log1p 11.215 presses 24.0 OK
+[real_lplc2only B] R 2.55 g4 0.00 g2 2.92 v0 0.20 s0 0.96 hold 3 ref 1 on 0.233 -> log1p 9.975 presses 22.8 OK
+[real_lplc2only B] R 2.52 g4 0.00 g2 1.63 v0 0.15 s0 0.66 hold 1 ref 1 on 0.233 -> log1p 10.128 presses 24.3 OK
+[real_lplc2only B] R 2.27 g4 0.00 g2 1.65 v0 0.25 s0 0.67 hold 3 ref 1 on 0.233 -> log1p 10.047 presses 16.2 OK
+[real_lplc2only B] R 2.13 g4 0.00 g2 1.60 v0 0.21 s0 0.64 hold 3 ref 1 on 0.233 -> log1p 10.006 presses 12.5 OK
+[real_lplc2only B] R 2.88 g4 0.00 g2 2.06 v0 0.15 s0 1.08 hold 3 ref 1 on 0.233 -> log1p 10.121 presses 20.0 OK
+[real_lplc2only B] R 0.59 g4 0.00 g2 7.37 v0 0.08 s0 0.92 hold 2 ref 2 on 0.233 -> log1p 10.031 presses 17.1 OK
+[real_lplc2only B] R 0.44 g4 0.00 g2 7.84 v0 0.09 s0 0.57 hold 2 ref 2 on 0.233 -> log1p 9.993 presses 19.5 OK
+[real_lplc2only B] R 0.61 g4 0.00 g2 8.00 v0 0.11 s0 0.89 hold 2 ref 2 on 0.233 -> log1p 10.113 presses 20.2 OK
+[real_lplc2only B] R 0.90 g4 0.00 g2 5.77 v0 0.08 s0 0.92 hold 2 ref 2 on 0.233 -> log1p 10.118 presses 20.0 OK
+[real_lplc2only B] R 0.64 g4 0.00 g2 5.79 v0 0.06 s0 0.82 hold 3 ref 2 on 0.233 -> log1p 10.229 presses 15.8 OK
+[real_lplc2only B] R 0.51 g4 0.00 g2 8.00 v0 0.11 s0 1.08 hold 2 ref 2 on 0.233 -> log1p 10.089 presses 13.7 OK
+[real_lplc2only B] R 0.65 g4 0.00 g2 8.00 v0 0.18 s0 1.00 hold 2 ref 2 on 0.233 -> log1p 10.071 presses 18.1 OK
+[real_lplc2only B] R 0.96 g4 0.00 g2 6.52 v0 0.09 s0 0.95 hold 2 ref 2 on 0.233 -> log1p 10.105 presses 22.5 OK
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    
+    
+    
+    
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    
+    
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+SystemExit: 0
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+SystemExit: 0
+SystemExit: 0
+[real_lplc2only] configs sampled 60 + refined 50 = 110; accepted 48
+[real_lplc2only] BEST log1p 11.260 presses 19.8: {"R": 0.9930116165973158, "g4": 0.0, "g2": 0.5596009231192245, "v0": 0.13977612552922045, "s0": 1.2441879720869908, "hold_max": 2, "refractory": 3, "circuit_json": "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_circuit.json", "rho_target": 0.8, "theta_on": 0.154678959459713, "theta_off": 0.08739792607565457}

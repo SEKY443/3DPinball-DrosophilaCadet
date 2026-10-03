@@ -1,0 +1,229 @@
+[real] cfg   0 R 1.30 g4 1.06 g2 0.56 v0 0.05 s0 0.79 on 0.459 hold 3 -> log1p 9.756 presses 0.0
+[real] cfg   1 R 1.05 g4 6.68 g2 4.80 v0 0.05 s0 0.92 on 0.046 hold 3 -> log1p 10.841 presses 238.3
+[real] cfg   2 R 0.45 g4 5.47 g2 2.24 v0 0.24 s0 0.21 on 0.043 hold 1 -> log1p 11.148 presses 468.2
+[real] cfg   3 R 1.33 g4 2.75 g2 1.45 v0 9.85 s0 1.41 on 0.352 hold 3 -> log1p 10.411 presses 7.0
+[real] cfg   4 R 1.46 g4 1.47 g2 0.73 v0 2.29 s0 0.30 on 0.176 hold 3 -> log1p 11.016 presses 196.8
+[real] cfg   5 R 2.58 g4 1.35 g2 2.44 v0 0.28 s0 0.38 on 0.189 hold 3 -> log1p 11.169 presses 267.5
+[real] cfg   6 R 2.33 g4 0.94 g2 2.81 v0 0.08 s0 0.85 on 0.400 hold 3 -> log1p 9.756 presses 0.0
+[real] cfg   7 R 0.34 g4 1.27 g2 0.76 v0 0.54 s0 0.75 on 0.138 hold 3 -> log1p 11.036 presses 103.9
+[real] cfg   8 R 0.76 g4 0.87 g2 0.64 v0 1.08 s0 0.14 on 0.346 hold 3 -> log1p 11.270 presses 26.5
+[real] cfg   9 R 0.70 g4 0.67 g2 2.86 v0 6.80 s0 0.22 on 0.479 hold 3 -> log1p 9.756 presses 0.0
+[real] cfg  10 R 0.80 g4 2.79 g2 7.89 v0 7.63 s0 0.24 on 0.386 hold 2 -> log1p 10.176 presses 2.8
+[real] cfg  11 R 1.83 g4 1.58 g2 3.83 v0 2.16 s0 1.19 on 0.084 hold 2 -> log1p 10.994 presses 320.2
+[real] cfg  12 R 2.54 g4 7.32 g2 0.52 v0 4.86 s0 1.41 on 0.480 hold 2 -> log1p 9.756 presses 0.0
+[real] cfg  13 R 2.33 g4 4.89 g2 1.89 v0 0.17 s0 0.76 on 0.464 hold 3 -> log1p 9.756 presses 0.0
+[real] cfg  14 R 1.04 g4 1.71 g2 6.61 v0 0.06 s0 0.60 on 0.319 hold 3 -> log1p 11.002 presses 224.8
+[real] cfg  15 R 0.31 g4 4.09 g2 2.07 v0 6.87 s0 0.06 on 0.425 hold 3 -> log1p 9.756 presses 0.0
+[real] cfg  16 R 0.66 g4 1.65 g2 7.28 v0 0.98 s0 0.12 on 0.144 hold 1 -> log1p 11.201 presses 412.4
+[real] cfg  17 R 0.40 g4 1.11 g2 2.54 v0 0.94 s0 0.79 on 0.293 hold 1 -> log1p 10.913 presses 54.0
+[real] cfg  18 R 0.78 g4 4.83 g2 2.84 v0 8.05 s0 0.18 on 0.290 hold 1 -> log1p 10.794 presses 69.5
+[real] cfg  19 R 0.42 g4 1.54 g2 6.23 v0 0.06 s0 0.82 on 0.225 hold 3 -> log1p 10.774 presses 184.4
+[real] cfg  20 R 0.31 g4 1.38 g2 0.62 v0 1.59 s0 0.13 on 0.360 hold 3 -> log1p 10.223 presses 2.8
+[real] cfg  21 R 2.20 g4 0.59 g2 1.44 v0 0.49 s0 0.26 on 0.489 hold 1 -> log1p 9.756 presses 0.0
+[real] cfg  22 R 0.61 g4 1.06 g2 5.47 v0 5.33 s0 0.28 on 0.192 hold 3 -> log1p 10.994 presses 215.1
+[real] cfg  23 R 0.46 g4 5.74 g2 4.75 v0 1.72 s0 1.30 on 0.465 hold 1 -> log1p 9.756 presses 0.0
+[real] cfg  24 R 2.18 g4 0.99 g2 0.74 v0 1.74 s0 0.57 on 0.109 hold 3 -> log1p 11.287 presses 305.7
+[real] cfg  25 R 1.09 g4 2.49 g2 0.86 v0 0.81 s0 0.30 on 0.072 hold 3 -> log1p 10.912 presses 237.6
+[real] cfg  26 R 1.12 g4 0.51 g2 4.26 v0 8.91 s0 0.37 on 0.180 hold 2 -> log1p 10.916 presses 259.1
+[real] cfg  27 R 0.47 g4 2.48 g2 2.66 v0 8.19 s0 0.06 on 0.265 hold 3 -> log1p 10.740 presses 36.1
+[real] cfg  28 R 0.45 g4 1.47 g2 0.60 v0 2.34 s0 0.07 on 0.216 hold 1 -> log1p 10.990 presses 132.9
+[real] cfg  29 R 2.45 g4 4.18 g2 6.33 v0 0.10 s0 0.06 on 0.063 hold 2 -> log1p 10.858 presses 267.3
+[real] cfg  30 R 1.29 g4 1.98 g2 0.79 v0 1.78 s0 0.15 on 0.364 hold 3 -> log1p 10.761 presses 30.2
+[real] cfg  31 R 1.85 g4 0.65 g2 2.49 v0 0.14 s0 0.78 on 0.260 hold 2 -> log1p 11.003 presses 248.7
+[real] cfg  32 R 0.46 g4 7.22 g2 4.61 v0 0.64 s0 0.80 on 0.313 hold 2 -> log1p 10.906 presses 130.7
+[real] cfg  33 R 0.35 g4 5.06 g2 1.44 v0 0.28 s0 1.47 on 0.397 hold 3 -> log1p 9.756 presses 0.0
+[real] cfg  34 R 0.79 g4 5.70 g2 0.64 v0 2.13 s0 0.73 on 0.406 hold 2 -> log1p 9.756 presses 0.0
+[real] cfg  35 R 0.50 g4 1.37 g2 1.59 v0 0.88 s0 0.07 on 0.221 hold 3 -> log1p 10.910 presses 181.2
+[real] cfg  36 R 1.67 g4 5.31 g2 0.73 v0 2.08 s0 0.82 on 0.491 hold 1 -> log1p 9.756 presses 0.0
+[real] cfg  37 R 2.86 g4 7.44 g2 2.02 v0 2.71 s0 1.12 on 0.254 hold 2 -> log1p 10.988 presses 225.6
+[real] cfg  38 R 1.51 g4 1.13 g2 4.20 v0 1.03 s0 0.07 on 0.214 hold 2 -> log1p 10.877 presses 249.6
+[real] cfg  39 R 0.80 g4 1.62 g2 2.54 v0 0.10 s0 1.20 on 0.352 hold 2 -> log1p 10.884 presses 99.5
+[real] cfg  40 R 2.37 g4 2.52 g2 0.56 v0 2.17 s0 0.35 on 0.418 hold 1 -> log1p 9.756 presses 0.0
+[real] cfg  41 R 2.98 g4 1.32 g2 0.80 v0 0.40 s0 0.65 on 0.236 hold 3 -> log1p 10.915 presses 218.0
+[real] cfg  42 R 0.40 g4 3.74 g2 1.09 v0 0.14 s0 0.94 on 0.295 hold 2 -> log1p 10.803 presses 82.8
+[real] cfg  43 R 0.37 g4 3.45 g2 1.24 v0 0.13 s0 0.50 on 0.201 hold 3 -> log1p 10.951 presses 174.1
+[real] cfg  44 R 2.64 g4 0.87 g2 2.07 v0 0.06 s0 0.09 on 0.445 hold 1 -> log1p 9.820 presses 0.0
+[real] cfg  45 R 0.50 g4 2.35 g2 0.52 v0 2.19 s0 0.57 on 0.334 hold 2 -> log1p 10.715 presses 13.9
+[real] cfg  46 R 0.36 g4 0.99 g2 2.46 v0 0.40 s0 1.46 on 0.464 hold 2 -> log1p 9.756 presses 0.0
+[real] cfg  47 R 1.49 g4 0.73 g2 1.19 v0 2.22 s0 1.07 on 0.191 hold 2 -> log1p 10.901 presses 109.5
+[real] cfg  48 R 1.99 g4 2.53 g2 1.87 v0 0.19 s0 0.06 on 0.038 hold 2 -> log1p 10.809 presses 277.8
+[real] cfg  49 R 2.84 g4 0.67 g2 1.75 v0 0.40 s0 0.11 on 0.382 hold 1 -> log1p 9.756 presses 0.0
+[real] cfg  50 R 1.60 g4 0.63 g2 1.33 v0 0.79 s0 0.21 on 0.049 hold 2 -> log1p 10.813 presses 279.5
+[real] cfg  51 R 0.44 g4 5.31 g2 4.89 v0 0.40 s0 0.24 on 0.417 hold 3 -> log1p 9.756 presses 0.0
+[real] cfg  52 R 2.06 g4 4.09 g2 3.40 v0 6.31 s0 0.82 on 0.114 hold 3 -> log1p 10.821 presses 234.2
+[real] cfg  53 R 0.80 g4 1.50 g2 0.88 v0 7.20 s0 0.07 on 0.032 hold 1 -> log1p 11.102 presses 428.6
+[real] cfg  54 R 2.94 g4 1.04 g2 5.00 v0 0.13 s0 0.37 on 0.480 hold 3 -> log1p 9.756 presses 0.0
+[real] cfg  55 R 1.13 g4 7.64 g2 5.09 v0 3.09 s0 1.03 on 0.327 hold 3 -> log1p 10.876 presses 85.4
+[real] cfg  56 R 1.01 g4 0.94 g2 4.32 v0 0.12 s0 0.36 on 0.282 hold 1 -> log1p 11.131 presses 321.3
+[real] cfg  57 R 0.39 g4 2.83 g2 1.58 v0 1.29 s0 0.53 on 0.305 hold 3 -> log1p 10.842 presses 54.1
+[real] cfg  58 R 0.99 g4 1.80 g2 1.11 v0 0.17 s0 0.53 on 0.357 hold 2 -> log1p 10.824 presses 98.1
+[real] cfg  59 R 1.41 g4 2.18 g2 5.15 v0 0.66 s0 0.25 on 0.151 hold 3 -> log1p 11.144 presses 319.8
+[real] cfg  60 R 1.54 g4 5.19 g2 3.27 v0 0.35 s0 0.35 on 0.295 hold 3 -> log1p 10.852 presses 204.2
+[real] cfg  61 R 0.44 g4 5.69 g2 5.97 v0 0.06 s0 0.10 on 0.329 hold 2 -> log1p 11.137 presses 278.7
+[real] cfg  62 R 1.21 g4 0.85 g2 0.69 v0 0.73 s0 0.80 on 0.132 hold 2 -> log1p 11.064 presses 227.5
+[real] cfg  63 R 0.47 g4 0.60 g2 4.27 v0 3.88 s0 0.19 on 0.168 hold 2 -> log1p 11.052 presses 318.4
+[real] cfg  64 R 0.69 g4 2.48 g2 2.16 v0 0.33 s0 0.44 on 0.348 hold 1 -> log1p 10.892 presses 128.7
+[real] cfg  65 R 1.26 g4 2.58 g2 1.28 v0 0.25 s0 0.32 on 0.318 hold 2 -> log1p 10.962 presses 216.4
+[real] cfg  66 R 0.72 g4 2.40 g2 7.69 v0 0.48 s0 0.88 on 0.068 hold 2 -> log1p 10.965 presses 291.8
+[real] cfg  67 R 0.55 g4 0.52 g2 1.91 v0 0.13 s0 1.36 on 0.452 hold 3 -> log1p 9.756 presses 0.0
+[real] cfg  68 R 1.21 g4 2.09 g2 5.03 v0 1.59 s0 0.12 on 0.469 hold 1 -> log1p 9.756 presses 0.0
+[real] cfg  69 R 0.95 g4 0.83 g2 1.14 v0 1.05 s0 0.08 on 0.036 hold 3 -> log1p 10.810 presses 237.7
+[real] cfg  70 R 1.74 g4 2.74 g2 1.23 v0 2.24 s0 0.26 on 0.500 hold 1 -> log1p 9.756 presses 0.0
+[real] cfg  71 R 0.55 g4 0.76 g2 0.87 v0 0.49 s0 0.29 on 0.121 hold 3 -> log1p 11.061 presses 222.2
+[real] cfg  72 R 2.22 g4 1.20 g2 2.05 v0 1.17 s0 0.58 on 0.099 hold 1 -> log1p 11.067 presses 379.2
+[real] cfg  73 R 1.11 g4 6.06 g2 1.73 v0 0.43 s0 0.14 on 0.139 hold 3 -> log1p 11.000 presses 269.2
+[real] cfg  74 R 0.55 g4 5.46 g2 1.06 v0 1.77 s0 0.35 on 0.325 hold 3 -> log1p 10.766 presses 52.8
+[real] cfg  75 R 0.42 g4 0.70 g2 0.62 v0 0.85 s0 0.09 on 0.409 hold 1 -> log1p 9.756 presses 0.0
+[real] cfg  76 R 0.71 g4 1.86 g2 0.91 v0 0.33 s0 0.11 on 0.162 hold 3 -> log1p 11.007 presses 228.5
+[real] cfg  77 R 0.73 g4 2.72 g2 3.15 v0 1.65 s0 0.07 on 0.303 hold 2 -> log1p 11.065 presses 121.2
+[real] cfg  78 R 1.87 g4 2.56 g2 0.72 v0 0.08 s0 0.15 on 0.466 hold 2 -> log1p 9.756 presses 0.0
+[real] cfg  79 R 0.86 g4 4.06 g2 1.92 v0 2.14 s0 0.15 on 0.448 hold 3 -> log1p 9.756 presses 0.0
+[real] cfg  80 R 0.30 g4 3.69 g2 3.26 v0 1.62 s0 0.52 on 0.306 hold 3 -> log1p 11.220 presses 60.1
+[real] cfg  81 R 0.30 g4 0.83 g2 1.61 v0 0.37 s0 0.07 on 0.231 hold 3 -> log1p 10.896 presses 144.8
+[real] cfg  82 R 0.72 g4 3.57 g2 0.95 v0 0.11 s0 0.64 on 0.344 hold 2 -> log1p 10.755 presses 55.0
+[real] cfg  83 R 1.38 g4 4.00 g2 0.79 v0 1.93 s0 0.17 on 0.460 hold 1 -> log1p 9.756 presses 0.0
+[real] cfg  84 R 0.56 g4 6.74 g2 0.54 v0 0.13 s0 0.11 on 0.374 hold 3 -> log1p 9.756 presses 0.0
+[real] cfg  85 R 0.50 g4 4.07 g2 0.69 v0 0.19 s0 0.78 on 0.242 hold 2 -> log1p 11.128 presses 215.2
+[real] cfg  86 R 1.20 g4 4.46 g2 0.84 v0 0.27 s0 0.18 on 0.262 hold 3 -> log1p 10.905 presses 203.2
+[real] cfg  87 R 0.45 g4 5.30 g2 5.88 v0 0.07 s0 0.05 on 0.168 hold 3 -> log1p 11.230 presses 314.1
+[real] cfg  88 R 2.80 g4 0.61 g2 4.36 v0 0.62 s0 0.08 on 0.202 hold 1 -> log1p 11.163 presses 375.9
+[real] cfg  89 R 0.59 g4 1.60 g2 7.21 v0 0.57 s0 1.27 on 0.044 hold 1 -> log1p 11.111 presses 427.1
+[real] cfg  90 R 0.32 g4 3.17 g2 0.92 v0 1.06 s0 0.75 on 0.186 hold 1 -> log1p 11.138 presses 114.3
+[real] cfg  91 R 0.90 g4 0.76 g2 0.64 v0 2.48 s0 0.93 on 0.448 hold 3 -> log1p 9.756 presses 0.0
+[real] cfg  92 R 0.43 g4 0.93 g2 1.76 v0 4.56 s0 0.46 on 0.159 hold 2 -> log1p 11.149 presses 179.7
+[real] cfg  93 R 2.88 g4 1.64 g2 5.09 v0 0.05 s0 0.58 on 0.217 hold 2 -> log1p 11.051 presses 329.4
+[real] cfg  94 R 0.47 g4 6.58 g2 0.87 v0 0.98 s0 0.38 on 0.433 hold 3 -> log1p 9.756 presses 0.0
+[real] cfg  95 R 1.00 g4 7.09 g2 3.65 v0 6.28 s0 1.23 on 0.407 hold 3 -> log1p 9.756 presses 0.0
+[real] cfg  96 R 0.40 g4 2.76 g2 1.06 v0 0.38 s0 0.09 on 0.388 hold 3 -> log1p 9.978 presses 2.0
+[real] cfg  97 R 0.99 g4 1.49 g2 4.47 v0 0.59 s0 0.60 on 0.296 hold 1 -> log1p 10.868 presses 180.8
+[real] cfg  98 R 0.79 g4 7.73 g2 1.58 v0 0.13 s0 0.71 on 0.158 hold 3 -> log1p 10.961 presses 259.2
+[real] cfg  99 R 0.48 g4 0.55 g2 7.72 v0 3.80 s0 0.08 on 0.429 hold 2 -> log1p 9.756 presses 0.0
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    return self.env.close()
+    return self.env.close()
+    return self.env.close()
+    return self.env.close()
+    self._proc.wait(timeout=5.0)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+           ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+    self._proc.wait(timeout=5.0)
+           ^^^^^^^^^^^^^^^^
+    self._proc.wait(timeout=5.0)
+           ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return self._wait(timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+    time.sleep(delay)
+    time.sleep(delay)
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+                                             ^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+SystemExit: 0
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+SystemExit: 0
+[real] BEST log1p 10.715 presses 13.9 accepted 34: {"R": 0.5006966096796042, "g4": 2.3472806241035964, "g2": 0.5171254110926171, "v0": 2.1856958911250794, "s0": 0.5723974217924365, "theta_on": 0.33364116107618674, "hold_max": 2, "circuit_json": "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_circuit.json", "refractory": 2, "rho_target": 0.8, "theta_off": 0.24840767991103999}

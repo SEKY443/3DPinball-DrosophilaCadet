@@ -1,0 +1,112 @@
+[shuffled_2 A] 60/60 configs reach >= 15.0 presses at theta_on 0.01
+[shuffled_2 A] 18/60 calibrated into ~[15, 28] presses on the 8-life subset
+[shuffled_2 A] R 1.30 g4 1.06 g2 0.56 v0 0.05 s0 0.79 hold 2 ref 2 on 0.584 -> log1p 10.133 presses 6.0 OK
+[shuffled_2 A] R 1.61 g4 0.81 g2 5.47 v0 0.88 s0 0.14 hold 2 ref 1 on 0.669 -> log1p 9.756 presses 0.0 OK
+[shuffled_2 A] R 2.04 g4 4.43 g2 0.97 v0 5.20 s0 0.06 hold 2 ref 1 on 0.608 -> log1p 10.056 presses 17.3 OK
+[shuffled_2 A] R 2.32 g4 0.94 g2 0.71 v0 0.23 s0 0.37 hold 3 ref 3 on 0.608 -> log1p 10.205 presses 14.9 OK
+[shuffled_2 A] R 1.95 g4 3.19 g2 7.13 v0 6.75 s0 0.64 hold 3 ref 1 on 0.608 -> log1p 10.047 presses 24.1 OK
+[shuffled_2 A] R 1.14 g4 0.86 g2 2.15 v0 0.80 s0 0.07 hold 1 ref 2 on 0.608 -> log1p 9.950 presses 23.9 OK
+[shuffled_2 A] R 0.30 g4 4.26 g2 7.53 v0 1.14 s0 0.15 hold 2 ref 3 on 0.608 -> log1p 10.124 presses 22.3 OK
+[shuffled_2 A] R 0.89 g4 6.28 g2 4.18 v0 6.38 s0 0.08 hold 1 ref 1 on 0.669 -> log1p 9.756 presses 0.0 OK
+[shuffled_2 A] R 1.85 g4 4.58 g2 1.22 v0 3.40 s0 0.11 hold 3 ref 2 on 0.608 -> log1p 10.001 presses 21.7 OK
+[shuffled_2 A] R 1.04 g4 0.68 g2 1.55 v0 0.05 s0 0.63 hold 1 ref 1 on 0.608 -> log1p 10.009 presses 22.5 OK
+[shuffled_2 A] R 1.52 g4 4.87 g2 7.61 v0 4.37 s0 0.21 hold 2 ref 3 on 0.669 -> log1p 9.756 presses 0.0 OK
+[shuffled_2 A] R 1.76 g4 2.43 g2 0.65 v0 0.40 s0 0.06 hold 1 ref 2 on 0.669 -> log1p 9.756 presses 0.0 OK
+[shuffled_2 A] R 2.98 g4 1.32 g2 0.80 v0 0.40 s0 0.65 hold 2 ref 2 on 0.608 -> log1p 10.131 presses 21.9 OK
+[shuffled_2 A] R 0.64 g4 6.84 g2 0.87 v0 0.75 s0 0.05 hold 2 ref 3 on 0.608 -> log1p 10.091 presses 20.7 OK
+[shuffled_2 A] R 1.85 g4 2.34 g2 0.93 v0 0.96 s0 0.05 hold 2 ref 3 on 0.608 -> log1p 10.038 presses 18.2 OK
+[shuffled_2 A] R 2.52 g4 0.76 g2 2.57 v0 2.00 s0 0.08 hold 1 ref 3 on 0.608 -> log1p 9.931 presses 16.2 OK
+[shuffled_2 A] R 0.99 g4 1.63 g2 0.56 v0 0.14 s0 1.24 hold 2 ref 3 on 0.530 -> log1p 10.092 presses 14.2 OK
+[shuffled_2 A] R 1.13 g4 7.64 g2 5.09 v0 3.09 s0 1.03 hold 1 ref 2 on 0.608 -> log1p 9.962 presses 24.8 OK
+[shuffled_2 B] 50/50 configs reach >= 15.0 presses at theta_on 0.01
+[shuffled_2 B] 25/50 calibrated into ~[15, 28] presses on the 8-life subset
+[shuffled_2 B] R 2.14 g4 0.98 g2 0.63 v0 0.11 s0 0.30 hold 3 ref 3 on 0.608 -> log1p 10.260 presses 14.4 OK
+[shuffled_2 B] R 1.60 g4 0.87 g2 1.20 v0 0.33 s0 0.48 hold 3 ref 3 on 0.608 -> log1p 10.089 presses 12.0 OK
+[shuffled_2 B] R 3.00 g4 0.75 g2 0.90 v0 0.18 s0 0.60 hold 3 ref 3 on 0.608 -> log1p 10.113 presses 13.2 OK
+[shuffled_2 B] R 1.59 g4 0.82 g2 0.85 v0 0.32 s0 0.36 hold 3 ref 3 on 0.584 -> log1p 10.077 presses 13.9 OK
+[shuffled_2 B] R 3.00 g4 0.96 g2 0.81 v0 0.32 s0 0.32 hold 3 ref 3 on 0.608 -> log1p 10.152 presses 17.5 OK
+[shuffled_2 B] R 2.26 g4 0.75 g2 0.95 v0 0.21 s0 0.30 hold 3 ref 3 on 0.608 -> log1p 10.157 presses 17.0 OK
+[shuffled_2 B] R 2.13 g4 0.89 g2 1.03 v0 0.12 s0 0.30 hold 3 ref 3 on 0.608 -> log1p 10.062 presses 22.5 OK
+[shuffled_2 B] R 2.18 g4 1.07 g2 1.10 v0 0.09 s0 0.41 hold 3 ref 3 on 0.608 -> log1p 10.069 presses 24.2 OK
+[shuffled_2 B] R 1.73 g4 1.31 g2 0.71 v0 0.19 s0 0.34 hold 3 ref 1 on 0.608 -> log1p 10.096 presses 20.6 OK
+[shuffled_2 B] R 1.79 g4 0.78 g2 0.56 v0 0.06 s0 0.97 hold 3 ref 1 on 0.530 -> log1p 10.084 presses 23.6 OK
+[shuffled_2 B] R 2.90 g4 1.47 g2 0.62 v0 0.33 s0 0.52 hold 2 ref 2 on 0.608 -> log1p 10.106 presses 18.2 OK
+[shuffled_2 B] R 2.23 g4 2.34 g2 0.86 v0 0.28 s0 0.61 hold 1 ref 2 on 0.608 -> log1p 9.987 presses 23.7 OK
+[shuffled_2 B] R 2.69 g4 1.41 g2 0.80 v0 0.28 s0 0.58 hold 2 ref 2 on 0.608 -> log1p 10.103 presses 22.1 OK
+[shuffled_2 B] R 2.51 g4 0.85 g2 0.74 v0 0.26 s0 0.65 hold 2 ref 2 on 0.584 -> log1p 10.149 presses 23.5 OK
+[shuffled_2 B] R 0.30 g4 5.16 g2 8.00 v0 1.32 s0 0.13 hold 2 ref 3 on 0.608 -> log1p 10.021 presses 17.8 OK
+[shuffled_2 B] R 0.30 g4 4.63 g2 7.25 v0 1.52 s0 0.12 hold 1 ref 3 on 0.608 -> log1p 9.980 presses 18.9 OK
+[shuffled_2 B] R 0.30 g4 4.37 g2 7.45 v0 1.62 s0 0.16 hold 2 ref 3 on 0.608 -> log1p 10.051 presses 16.0 OK
+[shuffled_2 B] R 0.42 g4 3.66 g2 8.00 v0 1.18 s0 0.18 hold 2 ref 3 on 0.608 -> log1p 10.043 presses 19.7 OK
+[shuffled_2 B] R 0.30 g4 5.90 g2 6.91 v0 0.87 s0 0.22 hold 2 ref 3 on 0.608 -> log1p 10.233 presses 21.6 OK
+[shuffled_2 B] R 0.30 g4 3.98 g2 6.86 v0 1.11 s0 0.16 hold 2 ref 3 on 0.608 -> log1p 10.044 presses 17.8 OK
+[shuffled_2 B] R 0.30 g4 4.89 g2 8.00 v0 1.30 s0 0.18 hold 2 ref 3 on 0.608 -> log1p 10.074 presses 17.3 OK
+[shuffled_2 B] R 0.30 g4 3.12 g2 7.03 v0 1.04 s0 0.15 hold 2 ref 3 on 0.608 -> log1p 10.066 presses 16.0 OK
+[shuffled_2 B] R 1.69 g4 1.55 g2 0.50 v0 0.13 s0 1.25 hold 2 ref 3 on 0.530 -> log1p 10.185 presses 19.5 OK
+[shuffled_2 B] R 0.73 g4 2.33 g2 0.54 v0 0.09 s0 0.93 hold 2 ref 3 on 0.530 -> log1p 10.150 presses 17.3 OK
+[shuffled_2 B] R 1.52 g4 1.47 g2 0.59 v0 0.12 s0 1.42 hold 3 ref 3 on 0.530 -> log1p 10.021 presses 15.1 OK
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    def _shutdown():
+    
+    
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    
+    
+    
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    
+    
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+SystemExit: 0
+SystemExit: 0
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+[shuffled_2] configs sampled 60 + refined 50 = 110; accepted 43
+[shuffled_2] BEST log1p 10.260 presses 14.4: {"R": 2.1395774132779986, "g4": 0.9792423976976422, "g2": 0.6325947551565738, "v0": 0.1097159699515413, "s0": 0.30354459676959245, "hold_max": 3, "refractory": 3, "circuit_json": "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_circuit_shuffled_2.json", "rho_target": 0.8, "theta_on": 0.608340685482927, "theta_off": 0.46241632832570667}

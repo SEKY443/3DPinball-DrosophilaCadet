@@ -1,0 +1,48 @@
+{
+ "which": "retina",
+ "params": {
+  "R": 0.3,
+  "g4": 1.6963894568504538,
+  "g2": 1.7912324147321113,
+  "v0": 6.426939278560543,
+  "s0": 0.4507627811508519,
+  "hold_max": 1,
+  "refractory": 1,
+  "circuit_json": "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_circuit.json",
+  "rho_target": 0.8,
+  "retina": true,
+  "fields": "sweep",
+  "theta_on": 0.30675316498368466,
+  "theta_off": 0.172836184173951
+ },
+ "static": {
+  "n": 8371,
+  "blind_frac_all": 0.03679369250985545,
+  "blind_frac_zone": 0.02883720930232558,
+  "blind_frac_centre": 0.07849293563579278,
+  "n_zone": 2150,
+  "n_centre": 637
+ },
+ "behavioural": {
+  "lives": 64,
+  "drains": 60,
+  "drains_reach": 60,
+  "unseen": 57,
+  "pct_unseen": 95.0,
+  "passes": 417,
+  "missed_passes": 81,
+  "pct_missed_passes": 19.424460431654676,
+  "drains_centre": [
+   25,
+   22
+  ],
+  "drains_flipper": [
+   31,
+   31
+  ],
+  "drains_outlane": [
+   4,
+   4
+  ]
+ }
+}

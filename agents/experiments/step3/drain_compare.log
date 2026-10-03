@@ -1,0 +1,26 @@
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 656, in _exitfunc
+    pending = cls._select_for_exit()
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 637, in _select_for_exit
+    L = [(f,i) for (f,i) in cls._registry.items() if i.atexit]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py", line 637, in <listcomp>
+    L = [(f,i) for (f,i) in cls._registry.items() if i.atexit]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-nudge/agents/experiments/step3/drain_compare.py", line 52, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+24 lives per policy, seeds 7024..7047, 146s
+reflex                       steps   1376 ->   1307 (dead   70)  log1p 11.552 -> 11.552 (diff SE 0.000)  fit(press cost) 11.540 -> 11.540  post-drain pts 0.0% (lives 0/24)  suspicious 0  presses 13
+                             base-point shares: upper 63.1%, upper&active 48.8%; per life: targ7-9 2.58  a_roll9 0.96  ramp 0.29  outlanes 0.71
+best_heldout_gen280.pt       steps   1229 ->   1156 (dead   73)  log1p 10.834 -> 10.834 (diff SE 0.000)  fit(press cost) 10.126 -> 10.169  post-drain pts 0.0% (lives 0/24)  suspicious 0  presses 755
+                             base-point shares: upper 64.0%, upper&active 35.5%; per life: targ7-9 2.17  a_roll9 0.75  ramp 0.42  outlanes 0.29
+start_popcode_seed.pt        steps   1186 ->   1102 (dead   84)  log1p 11.426 -> 11.426 (diff SE 0.000)  fit(press cost) 11.417 -> 11.417  post-drain pts 0.0% (lives 0/24)  suspicious 0  presses 10
+                             base-point shares: upper 57.5%, upper&active 39.1%; per life: targ7-9 2.71  a_roll9 1.08  ramp 0.46  outlanes 0.75
+ranking by log1p_refeed: reflex > start_popcode_seed.pt > best_heldout_gen280.pt
+ranking by log1p_tdrain: reflex > start_popcode_seed.pt > best_heldout_gen280.pt
+ranking by fit_refeed: reflex > start_popcode_seed.pt > best_heldout_gen280.pt
+ranking by fit_tdrain: reflex > start_popcode_seed.pt > best_heldout_gen280.pt

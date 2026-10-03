@@ -1,0 +1,137 @@
+real_const {"gain": 1.2131235975839025, "theta_on": 0.1181286263920589, "tau0": 2.968938317759259, "hold_max": 2, "refractory": 2, "rho_target": 0.8, "theta_off": 0.08269003847444123, "force_mode": "const"}
+real_rate {"gain": 1.2131235975839025, "theta_on": 0.1181286263920589, "tau0": 2.968938317759259, "hold_max": 2, "refractory": 2, "rho_target": 0.8, "theta_off": 0.08269003847444123, "force_mode": "rate", "f0": 1.0, "k": 0.0}
+shuf1_rate {"gain": 3.3453749977023555, "theta_on": 0.33571585984587365, "tau0": 3.072242354621589, "hold_max": 3, "refractory": 2, "rho_target": 0.8, "theta_off": 0.23500110189211154, "force_mode": "rate", "f0": 0.8526828432972258, "k": 0.0547700034029619}
+shuf2_rate {"gain": 2.4851684769873534, "theta_on": 0.12124099325867298, "tau0": 2.167228922115309, "hold_max": 3, "refractory": 2, "rho_target": 0.8, "theta_off": 0.08486869528107108, "force_mode": "rate", "f0": 0.5602714933194296, "k": 15.926485405745884}
+shuf3_rate {"gain": 1.0683589096550685, "theta_on": 0.36024647321009956, "tau0": 5.317591742594329, "hold_max": 3, "refractory": 2, "rho_target": 0.8, "theta_off": 0.2521725312470697, "force_mode": "rate", "f0": 0.5523017237726272, "k": 19.091809873814746}
+shuf4_rate {"gain": 1.9857593302748833, "theta_on": 0.2787767152924821, "tau0": 3.7868483258465884, "hold_max": 3, "refractory": 2, "rho_target": 0.8, "theta_off": 0.19514370070473747, "force_mode": "rate", "f0": 0.513295200422529, "k": 17.805487040095848}
+shuf5_rate {"gain": 3.3453749977023555, "theta_on": 0.33571585984587365, "tau0": 3.072242354621589, "hold_max": 3, "refractory": 2, "rho_target": 0.8, "theta_off": 0.23500110189211154, "force_mode": "rate", "f0": 1.0, "k": 0.0}
+shuf6_rate {"gain": 1.0683589096550685, "theta_on": 0.36024647321009956, "tau0": 5.317591742594329, "hold_max": 3, "refractory": 2, "rho_target": 0.8, "theta_off": 0.2521725312470697, "force_mode": "rate", "f0": 0.9011873846485631, "k": 1.171360696103887}
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+    return self.env.close()
+    return self.env.close()
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 456, in close
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+    return self.env.close()
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+           ^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^
+    return self.env.close()
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+    self._proc.terminate()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    def _shutdown():
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+    
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2208, in terminate
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/gf_force/gf_body.py", line 138, in <lambda>
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    time.sleep(delay)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    return self._wait(timeout=timeout)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/gf_force/gf_body.py", line 138, in <lambda>
+    def terminate(self):
+
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/gf_force/gf_body.py", line 138, in <lambda>
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/gf_force/gf_body.py", line 138, in <lambda>
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    time.sleep(delay)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/gf_force/gf_body.py", line 138, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+SystemExit: 0
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/gf_force/gf_body.py", line 138, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/gf_force/gf_body.py", line 138, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    time.sleep(delay)
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/gf_force/gf_body.py", line 138, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+paired lives 77000..77095 (96)
+real_const   log1p 11.221 +- 0.092  median     73500  presses    19.3  contacts    9.4  c/press 0.488 | real_const - real_rate +0.000 +- 0.000 t +nan p 1
+real_rate    log1p 11.221 +- 0.092  median     73500  presses    19.3  contacts    9.4  c/press 0.488
+shuf1_rate   log1p 10.917 +- 0.092  median     57250  presses    22.2  contacts    7.5  c/press 0.339 | shuf1_rate - real_rate -0.304 +- 0.101 t -3.00 p 0.0095
+shuf2_rate   log1p 10.852 +- 0.092  median     54000  presses    22.8  contacts    7.2  c/press 0.316 | shuf2_rate - real_rate -0.369 +- 0.101 t -3.66 p 0.00014
+shuf3_rate   log1p 10.923 +- 0.096  median     55000  presses    21.7  contacts    7.7  c/press 0.353 | shuf3_rate - real_rate -0.298 +- 0.106 t -2.82 p 0.0027
+shuf4_rate   log1p 10.928 +- 0.102  median     55375  presses    29.6  contacts    7.5  c/press 0.253 | shuf4_rate - real_rate -0.293 +- 0.118 t -2.48 p 0.018
+shuf5_rate   log1p 10.770 +- 0.091  median     47250  presses    20.9  contacts    6.4  c/press 0.304 | shuf5_rate - real_rate -0.451 +- 0.100 t -4.49 p 2.6e-06
+shuf6_rate   log1p 10.745 +- 0.095  median     52625  presses    17.6  contacts    6.1  c/press 0.350 | shuf6_rate - real_rate -0.477 +- 0.099 t -4.81 p 2.1e-06
+KEY real_rate - real_const +0.000 +- 0.000 t +nan p 1

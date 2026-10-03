@@ -1,0 +1,183 @@
+[real] 64/64 cells reach >= 15.0 presses at theta_on 0.01
+[real] 29/64 cells calibrated
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1568, in _shutdown
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+    return self.env.close()
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    return self.env.close()
+    return self.env.close()
+    return self.env.close()
+    return self.env.close()
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 449, in close
+           ^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+    self._proc.terminate()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2211, in terminate
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+    assert tlock.locked()
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+           ^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+AssertionError: 
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    self.send_signal(signal.SIGTERM)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2203, in send_signal
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    time.sleep(delay)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    os.kill(self.pid, sig)
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_body.py", line 126, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+SystemExit: 0
+SystemExit: 0
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+[real] g4 0.50 g2 0.00 -> log1p 11.172 presses 17.8 c/press 0.396 on 0.089
+[real] g4 0.50 g2 0.50 -> log1p 11.025 presses 17.0 c/press 0.380 on 0.257
+[real] g4 0.50 g2 0.79 -> log1p 11.320 presses 22.4 c/press 0.348 on 0.267
+[real] g4 0.50 g2 1.26 -> log1p 11.163 presses 16.4 c/press 0.457 on 0.294
+[real] g4 0.50 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 0.50 g2 3.17 -> log1p 11.093 presses 16.1 c/press 0.393 on 0.294
+[real] g4 0.50 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 0.50 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 0.74 g2 0.00 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 0.74 g2 0.50 -> log1p 11.234 presses 22.5 c/press 0.337 on 0.267
+[real] g4 0.74 g2 0.79 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 0.74 g2 1.26 -> log1p 11.087 presses 17.8 c/press 0.401 on 0.307
+[real] g4 0.74 g2 2.00 -> log1p 11.077 presses 21.0 c/press 0.366 on 0.307
+[real] g4 0.74 g2 3.17 -> log1p 11.105 presses 20.2 c/press 0.364 on 0.307
+[real] g4 0.74 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 0.74 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 1.10 g2 0.00 -> log1p 11.017 presses 19.0 c/press 0.321 on 0.135
+[real] g4 1.10 g2 0.50 -> log1p 11.019 presses 14.7 c/press 0.416 on 0.307
+[real] g4 1.10 g2 0.79 -> log1p 11.251 presses 20.8 c/press 0.328 on 0.307
+[real] g4 1.10 g2 1.26 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 1.10 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 1.10 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 1.10 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 1.10 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 1.64 g2 0.00 -> log1p 10.871 presses 22.3 c/press 0.262 on 0.155
+[real] g4 1.64 g2 0.50 -> log1p 10.719 presses 9.0 c/press 0.502 on 0.337
+[real] g4 1.64 g2 0.79 -> log1p 10.890 presses 14.4 c/press 0.372 on 0.337
+[real] g4 1.64 g2 1.26 -> log1p 10.895 presses 12.9 c/press 0.396 on 0.352
+[real] g4 1.64 g2 2.00 -> log1p 11.028 presses 17.9 c/press 0.387 on 0.352
+[real] g4 1.64 g2 3.17 -> log1p 10.958 presses 16.6 c/press 0.375 on 0.352
+[real] g4 1.64 g2 5.04 -> log1p 10.958 presses 16.2 c/press 0.380 on 0.352
+[real] g4 1.64 g2 8.00 -> log1p 10.958 presses 16.2 c/press 0.380 on 0.352
+[real] g4 2.44 g2 0.00 -> log1p 11.156 presses 19.2 c/press 0.339 on 0.195
+[real] g4 2.44 g2 0.50 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 2.44 g2 0.79 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 2.44 g2 1.26 -> log1p 10.967 presses 24.2 c/press 0.289 on 0.352
+[real] g4 2.44 g2 2.00 -> log1p 10.402 presses 4.2 c/press 0.582 on 0.387
+[real] g4 2.44 g2 3.17 -> log1p 10.837 presses 23.5 c/press 0.240 on 0.352
+[real] g4 2.44 g2 5.04 -> log1p 10.232 presses 3.9 c/press 0.548 on 0.387
+[real] g4 2.44 g2 8.00 -> log1p 10.251 presses 3.9 c/press 0.556 on 0.387
+[real] g4 3.62 g2 0.00 -> log1p 10.901 presses 19.7 c/press 0.270 on 0.203
+[real] g4 3.62 g2 0.50 -> log1p 10.987 presses 17.5 c/press 0.348 on 0.352
+[real] g4 3.62 g2 0.79 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 3.62 g2 1.26 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 3.62 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 3.62 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 3.62 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 3.62 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 5.38 g2 0.00 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 5.38 g2 0.50 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 5.38 g2 0.79 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 5.38 g2 1.26 -> log1p 10.402 presses 6.3 c/press 0.448 on 0.387
+[real] g4 5.38 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 5.38 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 5.38 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 5.38 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 8.00 g2 0.00 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 8.00 g2 0.50 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 8.00 g2 0.79 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 8.00 g2 1.26 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 8.00 g2 2.00 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 8.00 g2 3.17 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 8.00 g2 5.04 -> log1p nan presses nan c/press nan on nan  NaN
+[real] g4 8.00 g2 8.00 -> log1p nan presses nan c/press nan on nan  NaN

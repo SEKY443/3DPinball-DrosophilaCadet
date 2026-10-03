@@ -1,0 +1,154 @@
+[shuffled_2] cfg  0 f0 1.000 k   0.00 -> log1p 10.841 presses 23.5
+[shuffled_2] cfg  1 f0 0.710 k   5.40 -> log1p 10.702 presses 21.2
+[shuffled_2] cfg  2 f0 0.233 k   0.33 -> log1p 10.285 presses 12.9
+[shuffled_2] cfg  3 f0 0.851 k  18.26 -> log1p 10.870 presses 25.8
+[shuffled_2] cfg  4 f0 0.685 k  14.59 -> log1p 10.931 presses 28.3
+[shuffled_2] cfg  5 f0 0.635 k  18.70 -> log1p 11.018 presses 27.3
+[shuffled_2] cfg  6 f0 0.853 k   0.05 -> log1p 10.780 presses 20.8
+[shuffled_2] cfg  7 f0 0.886 k   0.67 -> log1p 10.776 presses 26.4
+[shuffled_2] cfg  8 f0 0.784 k   3.51 -> log1p 10.773 presses 27.6
+[shuffled_2] cfg  9 f0 0.891 k  10.83 -> log1p 10.834 presses 27.8
+[shuffled_2] cfg 10 f0 0.440 k   8.45 -> log1p 10.565 presses 21.8
+[shuffled_2] cfg 11 f0 0.223 k   2.49 -> log1p 10.658 presses 16.1
+[shuffled_2] cfg 12 f0 0.736 k  12.94 -> log1p 10.926 presses 26.7
+[shuffled_2] cfg 13 f0 0.692 k   7.67 -> log1p 10.690 presses 19.2
+[shuffled_2] cfg 14 f0 0.998 k  19.62 -> log1p 10.841 presses 23.5
+[shuffled_2] cfg 15 f0 0.748 k  13.01 -> log1p 10.816 presses 24.0
+[shuffled_2] cfg 16 f0 0.751 k   7.78 -> log1p 10.853 presses 25.8
+[shuffled_2] cfg 17 f0 0.308 k  14.43 -> log1p 10.656 presses 21.4
+[shuffled_2] cfg 18 f0 0.620 k   6.20 -> log1p 10.818 presses 24.2
+[shuffled_2] cfg 19 f0 0.589 k  17.79 -> log1p 10.814 presses 20.3
+[shuffled_2] cfg 20 f0 0.947 k   7.16 -> log1p 10.802 presses 23.2
+[shuffled_2] cfg 21 f0 0.657 k   6.44 -> log1p 10.982 presses 28.4
+[shuffled_2] cfg 22 f0 0.675 k   6.76 -> log1p 10.672 presses 24.0
+[shuffled_2] cfg 23 f0 0.513 k  17.81 -> log1p 10.941 presses 25.8
+[shuffled_2] cfg 24 f0 0.382 k  12.46 -> log1p 10.646 presses 19.7
+[shuffled_2] cfg 25 f0 0.267 k  16.65 -> log1p 10.657 presses 20.1
+[shuffled_2] cfg 26 f0 0.830 k   4.79 -> log1p 10.831 presses 23.8
+[shuffled_2] cfg 27 f0 0.901 k   1.17 -> log1p 10.808 presses 26.4
+[shuffled_2] cfg 28 f0 0.469 k   3.01 -> log1p 10.737 presses 18.2
+[shuffled_2] cfg 29 f0 0.560 k  15.93 -> log1p 10.892 presses 24.7
+[shuffled_2] cfg 30 f0 0.385 k   1.04 -> log1p 10.749 presses 19.8
+[shuffled_2] cfg 31 f0 0.524 k   3.97 -> log1p 10.555 presses 17.2
+[shuffled_2] cfg 32 f0 0.273 k  11.61 -> log1p 10.503 presses 16.9
+[shuffled_2] cfg 33 f0 0.439 k  13.44 -> log1p 10.744 presses 22.1
+[shuffled_2] cfg 34 f0 0.360 k  18.84 -> log1p 10.754 presses 24.2
+[shuffled_2] cfg 35 f0 0.492 k   2.11 -> log1p 10.620 presses 17.8
+[shuffled_2] cfg 36 f0 0.703 k  18.54 -> log1p 10.871 presses 21.9
+[shuffled_2] cfg 37 f0 0.552 k  19.09 -> log1p 10.860 presses 24.6
+[shuffled_2] cfg 38 f0 0.600 k   8.50 -> log1p 10.873 presses 23.6
+[shuffled_2] cfg 39 f0 0.696 k  19.90 -> log1p 10.862 presses 21.1
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+    return self.env.close()
+    return self.env.close()
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+    return self.env.close()
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+    return self.env.close()
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 453, in close
+    return self.env.close()
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+           ^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/pinball_env.py", line 458, in close
+    self._client.close()
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Users/seky/Developer/Git/3DPinball-step3/env_python/ipc_client.py", line 165, in close
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._sock.close()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 503, in close
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    self._real_close()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 497, in _real_close
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/gf_force/gf_body.py", line 138, in <lambda>
+    time.sleep(delay)
+    _ss.close(self)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/gf_force/gf_body.py", line 138, in <lambda>
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/gf_force/gf_body.py", line 138, in <lambda>
+    time.sleep(delay)
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/gf_force/gf_body.py", line 138, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/gf_force/gf_body.py", line 138, in <lambda>
+    time.sleep(delay)
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/gf_force/gf_body.py", line 138, in <lambda>
+                                             ^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-step3/agents/experiments/gf_force/gf_body.py", line 138, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+SystemExit: 0
+                                             ^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+SystemExit: 0
+SystemExit: 0
+SystemExit: 0
+SystemExit: 0
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+[shuffled_2] BEST {"f0": 0.5602714933194296, "k": 15.926485405745884, "log1p": 10.892205536683555, "presses": 24.6875}

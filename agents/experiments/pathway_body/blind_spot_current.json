@@ -1,0 +1,46 @@
+{
+ "which": "current",
+ "params": {
+  "R": 0.5405024362861096,
+  "v0": 5.439084017589386,
+  "s0": 0.1222658724467213,
+  "hold_max": 1,
+  "refractory": 1,
+  "g4": 0.5,
+  "g2": 0.7937005259840997,
+  "circuit_json": "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/pathway_body/gf_circuit.json",
+  "rho_target": 0.8,
+  "theta_on": 0.2674961219905688,
+  "theta_off": 0.20334209551521962
+ },
+ "static": {
+  "n": 9484,
+  "blind_frac_all": 0.04112188949810207,
+  "blind_frac_zone": 0.07339449541284404,
+  "blind_frac_centre": 0.1679160419790105,
+  "n_zone": 2398,
+  "n_centre": 667
+ },
+ "behavioural": {
+  "lives": 64,
+  "drains": 60,
+  "drains_reach": 60,
+  "unseen": 53,
+  "pct_unseen": 88.33333333333333,
+  "passes": 485,
+  "missed_passes": 57,
+  "pct_missed_passes": 11.75257731958763,
+  "drains_centre": [
+   26,
+   25
+  ],
+  "drains_flipper": [
+   32,
+   27
+  ],
+  "drains_outlane": [
+   2,
+   1
+  ]
+ }
+}
