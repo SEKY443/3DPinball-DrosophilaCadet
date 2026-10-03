@@ -1,0 +1,50 @@
+diff --git a/SpaceCadetPinball/winmain.cpp b/SpaceCadetPinball/winmain.cpp
+--- a/SpaceCadetPinball/winmain.cpp
++++ b/SpaceCadetPinball/winmain.cpp
+@@ -482,11 +482,20 @@
+ 
+ void winmain::RenderUi()
+ {
++	// 3DPinball-DrosophilaCadet: the browser build replaces the in-canvas ImGui main menu with an
++	// HTML menu bar (web/index.html), driven through pb_menu_command() in src_cpp/state_export_wasm.cpp.
++	// Native/headless builds keep the ImGui menu unchanged.
++#ifdef __EMSCRIPTEN__
++	constexpr bool nativeMenu = false;
++#else
++	constexpr bool nativeMenu = true;
++#endif
++
+ 	// Transparent menu bar with a button for preventing menu lockout.
+ 	ImGui::PushStyleColor(ImGuiCol_MenuBarBg, ImVec4{});
+ 	ImGui::PushStyleColor(ImGuiCol_WindowBg, ImVec4{});
+ 	ImGui::PushStyleVar(ImGuiStyleVar_WindowBorderSize, 0);
+-	if (!Options.ShowMenu && ImGui::BeginMainMenuBar())
++	if (nativeMenu && !Options.ShowMenu && ImGui::BeginMainMenuBar())
+ 	{
+ 		if (ImGui::MenuItem("Menu"))
+ 		{
+@@ -504,7 +513,7 @@
+ 		ImGui::ShowDemoWindow(&ShowImGuiDemo);
+ #endif
+ 
+-	if (Options.ShowMenu && ImGui::BeginMainMenuBar())
++	if (nativeMenu && Options.ShowMenu && ImGui::BeginMainMenuBar())
+ 	{
+ 		int currentMenuHeight = static_cast<int>(ImGui::GetWindowSize().y);
+ 		if (MainMenuHeight != currentMenuHeight)
+diff --git a/SpaceCadetPinball/fullscrn.cpp b/SpaceCadetPinball/fullscrn.cpp
+--- a/SpaceCadetPinball/fullscrn.cpp
++++ b/SpaceCadetPinball/fullscrn.cpp
+@@ -110,7 +110,12 @@
+ {
+ 	int width, height;
+ 	SDL_GetRendererOutputSize(winmain::Renderer, &width, &height);
++#ifdef __EMSCRIPTEN__
++	// 3DPinball-DrosophilaCadet: the browser build has no in-canvas menu (HTML menu bar instead).
++	int menuHeight = 0;
++#else
+ 	int menuHeight = options::Options.ShowMenu ? winmain::MainMenuHeight : 0;
++#endif
+ 	height -= menuHeight;
+ 	auto res = &resolution_array[resolution];
+ 	ScaleX = static_cast<float>(width) / res->TableWidth;

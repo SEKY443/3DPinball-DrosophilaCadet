@@ -1,0 +1,87 @@
+diff --git a/SpaceCadetPinball/high_score.h b/SpaceCadetPinball/high_score.h
+--- a/SpaceCadetPinball/high_score.h
++++ b/SpaceCadetPinball/high_score.h
+@@ -25,6 +25,17 @@ public:
+ 	static void show_high_score_dialog();
+ 	static void show_and_set_high_score_dialog(high_score_entry score);
+ 	static void RenderHighScoreDialog();
++
++#ifdef __EMSCRIPTEN__
++	// 3DPinball-DrosophilaCadet: browser build only. The page supplies the player name up front
++	// (pb_set_player_name) and a qualifying score is inserted directly, without the blocking in-canvas
++	// name-entry dialog, so unattended demo play never waits for a keyboard.
++	static char WasmPlayerName[32];
++	static int WasmCommitCount; // number of scores inserted by commit_score_direct()
++	static int WasmGameEndCount; // number of finished games (pb::end_game calls)
++	static int WasmLastScore; // player 1's final score of the last finished game
++	static bool commit_score_direct(high_score_struct entry);
++#endif
+ private:
+ 	static bool dlg_enter_name;
+ 	static high_score_entry DlgData;
+diff --git a/SpaceCadetPinball/high_score.cpp b/SpaceCadetPinball/high_score.cpp
+--- a/SpaceCadetPinball/high_score.cpp
++++ b/SpaceCadetPinball/high_score.cpp
+@@ -11,6 +11,12 @@ bool high_score::ShowDialog = false;
+ high_score_entry high_score::DlgData;
+ std::vector<high_score_entry> high_score::ScoreQueue;
+ high_score_struct high_score::highscore_table[5];
++#ifdef __EMSCRIPTEN__
++char high_score::WasmPlayerName[32] = {0};
++int high_score::WasmCommitCount = 0;
++int high_score::WasmGameEndCount = 0;
++int high_score::WasmLastScore = 0;
++#endif
+ 
+ int high_score::read()
+ {
+@@ -106,6 +112,18 @@ void high_score::place_new_score_into(high_score_entry data)
+ 	}
+ }
+ 
++#ifdef __EMSCRIPTEN__
++bool high_score::commit_score_direct(high_score_struct entry)
++{
++	auto position = get_score_position(entry.Score);
++	if (position < 0)
++		return false;
++	place_new_score_into({entry, position});
++	++WasmCommitCount;
++	return true;
++}
++#endif
++
+ void high_score::show_high_score_dialog()
+ {
+ 	ShowDialog = true;
+diff --git a/SpaceCadetPinball/pb.cpp b/SpaceCadetPinball/pb.cpp
+--- a/SpaceCadetPinball/pb.cpp
++++ b/SpaceCadetPinball/pb.cpp
+@@ -686,6 +686,10 @@ void pb::end_game()
+ 	int scoreIndex[4]{};
+ 
+ 	mode_change(GameModes::GameOver);
++#ifdef __EMSCRIPTEN__
++	++high_score::WasmGameEndCount; // the page records the finished game when this ticks (after the 3 s end-of-game timer)
++	high_score::WasmLastScore = MainTable->PlayerScores[0].ScoreStruct->Score;
++#endif
+ 	int playerCount = MainTable->PlayerCount;
+ 
+ 	score_struct_super* scorePtr = MainTable->PlayerScores;
+@@ -737,7 +741,16 @@ void pb::end_game()
+ 				}
+ 
+ 				strncpy(entry.Name, playerName, sizeof entry.Name - 1);
++#ifdef __EMSCRIPTEN__
++				// 3DPinball-DrosophilaCadet: browser build - no blocking name-entry dialog. Player 1 gets
++				// the name the page set through pb_set_player_name (if any); the entry goes straight into
++				// the table, which Game > High Scores then shows.
++				if (scoreIndex[i] == 0 && high_score::WasmPlayerName[0])
++					snprintf(entry.Name, sizeof entry.Name, "%s", high_score::WasmPlayerName);
++				high_score::commit_score_direct(entry);
++#else
+ 				high_score::show_and_set_high_score_dialog({entry, -1});
++#endif
+ 			}
+ 		}
+ 	}

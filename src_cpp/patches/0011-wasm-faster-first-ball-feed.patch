@@ -1,0 +1,17 @@
+diff --git a/SpaceCadetPinball/TPinballTable.cpp b/SpaceCadetPinball/TPinballTable.cpp
+--- a/SpaceCadetPinball/TPinballTable.cpp
++++ b/SpaceCadetPinball/TPinballTable.cpp
+@@ -457,6 +457,13 @@
+ 			auto time = loader::play_sound(SoundIndex1, nullptr, "TPinballTable2");
+ 			if (time < 0)
+ 				time = 5.0f;
++#ifdef __EMSCRIPTEN__
++			// 3DPinball-DrosophilaCadet: browser build only. The start jingle (~5 s) delays the first ball feed
++			// after New Game; cap it at 0.4 s so the first ball shows up ~1.4 s after New Game (0.4 s + the
++			// 0.96 s plunger feed timer). The engine still feeds exactly one ball - nothing is injected.
++			if (time > 0.4f)
++				time = 0.4f;
++#endif
+ 			LightShowTimer = timer::set(time, this, LightShow_timeout);
+ 		}
+ 

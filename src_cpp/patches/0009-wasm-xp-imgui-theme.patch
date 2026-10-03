@@ -1,0 +1,95 @@
+diff --git a/SpaceCadetPinball/winmain.cpp b/SpaceCadetPinball/winmain.cpp
+--- a/SpaceCadetPinball/winmain.cpp
++++ b/SpaceCadetPinball/winmain.cpp
+@@ -223,6 +223,73 @@
+ 		};
+ 		searchPaths.insert(searchPaths.end(), std::begin(PlatformDataPaths), std::end(PlatformDataPaths));
+ 		pb::SelectDatFile(searchPaths);
++#ifdef __EMSCRIPTEN__
++		// 3DPinball-DrosophilaCadet: browser build only - Windows XP (Luna) look for in-canvas dialogs.
++		{
++			auto rgb = [](unsigned hex) {
++				return ImVec4(((hex >> 16) & 0xFF) / 255.f, ((hex >> 8) & 0xFF) / 255.f, (hex & 0xFF) / 255.f, 1.f);
++			};
++			ImGuiStyle& xp = ImGui::GetStyle();
++			ImVec4* c = xp.Colors;
++			c[ImGuiCol_Text] = rgb(0x000000);
++			c[ImGuiCol_TextDisabled] = rgb(0x7F7F7F);
++			c[ImGuiCol_WindowBg] = rgb(0xECE9D8);
++			c[ImGuiCol_ChildBg] = rgb(0xECE9D8);
++			c[ImGuiCol_PopupBg] = rgb(0xFFFFFF);
++			c[ImGuiCol_Border] = rgb(0x0831D9);
++			c[ImGuiCol_BorderShadow] = ImVec4(0, 0, 0, 0);
++			c[ImGuiCol_FrameBg] = rgb(0xFFFFFF);
++			c[ImGuiCol_FrameBgHovered] = rgb(0xFFF0C1);
++			c[ImGuiCol_FrameBgActive] = rgb(0xFFE08A);
++			c[ImGuiCol_TitleBg] = rgb(0x7A96DF);
++			c[ImGuiCol_TitleBgActive] = rgb(0x0054E3);
++			c[ImGuiCol_TitleBgCollapsed] = rgb(0x7A96DF);
++			c[ImGuiCol_MenuBarBg] = rgb(0xECE9D8);
++			c[ImGuiCol_ScrollbarBg] = rgb(0xF3F1E6);
++			c[ImGuiCol_ScrollbarGrab] = rgb(0xC1D3FB);
++			c[ImGuiCol_ScrollbarGrabHovered] = rgb(0xA3BCF5);
++			c[ImGuiCol_ScrollbarGrabActive] = rgb(0x8DAAEF);
++			c[ImGuiCol_CheckMark] = rgb(0x21A121);
++			c[ImGuiCol_SliderGrab] = rgb(0x7A96DF);
++			c[ImGuiCol_SliderGrabActive] = rgb(0x0054E3);
++			c[ImGuiCol_Button] = rgb(0xF5F4EA);
++			c[ImGuiCol_ButtonHovered] = rgb(0xFFF0C1);
++			c[ImGuiCol_ButtonActive] = rgb(0xE1DCC6);
++			c[ImGuiCol_Header] = rgb(0x316AC5);
++			c[ImGuiCol_HeaderHovered] = rgb(0x4A80D6);
++			c[ImGuiCol_HeaderActive] = rgb(0x316AC5);
++			c[ImGuiCol_Separator] = rgb(0xACA899);
++			c[ImGuiCol_SeparatorHovered] = rgb(0x316AC5);
++			c[ImGuiCol_SeparatorActive] = rgb(0x0054E3);
++			c[ImGuiCol_ResizeGrip] = rgb(0xACA899);
++			c[ImGuiCol_ResizeGripHovered] = rgb(0x7A96DF);
++			c[ImGuiCol_ResizeGripActive] = rgb(0x0054E3);
++			c[ImGuiCol_Tab] = rgb(0xF5F4EA);
++			c[ImGuiCol_TabHovered] = rgb(0xFFF0C1);
++			c[ImGuiCol_TabActive] = rgb(0xFFFFFF);
++			c[ImGuiCol_TabUnfocused] = rgb(0xECE9D8);
++			c[ImGuiCol_TabUnfocusedActive] = rgb(0xF5F4EA);
++			c[ImGuiCol_TableHeaderBg] = rgb(0xECE9D8);
++			c[ImGuiCol_TableBorderStrong] = rgb(0xACA899);
++			c[ImGuiCol_TableBorderLight] = rgb(0xD8D2BD);
++			c[ImGuiCol_TableRowBg] = rgb(0xFFFFFF);
++			c[ImGuiCol_TableRowBgAlt] = rgb(0xF5F4EA);
++			c[ImGuiCol_TextSelectedBg] = rgb(0x316AC5);
++			c[ImGuiCol_NavHighlight] = rgb(0x316AC5);
++			c[ImGuiCol_ModalWindowDimBg] = ImVec4(0, 0, 0, 0.35f);
++			xp.WindowRounding = 4.0f;
++			xp.PopupRounding = 4.0f;
++			xp.ChildRounding = 0.0f;
++			xp.FrameRounding = 3.0f;
++			xp.GrabRounding = 3.0f;
++			xp.ScrollbarRounding = 3.0f;
++			xp.TabRounding = 3.0f;
++			xp.WindowBorderSize = 1.0f;
++			xp.FrameBorderSize = 1.0f;
++			xp.PopupBorderSize = 1.0f;
++			xp.WindowTitleAlign = ImVec2(0.0f, 0.5f);
++		}
++#endif
+ 
+ 		// Second step: run updates that depend on .DAT file selection
+ 		options::InitSecondary();
+diff --git a/SpaceCadetPinball/imgui.cpp b/SpaceCadetPinball/imgui.cpp
+--- a/SpaceCadetPinball/imgui.cpp
++++ b/SpaceCadetPinball/imgui.cpp
+@@ -6592,7 +6592,14 @@
+ 
+         // Title bar
+         if (!(flags & ImGuiWindowFlags_NoTitleBar))
++#ifdef __EMSCRIPTEN__
++            // 3DPinball-DrosophilaCadet: white title text and close button on the XP blue title bar.
++            PushStyleColor(ImGuiCol_Text, ImVec4(1.0f, 1.0f, 1.0f, 1.0f));
++#endif
+             RenderWindowTitleBarContents(window, ImRect(title_bar_rect.Min.x + window->WindowBorderSize, title_bar_rect.Min.y, title_bar_rect.Max.x - window->WindowBorderSize, title_bar_rect.Max.y), name, p_open);
++#ifdef __EMSCRIPTEN__
++            PopStyleColor();
++#endif
+ 
+         // Clear hit test shape every frame
+         window->HitTestHoleSize.x = window->HitTestHoleSize.y = 0;
