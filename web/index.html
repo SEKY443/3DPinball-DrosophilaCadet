@@ -3,7 +3,10 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>3DPinball-DrosophilaCadet</title>
+	<title>DrosophilaCadet</title>
+	<meta name="description" content="Watch a fly play 3DPinball">
+	<meta property="og:title" content="DrosophilaCadet">
+	<meta property="og:description" content="Watch a fly play 3DPinball">
 	<style>
 		:root {
 			--luna-title: linear-gradient(180deg, #0997ff 0%, #0053ee 8%, #0050ee 40%, #0066ff 88%, #0066ff 93%, #005bff 95%, #003dd7 96%, #003dd7 100%);
@@ -12,22 +15,21 @@
 			--luna-border-inactive: #6f86d8;
 			--face: #ece9d8;
 			--face-dark: #aca899;
+			/* Original Windows XP UI fonts via system font stacks only (no font files are shipped). */
+			--font-ui: Tahoma, Verdana, "Segoe UI", sans-serif;
+			--font-title: "Trebuchet MS", Tahoma, Verdana, sans-serif;
+			--font-mono: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 		}
 		* { box-sizing: border-box; }
 		html, body { height: 100%; margin: 0; overflow: hidden; }
 		body {
-			font-family: Tahoma, "Segoe UI", Verdana, sans-serif;
+			font-family: var(--font-ui);
 			font-size: 11px;
 			color: #000;
-			/* Grassy-hill-and-sky desktop, drawn with gradients only (no image assets). */
-			background:
-				radial-gradient(ellipse 140% 55% at 30% 100%, #4f9a2b 0%, #5aa531 35%, #6bb53d 55%, transparent 56%),
-				radial-gradient(ellipse 120% 50% at 85% 100%, #3f8a22 0%, #4d9a2a 45%, transparent 46%),
-				radial-gradient(ellipse 60% 18% at 25% 22%, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0) 70%),
-				radial-gradient(ellipse 40% 12% at 70% 15%, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 70%),
-				linear-gradient(180deg, #2a6fd6 0%, #4f94ea 35%, #8cc2f5 62%, #b9dcf7 72%);
-			background-color: #4f94ea;
+			/* Desktop wallpaper: the XP "Bliss" photo (web/bliss.jpg), plain blue until it has loaded. */
+			background: #3a6ea5 url("./bliss.jpg?v=1") center / cover no-repeat;
 		}
+		button, input, select, textarea { font-family: var(--font-ui); font-size: 11px; }
 
 		#desktop { position: absolute; inset: 0; }
 
@@ -43,126 +45,349 @@
 		}
 		.xp-window.inactive { border-color: var(--luna-border-inactive); }
 		.xp-window.hidden { display: none; }
-		/* Minimize rolls the window up to its title bar (there is no taskbar to restore from). */
-		.xp-window.rolled > :not(.title-bar) { display: none; }
-		.xp-window.rolled { height: auto !important; }
-		.xp-window.maximized { left: 0 !important; top: 0 !important; width: 100% !important; height: 100% !important; border-radius: 0; }
 		.title-bar {
 			height: 29px; flex: 0 0 auto;
-			display: flex; align-items: center; gap: 4px;
+			display: flex; align-items: center; gap: 2px;
 			padding: 0 4px 0 6px;
 			background: var(--luna-title);
 			border-radius: 7px 7px 0 0;
 			margin: 0 -3px;
 			color: #fff;
-			font-family: "Trebuchet MS", Tahoma, sans-serif; font-weight: bold; font-size: 13px;
+			font-family: var(--font-title); font-weight: bold; font-size: 13px;
 			text-shadow: 1px 1px #0f1089;
 			cursor: default; user-select: none; touch-action: none;
 		}
 		.xp-window.inactive .title-bar { background: var(--luna-title-inactive); color: #d8e4f8; text-shadow: none; }
-		.title-bar .t-icon { width: 16px; height: 16px; border-radius: 3px; flex: 0 0 auto; }
-		.title-bar .t-text { flex: 1 1 auto; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+		.title-bar .t-icon { width: 16px; height: 16px; flex: 0 0 auto; display: block; margin-right: 4px; }
+		.title-bar .t-text { flex: 1 1 auto; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-right: 2px; }
+		/* Title-bar buttons (Luna): 21x21 glossy rounded squares with a white border, glyphs are inline SVG (decorative, no button does anything). */
 		.tb-btn {
-			width: 21px; height: 21px; flex: 0 0 auto;
+			position: relative; width: 21px; height: 21px; flex: 0 0 auto; padding: 0;
 			border: 1px solid #fff; border-radius: 3px;
-			background: linear-gradient(180deg, #3c8cff 0%, #2669e6 45%, #1f5ad4 100%);
-			color: #fff; font: bold 13px/17px Tahoma, sans-serif; text-align: center; padding: 0;
-			box-shadow: inset 0 0 1px rgba(255,255,255,0.7);
-			cursor: pointer;
+			background:
+				radial-gradient(ellipse 80% 65% at 25% 18%, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 100%),
+				linear-gradient(135deg, #4c8ef7 0%, #2a5fd8 55%, #1c48c2 100%);
+			box-shadow: inset 0 0 2px rgba(255,255,255,0.55), inset -1px -1px 1px rgba(0,0,40,0.25);
+			font-size: 0; color: transparent; cursor: default;
 		}
-		.tb-btn:hover { filter: brightness(1.15); }
-		.tb-btn.close { background: linear-gradient(180deg, #e88d76 0%, #d9472b 40%, #c4381d 100%); }
-		.xp-window.inactive .tb-btn { opacity: 0.75; }
+		.tb-btn svg { position: absolute; left: 0; top: 0; width: 19px; height: 19px; display: block; pointer-events: none; overflow: visible; }
+		.tb-btn svg .g-fill { fill: #fff; }
+		.tb-btn svg .g-line { fill: none; stroke: #fff; }
+		.tb-btn.close {
+			background:
+				radial-gradient(ellipse 80% 65% at 25% 18%, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 100%),
+				linear-gradient(135deg, #e8805e 0%, #d5512e 55%, #c13c1b 100%);
+		}
+		.xp-window.inactive .tb-btn { filter: saturate(0.5) brightness(1.2); }
 		.menu-bar { display: flex; gap: 2px; padding: 2px 2px; border-bottom: 1px solid #d4d0c8; flex: 0 0 auto; }
 		.menu-bar span, .menu-bar a { padding: 2px 6px; color: #000; text-decoration: none; }
 		.menu-bar a:hover, .menu-bar span:hover { background: #316ac5; color: #fff; }
 		.window-body { flex: 1 1 auto; overflow: auto; background: #fff; margin: 0; }
 		.window-body.face { background: var(--face); }
-		.status-bar {
-			flex: 0 0 auto; display: flex; gap: 2px; padding: 2px; background: var(--face);
-			border-top: 1px solid #fff;
-		}
-		.status-bar > * {
-			border: 1px solid; border-color: var(--face-dark) #fff #fff var(--face-dark);
-			padding: 1px 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-		}
 
 		/* game window */
-		#win-game .window-body { background: #000; display: flex; align-items: center; justify-content: center; }
-		#canvas { display: block; background: #000; }
-		#manual-label { display: flex; align-items: center; gap: 4px; cursor: pointer; }
+		#win-game .window-body { background: #000; display: flex; align-items: center; justify-content: center; position: relative; }
+		/* Fixed CSS size: SDL/Emscripten rewrites the canvas backing size (and on HiDPI its pixel size) while the
+		   engine starts, which otherwise made the game window grow and then shrink back during the splash. */
+		#canvas { display: block; background: #000; width: 640px; height: 480px; }
+		/* Splash screen: the original 3D Pinball splash bitmap in an XP-style raised frame, centred over the canvas
+		   area until bridge.js has the engine running (then it fades out). */
+		#splash { position: absolute; inset: 0; z-index: 20; display: flex; align-items: center; justify-content: center;
+			background: #000; opacity: 1; transition: opacity 0.5s ease; }
+		#splash.fade { opacity: 0; pointer-events: none; }
+		#splash.gone { display: none; }
+		#splash .splash-frame { padding: 6px 6px 3px; background: var(--face);
+			border: 2px solid; border-color: #fff #404040 #404040 #fff; box-shadow: 0 0 0 1px #aca899, 3px 4px 10px rgba(0,0,0,0.6); }
+		#splash img { display: block; width: 320px; height: 222px; border: 1px solid; border-color: #808080 #fff #fff #808080; }
+		#splash .splash-status { height: 14px; margin-top: 3px; font: 10px/14px var(--font-ui); color: #6d6a5c; text-align: right;
+			white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+		/* XP text views always show the vertical scrollbar, even when the content fits (Notepad text wraps, so no horizontal bar). */
+		#win-notes .notes-body { position: relative; overflow: hidden; padding-right: 17px; }
+		/* XP Luna scrollbars drawn as DOM (xp_scrollbar.js): Orion/Safari ignore styled native scrollbars. */
+		.xp-sb { position: absolute; display: flex; background: linear-gradient(90deg, #eeede5, #fbfbf8 60%, #f3f1e7); z-index: 2; }
+		.xp-sb.v { top: 0; right: 0; bottom: 0; width: 17px; flex-direction: column; }
+		.xp-sb.h { left: 0; right: 0; bottom: 0; height: 17px; flex-direction: row;
+			background: linear-gradient(180deg, #eeede5, #fbfbf8 60%, #f3f1e7); }
+		.xp-sb.v.with-h { bottom: 17px; } .xp-sb.h.with-v { right: 17px; }
+		.xp-sb-corner { position: absolute; right: 0; bottom: 0; width: 17px; height: 17px; background: #ece9d8; z-index: 2; }
+		.xp-sb-btn { flex: 0 0 17px; width: 17px; height: 17px; box-sizing: border-box; display: flex; align-items: center;
+			justify-content: center; border: 1px solid #fff; border-radius: 2px; box-shadow: inset 0 0 0 1px #b4c8f6;
+			background: linear-gradient(135deg, #dbe6fe 0%, #c4d4fb 50%, #b9cbf8 100%); }
+		.xp-sb-track { position: relative; flex: 1 1 auto; }
+		.xp-sb-thumb { position: absolute; box-sizing: border-box; display: flex; align-items: center; justify-content: center;
+			gap: 2px; border: 1px solid #fff; border-radius: 2px; box-shadow: inset 0 0 0 1px #a9bff5; }
+		.xp-sb.v .xp-sb-thumb { left: 0; right: 0; flex-direction: column;
+			background: linear-gradient(90deg, #cfdcfd 0%, #bccefb 50%, #b0c5f7 100%); }
+		.xp-sb.h .xp-sb-thumb { top: 0; bottom: 0; flex-direction: row;
+			background: linear-gradient(180deg, #cfdcfd 0%, #bccefb 50%, #b0c5f7 100%); }
+		.xp-sb.v .xp-sb-thumb span { display: block; width: 7px; height: 1px; background: #eef3ff; box-shadow: 0 1px 0 #8faaee; }
+		.xp-sb.h .xp-sb-thumb span { display: block; width: 1px; height: 7px; background: #eef3ff; box-shadow: 1px 0 0 #8faaee; }
+		/* Disabled (content fits): XP greys the bar out - pale buttons, grey arrows, no thumb. */
+		.xp-sb.disabled .xp-sb-thumb { display: none; }
+		.xp-sb.disabled .xp-sb-btn { box-shadow: inset 0 0 0 1px #e2e0d6; background: linear-gradient(135deg, #f8f7f2, #eeede6); }
+		.xp-sb.disabled .xp-sb-btn path { stroke: #c4c2b8; }
+		/* Score History list: native bar hidden, xp_scrollbar.js draws a live one next to it. */
+		.sh-list-wrap { position: relative; flex: 1 1 auto; min-height: 0; border: 1px solid #7f9db9; background: #fff; }
+		.sh-list-wrap .sh-list { position: absolute; inset: 0 17px 0 0; border: 0; overflow-y: auto; scrollbar-width: none; }
+		.sh-list-wrap .sh-list::-webkit-scrollbar { display: none; }
+		.notes-text { margin: 0; padding: 6px 8px; font: 13px var(--font-mono); white-space: pre-wrap; }
+		#dash-body { display: flex; flex-direction: column; background: var(--face); }
 
+		/* Score History window (score_history.js) */
+		#stats-body { display: flex; flex-direction: column; padding: 4px; gap: 4px; overflow: hidden; }
+		.sh-top { flex: 0 0 auto; background: #fff; border: 1px solid #7f9db9; }
+		.sh-heading { padding: 1px 6px; font-weight: bold; background: linear-gradient(180deg, #fdfdfd, #e6e2cf); border-bottom: 1px solid #aca899; }
+		.sh-list { flex: 1 1 auto; min-height: 0; overflow-y: scroll; background: #fff; border: 1px solid #7f9db9; }
+		.sh-table { width: 100%; border-collapse: collapse; table-layout: fixed; font: 11px var(--font-ui); }
+		.sh-table th, .sh-table td { padding: 1px 6px; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+		.sh-table th.num, .sh-table td.num { text-align: right; }
+		.sh-table th.mark, .sh-table td.mark { text-align: center; color: #c58a00; }
+		.sh-list-table thead th { position: sticky; top: 0; background: linear-gradient(180deg, #fdfdfd, #e6e2cf); border-right: 1px solid #aca899; border-bottom: 1px solid #aca899; font-weight: normal; }
+		.sh-top-table thead { display: none; }
+		.sh-top-table td:first-child { width: 22px; }
+		.sh-list-table th:nth-child(1) { width: 44px; }
+		.sh-list-table th:nth-child(3) { width: 74px; }
+		.sh-list-table th:nth-child(4) { width: 76px; }
+		.sh-list-table th:nth-child(5) { width: 28px; }
+		.sh-table tbody tr:nth-child(even) { background: #f5f4ea; }
+		.sh-table td.empty { text-align: center; color: #7f7f7f; padding: 8px; }
+		.sh-table tbody tr:first-child td:not(.empty) { }
+
+		/* XP Luna scrollbars (WebKit/Blink), with the standard properties as a Firefox fallback. */
+		/* Firefox only: in Chrome/Safari, setting the standard scrollbar-color/-width disables every ::-webkit-scrollbar
+		   rule below (and macOS then shows hidden overlay scrollbars), so the standard properties are scoped to Gecko. */
+		@supports (-moz-appearance: none) { * { scrollbar-color: #c1d2f5 #f3f1ea; scrollbar-width: auto; } }
+		::-webkit-scrollbar { width: 17px; height: 17px; background: #f3f1ea; }
+		::-webkit-scrollbar-track { background: #f3f1ea; border-left: 1px solid #e3e0d4; }
+		::-webkit-scrollbar-corner { background: #ece9d8; }
+		::-webkit-scrollbar-thumb { border: 1px solid #fff; border-radius: 3px; box-shadow: inset 0 0 0 1px #8aa4d8;
+			background: linear-gradient(90deg, #cfdcfb 0%, #b4c8f4 45%, #a4baee 100%); }
+		::-webkit-scrollbar-thumb:horizontal { background: linear-gradient(180deg, #cfdcfb 0%, #b4c8f4 45%, #a4baee 100%); }
+		::-webkit-scrollbar-thumb:hover { filter: brightness(1.06); }
+		::-webkit-scrollbar-button:single-button { display: block; width: 17px; height: 17px; background-color: #c8d7fa;
+			border: 1px solid #fff; box-shadow: inset 0 0 0 1px #8aa4d8; background-repeat: no-repeat; background-position: center; }
+		::-webkit-scrollbar-button:single-button:hover { background-color: #d8e4fd; }
+		::-webkit-scrollbar-button:single-button:vertical:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Cpath d='M3.5 9.5 L7 6 L10.5 9.5' fill='none' stroke='%232b57c9' stroke-width='2'/%3E%3C/svg%3E"); }
+		::-webkit-scrollbar-button:single-button:vertical:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Cpath d='M3.5 5.5 L7 9 L10.5 5.5' fill='none' stroke='%232b57c9' stroke-width='2'/%3E%3C/svg%3E"); }
+		::-webkit-scrollbar-button:single-button:horizontal:decrement { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Cpath d='M9.5 3.5 L6 7 L9.5 10.5' fill='none' stroke='%232b57c9' stroke-width='2'/%3E%3C/svg%3E"); }
+		::-webkit-scrollbar-button:single-button:horizontal:increment { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Cpath d='M5.5 3.5 L9 7 L5.5 10.5' fill='none' stroke='%232b57c9' stroke-width='2'/%3E%3C/svg%3E"); }
+		/* Phones / narrow screens (html.mobile, set by the window manager): no free-floating desktop - the windows
+		   stack vertically in a scrollable column at full width; the game canvas scales with its aspect ratio. */
+		html.mobile, html.mobile body { height: auto; min-height: 100%; overflow-x: hidden; overflow-y: auto; }
+		/* Phones: the wallpaper is a fixed, viewport-sized layer cropped with "cover" (background-attachment: fixed is
+		   ignored on iOS, which stretched Bliss over the whole scroll height); native scrollbars are hidden. */
+		html.mobile body { background: #3a6ea5; }
+		html.mobile body::before { content: ""; position: fixed; inset: 0; z-index: -1;
+			background: #3a6ea5 url("./bliss.jpg?v=1") center / cover no-repeat; }
+		html.mobile, html.mobile * { scrollbar-width: none; }
+		html.mobile ::-webkit-scrollbar { display: none; width: 0; height: 0; }
+		/* The drawn XP scrollbars stay (they are part of the look); only the browser's own bars are hidden. */
+		/* Paint goes first in the phone column, above the game window. */
+		html.mobile #win-paint { order: -1; }
+		/* The engine (Emscripten SDL) listens for touches on the canvas and cancels them, so a swipe that starts on the
+		   game picture could not scroll the page. On phones the game is driven by the touch pad, not by touching the
+		   canvas, so the canvas ignores touches and the page scrolls through it. */
+		html.mobile #canvas { pointer-events: none; touch-action: pan-y; }
+		/* Phones: Notepad grows with its (wrapped) text instead of keeping the desktop height and cutting it off. */
+		html.mobile #win-notes { height: auto !important; }
+		html.mobile #win-notes .notes-body { overflow: visible; flex: 0 0 auto; }
+		/* Phones: the Fly Brain Monitor stacks its group boxes in one column (desktop is a 2-column grid sized to the
+		   window) and grows with its content; graphs get a fixed height so nothing overlaps. */
+		html.mobile #win-dash { height: auto !important; }
+		html.mobile #win-dash .window-body { overflow: visible !important; }
+		html.mobile #win-dash .window-body > div { position: static !important; height: auto !important; }
+		html.mobile .dash { position: relative !important; inset: auto !important; display: flex !important;
+			flex-direction: column; gap: 14px; overflow: visible !important; }
+		html.mobile .dash .stats { flex-wrap: wrap; row-gap: 6px; }
+		html.mobile .dash .stats .stat { flex: 1 1 40%; }
+		html.mobile .dash .gb { height: 210px; flex: 0 0 auto; }
+		html.mobile .dash .stats.gb { height: auto; }
+		html.mobile .dash .bottom { display: flex !important; flex-direction: column; gap: 14px; }
+		html.mobile .dash .bottom .gb { height: auto; min-height: 118px; }
+		html.mobile .dash .bars.two { grid-template-columns: 1fr; }
+		html.mobile .dash .legend { flex-wrap: wrap; height: auto; }
+		/* Touch controls for Manual Play on phones (bridge.js shows them only in mobile layout + Manual Play). */
+		#touch-pad { position: fixed; left: 0; right: 0; bottom: 0; z-index: 100000; display: none; gap: 8px;
+			padding: 8px 8px calc(8px + env(safe-area-inset-bottom)); background: rgba(236,233,216,0.92);
+			border-top: 1px solid #fff; box-shadow: 0 -1px 0 #aca899; touch-action: none; user-select: none;
+			-webkit-user-select: none; -webkit-touch-callout: none; }
+		#touch-pad.show { display: flex; }
+		#touch-pad button { flex: 1 1 0; height: 64px; font: bold 13px var(--font-ui, Tahoma, sans-serif); color: #000;
+			background: linear-gradient(180deg, #fff, #ece9d8); border: 1px solid #003c74; border-radius: 4px;
+			box-shadow: inset -1px -1px 0 #c3c3c3; touch-action: none; }
+		#touch-pad button.launch { flex: 0 0 72px; }
+		#touch-pad button.down { background: linear-gradient(180deg, #e3e3db, #fff); box-shadow: inset 1px 1px 0 #9d9d92; }
+		html.mobile.touch-pad-on #desktop { padding-bottom: 96px; }
+		html.mobile #desktop { position: static; display: flex; flex-direction: column; gap: 10px; padding: 8px; }
+		html.mobile .xp-window { position: relative; left: auto !important; top: auto !important; width: auto !important;
+			max-width: 100%; z-index: auto !important; }
+		html.mobile .xp-window .window-body { overflow: auto; }
+		html.mobile #canvas { width: 100%; height: auto; aspect-ratio: 4 / 3; }
+		/* XP message box on phones: the page is best on a PC. */
+		#pc-tip { position: fixed; inset: 0; z-index: 200000; display: none; align-items: center; justify-content: center;
+			background: rgba(0,0,0,0.25); }
+		#pc-tip.show { display: flex; }
+		#pc-tip .xp-window { position: relative; width: min(320px, 90vw); }
+		#pc-tip .tip-body { display: flex; gap: 10px; align-items: flex-start; padding: 12px 12px 6px; font: 11px/1.4 var(--font-ui); }
+		#pc-tip .tip-actions { display: flex; justify-content: center; padding: 6px 0 10px; }
+		#pc-tip button { min-width: 75px; height: 23px; font: 11px var(--font-ui); background: linear-gradient(180deg, #fff, #ece9d8);
+			border: 1px solid #003c74; border-radius: 3px; }
+		/* "Low-res" mode (default): an early-2000s look on today's HiDPI screens - text is not anti-aliased and images
+		   scale with hard pixels. On top of that, supported browsers get a per-window SVG pixel filter (see below,
+		   not a full-page one). "i wanna retina display" in Notepad turns it off. */
+		html.lowres body { -webkit-font-smoothing: none; font-smooth: never; text-rendering: optimizeSpeed; }
+		html.lowres img, html.lowres canvas { image-rendering: pixelated; }
+		/* Pixel filter on Blink (Chrome/Edge/Brave/Opera) and Firefox, 2x screens only. WebKit (Safari, Orion) blanks
+		   SVG-filtered HTML, so it gets the plain low-res look instead. Every window gets it except the
+		   game picture itself (only the game window's title bar, menu and dialogs are filtered). */
+		html.lowres-filter #win-dash, html.lowres-filter #win-notes, html.lowres-filter #win-stats, html.lowres-filter #win-paint,
+		html.lowres-filter #win-game .title-bar, html.lowres-filter #game-menubar .mb-top,
+		html.lowres-filter .xp-dialog, html.lowres-filter .xp-dropdown { filter: url(#lowres); }
+		.notes-toggle { color: #0000ee; text-decoration: underline; cursor: pointer; }
 	</style>
 </head>
 <body>
-	<div id="desktop">
-		<!-- Game window: keeps every element id bridge.js looks up (canvas, status, score, ball-info, flippers, manual-play). -->
-		<section class="xp-window" id="win-game" data-title="3D Pinball - Fly Brain Cadet" data-color="#e07aa0" style="left: 120px; top: 24px;">
-			<div class="title-bar">
-				<span class="t-icon" style="background: radial-gradient(circle at 35% 35%, #ffd6e4, #e07aa0 60%, #b04574);"></span>
-				<span class="t-text">3D Pinball - Fly Brain Cadet</span>
-				<button class="tb-btn min" title="Minimize" aria-label="Minimize">_</button>
-				<button class="tb-btn max" title="Maximize" aria-label="Maximize">□</button>
-				<button class="tb-btn close" title="Close" aria-label="Close">×</button>
+	<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+		<!-- Sample-and-hold pixelation for 2x screens: keep the top-left device pixel of every 1x1 CSS-px cell, then
+		     copy it right, down and diagonally so it fills its own cell exactly. Only enabled on Blink (see below). -->
+		<!-- The filter region is wider/taller than the element so nested dropdown submenus (e.g. Select Players) are not clipped. -->
+		<filter id="lowres" x="0" y="0" width="300%" height="200%" color-interpolation-filters="sRGB">
+			<feFlood x="0" y="0" width="0.5" height="0.5" flood-color="#000"/>
+			<feComposite width="1" height="1"/>
+			<feTile result="grid"/>
+			<feComposite in="SourceGraphic" in2="grid" operator="in" result="dots"/>
+			<feOffset in="dots" dx="0.5" dy="0" result="r"/>
+			<feOffset in="dots" dx="0" dy="0.5" result="d"/>
+			<feOffset in="dots" dx="0.5" dy="0.5" result="rd"/>
+			<feMerge><feMergeNode in="dots"/><feMergeNode in="r"/><feMergeNode in="d"/><feMergeNode in="rd"/></feMerge>
+		</filter>
+	</svg>
+	<div id="pc-tip" role="dialog" aria-modal="true" aria-labelledby="pc-tip-title">
+		<section class="xp-window">
+			<div class="title-bar"><span class="t-text" id="pc-tip-title">Drosophila Cadet</span></div>
+			<div class="tip-body">
+				<svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="#2f6bd8" stroke="#fff" stroke-width="2"/><rect x="14.5" y="13" width="3" height="11" fill="#fff"/><circle cx="16" cy="9" r="2" fill="#fff"/></svg>
+				<div>Drosophila Cadet works on phones, but it is best watched on a PC: open it on a computer for the full desktop experience.<br><br>Some features may not work properly on phones.</div>
 			</div>
-			<nav class="menu-bar" id="brain-select" aria-label="Brain">
-				<span>Brain: 444-neuron fly circuit (popcode, lead-trained)</span>
-			</nav>
+			<div class="tip-actions"><button type="button" id="pc-tip-ok">OK</button></div>
+		</section>
+	</div>
+	<div id="desktop">
+		<!-- Game window: menu bar (built by xp_menu.js) + canvas. The status line lives in the Fly Brain Monitor window. -->
+		<section class="xp-window" id="win-game" data-title="3D Pinball Drosophila Cadet" data-color="#e07aa0" style="left: 125px; top: 24px;">
+			<div class="title-bar">
+				<svg class="t-icon" viewBox="0 0 16 16" aria-hidden="true"><defs><radialGradient id="ic-ball" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="#fff"/><stop offset="0.45" stop-color="#b9c6e0"/><stop offset="1" stop-color="#3d5a9a"/></radialGradient></defs><polygon points="8,0.3 9.6,3.4 13.2,2.2 11.8,5.6 15.6,6.8 12,8.4 13.6,11.8 10,10.4 8.6,14 7.4,10.6 3.8,12.2 5.2,8.8 1.2,7.4 5,5.8 3.4,2.4 6.8,3.8" fill="#f2c200" stroke="#d02010" stroke-width="0.6"/><circle cx="8" cy="8" r="4.6" fill="url(#ic-ball)" stroke="#2a3f6e" stroke-width="0.7"/><circle cx="6.5" cy="6.4" r="1.2" fill="#fff" opacity="0.9"/></svg>
+				<span class="t-text">3D Pinball Drosophila Cadet</span>
+				<button class="tb-btn min" title="Minimize" aria-label="Minimize"><svg viewBox="0 0 19 19" aria-hidden="true"><rect class="g-fill" x="4" y="12" width="7" height="3"/></svg></button>
+				<button class="tb-btn max" title="Maximize" aria-label="Maximize"><svg viewBox="0 0 19 19" aria-hidden="true"><rect class="g-line" x="4.5" y="4.5" width="10" height="10" stroke-width="1"/><rect class="g-fill" x="4" y="4" width="11" height="3"/></svg></button>
+				<button class="tb-btn close" title="Close" aria-label="Close"><svg viewBox="0 0 19 19" aria-hidden="true"><path class="g-line" d="M5 5 L14 14 M14 5 L5 14" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+			</div>
+			<nav id="game-menubar" aria-label="Game menu"></nav>
 			<div class="window-body">
 				<canvas id="canvas" width="640" height="480" tabindex="-1"></canvas>
-			</div>
-			<div class="status-bar" id="hud">
-				<span id="status">Loading...</span>
-				<span id="score"></span>
-				<span id="ball-info"></span>
-				<span id="flippers"></span>
-				<label id="manual-label"><input type="checkbox" id="manual-play" /> Manual (Z / slash)</label>
+				<div id="splash" aria-label="Loading 3D Pinball">
+					<div class="splash-frame">
+						<img src="./splash.png?v=1" alt="3D Pinball" width="320" height="222" />
+						<div class="splash-status" id="splash-status">Loading...</div>
+					</div>
+				</div>
 			</div>
 		</section>
 
 		<!-- Placeholder windows, intentionally empty for now. -->
-		<section class="xp-window inactive" id="win-dash" data-title="Fly Brain Monitor" data-color="#5aa531" style="left: 800px; top: 24px; width: 660px; height: 520px;">
+		<section class="xp-window inactive" id="win-dash" data-title="Fly Brain Monitor" data-color="#5aa531" style="left: 694px; top: 11px; width: 658px; height: 452px;">
 			<div class="title-bar">
-				<span class="t-icon" style="background: linear-gradient(180deg, #b8f0a0, #4c9e2f);"></span>
+				<svg class="t-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2.2 C6.4 0.8 3.6 1.4 3 3.4 C1.4 3.8 0.8 5.6 1.8 6.8 C1 8.2 1.6 9.8 2.8 10.2 C3 11.8 4.6 12.6 5.8 12 C6.4 13.4 7.4 13.6 8 13.6 C8.6 13.6 9.6 13.4 10.2 12 C11.4 12.6 13 11.8 13.2 10.2 C14.4 9.8 15 8.2 14.2 6.8 C15.2 5.6 14.6 3.8 13 3.4 C12.4 1.4 9.6 0.8 8 2.2 Z" fill="#f4a3c0" stroke="#b04574" stroke-width="0.8"/><path d="M8 2.6 V13 M4.2 4.6 C5.4 5 5.6 6.4 4.6 7.2 M11.8 4.6 C10.6 5 10.4 6.4 11.4 7.2 M4 9.6 C5.2 9.2 6 9.8 6.2 10.8 M12 9.6 C10.8 9.2 10 9.8 9.8 10.8" fill="none" stroke="#b04574" stroke-width="0.8" stroke-linecap="round"/><rect x="7" y="13.6" width="2" height="1.8" fill="#d9889f"/></svg>
 				<span class="t-text">Fly Brain Monitor</span>
-				<button class="tb-btn min" title="Minimize" aria-label="Minimize">_</button>
-				<button class="tb-btn max" title="Maximize" aria-label="Maximize">□</button>
-				<button class="tb-btn close" title="Close" aria-label="Close">×</button>
+				<button class="tb-btn min" title="Minimize" aria-label="Minimize"><svg viewBox="0 0 19 19" aria-hidden="true"><rect class="g-fill" x="4" y="12" width="7" height="3"/></svg></button>
+				<button class="tb-btn max" title="Maximize" aria-label="Maximize"><svg viewBox="0 0 19 19" aria-hidden="true"><rect class="g-line" x="4.5" y="4.5" width="10" height="10" stroke-width="1"/><rect class="g-fill" x="4" y="4" width="11" height="3"/></svg></button>
+				<button class="tb-btn close" title="Close" aria-label="Close"><svg viewBox="0 0 19 19" aria-hidden="true"><path class="g-line" d="M5 5 L14 14 M14 5 L5 14" stroke-width="2.4" stroke-linecap="round"/></svg></button>
 			</div>
-			<div class="window-body"></div>
+			<div class="window-body" id="dash-body">
+				<!-- brain_dashboard.js builds the dashboard here. -->
+				<input type="checkbox" id="manual-play" hidden />
+			</div>
 		</section>
 
-		<section class="xp-window inactive" id="win-stats" data-title="Score History" data-color="#f0a030" style="left: 800px; top: 560px; width: 360px; height: 200px;">
+		<section class="xp-window inactive" id="win-stats" data-title="Score History" data-color="#f0a030" style="left: 483px; top: 522px; width: 480px; height: 420px;">
 			<div class="title-bar">
-				<span class="t-icon" style="background: linear-gradient(180deg, #ffe0a0, #e0901c);"></span>
+				<svg class="t-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 1.5 H12 V6 C12 8.4 10.2 9.8 8 9.8 C5.8 9.8 4 8.4 4 6 Z" fill="#f6c42c" stroke="#a86a00" stroke-width="0.8"/><path d="M4 2.8 H1.8 C1.8 5.6 2.8 6.8 4.4 7 M12 2.8 H14.2 C14.2 5.6 13.2 6.8 11.6 7" fill="none" stroke="#a86a00" stroke-width="1"/><rect x="7.2" y="9.8" width="1.6" height="2.4" fill="#d89a10"/><rect x="4.6" y="12.2" width="6.8" height="2.4" rx="0.5" fill="#f6c42c" stroke="#a86a00" stroke-width="0.8"/></svg>
 				<span class="t-text">Score History</span>
-				<button class="tb-btn min" title="Minimize" aria-label="Minimize">_</button>
-				<button class="tb-btn max" title="Maximize" aria-label="Maximize">□</button>
-				<button class="tb-btn close" title="Close" aria-label="Close">×</button>
+				<button class="tb-btn min" title="Minimize" aria-label="Minimize"><svg viewBox="0 0 19 19" aria-hidden="true"><rect class="g-fill" x="4" y="12" width="7" height="3"/></svg></button>
+				<button class="tb-btn max" title="Maximize" aria-label="Maximize"><svg viewBox="0 0 19 19" aria-hidden="true"><rect class="g-line" x="4.5" y="4.5" width="10" height="10" stroke-width="1"/><rect class="g-fill" x="4" y="4" width="11" height="3"/></svg></button>
+				<button class="tb-btn close" title="Close" aria-label="Close"><svg viewBox="0 0 19 19" aria-hidden="true"><path class="g-line" d="M5 5 L14 14 M14 5 L5 14" stroke-width="2.4" stroke-linecap="round"/></svg></button>
 			</div>
-			<div class="window-body"></div>
+			<div class="window-body face" id="stats-body"></div>
 		</section>
 
-		<section class="xp-window inactive" id="win-notes" data-title="notes.txt - Notepad" data-color="#d8cf86" style="left: 160px; top: 560px; width: 420px; height: 170px;">
+		<section class="xp-window inactive" id="win-notes" data-title="YouCanDragTheWindowsJustLike20yrsAgo.txt - Notepad" data-color="#d8cf86" style="left: 908px; top: 463px; width: 520px; height: 540px;">
 			<div class="title-bar">
-				<span class="t-icon" style="background: linear-gradient(180deg, #fffbe0, #e6d890);"></span>
-				<span class="t-text">notes.txt - Notepad</span>
-				<button class="tb-btn min" title="Minimize" aria-label="Minimize">_</button>
-				<button class="tb-btn max" title="Maximize" aria-label="Maximize">□</button>
-				<button class="tb-btn close" title="Close" aria-label="Close">×</button>
+				<svg class="t-icon" viewBox="0 0 16 16" aria-hidden="true"><rect x="2.5" y="2.5" width="11" height="12" fill="#fff" stroke="#5a6a8a" stroke-width="0.9"/><path d="M4.5 6 H11.5 M4.5 8.2 H11.5 M4.5 10.4 H11.5 M4.5 12.6 H9.5" stroke="#3a6fd8" stroke-width="0.8" fill="none"/><rect x="2.5" y="2.5" width="11" height="2.2" fill="#6f86b8"/><path d="M4 1 V3.8 M6.4 1 V3.8 M8.8 1 V3.8 M11.2 1 V3.8" stroke="#2c3a5a" stroke-width="1" stroke-linecap="round"/></svg>
+				<span class="t-text">YouCanDragTheWindowsJustLike20yrsAgo.txt - Notepad</span>
+				<button class="tb-btn min" title="Minimize" aria-label="Minimize"><svg viewBox="0 0 19 19" aria-hidden="true"><rect class="g-fill" x="4" y="12" width="7" height="3"/></svg></button>
+				<button class="tb-btn max" title="Maximize" aria-label="Maximize"><svg viewBox="0 0 19 19" aria-hidden="true"><rect class="g-line" x="4.5" y="4.5" width="10" height="10" stroke-width="1"/><rect class="g-fill" x="4" y="4" width="11" height="3"/></svg></button>
+				<button class="tb-btn close" title="Close" aria-label="Close"><svg viewBox="0 0 19 19" aria-hidden="true"><path class="g-line" d="M5 5 L14 14 M14 5 L5 14" stroke-width="2.4" stroke-linecap="round"/></svg></button>
 			</div>
 			<nav class="menu-bar"><span>File</span><span>Edit</span><span>Format</span><span>View</span><span>Help</span></nav>
+			<div class="window-body notes-body"><pre class="notes-text">A real fruit fly brain plays 3D Pinball.
+Switch brains in the Brain menu.
+
+1) Giant-fiber body (default, untrained)
+The fly's own escape reflex: looming-detector neurons, each watching
+its own spot along the flipper, drive the giant fiber, which
+normally makes the fly jump. Here it hits the flipper. Shuffle its wiring and it plays worse.
+
+2) Popcode brain (trained)
+444 neurons from the same connectome plus a small trained
+readout. Plays about as well, but here training does the
+work, not the wiring.
+
+Play yourself: Options > Manual Play (Z / slash).
+You can definitely beat a fruit fly... right?
+
+---
+3D Pinball for Windows - Space Cadet (game data, sounds,
+splash): Cinematronics / Maxis, now Electronic Arts;
+shipped with Windows under license. Bliss (c) Microsoft.
+Unofficial fan project, not affiliated with EA or Microsoft.
+Connectome: MaleCNS v1.0 (Janelia FlyEM).
+
+<span class="notes-toggle" id="lowres-toggle" role="button" tabindex="0">i wanna retina display</span></pre></div>
+		</section>
+
+		<!-- Paint window: the fly at its keyboard, drawing chosen by the pressed flippers (paint.js). Menus are decoration. -->
+		<section class="xp-window inactive" id="win-paint" data-title="Player Self-Portrait.bmp - Paint" data-color="#e0a030" style="left: 89px; top: 531px; width: 340px; height: 332px;">
+			<div class="title-bar">
+				<svg class="t-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8 H9 L8.2 14.6 H2.8 Z" fill="#e8e8f0" stroke="#4a5068" stroke-width="0.8"/><rect x="1.4" y="6.6" width="8.2" height="2" fill="#fff" stroke="#4a5068" stroke-width="0.7"/><path d="M3 10 H8.4 L8.2 12 H3.2 Z" fill="#e03030"/><path d="M13.6 0.8 L8 8.6" stroke="#a0662a" stroke-width="1.6" stroke-linecap="round"/><path d="M8.4 8 L6.6 10.6 C8 11.2 9.2 10 9.2 8.6 Z" fill="#2060e0"/><circle cx="12.6" cy="12" r="1" fill="#f0c020"/><circle cx="14" cy="9.8" r="1" fill="#30a030"/></svg>
+				<span class="t-text">Player Self-Portrait.bmp - Paint</span>
+				<button class="tb-btn min" title="Minimize" aria-label="Minimize"><svg viewBox="0 0 19 19" aria-hidden="true"><rect class="g-fill" x="4" y="12" width="7" height="3"/></svg></button>
+				<button class="tb-btn max" title="Maximize" aria-label="Maximize"><svg viewBox="0 0 19 19" aria-hidden="true"><rect class="g-line" x="4.5" y="4.5" width="10" height="10" stroke-width="1"/><rect class="g-fill" x="4" y="4" width="11" height="3"/></svg></button>
+				<button class="tb-btn close" title="Close" aria-label="Close"><svg viewBox="0 0 19 19" aria-hidden="true"><path class="g-line" d="M5 5 L14 14 M14 5 L5 14" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+			</div>
+			<nav class="menu-bar"><span>File</span><span>Edit</span><span>View</span><span>Image</span><span>Colors</span><span>Help</span></nav>
 			<div class="window-body"></div>
 		</section>
 	</div>
 
 	<script>
-	// Window manager: drag by title bar, focus/raise, minimize = roll up to the title bar (click
-	// minimize again to unroll), maximize (button or title-bar double-click), close.
+	// Window manager: drag by title bar and focus/raise. The title-bar buttons are decoration only.
 	// All text is set with textContent; nothing here builds HTML from strings.
 	(() => {
-		const windows = Array.from(document.querySelectorAll(".xp-window"));
+		const windows = Array.from(document.querySelectorAll("#desktop > .xp-window")); // not the pc-tip dialog
 		let z = 10;
+
+		// Phones / narrow screens: windows stack vertically instead of floating (see html.mobile CSS).
+		const mobileQuery = window.matchMedia("(max-width: 900px), (pointer: coarse) and (max-height: 500px)");
+		const isMobile = () => mobileQuery.matches;
+		const tip = document.getElementById("pc-tip");
+		let tipDismissed = false;
+		function applyMode() {
+			document.documentElement.classList.toggle("mobile", isMobile());
+			if (tip) tip.classList.toggle("show", isMobile() && !tipDismissed);
+		}
+		document.getElementById("pc-tip-ok")?.addEventListener("click", () => { tipDismissed = true; applyMode(); });
+		mobileQuery.addEventListener("change", () => { applyMode(); if (!isMobile()) randomLayout(); });
+		applyMode();
 
 		function focus(win) {
 			windows.forEach((w) => w.classList.toggle("inactive", w !== win));
@@ -171,20 +396,10 @@
 
 		windows.forEach((win) => {
 			win.addEventListener("pointerdown", () => focus(win));
-			win.querySelector(".min").addEventListener("click", (e) => { e.stopPropagation(); win.classList.toggle("rolled"); });
-			win.querySelector(".max").addEventListener("click", (e) => { e.stopPropagation(); win.classList.toggle("maximized"); });
-			win.querySelector(".close").addEventListener("click", (e) => {
-				e.stopPropagation();
-				// With no taskbar or desktop icons a closed window could never come back, so the game
-				// window only rolls up (the game keeps running); the empty windows really close.
-				if (win.id === "win-game") win.classList.add("rolled");
-				else win.classList.add("hidden");
-			});
-
+			// Minimize, Maximize and Close are decorative on purpose: they keep the XP look but do nothing.
 			const bar = win.querySelector(".title-bar");
-			bar.addEventListener("dblclick", (e) => { if (!e.target.closest(".tb-btn")) win.classList.toggle("maximized"); });
 			bar.addEventListener("pointerdown", (e) => {
-				if (e.target.closest(".tb-btn") || win.classList.contains("maximized")) return;
+				if (e.target.closest(".tb-btn") || isMobile()) return; // stacked column on phones: no dragging
 				const startX = e.clientX, startY = e.clientY;
 				const left = win.offsetLeft, top = win.offsetTop;
 				bar.setPointerCapture(e.pointerId);
@@ -198,16 +413,70 @@
 			});
 		});
 
-		// Pull windows that start off-screen (narrow displays) back into view.
-		windows.forEach((win) => {
-			const maxLeft = Math.max(0, window.innerWidth - win.offsetWidth - 8);
-			if (win.offsetLeft > maxLeft) win.style.left = `${maxLeft}px`;
-		});
+		// Random default layout: window sizes are fixed, positions are random on every load. Rules: each window
+		// may be covered by the others by at most MAX_COVER of its own area (sum of pairwise overlaps, a
+		// conservative bound), and the Notepad title bar is never covered. Search: random start, then random
+		// nudges that never make the layout worse (shrinking step), with restarts; the best layout found is
+		// used if the rules can't be met (very small screens).
+		const MAX_COVER = 0.10, MARGIN = 4, RESTARTS = 30, ITERS = 600;
+		function randomLayout() {
+			const vw = window.innerWidth, vh = window.innerHeight;
+			const sizes = windows.map((w) => ({ w: w.offsetWidth, h: w.offsetHeight }));
+			const notesIdx = windows.findIndex((w) => w.id === "win-notes");
+			const notesBar = notesIdx >= 0 ? windows[notesIdx].querySelector(".title-bar") : null;
+			const notesBarH = notesBar ? notesBar.offsetHeight + 2 : 0;
+			const overlap = (a, b) => Math.max(0, Math.min(a.x + a.w, b.x + b.w) - Math.max(a.x, b.x))
+				* Math.max(0, Math.min(a.y + a.h, b.y + b.h) - Math.max(a.y, b.y));
+			const clampX = (r, x) => Math.min(Math.max(MARGIN, x), Math.max(MARGIN, vw - r.w - MARGIN));
+			const clampY = (r, y) => Math.min(Math.max(MARGIN, y), Math.max(MARGIN, vh - r.h - MARGIN));
+			const score = (p) => {
+				let worst = 0;
+				for (let i = 0; i < p.length; i++) {
+					let covered = 0;
+					for (let j = 0; j < p.length; j++) if (j !== i) covered += overlap(p[i], p[j]);
+					worst = Math.max(worst, covered / (p[i].w * p[i].h));
+				}
+				if (notesIdx >= 0) {
+					const bar = { x: p[notesIdx].x, y: p[notesIdx].y, w: p[notesIdx].w, h: notesBarH };
+					let hit = 0;
+					for (let j = 0; j < p.length; j++) if (j !== notesIdx) hit += overlap(bar, p[j]);
+					if (hit > 0) worst += 1 + hit / 1e4; // a covered Notepad title always ranks worse
+				}
+				return worst;
+			};
+			let best = null, bestScore = Infinity;
+			for (let r = 0; r < RESTARTS && bestScore > MAX_COVER; r++) {
+				const p = sizes.map((sz) => ({ ...sz, x: clampX(sz, Math.random() * vw), y: clampY(sz, Math.random() * vh) }));
+				let sc = score(p);
+				for (let it = 0; it < ITERS && sc > MAX_COVER; it++) {
+					const i = Math.floor(Math.random() * p.length);
+					const step = 200 * (1 - it / ITERS) + 10;
+					const o = p[i], ox = o.x, oy = o.y; // mutate one window in place; revert if the layout got worse
+					o.x = clampX(o, ox + (Math.random() * 2 - 1) * step);
+					o.y = clampY(o, oy + (Math.random() * 2 - 1) * step);
+					const t = score(p);
+					if (t <= sc) sc = t; else { o.x = ox; o.y = oy; }
+				}
+				if (sc < bestScore) { best = p; bestScore = sc; }
+			}
+			windows.forEach((w, i) => {
+				w.style.left = `${Math.round(best[i].x)}px`;
+				w.style.top = `${Math.round(best[i].y)}px`;
+			});
+		}
+		if (!isMobile()) randomLayout();
 
+		// The game starts focused, i.e. on top of the initial layout; afterwards any window can be raised over it.
 		focus(document.getElementById("win-game"));
 	})();
 	</script>
-	<script type="module" src="./bridge.js?v=4"></script>
-	<script type="module" src="./brain_dashboard.js?v=1"></script>
+	<script type="module" src="./bridge.js?v=30"></script>
+	<script type="module" src="./brain_dashboard.js?v=8"></script>
+	<script type="module" src="./lowres.js?v=1"></script>
+	<script type="module" src="./paint.js?v=7"></script>
+	<script type="module">
+		import { xpScrollbar } from "./xp_scrollbar.js?v=3";
+		document.querySelector("#win-notes .notes-body")?.append(xpScrollbar("v", { disabled: true }));
+	</script>
 </body>
 </html>

@@ -5,8 +5,6 @@ on:
     branches: [main]
     paths:
       - "web/**"
-      - "src_cpp/**"
-      - "scripts/build_wasm.sh"
       - ".github/workflows/deploy.yml"
   workflow_dispatch:
 
@@ -25,41 +23,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          submodules: recursive
 
-      - uses: mymindstorm/setup-emsdk@v14
-        with:
-          # Pinned to the version the page was last verified with locally (scripts/build_wasm.sh).
-          version: 6.0.10
-
-      - name: Build wasm
-        run: ./scripts/build_wasm.sh
-
-      - name: Check game data
-        # Game data is NOT in this repository (copyright; see README). Without it the engine has no
-        # table and the canvas stays black. How the public page gets game data is still undecided -
-        # until then the deploy goes ahead but flags it loudly.
+      - name: Check the prebuilt engine
+        # The WASM engine is built locally (scripts/build_wasm.sh) and committed as web/dist/: its .data package
+        # already contains the game table and the sound effects, so the original game files are never stored
+        # in this repository and CI does not need them.
         run: |
-          if [ ! -f web/dist/SpaceCadetPinball.data ]; then
-            echo "::warning::No game data packaged (vendor/SpaceCadetPinball/bin/DEMO.DAT absent) - the deployed page will show a black table."
-          fi
+          for f in SpaceCadetPinball.js SpaceCadetPinball.wasm SpaceCadetPinball.data; do
+            test -f "web/dist/$f" || { echo "::error::web/dist/$f missing - run ./scripts/build_wasm.sh and commit web/dist"; exit 1; }
+          done
 
       - name: Verify the browser brain matches Python
-        # The page runs only the lead-trained popcode fly brain; its JS forward pass must reproduce
-        # the exported Python test vectors (float32 tolerance, zero action mismatches).
+        # The page runs two controllers: the untrained retinotopic giant-fiber body (default) and the
+        # lead-trained popcode fly brain. Each JS forward pass must reproduce the exported Python test
+        # vectors (zero action mismatches, float32 tolerance).
         run: >
           node web/test/verify_policy.mjs web/connectome_444.json web/circuit_readout_444_popcode.json
           web/testdata/circuit_444_popcode_vectors.json
+          && node web/test/verify_gf_retina.mjs web/gf_body_retina.json web/testdata/gf_body_retina_vectors.json
 
       - name: Assemble Pages artifact
         # Only what index.html loads - no test data, backups or older brains.
         run: |
-          mkdir -p _site/dist
-          cp web/index.html web/bridge.js web/circuit_policy.js web/observation.js web/brain_dashboard.js \
-             web/connectome_444.json web/circuit_readout_444_popcode.json _site/
-          cp web/dist/SpaceCadetPinball.js web/dist/SpaceCadetPinball.wasm _site/dist/
-          if [ -f web/dist/SpaceCadetPinball.data ]; then cp web/dist/SpaceCadetPinball.data _site/dist/; fi
+          mkdir -p _site/dist _site/paint
+          cp web/index.html web/bridge.js web/circuit_policy.js web/observation.js web/brain_dashboard.js web/gf_body.js \
+             web/xp_menu.js web/xp_scrollbar.js web/dom.js web/lowres.js web/fly_names.js web/score_history.js web/paint.js \
+             web/splash.png web/bliss.jpg \
+             web/connectome_444.json web/circuit_readout_444_popcode.json web/gf_body_retina.json _site/
+          cp web/paint/fly_idle.png web/paint/fly_left.png web/paint/fly_right.png _site/paint/
+          cp web/dist/SpaceCadetPinball.js web/dist/SpaceCadetPinball.wasm web/dist/SpaceCadetPinball.data _site/dist/
 
       - uses: actions/upload-pages-artifact@v3
         with:
