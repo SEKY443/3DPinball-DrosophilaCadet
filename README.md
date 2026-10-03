@@ -153,6 +153,7 @@ DrosophilaCadet/
   ~*~ thanks for visiting ~*~   you are visitor no. 000001   ~*~ sign my guestbook ~*~
 
                          best viewed in 1024x768
+          (I just wanna make this looks like it's come from 2004)
 ```
 
 `(^_^)/~~  bye bye!`
