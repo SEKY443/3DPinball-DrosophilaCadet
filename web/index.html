@@ -250,7 +250,8 @@
 		.notes-toggle { color: #0000ee; text-decoration: underline; cursor: pointer; }
 		/* Desktop shortcut icons, sized like on an 800x600 XP desktop: every XP measure (75px grid cell, 32x32 icon with
 		   the shortcut-arrow overlay, Tahoma 8pt label with a hard 1px shadow, first cell in the top-left corner) is
-		   multiplied by --desk-scale = how much bigger this screen is than 800x600 (set by the window manager script).
+		   multiplied by --desk-scale = 0.8 x how much bigger this screen is than 800x600, at least 1 (set by the window
+		   manager script).
 		   The label is clamped to two lines ("...") unless selected. One click selects (icon blended 50% with the
 		   highlight colour, label on #316ac5), a double click opens - like Explorer. */
 		:root { --desk-scale: 1; }
@@ -270,7 +271,7 @@
 		.desk-icon.selected:focus-visible .di-label { outline: 1px dotted #fff; outline-offset: -1px; }
 		/* XP balloon tip (notification-area style): pale yellow rounded box, 1px black border, slanted tail pointing
 		   up at its target, close button top-right; fades in and out. */
-		.xp-balloon { position: fixed; z-index: 150000; max-width: 320px; white-space: nowrap; padding: 7px 26px 9px 9px; background: #ffffe1;
+		.xp-balloon { position: fixed; z-index: 150000; white-space: nowrap; padding: 7px 26px 9px 9px; background: #ffffe1;
 			border: 1px solid #000; border-radius: 7px; box-shadow: 2px 2px 3px rgba(0,0,0,0.35); font: 11px/14px var(--font-ui);
 			color: #000; opacity: 0; transition: opacity 0.2s linear; pointer-events: none; }
 		.xp-balloon.show { opacity: 1; pointer-events: auto; }
@@ -280,7 +281,13 @@
 		.xp-balloon .bt-close svg { display: block; width: 13px; height: 13px; }
 		.xp-balloon .bt-close:hover { border-color: #aca899; background: linear-gradient(180deg, #fff, #ece9d8); }
 		.xp-balloon .bt-close:active { background: #e3e3db; }
-		html.mobile .desk-icon { position: static; order: -2; align-self: flex-start; }
+		.xp-balloon .bt-title { display: flex; align-items: center; gap: 6px; margin-bottom: 5px; font-weight: bold; }
+		.xp-balloon .bt-title[hidden] { display: none; }
+		.xp-balloon .bt-title svg { width: 16px; height: 16px; flex: 0 0 auto; }
+		/* Phones: the shortcut goes to the bottom of the page, below every window. */
+		html.mobile .desk-icon { position: static; order: 99; align-self: center; margin: 6px 0 10px; }
+		/* Notepad's pointer to the shortcut says where it is in each layout. */
+		html:not(.mobile) .where-mobile, html.mobile .where-desktop { display: none; }
 	</style>
 </head>
 <body>
@@ -299,11 +306,13 @@
 			<feMerge><feMergeNode in="dots"/><feMergeNode in="r"/><feMergeNode in="d"/><feMergeNode in="rd"/></feMerge>
 		</filter>
 	</svg>
-	<!-- Balloon tip shown after a single click on a desktop shortcut (see the window manager script). -->
+	<!-- XP balloon tip pointing at a desktop shortcut: shown once a few seconds after load, and after a single click
+	     (see the window manager script, which fills in the title and text). -->
 	<div class="xp-balloon" id="dblclick-tip" role="status" aria-live="polite" hidden>
 		<svg class="bt-tail" viewBox="0 0 21 20" aria-hidden="true"><path d="M0.5 20 V0.5 L20.5 19.5 V20 Z" fill="#ffffe1"/><path d="M0.5 19.5 V0.5 L20.5 19.5" fill="none" stroke="#000" stroke-width="1"/></svg>
 		<button type="button" class="bt-close" aria-label="Close"><svg viewBox="0 0 13 13" aria-hidden="true"><path d="M3.5 3.5 L9.5 9.5 M9.5 3.5 L3.5 9.5" stroke="#000" stroke-width="1.6"/></svg></button>
-		Do you still remember you need to double click?
+		<div class="bt-title" hidden><svg viewBox="0 0 16 16" aria-hidden="true"><defs><radialGradient id="bt-i" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="#fff"/><stop offset="0.5" stop-color="#6a9cf0"/><stop offset="1" stop-color="#1f4fc2"/></radialGradient></defs><circle cx="8" cy="8" r="7.3" fill="url(#bt-i)" stroke="#183f9c" stroke-width="0.8"/><circle cx="8" cy="4.6" r="1.2" fill="#fff"/><rect x="6.9" y="6.6" width="2.2" height="5.6" rx="0.4" fill="#fff"/></svg><span></span></div>
+		<div class="bt-text"></div>
 	</div>
 	<div id="pc-tip" role="dialog" aria-modal="true" aria-labelledby="pc-tip-title">
 		<section class="xp-window">
@@ -372,7 +381,7 @@
 			<div class="window-body face" id="stats-body"></div>
 		</section>
 
-		<section class="xp-window inactive" id="win-notes" data-title="YouCanDragTheWindowsJustLike20yrsAgo.txt - Notepad" data-color="#d8cf86" style="left: 908px; top: 463px; width: 520px; height: 540px;">
+		<section class="xp-window inactive" id="win-notes" data-title="YouCanDragTheWindowsJustLike20yrsAgo.txt - Notepad" data-color="#d8cf86" style="left: 908px; top: 463px; width: 640px; height: 540px;">
 			<div class="title-bar">
 				<svg class="t-icon" viewBox="0 0 16 16" aria-hidden="true"><rect x="2.5" y="2.5" width="11" height="12" fill="#fff" stroke="#5a6a8a" stroke-width="0.9"/><path d="M4.5 6 H11.5 M4.5 8.2 H11.5 M4.5 10.4 H11.5 M4.5 12.6 H9.5" stroke="#3a6fd8" stroke-width="0.8" fill="none"/><rect x="2.5" y="2.5" width="11" height="2.2" fill="#6f86b8"/><path d="M4 1 V3.8 M6.4 1 V3.8 M8.8 1 V3.8 M11.2 1 V3.8" stroke="#2c3a5a" stroke-width="1" stroke-linecap="round"/></svg>
 				<span class="t-text">YouCanDragTheWindowsJustLike20yrsAgo.txt - Notepad</span>
@@ -386,8 +395,9 @@ Switch brains in the Brain menu.
 
 1) Giant-fiber body (default, untrained)
 The fly's own escape reflex: looming-detector neurons, each watching
-its own spot along the flipper, drive the giant fiber, which
-normally makes the fly jump. Here it hits the flipper. Shuffle its wiring and it plays worse.
+its own spot along the flipper, drive the giant fiber, which normally
+makes the fly jump. Here it hits the flipper. Shuffle its wiring and
+it plays worse.
 
 2) Popcode brain (trained)
 444 neurons from the same connectome plus a small trained
@@ -396,6 +406,9 @@ work, not the wiring.
 
 Play yourself: Options > Manual Play (Z / slash).
 You can definitely beat a fruit fly... right?
+
+Like the fly? Please give it a star on GitHub :)
+<span class="where-desktop">It's the Github Repo icon, top-left of the desktop.</span><span class="where-mobile">It's the Github Repo icon at the bottom of the page.</span>
 
 ---
 3D Pinball for Windows - Space Cadet (game data, sounds,
@@ -430,9 +443,17 @@ Connectome: MaleCNS v1.0 (Janelia FlyEM).
 		// Desktop icons are sized as on an 800x600 XP screen scaled up to this one (see .desk-icon); set before the
 		// random layout below, which keeps windows off the icons.
 		const setDeskScale = () => document.documentElement.style.setProperty("--desk-scale",
-			String(Math.max(1, Math.min(window.innerWidth / 800, window.innerHeight / 600))));
+			String(Math.max(1, 0.8 * Math.min(window.innerWidth / 800, window.innerHeight / 600))));
 		setDeskScale();
 		window.addEventListener("resize", setDeskScale);
+
+		// Notepad grows to show its whole text (line wrapping depends on the visitor's fonts), up to the screen height.
+		function fitNotepad() {
+			const win = document.getElementById("win-notes"), body = win?.querySelector(".notes-body");
+			if (!body || isMobile()) return;
+			const need = win.offsetHeight - body.clientHeight + body.querySelector(".notes-text").scrollHeight + 2;
+			win.style.height = `${Math.min(Math.max(need, 540), window.innerHeight - 8)}px`;
+		}
 		let z = 10;
 
 		// Phones / narrow screens: windows stack vertically instead of floating (see html.mobile CSS).
@@ -445,7 +466,7 @@ Connectome: MaleCNS v1.0 (Janelia FlyEM).
 			if (tip) tip.classList.toggle("show", isMobile() && !tipDismissed);
 		}
 		document.getElementById("pc-tip-ok")?.addEventListener("click", () => { tipDismissed = true; applyMode(); });
-		mobileQuery.addEventListener("change", () => { applyMode(); if (!isMobile()) randomLayout(); });
+		mobileQuery.addEventListener("change", () => { applyMode(); if (!isMobile()) { fitNotepad(); randomLayout(); } });
 		applyMode();
 
 		function focus(win) {
@@ -503,9 +524,9 @@ Connectome: MaleCNS v1.0 (Janelia FlyEM).
 					for (let j = 0; j < p.length; j++) if (j !== notesIdx) hit += overlap(bar, p[j]);
 					if (hit > 0) worst += 1 + hit / 1e4; // a covered Notepad title always ranks worse
 				}
-				let iconHit = 0; // desktop shortcut icons stay visible too
+				let iconHit = 0; // desktop shortcut icons stay visible: a covered icon ranks below anything else
 				for (const r of iconRects) for (const q of p) iconHit += overlap(r, q);
-				if (iconHit > 0) worst += 1 + iconHit / 1e4;
+				if (iconHit > 0) worst += 100 + iconHit / 1e4;
 				return worst;
 			};
 			let best = null, bestScore = Infinity;
@@ -523,12 +544,18 @@ Connectome: MaleCNS v1.0 (Janelia FlyEM).
 				}
 				if (sc < bestScore) { best = p; bestScore = sc; }
 			}
+			// Hard rule for the icons: if even the best layout found (tiny screens) still covers one, move each covering
+			// window just right of the icon, or below it when there is no room to the right.
+			for (const q of best) for (const r of iconRects) {
+				if (overlap(r, q) === 0) continue;
+				if (r.x + r.w + q.w + MARGIN <= vw) q.x = r.x + r.w; else q.y = Math.max(q.y, r.y + r.h);
+			}
 			windows.forEach((w, i) => {
 				w.style.left = `${Math.round(best[i].x)}px`;
 				w.style.top = `${Math.round(best[i].y)}px`;
 			});
 		}
-		if (!isMobile()) randomLayout();
+		if (!isMobile()) { fitNotepad(); randomLayout(); }
 
 		// The game starts focused, i.e. on top of the initial layout; afterwards any window can be raised over it.
 		focus(document.getElementById("win-game"));
@@ -544,7 +571,11 @@ Connectome: MaleCNS v1.0 (Janelia FlyEM).
 			balloon.classList.remove("show");
 			balloonHide = setTimeout(() => { balloon.hidden = true; }, 200);
 		};
-		const showBalloon = (icon) => {
+		const balloonTitle = balloon.querySelector(".bt-title"), balloonText = balloon.querySelector(".bt-text");
+		const showBalloon = (icon, text, title = "") => {
+			balloonTitle.hidden = !title;
+			balloonTitle.querySelector("span").textContent = title;
+			balloonText.textContent = text;
 			const r = icon.querySelector(".di-img").getBoundingClientRect();
 			clearTimeout(balloonHide);
 			balloon.hidden = false;
@@ -553,14 +584,21 @@ Connectome: MaleCNS v1.0 (Janelia FlyEM).
 			requestAnimationFrame(() => balloon.classList.add("show"));
 			balloonHide = setTimeout(hideBalloon, 10000);
 		};
+		// Like an XP notification, the source-code shortcut announces itself once, a few seconds after load (desktop
+		// layout only; skipped if the visitor has already clicked it).
+		let iconTouched = false;
+		setTimeout(() => {
+			const gh = document.getElementById("icon-github");
+			if (gh && !iconTouched && !isMobile()) showBalloon(gh, "The source code is right here. Double-click Github Repo to open it.", "Want to see how this fly's brain works?");
+		}, 4000);
 		balloon.addEventListener("click", hideBalloon);
 		icons.forEach((icon) => {
 			const open = () => window.open(icon.href, "_blank", "noopener");
 			icon.addEventListener("click", (e) => {
-				e.preventDefault(); selectIcon(icon);
+				e.preventDefault(); selectIcon(icon); iconTouched = true;
 				if (isMobile()) { open(); return; }
 				clearTimeout(balloonTimer);
-				if (e.detail < 2) balloonTimer = setTimeout(() => showBalloon(icon), 500);
+				if (e.detail < 2) balloonTimer = setTimeout(() => showBalloon(icon, "Do you still remember you need to double click?"), 500);
 			});
 			icon.addEventListener("dblclick", (e) => { e.preventDefault(); hideBalloon(); if (!isMobile()) open(); });
 			icon.addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); open(); } });
