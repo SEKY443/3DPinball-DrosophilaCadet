@@ -243,7 +243,8 @@
 		   dialogs - never to the live game picture or the Fly Brain Monitor's animated contents. */
 		html.lowres-filter #win-notes, html.lowres-filter #win-stats, html.lowres-filter #win-paint,
 		html.lowres-filter #win-game .title-bar, html.lowres-filter #win-dash .title-bar, html.lowres-filter #game-menubar .mb-top,
-		html.lowres-filter .xp-dialog, html.lowres-filter .xp-dropdown, html.lowres-filter .desk-icon { filter: url(#lowres); }
+		html.lowres-filter .xp-dialog, html.lowres-filter .xp-dropdown, html.lowres-filter .desk-icon,
+		html.lowres-filter .xp-balloon { filter: url(#lowres); }
 		.notes-toggle { color: #0000ee; text-decoration: underline; cursor: pointer; }
 		/* Desktop shortcut icons, as on the XP desktop: a 75px grid cell, 32x32 icon with the shortcut-arrow overlay,
 		   Tahoma 8pt white label with a hard 1px black shadow, clamped to two lines ("...") unless selected. One click
@@ -260,6 +261,18 @@
 			-webkit-mask: url("./ie_shortcut.png?v=1") center / contain no-repeat; mask: url("./ie_shortcut.png?v=1") center / contain no-repeat; }
 		.desk-icon.selected .di-label { background: #316ac5; text-shadow: none; -webkit-line-clamp: unset; line-clamp: none; }
 		.desk-icon.selected:focus-visible .di-label { outline: 1px dotted #fff; outline-offset: -1px; }
+		/* XP balloon tip (notification-area style): pale yellow rounded box, 1px black border, slanted tail pointing
+		   up at its target, close button top-right; fades in and out. */
+		.xp-balloon { position: fixed; z-index: 150000; max-width: 320px; white-space: nowrap; padding: 7px 26px 9px 9px; background: #ffffe1;
+			border: 1px solid #000; border-radius: 7px; box-shadow: 2px 2px 3px rgba(0,0,0,0.35); font: 11px/14px var(--font-ui);
+			color: #000; opacity: 0; transition: opacity 0.2s linear; pointer-events: none; }
+		.xp-balloon.show { opacity: 1; pointer-events: auto; }
+		.xp-balloon .bt-tail { position: absolute; left: 16px; top: -19px; width: 21px; height: 20px; display: block; overflow: visible; }
+		.xp-balloon .bt-close { position: absolute; top: 4px; right: 4px; width: 15px; height: 15px; padding: 0; border: 1px solid transparent;
+			border-radius: 2px; background: transparent; cursor: default; }
+		.xp-balloon .bt-close svg { display: block; width: 13px; height: 13px; }
+		.xp-balloon .bt-close:hover { border-color: #aca899; background: linear-gradient(180deg, #fff, #ece9d8); }
+		.xp-balloon .bt-close:active { background: #e3e3db; }
 		html.mobile .desk-icon { position: static; order: -2; align-self: flex-start; }
 	</style>
 </head>
@@ -279,6 +292,12 @@
 			<feMerge><feMergeNode in="dots"/><feMergeNode in="r"/><feMergeNode in="d"/><feMergeNode in="rd"/></feMerge>
 		</filter>
 	</svg>
+	<!-- Balloon tip shown after a single click on a desktop shortcut (see the window manager script). -->
+	<div class="xp-balloon" id="dblclick-tip" role="status" aria-live="polite" hidden>
+		<svg class="bt-tail" viewBox="0 0 21 20" aria-hidden="true"><path d="M0.5 20 V0.5 L20.5 19.5 V20 Z" fill="#ffffe1"/><path d="M0.5 19.5 V0.5 L20.5 19.5" fill="none" stroke="#000" stroke-width="1"/></svg>
+		<button type="button" class="bt-close" aria-label="Close"><svg viewBox="0 0 13 13" aria-hidden="true"><path d="M3.5 3.5 L9.5 9.5 M9.5 3.5 L3.5 9.5" stroke="#000" stroke-width="1.6"/></svg></button>
+		Do you still remember you need to double click?
+	</div>
 	<div id="pc-tip" role="dialog" aria-modal="true" aria-labelledby="pc-tip-title">
 		<section class="xp-window">
 			<div class="title-bar"><span class="t-text" id="pc-tip-title">Drosophila Cadet</span></div>
@@ -503,10 +522,33 @@ Connectome: MaleCNS v1.0 (Janelia FlyEM).
 		// Desktop shortcut icons: click selects, double-click (or Enter) opens the link; phones open on a single tap.
 		const icons = Array.from(document.querySelectorAll(".desk-icon"));
 		const selectIcon = (icon) => icons.forEach((i) => i.classList.toggle("selected", i === icon));
+		// A single click with no second one shows the XP balloon tip, its tail pointing at the clicked icon.
+		const balloon = document.getElementById("dblclick-tip");
+		let balloonTimer = 0, balloonHide = 0;
+		const hideBalloon = () => {
+			clearTimeout(balloonTimer); clearTimeout(balloonHide);
+			balloon.classList.remove("show");
+			balloonHide = setTimeout(() => { balloon.hidden = true; }, 200);
+		};
+		const showBalloon = (icon) => {
+			const r = icon.querySelector(".di-img").getBoundingClientRect();
+			clearTimeout(balloonHide);
+			balloon.hidden = false;
+			balloon.style.left = `${Math.round(r.left + r.width / 2 - 16)}px`;
+			balloon.style.top = `${Math.round(icon.getBoundingClientRect().bottom + 18)}px`; // tail tip just under the label
+			requestAnimationFrame(() => balloon.classList.add("show"));
+			balloonHide = setTimeout(hideBalloon, 10000);
+		};
+		balloon.addEventListener("click", hideBalloon);
 		icons.forEach((icon) => {
 			const open = () => window.open(icon.href, "_blank", "noopener");
-			icon.addEventListener("click", (e) => { e.preventDefault(); selectIcon(icon); if (isMobile()) open(); });
-			icon.addEventListener("dblclick", (e) => { e.preventDefault(); if (!isMobile()) open(); });
+			icon.addEventListener("click", (e) => {
+				e.preventDefault(); selectIcon(icon);
+				if (isMobile()) { open(); return; }
+				clearTimeout(balloonTimer);
+				if (e.detail < 2) balloonTimer = setTimeout(() => showBalloon(icon), 500);
+			});
+			icon.addEventListener("dblclick", (e) => { e.preventDefault(); hideBalloon(); if (!isMobile()) open(); });
 			icon.addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); open(); } });
 		});
 		document.getElementById("desktop").addEventListener("pointerdown", (e) => { if (e.target.id === "desktop") selectIcon(null); });
