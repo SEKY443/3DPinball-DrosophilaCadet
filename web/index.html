@@ -7,6 +7,8 @@
 	<meta name="description" content="Watch a fly play 3DPinball">
 	<meta property="og:title" content="DrosophilaCadet">
 	<meta property="og:description" content="Watch a fly play 3DPinball">
+	<!-- Tab icon: the fly emoji (drawn by the system emoji font). -->
+	<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50' y='.9em' font-size='90' text-anchor='middle'%3E%F0%9F%AA%B0%3C/text%3E%3C/svg%3E" />
 	<style>
 		:root {
 			--luna-title: linear-gradient(180deg, #0997ff 0%, #0053ee 8%, #0050ee 40%, #0066ff 88%, #0066ff 93%, #005bff 95%, #003dd7 96%, #003dd7 100%);
@@ -246,19 +248,24 @@
 		html.lowres-filter .xp-dialog, html.lowres-filter .xp-dropdown, html.lowres-filter .desk-icon,
 		html.lowres-filter .xp-balloon { filter: url(#lowres); }
 		.notes-toggle { color: #0000ee; text-decoration: underline; cursor: pointer; }
-		/* Desktop shortcut icons, as on the XP desktop: a 75px grid cell, 32x32 icon with the shortcut-arrow overlay,
-		   Tahoma 8pt white label with a hard 1px black shadow, clamped to two lines ("...") unless selected. One click
-		   selects (icon blended 50% with the highlight colour, label on #316ac5), a double click opens - like Explorer. */
-		.desk-icon { position: absolute; z-index: 1; width: 75px; display: flex; flex-direction: column; align-items: center;
-			padding-top: 2px; color: #fff; text-decoration: none; cursor: default; outline: none; user-select: none;
+		/* Desktop shortcut icons, sized like on an 800x600 XP desktop: every XP measure (75px grid cell, 32x32 icon with
+		   the shortcut-arrow overlay, Tahoma 8pt label with a hard 1px shadow, first cell in the top-left corner) is
+		   multiplied by --desk-scale = how much bigger this screen is than 800x600 (set by the window manager script).
+		   The label is clamped to two lines ("...") unless selected. One click selects (icon blended 50% with the
+		   highlight colour, label on #316ac5), a double click opens - like Explorer. */
+		:root { --desk-scale: 1; }
+		.desk-icon { --s: var(--desk-scale); position: absolute; z-index: 1; left: calc(4px * var(--s)); top: calc(4px * var(--s));
+			width: calc(75px * var(--s)); display: flex; flex-direction: column; align-items: center;
+			padding-top: calc(2px * var(--s)); color: #fff; text-decoration: none; cursor: default; outline: none; user-select: none;
 			-webkit-user-select: none; -webkit-tap-highlight-color: transparent; }
-		.desk-icon .di-img { position: relative; width: 32px; height: 32px; margin-bottom: 5px; }
-		.desk-icon .di-img img { display: block; width: 32px; height: 32px; }
-		.desk-icon .di-label { max-width: 74px; padding: 0 1px 1px; font: 11px/13px Tahoma, var(--font-ui); text-align: center;
-			text-shadow: 1px 1px 0 #000; overflow-wrap: break-word; display: -webkit-box; -webkit-box-orient: vertical;
+		.desk-icon .di-img { position: relative; width: calc(32px * var(--s)); height: calc(32px * var(--s)); margin-bottom: calc(5px * var(--s)); }
+		.desk-icon .di-img img { display: block; width: 100%; height: 100%; }
+		.desk-icon .di-label { max-width: calc(74px * var(--s)); padding: 0 calc(1px * var(--s)) calc(1px * var(--s));
+			font: calc(11px * var(--s))/calc(13px * var(--s)) Tahoma, var(--font-ui); text-align: center;
+			text-shadow: calc(1px * var(--s)) calc(1px * var(--s)) 0 #000; overflow-wrap: break-word; display: -webkit-box; -webkit-box-orient: vertical;
 			-webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; }
 		.desk-icon.selected .di-img::after { content: ""; position: absolute; inset: 0; background: rgba(49,106,197,0.5);
-			-webkit-mask: url("./ie_shortcut.png?v=1") center / contain no-repeat; mask: url("./ie_shortcut.png?v=1") center / contain no-repeat; }
+			-webkit-mask: url("./ie_shortcut.png?v=2") center / contain no-repeat; mask: url("./ie_shortcut.png?v=2") center / contain no-repeat; }
 		.desk-icon.selected .di-label { background: #316ac5; text-shadow: none; -webkit-line-clamp: unset; line-clamp: none; }
 		.desk-icon.selected:focus-visible .di-label { outline: 1px dotted #fff; outline-offset: -1px; }
 		/* XP balloon tip (notification-area style): pale yellow rounded box, 1px black border, slanted tail pointing
@@ -311,10 +318,10 @@
 	<div id="desktop">
 		<!-- Desktop shortcut to the source code: double-click opens the GitHub repository (a tap on phones). -->
 		<a class="desk-icon" id="icon-github" href="https://github.com/SEKY443/3Dpinball-DrosophilaCadet" target="_blank"
-			rel="noopener" title="Location: https://github.com/SEKY443/3Dpinball-DrosophilaCadet" style="left: 0; top: 4px;">
+			rel="noopener" title="Location: https://github.com/SEKY443/3Dpinball-DrosophilaCadet">
 			<span class="di-img">
 				<!-- Internet Shortcut (.url) icon: the Internet Explorer 6 icon (Windows XP version) with XP's shortcut-arrow overlay. -->
-				<img src="./ie_shortcut.png?v=1" width="32" height="32" alt="" draggable="false" />
+				<img src="./ie_shortcut.png?v=2" width="48" height="48" alt="" draggable="false" />
 			</span>
 			<span class="di-label">Github Repo</span>
 		</a>
@@ -419,6 +426,13 @@ Connectome: MaleCNS v1.0 (Janelia FlyEM).
 	// All text is set with textContent; nothing here builds HTML from strings.
 	(() => {
 		const windows = Array.from(document.querySelectorAll("#desktop > .xp-window")); // not the pc-tip dialog
+
+		// Desktop icons are sized as on an 800x600 XP screen scaled up to this one (see .desk-icon); set before the
+		// random layout below, which keeps windows off the icons.
+		const setDeskScale = () => document.documentElement.style.setProperty("--desk-scale",
+			String(Math.max(1, Math.min(window.innerWidth / 800, window.innerHeight / 600))));
+		setDeskScale();
+		window.addEventListener("resize", setDeskScale);
 		let z = 10;
 
 		// Phones / narrow screens: windows stack vertically instead of floating (see html.mobile CSS).
