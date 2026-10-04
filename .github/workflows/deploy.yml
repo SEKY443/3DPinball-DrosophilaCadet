@@ -48,7 +48,7 @@ jobs:
           mkdir -p _site/dist _site/paint
           cp web/index.html web/bridge.js web/circuit_policy.js web/observation.js web/brain_dashboard.js web/gf_body.js \
              web/xp_menu.js web/xp_scrollbar.js web/dom.js web/lowres.js web/fly_names.js web/score_history.js web/paint.js \
-             web/splash.png web/bliss.jpg \
+             web/splash.png web/bliss.jpg web/ie_shortcut.png \
              web/connectome_444.json web/circuit_readout_444_popcode.json web/gf_body_retina.json _site/
           cp web/paint/fly_idle.png web/paint/fly_left.png web/paint/fly_right.png _site/paint/
           cp web/dist/SpaceCadetPinball.js web/dist/SpaceCadetPinball.wasm web/dist/SpaceCadetPinball.data _site/dist/

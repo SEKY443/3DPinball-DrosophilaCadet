@@ -243,8 +243,24 @@
 		   dialogs - never to the live game picture or the Fly Brain Monitor's animated contents. */
 		html.lowres-filter #win-notes, html.lowres-filter #win-stats, html.lowres-filter #win-paint,
 		html.lowres-filter #win-game .title-bar, html.lowres-filter #win-dash .title-bar, html.lowres-filter #game-menubar .mb-top,
-		html.lowres-filter .xp-dialog, html.lowres-filter .xp-dropdown { filter: url(#lowres); }
+		html.lowres-filter .xp-dialog, html.lowres-filter .xp-dropdown, html.lowres-filter .desk-icon { filter: url(#lowres); }
 		.notes-toggle { color: #0000ee; text-decoration: underline; cursor: pointer; }
+		/* Desktop shortcut icons, as on the XP desktop: a 75px grid cell, 32x32 icon with the shortcut-arrow overlay,
+		   Tahoma 8pt white label with a hard 1px black shadow, clamped to two lines ("...") unless selected. One click
+		   selects (icon blended 50% with the highlight colour, label on #316ac5), a double click opens - like Explorer. */
+		.desk-icon { position: absolute; z-index: 1; width: 75px; display: flex; flex-direction: column; align-items: center;
+			padding-top: 2px; color: #fff; text-decoration: none; cursor: default; outline: none; user-select: none;
+			-webkit-user-select: none; -webkit-tap-highlight-color: transparent; }
+		.desk-icon .di-img { position: relative; width: 32px; height: 32px; margin-bottom: 5px; }
+		.desk-icon .di-img img { display: block; width: 32px; height: 32px; }
+		.desk-icon .di-label { max-width: 74px; padding: 0 1px 1px; font: 11px/13px Tahoma, var(--font-ui); text-align: center;
+			text-shadow: 1px 1px 0 #000; overflow-wrap: break-word; display: -webkit-box; -webkit-box-orient: vertical;
+			-webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; }
+		.desk-icon.selected .di-img::after { content: ""; position: absolute; inset: 0; background: rgba(49,106,197,0.5);
+			-webkit-mask: url("./ie_shortcut.png?v=1") center / contain no-repeat; mask: url("./ie_shortcut.png?v=1") center / contain no-repeat; }
+		.desk-icon.selected .di-label { background: #316ac5; text-shadow: none; -webkit-line-clamp: unset; line-clamp: none; }
+		.desk-icon.selected:focus-visible .di-label { outline: 1px dotted #fff; outline-offset: -1px; }
+		html.mobile .desk-icon { position: static; order: -2; align-self: flex-start; }
 	</style>
 </head>
 <body>
@@ -274,6 +290,15 @@
 		</section>
 	</div>
 	<div id="desktop">
+		<!-- Desktop shortcut to the source code: double-click opens the GitHub repository (a tap on phones). -->
+		<a class="desk-icon" id="icon-github" href="https://github.com/SEKY443/3Dpinball-DrosophilaCadet" target="_blank"
+			rel="noopener" title="Location: https://github.com/SEKY443/3Dpinball-DrosophilaCadet" style="left: 0; top: 4px;">
+			<span class="di-img">
+				<!-- Internet Shortcut (.url) icon: the Internet Explorer 6 icon (Windows XP version) with XP's shortcut-arrow overlay. -->
+				<img src="./ie_shortcut.png?v=1" width="32" height="32" alt="" draggable="false" />
+			</span>
+			<span class="di-label">Github Repo</span>
+		</a>
 		<!-- Game window: menu bar (built by xp_menu.js) + canvas. The status line lives in the Fly Brain Monitor window. -->
 		<section class="xp-window" id="win-game" data-title="3D Pinball Drosophila Cadet" data-color="#e07aa0" style="left: 125px; top: 24px;">
 			<div class="title-bar">
@@ -349,7 +374,7 @@ You can definitely beat a fruit fly... right?
 ---
 3D Pinball for Windows - Space Cadet (game data, sounds,
 splash): Cinematronics / Maxis, now Electronic Arts;
-shipped with Windows under license. Bliss (c) Microsoft.
+shipped with Windows under license. Bliss and the IE icon (c) Microsoft.
 Unofficial fan project, not affiliated with EA or Microsoft.
 Connectome: MaleCNS v1.0 (Janelia FlyEM).
 
@@ -426,6 +451,8 @@ Connectome: MaleCNS v1.0 (Janelia FlyEM).
 			const notesIdx = windows.findIndex((w) => w.id === "win-notes");
 			const notesBar = notesIdx >= 0 ? windows[notesIdx].querySelector(".title-bar") : null;
 			const notesBarH = notesBar ? notesBar.offsetHeight + 2 : 0;
+			const iconRects = Array.from(document.querySelectorAll(".desk-icon"), (el) =>
+				({ x: el.offsetLeft, y: el.offsetTop, w: el.offsetWidth + MARGIN, h: el.offsetHeight + MARGIN }));
 			const overlap = (a, b) => Math.max(0, Math.min(a.x + a.w, b.x + b.w) - Math.max(a.x, b.x))
 				* Math.max(0, Math.min(a.y + a.h, b.y + b.h) - Math.max(a.y, b.y));
 			const clampX = (r, x) => Math.min(Math.max(MARGIN, x), Math.max(MARGIN, vw - r.w - MARGIN));
@@ -443,6 +470,9 @@ Connectome: MaleCNS v1.0 (Janelia FlyEM).
 					for (let j = 0; j < p.length; j++) if (j !== notesIdx) hit += overlap(bar, p[j]);
 					if (hit > 0) worst += 1 + hit / 1e4; // a covered Notepad title always ranks worse
 				}
+				let iconHit = 0; // desktop shortcut icons stay visible too
+				for (const r of iconRects) for (const q of p) iconHit += overlap(r, q);
+				if (iconHit > 0) worst += 1 + iconHit / 1e4;
 				return worst;
 			};
 			let best = null, bestScore = Infinity;
@@ -469,6 +499,17 @@ Connectome: MaleCNS v1.0 (Janelia FlyEM).
 
 		// The game starts focused, i.e. on top of the initial layout; afterwards any window can be raised over it.
 		focus(document.getElementById("win-game"));
+
+		// Desktop shortcut icons: click selects, double-click (or Enter) opens the link; phones open on a single tap.
+		const icons = Array.from(document.querySelectorAll(".desk-icon"));
+		const selectIcon = (icon) => icons.forEach((i) => i.classList.toggle("selected", i === icon));
+		icons.forEach((icon) => {
+			const open = () => window.open(icon.href, "_blank", "noopener");
+			icon.addEventListener("click", (e) => { e.preventDefault(); selectIcon(icon); if (isMobile()) open(); });
+			icon.addEventListener("dblclick", (e) => { e.preventDefault(); if (!isMobile()) open(); });
+			icon.addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); open(); } });
+		});
+		document.getElementById("desktop").addEventListener("pointerdown", (e) => { if (e.target.id === "desktop") selectIcon(null); });
 	})();
 	</script>
 	<script type="module" src="./bridge.js?v=30"></script>
