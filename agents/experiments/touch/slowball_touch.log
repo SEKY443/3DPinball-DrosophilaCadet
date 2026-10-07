@@ -1,0 +1,8 @@
+body touch: lives 48, theta_on 0.267, params /Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/best_touch_real.json
+ball in a flipper strike zone, moving toward the drain: fraction of steps that side's giant fiber is above threshold
+  speed   0-  2:    43/  168 =  25.6%
+  speed   2-  5:   141/  216 =  65.3%
+  speed   5- 10:   177/  246 =  72.0%
+  speed  10- 20:   219/  228 =  96.1%
+  speed  20-inf:    26/   36 =  72.2%
+drains passing through a strike zone: slow (<5) 0, of which no press on that side 0; fast 0, of which no press 0

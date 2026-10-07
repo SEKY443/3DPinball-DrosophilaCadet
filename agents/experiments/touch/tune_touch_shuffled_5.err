@@ -1,0 +1,70 @@
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 339, in close
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+    return self.env.close()
+    return self.env.close()
+    def close(self) -> None:
+    return self.env.close()
+    def _shutdown():
+    def _shutdown():
+    
+
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/../pathway_body/gf_body.py", line 126, in <lambda>
+           ^^^^^^^^^^^^^^^^
+    
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/../pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/../pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 449, in close
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 449, in close
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+SystemExit: 0
+    self._proc.terminate()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2208, in terminate
+    self._proc.wait(timeout=5.0)
+    self._proc.terminate()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1259, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2211, in terminate
+    def wait(self, timeout=None):
+
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/../pathway_body/gf_body.py", line 126, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    self.send_signal(signal.SIGTERM)
+    def terminate(self):
+
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/../pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2203, in send_signal
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    os.kill(self.pid, sig)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/../pathway_body/gf_body.py", line 126, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+SystemExit: 0

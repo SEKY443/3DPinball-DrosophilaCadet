@@ -1,0 +1,23 @@
+touch_real {"R": 0.3, "g4": 1.6201611679999879, "g2": 0.8056678917030686, "v0": 3.9720033856671657, "s0": 0.19809561942688317, "hold_max": 2, "refractory": 1, "gj": 8.0, "lam": 1.2879025351019617, "rho_target": 0.8, "fields": "sweep", "theta_on": 0.2674961219905688, "theta_off": 0.24074650979151194}
+sweep_real {"R": 0.3, "g4": 1.6963894568504538, "g2": 1.7912324147321113, "v0": 6.426939278560543, "s0": 0.4507627811508519, "hold_max": 1, "refractory": 1, "rho_target": 0.8, "retina": true, "fields": "sweep", "theta_on": 0.30675316498368466, "theta_off": 0.172836184173951}
+lead1 {}
+touch_shuf1 {"R": 0.30847691600664734, "g4": 1.9079636076271889, "g2": 0.8298077466612979, "v0": 8.604441082468329, "s0": 1.059203587823032, "hold_max": 1, "refractory": 2, "gj": 2.0858587539636315, "lam": 1.9071382633189642, "rho_target": 0.8, "fields": "sweep", "theta_on": 0.4033965471044184, "theta_off": 0.35670983271570184}
+touch_shuf2 {"R": 0.44381273130228416, "g4": 2.477339849860169, "g2": 2.2093097752387796, "v0": 1.7580794976453296, "s0": 0.6642031381232022, "hold_max": 1, "refractory": 2, "gj": 1.575515043659007, "lam": 1.0553267229075631, "rho_target": 0.8, "fields": "sweep", "theta_on": 0.608340685482927, "theta_off": 0.3308954513387672}
+touch_shuf3 {"R": 0.3, "g4": 2.6618512554111846, "g2": 0.6072274183896486, "v0": 8.772936453862723, "s0": 0.8914935552189133, "hold_max": 1, "refractory": 3, "gj": 1.706780344921069, "lam": 1.534963385796394, "rho_target": 0.8, "fields": "sweep", "theta_on": 0.35177147065640557, "theta_off": 0.30841073125280916}
+touch_shuf4 {"R": 2.064123317244483, "g4": 1.4464720929838495, "g2": 1.3511260521964958, "v0": 3.8025219868005062, "s0": 0.8524629741272947, "hold_max": 2, "refractory": 2, "gj": 1.8655575157291986, "lam": 1.8641767458197416, "rho_target": 0.8, "fields": "sweep", "theta_on": 0.5304876780144139, "theta_off": 0.32949268413720817}
+touch_shuf5 {"R": 0.48702744020828925, "g4": 2.7410784025904746, "g2": 0.9704543289444391, "v0": 9.251373023585137, "s0": 1.032386871679211, "hold_max": 1, "refractory": 2, "gj": 2.5552141604864937, "lam": 1.8125795438671608, "rho_target": 0.8, "fields": "sweep", "theta_on": 0.46259798701729676, "theta_off": 0.41633818831556707}
+touch_shuf6 {"R": 0.3, "g4": 1.2424062349772045, "g2": 0.7738717537755032, "v0": 9.445291471468932, "s0": 0.7957917646696571, "hold_max": 1, "refractory": 2, "gj": 2.551510469157741, "lam": 1.4037302404839962, "rho_target": 0.8, "fields": "sweep", "theta_on": 0.46259798701729676, "theta_off": 0.4155700487535643}
+paired lives 77000..77095 (96)
+touch_real   log1p 11.154 +- 0.094  median     72250  presses    21.7  contacts/press 0.392
+sweep_real   log1p 11.235 +- 0.100  median     78875  presses    16.9  contacts/press 0.420 | vs touch_real +0.082 +- 0.116 t +0.71 Wilcoxon p 0.4
+lead1        log1p 11.480 +- 0.094  median     97375  presses    16.4  contacts/press 0.536 | vs touch_real +0.326 +- 0.109 t +2.98 Wilcoxon p 0.01
+touch_shuf1  log1p 11.212 +- 0.088  median     79125  presses    27.7  contacts/press 0.227 | vs touch_real +0.058 +- 0.109 t +0.54 Wilcoxon p 0.94
+touch_shuf2  log1p 10.384 +- 0.079  median     38250  presses    14.2  contacts/press 0.126 | vs touch_real -0.770 +- 0.104 t -7.41 Wilcoxon p 7.9e-10
+touch_shuf3  log1p 10.813 +- 0.092  median     48750  presses    16.4  contacts/press 0.198 | vs touch_real -0.341 +- 0.102 t -3.34 Wilcoxon p 0.00089
+touch_shuf4  log1p 10.476 +- 0.091  median     38250  presses    18.9  contacts/press 0.167 | vs touch_real -0.678 +- 0.099 t -6.84 Wilcoxon p 4.3e-09
+touch_shuf5  log1p 11.070 +- 0.093  median     62625  presses    24.6  contacts/press 0.227 | vs touch_real -0.083 +- 0.104 t -0.80 Wilcoxon p 0.31
+touch_shuf6  log1p 10.995 +- 0.087  median     65750  presses    21.1  contacts/press 0.280 | vs touch_real -0.159 +- 0.109 t -1.45 Wilcoxon p 0.18
+KEY pooled shuffle (mean of 6 per seed) - touch_real: -0.329 +- 0.084 t -3.91 Wilcoxon p 0.00014
+KEY pooled shuffle (all 576 paired lives) - touch_real: -0.329 (naive SE 0.044)
+KEY touch_real - sweep_real: -0.082 +- 0.116 t -0.71 Wilcoxon p 0.4
+KEY touch_real - lead1: -0.326 +- 0.109 t -2.98 Wilcoxon p 0.01

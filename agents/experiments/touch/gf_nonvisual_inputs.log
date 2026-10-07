@@ -1,0 +1,79 @@
+giant fibers: {'R': 10001, 'L': 10010}
+
+== direct inputs (synapses); visual LC4/LPLC2 share: GF_R 25.8%, GF_L 25.8%
+
+-- GF_R non-visual inputs by superclass/class (share of all its input):
+   cb_intrinsic                 nan                              8596  46.3%
+   nan                          nan                              2531  13.6%
+   descending_neuron            nan                              1128   6.1%
+   ascending_neuron             nan                               797   4.3%
+   vnc_intrinsic                nan                               599   3.2%
+   vnc_efferent                 nan                                42   0.2%
+   visual_centrifugal           nan                                37   0.2%
+   cb_sensory                   mechanosensory                     30   0.2%
+   visual_projection            nan                                19   0.1%
+   vnc_motor                    nan                                 2   0.0%
+   efferent_ascending           nan                                 1   0.0%
+-- GF_R top non-visual input types: PVLP122 614, DNp70 597, SAD064 548, SAD073 469, PVLP010 297, PVLP123 296, CB1638 270, PVLP151 269, CL038 263, AN12B001 245, CL367 241, DNpe042 216, GNG300 213, PVLP062 211, CB2664 211
+
+-- GF_L non-visual inputs by superclass/class (share of all its input):
+   cb_intrinsic                 nan                             10316  41.4%
+   nan                          nan                              4214  16.9%
+   descending_neuron            nan                              1701   6.8%
+   ascending_neuron             nan                               781   3.1%
+   cb_sensory                   mechanosensory                    679   2.7%
+   vnc_intrinsic                nan                               675   2.7%
+   vnc_efferent                 nan                                54   0.2%
+   visual_centrifugal           nan                                40   0.2%
+   visual_projection            nan                                 9   0.0%
+   cb_intrinsic                 ALPN                                2   0.0%
+   vnc_motor                    nan                                 1   0.0%
+-- GF_L top non-visual input types: DNp70 819, SAD073 708, SAD064 667, PVLP122 602, JO-B1_a 518, PVLP010 414, PVLP151 334, PVLP123 324, CL367 296, CL038 286, AN12B001 280, DNpe042 278, PVLP062 275, GNG300 261, CB2664 244
+
+== sensory -> GF direct: 28 edges, 709 synapses
+type          class           entryNerve  somaSide
+JO-B1_a       mechanosensory  AN          NaN         545
+JO-B1_c       mechanosensory  AN          NaN         148
+JO-CA1        mechanosensory  AN          NaN          10
+JO-A2         mechanosensory  AN          NaN           2
+JO-B3         mechanosensory  AN          NaN           2
+JO-A-unclear  mechanosensory  AN          NaN           1
+JO-CA2        mechanosensory  AN          NaN           1
+
+== sensory -> X -> GF (two-hop), top sensory types by path weight:
+s_type    s_class         s_entryNerve  s_receptorType  s_somaSide  gf_side
+JO-A2     mechanosensory  AN            NaN             NaN         L          149812
+                                                                    R           99888
+JO-B1_c   mechanosensory  AN            NaN             NaN         L           91028
+JO-B3     mechanosensory  AN            NaN             NaN         L           87960
+JO-A1     mechanosensory  AN            NaN             NaN         L           72616
+JO-CA2    mechanosensory  AN            NaN             NaN         L           61307
+JO-A3     mechanosensory  AN            NaN             NaN         L           58089
+BM        mechanosensory  AN            NaN             NaN         L           56792
+JO-EV2    mechanosensory  AN            NaN             NaN         L           51185
+JO-mz     mechanosensory  AN            NaN             NaN         L           50987
+JO-A1     mechanosensory  AN            NaN             NaN         R           49030
+JO-EV2    mechanosensory  AN            NaN             NaN         R           46266
+JO-FV     mechanosensory  AN            NaN             NaN         R           46007
+JO-B1_a   mechanosensory  AN            NaN             NaN         L           45481
+JO-FV     mechanosensory  AN            NaN             NaN         L           41752
+JO-A3     mechanosensory  AN            NaN             NaN         R           40607
+JO-CL     mechanosensory  AN            NaN             NaN         L           38298
+BM_Taste  mechanosensory  MxLbN         NaN             NaN         L           36722
+                                                                    R           35728
+JO-EV1    mechanosensory  AN            NaN             NaN         L           34611
+
+== top intermediates on those two-hop paths:
+m_type    gf_side
+AN12B001  L          236990
+          R          189585
+SAD064    L          173215
+GNG300    L          151329
+          R          138237
+SAD103    L          121968
+CB0307    L          121656
+SAD103    R          106722
+SAD107    R          102312
+SAD111    L           97208
+AN23B001  L           74256
+SAD053    L           64950

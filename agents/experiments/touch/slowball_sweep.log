@@ -1,0 +1,8 @@
+body sweep: lives 48, theta_on 0.307, params /Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/../pathway_body/best_retina_real_sweep.json
+ball in a flipper strike zone, moving toward the drain: fraction of steps that side's giant fiber is above threshold
+  speed   0-  2:     0/   31 =   0.0%
+  speed   2-  5:    85/  197 =  43.1%
+  speed   5- 10:   162/  267 =  60.7%
+  speed  10- 20:   308/  322 =  95.7%
+  speed  20-inf:    51/   54 =  94.4%
+drains passing through a strike zone: slow (<5) 0, of which no press on that side 0; fast 0, of which no press 0

@@ -1,0 +1,121 @@
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Exception ignored in atexit callback: <bound method Wrapper.close of <TimeLimit<PinballEnv instance>>>
+Exception ignored in: <module 'threading' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1541, in _shutdown
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/.venv/lib/python3.11/site-packages/gymnasium/core.py", line 341, in close
+    return self.env.close()
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    return self.env.close()
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^
+    return self.env.close()
+    def _shutdown():
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+           ^^^^^^^^^^^^^^^^
+    return self.env.close()
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/../pathway_body/gf_body.py", line 126, in <lambda>
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+    self._proc.wait(timeout=5.0)
+           ^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+    self._proc.wait(timeout=5.0)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/env_python/pinball_env.py", line 451, in close
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    self._proc.wait(timeout=5.0)
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    self._proc.wait(timeout=5.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+                                             ^^^^^^^^^^^
+    self._proc.wait(timeout=5.0)
+SystemExit: 0
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return self._wait(timeout=timeout)
+    return self._wait(timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return self._wait(timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+    time.sleep(delay)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 2047, in _wait
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/../pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/../pathway_body/gf_body.py", line 126, in <lambda>
+    time.sleep(delay)
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    time.sleep(delay)
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/../pathway_body/gf_body.py", line 126, in <lambda>
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/../pathway_body/gf_body.py", line 126, in <lambda>
+                                             ^^^^^^^^^^^
+    time.sleep(delay)
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/../pathway_body/gf_body.py", line 126, in <lambda>
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/../pathway_body/gf_body.py", line 126, in <lambda>
+  File "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/../pathway_body/gf_body.py", line 126, in <lambda>
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+SystemExit: 0
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
+                                             ^^^^^^^^^^^
+                                             ^^^^^^^^^^^
+SystemExit: 0
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+SystemExit: 0
+                                             ^^^^^^^^^^^
+SystemExit: 0
+SystemExit: 0

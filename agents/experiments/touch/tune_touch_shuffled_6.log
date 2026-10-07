@@ -1,0 +1,42 @@
+[touch shuffled_6 A] 60/60 configs reach >= 15.0 presses at theta_on 0.01
+[touch shuffled_6 A] 12/60 calibrated into ~[15, 28] presses on the 8-life subset
+[touch shuffled_6 A] R 2.58 g4 4.80 g2 0.50 v0 4.70 s0 0.06 hold 3 ref 1 on 0.608 -> log1p 10.236 presses 21.8 OK
+[touch shuffled_6 A] R 0.92 g4 5.89 g2 6.66 v0 0.33 s0 0.35 hold 3 ref 2 on 0.698 -> log1p 9.953 presses 16.0 OK
+[touch shuffled_6 A] R 2.54 g4 7.32 g2 0.52 v0 4.86 s0 1.41 hold 2 ref 1 on 0.608 -> log1p 10.086 presses 17.1 OK
+[touch shuffled_6 A] R 2.32 g4 0.94 g2 0.71 v0 0.23 s0 0.37 hold 3 ref 3 on 0.608 -> log1p 10.016 presses 21.6 OK
+[touch shuffled_6 A] R 0.92 g4 7.49 g2 4.30 v0 0.26 s0 0.13 hold 2 ref 3 on 0.698 -> log1p 9.913 presses 18.3 OK
+[touch shuffled_6 A] R 1.67 g4 5.31 g2 0.73 v0 2.08 s0 0.82 hold 1 ref 3 on 0.608 -> log1p 10.335 presses 23.4 OK
+[touch shuffled_6 A] R 1.99 g4 2.53 g2 1.87 v0 0.19 s0 0.06 hold 1 ref 2 on 0.698 -> log1p 9.905 presses 15.8 OK
+[touch shuffled_6 A] R 0.88 g4 4.91 g2 3.30 v0 4.22 s0 0.66 hold 2 ref 3 on 0.669 -> log1p 10.016 presses 7.3 OK
+[touch shuffled_6 A] R 0.44 g4 2.48 g2 2.21 v0 1.76 s0 0.66 hold 1 ref 2 on 0.608 -> log1p 10.366 presses 18.4 OK
+[touch shuffled_6 A] R 1.54 g4 5.19 g2 3.27 v0 0.35 s0 0.35 hold 1 ref 3 on 0.698 -> log1p 9.803 presses 13.9 OK
+[touch shuffled_6 A] R 0.75 g4 1.13 g2 1.08 v0 0.34 s0 0.36 hold 3 ref 2 on 0.669 -> log1p 9.929 presses 3.3 OK
+[touch shuffled_6 A] R 0.31 g4 1.91 g2 0.83 v0 8.60 s0 1.06 hold 1 ref 2 on 0.463 -> log1p 10.815 presses 20.1 OK
+[touch shuffled_6 B] 50/50 configs reach >= 15.0 presses at theta_on 0.01
+[touch shuffled_6 B] 24/50 calibrated into ~[15, 28] presses on the 8-life subset
+[touch shuffled_6 B] R 0.30 g4 1.24 g2 0.77 v0 9.45 s0 0.80 hold 1 ref 2 on 0.463 -> log1p 10.920 presses 20.9 OK
+[touch shuffled_6 B] R 0.31 g4 1.96 g2 1.01 v0 8.88 s0 1.31 hold 1 ref 1 on 0.463 -> log1p 10.908 presses 22.5 OK
+[touch shuffled_6 B] R 0.30 g4 1.54 g2 0.76 v0 10.00 s0 0.97 hold 1 ref 2 on 0.463 -> log1p 10.867 presses 22.6 OK
+[touch shuffled_6 B] R 0.35 g4 2.31 g2 0.82 v0 10.00 s0 0.94 hold 1 ref 2 on 0.509 -> log1p 10.548 presses 14.8 OK
+[touch shuffled_6 B] R 0.30 g4 2.66 g2 0.61 v0 8.77 s0 0.89 hold 1 ref 3 on 0.444 -> log1p 10.631 presses 14.8 OK
+[touch shuffled_6 B] R 0.34 g4 1.30 g2 0.72 v0 6.65 s0 1.24 hold 3 ref 2 on 0.403 -> log1p 10.730 presses 24.7 OK
+[touch shuffled_6 B] R 0.30 g4 1.36 g2 0.78 v0 8.71 s0 0.79 hold 1 ref 2 on 0.463 -> log1p 10.912 presses 24.7 OK
+[touch shuffled_6 B] R 0.39 g4 2.84 g2 2.82 v0 1.54 s0 0.93 hold 2 ref 1 on 0.608 -> log1p 10.445 presses 17.9 OK
+[touch shuffled_6 B] R 0.46 g4 1.89 g2 3.13 v0 1.91 s0 0.49 hold 1 ref 2 on 0.669 -> log1p 9.930 presses 4.5 OK
+[touch shuffled_6 B] R 0.35 g4 3.06 g2 1.90 v0 2.44 s0 0.69 hold 3 ref 3 on 0.584 -> log1p 10.646 presses 14.0 OK
+[touch shuffled_6 B] R 0.35 g4 2.84 g2 2.72 v0 1.61 s0 0.40 hold 2 ref 2 on 0.669 -> log1p 10.031 presses 4.7 OK
+[touch shuffled_6 B] R 1.68 g4 3.68 g2 0.64 v0 1.53 s0 0.76 hold 1 ref 3 on 0.608 -> log1p 10.182 presses 19.5 OK
+[touch shuffled_6 B] R 2.83 g4 5.05 g2 0.61 v0 1.93 s0 0.82 hold 1 ref 3 on 0.608 -> log1p 10.072 presses 21.6 OK
+[touch shuffled_6 B] R 1.27 g4 3.84 g2 0.75 v0 1.84 s0 0.63 hold 1 ref 3 on 0.608 -> log1p 10.191 presses 19.8 OK
+[touch shuffled_6 B] R 1.50 g4 7.01 g2 0.77 v0 2.21 s0 0.66 hold 1 ref 3 on 0.669 -> log1p 9.868 presses 3.5 OK
+[touch shuffled_6 B] R 2.90 g4 3.75 g2 0.51 v0 4.62 s0 0.06 hold 2 ref 1 on 0.608 -> log1p 10.127 presses 21.2 OK
+[touch shuffled_6 B] R 3.00 g4 8.00 g2 0.50 v0 5.59 s0 0.07 hold 3 ref 1 on 0.669 -> log1p 9.773 presses 1.2 OK
+[touch shuffled_6 B] R 2.39 g4 7.43 g2 0.50 v0 4.75 s0 0.06 hold 3 ref 1 on 0.669 -> log1p 9.775 presses 1.2 OK
+[touch shuffled_6 B] R 2.46 g4 4.20 g2 0.50 v0 4.41 s0 0.07 hold 3 ref 1 on 0.608 -> log1p 10.161 presses 16.8 OK
+[touch shuffled_6 B] R 2.75 g4 5.02 g2 0.50 v0 4.47 s0 0.07 hold 3 ref 1 on 0.608 -> log1p 10.050 presses 18.4 OK
+[touch shuffled_6 B] R 3.00 g4 4.80 g2 0.50 v0 4.09 s0 0.07 hold 2 ref 1 on 0.608 -> log1p 9.983 presses 22.3 OK
+[touch shuffled_6 B] R 2.80 g4 4.12 g2 0.50 v0 3.73 s0 0.06 hold 3 ref 1 on 0.669 -> log1p 9.775 presses 0.9 OK
+[touch shuffled_6 B] R 2.76 g4 6.08 g2 0.50 v0 4.54 s0 1.05 hold 2 ref 1 on 0.608 -> log1p 10.522 presses 23.8 OK
+[touch shuffled_6 B] R 2.94 g4 8.00 g2 0.50 v0 6.86 s0 1.05 hold 2 ref 1 on 0.608 -> log1p 10.567 presses 23.7 OK
+[shuffled_6] configs sampled 60 + refined 50; accepted 36
+[shuffled_6] BEST log1p 10.920 presses 20.9: {"R": 0.3, "g4": 1.2424062349772045, "g2": 0.7738717537755032, "v0": 9.445291471468932, "s0": 0.7957917646696571, "hold_max": 1, "refractory": 2, "gj": 2.551510469157741, "lam": 1.4037302404839962, "circuit_json": "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/gf_touch_circuit_shuffled_6.json", "rho_target": 0.8, "fields": "sweep", "theta_on": 0.46259798701729676, "theta_off": 0.4155700487535643}

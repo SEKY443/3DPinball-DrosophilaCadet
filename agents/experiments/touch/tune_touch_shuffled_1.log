@@ -1,0 +1,35 @@
+[touch shuffled_1 A] 60/60 configs reach >= 15.0 presses at theta_on 0.01
+[touch shuffled_1 A] 7/60 calibrated into ~[15, 28] presses on the 8-life subset
+[touch shuffled_1 A] R 2.87 g4 3.35 g2 3.04 v0 1.92 s0 0.19 hold 2 ref 3 on 0.608 -> log1p 10.371 presses 23.7 OK
+[touch shuffled_1 A] R 0.83 g4 7.05 g2 2.00 v0 0.48 s0 0.41 hold 2 ref 3 on 0.608 -> log1p 10.280 presses 22.4 OK
+[touch shuffled_1 A] R 1.99 g4 1.89 g2 0.95 v0 3.50 s0 1.16 hold 2 ref 2 on 0.584 -> log1p 10.007 presses 4.6 OK
+[touch shuffled_1 A] R 0.32 g4 0.79 g2 5.79 v0 3.27 s0 0.33 hold 3 ref 2 on 0.584 -> log1p 9.756 presses 0.2 OK
+[touch shuffled_1 A] R 0.99 g4 1.63 g2 0.56 v0 0.14 s0 1.24 hold 2 ref 3 on 0.530 -> log1p 10.800 presses 19.0 OK
+[touch shuffled_1 A] R 0.31 g4 1.91 g2 0.83 v0 8.60 s0 1.06 hold 1 ref 2 on 0.403 -> log1p 10.953 presses 19.9 OK
+[touch shuffled_1 A] R 0.42 g4 0.52 g2 1.67 v0 2.84 s0 0.40 hold 2 ref 3 on 0.530 -> log1p 10.649 presses 17.3 OK
+[touch shuffled_1 B] 50/50 configs reach >= 15.0 presses at theta_on 0.01
+[touch shuffled_1 B] 22/50 calibrated into ~[15, 28] presses on the 8-life subset
+[touch shuffled_1 B] R 0.49 g4 2.74 g2 0.97 v0 9.25 s0 1.03 hold 1 ref 2 on 0.509 -> log1p 10.251 presses 7.8 OK
+[touch shuffled_1 B] R 0.30 g4 1.24 g2 0.77 v0 9.45 s0 0.80 hold 1 ref 2 on 0.444 -> log1p 10.609 presses 8.2 OK
+[touch shuffled_1 B] R 0.31 g4 1.96 g2 1.01 v0 8.88 s0 1.31 hold 1 ref 1 on 0.444 -> log1p 10.840 presses 12.6 OK
+[touch shuffled_1 B] R 0.35 g4 2.31 g2 0.82 v0 10.00 s0 0.94 hold 1 ref 2 on 0.463 -> log1p 10.733 presses 15.8 OK
+[touch shuffled_1 B] R 0.30 g4 2.66 g2 0.61 v0 8.77 s0 0.89 hold 1 ref 3 on 0.403 -> log1p 10.905 presses 17.6 OK
+[touch shuffled_1 B] R 0.34 g4 1.30 g2 0.72 v0 6.65 s0 1.24 hold 3 ref 2 on 0.352 -> log1p 10.665 presses 17.2 OK
+[touch shuffled_1 B] R 0.30 g4 1.90 g2 0.79 v0 7.73 s0 1.13 hold 2 ref 3 on 0.294 -> log1p 11.131 presses 43.9 over
+[touch shuffled_1 B] R 0.98 g4 1.40 g2 0.50 v0 0.12 s0 1.35 hold 2 ref 2 on 0.584 -> log1p 9.756 presses 0.6 OK
+[touch shuffled_1 B] R 0.93 g4 1.13 g2 0.69 v0 0.19 s0 1.14 hold 2 ref 3 on 0.530 -> log1p 10.722 presses 20.9 OK
+[touch shuffled_1 B] R 0.42 g4 0.50 g2 1.44 v0 2.08 s0 0.38 hold 2 ref 3 on 0.530 -> log1p 10.558 presses 13.2 OK
+[touch shuffled_1 B] R 0.71 g4 0.50 g2 1.38 v0 2.63 s0 0.40 hold 2 ref 3 on 0.530 -> log1p 10.499 presses 23.9 OK
+[touch shuffled_1 B] R 0.40 g4 0.50 g2 1.40 v0 2.58 s0 0.40 hold 2 ref 3 on 0.530 -> log1p 10.536 presses 11.5 OK
+[touch shuffled_1 B] R 0.32 g4 0.50 g2 1.71 v0 2.50 s0 0.31 hold 2 ref 3 on 0.530 -> log1p 10.634 presses 17.6 OK
+[touch shuffled_1 B] R 0.38 g4 0.69 g2 1.74 v0 3.01 s0 0.33 hold 2 ref 3 on 0.530 -> log1p 10.511 presses 17.6 OK
+[touch shuffled_1 B] R 0.35 g4 0.51 g2 1.45 v0 2.75 s0 0.40 hold 2 ref 3 on 0.509 -> log1p 10.593 presses 16.2 OK
+[touch shuffled_1 B] R 2.74 g4 2.93 g2 2.72 v0 1.80 s0 0.22 hold 2 ref 3 on 0.608 -> log1p 10.190 presses 14.2 OK
+[touch shuffled_1 B] R 3.00 g4 3.50 g2 2.68 v0 1.83 s0 0.22 hold 2 ref 3 on 0.608 -> log1p 10.400 presses 19.8 OK
+[touch shuffled_1 B] R 2.75 g4 4.43 g2 3.67 v0 2.27 s0 0.17 hold 2 ref 3 on 0.608 -> log1p 10.119 presses 17.5 OK
+[touch shuffled_1 B] R 0.67 g4 6.18 g2 1.87 v0 0.48 s0 0.20 hold 2 ref 3 on 0.608 -> log1p 10.228 presses 24.1 OK
+[touch shuffled_1 B] R 0.90 g4 5.86 g2 1.85 v0 0.44 s0 0.31 hold 2 ref 1 on 0.669 -> log1p 9.756 presses 0.0 OK
+[touch shuffled_1 B] R 0.68 g4 7.79 g2 1.29 v0 0.53 s0 0.38 hold 2 ref 2 on 0.608 -> log1p 10.436 presses 13.5 OK
+[touch shuffled_1 B] R 0.72 g4 6.99 g2 1.98 v0 0.47 s0 0.40 hold 2 ref 3 on 0.608 -> log1p 10.487 presses 23.4 OK
+[shuffled_1] configs sampled 60 + refined 50; accepted 28
+[shuffled_1] BEST log1p 10.953 presses 19.9: {"R": 0.30847691600664734, "g4": 1.9079636076271889, "g2": 0.8298077466612979, "v0": 8.604441082468329, "s0": 1.059203587823032, "hold_max": 1, "refractory": 2, "gj": 2.0858587539636315, "lam": 1.9071382633189642, "circuit_json": "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/gf_touch_circuit_shuffled_1.json", "rho_target": 0.8, "fields": "sweep", "theta_on": 0.4033965471044184, "theta_off": 0.35670983271570184}

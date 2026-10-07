@@ -1,0 +1,47 @@
+[touch real A] 60/60 configs reach >= 15.0 presses at theta_on 0.01
+[touch real A] 16/60 calibrated into ~[15, 28] presses on the 8-life subset
+[touch real A] R 1.30 g4 1.06 g2 0.56 v0 0.05 s0 0.79 hold 2 ref 2 on 0.337 -> log1p 10.193 presses 2.3 OK
+[touch real A] R 2.87 g4 3.35 g2 3.04 v0 1.92 s0 0.19 hold 2 ref 3 on 0.352 -> log1p 10.264 presses 21.8 OK
+[touch real A] R 0.65 g4 0.76 g2 1.74 v0 3.40 s0 0.11 hold 2 ref 2 on 0.257 -> log1p 11.215 presses 35.6 over
+[touch real A] R 0.83 g4 7.05 g2 2.00 v0 0.48 s0 0.41 hold 2 ref 3 on 0.387 -> log1p 9.756 presses 0.0 OK
+[touch real A] R 1.99 g4 1.89 g2 0.95 v0 3.50 s0 1.16 hold 2 ref 2 on 0.337 -> log1p 10.222 presses 7.2 OK
+[touch real A] R 2.18 g4 0.99 g2 0.74 v0 1.74 s0 0.57 hold 3 ref 2 on 0.307 -> log1p 10.705 presses 21.6 OK
+[touch real A] R 0.35 g4 2.00 g2 3.94 v0 0.13 s0 0.19 hold 3 ref 3 on 0.352 -> log1p 10.332 presses 21.6 OK
+[touch real A] R 0.37 g4 2.49 g2 0.86 v0 3.62 s0 0.26 hold 2 ref 1 on 0.307 -> log1p 10.785 presses 15.6 OK
+[touch real A] R 0.63 g4 4.55 g2 0.93 v0 0.34 s0 0.21 hold 2 ref 1 on 0.352 -> log1p 10.132 presses 13.5 OK
+[touch real A] R 2.83 g4 2.02 g2 4.04 v0 6.33 s0 0.25 hold 1 ref 3 on 0.337 -> log1p 10.143 presses 7.4 OK
+[touch real A] R 1.49 g4 1.24 g2 0.81 v0 1.79 s0 0.17 hold 2 ref 3 on 0.294 -> log1p 10.977 presses 50.3 over
+[touch real A] R 2.94 g4 1.04 g2 5.00 v0 0.13 s0 0.37 hold 2 ref 3 on 0.387 -> log1p 9.756 presses 0.0 OK
+[touch real A] R 0.44 g4 2.48 g2 2.21 v0 1.76 s0 0.66 hold 1 ref 2 on 0.337 -> log1p 10.439 presses 11.5 OK
+[touch real A] R 0.96 g4 4.80 g2 0.91 v0 0.07 s0 0.33 hold 2 ref 1 on 0.352 -> log1p 10.208 presses 17.4 OK
+[touch real A] R 0.31 g4 1.91 g2 0.83 v0 8.60 s0 1.06 hold 1 ref 2 on 0.170 -> log1p 11.174 presses 27.1 over
+[touch real A] R 0.42 g4 0.52 g2 1.67 v0 2.84 s0 0.40 hold 2 ref 3 on 0.224 -> log1p 11.058 presses 28.1 over
+[touch real B] 50/50 configs reach >= 15.0 presses at theta_on 0.01
+[touch real B] 25/50 calibrated into ~[15, 28] presses on the 8-life subset
+[touch real B] R 0.30 g4 1.62 g2 0.81 v0 3.97 s0 0.20 hold 2 ref 1 on 0.267 -> log1p 11.219 presses 23.1 OK
+[touch real B] R 0.30 g4 2.01 g2 0.79 v0 4.60 s0 0.24 hold 2 ref 1 on 0.267 -> log1p 11.165 presses 23.8 OK
+[touch real B] R 0.42 g4 3.02 g2 0.85 v0 4.73 s0 0.23 hold 2 ref 1 on 0.307 -> log1p 10.913 presses 18.8 OK
+[touch real B] R 0.30 g4 2.48 g2 0.82 v0 3.25 s0 0.28 hold 2 ref 3 on 0.267 -> log1p 11.151 presses 22.8 OK
+[touch real B] R 0.55 g4 3.11 g2 1.08 v0 5.69 s0 0.27 hold 2 ref 1 on 0.307 -> log1p 10.738 presses 18.8 OK
+[touch real B] R 2.64 g4 0.82 g2 0.98 v0 3.17 s0 0.37 hold 2 ref 2 on 0.307 -> log1p 10.687 presses 16.3 OK
+[touch real B] R 2.25 g4 0.76 g2 1.05 v0 1.89 s0 0.42 hold 3 ref 2 on 0.307 -> log1p 10.444 presses 17.9 OK
+[touch real B] R 1.66 g4 0.91 g2 0.69 v0 2.62 s0 0.79 hold 3 ref 2 on 0.294 -> log1p 10.768 presses 18.3 OK
+[touch real B] R 1.16 g4 1.12 g2 0.77 v0 1.61 s0 0.59 hold 3 ref 2 on 0.307 -> log1p 10.879 presses 23.6 OK
+[touch real B] R 0.45 g4 1.72 g2 1.92 v0 1.29 s0 0.62 hold 1 ref 2 on 0.337 -> log1p 10.638 presses 12.8 OK
+[touch real B] R 0.30 g4 2.08 g2 1.54 v0 1.51 s0 0.56 hold 1 ref 3 on 0.294 -> log1p 10.958 presses 23.8 OK
+[touch real B] R 0.41 g4 2.85 g2 1.70 v0 1.30 s0 0.77 hold 1 ref 2 on 0.337 -> log1p 10.270 presses 6.4 OK
+[touch real B] R 0.42 g4 2.13 g2 1.86 v0 1.60 s0 0.65 hold 2 ref 2 on 0.307 -> log1p 10.803 presses 21.8 OK
+[touch real B] R 0.40 g4 1.56 g2 3.96 v0 0.13 s0 0.19 hold 2 ref 3 on 0.352 -> log1p 10.408 presses 21.8 OK
+[touch real B] R 0.43 g4 3.49 g2 3.88 v0 0.15 s0 0.23 hold 3 ref 3 on 0.387 -> log1p 9.756 presses 0.0 OK
+[touch real B] R 0.33 g4 3.10 g2 3.19 v0 0.13 s0 0.21 hold 3 ref 3 on 0.352 -> log1p 10.338 presses 20.7 OK
+[touch real B] R 0.48 g4 1.78 g2 3.61 v0 0.16 s0 0.18 hold 3 ref 3 on 0.352 -> log1p 10.396 presses 20.8 OK
+[touch real B] R 0.34 g4 1.75 g2 3.53 v0 0.12 s0 0.22 hold 3 ref 3 on 0.352 -> log1p 10.377 presses 18.5 OK
+[touch real B] R 0.38 g4 2.09 g2 3.47 v0 0.12 s0 0.22 hold 3 ref 3 on 0.352 -> log1p 10.554 presses 24.9 OK
+[touch real B] R 0.30 g4 1.59 g2 3.78 v0 0.12 s0 0.14 hold 3 ref 3 on 0.352 -> log1p 10.558 presses 18.7 OK
+[touch real B] R 2.31 g4 2.93 g2 2.84 v0 1.95 s0 0.09 hold 2 ref 3 on 0.352 -> log1p 10.306 presses 18.8 OK
+[touch real B] R 2.28 g4 3.86 g2 1.61 v0 1.79 s0 0.18 hold 2 ref 3 on 0.387 -> log1p 9.756 presses 0.0 OK
+[touch real B] R 2.93 g4 4.02 g2 2.14 v0 2.40 s0 0.33 hold 2 ref 3 on 0.352 -> log1p 10.166 presses 18.8 OK
+[touch real B] R 2.43 g4 3.61 g2 3.18 v0 1.81 s0 0.25 hold 3 ref 3 on 0.352 -> log1p 10.552 presses 21.1 OK
+[touch real B] R 3.00 g4 3.80 g2 2.32 v0 2.71 s0 0.14 hold 2 ref 1 on 0.387 -> log1p 9.756 presses 0.0 OK
+[real] configs sampled 60 + refined 50; accepted 37
+[real] BEST log1p 11.219 presses 23.1: {"R": 0.3, "g4": 1.6201611679999879, "g2": 0.8056678917030686, "v0": 3.9720033856671657, "s0": 0.19809561942688317, "hold_max": 2, "refractory": 1, "gj": 8.0, "lam": 1.2879025351019617, "circuit_json": "/Users/seky/Developer/Git/3DPinball-DrosophilaCadet/agents/experiments/touch/gf_touch_circuit.json", "rho_target": 0.8, "fields": "sweep", "theta_on": 0.2674961219905688, "theta_off": 0.24074650979151194}
