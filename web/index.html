@@ -7,8 +7,9 @@
 	<meta name="description" content="Watch a fly play 3DPinball">
 	<meta property="og:title" content="DrosophilaCadet">
 	<meta property="og:description" content="Watch a fly play 3DPinball">
-	<!-- Tab icon: the fly emoji (drawn by the system emoji font). -->
-	<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50' y='.9em' font-size='90' text-anchor='middle'%3E%F0%9F%AA%B0%3C/text%3E%3C/svg%3E" />
+	<!-- Tab icon: the Twemoji fly (CC-BY 4.0, credited in Notepad and the README). -->
+	<link rel="icon" type="image/png" href="./favicon.png?v=1">
+	<link rel="apple-touch-icon" href="./favicon.png?v=1">
 	<style>
 		:root {
 			--luna-title: linear-gradient(180deg, #0997ff 0%, #0053ee 8%, #0050ee 40%, #0066ff 88%, #0066ff 93%, #005bff 95%, #003dd7 96%, #003dd7 100%);
@@ -415,6 +416,8 @@ splash): Cinematronics / Maxis, now Electronic Arts;
 shipped with Windows under license. Bliss and the IE icon (c) Microsoft.
 Unofficial fan project, not affiliated with EA or Microsoft.
 Connectome: MaleCNS v1.0 (Janelia FlyEM).
+Tab icon: Twemoji fly, (c) Twitter, Inc. and contributors,
+CC-BY 4.0 (github.com/jdecked/twemoji).
 
 <span class="notes-toggle" id="lowres-toggle" role="button" tabindex="0">i wanna retina display</span></pre></div>
 		</section>
@@ -605,7 +608,7 @@ Connectome: MaleCNS v1.0 (Janelia FlyEM).
 		document.getElementById("desktop").addEventListener("pointerdown", (e) => { if (e.target.id === "desktop") selectIcon(null); });
 	})();
 	</script>
-	<script type="module" src="./bridge.js?v=31"></script>
+	<script type="module" src="./bridge.js?v=32"></script>
 	<script type="module" src="./brain_dashboard.js?v=8"></script>
 	<script type="module" src="./lowres.js?v=2"></script>
 	<script type="module" src="./paint.js?v=9"></script>

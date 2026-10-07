@@ -145,6 +145,7 @@ DrosophilaCadet/
 - The Windows XP look-alike UI is a fan recreation; this project is unofficial and not affiliated with Microsoft or Electronic Arts. No fonts are bundled (the page uses the visitor's system fonts).
 - **Connectome data:** MaleCNS v1.0 (Janelia FlyEM, HHMI Janelia Research Campus, with the University of Cambridge, MRC LMB and Google Research), CC-BY 4.0, https://male-cns.janelia.org/. Citation: Berg S, Beckett IR, Costa M, Schlegel P, Januszewski M, Marin EC, Nern A, et al. Sexual dimorphism in the complete connectome of the Drosophila male central nervous system. *Cell* (2026); bioRxiv 2025.10.09.680999, https://doi.org/10.1101/2025.10.09.680999 (as given in `vendor/nfly/README.md`).
 - **Drawings** in `assets/drawings/` (the Paint self-portrait) are by the repository author.
+- **Tab icon** (`web/favicon.png`): the fly emoji from [Twemoji](https://github.com/jdecked/twemoji), (c) Twitter, Inc. and contributors, licensed CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/); unmodified.
 - The original assets are included for a non-commercial fan project, with attribution, and will be removed on request by the rights holders.
 
 <div align="center">
