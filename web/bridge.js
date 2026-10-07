@@ -8,7 +8,7 @@
 // StateFrame layout below must stay in lockstep with src_cpp/ipc_protocol.h.
 
 import { PinballCircuitPolicyJS } from "./circuit_policy.js";
-import { RetinaGiantFiberPolicyJS } from "./gf_body.js?v=3";
+import { SplitGiantFiberPolicyJS } from "./gf_body.js?v=3";
 import { stateToObs } from "./observation.js";
 import { createMenuBar } from "./xp_menu.js?v=6";
 import { randomFlyName } from "./fly_names.js";
@@ -69,19 +69,20 @@ function inPlungerLane(x, y) {
 	return Math.abs(x - PLUNGER_LANE_X) < PLUNGER_LANE_X_TOL && y > PLUNGER_LANE_Y_MIN && y < PLUNGER_LANE_Y_MAX;
 }
 
-// Two controllers, switchable at runtime (menu bar of the game window; ?brain=popcode|gf_retina picks the
-// initial one, default gf_retina):
-//  - gf_retina: the UNTRAINED retinotopic giant-fiber body (gf_body.js). LC4/LPLC2 looming cells of the fixed
-//    MaleCNS connectome each watch their own spot along the flipper and are driven by the ball's angular
-//    velocity/size seen from that spot; the two giant fibers (DNp01) press the flippers. No learned weights.
+// Two controllers, switchable at runtime (menu bar of the game window; ?brain=popcode|gf_split picks the
+// initial one, default gf_split):
+//  - gf_split: the UNTRAINED giant-fiber body (gf_body.js). LC4/LPLC2 looming cells of the fixed MaleCNS
+//    connectome are driven by the ball's angular velocity/size seen from each flipper (one viewpoint per
+//    flipper); the two giant fibers (DNp01) press the flippers. No learned weights. (The retinotopic variant,
+//    gf_body_retina.json / RetinaGiantFiberPolicyJS, stays in the repo but is not served.)
 //  - popcode: the 444-neuron connectome with the popcode sensory encoding and delay1 flipper feedback,
 //    imitation-trained from the one-step-lead reflex (agents/experiments/timing/seeds/dagger_popcode_delay1_r8.pt).
 // Older readouts stay on disk but are no longer selectable.
 const BRAINS = {
-	gf_retina: {
+	gf_split: {
 		label: "Giant-fiber body (untrained)",
 		kind: "gf",
-		body: "./gf_body_retina.json?v=2",
+		body: "./gf_body_split.json?v=2",
 	},
 	popcode: {
 		label: "444-neuron fly circuit (popcode, lead-trained)",
@@ -90,11 +91,11 @@ const BRAINS = {
 		readout: "./circuit_readout_444_popcode.json",
 	},
 };
-const DEFAULT_BRAIN = "gf_retina";
+const DEFAULT_BRAIN = "gf_split";
 
 function loadPolicy(brain) {
 	return brain.kind === "gf"
-		? RetinaGiantFiberPolicyJS.load(brain.body)
+		? SplitGiantFiberPolicyJS.load(brain.body)
 		: PinballCircuitPolicyJS.load(brain.connectome, brain.readout);
 }
 

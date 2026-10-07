@@ -35,7 +35,7 @@ The flippers of *3D Pinball for Windows - Space Cadet* are driven by the fruit f
 looming-escape circuit, taken straight from the real **MaleCNS v1.0** connectome (Janelia FlyEM):
 the LC4 and LPLC2 visual neurons feeding the two **giant fibers (DNp01)**, 373 neurons in all, with
 real synapse counts and signs. **Nothing in the circuit is trained** - only the "body" around it is
-set up: each looming cell watches its own spot along a flipper, and a giant fiber that fires
+set up: each flipper gets a viewpoint on the ball, and a giant fiber that fires
 presses its flipper. Everything runs in your browser, on a Windows XP desktop. &nbsp; `:-)`
 
 ```

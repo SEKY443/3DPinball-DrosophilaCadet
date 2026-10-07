@@ -40,7 +40,7 @@ jobs:
         run: >
           node web/test/verify_policy.mjs web/connectome_444.json web/circuit_readout_444_popcode.json
           web/testdata/circuit_444_popcode_vectors.json
-          && node web/test/verify_gf_retina.mjs web/gf_body_retina.json web/testdata/gf_body_retina_vectors.json
+          && node web/test/verify_gf_body.mjs web/gf_body_split.json web/testdata/gf_body_split_vectors.json
 
       - name: Assemble Pages artifact
         # Only what index.html loads - no test data, backups or older brains.
@@ -49,7 +49,7 @@ jobs:
           cp web/index.html web/bridge.js web/circuit_policy.js web/observation.js web/brain_dashboard.js web/gf_body.js \
              web/xp_menu.js web/xp_scrollbar.js web/dom.js web/lowres.js web/fly_names.js web/score_history.js web/paint.js \
              web/splash.png web/bliss.jpg web/ie_shortcut.png \
-             web/connectome_444.json web/circuit_readout_444_popcode.json web/gf_body_retina.json _site/
+             web/connectome_444.json web/circuit_readout_444_popcode.json web/gf_body_split.json _site/
           cp web/paint/fly_idle.png web/paint/fly_left.png web/paint/fly_right.png _site/paint/
           cp web/dist/SpaceCadetPinball.js web/dist/SpaceCadetPinball.wasm web/dist/SpaceCadetPinball.data _site/dist/
 
