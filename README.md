@@ -24,7 +24,7 @@
 |  [ WELCOME ]  ............................................  [_][X] |
 +--------------------------------------------------------------------+
 ```
-https://seky443.github.io/3Dpinball-DrosophilaCadet/
+https://seky443.github.io/3DPinball-DrosophilaCadet/
 
 **Plz use Chrome for better experience.**
 
