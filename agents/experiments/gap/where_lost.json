@@ -1,0 +1,138 @@
+{
+ "stats": {
+  "retina": {
+   "n": 96,
+   "log1p": 11.235480308532715,
+   "log1p_se": 0.10000690072774887,
+   "median_score": 78875.0,
+   "mean_score": 112585.9375,
+   "steps": 1299.0729166666667,
+   "contacts": 7.104166507720947,
+   "zero_contact_lives": 11,
+   "score_per_contact": 15847.8740234375,
+   "presses": 16.916666666666668,
+   "empty_press_frac": 0.15886699507389163,
+   "contacts_per_press": 0.41995073891625617,
+   "contact_age_median": 1.0,
+   "contact_age_mean": 0.9868035190615836,
+   "held_ge4_frac": 0.0,
+   "contact_absx_median": 1.5474915504455566,
+   "tip_frac": 0.3870967741935484,
+   "pivot_frac": 0.2873900293255132,
+   "contact_speed_median": 13.458624653599001,
+   "out_vy_median": -16.839866638183594,
+   "out_up_frac": 0.7697947214076246,
+   "out_speed_median": 21.866333455850878,
+   "drain_absx_median": 0.8459410071372986,
+   "drain_centre_frac": 0.5222222222222223,
+   "last_contact_gap_median": 217.5,
+   "drains": {
+    "centre": {
+     "n": 47,
+     "dwell_steps": 18.19148936170213,
+     "slow_frac": 0.18271553630851037,
+     "median_speed": 11.521700859069824,
+     "pressed_steps": 0.7659574468085106,
+     "any_press_frac": 0.5319148936170213,
+     "contact_in_last150": 0.2978723404255319
+    },
+    "other": {
+     "n": 43,
+     "dwell_steps": 2.9069767441860463,
+     "slow_frac": 0.024086378737541526,
+     "median_speed": 7.988410949707031,
+     "pressed_steps": 0.06976744186046512,
+     "any_press_frac": 0.06976744186046512,
+     "contact_in_last150": 0.09302325581395349
+    }
+   },
+   "approach": {
+    "centre": {
+     "n": 47,
+     "absx_at_tip_line": 0.2861790359020233,
+     "median_vy": 11.51950740814209,
+     "median_speed": 13.102617263793945,
+     "gf_max": 0.31650981307029724,
+     "pressed_frac": 0.5957446808510638,
+     "moving_down_frac": 0.9918166939443535
+    },
+    "other": {
+     "n": 43,
+     "absx_at_tip_line": 2.434884548187256,
+     "median_vy": 4.695281505584717,
+     "median_speed": 6.935216426849365,
+     "gf_max": 0.22102005779743195,
+     "pressed_frac": 0.023255813953488372,
+     "moving_down_frac": 0.9838998211091234
+    }
+   }
+  },
+  "lead1": {
+   "n": 96,
+   "log1p": 11.479527473449707,
+   "log1p_se": 0.09381159394979477,
+   "median_score": 97375.0,
+   "mean_score": 142216.140625,
+   "steps": 1482.0208333333333,
+   "contacts": 8.791666984558105,
+   "zero_contact_lives": 7,
+   "score_per_contact": 16176.244140625,
+   "presses": 16.395833333333332,
+   "empty_press_frac": 0.44726810673443457,
+   "contacts_per_press": 0.5362134688691232,
+   "contact_age_median": 1.0,
+   "contact_age_mean": 0.9928909952606635,
+   "held_ge4_frac": 0.0,
+   "contact_absx_median": 1.5760183334350586,
+   "tip_frac": 0.39691943127962087,
+   "pivot_frac": 0.32701421800947866,
+   "contact_speed_median": 13.372931696942704,
+   "out_vy_median": -21.536863327026367,
+   "out_up_frac": 0.943127962085308,
+   "out_speed_median": 24.389381786993226,
+   "drain_absx_median": 1.7265390157699585,
+   "drain_centre_frac": 0.1927710843373494,
+   "last_contact_gap_median": 209.0,
+   "drains": {
+    "centre": {
+     "n": 16,
+     "dwell_steps": 7.5,
+     "slow_frac": 0.038461538461538464,
+     "median_speed": 15.60776424407959,
+     "pressed_steps": 2.8125,
+     "any_press_frac": 1.0,
+     "contact_in_last150": 0.5
+    },
+    "other": {
+     "n": 67,
+     "dwell_steps": 1.9850746268656716,
+     "slow_frac": 0.023383084577114428,
+     "median_speed": 8.03722858428955,
+     "pressed_steps": 0.8059701492537313,
+     "any_press_frac": 0.6417910447761194,
+     "contact_in_last150": 0.07462686567164178
+    }
+   },
+   "approach": {
+    "centre": {
+     "n": 16,
+     "absx_at_tip_line": 0.24277226626873016,
+     "median_vy": 15.405119895935059,
+     "median_speed": 15.688932418823242,
+     "gf_max": 0.0,
+     "pressed_frac": 0.0,
+     "moving_down_frac": 1.0
+    },
+    "other": {
+     "n": 67,
+     "absx_at_tip_line": 2.446948528289795,
+     "median_vy": 4.763030529022217,
+     "median_speed": 7.042140960693359,
+     "gf_max": 0.0,
+     "pressed_frac": 0.0,
+     "moving_down_frac": 0.9977037887485648
+    }
+   }
+  }
+ }
+}
