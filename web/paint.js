@@ -40,8 +40,17 @@ const TOOLS = [
 	[["ellipse", { cx: 8, cy: 8, rx: 5.5, ry: 4, fill: "none", stroke: "#000" }]], // ellipse
 	[["rect", { x: 2.5, y: 4.5, width: 11, height: 8, rx: 3, fill: "none", stroke: "#000" }]], // rounded rectangle
 ];
-const PRESS_HOLD_MS = 100; // minimum time a pressed drawing stays visible
 const DEFAULT_TOOL = 6; // pencil, as in Paint
+
+// Key press effect: while a flipper is pressed, its key in the drawing is filled grey. Corner points of the two keys
+// in the 549x620 drawings (traced on fly_idle.png; the pressed drawings are aligned to it), scaled to the loaded size.
+// The Z key is the left flipper's, the / key the right flipper's. "multiply" keeps the black pencil strokes on top.
+const KEY_REF_WIDTH = 549;
+const KEY_POLYGONS = {
+	left: [[289, 491], [430, 549], [386, 613], [243, 559]], // Z key
+	right: [[80, 406], [196, 450], [150, 519], [36, 466]], // / key
+};
+const KEY_PRESSED_FILL = "#a9a9a9";
 
 function toolIcon(shapes) {
 	const svg = svgEl("svg", { viewBox: "0 0 16 16", width: 16, height: 16 });
@@ -177,21 +186,28 @@ async function setup() {
 		ctx.fillStyle = "#fff";
 		ctx.fillRect(0, 0, w, h);
 		ctx.drawImage(images[key], 0, 0, w, h);
+		ctx.save();
+		ctx.globalCompositeOperation = "multiply";
+		ctx.fillStyle = KEY_PRESSED_FILL;
+		for (const side of ["left", "right"]) {
+			if (key !== side && key !== "both") continue;
+			const k = w / KEY_REF_WIDTH;
+			ctx.beginPath();
+			KEY_POLYGONS[side].forEach(([x, y], i) => (i ? ctx.lineTo(x * k, y * k) : ctx.moveTo(x * k, y * k)));
+			ctx.closePath();
+			ctx.fill();
+		}
+		ctx.restore();
 		canvas.dataset.pose = key; // diagnostics / tests
 	}
 	show("idle");
 
-	// A press can last a single decision (~1-2 frames, e.g. the giant-fiber body's hold_max = 1), too short to see.
-	// Display only: each side's drawing is held for PRESS_HOLD_MS after it was last pressed (per side, so "both"
-	// still composes); the controller and window.flyBrain.pressed are untouched.
-	const lastPressedAt = { left: -Infinity, right: -Infinity };
+	// The drawing follows window.flyBrain.pressed (the flipper actions the bridge sends to the engine) directly,
+	// with no hold time, so it changes exactly when the flippers do.
 	function frame() {
 		requestAnimationFrame(frame);
 		const p = window.flyBrain?.pressed;
-		const now = performance.now();
-		if (p?.left) lastPressedAt.left = now;
-		if (p?.right) lastPressedAt.right = now;
-		const left = now - lastPressedAt.left < PRESS_HOLD_MS, right = now - lastPressedAt.right < PRESS_HOLD_MS;
+		const left = !!p?.left, right = !!p?.right;
 		show(left ? (right ? "both" : "left") : right ? "right" : "idle");
 	}
 	requestAnimationFrame(frame);
